@@ -1,0 +1,26 @@
+{
+  "name": "saas-template",
+  "private": true,
+  "scripts": {
+    "build": "turbo build",
+    "dev": "turbo dev",
+    "lint": "turbo lint",
+    "type-check": "turbo type-check",
+    "format": "prettier --write \"**/*.{ts,tsx,astro,md}\"",
+    "pseo:generate": "node scripts/pseo-generator.mjs",
+    "indexnow": "node scripts/indexnow.mjs",
+    "db:types": "supabase gen types typescript --local > packages/shared/src/types/database.ts"
+  },
+  "devDependencies": {
+    "@anthropic-ai/sdk": "^0.53.0",
+    "@fal-ai/client": "^1.5.0",
+    "prettier": "^3",
+    "sharp": "^0.34.5",
+    "turbo": "latest",
+    "typescript": "^5"
+  },
+  "packageManager": "pnpm@9.15.4",
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}

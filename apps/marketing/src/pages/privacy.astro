@@ -1,0 +1,105 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const BRAND_NAME = import.meta.env.PUBLIC_BRAND_NAME ?? '{{BRAND_NAME}}';
+const SITE_URL = import.meta.env.PUBLIC_SITE_URL ?? 'https://yourdomain.com';
+const supportEmail = `support@${new URL(SITE_URL).hostname}`;
+---
+
+<BaseLayout
+  title={`Privacy Policy | ${BRAND_NAME}`}
+  description={`Learn how ${BRAND_NAME} collects, uses, and protects your personal data.`}
+>
+  <div class="max-w-3xl mx-auto px-4 py-16">
+    <h1 class="text-3xl md:text-4xl font-black text-white mb-2">Privacy Policy</h1>
+    <p class="text-[#555] text-sm mb-12">Last updated: {{DATE}}</p>
+
+    <div class="prose prose-invert prose-sm max-w-none space-y-10 text-[#888] leading-relaxed">
+
+      <section>
+        <h2 class="text-white text-xl font-bold mb-3">1. Who we are</h2>
+        <p>{BRAND_NAME} ("we", "our", "us") operates the website {new URL(SITE_URL).hostname}. We provide an AI-powered image generation service. If you have questions about this policy, contact us at <a href={`mailto:${supportEmail}`} class="text-purple-400 hover:text-purple-300 transition-colors">{supportEmail}</a>.</p>
+      </section>
+
+      <section>
+        <h2 class="text-white text-xl font-bold mb-3">2. What data we collect</h2>
+        <p>We collect the following categories of data when you use our service:</p>
+        <ul class="list-disc pl-5 mt-3 space-y-2">
+          <li><span class="text-white font-semibold">Account data:</span> Your email address and display name when you register. If you sign up with Google, we receive your name and email from Google.</li>
+          <li><span class="text-white font-semibold">Photos you upload:</span> Images you upload to generate AI photos. These are used solely to process your generation request.</li>
+          <li><span class="text-white font-semibold">Generated images:</span> The images produced by the AI based on your prompts and uploads.</li>
+          <li><span class="text-white font-semibold">Payment data:</span> Billing is handled by Stripe. We do not store your card number or full payment details. We receive transaction confirmations and subscription status from Stripe and RevenueCat.</li>
+          <li><span class="text-white font-semibold">Usage data:</span> Logs of feature usage, credit consumption, and generation history to operate the service and prevent abuse.</li>
+          <li><span class="text-white font-semibold">Analytics:</span> We use Vercel Analytics and PostHog to understand how users interact with our site.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2 class="text-white text-xl font-bold mb-3">3. How we use your data</h2>
+        <p>We use your data to:</p>
+        <ul class="list-disc pl-5 mt-3 space-y-2">
+          <li>Provide, operate, and improve the {BRAND_NAME} service</li>
+          <li>Process AI image generation requests</li>
+          <li>Manage your account, credits, and subscription</li>
+          <li>Send transactional emails (account confirmation, receipts)</li>
+          <li>Prevent fraud and abuse</li>
+          <li>Comply with legal obligations</li>
+        </ul>
+        <p class="mt-3">We do not sell your personal data to third parties. We do not use your uploaded photos to train AI models.</p>
+      </section>
+
+      <section>
+        <h2 class="text-white text-xl font-bold mb-3">4. Data storage and security</h2>
+        <p>Your account data and credit balances are stored in Supabase (PostgreSQL). Uploaded images are processed via fal.ai and are not stored permanently on our servers beyond the duration needed to complete your generation. Generated images are returned to you directly.</p>
+        <p class="mt-3">We use industry-standard security measures including encrypted connections (HTTPS/TLS), access controls, and secure authentication.</p>
+      </section>
+
+      <section>
+        <h2 class="text-white text-xl font-bold mb-3">5. Third-party services</h2>
+        <p>We use the following third-party services to operate {BRAND_NAME}:</p>
+        <ul class="list-disc pl-5 mt-3 space-y-2">
+          <li><span class="text-white font-semibold">Supabase</span> - authentication and database</li>
+          <li><span class="text-white font-semibold">fal.ai</span> - AI image generation processing</li>
+          <li><span class="text-white font-semibold">Stripe</span> - payment processing</li>
+          <li><span class="text-white font-semibold">RevenueCat</span> - subscription management</li>
+          <li><span class="text-white font-semibold">Vercel</span> - hosting and infrastructure</li>
+          <li><span class="text-white font-semibold">PostHog</span> - product analytics</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2 class="text-white text-xl font-bold mb-3">6. Your rights</h2>
+        <p>Depending on your location, you may have the following rights regarding your personal data:</p>
+        <ul class="list-disc pl-5 mt-3 space-y-2">
+          <li><span class="text-white font-semibold">Access:</span> Request a copy of the personal data we hold about you.</li>
+          <li><span class="text-white font-semibold">Correction:</span> Request correction of inaccurate data.</li>
+          <li><span class="text-white font-semibold">Deletion:</span> Request deletion of your account and all associated data.</li>
+          <li><span class="text-white font-semibold">Portability:</span> Request an export of your data in a machine-readable format.</li>
+          <li><span class="text-white font-semibold">Objection:</span> Object to certain processing of your data.</li>
+        </ul>
+        <p class="mt-3">To exercise any of these rights, contact us at <a href={`mailto:${supportEmail}`} class="text-purple-400 hover:text-purple-300 transition-colors">{supportEmail}</a>. We will respond within 30 days.</p>
+      </section>
+
+      <section>
+        <h2 class="text-white text-xl font-bold mb-3">7. Cookies</h2>
+        <p>We use essential cookies for authentication (session management via Supabase). We do not use advertising cookies or sell cookie data.</p>
+      </section>
+
+      <section>
+        <h2 class="text-white text-xl font-bold mb-3">8. Children's privacy</h2>
+        <p>{BRAND_NAME} is not directed at children under the age of 13. We do not knowingly collect personal data from children.</p>
+      </section>
+
+      <section>
+        <h2 class="text-white text-xl font-bold mb-3">9. Changes to this policy</h2>
+        <p>We may update this Privacy Policy from time to time. We will notify you of material changes by updating the date at the top of this page.</p>
+      </section>
+
+      <section>
+        <h2 class="text-white text-xl font-bold mb-3">10. Contact</h2>
+        <p>If you have any questions about this Privacy Policy, contact us at <a href={`mailto:${supportEmail}`} class="text-purple-400 hover:text-purple-300 transition-colors">{supportEmail}</a>.</p>
+      </section>
+
+    </div>
+  </div>
+</BaseLayout>

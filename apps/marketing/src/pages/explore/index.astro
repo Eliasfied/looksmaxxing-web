@@ -1,0 +1,58 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import exploreData from '../../data/explore-packs.json';
+
+const BRAND_NAME = import.meta.env.PUBLIC_BRAND_NAME ?? '{{BRAND_NAME}}';
+const SITE_URL = import.meta.env.PUBLIC_SITE_URL ?? 'https://yourdomain.com';
+
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": SITE_URL },
+    { "@type": "ListItem", "position": 2, "name": "Explore", "item": `${SITE_URL}/explore` },
+  ],
+};
+---
+
+<BaseLayout
+  title={`AI Image Generators | ${BRAND_NAME}`}
+  description={`Explore AI image generators for headshots, portraits, and more. Powered by ${BRAND_NAME}.`}
+>
+  <Fragment slot="head">
+    <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
+  </Fragment>
+
+  <section class="max-w-6xl mx-auto px-4 py-20">
+    <div class="text-center mb-14">
+      <h1 class="text-4xl md:text-5xl font-black text-white mb-4">AI Image Generators</h1>
+      <p class="text-[#888888] max-w-xl mx-auto text-lg">Professional headshots, portraits, and more. Generate stunning AI photos in seconds.</p>
+    </div>
+
+    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      {(exploreData as any[]).map(pack => (
+        <a
+          href={`/explore/${pack.slug}`}
+          class="group bg-[#111111] border border-[#222222] rounded-2xl overflow-hidden hover:border-[#444444] transition-colors"
+        >
+          <div class="aspect-[4/3] overflow-hidden bg-[#1a1a1a] relative">
+            <img
+              src={pack.example_images[0]?.src}
+              alt={pack.example_images[0]?.alt}
+              class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+              loading="lazy"
+              onerror="this.style.display='none'"
+            />
+          </div>
+          <div class="p-5">
+            {pack.badge && (
+              <span class="inline-block btn-gradient text-white text-xs font-bold px-2.5 py-0.5 rounded-full mb-2">{pack.badge}</span>
+            )}
+            <h2 class="text-white font-bold text-lg mb-1 group-hover:text-purple-300 transition-colors">{pack.h1}</h2>
+            <p class="text-[#666666] text-sm">{pack.stat}</p>
+          </div>
+        </a>
+      ))}
+    </div>
+  </section>
+</BaseLayout>

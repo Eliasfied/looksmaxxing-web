@@ -1,0 +1,60 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const BRAND_NAME = import.meta.env.PUBLIC_BRAND_NAME ?? '{{BRAND_NAME}}';
+const SITE_URL = import.meta.env.PUBLIC_SITE_URL ?? 'https://yourdomain.com';
+
+const personSchema = {
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": `${SITE_URL}/#founder`,
+  "name": "{{FOUNDER_NAME}}",
+  "jobTitle": "Founder",
+  "url": SITE_URL,
+  "worksFor": {
+    "@type": "Organization",
+    "@id": `${SITE_URL}/#organization`,
+  },
+};
+---
+
+<BaseLayout
+  title={`About | ${BRAND_NAME}`}
+  description={`${BRAND_NAME} is built by an indie developer. Learn about the mission behind the platform.`}
+>
+  <Fragment slot="head">
+    <script type="application/ld+json" set:html={JSON.stringify(personSchema)} />
+  </Fragment>
+
+  <section class="max-w-2xl mx-auto px-4 py-24">
+
+    <h1 class="text-4xl md:text-5xl font-black text-white mb-10">About {BRAND_NAME}</h1>
+
+    <div class="space-y-6 text-[#888888] leading-relaxed">
+
+      <p>
+        {BRAND_NAME} is built by {{FOUNDER_NAME}}, a solo indie developer. The idea is simple: AI image generation should be accessible, fast, and fairly priced. No bloated enterprise pricing, no confusing credit systems, just a tool that works.
+      </p>
+
+      <p>
+        The platform offers multiple AI models and is continuously updated as new models become available.
+        Whether you need a LinkedIn headshot, a dating app profile, or just want to explore creative styles, {BRAND_NAME} is built to handle it.
+      </p>
+
+      <p>
+        Questions, feedback, or just want to say hi? Reach out via the contact below.
+      </p>
+
+    </div>
+
+    <div class="mt-12">
+      <a
+        href={`mailto:support@${new URL(SITE_URL).hostname}`}
+        class="flex items-center gap-2 bg-[#111111] border border-[#222222] rounded-xl px-4 py-3 text-white text-sm hover:border-[#444444] transition-colors w-fit"
+      >
+        Contact Us
+      </a>
+    </div>
+
+  </section>
+</BaseLayout>

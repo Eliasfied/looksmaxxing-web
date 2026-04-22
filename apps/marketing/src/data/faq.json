@@ -1,0 +1,12 @@
+[
+  {
+    "slug": "how-do-credits-work",
+    "question": "How do credits work?",
+    "answer": "Credits are used to generate images. Each AI model costs a different amount of credits per generation depending on its quality and speed. Subscription credits reset each billing period, while top-up credits purchased as one-time packs never expire."
+  },
+  {
+    "slug": "what-ai-models-are-available",
+    "question": "What AI models are available?",
+    "answer": "We offer multiple AI models with different quality levels and credit costs. Higher-quality models produce more realistic results but use more credits per generation."
+  }
+]

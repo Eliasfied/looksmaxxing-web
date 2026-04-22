@@ -1,0 +1,62 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import faqData from '../data/faq.json';
+
+const BRAND_NAME = import.meta.env.PUBLIC_BRAND_NAME ?? '{{BRAND_NAME}}';
+
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": (faqData as any[]).map(f => ({
+    "@type": "Question",
+    "name": f.question,
+    "acceptedAnswer": { "@type": "Answer", "text": f.answer },
+  })),
+};
+---
+
+<BaseLayout
+  title={`FAQ - ${BRAND_NAME} | Frequently Asked Questions`}
+  description={`Everything you need to know about ${BRAND_NAME} credits, billing, AI models, image quality, and more.`}
+>
+  <Fragment slot="head">
+    <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
+  </Fragment>
+
+  <section class="max-w-3xl mx-auto px-4 py-24">
+
+    <h1 class="text-5xl md:text-6xl font-black text-white mb-14">Frequently Asked<br />Questions</h1>
+
+    <div class="space-y-3">
+      {(faqData as any[]).map(item => (
+        <details id={item.slug} class="group bg-[#111111] rounded-2xl overflow-hidden">
+          <summary class="flex items-center justify-between px-7 py-5 cursor-pointer list-none hover:bg-[#161616] transition-colors">
+            <span class="text-white font-bold text-lg">{item.question}</span>
+            <span class="text-[#555] text-2xl ml-6 flex-shrink-0 group-open:rotate-45 transition-transform">+</span>
+          </summary>
+          <div class="px-7 pb-6 pt-1 space-y-4">
+            {item.answer.split('\n\n').map((para: string) => (
+              <p class="text-[#888888] text-base leading-relaxed">{para}</p>
+            ))}
+          </div>
+        </details>
+      ))}
+    </div>
+
+  </section>
+
+  <script is:inline>
+    (function () {
+      function openFromHash() {
+        if (!location.hash) return;
+        const el = document.querySelector(location.hash);
+        if (el && el.tagName === 'DETAILS') {
+          el.open = true;
+          el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+      }
+      openFromHash();
+      window.addEventListener('hashchange', openFromHash);
+    })();
+  </script>
+</BaseLayout>

@@ -1,0 +1,17 @@
+# {{BRAND_NAME}}
+
+> One-line description of what your product does.
+
+## Product
+
+- [{{BRAND_NAME}} App](https://app.yourapp.com): Main app description.
+- [Pricing](https://yourapp.com/pricing): Subscription plans and credit packs.
+- [FAQ](https://yourapp.com/faq): Common questions.
+
+## AI Models
+
+TODO: list your models here.
+
+## Use Cases
+
+TODO: append one line per explore page here (pSEO generator can do this automatically).

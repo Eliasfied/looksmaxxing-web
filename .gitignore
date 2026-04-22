@@ -1,0 +1,29 @@
+# dependencies
+node_modules
+.pnp
+.pnp.js
+
+# build outputs
+.next
+dist
+.astro
+
+# env files
+.env
+.env.local
+.env.*.local
+
+# turbo
+.turbo
+
+# misc
+.DS_Store
+*.pem
+Thumbs.db
+
+# debug
+npm-debug.log*
+pnpm-debug.log*
+
+# vercel
+.vercel

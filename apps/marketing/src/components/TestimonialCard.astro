@@ -1,0 +1,19 @@
+---
+interface Props {
+ stars: number;
+ text: string;
+ author: string;
+}
+
+const { stars, text, author } = Astro.props;
+---
+
+<div class="bg-gray-900 border border-gray-800 rounded-2xl p-6">
+ <div class="flex gap-0.5 mb-3">
+ {Array.from({ length: stars }).map(() => (
+ <span class="text-[#FFD700]">★</span>
+ ))}
+ </div>
+ <p class="text-gray-200 mb-4 leading-relaxed">"{text}"</p>
+ <p class="text-gray-500 text-sm font-medium"> {author}</p>
+</div>

@@ -1,0 +1,93 @@
+---
+import toolsData from '../data/tools.json';
+import faqData from '../data/faq.json';
+import exploreData from '../data/explore-packs.json';
+
+const BRAND_NAME = import.meta.env.PUBLIC_BRAND_NAME ?? '{{BRAND_NAME}}';
+const APP_URL = import.meta.env.PUBLIC_APP_URL;
+
+const pages = [
+  { label: "Home",     href: "/" },
+  { label: "Pricing",  href: "/pricing" },
+  { label: "About",    href: "/about" },
+  { label: "Login",    href: `${APP_URL}/login` },
+  { label: "Sign Up",  href: `${APP_URL}/register` },
+  { label: "Privacy",  href: "/privacy" },
+  { label: "Terms",    href: "/terms" },
+];
+---
+
+<footer class="border-t border-[#1a1a1a] bg-black mt-0">
+  <div class="max-w-6xl mx-auto px-4 py-16">
+    <div class="grid grid-cols-2 md:grid-cols-5 gap-10">
+
+      <!-- Brand -->
+      <div class="col-span-2 md:col-span-1">
+        <a href="/" class="flex items-center gap-2 text-base font-bold text-white mb-3">
+          <img src="/logo.png" alt={BRAND_NAME} width="24" height="24" class="rounded-md" />
+          {BRAND_NAME}
+        </a>
+        <p class="text-[#555] text-sm leading-relaxed max-w-xs">
+          Generate stunning AI images instantly. Portraits, headshots, art styles, and more.
+        </p>
+      </div>
+
+      <!-- Explore -->
+      <div>
+        <h3 class="text-white font-semibold text-sm mb-4">Explore</h3>
+        <ul class="space-y-2.5">
+          {exploreData.map((pack: any) => (
+            <li>
+              <a href={`/explore/${pack.slug}`} class="text-[#555] hover:text-white transition-colors text-sm">{pack.h1}</a>
+            </li>
+          ))}
+        </ul>
+      </div>
+
+      <!-- Tools -->
+      <div>
+        <h3 class="text-white font-semibold text-sm mb-4">Tools</h3>
+        <ul class="space-y-2.5">
+          {toolsData.map((tool: any) => (
+            <li>
+              <a href={`/tools/${tool.slug}`} class="text-[#555] hover:text-white transition-colors text-sm">{tool.title}</a>
+            </li>
+          ))}
+        </ul>
+      </div>
+
+      <!-- FAQ -->
+      <div>
+        <h3 class="text-white font-semibold text-sm mb-4">FAQ</h3>
+        <ul class="space-y-2.5">
+          {faqData.map((item: any) => (
+            <li>
+              <a href={`/faq#${item.slug}`} class="text-[#555] hover:text-white transition-colors text-sm">{item.question}</a>
+            </li>
+          ))}
+        </ul>
+      </div>
+
+      <!-- Pages -->
+      <div>
+        <h3 class="text-white font-semibold text-sm mb-4">Pages</h3>
+        <ul class="space-y-2.5">
+          {pages.map(link => (
+            <li>
+              <a href={link.href} class="text-[#555] hover:text-white transition-colors text-sm">{link.label}</a>
+            </li>
+          ))}
+        </ul>
+      </div>
+
+    </div>
+
+    <div class="mt-14 pt-6 border-t border-[#1a1a1a] flex flex-col sm:flex-row justify-between items-center gap-3 text-[#444] text-xs">
+      <span>© {new Date().getFullYear()} {BRAND_NAME}. All rights reserved.</span>
+      <div class="flex gap-5">
+        <a href="/privacy" class="hover:text-white transition-colors">Privacy Policy</a>
+        <a href="/terms" class="hover:text-white transition-colors">Terms of Service</a>
+      </div>
+    </div>
+  </div>
+</footer>

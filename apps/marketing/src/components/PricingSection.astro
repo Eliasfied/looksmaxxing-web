@@ -1,0 +1,198 @@
+---
+const APP_URL = import.meta.env.PUBLIC_APP_URL;
+---
+
+<section class="max-w-6xl mx-auto px-4 py-20 text-center">
+  <h2 class="text-4xl md:text-5xl font-extrabold text-white mb-3 tracking-tight">Pricing</h2>
+  <p class="text-[#888888] max-w-xl mx-auto mb-6">Choose the perfect plan for your needs. Save 50% with yearly billing.</p>
+
+  <!-- Toggle -->
+  <div class="flex justify-center mb-10">
+    <div class="flex rounded-xl border border-[#222222] bg-black p-1" id="hp-billing-toggle">
+      <button id="hp-monthly-btn" onclick="hpSwitch('monthly')" class="rounded-lg px-5 py-2 text-sm font-semibold transition-colors bg-white text-black">Monthly</button>
+      <button id="hp-yearly-btn" onclick="hpSwitch('yearly')" class="rounded-lg px-5 py-2 text-sm font-semibold transition-colors text-white/50 hover:text-white/70 flex items-center gap-2">
+        Yearly <span class="rounded-full px-2 py-0.5 text-xs font-bold bg-emerald-500/10 text-emerald-500">Save 50%</span>
+      </button>
+      <button id="hp-credits-btn" onclick="hpSwitch('credits')" class="rounded-lg px-5 py-2 text-sm font-semibold transition-colors text-white/50 hover:text-white/70">Buy Credits</button>
+    </div>
+  </div>
+
+  <!-- Plan cards -->
+  <div class="grid gap-4 text-left sm:grid-cols-3" id="hp-plan-cards">
+    <!-- Starter -->
+    <div class="relative flex flex-col rounded-2xl border border-[#222222] bg-black p-6">
+      <h2 class="text-lg font-bold text-white mb-1">Starter</h2>
+      <div class="flex items-baseline gap-1 mb-0.5">
+        <span class="text-4xl font-extrabold text-white hp-monthly-price">$19</span>
+        <span class="text-4xl font-extrabold text-white hp-yearly-price hidden">$8.25</span>
+        <span class="text-sm text-[#666]">/mo</span>
+      </div>
+      <p class="text-xs text-[#666] mb-1 hp-monthly-label">billed monthly</p>
+      <p class="text-xs text-[#666] mb-1 hp-yearly-label hidden">billed $99 yearly</p>
+      <p class="text-sm text-[#888] mb-5">Get started and explore all models.</p>
+      <div class="flex items-center gap-1.5 rounded-xl bg-white/5 px-3 py-2 mb-5">
+        <svg class="h-3.5 w-3.5 text-yellow-400 fill-yellow-400" viewBox="0 0 24 24"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+        <span class="text-sm font-bold text-white">2,000</span>
+        <span class="text-sm text-[#888]">credits / month</span>
+      </div>
+      <a href={`${APP_URL}/register`} class="mb-6 w-full text-center rounded-full py-3 text-sm font-bold btn-gradient text-white hover:opacity-90 transition-opacity">Get Started</a>
+      <ul class="flex flex-col gap-2.5">
+        {["2,000 credits / month","All AI models","Text to image","Image to image","Up to 4K resolution","Email support"].map(f => (
+          <li class="flex items-start gap-2.5">
+            <svg class="mt-0.5 h-4 w-4 shrink-0 text-emerald-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
+            <span class="text-sm text-[#ccc]">{f}</span>
+          </li>
+        ))}
+      </ul>
+    </div>
+
+    <!-- Pro -->
+    <div class="relative flex flex-col rounded-2xl border border-[#222222] bg-black p-6">
+      <div class="absolute -top-3 left-1/2 -translate-x-1/2">
+        <span class="btn-gradient rounded-full px-4 py-1 text-xs font-bold text-white shadow-lg">Best Value</span>
+      </div>
+      <h2 class="text-lg font-bold text-white mb-1">Pro</h2>
+      <div class="flex items-baseline gap-1 mb-0.5">
+        <span class="text-4xl font-extrabold text-white hp-monthly-price">$49</span>
+        <span class="text-4xl font-extrabold text-white hp-yearly-price hidden">$29.08</span>
+        <span class="text-sm text-[#666]">/mo</span>
+      </div>
+      <p class="text-xs text-[#666] mb-1 hp-monthly-label">billed monthly</p>
+      <p class="text-xs text-[#666] mb-1 hp-yearly-label hidden">billed $349 yearly</p>
+      <p class="text-sm text-[#888] mb-5">More credits, priority processing, and faster results.</p>
+      <div class="flex items-center gap-1.5 rounded-xl bg-white/5 px-3 py-2 mb-5">
+        <svg class="h-3.5 w-3.5 text-yellow-400 fill-yellow-400" viewBox="0 0 24 24"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+        <span class="text-sm font-bold text-white">8,000</span>
+        <span class="text-sm text-[#888]">credits / month</span>
+      </div>
+      <a href={`${APP_URL}/register`} class="mb-6 w-full text-center rounded-full py-3 text-sm font-bold btn-gradient text-white hover:opacity-90 transition-opacity">Get Started</a>
+      <ul class="flex flex-col gap-2.5">
+        {["8,000 credits / month","All AI models","Text to image","Image to image","Up to 4K resolution","Priority support"].map(f => (
+          <li class="flex items-start gap-2.5">
+            <svg class="mt-0.5 h-4 w-4 shrink-0 text-emerald-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
+            <span class="text-sm text-[#ccc]">{f}</span>
+          </li>
+        ))}
+      </ul>
+    </div>
+
+    <!-- Ultra -->
+    <div class="relative flex flex-col rounded-2xl border border-[#222222] bg-black p-6">
+      <h2 class="text-lg font-bold text-white mb-1">Ultra</h2>
+      <div class="flex items-baseline gap-1 mb-0.5">
+        <span class="text-4xl font-extrabold text-white hp-monthly-price">$99</span>
+        <span class="text-4xl font-extrabold text-white hp-yearly-price hidden">$58.25</span>
+        <span class="text-sm text-[#666]">/mo</span>
+      </div>
+      <p class="text-xs text-[#666] mb-1 hp-monthly-label">billed monthly</p>
+      <p class="text-xs text-[#666] mb-1 hp-yearly-label hidden">billed $699 yearly</p>
+      <p class="text-sm text-[#888] mb-5">Maximum credits, fastest results, and early access to new models.</p>
+      <div class="flex items-center gap-1.5 rounded-xl bg-white/5 px-3 py-2 mb-5">
+        <svg class="h-3.5 w-3.5 text-yellow-400 fill-yellow-400" viewBox="0 0 24 24"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+        <span class="text-sm font-bold text-white">20,000</span>
+        <span class="text-sm text-[#888]">credits / month</span>
+      </div>
+      <a href={`${APP_URL}/register`} class="mb-6 w-full text-center rounded-full py-3 text-sm font-bold btn-gradient text-white hover:opacity-90 transition-opacity">Get Started</a>
+      <ul class="flex flex-col gap-2.5">
+        {["20,000 credits / month","All AI models","Text to image","Image to image","Up to 4K resolution","Priority support","Early access to new models"].map(f => (
+          <li class="flex items-start gap-2.5">
+            <svg class="mt-0.5 h-4 w-4 shrink-0 text-emerald-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
+            <span class="text-sm text-[#ccc]">{f}</span>
+          </li>
+        ))}
+      </ul>
+    </div>
+  </div>
+
+  <!-- Credit pack cards -->
+  <div class="hidden grid gap-4 text-left sm:grid-cols-2" id="hp-credit-cards">
+    <!-- 2000 Credits -->
+    <div class="relative flex flex-col rounded-2xl border border-[#222222] bg-black p-6">
+      <h2 class="text-lg font-bold text-white mb-1">2000 Credits</h2>
+      <div class="flex items-baseline gap-1 mb-0.5">
+        <span class="text-4xl font-extrabold text-white">$29.99</span>
+      </div>
+      <p class="text-xs text-[#666] mb-1">one-time purchase</p>
+      <p class="text-sm text-[#888] mb-5">A solid top-up for occasional use or to try out premium models.</p>
+      <div class="flex items-center gap-1.5 rounded-xl bg-white/5 px-3 py-2 mb-5">
+        <svg class="h-3.5 w-3.5 text-yellow-400 fill-yellow-400" viewBox="0 0 24 24"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+        <span class="text-sm font-bold text-white">2,000</span>
+        <span class="text-sm text-[#888]">credits</span>
+      </div>
+      <a href={`${APP_URL}/register`} class="mb-6 w-full text-center rounded-full py-3 text-sm font-bold btn-gradient text-white hover:opacity-90 transition-opacity">Buy Credits</a>
+      <ul class="flex flex-col gap-2.5">
+        {["2000 credits, never expire","All AI models","Use anytime","Stacks with subscription credits"].map(f => (
+          <li class="flex items-start gap-2.5">
+            <svg class="mt-0.5 h-4 w-4 shrink-0 text-emerald-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
+            <span class="text-sm text-[#ccc]">{f}</span>
+          </li>
+        ))}
+      </ul>
+    </div>
+
+    <!-- 6000 Credits -->
+    <div class="relative flex flex-col rounded-2xl border border-[#222222] bg-black p-6">
+      <div class="absolute -top-3 left-1/2 -translate-x-1/2">
+        <span class="btn-gradient rounded-full px-4 py-1 text-xs font-bold text-white shadow-lg">Best Value</span>
+      </div>
+      <h2 class="text-lg font-bold text-white mb-1">6000 Credits</h2>
+      <div class="flex items-baseline gap-1 mb-0.5">
+        <span class="text-4xl font-extrabold text-white">$49.99</span>
+      </div>
+      <p class="text-xs text-[#666] mb-1">one-time purchase</p>
+      <p class="text-sm text-[#888] mb-5">Best value for power users who need extra credits on demand.</p>
+      <div class="flex items-center gap-1.5 rounded-xl bg-white/5 px-3 py-2 mb-5">
+        <svg class="h-3.5 w-3.5 text-yellow-400 fill-yellow-400" viewBox="0 0 24 24"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+        <span class="text-sm font-bold text-white">6,000</span>
+        <span class="text-sm text-[#888]">credits</span>
+      </div>
+      <a href={`${APP_URL}/register`} class="mb-6 w-full text-center rounded-full py-3 text-sm font-bold btn-gradient text-white hover:opacity-90 transition-opacity">Buy Credits</a>
+      <ul class="flex flex-col gap-2.5">
+        {["6000 credits, never expire","All AI models","Use anytime","Stacks with subscription credits"].map(f => (
+          <li class="flex items-start gap-2.5">
+            <svg class="mt-0.5 h-4 w-4 shrink-0 text-emerald-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
+            <span class="text-sm text-[#ccc]">{f}</span>
+          </li>
+        ))}
+      </ul>
+    </div>
+  </div>
+
+  <p class="text-xs text-[#555] mt-8">Billed via RevenueCat · Cancel anytime</p>
+</section>
+
+<script>
+  function hpSwitch(tab: string) {
+    const monthlyBtn = document.getElementById('hp-monthly-btn')!;
+    const yearlyBtn = document.getElementById('hp-yearly-btn')!;
+    const creditsBtn = document.getElementById('hp-credits-btn')!;
+    const planCards = document.getElementById('hp-plan-cards')!;
+    const creditCards = document.getElementById('hp-credit-cards')!;
+
+    [monthlyBtn, yearlyBtn, creditsBtn].forEach(b => {
+      b.classList.remove('bg-white', 'text-black');
+      b.classList.add('text-white/50');
+    });
+    const active = tab === 'monthly' ? monthlyBtn : tab === 'yearly' ? yearlyBtn : creditsBtn;
+    active.classList.add('bg-white', 'text-black');
+    active.classList.remove('text-white/50');
+
+    if (tab === 'credits') {
+      planCards.classList.add('hidden');
+      creditCards.classList.remove('hidden');
+      creditCards.classList.add('grid');
+    } else {
+      planCards.classList.remove('hidden');
+      creditCards.classList.add('hidden');
+      creditCards.classList.remove('grid');
+    }
+
+    document.querySelectorAll('.hp-monthly-price, .hp-monthly-label').forEach(el => {
+      el.classList.toggle('hidden', tab === 'yearly');
+    });
+    document.querySelectorAll('.hp-yearly-price, .hp-yearly-label').forEach(el => {
+      el.classList.toggle('hidden', tab !== 'yearly');
+    });
+  }
+  (window as any).hpSwitch = hpSwitch;
+</script>
