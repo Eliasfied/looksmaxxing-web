@@ -53,25 +53,42 @@ export async function createFaceScan(data: CreateFaceScanInput): Promise<FaceSca
 }
 
 export async function getUserScans(userId: string): Promise<FaceScan[]> {
-  const snap = await adminDb
-    .collection('face_scans')
-    .where('userId', '==', userId)
-    .orderBy('createdAt', 'desc')
-    .limit(20)
-    .get()
-
-  return snap.docs.map(doc => ({ id: doc.id, ...doc.data() } as FaceScan))
+  try {
+    const snap = await adminDb
+      .collection('face_scans')
+      .where('userId', '==', userId)
+      .orderBy('createdAt', 'desc')
+      .limit(20)
+      .get()
+    return snap.docs.map(doc => ({ id: doc.id, ...doc.data() } as FaceScan))
+  } catch (err: unknown) {
+    // Index still building — return empty list instead of crashing
+    const msg = err instanceof Error ? err.message : String(err)
+    if (msg.includes('index') || msg.includes('FAILED_PRECONDITION')) {
+      console.warn('[getUserScans] Index not ready yet, returning empty list')
+      return []
+    }
+    throw err
+  }
 }
 
 export async function getLatestScan(userId: string): Promise<FaceScan | null> {
-  const snap = await adminDb
-    .collection('face_scans')
-    .where('userId', '==', userId)
-    .orderBy('createdAt', 'desc')
-    .limit(1)
-    .get()
-
-  if (snap.empty) return null
-  const doc = snap.docs[0]
-  return { id: doc.id, ...doc.data() } as FaceScan
+  try {
+    const snap = await adminDb
+      .collection('face_scans')
+      .where('userId', '==', userId)
+      .orderBy('createdAt', 'desc')
+      .limit(1)
+      .get()
+    if (snap.empty) return null
+    const doc = snap.docs[0]
+    return { id: doc.id, ...doc.data() } as FaceScan
+  } catch (err: unknown) {
+    const msg = err instanceof Error ? err.message : String(err)
+    if (msg.includes('index') || msg.includes('FAILED_PRECONDITION')) {
+      console.warn('[getLatestScan] Index not ready yet, returning null')
+      return null
+    }
+    throw err
+  }
 }

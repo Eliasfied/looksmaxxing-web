@@ -1,10 +1,10 @@
 import { NextResponse } from 'next/server'
+import { createFalClient } from '@fal-ai/client'
 import { getSessionUser } from '@/lib/firebase/server'
 import { getCredits, deductCredits } from '@/lib/firebase/credits'
 
 export const maxDuration = 120
 
-const FAL_PROXY = 'https://fal-ai-secure-proxy-new.vercel.app/api/xai/grok-imagine-image/edit'
 const HAIRCUT_COST = 1
 
 export async function POST(request: Request) {
@@ -33,33 +33,32 @@ export async function POST(request: Request) {
     return NextResponse.json({ error: 'hairstyle name required' }, { status: 400 })
   }
 
-  const prompt = `Change this person's hairstyle to: ${hairstyle}${faceShape ? ` (suits ${faceShape} face shape)` : ''}. Keep the person's face, skin tone, and facial features identical. Only change the hair. Photorealistic, high quality.`
+  const prompt = `Change this person's hairstyle to ${hairstyle}${faceShape ? `, which suits a ${faceShape} face shape` : ''}. Keep the face, skin tone, facial features and expression identical. Only change the hair. Photorealistic, high quality portrait.`
 
-  const outboundForm = new FormData()
-  outboundForm.append('image', image, 'photo.jpg')
-  outboundForm.append('prompt', prompt)
-  outboundForm.append('strength', '0.85')
+  const fal = createFalClient({ credentials: process.env.FAL_API_KEY! })
 
-  const falRes = await fetch(FAL_PROXY, {
-    method: 'POST',
-    body: outboundForm,
+  // Upload image to FAL storage first
+  const imageFile = new File([image], 'photo.jpg', { type: image.type || 'image/jpeg' })
+  const imageUrl = await fal.storage.upload(imageFile)
+
+  // Run with Grok image edit model
+  const result = await fal.subscribe('xai/grok-imagine-image/edit', {
+    input: {
+      image_url: imageUrl,
+      prompt,
+    },
+    logs: false,
   })
 
-  if (!falRes.ok) {
-    const err = await falRes.text()
-    console.error('[/api/haircut] FAL proxy error:', err)
-    return NextResponse.json({ error: 'Haircut generation failed' }, { status: 500 })
-  }
+  const output = result.data as { images?: Array<{ url: string }>; image?: { url: string }; url?: string }
+  const outputUrl = output?.images?.[0]?.url ?? output?.image?.url ?? output?.url
 
-  const falData = await falRes.json()
-  const imageUrl: string =
-    falData?.images?.[0]?.url ?? falData?.image?.url ?? falData?.output ?? ''
-
-  if (!imageUrl) {
-    return NextResponse.json({ error: 'No image returned from generation' }, { status: 500 })
+  if (!outputUrl) {
+    console.error('[/api/haircut] Unexpected FAL output:', JSON.stringify(output))
+    return NextResponse.json({ error: 'No image returned' }, { status: 500 })
   }
 
   await deductCredits(user.id, HAIRCUT_COST, 'haircut_tryon', `Haircut try-on: ${hairstyle}`)
 
-  return NextResponse.json({ imageUrl })
+  return NextResponse.json({ imageUrl: outputUrl })
 }
