@@ -2,14 +2,13 @@
 
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
-import { LayoutDashboard, Sparkles, BadgeDollarSign } from 'lucide-react'
+import { ScanFace, Scissors, MessageCircle } from 'lucide-react'
 import { cn } from '@/lib/utils'
 
-// TODO: Customize navigation items for your app
 const NAV_ITEMS = [
-  { href: '/dashboard', label: 'Dashboard', Icon: LayoutDashboard },
-  { href: '/generate', label: 'Generate', Icon: Sparkles },
-  { href: '/pricing', label: 'Pricing', Icon: BadgeDollarSign },
+  { href: '/dashboard', label: 'Results', Icon: ScanFace },
+  { href: '/haircuts', label: 'Haircuts', Icon: Scissors },
+  { href: '/chat', label: 'AI Coach', Icon: MessageCircle },
 ] as const
 
 export function NavLinks() {

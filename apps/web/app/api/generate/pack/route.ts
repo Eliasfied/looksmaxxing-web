@@ -1,32 +1,23 @@
 import { NextResponse } from 'next/server'
-import { createClient } from '@/lib/supabase/server'
-import { createClient as createServiceClient } from '@supabase/supabase-js'
+import { getSessionUser } from '@/lib/firebase/server'
+import { adminDb } from '@/lib/firebase/admin'
 import { createFalClient } from '@fal-ai/client'
-import { getCredits, deductCredits } from '@/lib/supabase/credits'
+import { getCredits, deductCredits } from '@/lib/firebase/credits'
 import { buildI2IInput, defaultI2IOptions } from '@/lib/fal-i2i-input'
 
 // TODO: Replace packsData with your own packs JSON or data source
-// import packsData from '../../data/packs.json'
 const packsData: Array<{ slug: string; h1: string; [key: string]: unknown }> = []
 
 export const maxDuration = 120
 
 const PACK_IMAGE_COUNT = 6
 
-function createSvcClient() {
-  return createServiceClient(
-    process.env.NEXT_PUBLIC_SUPABASE_URL!,
-    process.env.SUPABASE_SERVICE_ROLE_KEY!
-  )
-}
-
 function createFal() {
   return createFalClient({ credentials: process.env.FAL_API_KEY! })
 }
 
 export async function POST(request: Request) {
-  const supabase = await createClient()
-  const { data: { user } } = await supabase.auth.getUser()
+  const user = await getSessionUser()
   if (!user) return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
 
   const form = await request.formData()
@@ -55,15 +46,11 @@ export async function POST(request: Request) {
     return NextResponse.json({ error: 'No prompts configured for this pack' }, { status: 500 })
   }
 
-  const svc = createSvcClient()
-  const { data: model } = await svc
-    .from('ai_models')
-    .select('fal_model_id, credit_cost, name, requires_image')
-    .eq('id', modelId)
-    .eq('is_active', true)
-    .single()
-
-  if (!model) return NextResponse.json({ error: 'Model not found' }, { status: 400 })
+  const modelSnap = await adminDb.collection('ai_models').doc(modelId).get()
+  if (!modelSnap.exists || !modelSnap.data()!.is_active) {
+    return NextResponse.json({ error: 'Model not found' }, { status: 400 })
+  }
+  const model = modelSnap.data()!
 
   const totalCost = model.credit_cost * PACK_IMAGE_COUNT
 

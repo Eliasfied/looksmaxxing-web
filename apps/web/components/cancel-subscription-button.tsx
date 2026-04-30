@@ -2,7 +2,7 @@
 
 import { useState } from 'react'
 import { Purchases } from '@revenuecat/purchases-js'
-import { createClient } from '@/lib/supabase/client'
+import { auth } from '@/lib/firebase/client'
 import { RotateCcw } from 'lucide-react'
 
 export function CancelSubscriptionButton() {
@@ -11,13 +11,12 @@ export function CancelSubscriptionButton() {
   async function handleCancel() {
     setLoading(true)
     try {
-      const supabase = createClient()
-      const { data: { user } } = await supabase.auth.getUser()
+      const user = auth.currentUser
       if (!user) return
 
       const purchases = Purchases.configure(
         process.env.NEXT_PUBLIC_REVENUECAT_API_KEY!,
-        user.id
+        user.uid
       )
 
       const info = await purchases.getCustomerInfo()
@@ -26,7 +25,6 @@ export function CancelSubscriptionButton() {
       if (managementUrl) {
         window.open(managementUrl, '_blank')
       } else {
-        // Fallback: RC billing portal
         window.open('https://app.revenuecat.com/manage', '_blank')
       }
     } catch (err) {

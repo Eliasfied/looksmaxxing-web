@@ -1,7 +1,8 @@
 import Link from 'next/link'
 import { redirect } from 'next/navigation'
-import { createClient } from '@/lib/supabase/server'
-import { getCredits } from '@/lib/supabase/credits'
+import { getSessionUser } from '@/lib/firebase/server'
+import { getCredits } from '@/lib/firebase/credits'
+import { adminDb } from '@/lib/firebase/admin'
 import { Zap, CreditCard, RotateCcw, Gift, RefreshCw, Sparkles } from 'lucide-react'
 import { CancelSubscriptionButton } from '@/components/cancel-subscription-button'
 import { appConfig } from '@/lib/config'
@@ -43,28 +44,31 @@ function formatRenewal(iso: string | null) {
 }
 
 export default async function SettingsPage() {
-  const supabase = await createClient()
-  const { data: { user } } = await supabase.auth.getUser()
+  const user = await getSessionUser()
   if (!user) redirect('/login')
 
-  const [balance, { data: transactions }, { data: subscription }] = await Promise.all([
+  const [balance, txSnap, subSnap] = await Promise.all([
     getCredits(user.id),
-    supabase
-      .from('credit_transactions')
-      .select('*')
-      .eq('user_id', user.id)
-      .order('created_at', { ascending: false })
-      .limit(10),
-    supabase
-      .from('subscriptions')
-      .select('*, plans(name, monthly_credits)')
-      .eq('user_id', user.id)
-      .maybeSingle(),
+    adminDb
+      .collection('credit_transactions')
+      .where('user_id', '==', user.id)
+      .orderBy('created_at', 'desc')
+      .limit(10)
+      .get(),
+    adminDb.collection('subscriptions').doc(user.id).get(),
   ])
 
-  const displayName = user.user_metadata?.display_name ?? user.email?.split('@')[0] ?? 'there'
-  const plan = (subscription as any)?.plans
-  const renewalDate = (subscription as any)?.current_period_end ?? null
+  const transactions = txSnap.docs.map((d) => ({ id: d.id, ...d.data() })) as Array<{
+    id: string
+    type: string
+    description?: string
+    amount: number
+    created_at: string
+  }>
+
+  const subscription = subSnap.exists ? subSnap.data() : null
+  const displayName = user.email?.split('@')[0] ?? 'there'
+  const renewalDate = subscription?.current_period_end ?? null
 
   return (
     <div className="mx-auto w-full max-w-4xl space-y-6">
@@ -104,11 +108,11 @@ export default async function SettingsPage() {
           <div>
             <p className="text-xs uppercase tracking-wider text-[#666666] mb-1">Current Plan</p>
             <p className="text-xl font-bold text-white">
-              {plan ? plan.name : 'Free'}
+              {subscription?.plan_name ?? 'Free'}
             </p>
-            {plan && (
+            {subscription?.plan_monthly_credits && (
               <p className="mt-1 text-sm text-[#888888]">
-                {plan.monthly_credits?.toLocaleString()} credits / month
+                {Number(subscription.plan_monthly_credits).toLocaleString()} credits / month
               </p>
             )}
           </div>
@@ -143,7 +147,7 @@ export default async function SettingsPage() {
         <div className="border-b border-[#222222] px-5 py-4">
           <h2 className="font-semibold text-white">Recent Transactions</h2>
         </div>
-        {!transactions?.length ? (
+        {!transactions.length ? (
           <div className="px-5 py-8 text-center text-sm text-[#666666]">
             No transactions yet.
           </div>

@@ -4,9 +4,24 @@ import { useState } from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 import { useRouter } from 'next/navigation'
-import { createClient } from '@/lib/supabase/client'
+import {
+  createUserWithEmailAndPassword,
+  signInWithPopup,
+  GoogleAuthProvider,
+  sendEmailVerification,
+} from 'firebase/auth'
+import { auth } from '@/lib/firebase/client'
 import { appConfig } from '@/lib/config'
 import posthog from 'posthog-js'
+
+async function createSession(idToken: string) {
+  const res = await fetch('/api/auth/session', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ idToken }),
+  })
+  if (!res.ok) throw new Error('Failed to create session')
+}
 
 export default function RegisterPage() {
   const router = useRouter()
@@ -19,12 +34,20 @@ export default function RegisterPage() {
 
   async function handleGoogleLogin() {
     setError(null)
-    posthog.capture('signup', { method: 'google' })
-    const supabase = createClient()
-    await supabase.auth.signInWithOAuth({
-      provider: 'google',
-      options: { redirectTo: `${location.origin}/api/auth/callback` },
-    })
+    setLoading(true)
+    try {
+      posthog.capture('signup', { method: 'google' })
+      const provider = new GoogleAuthProvider()
+      const credential = await signInWithPopup(auth, provider)
+      const idToken = await credential.user.getIdToken()
+      await createSession(idToken)
+      router.push('/dashboard')
+      router.refresh()
+    } catch (err: unknown) {
+      const msg = err instanceof Error ? err.message : 'Google sign in failed'
+      setError(msg.replace('Firebase: ', '').replace(/\s*\(auth\/.*\)\.?/, ''))
+      setLoading(false)
+    }
   }
 
   async function handleRegister(e: React.FormEvent) {
@@ -37,22 +60,18 @@ export default function RegisterPage() {
     }
 
     setLoading(true)
-    const supabase = createClient()
-    const { error } = await supabase.auth.signUp({
-      email,
-      password,
-      options: { emailRedirectTo: `${location.origin}/api/auth/callback` },
-    })
-
-    if (error) {
-      setError(error.message)
+    try {
+      const credential = await createUserWithEmailAndPassword(auth, email, password)
+      // Send verification email (optional but good practice)
+      await sendEmailVerification(credential.user)
+      posthog.capture('signup', { method: 'email' })
       setLoading(false)
-      return
+      setCheckEmail(true)
+    } catch (err: unknown) {
+      const msg = err instanceof Error ? err.message : 'Registration failed'
+      setError(msg.replace('Firebase: ', '').replace(/\s*\(auth\/.*\)\.?/, ''))
+      setLoading(false)
     }
-
-    posthog.capture('signup', { method: 'email' })
-    setLoading(false)
-    setCheckEmail(true)
   }
 
   if (checkEmail) {
@@ -64,12 +83,14 @@ export default function RegisterPage() {
               <path strokeLinecap="round" strokeLinejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75" />
             </svg>
           </div>
-          <h1 className="text-xl font-bold text-white mb-2">Thanks for signing up</h1>
+          <h1 className="text-xl font-bold text-white mb-2">Check your email</h1>
           <p className="text-[#888] text-sm">
-            To complete your sign up, click the link in your email.
+            We sent a verification link to <strong className="text-white">{email}</strong>.
           </p>
           <p className="text-[#555] text-xs mt-3">
-            After confirming, you can choose a plan and start creating.
+            After confirming, you can{' '}
+            <Link href="/login" className="text-purple-400 hover:text-purple-300">sign in</Link>
+            {' '}and choose a plan.
           </p>
         </div>
       </div>
@@ -80,9 +101,9 @@ export default function RegisterPage() {
     <div className="w-full max-w-sm">
       {/* Logo */}
       <div className="mb-8 text-center">
-        <Image src="/logo.png" alt={appConfig.brand.name} width={48} height={48} className="mx-auto rounded-xl" />
-        <h1 className="mt-3 text-xl font-bold text-white tracking-tight">{appConfig.brand.name}</h1>
-        <p className="mt-1 text-sm text-[#888888]">Create your account to get started</p>
+        <Image src="/logo.png" alt={appConfig.brand.name} width={72} height={72} className="mx-auto rounded-2xl shadow-lg shadow-purple-900/30" />
+        <h1 className="mt-4 text-2xl font-black text-white tracking-tight">{appConfig.brand.name}</h1>
+        <p className="mt-1 text-sm text-[#666]">Create your account to get started</p>
       </div>
 
       <div className="rounded-2xl bg-[#111111] border border-[#222222] p-8">
@@ -146,7 +167,8 @@ export default function RegisterPage() {
 
         <button
           onClick={handleGoogleLogin}
-          className="w-full flex items-center justify-center gap-2 rounded-xl border border-[#333333] bg-[#1a1a1a] px-4 py-3 text-sm font-medium text-white hover:bg-[#222222] hover:border-[#444444] transition-colors"
+          disabled={loading}
+          className="w-full flex items-center justify-center gap-2 rounded-xl border border-[#333333] bg-[#1a1a1a] px-4 py-3 text-sm font-medium text-white hover:bg-[#222222] hover:border-[#444444] transition-colors disabled:opacity-50"
         >
           <GoogleIcon />
           Continue with Google

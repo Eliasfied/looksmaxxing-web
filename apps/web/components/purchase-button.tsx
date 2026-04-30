@@ -4,7 +4,7 @@ import { useState } from 'react'
 import { useRouter } from 'next/navigation'
 import Link from 'next/link'
 import { Purchases, PurchasesError, ErrorCode } from '@revenuecat/purchases-js'
-import { createClient } from '@/lib/supabase/client'
+import { auth } from '@/lib/firebase/client'
 import { Sparkles, X } from 'lucide-react'
 import posthog from 'posthog-js'
 
@@ -66,13 +66,12 @@ export function PurchaseButton({ productId, productName, children, className, su
     setError(null)
 
     try {
-      const supabase = createClient()
-      const { data: { user } } = await supabase.auth.getUser()
+      const user = auth.currentUser
       if (!user) throw new Error('Not logged in')
 
       const purchases = Purchases.configure(
         process.env.NEXT_PUBLIC_REVENUECAT_API_KEY!,
-        user.id
+        user.uid
       )
 
       const offerings = await purchases.getOfferings()

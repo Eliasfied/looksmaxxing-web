@@ -1,22 +1,21 @@
 import { NextResponse } from 'next/server'
-import { createClient } from '@supabase/supabase-js'
+import { adminDb } from '@/lib/firebase/admin'
 
 export async function GET() {
-  const supabase = createClient(
-    process.env.NEXT_PUBLIC_SUPABASE_URL!,
-    process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!
-  )
+  try {
+    const snap = await adminDb
+      .collection('ai_models')
+      .where('is_active', '==', true)
+      .orderBy('sort_order')
+      .get()
 
-  const { data, error } = await supabase
-    .from('ai_models')
-    .select('id, name, credit_cost, provider, requires_image')
-    .eq('is_active', true)
-    .order('sort_order')
-
-  if (error) {
-    console.error('[/api/models] Supabase error:', error)
-    return NextResponse.json({ error: error.message ?? error.code ?? 'Unknown error' }, { status: 500 })
+    const data = snap.docs.map((d) => ({ id: d.id, ...d.data() }))
+    return NextResponse.json(data)
+  } catch (err) {
+    console.error('[/api/models] Firestore error:', err)
+    return NextResponse.json(
+      { error: err instanceof Error ? err.message : 'Unknown error' },
+      { status: 500 }
+    )
   }
-
-  return NextResponse.json(data)
 }

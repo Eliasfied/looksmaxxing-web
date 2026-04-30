@@ -4,8 +4,18 @@ import { useState } from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 import { useRouter } from 'next/navigation'
-import { createClient } from '@/lib/supabase/client'
+import { signInWithEmailAndPassword, signInWithPopup, GoogleAuthProvider } from 'firebase/auth'
+import { auth } from '@/lib/firebase/client'
 import { appConfig } from '@/lib/config'
+
+async function createSession(idToken: string) {
+  const res = await fetch('/api/auth/session', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ idToken }),
+  })
+  if (!res.ok) throw new Error('Failed to create session')
+}
 
 export default function LoginPage() {
   const router = useRouter()
@@ -19,35 +29,43 @@ export default function LoginPage() {
     setError(null)
     setLoading(true)
 
-    const supabase = createClient()
-    const { error } = await supabase.auth.signInWithPassword({ email, password })
-
-    if (error) {
-      setError(error.message)
+    try {
+      const credential = await signInWithEmailAndPassword(auth, email, password)
+      const idToken = await credential.user.getIdToken()
+      await createSession(idToken)
+      router.push('/dashboard')
+      router.refresh()
+    } catch (err: unknown) {
+      const msg = err instanceof Error ? err.message : 'Sign in failed'
+      setError(msg.replace('Firebase: ', '').replace(/\s*\(auth\/.*\)\.?/, ''))
       setLoading(false)
-      return
     }
-
-    router.push('/dashboard')
-    router.refresh()
   }
 
   async function handleGoogleLogin() {
     setError(null)
-    const supabase = createClient()
-    await supabase.auth.signInWithOAuth({
-      provider: 'google',
-      options: { redirectTo: `${location.origin}/api/auth/callback` },
-    })
+    setLoading(true)
+    try {
+      const provider = new GoogleAuthProvider()
+      const credential = await signInWithPopup(auth, provider)
+      const idToken = await credential.user.getIdToken()
+      await createSession(idToken)
+      router.push('/dashboard')
+      router.refresh()
+    } catch (err: unknown) {
+      const msg = err instanceof Error ? err.message : 'Google sign in failed'
+      setError(msg.replace('Firebase: ', '').replace(/\s*\(auth\/.*\)\.?/, ''))
+      setLoading(false)
+    }
   }
 
   return (
     <div className="w-full max-w-sm">
       {/* Logo */}
       <div className="mb-8 text-center">
-        <Image src="/logo.png" alt={appConfig.brand.name} width={48} height={48} className="mx-auto rounded-xl" />
-        <h1 className="mt-3 text-xl font-bold text-white tracking-tight">{appConfig.brand.name}</h1>
-        <p className="mt-1 text-sm text-[#888888]">Sign in to your account</p>
+        <Image src="/logo.png" alt={appConfig.brand.name} width={72} height={72} className="mx-auto rounded-2xl shadow-lg shadow-purple-900/30" />
+        <h1 className="mt-4 text-2xl font-black text-white tracking-tight">{appConfig.brand.name}</h1>
+        <p className="mt-1 text-sm text-[#666]">Sign in to your account</p>
       </div>
 
       <div className="rounded-2xl bg-[#111111] border border-[#222222] p-8">
@@ -97,7 +115,8 @@ export default function LoginPage() {
 
         <button
           onClick={handleGoogleLogin}
-          className="w-full flex items-center justify-center gap-2 rounded-xl border border-[#333333] bg-[#1a1a1a] px-4 py-3 text-sm font-medium text-white hover:bg-[#222222] hover:border-[#444444] transition-colors"
+          disabled={loading}
+          className="w-full flex items-center justify-center gap-2 rounded-xl border border-[#333333] bg-[#1a1a1a] px-4 py-3 text-sm font-medium text-white hover:bg-[#222222] hover:border-[#444444] transition-colors disabled:opacity-50"
         >
           <GoogleIcon />
           Continue with Google

@@ -1,7 +1,8 @@
 'use client'
 
 import { useRouter } from 'next/navigation'
-import { createClient } from '@/lib/supabase/client'
+import { signOut } from 'firebase/auth'
+import { auth } from '@/lib/firebase/client'
 import { cn } from '@/lib/utils'
 
 type SignOutButtonProps = {
@@ -12,8 +13,8 @@ export function SignOutButton({ className }: SignOutButtonProps) {
   const router = useRouter()
 
   async function handleSignOut() {
-    const supabase = createClient()
-    await supabase.auth.signOut()
+    await signOut(auth)
+    await fetch('/api/auth/session', { method: 'DELETE' })
     router.push('/login')
     router.refresh()
   }

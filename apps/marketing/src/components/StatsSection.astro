@@ -1,0 +1,23 @@
+---
+const stats = [
+  { value: "50K+", label: "Users improving daily" },
+  { value: "4.9★", label: "Average app rating" },
+  { value: "2M+", label: "AI analyses done" },
+  { value: "0→10", label: "PSL journey possible" },
+];
+---
+
+<section class="border-y border-white/5 bg-[#050505] py-14">
+  <div class="max-w-5xl mx-auto px-4">
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+      {stats.map((s) => (
+        <div>
+          <p class="text-4xl font-black bg-gradient-to-r from-fuchsia-400 to-violet-400 bg-clip-text text-transparent mb-1">
+            {s.value}
+          </p>
+          <p class="text-[#666] text-sm">{s.label}</p>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>

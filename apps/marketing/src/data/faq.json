@@ -1,12 +1,52 @@
 [
   {
-    "slug": "how-do-credits-work",
-    "question": "How do credits work?",
-    "answer": "Credits are used to generate images. Each AI model costs a different amount of credits per generation depending on its quality and speed. Subscription credits reset each billing period, while top-up credits purchased as one-time packs never expire."
+    "slug": "what-is-aura-looksmaxxing",
+    "question": "What is Aura: Looksmaxxing?",
+    "answer": "Aura is an AI-powered looksmaxxing platform. You upload a photo and receive a detailed PSL score, a breakdown of your facial features across bone structure, eye area, skin, hair, and symmetry — plus a personalized glow-up plan and access to an AI coach to help you reach your potential."
   },
   {
-    "slug": "what-ai-models-are-available",
-    "question": "What AI models are available?",
-    "answer": "We offer multiple AI models with different quality levels and credit costs. Higher-quality models produce more realistic results but use more credits per generation."
+    "slug": "what-is-a-psl-score",
+    "question": "What is a PSL score?",
+    "answer": "PSL stands for Prettyscale, Sluthate, Looksmax — a rating system used in looksmaxxing communities to assess facial attractiveness on a scale from 1 to 10. Aura uses AI to calculate your PSL score based on objective facial metrics: bone structure ratios, symmetry, skin quality, eye area, and more."
+  },
+  {
+    "slug": "how-accurate-is-the-face-analysis",
+    "question": "How accurate is the face analysis?",
+    "answer": "Our AI analyses over 10 facial metrics including gonial angle, midface ratio, cheekbone prominence, canthal tilt, eye distance, skin clarity, hairline depth, and asymmetry index. The analysis is based on established looksmaxxing frameworks and gives you a reliable baseline — though no AI analysis is a substitute for professional assessment."
+  },
+  {
+    "slug": "what-photos-do-i-need-to-upload",
+    "question": "What photos do I need to upload?",
+    "answer": "You need a frontal photo — face the camera directly with a neutral expression and even lighting. A side profile photo (90° turn) is optional but significantly improves the accuracy of bone structure analysis, especially gonial angle and jawline modeling.\n\nUse your rear camera, maintain roughly 2m distance, and avoid wide-angle lenses for best results."
+  },
+  {
+    "slug": "what-is-the-glow-up-plan",
+    "question": "What is the Personalized Glow Up Plan?",
+    "answer": "Based on your face analysis, Aura generates a set of targeted tips to close the gap between your current PSL score and your potential score. These are specific to your facial data — not generic advice. Areas covered include skincare, jawline training, hairstyle, diet, grooming, posture, and more."
+  },
+  {
+    "slug": "how-does-the-ai-chat-work",
+    "question": "How does the AI Looksmaxxing Coach work?",
+    "answer": "Your AI coach has access to your full face analysis data and answers questions about skincare, jaw exercises, hairstyle, diet, grooming, and anything looksmaxxing-related. It's available 24/7 and gives advice tailored specifically to your face — not generic responses."
+  },
+  {
+    "slug": "what-is-hairstyle-try-on",
+    "question": "What is the Hairstyle, Beard & Glasses Try-On?",
+    "answer": "You get 50 AI-generated try-ons per month. Choose from a range of hairstyles matched to your face shape, or try different beard styles and glasses. The AI applies the style to your actual photo so you can see exactly how it would look before committing."
+  },
+  {
+    "slug": "how-much-does-it-cost",
+    "question": "How much does Aura cost?",
+    "answer": "Aura is available for $9.99/month or $49.99/year (saving ~58%). Both plans include full access to all features: AI Face Analysis, Face Analysis Illustration, Personalized Glow Up Plan, AI Coach, and 50x Hairstyle/Beard/Glasses Try-Ons per month."
+  },
+  {
+    "slug": "is-my-data-private",
+    "question": "Are my photos stored or shared?",
+    "answer": "Your photos are processed securely and never shared with third parties. We retain them only as long as necessary to deliver your analysis. You can request deletion of your data at any time by contacting support."
+  },
+  {
+    "slug": "can-i-cancel",
+    "question": "Can I cancel my subscription?",
+    "answer": "Yes, you can cancel anytime. You keep access until the end of your current billing period and are not charged again after cancellation. No questions asked."
   }
 ]

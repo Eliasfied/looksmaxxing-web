@@ -1,7 +1,7 @@
 import { NextResponse } from 'next/server'
-import { createClient } from '@/lib/supabase/server'
+import { getSessionUser } from '@/lib/firebase/server'
 import { generateImage, InsufficientCreditsError } from '@/lib/fal'
-import { getCredits } from '@/lib/supabase/credits'
+import { getCredits } from '@/lib/firebase/credits'
 import { buildExplorePrompt, tileKeyFromPath } from '@/lib/explore-prompt'
 import { parseI2IUiOptions } from '@/lib/fal-i2i-input'
 
@@ -12,10 +12,7 @@ function badRequest(message: string) {
 }
 
 export async function POST(request: Request) {
-  const supabase = await createClient()
-  const {
-    data: { user },
-  } = await supabase.auth.getUser()
+  const user = await getSessionUser()
 
   if (!user) {
     return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
@@ -41,7 +38,6 @@ export async function POST(request: Request) {
       return badRequest('modelId is required')
     }
 
-    // Support both legacy `image` field and new `image_0`, `image_1`, ... fields
     const imageCount = Number(form.get('imageCount') ?? '1')
     if (imageCount > 1) {
       const img0 = form.get('image_0')

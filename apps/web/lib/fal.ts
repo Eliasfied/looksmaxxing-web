@@ -1,14 +1,7 @@
 import { createFalClient } from '@fal-ai/client'
-import { createClient as createSupabaseServiceClient } from '@supabase/supabase-js'
-import { getCredits, deductCredits } from '@/lib/supabase/credits'
+import { adminDb } from '@/lib/firebase/admin'
+import { getCredits, deductCredits } from '@/lib/firebase/credits'
 import { buildI2IInput, defaultI2IOptions, type I2IUiOptions } from '@/lib/fal-i2i-input'
-
-function createServiceClient() {
-  return createSupabaseServiceClient(
-    process.env.NEXT_PUBLIC_SUPABASE_URL!,
-    process.env.SUPABASE_SERVICE_ROLE_KEY!
-  )
-}
 
 function createFal() {
   return createFalClient({
@@ -68,7 +61,6 @@ function toI2IModelId(falModelId: string): string | null {
 
 /**
  * Build the T2I input payload for each supported model.
- * Settings keys use camelCase from the frontend; converted to snake_case here.
  * TODO: Customize this for your fal.ai models.
  */
 function buildT2IInput(
@@ -77,10 +69,6 @@ function buildT2IInput(
   settings: Record<string, unknown>,
   negativePrompt?: string,
 ): Record<string, unknown> {
-  const aspectRatio = (settings.aspectRatio as string | undefined) ?? 'auto'
-  const outputFormat = (settings.outputFormat as string | undefined) ?? 'png'
-
-  // Fallback: spread settings as-is
   const input: Record<string, unknown> = { prompt, ...settings }
   if (negativePrompt) input.negative_prompt = negativePrompt
   return input
@@ -99,15 +87,12 @@ export async function generateImage(params: GenerateImageParams): Promise<Genera
     resolutionMultiplier = 1,
   } = params
 
-  const supabase = createServiceClient()
-  const { data: model, error: modelError } = await supabase
-    .from('ai_models')
-    .select('fal_model_id, credit_cost, name, requires_image')
-    .eq('id', modelId)
-    .eq('is_active', true)
-    .single()
-
-  if (modelError || !model) {
+  const modelSnap = await adminDb.collection('ai_models').doc(modelId).get()
+  if (!modelSnap.exists) {
+    throw new Error(`Model not found: ${modelId}`)
+  }
+  const model = modelSnap.data()!
+  if (!model.is_active) {
     throw new Error(`Model not found: ${modelId}`)
   }
 
