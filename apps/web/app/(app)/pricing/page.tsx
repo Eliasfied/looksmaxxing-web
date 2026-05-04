@@ -4,10 +4,9 @@ import { PurchaseButton } from '@/components/purchase-button'
 
 const features = [
   '100 Credits per month',
-  'Face Scan: 1 Credit',
-  'Haircut Try-On: 3 Credits',
   'Personalized Glow Up Plan',
   'AI Looksmaxxing Coach',
+  'Face Scan & Haircut Try-On',
 ]
 
 function CheckIcon() {
