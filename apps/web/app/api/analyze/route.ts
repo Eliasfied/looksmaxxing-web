@@ -6,7 +6,7 @@ import { createFaceScan } from '@/lib/firebase/scans'
 export const maxDuration = 120
 
 const OPENAI_PROXY = 'https://openai-secure-proxy.vercel.app/api/chat'
-const ANALYZE_COST = 5
+const ANALYZE_COST = 1
 
 const FACE_ANALYSIS_PROMPT = `You are a looksmaxxing face analysis AI. Analyze the face in the image and rate each metric objectively.
 

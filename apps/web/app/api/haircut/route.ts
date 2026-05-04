@@ -5,7 +5,7 @@ import { getCredits, deductCredits } from '@/lib/firebase/credits'
 
 export const maxDuration = 120
 
-const HAIRCUT_COST = 1
+const HAIRCUT_COST = 3
 
 export async function POST(request: Request) {
   const user = await getSessionUser()

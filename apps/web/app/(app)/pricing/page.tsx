@@ -3,11 +3,11 @@
 import { PurchaseButton } from '@/components/purchase-button'
 
 const features = [
-  'AI Face Analysis',
-  'AI Face Analysis Illustration',
+  '100 Credits per month',
+  'Face Scan: 1 Credit',
+  'Haircut Try-On: 3 Credits',
   'Personalized Glow Up Plan',
-  'AI Looksmaxxing Chat Access',
-  'AI Hairstyle, Beard & Glasses Try-On (50x/mo)',
+  'AI Looksmaxxing Coach',
 ]
 
 function CheckIcon() {
