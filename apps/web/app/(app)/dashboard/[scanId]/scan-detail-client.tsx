@@ -16,6 +16,14 @@ function metricColor(v: number) {
   return 'text-red-400'
 }
 
+function metricDotColor(v: number) {
+  if (v >= 80) return 'bg-emerald-400'
+  if (v >= 65) return 'bg-green-400'
+  if (v >= 50) return 'bg-yellow-400'
+  if (v >= 35) return 'bg-orange-400'
+  return 'bg-red-400'
+}
+
 function metricBarColor(v: number) {
   if (v >= 80) return 'from-emerald-500 to-green-400'
   if (v >= 65) return 'from-green-500 to-lime-400'
@@ -87,7 +95,7 @@ function MetricRow({ label, value, tooltip, subpoints }: { label: string; value:
         <ul className="mt-3 space-y-1.5 pl-1">
           {subpoints.map((point, i) => (
             <li key={i} className="flex items-start gap-2 text-xs text-[#666]">
-              <span className={`mt-0.5 h-1.5 w-1.5 rounded-full shrink-0 ${metricColor(value).replace('text-', 'bg-')}`} />
+              <span className={`mt-1 h-1.5 w-1.5 rounded-full shrink-0 ${metricDotColor(value)}`} />
               {point}
             </li>
           ))}
