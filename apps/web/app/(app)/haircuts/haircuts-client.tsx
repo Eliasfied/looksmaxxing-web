@@ -132,20 +132,30 @@ export function HaircutsClient({ defaultFaceShape }: Props) {
                 onClick={() => tryOn(style)}
                 disabled={loading}
                 className={cn(
-                  'group relative rounded-xl border p-4 text-left transition-all',
+                  'group relative rounded-xl border overflow-hidden text-left transition-all',
                   result?.hairstyle === style
-                    ? 'border-fuchsia-500/50 bg-fuchsia-500/10'
-                    : 'border-white/5 bg-white/[0.02] hover:border-purple-500/30 hover:bg-white/[0.04]',
+                    ? 'border-fuchsia-500/50'
+                    : 'border-white/5 hover:border-purple-500/30',
                   loading && 'opacity-50 cursor-not-allowed'
                 )}
               >
-                <div className="mb-3 flex items-center justify-center h-16 rounded-lg bg-white/5 text-3xl">
-                  ✂️
+                <div className="aspect-[3/4] relative">
+                  <img
+                    src={`/images/hairstyle/${encodeURIComponent(style)}.webp`}
+                    alt={style}
+                    className="w-full h-full object-cover"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent" />
+                  {result?.hairstyle === style && (
+                    <div className="absolute inset-0 ring-2 ring-fuchsia-500 rounded-xl" />
+                  )}
+                  <div className="absolute bottom-0 left-0 right-0 p-3">
+                    <p className="text-sm font-semibold text-white leading-tight">{style}</p>
+                    <p className="text-xs text-white/50 mt-0.5">
+                      {userImage ? 'Try on →' : 'Upload photo to try'}
+                    </p>
+                  </div>
                 </div>
-                <p className="text-sm font-semibold text-white leading-tight">{style}</p>
-                <p className="text-xs text-[#555] mt-1">
-                  {userImage ? 'Try on →' : 'Upload photo to try'}
-                </p>
               </button>
             ))}
           </div>

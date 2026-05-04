@@ -72,6 +72,12 @@ export async function getUserScans(userId: string): Promise<FaceScan[]> {
   }
 }
 
+export async function getScanById(scanId: string): Promise<FaceScan | null> {
+  const doc = await adminDb.collection('face_scans').doc(scanId).get()
+  if (!doc.exists) return null
+  return { id: doc.id, ...doc.data() } as FaceScan
+}
+
 export async function getLatestScan(userId: string): Promise<FaceScan | null> {
   try {
     const snap = await adminDb

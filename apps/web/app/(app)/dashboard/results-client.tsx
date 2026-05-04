@@ -1,8 +1,8 @@
 'use client'
 
 import { useState } from 'react'
+import Link from 'next/link'
 import type { FaceScan } from '@/lib/firebase/scans'
-import { ScanDetailModal } from './scan-detail-modal'
 import { UploadModal } from './upload-modal'
 
 interface Props {
@@ -48,25 +48,21 @@ function MetricBar({ label, value }: { label: string; value: number }) {
 
 export function ResultsClient({ initialScans }: Props) {
   const [scans, setScans] = useState<FaceScan[]>(initialScans)
-  const [selectedScan, setSelectedScan] = useState<FaceScan | null>(null)
   const [showUpload, setShowUpload] = useState(false)
 
   function handleNewScan(scan: FaceScan) {
     setScans(prev => [scan, ...prev])
-    setSelectedScan(scan)
     setShowUpload(false)
   }
 
   return (
     <div className="space-y-8">
-      <div className="flex items-center justify-between">
-        <div>
-          <h1 className="text-2xl font-black text-white tracking-tight">Face Scans</h1>
-          <p className="text-[#666] text-sm mt-1">Your looksmaxxing history</p>
-        </div>
+      <div>
+        <h1 className="text-2xl font-black text-white tracking-tight">Face Scans</h1>
+        <p className="text-[#666] text-sm mt-1">Your looksmaxxing history</p>
         <button
           onClick={() => setShowUpload(true)}
-          className="flex items-center gap-2 rounded-full bg-gradient-to-r from-fuchsia-600 to-violet-600 px-5 py-2.5 text-sm font-bold text-white hover:opacity-90 transition-opacity"
+          className="mt-4 w-full flex items-center justify-center gap-2 rounded-full bg-gradient-to-r from-fuchsia-600 to-violet-600 px-5 py-3 text-sm font-bold text-white hover:opacity-90 transition-opacity"
         >
           <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}>
             <path strokeLinecap="round" strokeLinejoin="round" d="M12 4v16m8-8H4" />
@@ -90,9 +86,9 @@ export function ResultsClient({ initialScans }: Props) {
       ) : (
         <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {scans.map(scan => (
-            <button
+            <Link
               key={scan.id}
-              onClick={() => setSelectedScan(scan)}
+              href={`/dashboard/${scan.id}`}
               className="group text-left rounded-2xl border border-white/5 bg-white/[0.02] p-5 hover:border-purple-500/30 hover:bg-white/[0.04] transition-all"
             >
               <div className="flex items-start justify-between mb-4">
@@ -121,13 +117,9 @@ export function ResultsClient({ initialScans }: Props) {
                   Face shape: <span className="text-[#888] capitalize">{scan.details.faceShape}</span>
                 </p>
               )}
-            </button>
+            </Link>
           ))}
         </div>
-      )}
-
-      {selectedScan && (
-        <ScanDetailModal scan={selectedScan} onClose={() => setSelectedScan(null)} />
       )}
 
       {showUpload && (
