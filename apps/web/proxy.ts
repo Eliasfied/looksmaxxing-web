@@ -3,7 +3,7 @@ import { NextResponse, type NextRequest } from 'next/server'
 const PROTECTED = ['/dashboard', '/settings', '/credits', '/pricing', '/onboarding']
 const AUTH_ONLY = ['/login', '/register']
 
-export function middleware(request: NextRequest) {
+export function proxy(request: NextRequest) {
   const { pathname } = request.nextUrl
   const session = request.cookies.get('__session')?.value
 
