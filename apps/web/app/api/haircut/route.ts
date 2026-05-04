@@ -44,7 +44,7 @@ export async function POST(request: Request) {
   // Run with Grok image edit model
   const result = await fal.subscribe('xai/grok-imagine-image/edit', {
     input: {
-      image_url: imageUrl,
+      image_urls: [imageUrl],
       prompt,
     },
     logs: false,
