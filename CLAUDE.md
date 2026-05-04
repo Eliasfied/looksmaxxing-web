@@ -45,58 +45,35 @@ Hak einfach ab (`- [x]`) wenn erledigt.
 
 ---
 
-## 5. Vercel Deployment
+## 5. Vercel Deployment ✅ ERLEDIGT
 
 ### 5.1 Web App (`apps/web`)
-- [ ] Vercel → New Project → GitHub Repo `looksmaxxing-web` importieren
-- [ ] Root Directory: `apps/web`
-- [ ] Framework: Next.js (auto-erkannt)
-- [ ] Alle Env-Vars eintragen (aus `.env.local` kopieren + FAL + RevenueCat ergänzen):
-  ```
-  NEXT_PUBLIC_FIREBASE_API_KEY
-  NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN
-  NEXT_PUBLIC_FIREBASE_PROJECT_ID
-  NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET
-  NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID
-  NEXT_PUBLIC_FIREBASE_APP_ID
-  FIREBASE_SERVICE_ACCOUNT_JSON
-  REVENUECAT_WEBHOOK_SECRET
-  NEXT_PUBLIC_REVENUECAT_API_KEY
-  FAL_API_KEY
-  NEXT_PUBLIC_POSTHOG_KEY
-  NEXT_PUBLIC_POSTHOG_HOST
-  ```
+- [x] Vercel → New Project → GitHub Repo `looksmaxxing-web` importieren
+- [x] Root Directory: `apps/web`
+- [x] Framework: Next.js (auto-erkannt)
+- [x] Alle Env-Vars eintragen (aus `.env.local` kopieren + FAL + RevenueCat ergänzen)
 - [ ] Custom Domain: `app.looksmaxxing.ai`
 
 ### 5.2 Marketing App (`apps/marketing`)
-- [ ] Vercel → New Project → gleicher Repo, Root Directory: `apps/marketing`
-- [ ] Framework: Astro
-- [ ] Env-Vars:
-  ```
-  PUBLIC_BRAND_NAME=Aura: Looksmaxxing
-  PUBLIC_APP_URL=https://app.looksmaxxing.ai
-  PUBLIC_SITE_URL=https://looksmaxxing.ai
-  ```
+- [x] Vercel → New Project → gleicher Repo, Root Directory: `apps/marketing`
+- [x] Framework: Astro
+- [x] Env-Vars eingetragen
 - [ ] Custom Domain: `looksmaxxing.ai`
 
 ---
 
-## 6. RevenueCat + Stripe
+## 6. RevenueCat + Stripe ✅ ERLEDIGT
 
-- [ ] RevenueCat Account → https://app.revenuecat.com → Neues Projekt
-- [ ] Platform: **Web** (Stripe)
-- [ ] Stripe verbinden → https://stripe.com (Konto anlegen falls noch keins)
-- [ ] Stripe-Preise anlegen:
-  - `aura_monthly` → $9.99/mo recurring
-  - `aura_yearly` → $49.99/yr recurring
-- [ ] In RevenueCat: Produkte mit Stripe-Preis-IDs verknüpfen
-- [ ] Entitlement `premium` anlegen → beide Produkte zuweisen
-- [ ] Default Offering anlegen → beide Pakete
-- [ ] Webhook einrichten:
-  - URL: `https://app.looksmaxxing.ai/api/webhooks/revenuecat`
-  - Authorization Header Wert → als `REVENUECAT_WEBHOOK_SECRET` in Vercel
-  - Events: `INITIAL_PURCHASE`, `RENEWAL`, `CANCELLATION`, `EXPIRATION`
-- [ ] Public API Key → als `NEXT_PUBLIC_REVENUECAT_API_KEY` in Vercel
+- [x] RevenueCat Account → Neues Projekt angelegt
+- [x] Platform: **Web** (Stripe)
+- [x] Stripe verbunden (bestehender Account)
+- [x] Produkte in RevenueCat angelegt (`aura_monthly` + `aura_yearly`)
+- [x] Entitlement `premium` angelegt → beide Produkte zugewiesen
+- [x] Default Offering angelegt
+- [x] Webhook eingerichtet → `https://looksmaxxing-web-web.vercel.app/api/webhooks/revenuecat`
+  → später auf `https://app.looksmaxxing.ai/api/webhooks/revenuecat` umstellen
+- [x] `REVENUECAT_WEBHOOK_SECRET` in Vercel eingetragen
+- [x] `NEXT_PUBLIC_REVENUECAT_API_KEY` in Vercel eingetragen
 - [ ] Stripe Test-Modus: Testkauf durchführen → Credits werden in Firestore gutgeschrieben?
 - [ ] Stripe Live-Modus aktivieren (nach erfolgreichem Test)
 
