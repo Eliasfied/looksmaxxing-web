@@ -2,10 +2,10 @@ export const appConfig = {
   brand: {
     name: "Aura: Looksmaxxing",
     shortName: "Aura",
-    domain: "looksmaxxing.ai",
-    appUrl: "https://app.looksmaxxing.ai",
-    marketingUrl: "https://looksmaxxing.ai",
-    supportEmail: "support@looksmaxxing.ai",
+    domain: "aura-looksmaxxing.com",
+    appUrl: "https://app.aura-looksmaxxing.com",
+    marketingUrl: "https://aura-looksmaxxing.com",
+    supportEmail: "support@aura-looksmaxxing.com",
   },
 
   seo: {
