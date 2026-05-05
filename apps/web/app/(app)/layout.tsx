@@ -3,6 +3,7 @@ import Image from 'next/image'
 import { redirect } from 'next/navigation'
 import { getSessionUser } from '@/lib/firebase/server'
 import { getCredits } from '@/lib/firebase/credits'
+import { adminDb } from '@/lib/firebase/admin'
 import { SignOutButton } from '@/components/sign-out-button'
 import { CreditsDisplay } from '@/components/credits-display'
 import { NavLinks } from '@/components/nav-links'
@@ -13,6 +14,9 @@ import { appConfig } from '@/lib/config'
 export default async function AppLayout({ children }: { children: React.ReactNode }) {
   const user = await getSessionUser()
   if (!user) redirect('/login')
+
+  const userDoc = await adminDb.collection('users').doc(user.id).get()
+  if (!userDoc.exists || !userDoc.data()?.has_purchased) redirect('/onboarding/pricing')
 
   const balance = await getCredits(user.id)
 

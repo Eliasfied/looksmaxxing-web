@@ -8,7 +8,6 @@ import {
   createUserWithEmailAndPassword,
   signInWithPopup,
   GoogleAuthProvider,
-  sendEmailVerification,
 } from 'firebase/auth'
 import { auth } from '@/lib/firebase/client'
 import { appConfig } from '@/lib/config'
@@ -30,7 +29,6 @@ export default function RegisterPage() {
   const [confirmPassword, setConfirmPassword] = useState('')
   const [error, setError] = useState<string | null>(null)
   const [loading, setLoading] = useState(false)
-  const [checkEmail, setCheckEmail] = useState(false)
 
   async function handleGoogleLogin() {
     setError(null)
@@ -41,7 +39,7 @@ export default function RegisterPage() {
       const credential = await signInWithPopup(auth, provider)
       const idToken = await credential.user.getIdToken()
       await createSession(idToken)
-      router.push('/dashboard')
+      router.push('/onboarding/pricing')
       router.refresh()
     } catch (err: unknown) {
       const msg = err instanceof Error ? err.message : 'Google sign in failed'
@@ -62,39 +60,16 @@ export default function RegisterPage() {
     setLoading(true)
     try {
       const credential = await createUserWithEmailAndPassword(auth, email, password)
-      // Send verification email (optional but good practice)
-      await sendEmailVerification(credential.user)
       posthog.capture('signup', { method: 'email' })
-      setLoading(false)
-      setCheckEmail(true)
+      const idToken = await credential.user.getIdToken()
+      await createSession(idToken)
+      router.push('/onboarding/pricing')
+      router.refresh()
     } catch (err: unknown) {
       const msg = err instanceof Error ? err.message : 'Registration failed'
       setError(msg.replace('Firebase: ', '').replace(/\s*\(auth\/.*\)\.?/, ''))
       setLoading(false)
     }
-  }
-
-  if (checkEmail) {
-    return (
-      <div className="w-full max-w-sm text-center">
-        <div className="mb-6">
-          <div className="mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-2xl bg-[#111] border border-[#222]">
-            <svg className="h-8 w-8 text-purple-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="1.5">
-              <path strokeLinecap="round" strokeLinejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75" />
-            </svg>
-          </div>
-          <h1 className="text-xl font-bold text-white mb-2">Check your email</h1>
-          <p className="text-[#888] text-sm">
-            We sent a verification link to <strong className="text-white">{email}</strong>.
-          </p>
-          <p className="text-[#555] text-xs mt-3">
-            After confirming, you can{' '}
-            <Link href="/login" className="text-purple-400 hover:text-purple-300">sign in</Link>
-            {' '}and choose a plan.
-          </p>
-        </div>
-      </div>
-    )
   }
 
   return (
