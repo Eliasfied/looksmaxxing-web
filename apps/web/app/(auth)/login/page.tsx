@@ -8,13 +8,15 @@ import { signInWithEmailAndPassword, signInWithPopup, GoogleAuthProvider } from 
 import { auth } from '@/lib/firebase/client'
 import { appConfig } from '@/lib/config'
 
-async function createSession(idToken: string) {
+async function createSession(idToken: string): Promise<{ hasPurchased: boolean }> {
   const res = await fetch('/api/auth/session', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({ idToken }),
   })
   if (!res.ok) throw new Error('Failed to create session')
+  const data = (await res.json()) as { hasPurchased?: boolean }
+  return { hasPurchased: data.hasPurchased === true }
 }
 
 export default function LoginPage() {
@@ -32,8 +34,8 @@ export default function LoginPage() {
     try {
       const credential = await signInWithEmailAndPassword(auth, email, password)
       const idToken = await credential.user.getIdToken()
-      await createSession(idToken)
-      router.push('/dashboard')
+      const { hasPurchased } = await createSession(idToken)
+      router.push(hasPurchased ? '/dashboard' : '/onboarding/pricing')
       router.refresh()
     } catch (err: unknown) {
       const msg = err instanceof Error ? err.message : 'Sign in failed'
@@ -49,8 +51,8 @@ export default function LoginPage() {
       const provider = new GoogleAuthProvider()
       const credential = await signInWithPopup(auth, provider)
       const idToken = await credential.user.getIdToken()
-      await createSession(idToken)
-      router.push('/dashboard')
+      const { hasPurchased } = await createSession(idToken)
+      router.push(hasPurchased ? '/dashboard' : '/onboarding/pricing')
       router.refresh()
     } catch (err: unknown) {
       const msg = err instanceof Error ? err.message : 'Google sign in failed'

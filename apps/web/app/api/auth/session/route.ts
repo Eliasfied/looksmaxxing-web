@@ -28,6 +28,7 @@ export async function POST(request: Request) {
     // Create user + credits documents on first sign-in
     const userRef = adminDb.collection('users').doc(decoded.uid)
     const userSnap = await userRef.get()
+    let hasPurchased = false
     if (!userSnap.exists) {
       const batch = adminDb.batch()
       batch.set(userRef, {
@@ -41,6 +42,8 @@ export async function POST(request: Request) {
         subscription_credits_reset_at: null,
       })
       await batch.commit()
+    } else {
+      hasPurchased = userSnap.data()?.has_purchased === true
     }
 
     const cookieStore = await cookies()
@@ -52,7 +55,7 @@ export async function POST(request: Request) {
       path: '/',
     })
 
-    return NextResponse.json({ ok: true })
+    return NextResponse.json({ ok: true, hasPurchased })
   } catch (err) {
     console.error('[Session POST]', err)
     return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })

@@ -3,10 +3,11 @@
 import { PurchaseButton } from '@/components/purchase-button'
 
 const features = [
-  '100 Credits per month',
+  'AI Face Analysis',
+  'AI Face Analysis Illustration',
   'Personalized Glow Up Plan',
-  'AI Looksmaxxing Coach',
-  'Face Scan & Haircut Try-On',
+  'AI Looksmaxxing Chat Access',
+  'AI Hairstyle, Beard & Glasses Try-On (50x/mo)',
 ]
 
 function CheckIcon() {
@@ -19,7 +20,7 @@ function CheckIcon() {
 
 export default function PricingPage() {
   return (
-    <div className="mx-auto w-full max-w-3xl">
+    <div className="mx-auto w-full max-w-3xl py-8">
 
       {/* Heading */}
       <div className="text-center mb-12">
