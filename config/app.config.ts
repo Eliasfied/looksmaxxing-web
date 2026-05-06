@@ -22,8 +22,8 @@ export const appConfig = {
 
   pricing: {
     plans: [
-      { id: "aura_monthly", name: "Monthly", price: 9.99, credits: 50, interval: "monthly", rcProductId: "aura_monthly" },
-      { id: "aura_yearly", name: "Yearly", price: 49.99, credits: 50, interval: "yearly", rcProductId: "aura_yearly" },
+      { id: "aura_monthly", name: "Monthly", price: 9.99, credits: 100, interval: "monthly", rcProductId: "aura_monthly" },
+      { id: "aura_yearly", name: "Yearly", price: 49.99, credits: 100, interval: "yearly", rcProductId: "aura_yearly" },
     ] as Array<{
       id: string;
       name: string;
