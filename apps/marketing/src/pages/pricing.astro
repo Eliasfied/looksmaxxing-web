@@ -3,29 +3,53 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 import PricingSection from '../components/PricingSection.astro';
 
 const BRAND_NAME = import.meta.env.PUBLIC_BRAND_NAME ?? 'Aura: Looksmaxxing';
-const SITE_URL = import.meta.env.PUBLIC_SITE_URL ?? 'https://looksmaxxing.ai';
+const SITE_URL = import.meta.env.PUBLIC_SITE_URL ?? 'https://www.aura-looksmaxxing.com';
 
 const pricingSchema = {
   "@context": "https://schema.org",
   "@type": "SoftwareApplication",
   "name": BRAND_NAME,
-  "applicationCategory": "HealthApplication",
+  "applicationCategory": "LifestyleApplication",
   "operatingSystem": "Web",
+  "url": `${SITE_URL}/pricing`,
   "offers": [
     {
       "@type": "Offer",
       "name": "Monthly",
       "price": "9.99",
       "priceCurrency": "USD",
-      "billingDuration": "P1M",
+      "url": `${SITE_URL}/pricing`,
+      "availability": "https://schema.org/InStock",
+      "priceSpecification": {
+        "@type": "UnitPriceSpecification",
+        "price": "9.99",
+        "priceCurrency": "USD",
+        "unitCode": "MON",
+      },
     },
     {
       "@type": "Offer",
       "name": "Yearly",
       "price": "49.99",
       "priceCurrency": "USD",
-      "billingDuration": "P1Y",
+      "url": `${SITE_URL}/pricing`,
+      "availability": "https://schema.org/InStock",
+      "priceSpecification": {
+        "@type": "UnitPriceSpecification",
+        "price": "49.99",
+        "priceCurrency": "USD",
+        "unitCode": "ANN",
+      },
     },
+  ],
+};
+
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": `${SITE_URL}/` },
+    { "@type": "ListItem", "position": 2, "name": "Pricing", "item": `${SITE_URL}/pricing` },
   ],
 };
 ---
@@ -36,7 +60,17 @@ const pricingSchema = {
 >
   <Fragment slot="head">
     <script type="application/ld+json" set:html={JSON.stringify(pricingSchema)} />
+    <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
   </Fragment>
+
+  <header class="max-w-3xl mx-auto px-6 pt-16 pb-2 text-center">
+    <h1 class="text-5xl md:text-6xl font-black text-white leading-tight">
+      {BRAND_NAME} <span class="bg-gradient-to-r from-fuchsia-400 to-violet-400 bg-clip-text text-transparent">Pricing</span>
+    </h1>
+    <p class="text-[#888] mt-5 text-base max-w-md mx-auto">
+      One plan. Everything included. $9.99/month or $49.99/year — cancel anytime.
+    </p>
+  </header>
 
   <PricingSection />
 </BaseLayout>

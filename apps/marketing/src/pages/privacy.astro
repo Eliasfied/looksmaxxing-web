@@ -1,15 +1,27 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 
-const BRAND_NAME = import.meta.env.PUBLIC_BRAND_NAME ?? '{{BRAND_NAME}}';
-const SITE_URL = import.meta.env.PUBLIC_SITE_URL ?? 'https://yourdomain.com';
+const BRAND_NAME = import.meta.env.PUBLIC_BRAND_NAME ?? 'Aura: Looksmaxxing';
+const SITE_URL = import.meta.env.PUBLIC_SITE_URL ?? 'https://www.aura-looksmaxxing.com';
 const supportEmail = `support@${new URL(SITE_URL).hostname}`;
+
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": `${SITE_URL}/` },
+    { "@type": "ListItem", "position": 2, "name": "Privacy", "item": `${SITE_URL}/privacy` },
+  ],
+};
 ---
 
 <BaseLayout
   title={`Privacy Policy | ${BRAND_NAME}`}
   description={`Learn how ${BRAND_NAME} collects, uses, and protects your personal data.`}
 >
+  <Fragment slot="head">
+    <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
+  </Fragment>
   <div class="max-w-3xl mx-auto px-4 py-16">
     <h1 class="text-3xl md:text-4xl font-black text-white mb-2">Privacy Policy</h1>
     <p class="text-[#555] text-sm mb-12">Last updated: April 2025</p>

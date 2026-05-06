@@ -1,17 +1,30 @@
-# {{BRAND_NAME}}
+# Aura: Looksmaxxing
 
-> One-line description of what your product does.
+> AI-powered looksmaxxing platform. Upload a selfie, get a PSL score, personalized hairstyle recommendations, a daily glow-up routine, and a 24/7 AI coach — everything you need to reach your potential.
 
 ## Product
 
-- [{{BRAND_NAME}} App](https://app.yourapp.com): Main app description.
-- [Pricing](https://yourapp.com/pricing): Subscription plans and credit packs.
-- [FAQ](https://yourapp.com/faq): Common questions.
+- [Aura: Looksmaxxing](https://www.aura-looksmaxxing.com): Marketing site and product overview.
+- [Pricing](https://www.aura-looksmaxxing.com/pricing): One plan, $9.99/month or $49.99/year. 100 credits per month, everything included.
+- [FAQ](https://www.aura-looksmaxxing.com/faq): Common questions about credits, billing, AI models, and image quality.
+- [About](https://www.aura-looksmaxxing.com/about): Mission and what the product does.
+- [Privacy](https://www.aura-looksmaxxing.com/privacy): How we handle personal data.
+- [Terms](https://www.aura-looksmaxxing.com/terms): Terms of service.
 
-## AI Models
+## Features
 
-TODO: list your models here.
+- AI Face Analysis (1 credit per scan): Upload a selfie, receive a PSL score with a detailed breakdown of facial proportions and harmony.
+- Hairstyle Try-On (3 credits): Preview different cuts on your face shape using image generation.
+- Glow-Up Plan: A personalized daily routine generated from your scan.
+- AI Coach: 24/7 chat that has the context of your scan and goals.
 
-## Use Cases
+## Pricing
 
-TODO: append one line per explore page here (pSEO generator can do this automatically).
+- Aura Monthly: $9.99 / month, includes 100 credits per month.
+- Aura Yearly: $49.99 / year, includes 100 credits per month (best value).
+- Scans cost 1 credit; hairstyle try-ons cost 3 credits.
+
+## Platform availability
+
+- Web: https://www.aura-looksmaxxing.com
+- Android: https://play.google.com/store/apps/details?id=com.elias.looksmaxxing

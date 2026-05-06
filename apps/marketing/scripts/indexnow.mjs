@@ -10,7 +10,7 @@
 const KEY = process.env.INDEXNOW_KEY ?? 'your-indexnow-key-here';
 const HOST = process.env.PUBLIC_SITE_URL
   ? new URL(process.env.PUBLIC_SITE_URL).hostname
-  : 'yourdomain.com';
+  : 'www.aura-looksmaxxing.com';
 const SITE_URL = process.env.PUBLIC_SITE_URL ?? `https://${HOST}`;
 
 // Fetch and parse sitemap

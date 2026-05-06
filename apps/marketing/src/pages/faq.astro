@@ -2,7 +2,8 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import faqData from '../data/faq.json';
 
-const BRAND_NAME = import.meta.env.PUBLIC_BRAND_NAME ?? '{{BRAND_NAME}}';
+const BRAND_NAME = import.meta.env.PUBLIC_BRAND_NAME ?? 'Aura: Looksmaxxing';
+const SITE_URL = import.meta.env.PUBLIC_SITE_URL ?? 'https://www.aura-looksmaxxing.com';
 
 const faqSchema = {
   "@context": "https://schema.org",
@@ -13,6 +14,15 @@ const faqSchema = {
     "acceptedAnswer": { "@type": "Answer", "text": f.answer },
   })),
 };
+
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": `${SITE_URL}/` },
+    { "@type": "ListItem", "position": 2, "name": "FAQ", "item": `${SITE_URL}/faq` },
+  ],
+};
 ---
 
 <BaseLayout
@@ -21,6 +31,7 @@ const faqSchema = {
 >
   <Fragment slot="head">
     <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
+    <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
   </Fragment>
 
   <section class="max-w-3xl mx-auto px-4 py-24">

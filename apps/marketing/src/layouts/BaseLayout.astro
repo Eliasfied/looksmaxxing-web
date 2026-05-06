@@ -11,8 +11,8 @@ interface Props {
   canonical?: string;
 }
 
-const BRAND_NAME = import.meta.env.PUBLIC_BRAND_NAME ?? '{{BRAND_NAME}}';
-const SITE_URL = import.meta.env.PUBLIC_SITE_URL ?? 'https://yourdomain.com';
+const BRAND_NAME = import.meta.env.PUBLIC_BRAND_NAME ?? 'Aura: Looksmaxxing';
+const SITE_URL = import.meta.env.PUBLIC_SITE_URL ?? 'https://www.aura-looksmaxxing.com';
 
 const {
   title,
@@ -51,7 +51,15 @@ const canonicalURL = canonical ?? new URL(Astro.url.pathname, Astro.site).href;
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap"
+      media="print"
+      onload="this.media='all'"
+    />
+    <noscript>
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap" />
+    </noscript>
     <link rel="icon" type="image/png" href="/logo.png" />
     <slot name="head" />
   </head>
