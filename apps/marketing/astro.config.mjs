@@ -6,7 +6,7 @@ import tailwindcss from '@tailwindcss/vite';
 const buildDate = new Date().toISOString();
 
 export default defineConfig({
-  site: process.env.PUBLIC_SITE_URL ?? 'https://www.aura-looksmaxxing.com',
+  site: process.env.PUBLIC_SITE_URL ?? 'https://aura-looksmaxxing.com',
   output: 'static',
   integrations: [
     sitemap({
