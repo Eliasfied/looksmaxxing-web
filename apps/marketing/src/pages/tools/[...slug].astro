@@ -1,0 +1,183 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection, render } from 'astro:content';
+
+const APP_URL = import.meta.env.PUBLIC_APP_URL;
+const SITE_URL = import.meta.env.PUBLIC_SITE_URL ?? 'https://aura-looksmaxxing.com';
+
+export async function getStaticPaths() {
+  const tools = await getCollection('tools', ({ data }) => !data.draft);
+  return tools.map(tool => ({
+    params: { slug: tool.data.slug },
+    props: { tool },
+  }));
+}
+
+const { tool } = Astro.props;
+const { Content } = await render(tool);
+
+const allTools = await getCollection('tools', ({ data }) => !data.draft);
+const relatedTools = tool.data.related?.length
+  ? allTools.filter(t => tool.data.related.includes(t.data.slug)).slice(0, 4)
+  : allTools.filter(t => t.data.slug !== tool.data.slug).slice(0, 4);
+
+const faqSchema = tool.data.faq?.length ? {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: tool.data.faq.map(f => ({
+    '@type': 'Question',
+    name: f.q,
+    acceptedAnswer: { '@type': 'Answer', text: f.a },
+  })),
+} : null;
+
+const breadcrumbSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home', item: SITE_URL },
+    { '@type': 'ListItem', position: 2, name: 'Tools', item: `${SITE_URL}/tools` },
+    { '@type': 'ListItem', position: 3, name: tool.data.h1, item: `${SITE_URL}/tools/${tool.data.slug}` },
+  ],
+};
+
+const softwareSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'SoftwareApplication',
+  name: tool.data.h1,
+  description: tool.data.description,
+  applicationCategory: 'UtilityApplication',
+  operatingSystem: 'Web',
+  offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD' },
+};
+---
+
+<BaseLayout title={tool.data.title} description={tool.data.description}>
+  <Fragment slot="head">
+    {faqSchema && <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />}
+    <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
+    <script type="application/ld+json" set:html={JSON.stringify(softwareSchema)} />
+  </Fragment>
+
+  <!-- HERO -->
+  <section class="relative overflow-hidden">
+    <div class="pointer-events-none absolute inset-0">
+      <div class="absolute -top-40 left-1/2 h-[600px] w-[600px] -translate-x-1/2 rounded-full bg-purple-600/10 blur-[140px]"></div>
+      <div class="absolute top-20 right-0 h-[400px] w-[400px] rounded-full bg-fuchsia-600/5 blur-[120px]"></div>
+    </div>
+
+    <div class="relative max-w-6xl mx-auto px-4 pt-16 pb-12">
+      <nav class="text-xs text-[#666] mb-8 flex items-center gap-2">
+        <a href="/" class="hover:text-white transition-colors">Home</a>
+        <span>/</span>
+        <a href="/tools" class="hover:text-white transition-colors">Tools</a>
+      </nav>
+
+      <div class="flex flex-col lg:flex-row lg:items-center gap-12">
+        <div class="flex-1">
+          {tool.data.badge && (
+            <span class="inline-block btn-gradient text-white text-xs font-bold px-3 py-1 rounded-full mb-5">{tool.data.badge}</span>
+          )}
+          <h1 class="text-4xl md:text-5xl font-black text-white leading-tight mb-4">{tool.data.h1}</h1>
+          <p class="text-lg text-[#aaa] mb-8 leading-relaxed">{tool.data.subtitle}</p>
+          <a href={`${APP_URL}/register`} class="inline-flex items-center gap-3 btn-gradient text-white font-bold px-8 py-4 rounded-full hover:opacity-90 transition-opacity text-base">
+            {tool.data.cta_label} <span>→</span>
+          </a>
+          <p class="text-xs text-[#666] mt-3">No download required. Works in your browser.</p>
+        </div>
+
+        {tool.data.heroImage && (
+          <div class="lg:w-[500px] flex-shrink-0">
+            <div class="aspect-square rounded-2xl overflow-hidden bg-gradient-to-br from-purple-600/20 to-fuchsia-600/20">
+              <img src={tool.data.heroImage} alt={tool.data.heroImageAlt ?? tool.data.h1} class="w-full h-full object-cover" />
+            </div>
+          </div>
+        )}
+      </div>
+    </div>
+  </section>
+
+  <!-- BENEFITS -->
+  {tool.data.benefits?.length > 0 && (
+    <section class="max-w-5xl mx-auto px-4 py-16">
+      <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-5">
+        {tool.data.benefits.map(b => (
+          <div class="bg-[#111] rounded-2xl p-6 border border-white/5">
+            <div class="text-3xl mb-3">{b.icon}</div>
+            <h3 class="text-white font-bold mb-2">{b.title}</h3>
+            <p class="text-[#888] text-sm leading-relaxed">{b.description}</p>
+          </div>
+        ))}
+      </div>
+    </section>
+  )}
+
+  <!-- HOW IT WORKS -->
+  {tool.data.steps?.length > 0 && (
+    <section class="max-w-3xl mx-auto px-4 py-16">
+      <h2 class="text-3xl md:text-4xl font-black text-white text-center mb-10">How it works</h2>
+      <div class="space-y-4">
+        {tool.data.steps.map(s => (
+          <div class="flex gap-5 bg-[#111] rounded-2xl p-6 border border-white/5">
+            <div class="flex-shrink-0 w-10 h-10 rounded-full bg-gradient-to-br from-fuchsia-500 to-violet-500 flex items-center justify-center text-white font-black">{s.step}</div>
+            <div>
+              <h3 class="text-white font-bold mb-1">{s.title}</h3>
+              <p class="text-[#888] text-sm leading-relaxed">{s.description}</p>
+            </div>
+          </div>
+        ))}
+      </div>
+    </section>
+  )}
+
+  <!-- BODY (markdown) -->
+  <article class="max-w-3xl mx-auto px-4 py-12">
+    <div class="prose prose-invert prose-lg max-w-none">
+      <Content />
+    </div>
+  </article>
+
+  <!-- FAQ -->
+  {tool.data.faq?.length > 0 && (
+    <section class="max-w-3xl mx-auto px-4 py-16">
+      <h2 class="text-2xl md:text-3xl font-black text-white text-center mb-10">Frequently asked questions</h2>
+      <div class="space-y-3">
+        {tool.data.faq.map(item => (
+          <details class="group bg-[#111111] rounded-2xl overflow-hidden border border-white/5">
+            <summary class="flex items-center justify-between px-7 py-5 cursor-pointer list-none hover:bg-[#161616] transition-colors">
+              <span class="text-white font-bold">{item.q}</span>
+              <span class="text-[#555] text-2xl ml-6 flex-shrink-0 group-open:rotate-45 transition-transform">+</span>
+            </summary>
+            <div class="px-7 pb-6 pt-1">
+              <p class="text-[#888] text-base leading-relaxed">{item.a}</p>
+            </div>
+          </details>
+        ))}
+      </div>
+    </section>
+  )}
+
+  <!-- BOTTOM CTA -->
+  <section class="bg-[#080808] border-y border-white/5 py-16">
+    <div class="max-w-2xl mx-auto px-4 text-center">
+      <h2 class="text-3xl md:text-4xl font-black text-white mb-4">Ready to {tool.data.cta_label.toLowerCase()}?</h2>
+      <a href={`${APP_URL}/register`} class="inline-block btn-gradient text-white font-bold px-8 py-4 rounded-full text-base hover:opacity-90 transition-opacity">
+        {tool.data.cta_label} →
+      </a>
+    </div>
+  </section>
+
+  {relatedTools.length > 0 && (
+    <section class="max-w-5xl mx-auto px-4 py-16">
+      <h2 class="text-xl font-bold text-white mb-6">More tools</h2>
+      <div class="grid sm:grid-cols-2 gap-4">
+        {relatedTools.map(t => (
+          <a href={`/tools/${t.data.slug}`} class="group bg-[#111] hover:bg-[#161616] rounded-2xl p-6 border border-white/5 hover:border-white/10 transition-colors">
+            <h3 class="text-white font-bold group-hover:text-fuchsia-400 transition-colors">{t.data.h1}</h3>
+            <p class="text-[#888] text-sm mt-1 line-clamp-2">{t.data.subtitle}</p>
+          </a>
+        ))}
+      </div>
+    </section>
+  )}
+</BaseLayout>

@@ -16,8 +16,7 @@ Hak einfach ab (`- [x]`) wenn erledigt.
 - [x] `plans` Collection → Dokumente `aura_monthly` + `aura_yearly` angelegt
 - [x] Firestore Index → `face_scans` (userId ASC + createdAt DESC) angelegt
 - [x] Firestore Security Rules gesetzt
-- [ ] Authorized Domain `app.looksmaxxing.ai` in Firebase Auth hinzufügen
-  → kommt später wenn Domain eingerichtet ist
+- [x] Authorized Domain `app.aura-looksmaxxing.com` in Firebase Auth hinzufügen
 
 ---
 
@@ -52,13 +51,13 @@ Hak einfach ab (`- [x]`) wenn erledigt.
 - [x] Root Directory: `apps/web`
 - [x] Framework: Next.js (auto-erkannt)
 - [x] Alle Env-Vars eintragen (aus `.env.local` kopieren + FAL + RevenueCat ergänzen)
-- [ ] Custom Domain: `app.looksmaxxing.ai`
+- [x] Custom Domain: `app.aura-looksmaxxing.com`
 
 ### 5.2 Marketing App (`apps/marketing`)
 - [x] Vercel → New Project → gleicher Repo, Root Directory: `apps/marketing`
 - [x] Framework: Astro
 - [x] Env-Vars eingetragen
-- [ ] Custom Domain: `looksmaxxing.ai`
+- [x] Custom Domain: `aura-looksmaxxing.com`
 
 ---
 
@@ -70,24 +69,23 @@ Hak einfach ab (`- [x]`) wenn erledigt.
 - [x] Produkte in RevenueCat angelegt (`aura_monthly` + `aura_yearly`)
 - [x] Entitlement `premium` angelegt → beide Produkte zugewiesen
 - [x] Default Offering angelegt
-- [x] Webhook eingerichtet → `https://looksmaxxing-web-web.vercel.app/api/webhooks/revenuecat`
-  → später auf `https://app.looksmaxxing.ai/api/webhooks/revenuecat` umstellen
+- [x] Webhook eingerichtet → `https://app.aura-looksmaxxing.com/api/webhooks/revenuecat`
 - [x] `REVENUECAT_WEBHOOK_SECRET` in Vercel eingetragen
 - [x] `NEXT_PUBLIC_REVENUECAT_API_KEY` in Vercel eingetragen
-- [ ] Stripe Test-Modus: Testkauf durchführen → Credits werden in Firestore gutgeschrieben?
-- [ ] Stripe Live-Modus aktivieren (nach erfolgreichem Test)
+- [x] Stripe Test-Modus: Testkauf durchführen → Credits werden in Firestore gutgeschrieben
+- [x] Stripe Live-Modus aktivieren
 
 > ⚠️ Stripe-Verifizierung kann 1–3 Tage dauern → früh anfangen!
 
 ---
 
-## 7. Domain & DNS
+## 7. Domain & DNS ✅ ERLEDIGT
 
-- [ ] Domain `looksmaxxing.ai` beim DNS-Provider (Cloudflare o.ä.) konfigurieren:
-  - `looksmaxxing.ai` → Vercel (Marketing App)
-  - `app.looksmaxxing.ai` → Vercel (Web App)
-- [ ] SSL: Vercel macht das automatisch
-- [ ] Firebase Auth: `app.looksmaxxing.ai` als Authorized Domain eintragen
+- [x] Domain `aura-looksmaxxing.com` beim DNS-Provider konfiguriert:
+  - `aura-looksmaxxing.com` → Vercel (Marketing App)
+  - `app.aura-looksmaxxing.com` → Vercel (Web App)
+- [x] SSL: Vercel automatisch
+- [x] Firebase Auth: `app.aura-looksmaxxing.com` als Authorized Domain eingetragen
 
 ---
 
@@ -102,25 +100,50 @@ Hak einfach ab (`- [x]`) wenn erledigt.
 
 ---
 
-## 9. Finaler End-to-End Test
+## 9. Finaler End-to-End Test ✅ ERLEDIGT
 
-- [ ] Register → Bestätigungsmail kommt an
-- [ ] Login → Dashboard erreichbar
-- [ ] Face Scan → PSL Score erscheint, Scan in Firestore `face_scans` sichtbar
-- [ ] Credits korrekt abgezogen (Firestore `credits` Collection)
-- [ ] Haircut Try-On → Bild wird generiert
-- [ ] AI Chat → Antworten kommen, Scan-Daten sind im Kontext
-- [ ] RevenueCat Kauf → Credits werden gutgeschrieben
-- [ ] Kündigung → Status in Firestore `subscriptions` = `cancelled`
+- [x] Register → Bestätigungsmail kommt an
+- [x] Login → Dashboard erreichbar
+- [x] Face Scan → PSL Score erscheint, Scan in Firestore `face_scans` sichtbar
+- [x] Credits korrekt abgezogen (Firestore `credits` Collection)
+- [x] Haircut Try-On → Bild wird generiert
+- [x] AI Chat → Antworten kommen, Scan-Daten sind im Kontext
+- [x] RevenueCat Kauf → Credits werden gutgeschrieben
+- [x] Kündigung → Status in Firestore `subscriptions` = `cancelled`
+
+---
+
+## 10. SEO Einrichtung ← **JETZT DRAN**
+
+### 10.1 Google Search Console (GSC)
+- [ ] Property `aura-looksmaxxing.com` anlegen (Domain-Property via DNS-Verifizierung)
+- [ ] Sitemap einreichen: `https://aura-looksmaxxing.com/sitemap.xml`
+- [ ] URL Inspection → Startseite indexieren lassen
+- [ ] Core Web Vitals Report prüfen
+
+### 10.2 Bing Webmaster Tools
+- [ ] Account anlegen: https://www.bing.com/webmasters
+- [ ] Site `aura-looksmaxxing.com` hinzufügen (DNS-Verifizierung oder GSC-Import)
+- [ ] Sitemap einreichen
+- [ ] IndexNow Key generieren → in Marketing App einbinden (wie bei Banana AI: `scripts/indexnow.mjs`)
+
+### 10.3 Blog-Post-Automations-Script
+- [ ] Keywords-CSV anlegen (`apps/marketing/src/data/keywords.csv`) mit Looksmaxxing-Keyword-Clustern
+- [ ] Script `scripts/generate-blog-posts.mjs` erstellen (analog zu Banana AI `generate-explore-pages.mjs`)
+  - Claude API → Blog-Post-Inhalt generieren (Titel, Meta, Volltext, FAQ)
+  - Frontmatter für Astro Content Collections
+  - Git → commit auf Review-Branch (oder `--auto` für main)
+  - Keywords-CSV → Cluster als "generated" markieren
+- [ ] Astro Content Collection für Blog einrichten (`src/content/blog/`)
+- [ ] Blog-Listing-Page + einzelne Post-Page erstellen
+- [ ] Erstes Batch generieren: `node scripts/generate-blog-posts.mjs --count 10`
 
 ---
 
 ## Empfohlene Reihenfolge als nächstes
 
-1. **OpenAI Proxy testen** → einfach lokal Face Scan machen
-2. **FAL API Key** holen → Haircut Try-On testen
-3. **Vercel** deployen (beide Apps)
-4. **RevenueCat + Stripe** einrichten (Stripe-Verifizierung einplanen!)
-5. **Domain & DNS**
-6. **Firebase Auth** → `app.looksmaxxing.ai` als Authorized Domain
-7. **Finaler Test**
+1. **GSC** → Property anlegen + Sitemap einreichen
+2. **Bing** → Site hinzufügen + IndexNow einbinden
+3. **Blog-Script** → Keywords-CSV + Script aufbauen
+4. **Ersten Blog-Batch** generieren (10–20 Posts)
+5. **PostHog** (optional) → Analytics aufsetzen

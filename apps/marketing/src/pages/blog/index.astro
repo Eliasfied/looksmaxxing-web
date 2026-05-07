@@ -1,0 +1,67 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+
+const SITE_URL = import.meta.env.PUBLIC_SITE_URL ?? 'https://aura-looksmaxxing.com';
+
+const posts = (await getCollection('blog', ({ data }) => !data.draft))
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+
+const formatDate = (d: Date) => d.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
+---
+
+<BaseLayout
+  title="Looksmaxxing Blog | Aura"
+  description="In-depth guides on mewing, hunter eyes, jawline training, PSL ratings, and every other looksmaxxing topic. Backed by research, written for results."
+>
+  <section class="relative overflow-hidden">
+    <div class="pointer-events-none absolute inset-0">
+      <div class="absolute -top-40 left-1/2 h-[600px] w-[600px] -translate-x-1/2 rounded-full bg-purple-600/10 blur-[140px]"></div>
+    </div>
+
+    <div class="relative max-w-5xl mx-auto px-4 pt-20 pb-12">
+      <h1 class="text-4xl md:text-6xl font-black text-white mb-4 leading-tight">
+        Looksmaxxing <span class="bg-gradient-to-r from-fuchsia-400 to-violet-400 bg-clip-text text-transparent">Knowledge Base</span>
+      </h1>
+      <p class="text-lg text-[#aaa] max-w-2xl mb-12">
+        Practical guides to improve your face, jawline, eye area, skin, and overall presence. Skip the forum noise.
+      </p>
+    </div>
+  </section>
+
+  <section class="max-w-5xl mx-auto px-4 pb-24">
+    {posts.length === 0 && (
+      <p class="text-[#666] text-center py-16">No posts yet. Check back soon.</p>
+    )}
+
+    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
+      {posts.map(post => (
+        <a
+          href={`/blog/${post.data.slug}`}
+          class="group bg-[#111] hover:bg-[#161616] rounded-2xl overflow-hidden border border-white/5 hover:border-white/10 transition-colors"
+        >
+          {post.data.heroImage && (
+            <div class="aspect-[16/9] overflow-hidden bg-gradient-to-br from-purple-600/20 to-fuchsia-600/20">
+              <img
+                src={post.data.heroImage}
+                alt={post.data.heroImageAlt ?? post.data.title}
+                class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                loading="lazy"
+              />
+            </div>
+          )}
+          <div class="p-6">
+            <div class="flex items-center gap-2 text-xs text-[#666] mb-3">
+              <time datetime={post.data.pubDate.toISOString()}>{formatDate(post.data.pubDate)}</time>
+              {post.data.readingTime && <><span>·</span><span>{post.data.readingTime} min read</span></>}
+            </div>
+            <h2 class="text-white font-bold text-lg mb-2 leading-snug group-hover:text-fuchsia-400 transition-colors">
+              {post.data.title}
+            </h2>
+            <p class="text-[#888] text-sm leading-relaxed line-clamp-3">{post.data.description}</p>
+          </div>
+        </a>
+      ))}
+    </div>
+  </section>
+</BaseLayout>

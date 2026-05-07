@@ -1,0 +1,135 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection, render } from 'astro:content';
+
+const APP_URL = import.meta.env.PUBLIC_APP_URL;
+const SITE_URL = import.meta.env.PUBLIC_SITE_URL ?? 'https://aura-looksmaxxing.com';
+
+export async function getStaticPaths() {
+  const posts = await getCollection('blog', ({ data }) => !data.draft);
+  return posts.map(post => ({
+    params: { slug: post.data.slug },
+    props: { post },
+  }));
+}
+
+const { post } = Astro.props;
+const { Content } = await render(post);
+
+const allPosts = await getCollection('blog', ({ data }) => !data.draft);
+const relatedPosts = post.data.related?.length
+  ? allPosts.filter(p => post.data.related.includes(p.data.slug)).slice(0, 3)
+  : allPosts.filter(p => p.data.slug !== post.data.slug).slice(0, 3);
+
+const formatDate = (d: Date) => d.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
+
+const articleSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Article',
+  headline: post.data.title,
+  description: post.data.description,
+  datePublished: post.data.pubDate.toISOString(),
+  dateModified: (post.data.updatedDate ?? post.data.pubDate).toISOString(),
+  author: { '@type': 'Organization', name: 'Aura: Looksmaxxing' },
+  publisher: { '@type': 'Organization', name: 'Aura: Looksmaxxing', logo: { '@type': 'ImageObject', url: `${SITE_URL}/logo.png` } },
+  mainEntityOfPage: `${SITE_URL}/blog/${post.data.slug}`,
+};
+
+const faqSchema = post.data.faq?.length ? {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: post.data.faq.map(f => ({
+    '@type': 'Question',
+    name: f.q,
+    acceptedAnswer: { '@type': 'Answer', text: f.a },
+  })),
+} : null;
+
+const breadcrumbSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home', item: SITE_URL },
+    { '@type': 'ListItem', position: 2, name: 'Blog', item: `${SITE_URL}/blog` },
+    { '@type': 'ListItem', position: 3, name: post.data.title, item: `${SITE_URL}/blog/${post.data.slug}` },
+  ],
+};
+---
+
+<BaseLayout title={`${post.data.title} | Aura`} description={post.data.description} ogImage={post.data.heroImage ? `${SITE_URL}${post.data.heroImage}` : undefined}>
+  <Fragment slot="head">
+    <script type="application/ld+json" set:html={JSON.stringify(articleSchema)} />
+    {faqSchema && <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />}
+    <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
+  </Fragment>
+
+  <article class="max-w-3xl mx-auto px-4 pt-16 pb-12">
+    <nav class="text-xs text-[#666] mb-8 flex items-center gap-2">
+      <a href="/" class="hover:text-white transition-colors">Home</a>
+      <span>/</span>
+      <a href="/blog" class="hover:text-white transition-colors">Blog</a>
+    </nav>
+
+    <header class="mb-12">
+      <div class="flex items-center gap-2 text-sm text-[#666] mb-4">
+        <time datetime={post.data.pubDate.toISOString()}>{formatDate(post.data.pubDate)}</time>
+        {post.data.readingTime && <><span>·</span><span>{post.data.readingTime} min read</span></>}
+      </div>
+      <h1 class="text-4xl md:text-5xl font-black text-white leading-tight mb-4">{post.data.title}</h1>
+      <p class="text-lg text-[#aaa] leading-relaxed">{post.data.description}</p>
+    </header>
+
+    {post.data.heroImage && (
+      <div class="aspect-[16/9] overflow-hidden rounded-2xl mb-12 bg-gradient-to-br from-purple-600/20 to-fuchsia-600/20">
+        <img src={post.data.heroImage} alt={post.data.heroImageAlt ?? post.data.title} class="w-full h-full object-cover" />
+      </div>
+    )}
+
+    <div class="prose prose-invert prose-lg max-w-none">
+      <Content />
+    </div>
+
+    {post.data.faq?.length > 0 && (
+      <section class="mt-16">
+        <h2 class="text-2xl font-black text-white mb-6">Frequently asked questions</h2>
+        <div class="space-y-3">
+          {post.data.faq.map(item => (
+            <details class="group bg-[#111111] rounded-2xl overflow-hidden border border-white/5">
+              <summary class="flex items-center justify-between px-6 py-4 cursor-pointer list-none hover:bg-[#161616] transition-colors">
+                <span class="text-white font-bold">{item.q}</span>
+                <span class="text-[#555] text-2xl ml-6 flex-shrink-0 group-open:rotate-45 transition-transform">+</span>
+              </summary>
+              <div class="px-6 pb-5 pt-1">
+                <p class="text-[#888] text-base leading-relaxed">{item.a}</p>
+              </div>
+            </details>
+          ))}
+        </div>
+      </section>
+    )}
+  </article>
+
+  <section class="bg-[#080808] border-y border-white/5 py-16 mt-12">
+    <div class="max-w-2xl mx-auto px-4 text-center">
+      <h2 class="text-3xl md:text-4xl font-black text-white mb-4">Get your real PSL score in seconds</h2>
+      <p class="text-[#888] text-base mb-8">Aura uses computer vision to give you an honest face rating, plus personalized improvement plans for jawline, skin, eyes, and more.</p>
+      <a href={`${APP_URL}/register`} class="inline-block btn-gradient text-white font-bold px-8 py-4 rounded-full text-base hover:opacity-90 transition-opacity">
+        Try Aura free →
+      </a>
+    </div>
+  </section>
+
+  {relatedPosts.length > 0 && (
+    <section class="max-w-5xl mx-auto px-4 py-16">
+      <h2 class="text-xl font-bold text-white mb-6">Related reading</h2>
+      <div class="grid sm:grid-cols-3 gap-4">
+        {relatedPosts.map(p => (
+          <a href={`/blog/${p.data.slug}`} class="group bg-[#111] hover:bg-[#161616] rounded-2xl p-6 border border-white/5 hover:border-white/10 transition-colors">
+            <h3 class="text-white font-bold mb-2 group-hover:text-fuchsia-400 transition-colors line-clamp-2">{p.data.title}</h3>
+            <p class="text-[#888] text-sm line-clamp-2">{p.data.description}</p>
+          </a>
+        ))}
+      </div>
+    </section>
+  )}
+</BaseLayout>
