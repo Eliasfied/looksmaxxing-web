@@ -28,6 +28,8 @@
 
 import fs from 'fs';
 import path from 'path';
+import https from 'https';
+import http from 'http';
 import { execSync } from 'child_process';
 import { fileURLToPath } from 'url';
 
@@ -35,12 +37,19 @@ import { fileURLToPath } from 'url';
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, '..');
 
-for (const envFile of ['scripts/.env.local', '.env.local', 'apps/marketing/.env.local']) {
+// Load .env files. Later files do NOT override earlier ones, but empty/missing
+// vars are filled in. The root .env.local takes priority.
+for (const envFile of ['.env.local', 'scripts/.env.local', 'apps/marketing/.env.local']) {
   const envPath = path.join(ROOT, envFile);
-  if (fs.existsSync(envPath)) {
-    for (const line of fs.readFileSync(envPath, 'utf-8').split('\n')) {
-      const m = line.match(/^([^#=\s]+)\s*=\s*(.*)$/);
-      if (m) process.env[m[1]] ??= m[2].replace(/^['"]|['"]$/g, '');
+  if (!fs.existsSync(envPath)) continue;
+  for (const line of fs.readFileSync(envPath, 'utf-8').split('\n')) {
+    const m = line.match(/^([^#=\s]+)\s*=\s*(.*)$/);
+    if (!m) continue;
+    const key = m[1];
+    const val = m[2].replace(/\r$/, '').replace(/^['"]|['"]$/g, '');
+    if (!val) continue;                                  // skip empty values
+    if (!process.env[key] || process.env[key] === '') {  // override empty/missing
+      process.env[key] = val;
     }
   }
 }
@@ -55,11 +64,13 @@ const TYPES = (getArg('--types') ?? 'blog,tool,glossary').split(',').map(s => s.
 const PHASE = getArg('--phase') ? parseInt(getArg('--phase'), 10) : null;
 const AUTO = hasFlag('--auto');
 const DRY_RUN = hasFlag('--dry-run');
+const NO_IMAGES = hasFlag('--no-images');
 const ONLY_SLUG = getArg('--slug');
 
 // ─── Paths ──────────────────────────────────────────────────────────────────
 const CSV_PATH = path.join(ROOT, 'apps/marketing/src/data/keywords.csv');
 const CONTENT_BASE = path.join(ROOT, 'apps/marketing/src/content');
+const PUBLIC_BASE = path.join(ROOT, 'apps/marketing/public');
 const CONTENT_DIRS = {
   blog: path.join(CONTENT_BASE, 'blog'),
   tool: path.join(CONTENT_BASE, 'tools'),
@@ -74,6 +85,45 @@ async function anthropic() {
     _anthropic = new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY });
   }
   return _anthropic;
+}
+
+// ─── Lazy fal.ai client ─────────────────────────────────────────────────────
+let _fal = null;
+async function falClient() {
+  if (!_fal) {
+    const mod = await import('@fal-ai/client');
+    if (mod.fal) {
+      _fal = mod.fal;
+      _fal.config({ credentials: process.env.FAL_API_KEY });
+    } else if (mod.createFalClient) {
+      _fal = mod.createFalClient({ credentials: process.env.FAL_API_KEY });
+    } else {
+      throw new Error('Cannot initialize fal.ai client');
+    }
+  }
+  return _fal;
+}
+
+async function sharpLib() {
+  const { default: sharp } = await import('sharp');
+  return sharp;
+}
+
+// ─── HTTP download helper ───────────────────────────────────────────────────
+function downloadBuffer(url) {
+  return new Promise((resolve, reject) => {
+    const lib = url.startsWith('https') ? https : http;
+    lib.get(url, res => {
+      if (res.statusCode && res.statusCode >= 300 && res.statusCode < 400 && res.headers.location) {
+        return downloadBuffer(res.headers.location).then(resolve, reject);
+      }
+      if (res.statusCode !== 200) return reject(new Error(`HTTP ${res.statusCode} for ${url}`));
+      const chunks = [];
+      res.on('data', c => chunks.push(c));
+      res.on('end', () => resolve(Buffer.concat(chunks)));
+      res.on('error', reject);
+    }).on('error', reject);
+  });
 }
 
 // ─── CSV helpers ────────────────────────────────────────────────────────────
@@ -160,6 +210,8 @@ const SHARED_RULES = `
 STRICT WRITING RULES:
 - Never use em-dashes (—). Use commas, periods, or restructure.
 - No hype words (revolutionary, cutting-edge, game-changing, supercharge).
+- NEVER include a year, date, or "(2024)", "(2025)", "(2026)" etc. in titles, H1, or meta titles. Make titles evergreen.
+- NEVER write "Updated YYYY", "in YYYY", "for YYYY" anywhere in titles or descriptions.
 - Grounded, practical, specific. No fluff.
 - Mention the Aura app naturally where relevant. Aura is an AI face-rating and looksmaxxing app at app.aura-looksmaxxing.com that gives PSL scores, jawline analysis, hunter-eye detection, and personalized improvement plans.
 - NEVER promise medical results. Use phrases like "may help", "some users report", "research suggests".
@@ -179,7 +231,7 @@ PAGE INFO:
 - Related keywords to weave in naturally: ${page.keywords.map(k => k.keyword).slice(1, 12).join(', ') || '(none)'}
 
 GOAL:
-Rank for "${page.primary_keyword}" and adjacent searches. Convert readers to Aura app users via natural CTA placement (1-2 inline mentions + the page-level CTA which is auto-added).
+Rank for "${page.primary_keyword}" and adjacent searches. Convert readers to Aura app users via subtle CTA placement.
 
 LENGTH:
 1500-2200 words of body markdown.
@@ -187,14 +239,50 @@ Structure: intro hook → main sections (h2/h3) → practical tips → FAQ.
 
 ${SHARED_RULES}
 
+CTA RULES:
+- Include 1 to 2 natural mentions of Aura inside the body where it genuinely helps the reader (e.g., "to get an objective baseline before starting"). Format as a markdown link: [Aura](https://app.aura-looksmaxxing.com).
+- The CTA must feel useful, not promotional. If Aura honestly does not fit the article topic, include only ONE mention or skip entirely. Never force it.
+- Do NOT include phrases like "Try Aura now!" or "Sign up today!" inside the body. The page already has a bottom CTA section auto-rendered.
+
+IMAGE RULES:
+- We have 3 images per article: image 1 is the HERO (auto-rendered at the top, do NOT place it in the body), images 2 and 3 are INLINE in the body.
+- Insert exactly TWO inline placeholders: \`{{IMAGE_2}}\` and \`{{IMAGE_3}}\`. Do NOT use \`{{IMAGE_1}}\` in the body. Do NOT use markdown image syntax.
+- Each placeholder goes on its own line with blank lines before and after.
+- Distribute them: \`{{IMAGE_2}}\` around the middle of the article (after a couple H2 sections). \`{{IMAGE_3}}\` in the lower third (before the FAQ-related content).
+- Example placement:
+  \`\`\`
+  ## Some H2
+
+  Content paragraph.
+
+  {{IMAGE_2}}
+
+  More content.
+  \`\`\`
+- Provide exactly 3 image_prompts in the JSON.
+  * image_prompts[0] = HERO image: a big-picture, eye-catching overview visual that represents the topic at a glance. Avoid being too detail-heavy.
+  * image_prompts[1] and image_prompts[2] = INLINE supporting visuals: more specific, drilled-down concepts (anatomy diagrams, before/after concepts, technique demonstrations, comparison visuals).
+  * Each prompt must:
+    - Describe an EDUCATIONAL or ILLUSTRATIVE visual (no abstract concepts).
+    - Be specific and visual.
+    - Avoid celebrity faces, real-person likenesses, or copyrighted material.
+    - Match the article topic precisely.
+    - Be ~2 sentences, focused on what should be SHOWN.
+    - All 3 images must be VISUALLY DISTINCT from each other (different framing, subject, or angle).
+
 Return ONLY valid JSON (no markdown fences, no preamble) matching this exact schema:
 {
-  "title": "SEO title with primary keyword (under 60 chars)",
+  "title": "SEO title with primary keyword (under 60 chars, NO YEAR)",
   "description": "Meta description (140-160 chars) with primary keyword + benefit",
-  "h1_displayed": "The on-page title shown in <h1>. Slightly different from meta title is OK.",
+  "h1_displayed": "The on-page title shown in <h1>. Slightly different from meta title is OK. NO YEAR.",
   "reading_time": 8,
   "tags": ["tag1", "tag2", "tag3"],
-  "body_markdown": "## First H2\\n\\nFirst paragraph...\\n\\nMore content...\\n\\n## Second H2\\n\\n...",
+  "body_markdown": "## First H2\\n\\nFirst paragraph...\\n\\n## Second H2\\n\\nMore content...\\n\\n{{IMAGE_2}}\\n\\n## Third H2\\n\\n... {{IMAGE_3}} ...",
+  "image_prompts": [
+    { "prompt": "Detailed visual description for the first image, e.g. clean educational diagram showing X.", "alt": "Alt text for image 1, with primary keyword if natural" },
+    { "prompt": "Visual description for image 2.", "alt": "Alt text for image 2" },
+    { "prompt": "Visual description for image 3.", "alt": "Alt text for image 3" }
+  ],
   "faq": [
     { "q": "Question 1?", "a": "Direct answer in 2-3 sentences." },
     { "q": "Question 2?", "a": "..." },
@@ -203,12 +291,11 @@ Return ONLY valid JSON (no markdown fences, no preamble) matching this exact sch
   ]
 }
 
-In body_markdown, use:
+In body_markdown:
 - ## for main sections (5-8 of them)
 - ### for sub-sections
 - Bold and italic where it adds emphasis
 - Bullet/numbered lists where appropriate
-- Internal mention of "Aura" naturally 1-2 times (not as a sales pitch, as a useful tool reference)
 - Real anatomical/scientific terms where appropriate but explain them
 - For "vs" comparison posts: include a side-by-side comparison
 - For "how to" posts: include numbered actionable steps`;
@@ -353,8 +440,17 @@ function buildFrontmatter(obj) {
 }
 
 // ─── Save markdown to content collection ────────────────────────────────────
-function saveBlogMarkdown(page, data) {
+async function saveBlogMarkdown(page, data) {
   const today = new Date().toISOString().split('T')[0];
+
+  // Generate the 3 images first
+  const prompts = (data.image_prompts ?? []).slice(0, 3);
+  const images = await generateBlogImages(page.slug, prompts);
+  const heroImage = images.find(i => i.num === 1 && i.publicPath);
+
+  // Inject images into body markdown
+  const bodyWithImages = injectImagesIntoBody(data.body_markdown, images);
+
   const fm = {
     title: data.title,
     description: data.description,
@@ -362,20 +458,22 @@ function saveBlogMarkdown(page, data) {
     primary_keyword: page.primary_keyword,
     cluster: page.cluster,
     pubDate: today,
+    heroImage: heroImage?.publicPath,
+    heroImageAlt: heroImage?.alt,
     tags: data.tags ?? [],
     readingTime: data.reading_time ?? 8,
     related: [],
     faq: data.faq ?? [],
     draft: false,
   };
-  const body = `${buildFrontmatter(fm)}\n\n${data.body_markdown}\n`;
+  const body = `${buildFrontmatter(fm)}\n\n${bodyWithImages}\n`;
   const out = path.join(CONTENT_DIRS.blog, `${page.slug}.md`);
   fs.mkdirSync(path.dirname(out), { recursive: true });
   fs.writeFileSync(out, body);
   return out;
 }
 
-function saveToolMarkdown(page, data) {
+async function saveToolMarkdown(page, data) {
   const today = new Date().toISOString().split('T')[0];
   const fm = {
     title: data.title,
@@ -401,7 +499,7 @@ function saveToolMarkdown(page, data) {
   return out;
 }
 
-function saveGlossaryMarkdown(page, data) {
+async function saveGlossaryMarkdown(page, data) {
   const today = new Date().toISOString().split('T')[0];
   const fm = {
     title: data.title,
@@ -425,6 +523,91 @@ function saveGlossaryMarkdown(page, data) {
 }
 
 const SAVERS = { blog: saveBlogMarkdown, tool: saveToolMarkdown, glossary: saveGlossaryMarkdown };
+
+// ─── FAL gpt-image-2 image generation ───────────────────────────────────────
+const IMAGE_MODEL = 'openai/gpt-image-2';
+const STYLE_SUFFIX = ', clean modern educational illustration, minimalist style, soft purple and dark navy color palette, no text, no labels, no watermarks, professional infographic aesthetic';
+
+async function generateOneImage(prompt) {
+  const fal = await falClient();
+  const result = await fal.subscribe(IMAGE_MODEL, {
+    input: {
+      prompt: prompt + STYLE_SUFFIX,
+      image_size: 'square_hd',
+      quality: 'low',
+      num_images: 1,
+      output_format: 'png',
+    },
+    logs: false,
+  });
+  // GPT-Image-2 returns either { images: [{url}] } or { image: {url} }
+  const url = result.data?.images?.[0]?.url
+    ?? result.data?.image?.url
+    ?? result.images?.[0]?.url;
+  if (!url) throw new Error(`No image URL in fal.ai response: ${JSON.stringify(result.data ?? result).slice(0, 200)}`);
+  return url;
+}
+
+async function compressToWebp(buffer) {
+  const sharp = await sharpLib();
+  return sharp(buffer)
+    .resize(1024, 1024, { fit: 'cover' })
+    .webp({ quality: 65, effort: 6, smartSubsample: true })
+    .toBuffer();
+}
+
+async function generateBlogImages(slug, imagePrompts) {
+  if (NO_IMAGES) {
+    console.log(`   ⏭️  Skipping image generation (--no-images)`);
+    return [];
+  }
+  if (!process.env.FAL_API_KEY) {
+    console.warn(`   ⚠️  FAL_API_KEY not set; skipping image generation`);
+    return [];
+  }
+
+  const outDir = path.join(PUBLIC_BASE, 'blog', slug);
+  fs.mkdirSync(outDir, { recursive: true });
+
+  const results = [];
+  for (let i = 0; i < imagePrompts.length; i++) {
+    const { prompt, alt } = imagePrompts[i];
+    const num = i + 1;
+    const outPath = path.join(outDir, `${num}.webp`);
+    const publicPath = `/blog/${slug}/${num}.webp`;
+    try {
+      console.log(`   🎨 Image ${num}/3: ${prompt.slice(0, 60)}...`);
+      const url = await generateOneImage(prompt);
+      const png = await downloadBuffer(url);
+      const webp = await compressToWebp(png);
+      fs.writeFileSync(outPath, webp);
+      const sizeKb = (webp.length / 1024).toFixed(0);
+      console.log(`      ✓ Saved ${publicPath} (${sizeKb} KB)`);
+      results.push({ num, publicPath, alt: alt || `Image ${num}` });
+    } catch (e) {
+      console.warn(`      ❌ Image ${num} failed: ${e.message}`);
+      results.push({ num, publicPath: null, alt: alt || `Image ${num}` });
+    }
+  }
+  return results;
+}
+
+function injectImagesIntoBody(body, imageResults) {
+  let out = body;
+  for (const img of imageResults) {
+    const placeholder = new RegExp(`\\{\\{IMAGE_${img.num}\\}\\}`, 'g');
+    if (img.publicPath) {
+      const md = `![${img.alt}](${img.publicPath})`;
+      out = out.replace(placeholder, md);
+    } else {
+      // Image generation failed, drop the placeholder
+      out = out.replace(placeholder, '');
+    }
+  }
+  // Clean up any double blank lines created by removed placeholders
+  out = out.replace(/\n{3,}/g, '\n\n');
+  return out;
+}
 
 // ─── Update CSV row(s) for a slug ───────────────────────────────────────────
 function markRowsGenerated(rows, slug) {
@@ -495,7 +678,7 @@ async function main() {
       console.log(`   ✓ Title: ${data.title || data.h1 || data.term}`);
 
       if (!DRY_RUN) {
-        const outPath = SAVERS[page.page_type](page, data);
+        const outPath = await SAVERS[page.page_type](page, data);
         markRowsGenerated(rows, page.slug);
         console.log(`   ✓ Saved: ${path.relative(ROOT, outPath)}`);
         generated.push({ page, outPath });
@@ -524,6 +707,9 @@ async function main() {
   // Commit
   try {
     git('add apps/marketing/src/content apps/marketing/src/data/keywords.csv');
+    if (fs.existsSync(path.join(ROOT, 'apps/marketing/public/blog'))) {
+      git('add apps/marketing/public/blog');
+    }
     const summary = generated.map(g => `- ${g.page.page_type}: ${g.page.slug}`).join('\n');
     const commitMsg = `content: generate ${generated.length} page${generated.length > 1 ? 's' : ''}\n\n${summary}`;
     fs.writeFileSync(path.join(ROOT, '.commit-msg.tmp'), commitMsg);
