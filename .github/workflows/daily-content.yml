@@ -1,0 +1,87 @@
+name: Daily Content Generation
+
+on:
+  schedule:
+    # Daily at 08:00 UTC (10:00 Berlin summer / 09:00 winter)
+    - cron: '0 8 * * *'
+  workflow_dispatch:
+    # Also triggerable manually via GitHub UI
+    inputs:
+      count:
+        description: 'Number of pages to generate'
+        required: false
+        default: '1'
+      types:
+        description: 'Comma-separated types: blog,tool,glossary'
+        required: false
+        default: 'blog,tool,glossary'
+      phase:
+        description: 'Phase to pull from (1, 2, 3, or empty for any)'
+        required: false
+        default: ''
+      slug:
+        description: 'Specific slug to generate (optional, for testing)'
+        required: false
+        default: ''
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'pnpm'
+
+      - name: Install dependencies
+        run: pnpm install
+
+      - name: Configure git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Generate content
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          FAL_API_KEY: ${{ secrets.FAL_API_KEY }}
+        run: |
+          COUNT="${{ github.event.inputs.count || '1' }}"
+          TYPES="${{ github.event.inputs.types || 'blog,tool,glossary' }}"
+          PHASE="${{ github.event.inputs.phase }}"
+          SLUG="${{ github.event.inputs.slug }}"
+
+          ARGS="--count $COUNT --types $TYPES --auto"
+          if [ -n "$PHASE" ]; then
+            ARGS="$ARGS --phase $PHASE"
+          fi
+          if [ -n "$SLUG" ]; then
+            ARGS="$ARGS --slug $SLUG"
+          fi
+
+          echo "Running: node scripts/generate-content.mjs $ARGS"
+          node scripts/generate-content.mjs $ARGS
+
+      - name: Summary
+        if: always()
+        run: |
+          echo "### Daily content generation complete" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "Recent commits:" >> $GITHUB_STEP_SUMMARY
+          echo '```' >> $GITHUB_STEP_SUMMARY
+          git log --oneline -3 >> $GITHUB_STEP_SUMMARY
+          echo '```' >> $GITHUB_STEP_SUMMARY
