@@ -312,14 +312,20 @@ PAGE INFO:
 
 ${SHARED_RULES}
 
+IMAGE RULE:
+- Provide exactly ONE image_prompt for the HERO image. The image will be displayed in the top-right of the landing page next to the H1.
+- The prompt must describe a tool-themed visual: e.g. an abstract phone-screen mockup of the tool, a stylized facial-analysis interface, a clean conceptual visual representing the tool's output. Avoid celebrity faces or real-person likenesses.
+- Be ~2 sentences, focused on what should be SHOWN.
+
 Return ONLY valid JSON matching this exact schema:
 {
-  "title": "SEO meta title with primary kw (under 60 chars)",
+  "title": "SEO meta title with primary kw (under 60 chars, NO YEAR)",
   "description": "Meta description 140-160 chars",
-  "h1": "On-page H1 (the big headline visitors see)",
+  "h1": "On-page H1 (the big headline visitors see, NO YEAR)",
   "subtitle": "1-2 sentence subtitle under H1 explaining what the tool does",
   "cta_label": "Open the [Tool Name]",
   "badge": "Free / Popular / New / null",
+  "image_prompt": { "prompt": "Visual description of the hero image", "alt": "Alt text with the primary keyword if natural" },
   "benefits": [
     { "icon": "💯", "title": "Benefit 1", "description": "One sentence." },
     { "icon": "⚡", "title": "Benefit 2", "description": "One sentence." },
@@ -475,6 +481,14 @@ async function saveBlogMarkdown(page, data) {
 
 async function saveToolMarkdown(page, data) {
   const today = new Date().toISOString().split('T')[0];
+
+  // Generate 1 hero image
+  let hero = null;
+  if (data.image_prompt?.prompt) {
+    const images = await generateToolImage(page.slug, data.image_prompt);
+    hero = images.find(i => i.publicPath);
+  }
+
   const fm = {
     title: data.title,
     description: data.description,
@@ -486,6 +500,8 @@ async function saveToolMarkdown(page, data) {
     subtitle: data.subtitle,
     cta_label: data.cta_label ?? 'Open the App',
     badge: data.badge && data.badge !== 'null' ? data.badge : undefined,
+    heroImage: hero?.publicPath,
+    heroImageAlt: hero?.alt,
     benefits: data.benefits ?? [],
     steps: data.steps ?? [],
     faq: data.faq ?? [],
@@ -497,6 +513,36 @@ async function saveToolMarkdown(page, data) {
   fs.mkdirSync(path.dirname(out), { recursive: true });
   fs.writeFileSync(out, body);
   return out;
+}
+
+async function generateToolImage(slug, imagePrompt) {
+  if (NO_IMAGES) {
+    console.log(`   ⏭️  Skipping image generation (--no-images)`);
+    return [];
+  }
+  if (!process.env.FAL_API_KEY) {
+    console.warn(`   ⚠️  FAL_API_KEY not set; skipping image generation`);
+    return [];
+  }
+
+  const outDir = path.join(PUBLIC_BASE, 'tools', slug);
+  fs.mkdirSync(outDir, { recursive: true });
+  const outPath = path.join(outDir, `hero.webp`);
+  const publicPath = `/tools/${slug}/hero.webp`;
+
+  try {
+    console.log(`   🎨 Hero image: ${imagePrompt.prompt.slice(0, 60)}...`);
+    const url = await generateOneImage(imagePrompt.prompt);
+    const png = await downloadBuffer(url);
+    const webp = await compressToWebp(png);
+    fs.writeFileSync(outPath, webp);
+    const sizeKb = (webp.length / 1024).toFixed(0);
+    console.log(`      ✓ Saved ${publicPath} (${sizeKb} KB)`);
+    return [{ publicPath, alt: imagePrompt.alt || 'Hero image' }];
+  } catch (e) {
+    console.warn(`      ❌ Hero image failed: ${e.message}`);
+    return [];
+  }
 }
 
 async function saveGlossaryMarkdown(page, data) {
@@ -709,6 +755,9 @@ async function main() {
     git('add apps/marketing/src/content apps/marketing/src/data/keywords.csv');
     if (fs.existsSync(path.join(ROOT, 'apps/marketing/public/blog'))) {
       git('add apps/marketing/public/blog');
+    }
+    if (fs.existsSync(path.join(ROOT, 'apps/marketing/public/tools'))) {
+      git('add apps/marketing/public/tools');
     }
     const summary = generated.map(g => `- ${g.page.page_type}: ${g.page.slug}`).join('\n');
     const commitMsg = `content: generate ${generated.length} page${generated.length > 1 ? 's' : ''}\n\n${summary}`;
