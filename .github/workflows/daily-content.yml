@@ -2,8 +2,8 @@ name: Daily Content Generation
 
 on:
   schedule:
-    # Daily at 08:00 UTC (10:00 Berlin summer / 09:00 winter)
-    - cron: '0 8 * * *'
+    # Daily at 15:00 UTC (17:00 Berlin summer / 16:00 winter)
+    - cron: '0 15 * * *'
   workflow_dispatch:
     # Also triggerable manually via GitHub UI
     inputs:
