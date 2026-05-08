@@ -605,12 +605,12 @@ sub 5 psl,110,29,gloss-sub5-sub3,sub5-sub3,pending,glossary,no,1
 sub3 face,110,29,gloss-sub5-sub3,sub5-sub3,pending,glossary,no,1
 hardmaxxing,720,30,gloss-softmax-hardmax,softmaxxing-vs-hardmaxxing,pending,glossary,yes,1
 what is softmaxxing,170,29,gloss-softmax-hardmax,softmaxxing-vs-hardmaxxing,pending,glossary,no,1
-jestermaxxing,6600,29,gloss-jestermaxxing,jestermaxxing,pending,glossary,yes,1
-jestermaxxing meaning,2400,27,gloss-jestermaxxing,jestermaxxing,pending,glossary,no,1
-goyslop meaning,5400,27,gloss-goyslop,goyslop,pending,glossary,yes,1
-goyslop definition,1300,29,gloss-goyslop,goyslop,pending,glossary,no,1
-caging meaning,5400,38,gloss-caging,caging,pending,glossary,yes,1
-cage slang,390,36,gloss-caging,caging,pending,glossary,no,1
+jestermaxxing,6600,29,gloss-jestermaxxing,jestermaxxing,generated,glossary,yes,1
+jestermaxxing meaning,2400,27,gloss-jestermaxxing,jestermaxxing,generated,glossary,no,1
+goyslop meaning,5400,27,gloss-goyslop,goyslop,generated,glossary,yes,1
+goyslop definition,1300,29,gloss-goyslop,goyslop,generated,glossary,no,1
+caging meaning,5400,38,gloss-caging,caging,generated,glossary,yes,1
+cage slang,390,36,gloss-caging,caging,generated,glossary,no,1
 heightpill,320,31,gloss-heightmaxxing,heightmaxxing,pending,glossary,yes,1
 iqmax,390,21,gloss-iqmaxxing-brainmaxxing,iqmaxxing-brainmaxxing,pending,glossary,yes,1
 recessed infras,3600,29,gloss-orbital,orbital-bones-recessed,pending,glossary,yes,1
