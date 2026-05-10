@@ -65,22 +65,22 @@ oval vs diamond face shape,260,23,face-shape-detector,face-shape-detector,pendin
 most attractive face shape men,170,37,face-shape-detector,face-shape-detector,pending,tool,no,1
 before and after chewing gum face shape,140,33,face-shape-detector,face-shape-detector,pending,tool,no,1
 oval vs diamond face,110,30,face-shape-detector,face-shape-detector,pending,tool,no,1
-canthal tilt,22200,47,canthal-tilt-checker,canthal-tilt-checker,pending,tool,yes,1
-how to get positive canthal tilt,480,24,canthal-tilt-checker,canthal-tilt-checker,pending,tool,no,1
-how to fix negative canthal tilt,390,26,canthal-tilt-checker,canthal-tilt-checker,pending,tool,no,1
-negative vs positive canthal tilt,390,27,canthal-tilt-checker,canthal-tilt-checker,pending,tool,no,1
-what is a negative canthal tilt,320,21,canthal-tilt-checker,canthal-tilt-checker,pending,tool,no,1
-positive orbital vector,210,23,canthal-tilt-checker,canthal-tilt-checker,pending,tool,no,1
-positive canthal tilt vs negative,170,28,canthal-tilt-checker,canthal-tilt-checker,pending,tool,no,1
-is negative canthal tilt bad,140,24,canthal-tilt-checker,canthal-tilt-checker,pending,tool,no,1
-can you change your canthal tilt,140,22,canthal-tilt-checker,canthal-tilt-checker,pending,tool,no,1
-negative canthal tilt vs positive,140,27,canthal-tilt-checker,canthal-tilt-checker,pending,tool,no,1
-negative canthal tilt men,110,27,canthal-tilt-checker,canthal-tilt-checker,pending,tool,no,1
-positive canthal tilt men,110,26,canthal-tilt-checker,canthal-tilt-checker,pending,tool,no,1
-how to measure canthal tilt,110,25,canthal-tilt-checker,canthal-tilt-checker,pending,tool,no,1
-what is positive canthal tilt,90,31,canthal-tilt-checker,canthal-tilt-checker,pending,tool,no,1
-canthal tilt looksmaxxing,70,13,canthal-tilt-checker,canthal-tilt-checker,pending,tool,no,1
-negative canthal tilt eyes,70,29,canthal-tilt-checker,canthal-tilt-checker,pending,tool,no,1
+canthal tilt,22200,47,canthal-tilt-checker,canthal-tilt-checker,generated,tool,yes,1
+how to get positive canthal tilt,480,24,canthal-tilt-checker,canthal-tilt-checker,generated,tool,no,1
+how to fix negative canthal tilt,390,26,canthal-tilt-checker,canthal-tilt-checker,generated,tool,no,1
+negative vs positive canthal tilt,390,27,canthal-tilt-checker,canthal-tilt-checker,generated,tool,no,1
+what is a negative canthal tilt,320,21,canthal-tilt-checker,canthal-tilt-checker,generated,tool,no,1
+positive orbital vector,210,23,canthal-tilt-checker,canthal-tilt-checker,generated,tool,no,1
+positive canthal tilt vs negative,170,28,canthal-tilt-checker,canthal-tilt-checker,generated,tool,no,1
+is negative canthal tilt bad,140,24,canthal-tilt-checker,canthal-tilt-checker,generated,tool,no,1
+can you change your canthal tilt,140,22,canthal-tilt-checker,canthal-tilt-checker,generated,tool,no,1
+negative canthal tilt vs positive,140,27,canthal-tilt-checker,canthal-tilt-checker,generated,tool,no,1
+negative canthal tilt men,110,27,canthal-tilt-checker,canthal-tilt-checker,generated,tool,no,1
+positive canthal tilt men,110,26,canthal-tilt-checker,canthal-tilt-checker,generated,tool,no,1
+how to measure canthal tilt,110,25,canthal-tilt-checker,canthal-tilt-checker,generated,tool,no,1
+what is positive canthal tilt,90,31,canthal-tilt-checker,canthal-tilt-checker,generated,tool,no,1
+canthal tilt looksmaxxing,70,13,canthal-tilt-checker,canthal-tilt-checker,generated,tool,no,1
+negative canthal tilt eyes,70,29,canthal-tilt-checker,canthal-tilt-checker,generated,tool,no,1
 mewing exercises for jawline,880,39,jawline-analyzer,jawline-analyzer,pending,tool,yes,1
 mewing jawline exercise,880,34,jawline-analyzer,jawline-analyzer,pending,tool,no,1
 chad jaw,720,33,jawline-analyzer,jawline-analyzer,pending,tool,no,1
