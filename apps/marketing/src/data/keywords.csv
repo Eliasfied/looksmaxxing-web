@@ -60,11 +60,11 @@ attractiveness test looksmax,70,18,face-rating-ai,ai-face-rating,pending,tool,no
 beauty scale filter,70,29,face-rating-ai,ai-face-rating,pending,tool,no,1
 5 scale rating,70,53,face-rating-ai,ai-face-rating,pending,tool,no,1
 ai looksmaxxing,0,17,face-rating-ai,ai-face-rating,pending,tool,no,1
-masculine face shape,14800,39,face-shape-detector,face-shape-detector,pending,tool,yes,1
-oval vs diamond face shape,260,23,face-shape-detector,face-shape-detector,pending,tool,no,1
-most attractive face shape men,170,37,face-shape-detector,face-shape-detector,pending,tool,no,1
-before and after chewing gum face shape,140,33,face-shape-detector,face-shape-detector,pending,tool,no,1
-oval vs diamond face,110,30,face-shape-detector,face-shape-detector,pending,tool,no,1
+masculine face shape,14800,39,face-shape-detector,face-shape-detector,generated,tool,yes,1
+oval vs diamond face shape,260,23,face-shape-detector,face-shape-detector,generated,tool,no,1
+most attractive face shape men,170,37,face-shape-detector,face-shape-detector,generated,tool,no,1
+before and after chewing gum face shape,140,33,face-shape-detector,face-shape-detector,generated,tool,no,1
+oval vs diamond face,110,30,face-shape-detector,face-shape-detector,generated,tool,no,1
 canthal tilt,22200,47,canthal-tilt-checker,canthal-tilt-checker,generated,tool,yes,1
 how to get positive canthal tilt,480,24,canthal-tilt-checker,canthal-tilt-checker,generated,tool,no,1
 how to fix negative canthal tilt,390,26,canthal-tilt-checker,canthal-tilt-checker,generated,tool,no,1
