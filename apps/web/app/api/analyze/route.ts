@@ -1,12 +1,13 @@
 import { NextResponse } from 'next/server'
 import { getSessionUser } from '@/lib/firebase/server'
 import { getCredits, deductCredits } from '@/lib/firebase/credits'
-import { createFaceScan } from '@/lib/firebase/scans'
+import { createFaceScan, countUserScans, redactLockedScan } from '@/lib/firebase/scans'
+import { appConfig } from '@/lib/config'
 
 export const maxDuration = 120
 
 const OPENAI_PROXY = 'https://openai-secure-proxy.vercel.app/api/chat'
-const ANALYZE_COST = 1
+const ANALYZE_COST = appConfig.credits.scan
 
 const FACE_ANALYSIS_PROMPT = `You are a looksmaxxing face analysis AI. Analyze the face in the image and rate each metric objectively.
 
@@ -86,9 +87,13 @@ export async function POST(request: Request) {
   const user = await getSessionUser()
   if (!user) return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
 
-  const balance = await getCredits(user.id)
-  if (balance.total_credits < ANALYZE_COST) {
-    return NextResponse.json({ error: 'Insufficient credits' }, { status: 402 })
+  const isFirstScan = (await countUserScans(user.id)) === 0
+
+  if (!isFirstScan) {
+    const balance = await getCredits(user.id)
+    if (balance.total_credits < ANALYZE_COST) {
+      return NextResponse.json({ error: 'Insufficient credits' }, { status: 402 })
+    }
   }
 
   let imageBase64: string
@@ -154,7 +159,9 @@ export async function POST(request: Request) {
     return NextResponse.json({ error: 'Failed to parse analysis' }, { status: 500 })
   }
 
-  await deductCredits(user.id, ANALYZE_COST, 'face_analysis', 'Face Analysis')
+  if (!isFirstScan) {
+    await deductCredits(user.id, ANALYZE_COST, 'face_analysis', 'Face Analysis')
+  }
 
   const scan = await createFaceScan({
     userId: user.id,
@@ -176,5 +183,5 @@ export async function POST(request: Request) {
     details: (analysisData.details as Record<string, string>) || {},
   })
 
-  return NextResponse.json({ scan })
+  return NextResponse.json({ scan: redactLockedScan(scan) })
 }

@@ -2,16 +2,20 @@
 
 import { useState, useRef, useCallback } from 'react'
 import type { FaceScan } from '@/lib/firebase/scans'
+import { InsufficientCreditsPrompt } from '@/components/insufficient-credits-prompt'
+import { appConfig } from '@/lib/config'
 
 interface Props {
   onClose: () => void
   onScanComplete: (scan: FaceScan) => void
+  isFirstScan: boolean
 }
 
-export function UploadModal({ onClose, onScanComplete }: Props) {
+export function UploadModal({ onClose, onScanComplete, isFirstScan }: Props) {
   const [image, setImage] = useState<string | null>(null)
   const [loading, setLoading] = useState(false)
   const [error, setError] = useState<string | null>(null)
+  const [outOfCredits, setOutOfCredits] = useState(false)
   const inputRef = useRef<HTMLInputElement>(null)
 
   const handleFile = useCallback((file: File) => {
@@ -34,6 +38,7 @@ export function UploadModal({ onClose, onScanComplete }: Props) {
     if (!image) return
     setLoading(true)
     setError(null)
+    setOutOfCredits(false)
     try {
       const res = await fetch('/api/analyze', {
         method: 'POST',
@@ -41,6 +46,10 @@ export function UploadModal({ onClose, onScanComplete }: Props) {
         body: JSON.stringify({ imageBase64: image }),
       })
       const data = await res.json()
+      if (res.status === 402) {
+        setOutOfCredits(true)
+        return
+      }
       if (!res.ok) {
         setError(data.error ?? 'Analysis failed. Please try again.')
         return
@@ -107,6 +116,12 @@ export function UploadModal({ onClose, onScanComplete }: Props) {
           </div>
         )}
 
+        {outOfCredits && (
+          <div className="mt-4">
+            <InsufficientCreditsPrompt required={appConfig.credits.scan} />
+          </div>
+        )}
+
         {error && (
           <p className="mt-3 text-sm text-red-400 text-center">{error}</p>
         )}
@@ -127,7 +142,9 @@ export function UploadModal({ onClose, onScanComplete }: Props) {
           </button>
         </div>
 
-        <p className="mt-3 text-center text-xs text-[#444]">Costs 5 credits · Results in ~20 seconds</p>
+        <p className="mt-3 text-center text-xs text-[#444]">
+          {isFirstScan ? 'First scan free' : `Costs ${appConfig.credits.scan} credits`} · Results in ~20 seconds
+        </p>
       </div>
     </div>
   )

@@ -41,15 +41,59 @@ export interface FaceScan {
   categoryAnalysis: CategoryAnalysis
   recommendations: Recommendations
   details: FaceScanDetails
+  unlocked: boolean
 }
 
-export type CreateFaceScanInput = Omit<FaceScan, 'id' | 'createdAt'>
+export type CreateFaceScanInput = Omit<FaceScan, 'id' | 'createdAt' | 'unlocked'>
 
 export async function createFaceScan(data: CreateFaceScanInput): Promise<FaceScan> {
   const ref = adminDb.collection('face_scans').doc()
   const createdAt = new Date().toISOString()
-  await ref.set({ ...data, createdAt })
-  return { ...data, id: ref.id, createdAt }
+  const scan = { ...data, createdAt, unlocked: false }
+  await ref.set(scan)
+  return { ...scan, id: ref.id }
+}
+
+export async function countUserScans(userId: string): Promise<number> {
+  const snap = await adminDb
+    .collection('face_scans')
+    .where('userId', '==', userId)
+    .count()
+    .get()
+  return snap.data().count
+}
+
+export async function unlockScan(scanId: string): Promise<void> {
+  await adminDb.collection('face_scans').doc(scanId).update({ unlocked: true })
+}
+
+/**
+ * Replaces the paid detail metrics with placeholders. The locked UI only blurs
+ * its children, so the real values must never reach the client.
+ */
+export function redactLockedScan(scan: FaceScan): FaceScan {
+  if (scan.unlocked) return scan
+
+  const placeholder = ['Unlock to see your breakdown', 'Unlock to see your breakdown', 'Unlock to see your breakdown']
+
+  return {
+    ...scan,
+    gonialAngleScore: 62,
+    midfaceRatioScore: 69,
+    cheekboneScore: 55,
+    canthalTiltScore: 61,
+    upperEyelidScore: 58,
+    ipdScore: 72,
+    skinClarityScore: 66,
+    hairlineScore: 74,
+    symmetryScore: 64,
+    categoryAnalysis: Object.fromEntries(
+      Object.keys(scan.categoryAnalysis ?? {}).map(key => [key, placeholder])
+    ),
+    recommendations: Object.fromEntries(
+      Object.keys(scan.recommendations ?? {}).map(key => [key, 'Unlock to see your personalized recommendation.'])
+    ),
+  }
 }
 
 export async function getUserScans(userId: string): Promise<FaceScan[]> {

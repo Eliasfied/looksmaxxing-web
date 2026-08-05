@@ -3,9 +3,11 @@
 import { useState } from 'react'
 import Link from 'next/link'
 import type { FaceScan } from '@/lib/firebase/scans'
+import { LockedSection } from '@/components/locked-section'
 
 interface Props {
   scan: FaceScan
+  availableCredits: number
 }
 
 function metricColor(v: number) {
@@ -151,7 +153,7 @@ const TOOLTIPS = {
   symmetry: 'How symmetrical your face is from left to right. Higher means more symmetrical — perfect symmetry is extremely rare.',
 }
 
-export function ScanDetailClient({ scan }: Props) {
+export function ScanDetailClient({ scan, availableCredits }: Props) {
   return (
     <div className="max-w-2xl mx-auto space-y-8">
       <Link
@@ -195,6 +197,7 @@ export function ScanDetailClient({ scan }: Props) {
       </div>
 
       {/* Categories */}
+      <LockedSection scanId={scan.id} locked={!scan.unlocked} availableCredits={availableCredits}>
       <div className="space-y-4">
         {/* Bone Structure */}
         <div className="rounded-2xl border border-white/5 bg-white/[0.02] p-6 space-y-3">
@@ -241,6 +244,7 @@ export function ScanDetailClient({ scan }: Props) {
           <Recommendation text={scan.recommendations.symmetry} />
         </div>
       </div>
+      </LockedSection>
     </div>
   )
 }

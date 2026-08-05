@@ -1,6 +1,6 @@
 import { NextResponse } from 'next/server'
 import { getSessionUser } from '@/lib/firebase/server'
-import { getLatestScan } from '@/lib/firebase/scans'
+import { getLatestScan, redactLockedScan } from '@/lib/firebase/scans'
 
 export const maxDuration = 60
 
@@ -65,7 +65,7 @@ export async function POST(request: Request) {
   }
 
   const latestScan = await getLatestScan(user.id)
-  const systemMessage = buildSystemMessage(latestScan)
+  const systemMessage = buildSystemMessage(latestScan && redactLockedScan(latestScan))
 
   const openaiRes = await fetch(OPENAI_PROXY, {
     method: 'POST',

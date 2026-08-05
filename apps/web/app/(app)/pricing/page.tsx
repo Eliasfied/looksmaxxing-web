@@ -1,6 +1,7 @@
 'use client'
 
 import { PurchaseButton } from '@/components/purchase-button'
+import { StarterPackCard } from '@/components/starter-pack-card'
 
 const features = [
   'AI Face Analysis',
@@ -32,6 +33,8 @@ export default function PricingPage() {
           </span>
         </h1>
       </div>
+
+      <StarterPackCard />
 
       {/* Two cards */}
       <div className="grid sm:grid-cols-2 gap-5">

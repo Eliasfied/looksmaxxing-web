@@ -32,12 +32,22 @@ export const appConfig = {
       interval: "monthly" | "yearly";
       rcProductId: string;
     }>,
-    creditPacks: [] as Array<{
+    creditPacks: [
+      { id: "aura_starter_pack", name: "Starter Pack", credits: 5, price: 2.99, rcProductId: "aura_starter_pack" },
+    ] as Array<{
       id: string;
+      name: string;
       credits: number;
       price: number;
       rcProductId: string;
     }>,
+  },
+
+  credits: {
+    signupBonus: 2,
+    scan: 3,
+    unlockScan: 3,
+    haircutTryOn: 2,
   },
 
   aiModels: [] as Array<{

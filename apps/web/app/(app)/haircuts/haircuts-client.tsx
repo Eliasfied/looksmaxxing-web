@@ -2,6 +2,8 @@
 
 import { useState, useRef } from 'react'
 import { cn } from '@/lib/utils'
+import { InsufficientCreditsPrompt } from '@/components/insufficient-credits-prompt'
+import { appConfig } from '@/lib/config'
 
 const FACE_SHAPES = ['Oval', 'Square', 'Round', 'Oblong', 'Heart', 'Diamond'] as const
 type FaceShape = (typeof FACE_SHAPES)[number]
@@ -36,6 +38,7 @@ export function HaircutsClient({ defaultFaceShape }: Props) {
   const [loading, setLoading] = useState(false)
   const [result, setResult] = useState<TryOnResult | null>(null)
   const [error, setError] = useState<string | null>(null)
+  const [outOfCredits, setOutOfCredits] = useState(false)
   const inputRef = useRef<HTMLInputElement>(null)
 
   function handleFile(file: File) {
@@ -53,6 +56,7 @@ export function HaircutsClient({ defaultFaceShape }: Props) {
     }
     setLoading(true)
     setError(null)
+    setOutOfCredits(false)
     setResult(null)
     try {
       const form = new FormData()
@@ -62,6 +66,10 @@ export function HaircutsClient({ defaultFaceShape }: Props) {
 
       const res = await fetch('/api/haircut', { method: 'POST', body: form })
       const data = await res.json()
+      if (res.status === 402) {
+        setOutOfCredits(true)
+        return
+      }
       if (!res.ok) {
         setError(data.error ?? 'Generation failed. Please try again.')
         return
@@ -206,6 +214,8 @@ export function HaircutsClient({ defaultFaceShape }: Props) {
               <p className="text-sm text-[#666]">Generating your look…</p>
             </div>
           )}
+
+          {outOfCredits && <InsufficientCreditsPrompt required={appConfig.credits.haircutTryOn} />}
 
           {error && (
             <div className="rounded-xl border border-red-500/20 bg-red-500/5 p-4">

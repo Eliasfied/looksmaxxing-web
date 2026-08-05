@@ -1,6 +1,7 @@
 import { notFound, redirect } from 'next/navigation'
 import { getSessionUser } from '@/lib/firebase/server'
-import { getScanById } from '@/lib/firebase/scans'
+import { getScanById, redactLockedScan } from '@/lib/firebase/scans'
+import { getCredits } from '@/lib/firebase/credits'
 import { ScanDetailClient } from './scan-detail-client'
 
 interface Props {
@@ -15,5 +16,7 @@ export default async function ScanDetailPage({ params }: Props) {
   const scan = await getScanById(scanId)
   if (!scan || scan.userId !== user.id) notFound()
 
-  return <ScanDetailClient scan={scan} />
+  const balance = await getCredits(user.id)
+
+  return <ScanDetailClient scan={redactLockedScan(scan)} availableCredits={balance.total_credits} />
 }

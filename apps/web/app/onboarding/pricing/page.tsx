@@ -1,6 +1,7 @@
 'use client'
 
 import { PurchaseButton } from '@/components/purchase-button'
+import { StarterPackCard } from '@/components/starter-pack-card'
 
 const features = [
   'AI Face Analysis',
@@ -33,6 +34,8 @@ export default function OnboardingPricingPage() {
         </h1>
         <p className="text-[#888] mt-5 text-base">Start today. Cancel anytime.</p>
       </div>
+
+      <StarterPackCard successRedirect="/dashboard" />
 
       {/* Two cards */}
       <div className="grid sm:grid-cols-2 gap-5">

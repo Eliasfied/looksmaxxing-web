@@ -2,6 +2,7 @@
 
 import { useState } from 'react'
 import Link from 'next/link'
+import { Lock } from 'lucide-react'
 import type { FaceScan } from '@/lib/firebase/scans'
 import { UploadModal } from './upload-modal'
 
@@ -105,11 +106,21 @@ export function ResultsClient({ initialScans }: Props) {
                 </div>
               </div>
 
-              <div className="space-y-2.5">
-                <MetricBar label="Bone Structure" value={Math.round((scan.gonialAngleScore + scan.midfaceRatioScore + scan.cheekboneScore) / 3)} />
-                <MetricBar label="Eye Area" value={Math.round((scan.canthalTiltScore + scan.upperEyelidScore + scan.ipdScore) / 3)} />
-                <MetricBar label="Skin & Hair" value={Math.round((scan.skinClarityScore + scan.hairlineScore) / 2)} />
-                <MetricBar label="Symmetry" value={scan.symmetryScore} />
+              <div className="relative">
+                <div className={`space-y-2.5 ${scan.unlocked ? '' : 'blur-sm select-none'}`}>
+                  <MetricBar label="Bone Structure" value={Math.round((scan.gonialAngleScore + scan.midfaceRatioScore + scan.cheekboneScore) / 3)} />
+                  <MetricBar label="Eye Area" value={Math.round((scan.canthalTiltScore + scan.upperEyelidScore + scan.ipdScore) / 3)} />
+                  <MetricBar label="Skin & Hair" value={Math.round((scan.skinClarityScore + scan.hairlineScore) / 2)} />
+                  <MetricBar label="Symmetry" value={scan.symmetryScore} />
+                </div>
+                {!scan.unlocked && (
+                  <div className="absolute inset-0 flex items-center justify-center">
+                    <span className="flex items-center gap-1.5 rounded-full border border-purple-500/30 bg-black/80 px-3 py-1.5 text-xs font-bold text-white">
+                      <Lock className="h-3 w-3" />
+                      Locked
+                    </span>
+                  </div>
+                )}
               </div>
 
               {scan.details?.faceShape && (
@@ -123,7 +134,11 @@ export function ResultsClient({ initialScans }: Props) {
       )}
 
       {showUpload && (
-        <UploadModal onClose={() => setShowUpload(false)} onScanComplete={handleNewScan} />
+        <UploadModal
+          onClose={() => setShowUpload(false)}
+          onScanComplete={handleNewScan}
+          isFirstScan={scans.length === 0}
+        />
       )}
     </div>
   )

@@ -39,7 +39,7 @@ export default function RegisterPage() {
       const credential = await signInWithPopup(auth, provider)
       const idToken = await credential.user.getIdToken()
       await createSession(idToken)
-      router.push('/onboarding/pricing')
+      router.push('/onboarding/quiz')
       router.refresh()
     } catch (err: unknown) {
       const msg = err instanceof Error ? err.message : 'Google sign in failed'
@@ -63,7 +63,7 @@ export default function RegisterPage() {
       posthog.capture('signup', { method: 'email' })
       const idToken = await credential.user.getIdToken()
       await createSession(idToken)
-      router.push('/onboarding/pricing')
+      router.push('/onboarding/quiz')
       router.refresh()
     } catch (err: unknown) {
       const msg = err instanceof Error ? err.message : 'Registration failed'
@@ -128,7 +128,7 @@ export default function RegisterPage() {
         </form>
 
         <p className="mt-4 text-center text-xs text-[#555555]">
-          Cancel anytime &nbsp;&middot;&nbsp; Secure payment
+          Free to start &nbsp;&middot;&nbsp; No credit card required
         </p>
 
         <div className="relative my-5">

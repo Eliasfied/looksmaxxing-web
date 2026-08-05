@@ -2,10 +2,11 @@ import { NextResponse } from 'next/server'
 import { createFalClient } from '@fal-ai/client'
 import { getSessionUser } from '@/lib/firebase/server'
 import { getCredits, deductCredits } from '@/lib/firebase/credits'
+import { appConfig } from '@/lib/config'
 
 export const maxDuration = 120
 
-const HAIRCUT_COST = 3
+const HAIRCUT_COST = appConfig.credits.haircutTryOn
 
 export async function POST(request: Request) {
   const user = await getSessionUser()

@@ -1,6 +1,7 @@
 import { NextResponse } from 'next/server'
 import { cookies } from 'next/headers'
 import { adminAuth, adminDb } from '@/lib/firebase/admin'
+import { appConfig } from '@/lib/config'
 
 const SESSION_DURATION_MS = 60 * 60 * 24 * 5 * 1000 // 5 days
 const SESSION_MAX_AGE_S = 60 * 60 * 24 * 5 // 5 days in seconds
@@ -38,7 +39,7 @@ export async function POST(request: Request) {
       })
       batch.set(adminDb.collection('credits').doc(decoded.uid), {
         subscription_credits: 0,
-        topup_credits: 0,
+        topup_credits: appConfig.credits.signupBonus,
         subscription_credits_reset_at: null,
       })
       await batch.commit()
