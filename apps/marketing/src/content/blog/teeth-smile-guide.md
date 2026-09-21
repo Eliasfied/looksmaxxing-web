@@ -9,7 +9,7 @@ heroImage: /blog/teeth-smile-guide/1.webp
 heroImageAlt: Diagram of upper dental arch highlighting sharpened canine teeth position and smile width
 tags: [teeth, smile, looksmaxxing, facial-aesthetics, dental]
 readingTime: 8
-related: []
+related: [hyper-masculine-face, mtn-vs-htn, why-big-noses-are-unattractive]
 faq:
   - q: Is sharpening canine teeth permanent?
     a: Yes. Any procedure that files or removes enamel from a canine tooth is irreversible because enamel does not regenerate. Minor cosmetic contouring by a dentist is low-risk when done conservatively, but you should talk to a qualified cosmetic dentist before proceeding to understand exactly how much structure would be removed.

@@ -9,7 +9,7 @@ heroImage: /blog/how-to-grow-masseter-muscle/1.webp
 heroImageAlt: Defined male jawline showing masseter muscle prominence
 tags: [jawline, looksmaxxing, face gains, masseter, jaw exercises]
 readingTime: 8
-related: []
+related: [masseter-training-guide, jawline-improvement-guide, mandible-vs-maxilla]
 faq:
   - q: How long does it take to grow the masseter muscle visibly?
     a: Most people do not see visible changes until at least 3 to 6 months of consistent training with progressive resistance. Early weeks involve adaptation rather than visible hypertrophy. Results also depend on your starting muscle size, body fat level, and nutrition.

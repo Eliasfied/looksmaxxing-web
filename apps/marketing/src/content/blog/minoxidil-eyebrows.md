@@ -9,7 +9,7 @@ heroImage: /blog/minoxidil-eyebrows/1.webp
 heroImageAlt: Minoxidil eyebrows before and after concept illustration showing sparse versus fuller brow
 tags: [minoxidil, eyebrow growth, looksmaxxing, grooming, hair growth]
 readingTime: 8
-related: []
+related: [minoxidil-eyelashes, volufiline-lips, accutane-before-after]
 faq:
   - q: How long does it take to see results from minoxidil on eyebrows?
     a: Most users who respond to minoxidil begin to notice visible changes between months three and six of consistent daily use. Early results are often fine vellus hairs that gradually thicken into more visible terminal hairs. Evaluating before six months of consistent use is generally premature.

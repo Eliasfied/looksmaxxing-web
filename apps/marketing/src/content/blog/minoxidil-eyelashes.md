@@ -9,7 +9,7 @@ heroImage: /blog/minoxidil-eyelashes/1.webp
 heroImageAlt: Close-up illustration of eyelashes on a human eye showing lash density
 tags: [minoxidil, eyelashes, looksmaxxing, hair growth, eye area]
 readingTime: 8
-related: []
+related: [minoxidil-eyebrows, buccal-fat-removal, eyelash-growth-guide]
 faq:
   - q: Does minoxidil work on eyelashes?
     a: Some research and anecdotal evidence suggest it may promote lash growth, particularly in people with lash loss due to medical conditions. Results vary between individuals, and the evidence for cosmetic use in people with normal lash density is limited.

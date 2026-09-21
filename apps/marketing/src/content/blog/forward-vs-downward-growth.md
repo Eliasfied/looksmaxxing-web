@@ -9,7 +9,7 @@ heroImage: /blog/forward-vs-downward-growth/1.webp
 heroImageAlt: Anatomical diagram comparing forward vs downward facial growth vectors in male skull profiles
 tags: [facial structure, jawline, looksmaxxing, facial growth, bone structure]
 readingTime: 8
-related: []
+related: [facial-aesthetics, wide-vs-narrow-palate, bonesmashing-truth]
 faq:
   - q: What is the difference between forward and downward facial growth?
     a: Forward growth means the face developed more horizontally, producing a compact structure with a projected chin, defined jaw angle, and strong midface. Downward growth means the face developed more vertically, resulting in a longer lower face, a more recessed chin, and a wider gonial angle. Both patterns affect aesthetics and function.

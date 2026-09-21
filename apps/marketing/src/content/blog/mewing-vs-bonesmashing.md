@@ -9,7 +9,7 @@ heroImage: /blog/mewing-vs-bonesmashing/1.webp
 heroImageAlt: Mewing vs bonesmashing side-by-side comparison diagram
 tags: [mewing, bonesmashing, jawline, looksmaxxing, facial structure]
 readingTime: 8
-related: []
+related: [bonesmashing-truth, softmaxxing-vs-hardmaxxing-explained, mewing-complete-guide]
 faq:
   - q: Does mewing actually work for adults?
     a: The evidence for mewing in adults is limited. Bone sutures are largely fused by early adulthood, which reduces the potential for skeletal change. However, some adults report improvements in jawline definition that may be related to masseter development, posture changes, or reduced mouth breathing rather than direct bone remodeling. Results, if any, take a long time to appear.

@@ -9,7 +9,7 @@ heroImage: /blog/how-to-get-clean-shave/1.webp
 heroImageAlt: Complete shaving kit laid out showing how to get a clean shave
 tags: [grooming, shaving, skincare, mens-grooming, how-to]
 readingTime: 8
-related: []
+related: [how-to-shave-without-cream, eyebrow-maxxing-guide, haircut-for-face-shape]
 faq:
   - q: How do I get a clean shave without irritation?
     a: Prep your skin with warm water or a warm towel before shaving, use a sharp blade with adequate lather, and shave with the grain on your first pass. Finish with a moisturizing aftershave balm to support the skin barrier. Skipping any of these steps, especially prep and aftercare, is usually what causes irritation.

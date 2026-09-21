@@ -9,7 +9,7 @@ heroImage: /blog/mtn-vs-htn/1.webp
 heroImageAlt: MTN vs HTN facial diagram showing maxillary tilt and eye tilt differences
 tags: [facial-aesthetics, looksmaxxing, bone-structure]
 readingTime: 8
-related: []
+related: [how-to-get-positive-canthal-tilt, teeth-smile-guide, how-to-fix-negative-canthal-tilt]
 faq:
   - q: Can you have both MTN and HTN at the same time?
     a: Yes, and they frequently occur together. Because the maxilla provides structural support for the lateral orbital rim, a recessed or negatively tilted maxilla often contributes to the low canthus position that characterizes HTN. Addressing one may partially improve the other.

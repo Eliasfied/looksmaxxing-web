@@ -9,7 +9,7 @@ heroImage: /blog/hyper-masculine-face/1.webp
 heroImageAlt: Illustration of a hyper masculine face showing strong jawline, cheekbones, and brow ridge
 tags: [masculinity, facial-aesthetics, looksmaxxing, jawline, face-structure]
 readingTime: 8
-related: []
+related: [masculine-face-shape, why-big-noses-are-unattractive, are-hooded-eyes-attractive]
 faq:
   - q: What is the most important feature of a hyper masculine face?
     a: There is no single most important feature, but jaw and brow structure are the most consistently rated traits in research on facial masculinity. A well-defined mandible, strong gonial angle, and prominent supraorbital ridge together create the strongest masculine impression. Facial fat level is also critical because it determines how much of the underlying structure is actually visible.

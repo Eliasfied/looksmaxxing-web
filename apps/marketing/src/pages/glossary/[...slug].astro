@@ -3,7 +3,7 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import { getCollection, render } from 'astro:content';
 
 const APP_URL = import.meta.env.PUBLIC_APP_URL;
-const SITE_URL = import.meta.env.PUBLIC_SITE_URL ?? 'https://aura-looksmaxxing.com';
+const SITE_URL = import.meta.env.PUBLIC_SITE_URL ?? 'https://www.aura-looksmaxxing.com';
 
 export async function getStaticPaths() {
   const terms = await getCollection('glossary', ({ data }) => !data.draft);
@@ -40,7 +40,7 @@ const breadcrumbSchema = {
 };
 ---
 
-<BaseLayout title={`${term.data.term}${term.data.abbreviation ? ` (${term.data.abbreviation})` : ''} - Looksmaxxing Glossary | Aura`} description={term.data.description}>
+<BaseLayout title={term.data.title} description={term.data.description}>
   <Fragment slot="head">
     <script type="application/ld+json" set:html={JSON.stringify(definitionSchema)} />
     <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />

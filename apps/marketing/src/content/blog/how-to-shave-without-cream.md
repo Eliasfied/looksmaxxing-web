@@ -9,7 +9,7 @@ heroImage: /blog/how-to-shave-without-cream/1.webp
 heroImageAlt: Common substitutes for shaving without shaving cream arranged on a bathroom counter
 tags: [grooming, shaving, skin care]
 readingTime: 8
-related: []
+related: [how-to-get-clean-shave, clean-shaven-vs-stubble, eyebrow-maxxing-guide]
 faq:
   - q: Can I shave with just water and no substitute at all?
     a: Shaving with plain water is technically possible but not recommended. Without any lubricating agent, the blade drags across the skin surface, significantly increasing the risk of razor burn, nicks, and ingrown hairs. Even a small amount of conditioner or oil makes a meaningful difference.

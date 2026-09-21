@@ -9,7 +9,7 @@ heroImage: /blog/beard-growth-guide/1.webp
 heroImageAlt: Timeline illustration showing how to grow a beard with minoxidil over 12 months
 tags: [beard growth, minoxidil, facial hair, looksmaxxing, grooming]
 readingTime: 8
-related: []
+related: [eyelash-growth-guide, minoxidil-eyebrows, clean-shaven-vs-stubble]
 faq:
   - q: How long does it take to grow a beard with minoxidil?
     a: Most users see meaningful results between four and eight months of consistent use. A full evaluation of results typically requires at least 12 months. Progress is gradual and varies significantly between individuals based on genetics and baseline follicle density.

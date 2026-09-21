@@ -9,7 +9,7 @@ heroImage: /blog/buccal-fat-removal/1.webp
 heroImageAlt: Illustration of buccal fat pad location in the human face, relevant to understanding buccal fat removal gone wrong
 tags: [buccal fat removal, facial surgery risks, looksmaxxing, face procedures, surgical complications]
 readingTime: 8
-related: []
+related: [minoxidil-eyelashes, chin-filler-migrate, accutane-before-after]
 faq:
   - q: How common is buccal fat removal gone wrong?
     a: "Exact complication rates are difficult to quantify because outcomes are underreported and \"gone wrong\" can mean technical complications or simply aesthetic dissatisfaction. Surgeons who specialize in facial revision procedures report that buccal fat regret is among the more frequent revision requests they receive, particularly from patients who had the procedure done in their early 20s."

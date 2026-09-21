@@ -9,7 +9,7 @@ heroImage: /blog/gonial-angle-explained/1.webp
 heroImageAlt: Diagram of the gonial angle on a human skull profile showing the mandibular angle measurement
 tags: [jawline, facial anatomy, looksmaxxing, bone structure, face analysis]
 readingTime: 8
-related: []
+related: [ramus-length, bigonial-width, inward-flared-gonions]
 faq:
   - q: What is a good gonial angle for males?
     a: Most research places an aesthetically favorable gonial angle for males in the range of 110 to 125 degrees. Lower angles in this range tend to produce a more squared, defined jaw corner. That said, what looks good depends heavily on the rest of the face, including chin projection and cheekbone width.

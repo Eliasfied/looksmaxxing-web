@@ -9,7 +9,7 @@ heroImage: /blog/hunter-eyes-vs-almond-eyes/1.webp
 heroImageAlt: Hunter eyes vs almond eyes anatomical comparison diagram
 tags: [eye shape, facial aesthetics, looksmaxxing, hunter eyes, almond eyes]
 readingTime: 8
-related: []
+related: [hunter-eyes-vs-prey-eyes, hunter-eyes-guide, positive-vs-negative-canthal-tilt]
 faq:
   - q: Can you have both hunter eyes and almond eyes at the same time?
     a: Yes. Hunter eyes describe orbital depth and brow structure, while almond eyes describe the shape of the eye aperture. These are independent dimensions, so a person can have an almond-shaped eye opening that is also deep-set with a strong brow ridge, satisfying both definitions simultaneously.

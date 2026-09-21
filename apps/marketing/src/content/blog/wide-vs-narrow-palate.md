@@ -9,7 +9,7 @@ heroImage: /blog/wide-vs-narrow-palate/1.webp
 heroImageAlt: Diagram comparing wide vs narrow palate in human skull anatomy
 tags: [palate, facial structure, looksmaxxing, jawline, orthodontics]
 readingTime: 8
-related: []
+related: [forward-vs-downward-growth, short-vs-long-ramus, facial-aesthetics]
 faq:
   - q: How do I know if I have a narrow palate?
     a: Look at the roof of your mouth in a mirror. A narrow palate typically appears high and domed, with a V-shaped arch rather than a broad U-shape. Crowded teeth, a crossbite, or a history of mouth breathing are also common indicators. An orthodontist can confirm this with a clinical exam or imaging.

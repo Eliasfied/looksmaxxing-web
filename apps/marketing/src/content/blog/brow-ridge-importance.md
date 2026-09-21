@@ -9,7 +9,7 @@ heroImage: /blog/brow-ridge-importance/1.webp
 heroImageAlt: Side profile of male skull showing prominent brow ridge anatomy
 tags: [anatomy, facial-structure, looksmaxxing, brow-ridge, male-aesthetics]
 readingTime: 8
-related: []
+related: [eye-spacing-ipd, face-ratio-fwhr, medial-canthus]
 faq:
   - q: Can you increase brow ridge prominence without surgery?
     a: You cannot change the underlying bone without a surgical procedure. However, reducing body fat percentage, grooming the eyebrows to sit closer to the orbital rim, and improving skin quality can all make an existing brow ridge appear more defined and prominent.

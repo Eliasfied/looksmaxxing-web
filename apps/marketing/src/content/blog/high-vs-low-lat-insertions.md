@@ -9,7 +9,7 @@ heroImage: /blog/high-vs-low-lat-insertions/1.webp
 heroImageAlt: High lat insertions vs low lat insertions comparison diagram showing back musculature
 tags: [looksmaxxing, physique, fitness, body aesthetics, muscle insertions]
 readingTime: 8
-related: []
+related: [y-taper-vs-v-taper, narrow-vs-wide-clavicles, how-to-tell-if-clavicles-narrow]
 faq:
   - q: Can I change my lat insertions with training?
     a: No. Lat insertion points are determined by where your tendons attach to bone, which is a fixed genetic trait. Training can increase the size and thickness of the muscle belly and develop surrounding muscles to improve the overall appearance, but the actual insertion location does not change.

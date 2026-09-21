@@ -4,7 +4,7 @@ export const appConfig = {
     shortName: "Aura",
     domain: "aura-looksmaxxing.com",
     appUrl: "https://app.aura-looksmaxxing.com",
-    marketingUrl: "https://aura-looksmaxxing.com",
+    marketingUrl: "https://www.aura-looksmaxxing.com",
     supportEmail: "support@aura-looksmaxxing.com",
   },
 

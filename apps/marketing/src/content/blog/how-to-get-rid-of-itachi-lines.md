@@ -9,7 +9,7 @@ heroImage: /blog/how-to-get-rid-of-itachi-lines/1.webp
 heroImageAlt: illustration showing Itachi lines and tear trough hollows on a male face
 tags: [skincare, under-eye, looksmaxxing]
 readingTime: 8
-related: []
+related: [mens-skincare-routine, body-fat-and-face, volufiline-lips]
 faq:
   - q: What exactly are Itachi lines on a real face?
     a: On a real person, Itachi lines refer to prominent tear troughs or infraorbital hollows, the grooves or shadows that run from the inner eye corner diagonally down the cheek. They are caused by a combination of bone structure, fat distribution, and skin quality.

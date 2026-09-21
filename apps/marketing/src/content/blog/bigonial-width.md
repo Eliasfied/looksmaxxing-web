@@ -9,7 +9,7 @@ heroImage: /blog/bigonial-width/1.webp
 heroImageAlt: Diagram showing bigonial width measurement on a human skull
 tags: [facial anatomy, jawline, facial aesthetics]
 readingTime: 8
-related: []
+related: [gonial-angle-explained, compact-midface, inward-flared-gonions]
 faq:
   - q: What is a normal bigonial width for men and women?
     a: Average bigonial width in adult men typically falls between approximately 97 and 105 mm, while in adult women it tends to range from about 88 to 96 mm. These values vary across ethnic populations and individual body size, so they are reference ranges rather than fixed targets.

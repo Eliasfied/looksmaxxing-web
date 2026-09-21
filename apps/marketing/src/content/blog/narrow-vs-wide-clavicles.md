@@ -9,7 +9,7 @@ heroImage: /blog/narrow-vs-wide-clavicles/1.webp
 heroImageAlt: Side-by-side anatomical diagram comparing narrow vs wide clavicles in male torsos
 tags: [bone structure, shoulder aesthetics, looksmaxxing, physique, clavicle]
 readingTime: 8
-related: []
+related: [high-vs-low-lat-insertions, y-taper-vs-v-taper, how-to-tell-if-clavicles-narrow]
 faq:
   - q: Can you widen your clavicles naturally through exercise?
     a: No. The clavicle is a bone and does not grow wider in response to training once skeletal maturity is reached. Exercise can develop the lateral deltoid and improve posture, which makes shoulders appear wider, but the bone itself does not change.

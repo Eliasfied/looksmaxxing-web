@@ -9,7 +9,7 @@ heroImage: /blog/flat-vs-recessed-maxilla/1.webp
 heroImageAlt: Flat vs recessed maxilla facial profile comparison diagram
 tags: [maxilla, facial structure, looksmaxxing, bone structure, face analysis]
 readingTime: 8
-related: []
+related: [good-vs-bad-maxilla, recessed-vs-normal-maxilla, how-to-tell-if-maxilla-is-recessed]
 faq:
   - q: What is the main difference between a flat maxilla and a recessed maxilla?
     a: A flat maxilla lacks forward surface projection, making the midface look two-dimensional or deflated. A recessed maxilla refers to the entire bone being positioned too far back relative to the skull, which creates a concave facial profile and is often linked to a misaligned bite. The two conditions can occur together but describe different structural issues.

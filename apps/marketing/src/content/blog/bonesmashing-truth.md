@@ -9,7 +9,7 @@ heroImage: /blog/bonesmashing-truth/1.webp
 heroImageAlt: Illustration showing facial bone structure relevant to bonesmashing and jawline development
 tags: [bonesmashing, looksmaxxing, jawline, facial structure, bone remodeling]
 readingTime: 8
-related: []
+related: [mewing-vs-bonesmashing, facial-aesthetics, forward-vs-downward-growth]
 faq:
   - q: Does bonesmashing actually work for jawline definition?
     a: "The evidence is limited to anecdotal reports with no controlled studies. While the theoretical basis in Wolff's Law is real, the specific conditions required for bone remodeling are not reliably replicated by blunt facial impact. Most visible improvements reported by users are likely attributable to fat loss and muscle development rather than structural bone change."

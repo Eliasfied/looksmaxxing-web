@@ -9,7 +9,7 @@ heroImage: /blog/masculine-face-shape/1.webp
 heroImageAlt: Diagram of key features defining a masculine face shape
 tags: [masculinity, facial structure, jawline, looksmaxxing, face shape]
 readingTime: 8
-related: []
+related: [hyper-masculine-face, are-deep-set-eyes-attractive, are-hooded-eyes-attractive]
 faq:
   - q: What is the most important feature for a masculine face shape?
     a: The jawline, specifically the width between the jaw angles (bigonial width) and the sharpness of the gonial angle, is the most influential single feature. A wide, defined jaw is the primary visual signal of facial masculinity and is more impactful than any other single feature.

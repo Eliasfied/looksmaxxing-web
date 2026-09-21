@@ -113,30 +113,52 @@ Hak einfach ab (`- [x]`) wenn erledigt.
 
 ---
 
-## 10. SEO Einrichtung ← **JETZT DRAN**
+## 10. SEO Einrichtung
 
-### 10.1 Google Search Console (GSC)
-- [ ] Property `aura-looksmaxxing.com` anlegen (Domain-Property via DNS-Verifizierung)
-- [ ] Sitemap einreichen: `https://aura-looksmaxxing.com/sitemap.xml`
-- [ ] URL Inspection → Startseite indexieren lassen
+### 10.1 Google Search Console (GSC) ✅ ERLEDIGT
+- [x] Property `aura-looksmaxxing.com` angelegt (Domain-Property via DNS-Verifizierung)
+- [x] Sitemap eingereicht: `https://www.aura-looksmaxxing.com/sitemap-index.xml`
+      (⚠️ NICHT `/sitemap.xml` — die existiert nicht und liefert 404)
+- [x] Startseite indexiert
 - [ ] Core Web Vitals Report prüfen
 
 ### 10.2 Bing Webmaster Tools
 - [ ] Account anlegen: https://www.bing.com/webmasters
 - [ ] Site `aura-looksmaxxing.com` hinzufügen (DNS-Verifizierung oder GSC-Import)
-- [ ] Sitemap einreichen
-- [ ] IndexNow Key generieren → in Marketing App einbinden (wie bei Banana AI: `scripts/indexnow.mjs`)
+- [ ] Sitemap einreichen: `https://www.aura-looksmaxxing.com/sitemap-index.xml`
+- [ ] IndexNow Key generieren → `scripts/indexnow.mjs` ist schon da, nur Key fehlt
 
-### 10.3 Blog-Post-Automations-Script
-- [ ] Keywords-CSV anlegen (`apps/marketing/src/data/keywords.csv`) mit Looksmaxxing-Keyword-Clustern
-- [ ] Script `scripts/generate-blog-posts.mjs` erstellen (analog zu Banana AI `generate-explore-pages.mjs`)
-  - Claude API → Blog-Post-Inhalt generieren (Titel, Meta, Volltext, FAQ)
-  - Frontmatter für Astro Content Collections
-  - Git → commit auf Review-Branch (oder `--auto` für main)
-  - Keywords-CSV → Cluster als "generated" markieren
-- [ ] Astro Content Collection für Blog einrichten (`src/content/blog/`)
-- [ ] Blog-Listing-Page + einzelne Post-Page erstellen
-- [ ] Erstes Batch generieren: `node scripts/generate-blog-posts.mjs --count 10`
+### 10.3 Content-Automation ✅ ERLEDIGT
+- [x] Keywords-CSV (`apps/marketing/src/data/keywords.csv`) — 126 Cluster
+- [x] Script `scripts/generate-content.mjs` (blog + tool + glossary)
+- [x] Astro Content Collections (`src/content/{blog,glossary,tools}/`)
+- [x] Listing- und Detail-Pages für alle drei Typen
+- [x] GitHub Action `daily-content.yml` — 1 Seite/Tag, 15:00 UTC
+- [x] `scripts/relink-content.mjs` — interne Verlinkung, läuft automatisch nach jeder Generierung
+
+---
+
+## 11. Offene SEO-Baustellen (Audit 2026-09-21)
+
+### 🔴 Sofort
+- [ ] **Anthropic API Guthaben aufladen** — Content-Generierung steht seit 2026-08-30.
+      Der Workflow lief 22 Tage lang „erfolgreich" ohne etwas zu produzieren.
+      (`generate-content.mjs` exitet jetzt mit Code 1, CI schlägt also künftig fehl.)
+- [ ] **Vercel Apex-Redirect auf 308 umstellen** — Settings → Domains →
+      `aura-looksmaxxing.com`. Liefert aktuell 307 (temporary), daher 94 Seiten
+      in GSC als „Seite mit Weiterleitung / Validierung fehlgeschlagen".
+      Die Regel in `vercel.json` greift nicht, der Domain-Level-Redirect kommt zuerst.
+
+### 🟡 Danach
+- [ ] Bilder ohne `width`/`height` (12 von 16 auf der Startseite) → CLS
+- [ ] Keywords nachfüllen: 45 Cluster offen (~32.000 Volumen, ~6 Wochen Vorlauf).
+      `scripts/expand-clusters.mjs` braucht frische Ubersuggest-Exporte.
+- [ ] Themenlücken: Konkurrenz-Vergleiche („vs", „alternative"), Kosten-Cluster,
+      Alters-Segmente, Frauen-Zielgruppe, Before/After-Hub
+- [ ] Gesichtsform-Matrizen (`haircut-*`, `glasses-*`, `beard-*` = 21 Seiten)
+      differenziert generieren, sonst Near-Duplicate-Risiko
+- [ ] `/about`: Gründer-/Team-Abschnitt ergänzen (E-E-A-T) — braucht deinen Input,
+      wurde bewusst nicht erfunden
 
 ---
 

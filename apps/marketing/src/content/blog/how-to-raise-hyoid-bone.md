@@ -9,7 +9,7 @@ heroImage: /blog/how-to-raise-hyoid-bone/1.webp
 heroImageAlt: Anatomical diagram showing hyoid bone position in the neck and surrounding muscles
 tags: [mewing, hyoid bone, facial structure, jawline, looksmaxxing]
 readingTime: 8
-related: []
+related: [how-to-get-forward-growth, forward-growth-explained, how-to-grow-maxilla]
 faq:
   - q: Can you actually raise your hyoid bone with exercises?
     a: You cannot move the hyoid to a dramatically new skeletal position through exercise alone in adulthood, but you can improve the resting tone of the muscles that support and elevate it. Over time, stronger suprahyoid muscles may help the hyoid sit higher at rest, which can subtly improve the appearance of the submental area and jawline.

@@ -9,7 +9,7 @@ heroImage: /blog/cheekbones-guide/1.webp
 heroImageAlt: Anatomical diagram of malar bones highlighted on a human skull showing zygomatic bone structure
 tags: [cheekbones, facial-anatomy, looksmaxxing, face-structure, malar-bones]
 readingTime: 8
-related: []
+related: [brow-ridge-importance, high-vs-low-cheekbones, recessed-vs-normal-maxilla]
 faq:
   - q: What are malar bones and where are they located?
     a: Malar bones are the zygomatic bones, the paired bones that form the prominence of your cheeks on either side of the face. They sit between the eye socket, the temporal bone, and the upper jaw, and their most visible point is the malar eminence, the firm bump you can feel at the highest point of each cheekbone.

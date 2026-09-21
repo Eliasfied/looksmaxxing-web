@@ -9,7 +9,7 @@ heroImage: /blog/mewing-complete-guide/1.webp
 heroImageAlt: Anatomical diagram comparing incorrect tongue posture versus correct mewing tongue posture against the palate
 tags: [mewing, jawline, looksmaxxing, facial structure, tongue posture]
 readingTime: 8
-related: []
+related: [mewing-vs-bonesmashing, facial-aesthetics, how-to-get-forward-growth]
 faq:
   - q: Does mewing actually work?
     a: Research supports the idea that tongue posture influences facial development in children and adolescents. For adults, the evidence is less clear, and changes are likely to be slower and more subtle. Some users report improvements in jaw definition and posture over months to years, but dramatic transformations in short timeframes are not well-supported by current science.

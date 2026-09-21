@@ -49,7 +49,7 @@ faq:
     a: "Most people fall between -3 and +5 degrees. A slight positive tilt (outer corner above inner corner) is common and often considered aesthetically favorable, but the range of \"normal\" is wide and attractiveness depends on far more than a single angle."
   - q: Can I fix a negative canthal tilt without surgery?
     a: Structural canthal tilt is set by bone and tendon position and cannot be changed without medical intervention. However, the visual impression can be influenced by eyebrow grooming, makeup technique, and improving periorbital soft tissue through lifestyle factors. Surgical options exist but should only be explored with a qualified specialist.
-related: []
+related: [ai-face-rating, mewing-tracker, face-shape-detector, jawline-analyzer]
 draft: false
 ---
 

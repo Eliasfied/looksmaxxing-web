@@ -9,7 +9,7 @@ heroImage: /blog/facial-harmony-guide/1.webp
 heroImageAlt: Diagram illustrating chin to philtrum ratio measurements on the lower third of the face
 tags: [facial-harmony, facial-proportions, looksmaxxing, chin, philtrum]
 readingTime: 8
-related: []
+related: [how-to-thicken-eyebrows-men, masseter-training-guide, mens-grooming-essentials]
 faq:
   - q: What is the ideal chin to philtrum ratio?
     a: Most aesthetic guidelines suggest the chin height (lower lip to chin tip) should be approximately 1.0 to 1.3 times the philtrum length (nasal base to upper lip border). This creates a balanced lower facial third. Ratios below 1.0 often indicate a visually long philtrum or weak chin, while ratios above 1.6 may suggest chin dominance.

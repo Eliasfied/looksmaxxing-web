@@ -9,7 +9,7 @@ heroImage: /blog/body-fat-and-face/1.webp
 heroImageAlt: K Shami debloat powder and natural potassium-rich foods for reducing facial bloating
 tags: [debloat, face-fat, looksmaxxing, body-fat-percentage, skincare]
 readingTime: 8
-related: []
+related: [how-to-ascend-looksmaxxing, how-to-get-rid-of-itachi-lines, looksmaxxing-for-women]
 faq:
   - q: What is K Shami debloat powder used for?
     a: K Shami debloat powder is a potassium and electrolyte-based supplement designed to reduce water retention, particularly around the face. It works by improving the sodium-to-potassium ratio in the body, which research suggests may help the kidneys excrete excess sodium and water.

@@ -9,7 +9,7 @@ heroImage: /blog/softmaxxing-vs-hardmaxxing-explained/1.webp
 heroImageAlt: Softmaxxing vs hardmaxxing comparison illustration showing lifestyle versus structural facial changes
 tags: [looksmaxxing, softmaxxing, hardmaxxing, appearance, self-improvement]
 readingTime: 8
-related: []
+related: [mewing-vs-bonesmashing, what-is-looksmaxxing, looksmaxxing-for-women]
 faq:
   - q: Can softmaxxing actually make a significant difference, or is it just surface-level?
     a: Softmaxxing can produce more visible change than most people expect, particularly body composition shifts, which affect how the jaw, cheekbones, and eye area read at different body fat levels. Grooming and skincare improvements are less dramatic structurally but significantly affect perceived attractiveness and grooming perception. The ceiling is real, but most people have not come close to hitting it before considering hard options.

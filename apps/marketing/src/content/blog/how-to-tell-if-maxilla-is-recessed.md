@@ -9,7 +9,7 @@ heroImage: /blog/how-to-tell-if-maxilla-is-recessed/1.webp
 heroImageAlt: Side profile diagram comparing normal and recessed maxilla facial structure
 tags: [maxilla, facial structure, looksmaxxing, bone structure, self-assessment]
 readingTime: 8
-related: []
+related: [how-to-tell-if-clavicles-narrow, good-vs-bad-maxilla, flat-vs-recessed-maxilla]
 faq:
   - q: Can you tell if your maxilla is recessed just from photos?
     a: Photos can reveal strong visual indicators like mid-face flatness, retruded lip position, and under-eye hollowing, but they cannot confirm retrusion definitively. A lateral cephalometric X-ray and clinical evaluation are needed to measure the SNA angle and rule out other causes like mandibular prognathism.

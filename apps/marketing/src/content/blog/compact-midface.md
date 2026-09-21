@@ -9,7 +9,7 @@ heroImage: /blog/compact-midface/1.webp
 heroImageAlt: Diagram comparing a balanced midface to a compact midface with labeled facial thirds
 tags: [midface, facial anatomy, looksmaxxing, face structure, facial aesthetics]
 readingTime: 8
-related: []
+related: [inward-flared-gonions, ramus-length, bigonial-width]
 faq:
   - q: What causes a compact midface?
     a: A compact midface is primarily caused by the vertical dimensions and forward position of the maxilla, the central bone of the midface. Genetics determine most of this structure, but factors like mouth breathing during development, low tongue posture, and early childhood oral habits may also influence how the midface develops.

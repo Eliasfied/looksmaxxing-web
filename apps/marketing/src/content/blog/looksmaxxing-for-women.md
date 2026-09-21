@@ -9,7 +9,7 @@ heroImage: /blog/looksmaxxing-for-women/1.webp
 heroImageAlt: Skincare and beauty tools used in looksmaxxing for women laid out on marble surface
 tags: [looksmaxxing, women, skincare, facial aesthetics, self-improvement]
 readingTime: 8
-related: []
+related: [what-is-looksmaxxing, facial-harmony-guide, how-to-get-rid-of-itachi-lines]
 faq:
   - q: What is looksmaxxing for women?
     a: Looksmaxxing for women is the structured effort to optimize physical appearance through evidence-informed strategies. It spans soft-max approaches like skincare, body composition, hair, and makeup, through to harder interventions like cosmetic procedures. The goal is to close the gap between your current appearance and your genetic potential.

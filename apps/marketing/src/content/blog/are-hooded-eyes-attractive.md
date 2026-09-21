@@ -9,7 +9,7 @@ heroImage: /blog/are-hooded-eyes-attractive/1.webp
 heroImageAlt: Close-up illustration of hooded eyes showing the characteristic brow fold over the eyelid
 tags: [eye aesthetics, facial features, looksmaxxing, hooded eyes, face rating]
 readingTime: 8
-related: []
+related: [why-small-eyes-are-attractive, are-deep-set-eyes-attractive, hyper-masculine-face]
 faq:
   - q: Are hooded eyes considered attractive by most people?
     a: Research on facial attractiveness does not single out hooded eyes as a negative trait. Perception depends heavily on surrounding features like brow position, canthal tilt, and overall facial structure. Many faces considered conventionally attractive have some degree of hooding, particularly when it contributes to a deep-set, intense gaze.

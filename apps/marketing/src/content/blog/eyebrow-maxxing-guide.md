@@ -9,7 +9,7 @@ heroImage: /blog/eyebrow-maxxing-guide/1.webp
 heroImageAlt: Eyebrow dye before and after comparison showing defined brows
 tags: [eyebrow-maxxing, grooming, facial-aesthetics]
 readingTime: 8
-related: []
+related: [how-to-fix-negative-canthal-tilt, minoxidil-eyebrows, how-to-get-clean-shave]
 faq:
   - q: How long do eyebrow dye results last?
     a: Most eyebrow dyes last between 3 and 6 weeks. Oily skin types tend to see fading sooner. Using a gentle, non-stripping face wash can help extend results.
