@@ -764,3 +764,109 @@ haircut for face shape ai,800,30,tool-haircut,haircut-recommendation-tool,pendin
 beard style finder,300,30,tool-beard,beard-style-finder,pending,tool,yes,3
 mewing form checker,200,30,tool-mewing,mewing-form-checker,pending,tool,yes,3
 face symmetry analyzer,1300,30,tool-symmetry,symmetry-analyzer,pending,tool,yes,3
+how to get rid of dark circles men,0,0,dark-circles-men,dark-circles-under-eyes-men,pending,blog,yes,4
+dark circles under eyes men,0,0,dark-circles-men,dark-circles-under-eyes-men,pending,blog,no,4
+tear trough,0,0,tear-trough,tear-trough-hollows,pending,blog,yes,4
+tear trough filler,0,0,tear-trough,tear-trough-hollows,pending,blog,no,4
+how to get rid of eye bags men,0,0,under-eye-bags,under-eye-bags-men,pending,blog,yes,4
+puffy eyes men,0,0,under-eye-bags,under-eye-bags-men,pending,blog,no,4
+nasolabial folds,0,0,nasolabial-folds,nasolabial-folds-guide,pending,blog,yes,4
+how to get rid of nasolabial folds,0,0,nasolabial-folds,nasolabial-folds-guide,pending,blog,no,4
+forehead wrinkles men,0,0,forehead-wrinkles,forehead-wrinkles-men,pending,blog,yes,4
+11 lines between eyebrows,0,0,frown-lines,frown-lines-glabellar,pending,blog,yes,4
+glabellar lines,0,0,frown-lines,frown-lines-glabellar,pending,blog,no,4
+crows feet,0,0,crows-feet,crows-feet-guide,pending,blog,yes,4
+how to fix hooded eyes,0,0,fix-hooded-eyes,how-to-fix-hooded-eyes,pending,blog,yes,4
+sanpaku eyes,0,0,gloss-sanpaku,sanpaku-eyes,pending,glossary,yes,4
+scleral show,0,0,gloss-scleral-show,scleral-show,pending,glossary,yes,4
+epicanthic fold,0,0,gloss-epicanthic,epicanthic-fold,pending,glossary,yes,4
+ptosis eyelid,0,0,droopy-eyelid,droopy-eyelid-ptosis,pending,blog,yes,4
+how to get rid of a double chin,0,0,double-chin,how-to-get-rid-of-double-chin,pending,blog,yes,4
+submental fat,0,0,double-chin,how-to-get-rid-of-double-chin,pending,blog,no,4
+how to minimize pores men,0,0,pores-skin-texture,how-to-minimize-pores-men,pending,blog,yes,4
+norwood scale,0,0,norwood-scale,norwood-scale-explained,pending,blog,yes,4
+hair transplant,0,0,hair-transplant,hair-transplant-guide,pending,blog,yes,4
+hair transplant cost,0,0,hair-transplant,hair-transplant-guide,pending,blog,no,4
+finasteride,0,0,finasteride,finasteride-guide,pending,blog,yes,4
+finasteride side effects,0,0,finasteride,finasteride-guide,pending,blog,no,4
+minoxidil for hair,0,0,minoxidil-hair,minoxidil-hair-guide,pending,blog,yes,4
+how to stop hair loss,0,0,stop-hair-loss,how-to-stop-hair-loss-men,pending,blog,yes,4
+hairline lowering surgery,0,0,hairline-lowering,hairline-lowering-surgery,pending,blog,yes,4
+maturing hairline vs receding,0,0,maturing-hairline,maturing-vs-receding-hairline,pending,blog,yes,4
+rhinoplasty,0,0,rhinoplasty,rhinoplasty-guide,pending,blog,yes,4
+nose job,0,0,rhinoplasty,rhinoplasty-guide,pending,blog,no,4
+nose job cost,0,0,rhinoplasty-cost,rhinoplasty-cost,pending,blog,yes,4
+liquid rhinoplasty,0,0,non-surgical-rhino,non-surgical-rhinoplasty,pending,blog,yes,4
+dorsal hump,0,0,dorsal-hump,dorsal-hump-explained,pending,blog,yes,4
+nasofrontal angle,0,0,nasofrontal-angle,nasofrontal-angle,pending,blog,yes,4
+nasolabial angle,0,0,nasolabial-angle,nasolabial-angle,pending,blog,yes,4
+nasal tip projection,0,0,nasal-tip-projection,nasal-tip-projection,pending,blog,yes,4
+ideal nose width,0,0,nose-width,ideal-nose-width-ratio,pending,blog,yes,4
+botox for men,0,0,botox-men,botox-for-men,pending,blog,yes,4
+masseter botox,0,0,masseter-botox,masseter-botox-jawline,pending,blog,yes,4
+jaw botox,0,0,masseter-botox,masseter-botox-jawline,pending,blog,no,4
+dermal fillers,0,0,dermal-fillers,dermal-fillers-guide,pending,blog,yes,4
+profhilo,0,0,profhilo,profhilo-explained,pending,blog,yes,4
+kybella,0,0,kybella,kybella-double-chin,pending,blog,yes,4
+laser skin resurfacing,0,0,laser-resurfacing,laser-skin-resurfacing,pending,blog,yes,4
+microneedling,0,0,microneedling,microneedling-guide,pending,blog,yes,4
+chemical peel,0,0,chemical-peel,chemical-peel-guide,pending,blog,yes,4
+facelift,0,0,facelift,facelift-guide,pending,blog,yes,4
+neck lift,0,0,neck-lift,neck-lift-guide,pending,blog,yes,4
+brow lift,0,0,brow-lift,brow-lift-guide,pending,blog,yes,4
+genioplasty,0,0,genioplasty,genioplasty-chin-surgery,pending,blog,yes,4
+chin advancement surgery,0,0,genioplasty,genioplasty-chin-surgery,pending,blog,no,4
+veneers cost,0,0,veneers,veneers-guide,pending,blog,yes,4
+invisalign vs braces adults,0,0,invisalign-braces,invisalign-vs-braces-adults,pending,blog,yes,4
+facial thirds,0,0,facial-thirds,facial-thirds-explained,pending,blog,yes,4
+facial fifths,0,0,facial-fifths,facial-fifths-explained,pending,blog,yes,4
+mandibular plane angle,0,0,mandibular-plane,mandibular-plane-angle,pending,blog,yes,4
+submental cervical angle,0,0,submental-angle,submental-cervical-angle,pending,blog,yes,4
+ricketts e line,0,0,ricketts-e-line,ricketts-e-line,pending,blog,yes,4
+upper to lower lip ratio,0,0,lip-ratio,upper-lower-lip-ratio,pending,blog,yes,4
+cupids bow,0,0,cupids-bow,cupids-bow-explained,pending,blog,yes,4
+intercanthal distance,0,0,intercanthal-distance,intercanthal-distance,pending,blog,yes,4
+mouth width ratio,0,0,mouth-width,ideal-mouth-width,pending,blog,yes,4
+chin projection,0,0,chin-projection,chin-projection-explained,pending,blog,yes,4
+lower face height,0,0,lower-face-height,lower-face-height,pending,blog,yes,4
+eye aperture,0,0,eye-aperture,eye-aperture-almondness,pending,blog,yes,4
+ideal eyebrow position,0,0,brow-position,ideal-brow-position-height,pending,blog,yes,4
+ear protrusion,0,0,ear-size,ear-size-and-protrusion,pending,blog,yes,4
+buccal corridor smile,0,0,smile-width,smile-width-buccal-corridor,pending,blog,yes,4
+facial index,0,0,facial-index,facial-index-explained,pending,blog,yes,4
+alar base width,0,0,alar-width,alar-base-width,pending,blog,yes,4
+columella show,0,0,columella-show,columella-show,pending,blog,yes,4
+neck length aesthetics,0,0,neck-length,neck-length-aesthetics,pending,blog,yes,4
+dimorphism meaning,2900,26,facial-dimorphism,facial-dimorphism-explained,pending,blog,yes,4
+sexual dimorphism face,0,0,facial-dimorphism,facial-dimorphism-explained,pending,blog,no,4
+facial neoteny,0,0,facial-neoteny,facial-neoteny-explained,pending,blog,yes,4
+facial averageness,0,0,facial-averageness,facial-averageness,pending,blog,yes,4
+golden ratio face,0,0,golden-ratio-face,golden-ratio-face,pending,blog,yes,4
+why do i look different in photos,0,0,mirror-vs-photos,why-you-look-different-in-photos,pending,blog,yes,4
+what makes a face attractive,0,0,attraction-science,what-makes-a-face-attractive,pending,blog,yes,4
+how to lose face fat,0,0,face-fat,how-to-lose-face-fat,pending,blog,yes,4
+looksmaxing chart,1300,30,looksmaxxing-chart,looksmaxxing-chart-explained,pending,blog,yes,4
+hgh face before and after,1000,31,hgh-face,hgh-face-changes,pending,blog,yes,4
+trimax surgery,880,31,trimax,trimax-surgery-explained,pending,blog,yes,4
+looksmaxxing peptides,170,2,looksmaxxing-peptides,looksmaxxing-peptides,pending,blog,yes,4
+best looksmaxxing app,0,0,best-looksmax-apps,best-looksmaxxing-apps,pending,blog,yes,4
+umax alternative,0,0,umax-alternative,umax-alternative,pending,blog,yes,4
+umax app review,0,0,umax-alternative,umax-alternative,pending,blog,no,4
+looksmax ai review,0,0,looksmax-ai-review,looksmax-ai-review,pending,blog,yes,4
+qoves review,720,29,qoves-review,qoves-studio-review,pending,blog,yes,4
+prettyscale alternative,0,0,prettyscale-alt,prettyscale-alternative,pending,blog,yes,4
+face rating app,0,0,face-rating-apps,best-face-rating-apps,pending,blog,yes,4
+ai face analysis,110,2,ai-face-analysis-apps,ai-face-analysis-apps,pending,blog,yes,4
+psl test,0,0,free-psl-test,free-psl-test,pending,tool,yes,4
+golden ratio face calculator,0,0,golden-ratio-tool,golden-ratio-calculator,pending,tool,yes,4
+looksmaxxing at 25,0,0,looksmax-age-25,looksmaxxing-at-25,pending,blog,yes,4
+looksmaxxing at 30,0,0,looksmax-age-30,looksmaxxing-at-30,pending,blog,yes,4
+is it too late to looksmax,0,0,too-late-looksmax,is-it-too-late-to-looksmax,pending,blog,yes,4
+how long does looksmaxxing take,0,0,looksmax-timeline,looksmaxxing-results-timeline,pending,blog,yes,4
+how much does looksmaxxing cost,0,0,looksmax-cost,how-much-does-looksmaxxing-cost,pending,blog,yes,4
+female jawline,0,0,female-jawline,female-jawline-guide,pending,blog,yes,4
+canthal tilt female,0,0,canthal-tilt-female,canthal-tilt-female,pending,blog,yes,4
+softmaxxing for women,0,0,softmax-women,softmaxxing-for-women,pending,blog,yes,4
+shoulder to waist ratio,0,0,shoulder-waist-ratio,shoulder-to-waist-ratio,pending,blog,yes,4
+posture and attractiveness,0,0,posture-looks,posture-and-appearance,pending,blog,yes,4
+neck training for men,0,0,neck-training,neck-training-guide,pending,blog,yes,4
