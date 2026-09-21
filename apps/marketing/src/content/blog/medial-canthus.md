@@ -9,7 +9,7 @@ heroImage: /blog/medial-canthus/1.webp
 heroImageAlt: Illustrated close-up of eyes showing the medial canthus position at the inner corners
 tags: [eye anatomy, facial aesthetics, looksmaxxing]
 readingTime: 8
-related: []
+related: [brow-ridge-importance, compact-midface, eye-spacing-ipd]
 faq:
   - q: What is a downturned medial canthus?
     a: A downturned medial canthus refers to the inner corner of the eye being angled or positioned lower than typical, either structurally due to genetics or soft tissue laxity, or visually due to an epicanthal fold. It can affect perceived eye shape and give the eye region a tired or drooping quality.

@@ -9,7 +9,7 @@ heroImage: /blog/how-to-fix-negative-canthal-tilt/1.webp
 heroImageAlt: Diagram comparing negative, neutral, and positive canthal tilt in human eyes
 tags: [eyes, facial-aesthetics, looksmaxxing, canthal-tilt, eye-area]
 readingTime: 8
-related: []
+related: [how-to-get-positive-canthal-tilt, positive-vs-negative-canthal-tilt, mtn-vs-htn]
 faq:
   - q: Can negative canthal tilt be fixed without surgery?
     a: Mild cases may be visually improved through makeup techniques, brow shaping, Botox, or soft tissue fillers. These approaches change how the eye area looks without altering the underlying bone or tendon structure. For significant or structurally caused negative canthal tilt, surgical options like canthoplasty are typically the only way to achieve meaningful change.

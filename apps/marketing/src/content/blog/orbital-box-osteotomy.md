@@ -9,7 +9,7 @@ heroImage: /blog/orbital-box-osteotomy/1.webp
 heroImageAlt: Anatomical diagram of the orbital box osteotomy bony structure in a human skull
 tags: [facial surgery, orbital surgery, looksmaxxing, craniofacial procedures, bone surgery]
 readingTime: 8
-related: []
+related: [brow-ridge-implants, bimax-before-after, jaw-filler-before-after]
 faq:
   - q: How much does orbital box osteotomy cost?
     a: Costs vary widely by country, surgeon experience, and whether the procedure is bilateral or unilateral. In the United States, all-in costs including anesthesia and facility fees typically range from $30,000 to $80,000 or more for aesthetic cases. Insurance may cover reconstructive cases involving orbital dystopia or post-traumatic deformity.

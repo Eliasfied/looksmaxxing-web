@@ -7,7 +7,6 @@
     "lint": "turbo lint",
     "type-check": "turbo type-check",
     "format": "prettier --write \"**/*.{ts,tsx,astro,md}\"",
-    "pseo:generate": "node scripts/pseo-generator.mjs",
     "indexnow": "node scripts/indexnow.mjs",
     "db:types": "supabase gen types typescript --local > packages/shared/src/types/database.ts"
   },

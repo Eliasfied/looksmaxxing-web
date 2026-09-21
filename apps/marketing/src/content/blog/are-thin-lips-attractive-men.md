@@ -9,7 +9,7 @@ heroImage: /blog/are-thin-lips-attractive-men/1.webp
 heroImageAlt: Male face close-up showing thin lips and lower face structure
 tags: [lips, facial attractiveness, looksmaxxing, men, face analysis]
 readingTime: 8
-related: []
+related: [masculine-face-shape, why-big-noses-are-unattractive, why-small-eyes-are-attractive]
 faq:
   - q: Are thin lips unattractive in men?
     a: Not inherently. Research on male facial attractiveness consistently shows that no single feature determines overall appeal. Thin lips have a minor negative effect at most, and this effect is easily offset by strong jaw definition, good facial symmetry, and healthy skin. Most people evaluate faces holistically rather than feature by feature.

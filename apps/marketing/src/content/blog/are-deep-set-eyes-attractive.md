@@ -9,7 +9,7 @@ heroImage: /blog/are-deep-set-eyes-attractive/1.webp
 heroImageAlt: Deep set eyes facial feature illustration showing orbital shadow and brow ridge prominence
 tags: [eye attractiveness, facial features, looksmaxxing, eye shape, facial aesthetics]
 readingTime: 8
-related: []
+related: [are-hooded-eyes-attractive, why-small-eyes-are-attractive, are-thin-lips-attractive-men]
 faq:
   - q: Are deep set eyes attractive on men?
     a: "Yes, deep set eyes are generally considered attractive on men. They are associated with a pronounced brow ridge and a hunter-eyed appearance, both of which are linked to masculine facial structure and are rated positively in facial attractiveness research. Context matters though: overall facial proportion and grooming significantly affect how the feature reads."

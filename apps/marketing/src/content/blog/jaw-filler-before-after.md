@@ -9,7 +9,7 @@ heroImage: /blog/jaw-filler-before-after/1.webp
 heroImageAlt: "Jaw filler before and after men: facial anatomy diagram showing key injection zones along the male jawline"
 tags: [jaw filler, dermal filler, jawline, looksmaxxing, facial aesthetics]
 readingTime: 8
-related: []
+related: [chin-filler-migrate, jaw-implants, accutane-before-after]
 faq:
   - q: How much jaw filler do men typically need?
     a: Most men use between 1 and 4 syringes (1 mL each) depending on their starting anatomy and goals. Men with stronger underlying bone structure may see meaningful improvement with 1 to 2 mL, while those seeking more significant augmentation or correcting asymmetry may require 3 to 4 mL across one or more sessions.

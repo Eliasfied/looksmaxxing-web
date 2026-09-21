@@ -9,7 +9,7 @@ heroImage: /blog/eye-spacing-ipd/1.webp
 heroImageAlt: Diagram showing eye spacing measurements including IPD and intercanthal distance on a stylized face
 tags: [facial anatomy, eye spacing, IPD, facial harmony, looksmaxxing]
 readingTime: 8
-related: []
+related: [philtrum-explained, compact-midface, ramus-length]
 faq:
   - q: What is the average eye spacing for adults?
     a: The average interpupillary distance (IPD) in adults is approximately 63mm, with a typical range of 54mm to 74mm. Intercanthal distance, measured between the inner corners of the eyes, averages around 30 to 35mm. Both measurements vary by sex and ethnicity.

@@ -9,7 +9,7 @@ heroImage: /blog/how-to-get-positive-canthal-tilt/1.webp
 heroImageAlt: Diagram illustrating positive canthal tilt versus neutral canthal tilt in the eye area
 tags: [eyes, facial-aesthetics, looksmaxxing, canthal-tilt, eye-area]
 readingTime: 8
-related: []
+related: [how-to-fix-negative-canthal-tilt, teeth-smile-guide, mtn-vs-htn]
 faq:
   - q: Can you naturally change your canthal tilt without surgery?
     a: You cannot physically reposition the canthal tendon without a procedure, but you can meaningfully change how your canthal tilt appears. Reducing facial fat, using strategic eye makeup or grooming, and improving facial posture all influence the perceived tilt. For many people, these changes are enough to make a visible difference.

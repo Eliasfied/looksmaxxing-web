@@ -9,7 +9,7 @@ heroImage: /blog/accutane-before-after/1.webp
 heroImageAlt: Skin cross-section diagram showing sebaceous gland changes relevant to before and after accutane pictures
 tags: [accutane, isotretinoin, acne treatment, skin, looksmaxxing]
 readingTime: 8
-related: []
+related: [bimax-before-after, jaw-filler-before-after, jaw-implants]
 faq:
   - q: How long does it take to see results in before and after accutane pictures?
     a: Most people begin to see meaningful clearing between months three and four. The initial two months may include a purge phase where skin temporarily looks worse. The most accurate before and after comparison should be made at six to twelve months after the course ends, not immediately after finishing.

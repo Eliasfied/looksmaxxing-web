@@ -9,7 +9,7 @@ heroImage: /blog/high-vs-low-cheekbones/1.webp
 heroImageAlt: High vs low cheekbones comparison illustration showing light and shadow differences
 tags: [cheekbones, facial structure, face analysis, looksmaxxing, bone structure]
 readingTime: 8
-related: []
+related: [flat-vs-recessed-maxilla, good-vs-bad-maxilla, narrow-vs-wide-clavicles]
 faq:
   - q: How do I know if I have high or low cheekbones?
     a: Press your finger along the widest, hardest part of your cheek and note its vertical position. If the peak sits near your lower eyelid, your cheekbones are high. If it sits closer to your upper lip or base of your nose, they are lower. A straight-on photo in natural light makes this easier to judge accurately.

@@ -4,9 +4,22 @@
     {
       "name": "web",
       "runtimeExecutable": "npm",
-      "runtimeArgs": ["run", "dev"],
+      "runtimeArgs": [
+        "run",
+        "dev"
+      ],
       "cwd": "apps/web",
       "port": 3000
+    },
+    {
+      "name": "marketing",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": [
+        "run",
+        "dev"
+      ],
+      "cwd": "apps/marketing",
+      "port": 4321
     }
   ]
 }

@@ -49,7 +49,7 @@ faq:
     a: "Square and diamond face shapes consistently score highest in male attractiveness research due to their wide jaws and prominent cheekbones. That said, attractiveness is multifactorial, and Aura's full analysis covers all the features that contribute to your overall rating, not just shape alone."
   - q: Can chewing gum really change my face shape?
     a: Some users report improved jaw definition and masseter size after consistent gum chewing over several months. Research suggests that repeated heavy chewing may contribute to muscle hypertrophy in the jaw area, which can improve the appearance of jaw width. Results vary significantly between individuals, and this should not be expected to produce dramatic structural changes in adulthood.
-related: []
+related: [ai-face-rating, mewing-tracker, canthal-tilt-checker, psl-score-calculator]
 draft: false
 ---
 

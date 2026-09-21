@@ -32,6 +32,7 @@ import https from 'https';
 import http from 'http';
 import { execSync } from 'child_process';
 import { fileURLToPath } from 'url';
+import { relinkAll } from './relink-content.mjs';
 
 // ─── Setup ───────────────────────────────────────────────────────────────────
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
@@ -197,10 +198,12 @@ function getPendingPages(rows) {
       e.primary_volume = e.keywords[0].volume;
     }
   }
-  // Sort: phase asc, then volume desc
+  // Sort: volume desc, then phase asc as tiebreaker.
+  // Volume leads deliberately — sorting by phase first buries high-volume
+  // phase-3 clusters behind low-volume phase-2 longtail.
   return [...map.values()].sort((a, b) => {
-    if (a.phase !== b.phase) return a.phase - b.phase;
-    return b.primary_volume - a.primary_volume;
+    if (b.primary_volume !== a.primary_volume) return b.primary_volume - a.primary_volume;
+    return a.phase - b.phase;
   });
 }
 
@@ -468,7 +471,8 @@ async function saveBlogMarkdown(page, data) {
     heroImageAlt: heroImage?.alt,
     tags: data.tags ?? [],
     readingTime: data.reading_time ?? 8,
-    related: [],
+    related: [], // filled by relinkAll() once all pages in this run exist
+
     faq: data.faq ?? [],
     draft: false,
   };
@@ -505,7 +509,7 @@ async function saveToolMarkdown(page, data) {
     benefits: data.benefits ?? [],
     steps: data.steps ?? [],
     faq: data.faq ?? [],
-    related: [],
+    related: [], // filled by relinkAll() once all pages in this run exist
     draft: false,
   };
   const body = `${buildFrontmatter(fm)}\n\n${data.body_markdown}\n`;
@@ -742,9 +746,18 @@ async function main() {
   }
 
   if (!generated.length) {
-    console.log('\n⚠️  Nothing generated successfully. Skipping commit.');
+    // Exit non-zero so CI actually fails. This silently returned 0 for three
+    // weeks while the Anthropic API rejected every call for lack of credit,
+    // and nobody noticed because the workflow kept reporting success.
+    console.error('\n❌ Nothing generated successfully. Skipping commit.');
+    process.exitCode = 1;
     return;
   }
+
+  // Recompute internal "related" links across all content, including the pages
+  // just written, so new posts are linked in both directions immediately.
+  console.log('');
+  relinkAll();
 
   // Update CSV
   writeCsvFromObjects(rows);

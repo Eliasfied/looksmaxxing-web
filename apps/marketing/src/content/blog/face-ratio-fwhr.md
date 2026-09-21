@@ -9,7 +9,7 @@ heroImage: /blog/face-ratio-fwhr/1.webp
 heroImageAlt: Diagram explaining facial width-to-height ratio FWHR measurement on a male face
 tags: [face ratios, facial anatomy, looksmaxxing, masculinity, attractiveness]
 readingTime: 8
-related: []
+related: [philtrum-explained, eye-spacing-ipd, gonial-angle-explained]
 faq:
   - q: What is the ideal FWHR for men?
     a: Research suggests that a FWHR between 1.9 and 2.0 is associated with high perceived dominance and masculinity in men. This range tends to score well in attractiveness ratings across multiple studies, though it is one metric among many that contribute to overall facial aesthetics.

@@ -9,7 +9,7 @@ heroImage: /blog/mandible-vs-maxilla/1.webp
 heroImageAlt: Mandible vs maxilla anatomical diagram showing both jaw bones on a human skull
 tags: [facial anatomy, jawline, looksmaxxing, bone structure, facial harmony]
 readingTime: 8
-related: []
+related: [short-vs-long-ramus, philtrum-explained, gonial-angle-explained]
 faq:
   - q: What is the main difference between the mandible and maxilla?
     a: The mandible is the lower jaw and the only movable bone in the skull. The maxilla is the fixed upper jaw that forms the midface platform. They differ in location, mobility, and which aspects of facial appearance they primarily influence.

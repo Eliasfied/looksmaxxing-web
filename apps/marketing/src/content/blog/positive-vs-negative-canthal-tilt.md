@@ -9,7 +9,7 @@ heroImage: /blog/positive-vs-negative-canthal-tilt/1.webp
 heroImageAlt: Diagram comparing positive vs negative canthal tilt on two illustrated male faces
 tags: [canthal tilt, facial aesthetics, eye shape, looksmaxxing, face analysis]
 readingTime: 8
-related: []
+related: [how-to-get-positive-canthal-tilt, are-deep-set-eyes-attractive, how-to-fix-negative-canthal-tilt]
 faq:
   - q: What is considered a good canthal tilt angle?
     a: Most facial aesthetics frameworks consider a positive tilt of roughly 3 to 8 degrees above horizontal to be optimal. Neutral (zero degrees) is generally considered acceptable, while negative tilt of more than a few degrees tends to create a tired or downturned appearance. The ideal range varies slightly based on sex, ethnicity, and overall facial structure.

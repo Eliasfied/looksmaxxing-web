@@ -9,7 +9,7 @@ heroImage: /blog/good-vs-bad-maxilla/1.webp
 heroImageAlt: Good vs bad maxilla side-by-side profile comparison illustration
 tags: [maxilla, facial structure, looksmaxxing, bone structure, midface]
 readingTime: 8
-related: []
+related: [flat-vs-recessed-maxilla, recessed-vs-normal-maxilla, how-to-tell-if-maxilla-is-recessed]
 faq:
   - q: How do I know if I have a bad maxilla?
     a: "Common signs include a recessed or \"dished-in\" midface profile, hollow under-eyes, flat cheekbones, a thin or retruded upper lip, dental crowding, and a tendency to breathe through the mouth. A lateral cephalometric X-ray assessed by an orthodontist or oral surgeon gives a definitive measurement. You can also get a preliminary sense of your midface projection using AI face analysis tools like Aura."

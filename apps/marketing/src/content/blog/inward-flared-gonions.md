@@ -9,7 +9,7 @@ heroImage: /blog/inward-flared-gonions/1.webp
 heroImageAlt: Anatomical diagram of the skull showing gonial angle landmarks related to flared gonions
 tags: [jawline, facial anatomy, gonion, looksmaxxing, face structure]
 readingTime: 8
-related: []
+related: [compact-midface, gonial-angle-explained, face-ratio-fwhr]
 faq:
   - q: What causes flared gonions?
     a: Flared gonions can result from genetics, masseter muscle hypertrophy from teeth clenching or heavy chewing, or the natural growth pattern of your mandible during adolescence. Excess facial fat can also make the jaw appear wider or more flared than the underlying bone structure warrants.

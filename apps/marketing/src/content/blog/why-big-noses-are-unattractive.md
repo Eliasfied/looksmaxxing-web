@@ -9,7 +9,7 @@ heroImage: /blog/why-big-noses-are-unattractive/1.webp
 heroImageAlt: Facial proportion diagram showing why big nose features read as unattractive
 tags: [facial-aesthetics, nose, looksmaxxing]
 readingTime: 8
-related: []
+related: [hyper-masculine-face, are-thin-lips-attractive-men, are-hooded-eyes-attractive]
 faq:
   - q: Is a big nose always considered unattractive?
     a: Not automatically. Research shows that nose size is evaluated relative to the surrounding facial structures. A larger nose on a face with strong jawline definition, prominent cheekbones, and good overall symmetry is often rated as proportional rather than unattractive. The issue arises when the nose is visually dominant relative to weak or soft surrounding features.

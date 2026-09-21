@@ -9,7 +9,7 @@ heroImage: /blog/ramus-length/1.webp
 heroImageAlt: Anatomical diagram of the mandible showing ramus length measurement between gonion and condylion
 tags: [jawline, facial anatomy, looksmaxxing, bone structure, mandible]
 readingTime: 8
-related: []
+related: [gonial-angle-explained, inward-flared-gonions, bigonial-width]
 faq:
   - q: What is a normal ramus length in adults?
     a: In adults, ramus length typically ranges from about 50 to 70 mm, measured from the gonion to the condylion on a lateral X-ray. Males generally fall toward the higher end of that range. Values vary meaningfully by sex, ancestry, and individual skeletal pattern, so clinical norms from cephalometric studies are used for comparison rather than a single universal number.

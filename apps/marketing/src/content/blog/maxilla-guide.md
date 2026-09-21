@@ -9,7 +9,7 @@ heroImage: /blog/maxilla-guide/1.webp
 heroImageAlt: Anatomical diagram of the maxilla bone in the human skull showing its position and connections
 tags: [maxilla, facial structure, looksmaxxing, jaw anatomy, face anatomy]
 readingTime: 8
-related: []
+related: [how-to-fix-recessed-maxilla, good-vs-bad-maxilla, high-vs-low-cheekbones]
 faq:
   - q: What is a flat maxilla?
     a: A flat maxilla is a maxilla that lacks forward projection relative to the rest of the skull. Instead of sitting prominently in the midface, it is recessed, which creates a hollow under-eye area, flat cheeks, reduced upper lip support, and a concave appearance in profile.

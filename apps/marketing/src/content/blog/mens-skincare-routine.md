@@ -9,7 +9,7 @@ heroImage: /blog/mens-skincare-routine/1.webp
 heroImageAlt: hyperpigmentation outer corner of eye illustrated on male periorbital anatomy
 tags: [mens-skincare-routine, hyperpigmentation, undereye-care, looksmaxxing, skincare]
 readingTime: 8
-related: []
+related: [maxilla-guide, body-fat-and-face, how-to-get-rid-of-itachi-lines]
 faq:
   - q: What causes hyperpigmentation specifically at the outer corner of the eye rather than the whole undereye?
     a: "The outer corner receives more direct UV exposure because the brow bone offers less shade there, and it is also a common friction point from rubbing. Repeated mechanical stress triggers post-inflammatory melanin production in that localized area. Vascular show-through from thin skin can also concentrate at the lateral canthus due to the orbicularis oculi muscle's structure."

@@ -9,7 +9,7 @@ heroImage: /blog/facial-aesthetics/1.webp
 heroImageAlt: Face forward aesthetics diagram showing facial thirds and fifths proportions
 tags: [facial aesthetics, looksmaxxing, face forward aesthetics, jawline, facial structure]
 readingTime: 8
-related: []
+related: [how-to-get-forward-growth, mewing-complete-guide, wide-vs-narrow-palate]
 faq:
   - q: What is face forward aesthetics?
     a: Face forward aesthetics is an approach to facial analysis and improvement focused on the frontal view, since that is how most people perceive you during direct interaction. It evaluates symmetry, facial thirds, eye spacing, and lower-face definition from a straight-on perspective rather than the profile or three-quarter view.

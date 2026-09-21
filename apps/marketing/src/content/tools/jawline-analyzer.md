@@ -49,7 +49,7 @@ faq:
     a: FWHR stands for face-width-to-height ratio, a measure of how wide your face is relative to its middle height. A higher FWHR is associated with a broader, more angular midface. The analyzer gives you your number and explains how it interacts with your jaw shape.
   - q: Do mewing exercises actually work for adults?
     a: Research is limited. Some studies and practitioners suggest that proper tongue posture may improve soft-tissue positioning and muscle tone in adults, but significant bone remodeling is unlikely after development. Results vary, and realistic timelines are measured in months to years, not weeks.
-related: []
+related: [mewing-tracker, ai-face-rating, canthal-tilt-checker, face-shape-detector]
 draft: false
 ---
 

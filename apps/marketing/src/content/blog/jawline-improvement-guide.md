@@ -9,7 +9,7 @@ heroImage: /blog/jawline-improvement-guide/1.webp
 heroImageAlt: Anatomical diagram of male jawline for jawmaxxing reference
 tags: [jawmaxxing, jaw improvement, looksmaxxing, jawline, mewing]
 readingTime: 8
-related: []
+related: [mewing-vs-bonesmashing, how-to-grow-masseter-muscle, mewing-complete-guide]
 faq:
   - q: Does jawmaxxing actually work?
     a: It depends on the method. Reducing body fat, training the masseter, and fixing posture can produce visible changes and are well-supported. Bone-level changes in adults through exercises alone are not realistic. Cosmetic procedures like jaw filler can produce significant results but come with their own considerations.

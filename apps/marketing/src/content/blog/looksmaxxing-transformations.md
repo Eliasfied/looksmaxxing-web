@@ -9,7 +9,7 @@ heroImage: /blog/looksmaxxing-transformations/1.webp
 heroImageAlt: Bimax before and after skull diagram showing jaw repositioning in bimaxillary osteotomy
 tags: [looksmaxxing, jaw surgery, before and after, facial surgery, transformation]
 readingTime: 8
-related: []
+related: [bimax-before-after, bimax-surgery-cost, orbital-box-osteotomy]
 faq:
   - q: How long does it take to see final bimax before and after results?
     a: Swelling resolves significantly within three months, but soft tissue fully settles at around twelve months post-surgery. Skeletal changes are visible much earlier, but final photos are typically taken at the one-year mark for accurate documentation.

@@ -9,7 +9,7 @@ heroImage: /blog/recessed-vs-normal-maxilla/1.webp
 heroImageAlt: Side-by-side profile comparison of recessed vs normal maxilla facial structure
 tags: [maxilla, facial-structure, looksmaxxing, bone-structure, facial-anatomy]
 readingTime: 8
-related: []
+related: [flat-vs-recessed-maxilla, good-vs-bad-maxilla, mandible-vs-maxilla]
 faq:
   - q: Can you fix a recessed maxilla without surgery?
     a: Non-surgical options are limited in fully grown adults. Tongue posture practices and palate expanders may have some effect in younger individuals or adolescents, but for significant maxillary retrusion in adults, surgical options like Le Fort I osteotomy are the most reliable correction. Consult a qualified maxillofacial surgeon to understand what applies to your specific situation.

@@ -9,7 +9,7 @@ heroImage: /blog/forward-growth-explained/1.webp
 heroImageAlt: Side profile anatomical illustration showing how to raise the hyoid bone and its surrounding muscle groups
 tags: [mewing, forward growth, hyoid bone, jaw structure, looksmaxxing]
 readingTime: 8
-related: []
+related: [how-to-raise-hyoid-bone, how-to-get-forward-growth, how-to-fix-recessed-maxilla]
 faq:
   - q: Can you physically raise the hyoid bone through exercise?
     a: "You cannot reposition the bone permanently through a single movement, but consistently strengthening the suprahyoid muscles and correcting tongue posture may shift the hyoid's natural resting position upward over time. Research on suprahyoid training in clinical settings supports functional improvement, though the degree varies by individual."

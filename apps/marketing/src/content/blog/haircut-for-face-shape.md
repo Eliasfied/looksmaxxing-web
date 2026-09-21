@@ -9,7 +9,7 @@ heroImage: /blog/haircut-for-face-shape/1.webp
 heroImageAlt: Illustrated diagram of the six male face shapes for hairstyle forum and haircut selection
 tags: [haircut, face-shape, looksmaxxing, mens-grooming, hairstyle]
 readingTime: 8
-related: []
+related: [oval-vs-diamond-face-shape, short-vs-long-ramus, y-taper-vs-v-taper]
 faq:
   - q: How do I know my actual face shape without guessing?
     a: "Take a straight-on photo in flat lighting and measure four distances: forehead width, cheekbone width, jawline width, and face length from hairline to chin. Comparing those four numbers reveals the dominant shape. Tools that analyze facial proportions from a photo, like Aura, can make this more precise."

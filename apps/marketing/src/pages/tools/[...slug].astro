@@ -3,7 +3,7 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import { getCollection, render } from 'astro:content';
 
 const APP_URL = import.meta.env.PUBLIC_APP_URL;
-const SITE_URL = import.meta.env.PUBLIC_SITE_URL ?? 'https://aura-looksmaxxing.com';
+const SITE_URL = import.meta.env.PUBLIC_SITE_URL ?? 'https://www.aura-looksmaxxing.com';
 
 export async function getStaticPaths() {
   const tools = await getCollection('tools', ({ data }) => !data.draft);
@@ -17,6 +17,8 @@ const { tool } = Astro.props;
 const { Content } = await render(tool);
 
 const allTools = await getCollection('tools', ({ data }) => !data.draft);
+// `related` is filled by scripts/relink-content.mjs; see the blog template for
+// why the fallback must not just slice the collection in file order.
 const relatedTools = tool.data.related?.length
   ? allTools.filter(t => tool.data.related.includes(t.data.slug)).slice(0, 4)
   : allTools.filter(t => t.data.slug !== tool.data.slug).slice(0, 4);

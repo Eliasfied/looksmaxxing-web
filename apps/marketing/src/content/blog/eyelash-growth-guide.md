@@ -9,7 +9,7 @@ heroImage: /blog/eyelash-growth-guide/1.webp
 heroImageAlt: Close-up of full, defined eyelashes representing the goal of eyelash growth treatments including minoxidil on eyelashes
 tags: [eyelash-growth, minoxidil, looksmaxxing, grooming, hair-growth]
 readingTime: 8
-related: []
+related: [beard-growth-guide, minoxidil-eyelashes, how-to-mog-someone]
 faq:
   - q: Can you use minoxidil on eyelashes safely?
     a: There is no FDA-approved topical minoxidil product for eyelash use, and standard scalp formulations contain solvents that can irritate the eyes. Some people do apply diluted minoxidil to the lash line, but this should only be done under dermatologist guidance. Oral minoxidil at low doses is a safer route for incidental lash growth and requires a prescription.

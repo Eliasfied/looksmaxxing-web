@@ -9,7 +9,7 @@ heroImage: /blog/how-to-tell-if-clavicles-narrow/1.webp
 heroImageAlt: Diagram showing clavicle anatomy and biacromial width for understanding narrow clavicles
 tags: [bone structure, frame analysis, shoulder width, looksmaxxing, body aesthetics]
 readingTime: 8
-related: []
+related: [how-to-tell-if-maxilla-is-recessed, high-vs-low-lat-insertions, narrow-vs-wide-clavicles]
 faq:
   - q: How do I know if my shoulders are narrow without measuring?
     a: Visual checks are a reasonable starting point. Look at whether shirts consistently gap at the shoulder, whether your torso has a noticeable taper, and whether your arms hang very close to your sides. That said, a tape measure and the biacromial-to-height ratio calculation gives you a much more reliable answer than visual assessment alone.

@@ -9,7 +9,7 @@ heroImage: /blog/how-to-fix-recessed-maxilla/1.webp
 heroImageAlt: Side profile diagram illustrating a recessed maxilla versus normal maxilla position
 tags: [maxilla, facial structure, looksmaxxing, orthognathic surgery, mewing]
 readingTime: 8
-related: []
+related: [how-to-grow-maxilla, maxilla-guide, flat-vs-recessed-maxilla]
 faq:
   - q: Can a recessed maxilla be fixed without surgery?
     a: In adults, non-surgical methods like mewing, posture correction, and myofunctional therapy may improve facial muscle tone and posture but are unlikely to produce significant skeletal change. Orthodontic options like MARPE may offer modest skeletal expansion for eligible adults. Meaningful correction of moderate to severe maxillary recession in adults generally requires surgery.

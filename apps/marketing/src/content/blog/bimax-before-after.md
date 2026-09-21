@@ -9,7 +9,7 @@ heroImage: /blog/bimax-before-after/1.webp
 heroImageAlt: Bimax before and after profile illustration showing jaw repositioning
 tags: [jaw surgery, facial surgery, orthognathic surgery, looksmaxxing, procedure]
 readingTime: 8
-related: []
+related: [bimax-surgery-cost, orbital-box-osteotomy, jaw-implants]
 faq:
   - q: How long does it take to see final bimax results?
     a: Most surgeons consider the final result visible at nine to twelve months post-operation, once all swelling has resolved and soft tissue has fully adapted. Photos taken earlier than this, especially those taken within the first three months, do not accurately represent the long-term outcome.
