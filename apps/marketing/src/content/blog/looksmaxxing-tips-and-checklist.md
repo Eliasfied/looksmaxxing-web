@@ -9,7 +9,7 @@ heroImage: /blog/looksmaxxing-tips-and-checklist/1.webp
 heroImageAlt: Looksmaxxing scale facial thirds diagram showing key attractiveness traits
 tags: [looksmaxxing, looksmax scale, how to looksmax, "men's grooming", self-improvement]
 readingTime: 8
-related: [psl-scale-explained, height-and-frame-guide, softmaxxing-vs-hardmaxxing-explained]
+related: [height-and-frame-guide, psl-scale-explained, softmaxxing-vs-hardmaxxing-explained]
 faq:
   - q: What is the looksmaxxing scale and how is it scored?
     a: The looksmaxxing scale rates male facial attractiveness from 1 to 10 based on specific anatomical traits including bone structure, eye area, skin quality, and facial proportions. It originates from the PSL community and attempts to create a measurable framework rather than a purely subjective impression. A score around 4 to 5 represents the average male, while scores above 7 reflect strong bone structure and facial harmony.
