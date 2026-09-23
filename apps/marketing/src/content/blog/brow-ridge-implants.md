@@ -9,7 +9,7 @@ heroImage: /blog/brow-ridge-implants/1.webp
 heroImageAlt: Anatomical illustration showing the brow ridge area on a male face profile
 tags: [facial surgery, brow ridge, looksmaxxing, facial implants, craniofacial aesthetics]
 readingTime: 8
-related: [accutane-before-after, jaw-implants, volufiline-lips]
+related: [jaw-implants, volufiline-lips, bimax-before-after]
 faq:
   - q: How long do brow ridge implants last?
     a: Brow ridge implants are designed to be permanent. Silicone implants can be removed or revised if needed, while porous polyethylene implants integrate with surrounding tissue and are more difficult to remove. Barring complications or a desire for revision, most patients keep them indefinitely.

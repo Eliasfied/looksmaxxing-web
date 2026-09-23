@@ -9,7 +9,7 @@ heroImage: /blog/hunter-eyes-guide/1.webp
 heroImageAlt: Hunter eyes illustration showing deep-set orbits and low upper eyelid exposure
 tags: [hunter eyes, looksmaxxing, facial aesthetics, eye appearance, deep set eyes]
 readingTime: 8
-related: [hunter-eyes-vs-almond-eyes, hunter-eyes-vs-prey-eyes, are-deep-set-eyes-attractive]
+related: [hunter-eyes-vs-almond-eyes, hunter-eyes-vs-prey-eyes, medial-canthus]
 faq:
   - q: What are hunter eyes exactly?
     a: Hunter eyes describe an eye shape with deep-set orbits, a prominent brow ridge, minimal upper eyelid exposure, and a neutral to slightly negative canthal tilt. The combined effect is an intense, focused appearance often associated with masculine facial structure.

@@ -9,7 +9,7 @@ heroImage: /blog/jaw-implants/1.webp
 heroImageAlt: Illustration showing defined jawline anatomy relevant to jaw implants
 tags: [jaw implants, facial surgery, jawline, looksmaxxing, facial aesthetics]
 readingTime: 8
-related: [jaw-filler-before-after, brow-ridge-implants, bimax-before-after]
+related: [jaw-filler-before-after, brow-ridge-implants, orbital-box-osteotomy]
 faq:
   - q: How long do jaw implants last?
     a: Silicone jaw implants are considered permanent but can be removed or replaced if needed. Porous polyethylene implants integrate with surrounding tissue, making them harder to revise but also very stable. Neither material degrades in the body under normal circumstances, so the implant itself does not have an expiration date. However, some patients choose revision over time due to changes in facial aging or aesthetic preferences.

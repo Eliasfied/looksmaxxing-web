@@ -9,7 +9,7 @@ heroImage: /blog/y-taper-vs-v-taper/1.webp
 heroImageAlt: Y taper vs v taper silhouette comparison illustration
 tags: [body aesthetics, looksmaxxing, physique, fitness]
 readingTime: 8
-related: [high-vs-low-lat-insertions, narrow-vs-wide-clavicles, forward-growth-explained]
+related: [high-vs-low-lat-insertions, narrow-vs-wide-clavicles, oval-vs-diamond-face-shape]
 faq:
   - q: Is a y taper better than a v taper?
     a: Not strictly better, but more developed. A y taper requires all the same qualities as a v taper and adds trap, arm, and neck development on top. For most training goals, building the v taper first is the right sequence before pursuing the fuller y taper silhouette.

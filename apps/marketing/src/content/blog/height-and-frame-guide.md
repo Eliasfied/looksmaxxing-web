@@ -9,7 +9,7 @@ heroImage: /blog/height-and-frame-guide/1.webp
 heroImageAlt: K Shami height comparison infographic showing male silhouette at 5 feet 11 inches
 tags: [height, frame, looksmaxxing, athletes, heightmaxxing]
 readingTime: 8
-related: [body-fat-and-face, looksmaxxing-tips-and-checklist, cheekbones-guide]
+related: [body-fat-and-face, 6-haircuts-for-receding-hairline, cheekbones-guide]
 faq:
   - q: "What is K Shami's height?"
     a: K Shami stands at approximately 5 feet 11 inches, or 180 cm. This places him well above average male height in most countries and gives him a functional frame for fast bowling in international cricket.
