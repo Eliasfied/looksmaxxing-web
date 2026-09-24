@@ -9,7 +9,7 @@ heroImage: /blog/philtrum-explained/1.webp
 heroImageAlt: Ideal philtrum anatomy shown on a human lower face illustration
 tags: [facial anatomy, facial proportions, looksmaxxing, philtrum, facial harmony]
 readingTime: 8
-related: [face-ratio-fwhr, eye-spacing-ipd, ramus-length]
+related: [face-ratio-fwhr, eye-spacing-ipd, medial-canthus]
 faq:
   - q: What is the ideal philtrum length for men and women?
     a: For women, research suggests an optimal philtrum length of roughly 11 to 13 mm. For men, the range is slightly higher at around 13 to 15 mm. These are averages from aesthetic studies, not absolute standards, and should be interpreted in the context of your overall facial proportions.
