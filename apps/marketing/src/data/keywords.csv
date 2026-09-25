@@ -763,7 +763,7 @@ volcel meaning,600,30,gloss-volcel,volcel,pending,glossary,yes,3
 haircut for face shape ai,800,30,tool-haircut,haircut-recommendation-tool,pending,tool,yes,3
 beard style finder,300,30,tool-beard,beard-style-finder,pending,tool,yes,3
 mewing form checker,200,30,tool-mewing,mewing-form-checker,pending,tool,yes,3
-face symmetry analyzer,1300,30,tool-symmetry,symmetry-analyzer,pending,tool,yes,3
+face symmetry analyzer,1300,30,tool-symmetry,symmetry-analyzer,generated,tool,yes,3
 how to get rid of dark circles men,0,0,dark-circles-men,dark-circles-under-eyes-men,pending,blog,yes,4
 dark circles under eyes men,0,0,dark-circles-men,dark-circles-under-eyes-men,pending,blog,no,4
 tear trough,0,0,tear-trough,tear-trough-hollows,pending,blog,yes,4

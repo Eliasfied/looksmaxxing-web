@@ -45,7 +45,7 @@ faq:
     a: Aura processes your photos with privacy as a priority. Your images and facial data are not sold or shared. You can delete your data from your account settings at any time.
   - q: Can I use the tracker on my phone?
     a: Yes. Aura is a web app accessible at app.aura-looksmaxxing.com and works on both mobile and desktop browsers. No app store download is required.
-related: [jawline-analyzer, face-shape-detector, psl-score-calculator, ai-face-rating]
+related: [jawline-analyzer, face-shape-detector, symmetry-analyzer, canthal-tilt-checker]
 draft: false
 ---
 
