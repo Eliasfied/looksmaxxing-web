@@ -3,7 +3,7 @@
   "type": "module",
   "private": true,
   "dependencies": {
-    "@anthropic-ai/sdk": "^0.53.0",
+    "@anthropic-ai/sdk": "^0.128.0",
     "@fal-ai/client": "^1.5.0",
     "sharp": "^0.34.5"
   }

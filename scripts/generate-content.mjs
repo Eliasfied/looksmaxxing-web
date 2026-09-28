@@ -68,6 +68,21 @@ const DRY_RUN = hasFlag('--dry-run');
 const NO_IMAGES = hasFlag('--no-images');
 const ONLY_SLUG = getArg('--slug');
 
+// ─── Model ──────────────────────────────────────────────────────────────────
+// Opus 5.5 thinks on every request and cannot be told not to, so two things
+// follow: thinking tokens count against MAX_TOKENS (hence the headroom), and
+// the answer is never content[0] (see generatePage).
+// EFFORT is the quality/cost dial: low | medium | high | xhigh | max.
+// The model's own default is "medium"; we run "high" because the article text
+// is the product. Overridable per run with --model / --effort.
+const MODEL = getArg('--model') ?? 'claude-opus-5-5';
+const EFFORT = getArg('--effort') ?? 'high';
+const MAX_TOKENS = 16000;
+
+// Token spend for this run, reported at the end. Note that thinking tokens are
+// billed as output, so the output figure is higher than the article alone.
+const USAGE = { input: 0, output: 0, pages: 0 };
+
 // ─── Paths ──────────────────────────────────────────────────────────────────
 const CSV_PATH = path.join(ROOT, 'apps/marketing/src/data/keywords.csv');
 const CONTENT_BASE = path.join(ROOT, 'apps/marketing/src/content');
@@ -398,12 +413,32 @@ async function generatePage(page) {
 
   const client = await anthropic();
   const message = await client.messages.create({
-    model: 'claude-sonnet-4-6',
-    max_tokens: 8000,
+    model: MODEL,
+    max_tokens: MAX_TOKENS,
+    output_config: { effort: EFFORT },
     messages: [{ role: 'user', content: prompt }],
   });
 
-  const text = message.content[0].text.trim()
+  // Fail loudly and specifically. Both of these used to surface as a confusing
+  // "invalid JSON" further down.
+  if (message.stop_reason === 'refusal') {
+    const { category, explanation } = message.stop_details ?? {};
+    throw new Error(`Model declined ${page.slug} (${category ?? 'unknown'}): ${explanation ?? 'no explanation'}`);
+  }
+  if (message.stop_reason === 'max_tokens') {
+    throw new Error(`Hit max_tokens on ${page.slug}, so the JSON is truncated. Raise MAX_TOKENS or lower --effort.`);
+  }
+
+  USAGE.input += message.usage.input_tokens;
+  USAGE.output += message.usage.output_tokens;
+  USAGE.pages += 1;
+  console.log(`   ⚡ ${message.usage.input_tokens} in / ${message.usage.output_tokens} out tokens`);
+
+  // Thinking is always on, so content[0] is a thinking block, not the answer.
+  const textBlock = message.content.find(b => b.type === 'text');
+  if (!textBlock) throw new Error(`No text block in the response for ${page.slug}`);
+
+  const text = textBlock.text.trim()
     .replace(/^```(?:json)?\n?/, '')
     .replace(/\n?```$/, '');
 
@@ -699,7 +734,7 @@ async function main() {
   }
 
   const batch = pending.slice(0, COUNT);
-  console.log(`\n📦 Generating ${batch.length} page(s) (of ${pending.length} pending):`);
+  console.log(`\n📦 Generating ${batch.length} page(s) (of ${pending.length} pending) with ${MODEL} @ effort ${EFFORT}:`);
   for (const p of batch) {
     console.log(`   - [${p.page_type.padEnd(8)}] phase ${p.phase}  /${p.slug}  (${p.primary_keyword}, vol ${p.primary_volume})`);
   }
@@ -738,6 +773,13 @@ async function main() {
     } catch (e) {
       console.error(`   ❌ Failed: ${e.message}`);
     }
+  }
+
+  if (USAGE.pages) {
+    console.log(
+      `\n⚡ Token spend: ${USAGE.input.toLocaleString()} in / ${USAGE.output.toLocaleString()} out ` +
+      `across ${USAGE.pages} page(s) on ${MODEL}`
+    );
   }
 
   if (DRY_RUN) {
