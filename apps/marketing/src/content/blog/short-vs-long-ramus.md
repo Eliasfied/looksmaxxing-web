@@ -9,7 +9,7 @@ heroImage: /blog/short-vs-long-ramus/1.webp
 heroImageAlt: Anatomical diagram of the jaw showing ramus height on a human skull profile
 tags: [jawline, facial anatomy, looksmaxxing, ramus, jaw structure]
 readingTime: 8
-related: [ramus-length, forward-vs-downward-growth, wide-vs-narrow-palate]
+related: [forward-vs-downward-growth, wide-vs-narrow-palate, forward-growth-explained]
 faq:
   - q: What is considered a short vs long ramus?
     a: Ramus height is typically measured on a lateral cephalometric X-ray. Average ramus height in adults ranges roughly from 50 to 65 mm depending on sex and population norms. Below this range is generally considered a short ramus; above it is considered long. Exact thresholds vary by study and reference population.

@@ -9,7 +9,7 @@ heroImage: /blog/masseter-training-guide/1.webp
 heroImageAlt: Anatomical illustration showing masseter muscle location for jaw training
 tags: [masseter training, jawline, looksmaxxing, face aesthetics, muscle building]
 readingTime: 8
-related: [how-to-grow-masseter-muscle, jawline-improvement-guide, mandible-vs-maxilla]
+related: [how-to-grow-masseter-muscle, hgh-face-changes, jawline-improvement-guide]
 faq:
   - q: How long does it take to see results from masseter training?
     a: Most consistent practitioners report noticing visible changes somewhere between 8 and 16 weeks of regular training. Results depend on genetics, starting muscle size, body fat level, and how consistently you train. Tracking photos every 4 weeks gives a more reliable view of progress than daily mirror checks.
