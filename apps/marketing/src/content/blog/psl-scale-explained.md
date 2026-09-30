@@ -9,7 +9,7 @@ heroImage: /blog/psl-scale-explained/1.webp
 heroImageAlt: PSL scale facial analysis diagram showing key attractiveness metrics
 tags: [psl, psl ratings, looksmaxxing, face rating, attractiveness]
 readingTime: 8
-related: [looksmaxxing-chart-explained, trimax-surgery-explained, facial-dimorphism-explained]
+related: [looksmaxxing-chart-explained, facial-dimorphism-explained, trimax-surgery-explained]
 faq:
   - q: What does PSL stand for?
     a: PSL stands for Puahate, Sluthate, and Looksmax, three online communities that developed a structured framework for rating and discussing facial attractiveness. Today the term is used broadly to refer to the rating scale and vocabulary those communities popularized.
