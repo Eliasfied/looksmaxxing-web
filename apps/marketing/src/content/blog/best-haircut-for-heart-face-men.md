@@ -9,7 +9,7 @@ heroImage: /blog/best-haircut-for-heart-face-men/1.webp
 heroImageAlt: Best haircut for heart face men illustrated with a textured fringe on a heart-shaped face
 tags: [heart face shape, "men's haircuts", face shape guide, hairstyles, looksmaxxing, grooming]
 readingTime: 9
-related: [best-haircut-for-round-face-men, best-haircut-for-square-face-men, best-haircut-for-oval-face-men]
+related: [best-haircut-for-round-face-men, best-haircut-for-diamond-face-men, best-haircut-for-oval-face-men]
 faq:
   - q: What is the best haircut for a heart-shaped face for men?
     a: A textured French crop with a low taper is the most reliable option for most men with heart-shaped faces. The forward fringe softens a wide forehead while the low taper keeps some weight lower on the sides. Side-swept fringes and middle-part curtains are strong alternatives.
