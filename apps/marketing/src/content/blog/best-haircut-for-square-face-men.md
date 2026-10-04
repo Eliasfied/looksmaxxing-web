@@ -9,7 +9,7 @@ heroImage: /blog/best-haircut-for-square-face-men/1.webp
 heroImageAlt: Best haircut for square face men illustrated with a textured quiff and face shape guide lines
 tags: [haircuts, square face, "men's hairstyles", face shape, jawline, grooming]
 readingTime: 9
-related: [best-haircut-for-oval-face-men, best-haircut-for-round-face-men, best-haircut-for-heart-face-men]
+related: [best-haircut-for-oval-face-men, best-haircut-for-round-face-men, best-haircut-for-oblong-face-men]
 faq:
   - q: What is the best haircut for a square face male?
     a: A textured quiff is one of the most reliable choices because it adds height on top while keeping the sides tight. Side parts, crew cuts, and modern pompadours also work well. The common thread is volume on top with controlled, tapered sides.
