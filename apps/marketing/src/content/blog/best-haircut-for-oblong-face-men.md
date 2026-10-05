@@ -9,7 +9,7 @@ heroImage: /blog/best-haircut-for-oblong-face-men/1.webp
 heroImageAlt: Best haircut for oblong face men shown in four flattering styles
 tags: [haircuts, oblong face, face shape, "men's grooming", looksmaxxing]
 readingTime: 9
-related: [best-haircut-for-oval-face-men, best-haircut-for-square-face-men, best-haircut-for-round-face-men]
+related: [best-haircut-for-triangle-face-men, best-haircut-for-oval-face-men, best-haircut-for-square-face-men]
 faq:
   - q: What is the best haircut for an oblong face for men?
     a: A textured French crop is the most reliable choice because it keeps the top flat and uses a fringe to shorten the visible forehead. A side part with a low taper and a Caesar cut are also strong options. The common thread is low height on top and some fullness on the sides.

@@ -9,7 +9,7 @@ heroImage: /blog/best-haircut-for-diamond-face-men/1.webp
 heroImageAlt: Best haircut for diamond face men shown on an illustrated man with a textured fringe and low taper
 tags: [diamond face shape, "men's haircuts", face shape guide, beard styles, looksmaxxing]
 readingTime: 9
-related: [best-haircut-for-heart-face-men, best-haircut-for-round-face-men, best-haircut-for-square-face-men]
+related: [best-haircut-for-heart-face-men, best-haircut-for-round-face-men, best-haircut-for-triangle-face-men]
 faq:
   - q: What is the best haircut for a diamond face shape for men?
     a: A textured fringe with a low taper is the most reliable option because it widens the narrow forehead and keeps some length at the sides. Side parts, forward quiffs, and medium-length flowing styles also work well for the same reason.

@@ -9,7 +9,7 @@ heroImage: /blog/best-haircut-for-oval-face-men/1.webp
 heroImageAlt: Illustrated grid showing the best haircut for oval face men, including crop, quiff, crew cut, and slick back
 tags: [haircuts, oval face, face shape, "men's grooming", hairstyles]
 readingTime: 9
-related: [best-haircut-for-oblong-face-men, best-haircut-for-square-face-men, best-haircut-for-heart-face-men]
+related: [best-haircut-for-oblong-face-men, best-haircut-for-square-face-men, best-haircut-for-triangle-face-men]
 faq:
   - q: Can men with oval faces wear any haircut?
     a: Oval faces suit more styles than any other shape, but not every cut works equally well. Very tall styles, heavy blunt fringes, and bulky sides can throw off your natural balance. Hair type and features like forehead height still matter.

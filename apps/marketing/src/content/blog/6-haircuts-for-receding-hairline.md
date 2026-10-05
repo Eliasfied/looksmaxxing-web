@@ -9,7 +9,7 @@ heroImage: /blog/6-haircuts-for-receding-hairline/1.webp
 heroImageAlt: Six haircuts for a receding hairline shown as illustrated silhouettes
 tags: [haircuts, receding hairline, "men's grooming", looksmaxxing, hair loss]
 readingTime: 8
-related: [8-jawline-exercises, best-haircut-for-oblong-face-men, best-haircut-for-oval-face-men]
+related: [8-jawline-exercises, best-haircut-for-oblong-face-men, best-haircut-for-triangle-face-men]
 faq:
   - q: Which haircut is best for a severely receding hairline?
     a: For a significantly receded hairline, the buzz cut or a fully shaved head tends to work best. Both eliminate the contrast between thinning areas and the scalp, which is usually what makes heavy recession most noticeable. Trying to style around severe recession with longer cuts often draws more attention to it.
