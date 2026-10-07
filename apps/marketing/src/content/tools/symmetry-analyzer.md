@@ -45,7 +45,7 @@ faq:
     a: Aura processes your photo to generate the analysis and does not permanently store images or share them with third parties. You can review the full privacy policy at app.aura-looksmaxxing.com before uploading.
   - q: Can I use the symmetry analyzer on my phone?
     a: Yes, Aura is a web app that works on mobile browsers. You can take a photo directly with your phone camera and run the analysis without installing anything.
-related: [jawline-analyzer, mewing-tracker, ai-face-rating, face-shape-detector]
+related: [jawline-analyzer, ai-face-rating, face-shape-detector, haircut-recommendation-tool]
 draft: false
 ---
 
