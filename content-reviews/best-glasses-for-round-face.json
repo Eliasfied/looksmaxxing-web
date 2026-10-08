@@ -1,0 +1,47 @@
+{
+  "slug": "best-glasses-for-round-face",
+  "reviewedAt": "2026-10-08T20:27:35.117Z",
+  "draft": true,
+  "review": {
+    "pass": false,
+    "issues": [
+      "Incomplete model response: max_tokens",
+      "No reviewable Markdown draft was saved."
+    ]
+  },
+  "sources": [],
+  "imageModel": "openai/gpt-image-2.5/flare/text-to-image",
+  "imageReviews": [],
+  "imageSettings": {
+    "width": 1024,
+    "height": 1024,
+    "quality": "low"
+  },
+  "usage": [
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "research",
+      "input": 47691,
+      "output": 3235,
+      "estimatedUsd": 0.127732,
+      "searches": 3
+    },
+    {
+      "model": "claude-opus-5-5",
+      "stage": "article",
+      "input": 31116,
+      "output": 10987,
+      "estimatedUsd": 0.344204,
+      "searches": 0
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "text-review",
+      "input": 34163,
+      "output": 6000,
+      "estimatedUsd": 0.128326,
+      "searches": 0
+    }
+  ],
+  "note": "Token estimates exclude web-search charges, images, tax and provider markups."
+}
