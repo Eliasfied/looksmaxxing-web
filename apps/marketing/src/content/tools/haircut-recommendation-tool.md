@@ -1,10 +1,10 @@
 ---
-title: "Haircut Finder | Aura"
+title: "Haircut for Face Shape AI: Find Your Best Cut | Aura"
 description: "Get three haircut suggestions and a brief for your stylist."
 slug: haircut-recommendation-tool
 primary_keyword: "haircut finder"
 cluster: personal-styling
-pubDate: 2026-10-08
+pubDate: 2026-10-07
 h1: "Haircut Finder"
 subtitle: "Get three haircut suggestions and a brief for your stylist."
 cta_label: "See my potential"

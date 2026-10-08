@@ -4,7 +4,7 @@ description: "Explore apparent facial balance and the effects of lighting and po
 slug: symmetry-analyzer
 primary_keyword: "face symmetry analyzer"
 cluster: personal-styling
-pubDate: 2026-10-08
+pubDate: 2026-09-25
 h1: "Face Symmetry Analyzer"
 subtitle: "Explore apparent facial balance and the effects of lighting and pose."
 cta_label: "See my potential"
