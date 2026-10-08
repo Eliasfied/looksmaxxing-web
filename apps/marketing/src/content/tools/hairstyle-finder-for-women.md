@@ -9,6 +9,7 @@ h1: "Hairstyle Finder for Women"
 subtitle: "Find haircut, fringe and face-framing ideas with a practical salon brief."
 cta_label: "See my potential"
 draft: false
+related: [glow-up-planner, face-analysis-for-women, haircut-recommendation-tool, symmetry-analyzer]
 ---
 
 Find haircut, fringe and face-framing ideas with a practical salon brief.

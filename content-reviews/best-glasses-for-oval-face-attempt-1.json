@@ -1,0 +1,31 @@
+{
+  "slug": "best-glasses-for-oval-face",
+  "reviewedAt": "2026-10-08T15:46:47.280Z",
+  "draft": true,
+  "review": {
+    "pass": false,
+    "issues": [
+      "Hit max_tokens on best-glasses-for-oval-face, so the JSON is truncated. Raise MAX_TOKENS or lower --effort.",
+      "No reviewable Markdown draft was saved."
+    ]
+  },
+  "sources": [],
+  "imageModel": "openai/gpt-image-2.5/flare/text-to-image",
+  "imageReviews": [],
+  "imageSettings": {
+    "width": 1024,
+    "height": 1024,
+    "quality": "low"
+  },
+  "usage": [
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "research",
+      "input": 31834,
+      "output": 3375,
+      "estimatedUsd": 0.097418,
+      "searches": 3
+    }
+  ],
+  "note": "Token estimates exclude web-search charges, images, tax and provider markups."
+}

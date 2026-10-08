@@ -9,6 +9,7 @@ h1: "Face Analysis for Women"
 subtitle: "Explore face shape, hair framing and brow ideas around your personal preferences."
 cta_label: "See my potential"
 draft: false
+related: [symmetry-analyzer, haircut-recommendation-tool, hairstyle-finder-for-women, glow-up-planner]
 ---
 
 Explore face shape, hair framing and brow ideas around your personal preferences.

@@ -1,6 +1,6 @@
 # Aura: lokaler Umbau und Inbetriebnahme
 
-Stand: 8. Oktober 2026. Lokal implementiert; kein Push, Deployment, echter Kauf oder Artikel-/Bildgenerierungslauf wurde ausgeführt. Ein begrenzter GPT-6-Luna-API-Test mit einem künstlichen 64×64-Farbfeld war erfolgreich (keine Kundenfotos).
+Stand: 8. Oktober 2026. App und Marketing-Website wurden nach ausdrücklicher Freigabe veröffentlicht. Der aktuelle main-Content wurde vor dem Release zusammengeführt. Live-URLs: https://app.aura-looksmaxxing.com/tools und https://www.aura-looksmaxxing.com/. Details zu Prüfungen und verbleibenden Einschränkungen stehen im Release-Protokoll am Ende. Ein echter Kauf wurde nicht ausgelöst.
 
 ## Der neue Ablauf
 
@@ -62,7 +62,7 @@ Bestehende Artikeltexte, Titel und URLs wurden nicht automatisch neu geschrieben
 
 ## Begrenzter CTA-Test auf Bestandsseiten
 
-Die Auswahl liegt zentral in `config/content-cta-rollout.mjs`. Der Test wird erst mit einer später freigegebenen Veröffentlichung aktiv; es gibt keine automatische Erweiterung oder Zeitsteuerung.
+Die Auswahl liegt zentral in `config/content-cta-rollout.mjs`. Der Test ist seit der Veröffentlichung am 8. Oktober aktiv; es gibt keine automatische Erweiterung oder Zeitsteuerung.
 
 | Seite | Passendes Tool | Grund für die Auswahl |
 | --- | --- | --- |
@@ -112,7 +112,7 @@ Die neue Bildkonfiguration ist implementiert und mit isolierten Tests geprüft. 
 
 ## Vor einer späteren Veröffentlichung
 
-Diese Schritte verändern externe Systeme und wurden bewusst nicht ausgeführt:
+Ursprüngliche Checkliste; der tatsächliche Umsetzungsstatus nach Veröffentlichung steht im folgenden Release-Protokoll.
 
 1. Aktuellen main-Stand inklusive automatisch hinzugekommener Inhalte mit diesem lokalen Branch zusammenführen. Keinen älteren kompletten Content-Stand über die Live-Seite kopieren.
 2. In der Web-Umgebung TOOL_REPORT_SECRET (mindestens 32 zufällige Zeichen) sicher setzen. Lokal wurde ein eigener Schlüssel in der ignorierten apps/web/.env.local angelegt. Für bestehende Berichte muss der Produktionsschlüssel erhalten bleiben; ein Wechsel macht sie unlesbar. APP_ORIGIN muss exakt der App-Origin entsprechen; PUBLIC_APP_URL muss auf dieselbe Umgebung zeigen.
@@ -148,4 +148,20 @@ Nach den ersten 14 Tagen: erst die drei größten Abbruchstellen verbessern. Fra
 - Browserprüfung der öffentlichen Uploads, mobilen Darstellung sowie fiktiver gesperrter/freigeschalteter Berichte.
 - 30 isolierte Tests bestanden, einschließlich Luna-Anfrageparametern, explizitem Rollback, Bildreihenfolge, abgelehnten/unvollständigen KI-Antworten, 5-Credit-Freischaltung und persistierten Fehlerstatus der Content-Queue.
 - TypeScript-Prüfung, Next.js-Produktionsbuild und Astro-Produktionsbuild mit 136 Seiten bestanden. Bestehende Blog-/Glossar-Quelldateien unverändert.
-- Echter Luna-Verbindungstest mit künstlichem Bild bestanden. Keine echte Zahlungsabwicklung, kein Live-Firebase-End-to-End-Test, kein Qualitätsvergleich mit Gesichts-Testbildern und kein kostenpflichtiger Artikel-/Bildgenerierungslauf. Diese Prüfungen bleiben vor Veröffentlichung separat nötig.
+- Vor dem Release: echter Luna-Verbindungstest mit künstlichem Bild bestanden. Die anschließenden Live-Prüfungen und Grenzen sind unten dokumentiert.
+
+## Release-Protokoll vom 8. Oktober 2026
+
+- Release-Branch: `release/aura-tool-funnel-20261008`; enthält den bisherigen Umbau sowie `origin/main` bis `6bad108c52af114d76a120997a6d3ae1c5a9f649`. Neuere automatisch erzeugte Artikel und Bilder wurden erhalten. Die ursprüngliche Arbeitskopie mit ihren lokalen Änderungen wurde nicht zurückgesetzt.
+- App zuerst veröffentlicht: `dpl_4Z84dHK7XYeidQyJfzGBFPSEquDH`. Marketing anschließend: `dpl_HBCttxA7xxNG6o9HSm9cXtPUZDYs`. Spätere Git-Deployments desselben finalen Releases ersetzen diese IDs.
+- Vercel: frischer Produktionsschlüssel `TOOL_REPORT_SECRET`, `CRON_SECRET`, App-Origin, Luna-Modelle und Tageslimit gesetzt; fehlenden fal-Schlüssel ergänzt. Bestehende Firebase- und RevenueCat-Konfiguration erhalten. Keine Schlüssel im Git-Repository.
+- Firestore: vorhandene Regeln vorab gesichert und serverseitige Zugriffsgrenze veröffentlicht. Das Projekt enthält nur die Web-App. Beide Billing-Pläne auf `monthly_credits: 100` korrigiert; beim Jahresplan das falsche Feld `thly_credits` entfernt. Zwei bestehende aktuelle Abos auf die monatliche Erneuerung vorbereitet, ohne Guthaben zurückzusetzen.
+- Firestore-TTL ist im aktuellen Firebase-Projekt wegen deaktiviertem Billing nicht verfügbar. Statt eines Tarifwechsels läuft täglich um 03:00 UTC `/api/cron/tool-cleanup` über Vercel. Der Job ist mit einem Bearer-Secret geschützt und entfernt abgelaufene Vorschauen und Quoten. Transaktionen lesen vor dem Löschen erneut, damit gleichzeitige Zuordnungen und Freischaltungen erhalten bleiben. API-Ablaufzeiten gelten weiterhin sofort. Vercel bestätigt den aktiven Zeitplan; der erste geplante Lauf stand beim Release noch aus.
+- RevenueCat-Produkte mit dem tatsächlich ausgelieferten öffentlichen App-Schlüssel gelesen: Starter-Pack 2,99 USD, monatlich 9,99 USD, jährlich 49,99 USD. Offering enthält alle drei IDs. Der lokale RevenueCat-Schlüssel und das lokale Webhook-Secret sind veraltet; die bestehenden Produktionswerte wurden nicht ersetzt. Ein erfolgreicher echter Checkout samt Webhook und Freischaltung wurde nicht ausgeführt.
+- Live geprüft: Tools und Frauen-/Planner-Uploads erreichbar; Formular im Browser kontrolliert. Ungültige Eingaben werden mit 400, fremde Origins mit 403, fremde Berichte mit 404 und unautorisierte Webhook-/Cleanup-Aufrufe mit 401 abgewiesen. Ein künstliches rotes PNG durchlief Produktions-API, Firebase-Quota und Luna und wurde korrekt mit 422 als ungeeignetes Foto zurückgewiesen. Die Development-Ergebnisvorschau zeigt in Produktion die 404-Ansicht.
+- Website: Startseite, Tools, Preise, alle fünf CTA-Pilotseiten, ein neuer Artikel aus main und Sitemap mit 200 geprüft. Richtige Tool-Ziele und Canonical-URLs, keine localhost-Links. Bestehende Blog-/Glossartexte bleiben gegenüber dem aktuellen main erhalten.
+- 32 isolierte Tests und TypeScript-Prüfung bestanden; Next.js-Produktionsbuild bei Vercel erfolgreich, Astro baut 151 öffentliche Seiten.
+- Echter Content-Probelauf: Recherche und Opus-Artikel ausgeführt. Der erste Versuch erreichte das bisherige Ausgabelimit; der Writer nutzt jetzt Streaming, mittleren Aufwand und maximal 24.000 Ausgabetokens. Auch abgebrochene Antworten werden künftig in der Kostenübersicht erfasst. Der nächste vollständige Entwurf wurde wegen einer Quelle außerhalb der verifizierten Recherche als `draft: true` zurückgehalten. Der Writer erhält jetzt zusätzlich die explizite URL-Freigabeliste. Keine automatische Umgehung der Quellenprüfung. Der Entwurf und die Prüfberichte liegen im Repository; er wird weder gebaut noch wiederholt kostenpflichtig generiert. 141 neue Blog-/Glossarseiten bleiben in der Queue.
+- Separater echter Bildtest bestanden: `openai/gpt-image-2.5/flare/text-to-image`, `quality=low`, Ausgabe exakt 1024 × 1024; WebP-Konvertierung sowie visuelle Sonnet-Prüfung erfolgreich. Das Brillen-Motiv wurde zusätzlich angesehen. Der Test ersetzt keinen vollständigen Artikel mit drei geprüften Bildern; der zurückgehaltene Entwurf wurde nicht mit Testbildern veröffentlicht.
+- PostHog ist in beiden Produktionsprojekten mangels Schlüssel nicht aktiviert. Serverseitige Kauf- und Tool-Ereignisse in Firestore funktionieren unabhängig davon; die vollständige Auswertung von Artikelaufrufen und CTA-Klicks braucht noch einen PostHog-Projektschlüssel. Es wurde kein neues Analytics-Konto angelegt.
+- Offene manuelle Validierung: ein echter Kauf mit anschließendem Neuladen des freigeschalteten Berichts sowie Qualitätsbewertung mit geeigneten, freigegebenen Gesichts-Testfotos. Es wurden keine Kundendaten für diese Prüfungen verwendet.

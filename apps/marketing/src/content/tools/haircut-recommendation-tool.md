@@ -9,6 +9,7 @@ h1: "Haircut Finder"
 subtitle: "Get three haircut suggestions and a brief for your stylist."
 cta_label: "See my potential"
 draft: false
+related: [glow-up-planner, face-analysis-for-women, hairstyle-finder-for-women, symmetry-analyzer]
 ---
 
 Get three haircut suggestions and a brief for your stylist.

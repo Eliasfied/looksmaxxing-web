@@ -1,0 +1,31 @@
+{
+  "slug": "best-glasses-for-oval-face",
+  "reviewedAt": "2026-10-08T15:50:30.478Z",
+  "draft": true,
+  "review": {
+    "pass": false,
+    "issues": [
+      "Streaming is required for operations that may take longer than 10 minutes. See https://github.com/anthropics/anthropic-sdk-typescript#long-requests for more details",
+      "No reviewable Markdown draft was saved."
+    ]
+  },
+  "sources": [],
+  "imageModel": "openai/gpt-image-2.5/flare/text-to-image",
+  "imageReviews": [],
+  "imageSettings": {
+    "width": 1024,
+    "height": 1024,
+    "quality": "low"
+  },
+  "usage": [
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "research",
+      "input": 30747,
+      "output": 3513,
+      "estimatedUsd": 0.096624,
+      "searches": 3
+    }
+  ],
+  "note": "Token estimates exclude web-search charges, images, tax and provider markups."
+}

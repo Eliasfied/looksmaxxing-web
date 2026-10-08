@@ -1,5 +1,6 @@
 {
   "buildCommand": "cd ../.. && pnpm turbo build --filter=@saas-template/web",
   "outputDirectory": ".next",
-  "installCommand": "pnpm install"
+  "installCommand": "pnpm install",
+  "crons": [{ "path": "/api/cron/tool-cleanup", "schedule": "0 3 * * *" }]
 }

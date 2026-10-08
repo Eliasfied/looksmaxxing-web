@@ -45,7 +45,7 @@ faq:
     a: Aura processes your photo securely and does not share it with third parties or display it publicly. You can review the full privacy policy at app.aura-looksmaxxing.com before uploading.
   - q: Can I use the face rating tool on my phone?
     a: Yes. Aura is a web app that works on any modern smartphone browser, so you can take and upload a photo directly from your phone without downloading anything.
-related: [symmetry-analyzer, face-shape-detector, haircut-recommendation-tool, psl-score-calculator]
+related: [face-analysis-for-women, face-shape-detector, haircut-recommendation-tool, psl-score-calculator]
 draft: false
 ---
 

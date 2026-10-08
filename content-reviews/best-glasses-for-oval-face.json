@@ -1,0 +1,87 @@
+{
+  "slug": "best-glasses-for-oval-face",
+  "reviewedAt": "2026-10-08T15:55:12.192Z",
+  "draft": true,
+  "review": {
+    "pass": false,
+    "issues": [
+      "A source was not found in research"
+    ]
+  },
+  "sources": [
+    {
+      "title": "Four Factors to Choosing Eyeglass Frames (VSP)",
+      "url": "https://www.vsp.com/eyewear-wellness/lasik-glasses-lenses/how-to-choose-glasses"
+    },
+    {
+      "title": "Glasses for Your Face Shape and Skin Tone (All About Vision)",
+      "url": "https://www.allaboutvision.com/eyewear/eyeglasses/fit/glasses-shape-color-analysis/"
+    },
+    {
+      "title": "Choosing Glasses for Your Face Shape (Optometrists.org)",
+      "url": "https://www.optometrists.org/general-practice-optometry/optical/guide-to-optical-frames/9115-2/"
+    },
+    {
+      "title": "How to Pick the Right Glasses Frames for Your Face Shape (CareCredit)",
+      "url": "https://www.carecredit.com/well-u/health-wellness/how-to-choose-glasses-for-your-face-shape/"
+    },
+    {
+      "title": "How To Pick Glasses for Your Face Shape (Rosen Optometry)",
+      "url": "https://www.rosenoptometry.com/eyeglasses-and-contacts/choosing-glasses-how-the-pros-do-it/"
+    },
+    {
+      "title": "The Ultimate Guide to Choosing the Perfect Eyeglass Frame (ASG Eye Hospital)",
+      "url": "https://www.asgeyehospital.com/blog/the-ultimate-guide-to-choosing-glasses-frames/"
+    },
+    {
+      "title": "The Ultimate Guide to Ophthalmic Frame Styles (Optical Training)",
+      "url": "https://opticaltraining.com/html/continuing_ed/wbt/ABO/Ophthalmic_Frames/page_eight.html"
+    },
+    {
+      "title": "Best Glasses for Oval Face Shape: Style Guide (Kraywoods)",
+      "url": "https://www.kraywoods.com/blogs/our-stories/best-eyeglasses-for-oval-face-shape"
+    },
+    {
+      "title": "Eyeglass Frame Sizes Explained: Simple Fit Guide (Warby Parker)",
+      "url": "https://www.warbyparker.com/learn/eyeglass-frame-sizes-explained-simple-fit-guide-2"
+    },
+    {
+      "title": "Choosing the right frame size for your glasses (Vision Express)",
+      "url": "https://www.visionexpress.com/glasses/buyers-guide/choosing-the-right-frame"
+    },
+    {
+      "title": "Frame Fit Guide: Find Perfect Eyeglasses for Your Face Shape (Poudre Valley Eye Care)",
+      "url": "https://www.poudrevalleyeyecare.com/blog/frame-fit-guide-find-perfect-eyeglasses-for-your-face-shape/"
+    },
+    {
+      "title": "Choosing the Right Eyeglasses for Your Face Shape (Drs. Luck and Golden)",
+      "url": "https://www.drsluckgolden.com/articles/983409-october-newsletter-choosing-the-right-eyeglasses-for-your-face-shape"
+    }
+  ],
+  "imageModel": "openai/gpt-image-2.5/flare/text-to-image",
+  "imageReviews": [],
+  "imageSettings": {
+    "width": 1024,
+    "height": 1024,
+    "quality": "low"
+  },
+  "usage": [
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "research",
+      "input": 30382,
+      "output": 3238,
+      "estimatedUsd": 0.093144,
+      "searches": 3
+    },
+    {
+      "model": "claude-opus-5-5",
+      "stage": "article",
+      "input": 30391,
+      "output": 10848,
+      "estimatedUsd": 0.338524,
+      "searches": 0
+    }
+  ],
+  "note": "Token estimates exclude web-search charges, images, tax and provider markups."
+}
