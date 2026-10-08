@@ -24,6 +24,10 @@ on:
         required: false
         default: ''
 
+concurrency:
+  group: aura-daily-content
+  cancel-in-progress: false
+
 jobs:
   generate:
     runs-on: ubuntu-latest
@@ -48,33 +52,39 @@ jobs:
           cache: 'pnpm'
 
       - name: Install dependencies
-        run: pnpm install
+        run: pnpm install --frozen-lockfile
 
       - name: Configure git
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-      - name: Generate content
+      - name: Test content and funnel checks
+        run: pnpm test:funnel
+
+      - name: Generate and review content
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           FAL_API_KEY: ${{ secrets.FAL_API_KEY }}
+          CONTENT_MODEL: claude-opus-5-5
+          CONTENT_REVIEW_MODEL: claude-sonnet-5-5
+          COUNT: ${{ github.event.inputs.count || '1' }}
+          TYPES: ${{ github.event.inputs.types || 'blog,glossary' }}
+          PHASE: ${{ github.event.inputs.phase }}
+          SLUG: ${{ github.event.inputs.slug }}
         run: |
-          COUNT="${{ github.event.inputs.count || '1' }}"
-          TYPES="${{ github.event.inputs.types || 'blog,tool,glossary' }}"
-          PHASE="${{ github.event.inputs.phase }}"
-          SLUG="${{ github.event.inputs.slug }}"
+          ARGS=(--count "$COUNT" --types "$TYPES" --auto)
+          if [ -n "$PHASE" ]; then ARGS+=(--phase "$PHASE"); fi
+          if [ -n "$SLUG" ]; then ARGS+=(--slug "$SLUG"); fi
+          node scripts/generate-content.mjs "${ARGS[@]}"
 
-          ARGS="--count $COUNT --types $TYPES --auto"
-          if [ -n "$PHASE" ]; then
-            ARGS="$ARGS --phase $PHASE"
-          fi
-          if [ -n "$SLUG" ]; then
-            ARGS="$ARGS --slug $SLUG"
-          fi
-
-          echo "Running: node scripts/generate-content.mjs $ARGS"
-          node scripts/generate-content.mjs $ARGS
+      - name: Save editorial reports
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: content-review
+          path: content-reviews/
+          if-no-files-found: ignore
 
       - name: Summary
         if: always()

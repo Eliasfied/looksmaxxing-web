@@ -87,7 +87,7 @@ function loadCollection(dir) {
       const filePath = path.join(dir, file);
       const raw = fs.readFileSync(filePath, 'utf8');
       const fm = readFrontmatter(raw);
-      if (!fm?.slug) return null;
+      if (!fm?.slug || fm.draft === 'true') return null;
       return {
         file: filePath,
         raw,

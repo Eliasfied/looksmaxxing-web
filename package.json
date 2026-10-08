@@ -2,6 +2,8 @@
   "name": "saas-template",
   "private": true,
   "scripts": {
+    "test:funnel": "node --test tests/*.test.cjs tests/*.test.mjs",
+    "content:preview": "node scripts/generate-content.mjs --dry-run",
     "build": "turbo build",
     "dev": "turbo dev",
     "lint": "turbo lint",

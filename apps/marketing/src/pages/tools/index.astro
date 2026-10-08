@@ -1,53 +1,21 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
-import { getCollection } from 'astro:content';
-
-const tools = (await getCollection('tools', ({ data }) => !data.draft))
-  .sort((a, b) => a.data.title.localeCompare(b.data.title));
+import { toolCatalog, toolHref } from '../../../../../config/tool-routing.mjs';
+const APP_URL = import.meta.env.PUBLIC_APP_URL ?? 'https://app.aura-looksmaxxing.com';
+const groups = [
+  { title: 'Start with your goal', id: 'start', tools: toolCatalog.filter(t => t.priority <= 3 || t.slug === 'glow-up-planner') },
+  { title: 'Made for your style: women', id: 'women', tools: toolCatalog.filter(t => t.audience === 'women') },
+  { title: 'Explore a specific feature', id: 'features', tools: toolCatalog.filter(t => t.priority >= 7) },
+];
 ---
-
-<BaseLayout
-  title="Free Looksmaxxing Tools | PSL Calculator, Face Rating, Canthal Tilt | Aura"
-  description="Free online tools to rate your face, calculate your PSL score, check your canthal tilt, find your face shape, and more. Built on AI computer vision."
->
-  <section class="relative overflow-hidden">
-    <div class="pointer-events-none absolute inset-0">
-      <div class="absolute -top-40 left-1/2 h-[600px] w-[600px] -translate-x-1/2 rounded-full bg-purple-600/10 blur-[140px]"></div>
-    </div>
-    <div class="relative max-w-5xl mx-auto px-4 pt-20 pb-12">
-      <h1 class="text-4xl md:text-6xl font-black text-white mb-4 leading-tight">
-        Free Looksmaxxing <span class="bg-gradient-to-r from-fuchsia-400 to-violet-400 bg-clip-text text-transparent">Tools</span>
-      </h1>
-      <p class="text-lg text-[#aaa] max-w-2xl">
-        Rate your face, find your PSL score, check your canthal tilt, and analyze your features. All powered by AI computer vision.
-      </p>
-    </div>
-  </section>
-
-  <section class="max-w-5xl mx-auto px-4 pb-24">
-    {tools.length === 0 && (
-      <p class="text-[#666] text-center py-16">No tools yet. Check back soon.</p>
-    )}
-
-    <div class="grid sm:grid-cols-2 gap-5">
-      {tools.map(tool => (
-        <a
-          href={`/tools/${tool.data.slug}`}
-          class="group bg-[#111] hover:bg-[#161616] rounded-2xl p-7 border border-white/5 hover:border-fuchsia-500/30 transition-all"
-        >
-          {tool.data.badge && (
-            <span class="inline-block btn-gradient text-white text-xs font-bold px-3 py-1 rounded-full mb-4">{tool.data.badge}</span>
-          )}
-          <h2 class="text-white font-black text-2xl mb-2 leading-tight group-hover:text-fuchsia-400 transition-colors">
-            {tool.data.h1}
-          </h2>
-          <p class="text-[#aaa] text-base leading-relaxed mb-5">{tool.data.subtitle}</p>
-          <span class="inline-flex items-center gap-2 text-fuchsia-400 font-bold text-sm">
-            Open the tool
-            <span class="group-hover:translate-x-1 transition-transform">→</span>
-          </span>
-        </a>
-      ))}
-    </div>
-  </section>
+<BaseLayout title="Looksmaxxing Tools — Free Preview & Personal Reports | Aura" description="Explore face analysis, haircut ideas and a glow-up planner for men and women. Upload without an account; unlock your full report for $2.99 once.">
+  <header class="max-w-6xl mx-auto px-6 pt-20 pb-10">
+    <p class="text-fuchsia-300 text-xs font-bold uppercase tracking-widest">The Aura toolkit</p>
+    <h1 class="mt-4 text-4xl sm:text-6xl font-black max-w-3xl">Less guessing.<br /><span class="text-fuchsia-300">A look that feels like you.</span></h1>
+    <p class="mt-6 text-lg text-[#aaa] max-w-2xl">Start with a photo. See your potential estimate, then choose whether to unlock a practical report for $2.99 once.</p>
+    <p class="mt-3 text-sm text-[#888]">No signup before your preview. Optional subscription after signup.</p>
+    <nav aria-label="Tool categories" class="mt-7 flex flex-wrap gap-3">{groups.map(group => <a href={`#${group.id}`} class="rounded-full border border-white/15 px-4 py-2 text-sm hover:border-fuchsia-400">{group.title}</a>)}</nav>
+  </header>
+  {groups.map(group => <section id={group.id} class="max-w-6xl mx-auto px-6 py-10 scroll-mt-20"><h2 class="text-2xl font-bold mb-6">{group.title}</h2><div class="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">{group.tools.map(tool => <article class="flex flex-col rounded-2xl border border-white/10 bg-[#101010] p-6"><p class="text-xs text-fuchsia-300">{tool.audience === 'women' ? 'Your preferences come first' : tool.requiresComparison ? 'Two-photo comparison' : 'Start without an account'}</p><h3 class="mt-3 text-2xl font-bold"><a href={`/tools/${tool.slug}`}>{tool.name}</a></h3><p class="mt-3 mb-7 text-[#aaa] leading-relaxed flex-1">{tool.description}</p><a href={toolHref(tool.slug, `/tools/${tool.slug}`, APP_URL)} data-tool={tool.slug} data-placement="tool-directory" class="rounded-xl btn-gradient p-3 text-center text-sm font-bold">Try with my photo →</a><a href={`/tools/${tool.slug}`} class="mt-3 text-sm text-center text-[#888]">See what's included</a></article>)}</div></section>)}
+  <p class="max-w-6xl mx-auto px-6 pb-16 text-sm text-[#777]">AI styling suggestions are subjective. Tool reports do not provide medical advice or precise physical measurements.</p>
 </BaseLayout>

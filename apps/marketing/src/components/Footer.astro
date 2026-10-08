@@ -1,6 +1,6 @@
 ---
 const BRAND_NAME = import.meta.env.PUBLIC_BRAND_NAME ?? 'Aura: Looksmaxxing';
-const APP_URL = import.meta.env.PUBLIC_APP_URL ?? '#';
+const APP_URL = import.meta.env.PUBLIC_APP_URL ?? 'https://app.aura-looksmaxxing.com';
 ---
 
 <footer class="border-t border-[#111] bg-black">
@@ -27,9 +27,9 @@ const APP_URL = import.meta.env.PUBLIC_APP_URL ?? '#';
             "Hairstyle Try-On",
             "Glow Up Routine",
             "AI Looksmaxxing Coach",
-            "Bone Structure Analysis",
+            "Face Shape Finder",
           ].map((f) => (
-            <li><a href={`${APP_URL}/register`} class="text-[#555] hover:text-white transition-colors text-sm">{f}</a></li>
+            <li><a href={`${APP_URL}/tools`} class="text-[#555] hover:text-white transition-colors text-sm">{f}</a></li>
           ))}
         </ul>
       </div>
@@ -43,7 +43,7 @@ const APP_URL = import.meta.env.PUBLIC_APP_URL ?? '#';
             { label: "FAQ", href: "/faq" },
             { label: "About", href: "/about" },
             { label: "Login", href: `${APP_URL}/login` },
-            { label: "Sign Up Free", href: `${APP_URL}/register` },
+            { label: "Explore Tools", href: `${APP_URL}/tools` },
           ].map((l) => (
             <li><a href={l.href} class="text-[#555] hover:text-white transition-colors text-sm">{l.label}</a></li>
           ))}

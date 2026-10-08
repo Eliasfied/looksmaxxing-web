@@ -1,0 +1,14 @@
+---
+import { ARTICLE_CTA_MARKER } from '../../../../config/content-cta-rollout.mjs';
+
+// Both slots are rendered by Astro at build time. No browser-side movement or
+// layout shift, and the Markdown source remains untouched.
+const html = (await Astro.slots.render('default')) ?? '';
+const boundary = html.indexOf(ARTICLE_CTA_MARKER);
+const introduction = boundary < 0 ? html : html.slice(0, boundary);
+const remainder = boundary < 0 ? '' : html.slice(boundary + ARTICLE_CTA_MARKER.length);
+---
+
+<div class="prose prose-invert prose-lg max-w-none" set:html={introduction} />
+{boundary >= 0 && <slot name="after-intro" />}
+{remainder && <div class="prose prose-invert prose-lg max-w-none" set:html={remainder} />}

@@ -1,9 +1,10 @@
 'use client'
 
 import { useState } from 'react'
+import { safeToolReturn } from '@/lib/tool-report'
 import Image from 'next/image'
 import Link from 'next/link'
-import { useRouter } from 'next/navigation'
+import { useRouter, useSearchParams } from 'next/navigation'
 import {
   createUserWithEmailAndPassword,
   signInWithPopup,
@@ -24,6 +25,7 @@ async function createSession(idToken: string) {
 
 export default function RegisterPage() {
   const router = useRouter()
+  const returnTo = safeToolReturn(useSearchParams().get('next'))
   const [email, setEmail] = useState('')
   const [password, setPassword] = useState('')
   const [confirmPassword, setConfirmPassword] = useState('')
@@ -39,7 +41,7 @@ export default function RegisterPage() {
       const credential = await signInWithPopup(auth, provider)
       const idToken = await credential.user.getIdToken()
       await createSession(idToken)
-      router.push('/onboarding/quiz')
+      router.push(returnTo ?? '/onboarding/quiz')
       router.refresh()
     } catch (err: unknown) {
       const msg = err instanceof Error ? err.message : 'Google sign in failed'
@@ -63,7 +65,7 @@ export default function RegisterPage() {
       posthog.capture('signup', { method: 'email' })
       const idToken = await credential.user.getIdToken()
       await createSession(idToken)
-      router.push('/onboarding/quiz')
+      router.push(returnTo ?? '/onboarding/quiz')
       router.refresh()
     } catch (err: unknown) {
       const msg = err instanceof Error ? err.message : 'Registration failed'
@@ -78,7 +80,7 @@ export default function RegisterPage() {
       <div className="mb-8 text-center">
         <Image src="/logo.png" alt={appConfig.brand.name} width={72} height={72} className="mx-auto rounded-2xl shadow-lg shadow-purple-900/30" />
         <h1 className="mt-4 text-2xl font-black text-white tracking-tight">{appConfig.brand.name}</h1>
-        <p className="mt-1 text-sm text-[#666]">Create your account to get started</p>
+        <p className="mt-1 text-sm text-[#999]">{returnTo ? 'Save your report, then unlock it for $2.99 once.' : 'Create your account to get started'}</p>
       </div>
 
       <div className="rounded-2xl bg-[#111111] border border-[#222222] p-8">
@@ -152,7 +154,7 @@ export default function RegisterPage() {
 
       <p className="mt-5 text-center text-sm text-[#888888]">
         Already have an account?{' '}
-        <Link href="/login" className="text-purple-400 hover:text-purple-300 transition-colors">
+        <Link href={returnTo ? `/login?next=${encodeURIComponent(returnTo)}` : '/login'} className="text-purple-400 hover:text-purple-300 transition-colors">
           Sign in
         </Link>
       </p>

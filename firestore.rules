@@ -1,0 +1,10 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // This web application reads and writes via authenticated server routes
+    // and the Admin SDK. Browser clients must never edit balances or reports.
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}

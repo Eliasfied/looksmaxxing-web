@@ -1,8 +1,10 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { getCollection, render } from 'astro:content';
+import ToolCTA from '../../components/ToolCTA.astro';
+import { isContentCtaEnabled } from '../../../../../config/content-cta-rollout.mjs';
 
-const APP_URL = import.meta.env.PUBLIC_APP_URL;
+const APP_URL = import.meta.env.PUBLIC_APP_URL ?? 'https://app.aura-looksmaxxing.com';
 const SITE_URL = import.meta.env.PUBLIC_SITE_URL ?? 'https://www.aura-looksmaxxing.com';
 
 export async function getStaticPaths() {
@@ -14,6 +16,8 @@ export async function getStaticPaths() {
 }
 
 const { term } = Astro.props;
+const source = `/glossary/${term.data.slug}`;
+const showToolCta = isContentCtaEnabled(source);
 const { Content } = await render(term);
 
 const allTerms = await getCollection('glossary', ({ data }) => !data.draft);
@@ -64,6 +68,7 @@ const breadcrumbSchema = {
     <div class="prose prose-invert prose-lg max-w-none">
       <Content />
     </div>
+    {term.data.sources?.length > 0 && <section class="mt-6 text-sm"><h2 class="font-bold">Sources</h2><ul class="mt-2 space-y-2 text-fuchsia-300">{term.data.sources.map(source => <li><a href={source.url} rel="noopener noreferrer">{source.title}</a></li>)}</ul></section>}
 
     {term.data.examples?.length > 0 && (
       <section class="mt-10 bg-[#111] rounded-2xl p-6 border border-white/5">
@@ -77,15 +82,19 @@ const breadcrumbSchema = {
     )}
   </article>
 
-  <section class="bg-[#080808] border-y border-white/5 py-12">
-    <div class="max-w-2xl mx-auto px-4 text-center">
-      <h2 class="text-2xl md:text-3xl font-black text-white mb-3">Want to know your real PSL score?</h2>
-      <p class="text-[#888] text-base mb-6">Aura analyzes your face with AI and gives you an honest looksmaxxing rating.</p>
-      <a href={`${APP_URL}/register`} class="inline-block btn-gradient text-white font-bold px-7 py-3 rounded-full hover:opacity-90 transition-opacity">
-        Get rated free →
-      </a>
-    </div>
-  </section>
+  {showToolCta ? (
+    <section class="max-w-2xl mx-auto px-4"><ToolCTA topic={term.data.term + ' ' + term.data.primary_keyword} source={source} placement="glossary-end" /></section>
+  ) : (
+    <section class="bg-[#080808] border-y border-white/5 py-12">
+      <div class="max-w-2xl mx-auto px-4 text-center">
+        <h2 class="text-2xl md:text-3xl font-black text-white mb-3">Want to know your real PSL score?</h2>
+        <p class="text-[#888] text-base mb-6">Aura analyzes your face with AI and gives you an honest looksmaxxing rating.</p>
+        <a href={`${APP_URL}/register`} class="inline-block btn-gradient text-white font-bold px-7 py-3 rounded-full hover:opacity-90 transition-opacity">
+          Get rated free →
+        </a>
+      </div>
+    </section>
+  )}
 
   {relatedTerms.length > 0 && (
     <section class="max-w-3xl mx-auto px-4 py-12">

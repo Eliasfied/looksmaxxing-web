@@ -1,90 +1,13 @@
 ---
-const APP_URL = import.meta.env.PUBLIC_APP_URL;
-
-const features = [
-  "AI Face Analysis",
-  "AI Face Analysis Illustration",
-  "Personalized Glow Up Plan",
-  "AI Looksmaxxing Chat Access",
-  "AI Hairstyle, Beard & Glasses Try-On (50x/mo)",
+const APP_URL = import.meta.env.PUBLIC_APP_URL ?? 'https://app.aura-looksmaxxing.com';
+const plans = [
+  { name: 'One report', price: '2.99', period: 'once', text: 'Start with one useful result. No recurring charge.', features: ['Free potential preview before signup', 'Unlock your complete tool report', 'Reopen your report from your account', '5 credits for one complete tool report'], primary: true },
+  { name: 'Monthly', price: '9.99', period: '/ month', text: 'For regular reports and hairstyle experiments.', features: ['100 credits each month', 'Tool report unlock: 5 credits', 'Hairstyle try-on: 2 credits', 'Renews monthly until cancelled'] },
+  { name: 'Yearly', price: '49.99', period: '/ year', text: 'Billed yearly. About $4.17 per month.', features: ['100 credits each month', 'Up to 20 reports, or a mix with try-ons', 'Unused monthly credits do not roll over', 'Renews yearly until cancelled'] },
 ];
 ---
-
-<section class="py-24 px-6">
-  <div class="max-w-3xl mx-auto">
-
-    <!-- Heading -->
-    <div class="text-center mb-12">
-      <p class="text-purple-400 text-xs font-bold uppercase tracking-widest mb-4">Pricing</p>
-      <h2 class="text-4xl md:text-5xl font-black text-white leading-tight">
-        One plan.<br />
-        <span class="bg-gradient-to-r from-fuchsia-400 to-violet-400 bg-clip-text text-transparent">
-          Everything included.
-        </span>
-      </h2>
-    </div>
-
-    <!-- Two cards -->
-    <div class="grid sm:grid-cols-2 gap-5">
-
-      <!-- Monthly -->
-      <div class="relative flex flex-col rounded-2xl border border-white/10 bg-[#0a0a0a] p-7">
-        <p class="text-[#666] text-xs font-bold uppercase tracking-widest mb-5">Monthly</p>
-        <div class="flex items-baseline gap-1 mb-1">
-          <span class="text-5xl font-black text-white">$9.99</span>
-          <span class="text-[#555] text-sm">/mo</span>
-        </div>
-        <p class="text-[#555] text-xs mb-8">billed monthly</p>
-        <a
-          href={`${APP_URL}/register`}
-          class="w-full text-center rounded-full py-3.5 text-sm font-bold border border-white/15 text-white hover:bg-white/5 transition-colors mb-8"
-        >
-          Get Started
-        </a>
-        <ul class="flex flex-col gap-3">
-          {features.map(f => (
-            <li class="flex items-start gap-2.5">
-              <svg class="mt-0.5 h-4 w-4 shrink-0 text-fuchsia-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/>
-              </svg>
-              <span class="text-sm text-[#aaa]">{f}</span>
-            </li>
-          ))}
-        </ul>
-      </div>
-
-      <!-- Yearly -->
-      <div class="relative flex flex-col rounded-2xl border border-purple-500/30 bg-gradient-to-br from-purple-600/15 to-violet-900/5 p-7">
-        <div class="absolute -top-3 left-1/2 -translate-x-1/2">
-          <span class="btn-gradient rounded-full px-4 py-1 text-[10px] font-bold text-white tracking-widest uppercase shadow-lg whitespace-nowrap">Save 58%</span>
-        </div>
-        <div class="absolute -top-10 -right-10 w-48 h-48 rounded-full bg-purple-500/8 blur-3xl"></div>
-        <p class="text-purple-400 text-xs font-bold uppercase tracking-widest mb-5">Yearly</p>
-        <div class="flex items-baseline gap-1 mb-1">
-          <span class="text-5xl font-black text-white">$49.99</span>
-          <span class="text-[#555] text-sm">/yr</span>
-        </div>
-        <p class="text-[#555] text-xs mb-8">billed once a year · <span class="text-green-400 font-semibold">~$4.17/mo</span></p>
-        <a
-          href={`${APP_URL}/register`}
-          class="w-full text-center rounded-full py-3.5 text-sm font-bold btn-gradient text-white hover:opacity-90 transition-opacity mb-8"
-        >
-          Get Started
-        </a>
-        <ul class="flex flex-col gap-3">
-          {features.map(f => (
-            <li class="flex items-start gap-2.5">
-              <svg class="mt-0.5 h-4 w-4 shrink-0 text-fuchsia-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/>
-              </svg>
-              <span class="text-sm text-[#aaa]">{f}</span>
-            </li>
-          ))}
-        </ul>
-      </div>
-
-    </div>
-
-    <p class="text-xs text-[#444] text-center mt-8">Cancel anytime · Secure payment</p>
-  </div>
-</section>
+<section class="px-6 py-16"><div class="max-w-6xl mx-auto">
+  <div class="text-center mb-10"><p class="text-sm text-fuchsia-300 mb-3">Preview first. Decide afterwards.</p><h2 class="text-4xl font-black">Start with $2.99 once.</h2><p class="mt-4 text-[#999]">An ongoing plan is there when you need it.</p></div>
+  <div class="grid gap-5 md:grid-cols-3">{plans.map(plan => <div class:list={['relative rounded-2xl border p-7 flex flex-col', plan.primary ? 'border-fuchsia-400/40 bg-gradient-to-br from-fuchsia-950/30 to-violet-950/20' : 'border-white/10 bg-[#101010]']}><h3 class="text-xl font-bold">{plan.name}</h3><p class="my-5"><span class="text-5xl font-black">${plan.price}</span><span class="ml-2 text-sm text-[#888]">{plan.period}</span></p><p class="text-sm text-[#aaa] mb-6">{plan.text}</p><ul class="space-y-3 text-sm text-[#aaa] mb-8 flex-1">{plan.features.map(feature => <li>✓ {feature}</li>)}</ul><a href={`${APP_URL}/tools/ai-face-rating?source=%2Fpricing`} class="btn-gradient rounded-xl px-5 py-3 text-center font-bold">Start with a free preview →</a></div>)}</div>
+  <p class="mt-6 text-center text-xs text-[#888]">Choose your purchase after your preview and account creation. Checkout shows the final price and any applicable taxes.</p>
+</div></section>

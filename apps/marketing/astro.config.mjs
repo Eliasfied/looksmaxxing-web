@@ -5,6 +5,8 @@ import { fileURLToPath } from 'node:url';
 import { defineConfig } from 'astro/config';
 import sitemap from '@astrojs/sitemap';
 import tailwindcss from '@tailwindcss/vite';
+import remarkToolLinks from '../../scripts/remark-tool-links.mjs';
+import remarkArticleCta from '../../scripts/remark-article-cta.mjs';
 
 // ─── Real lastmod dates for the sitemap ─────────────────────────────────────
 // Stamping every URL with the build date makes lastmod worthless: all 130+
@@ -28,6 +30,7 @@ function readContentDates() {
       if (!/\.mdx?$/.test(file)) continue;
       const fm = fs.readFileSync(path.join(dir, file), 'utf8').match(/^---\r?\n([\s\S]*?)\r?\n---/);
       if (!fm) continue;
+      if (/^draft:\s*true\s*$/m.test(fm[1])) continue;
 
       const slug = fm[1].match(/^slug:\s*(.+)$/m)?.[1].trim().replace(/^["']|["']$/g, '');
       const pub = fm[1].match(/^pubDate:\s*(.+)$/m)?.[1].trim().replace(/^["']|["']$/g, '');
@@ -56,6 +59,7 @@ const lastmodByPath = readContentDates();
 export default defineConfig({
   site: process.env.PUBLIC_SITE_URL ?? 'https://www.aura-looksmaxxing.com',
   output: 'static',
+  markdown: { remarkPlugins: [remarkToolLinks, remarkArticleCta] },
   // Must match the vercel.json redirect that strips trailing slashes,
   // otherwise every sitemap URL 301s and never gets indexed.
   trailingSlash: 'never',

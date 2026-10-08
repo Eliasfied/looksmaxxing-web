@@ -1,8 +1,11 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { getCollection, render } from 'astro:content';
+import ToolCTA from '../../components/ToolCTA.astro';
+import ArticleBody from '../../components/ArticleBody.astro';
+import { isContentCtaEnabled } from '../../../../../config/content-cta-rollout.mjs';
 
-const APP_URL = import.meta.env.PUBLIC_APP_URL;
+const APP_URL = import.meta.env.PUBLIC_APP_URL ?? 'https://app.aura-looksmaxxing.com';
 const SITE_URL = import.meta.env.PUBLIC_SITE_URL ?? 'https://www.aura-looksmaxxing.com';
 
 export async function getStaticPaths() {
@@ -14,6 +17,8 @@ export async function getStaticPaths() {
 }
 
 const { post } = Astro.props;
+const source = `/blog/${post.data.slug}`;
+const showToolCta = isContentCtaEnabled(source);
 const { Content } = await render(post);
 
 const allPosts = await getCollection('blog', ({ data }) => !data.draft);
@@ -95,14 +100,18 @@ const breadcrumbSchema = {
     </header>
 
     {post.data.heroImage && (
-      <div class="aspect-[16/9] overflow-hidden rounded-2xl mb-12 bg-gradient-to-br from-purple-600/20 to-fuchsia-600/20">
-        <img src={post.data.heroImage} alt={post.data.heroImageAlt ?? post.data.title} class="w-full h-full object-cover" />
+      <div class:list={[post.data.imageModel ? 'aspect-square max-w-xl mx-auto' : 'aspect-[16/9]', 'overflow-hidden rounded-2xl mb-12 bg-gradient-to-br from-purple-600/20 to-fuchsia-600/20']}>
+        <img src={post.data.heroImage} alt={post.data.heroImageAlt ?? post.data.title} class="w-full h-full object-cover" width="1024" height="1024" />
       </div>
     )}
 
-    <div class="prose prose-invert prose-lg max-w-none">
+    <ArticleBody>
       <Content />
-    </div>
+      <Fragment slot="after-intro">
+        {showToolCta && <ToolCTA topic={post.data.title + ' ' + post.data.primary_keyword} toolSlug={post.data.tool_slug} source={source} compact placement="article-after-intro" />}
+      </Fragment>
+    </ArticleBody>
+    {post.data.sources?.length > 0 && <section class="mt-8 border-t border-white/10 pt-6"><h2 class="text-lg font-bold">Sources & further reading</h2><ul class="mt-3 space-y-2 text-sm text-fuchsia-300">{post.data.sources.map(source => <li><a href={source.url} rel="noopener noreferrer">{source.title}</a></li>)}</ul></section>}
 
     {post.data.faq?.length > 0 && (
       <section class="mt-16">
@@ -124,15 +133,19 @@ const breadcrumbSchema = {
     )}
   </article>
 
-  <section class="bg-[#080808] border-y border-white/5 py-16 mt-12">
-    <div class="max-w-2xl mx-auto px-4 text-center">
-      <h2 class="text-3xl md:text-4xl font-black text-white mb-4">Get your real PSL score in seconds</h2>
-      <p class="text-[#888] text-base mb-8">Aura uses computer vision to give you an honest face rating, plus personalized improvement plans for jawline, skin, eyes, and more.</p>
-      <a href={`${APP_URL}/register`} class="inline-block btn-gradient text-white font-bold px-8 py-4 rounded-full text-base hover:opacity-90 transition-opacity">
-        Try Aura free →
-      </a>
-    </div>
-  </section>
+  {showToolCta ? (
+    <section class="max-w-3xl mx-auto px-4"><ToolCTA topic={post.data.title + ' ' + post.data.primary_keyword} toolSlug={post.data.tool_slug} source={source} /></section>
+  ) : (
+    <section class="bg-[#080808] border-y border-white/5 py-16 mt-12">
+      <div class="max-w-2xl mx-auto px-4 text-center">
+        <h2 class="text-3xl md:text-4xl font-black text-white mb-4">Get your real PSL score in seconds</h2>
+        <p class="text-[#888] text-base mb-8">Aura uses computer vision to give you an honest face rating, plus personalized improvement plans for jawline, skin, eyes, and more.</p>
+        <a href={`${APP_URL}/register`} class="inline-block btn-gradient text-white font-bold px-8 py-4 rounded-full text-base hover:opacity-90 transition-opacity">
+          Try Aura free →
+        </a>
+      </div>
+    </section>
+  )}
 
   {relatedPosts.length > 0 && (
     <section class="max-w-5xl mx-auto px-4 py-16">

@@ -1,17 +1,18 @@
 import { NextResponse } from 'next/server'
 import { getSessionUser } from '@/lib/firebase/server'
 import { getLatestScan, redactLockedScan } from '@/lib/firebase/scans'
+import { aiModelOptions, aiProxyUrl, completedAIText } from '@/lib/ai-model'
 
 export const maxDuration = 60
 
-const OPENAI_PROXY = 'https://openai-secure-proxy.vercel.app/api/chat'
-
-function buildSystemMessage(scan: Awaited<ReturnType<typeof getLatestScan>>): string {
+function buildSystemMessage(
+  scan: Awaited<ReturnType<typeof getLatestScan>>
+): string {
   const lines: string[] = [
     'You are a friendly looksmaxxing expert. The user has face analysis data from this app. Use it to personalize answers.',
     '',
     'CRITICAL: ONLY answer questions related to looksmaxxing, appearance, attractiveness, style, grooming, facial features, fitness for looks, and recommendations. If the user asks something unrelated, politely decline.',
-    '',
+    ''
   ]
 
   if (scan) {
@@ -45,19 +46,25 @@ function buildSystemMessage(scan: Awaited<ReturnType<typeof getLatestScan>>): st
     lines.push('')
   }
 
-  lines.push('Be concise, actionable, and helpful. Reference their specific scores when giving advice.')
+  lines.push(
+    'Be concise, actionable, and helpful. Reference their specific scores when giving advice.'
+  )
   return lines.join('\n')
 }
 
 export async function POST(request: Request) {
   const user = await getSessionUser()
-  if (!user) return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
+  if (!user)
+    return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
 
   let messages: Array<{ role: string; content: string }>
   try {
     const body = await request.json()
     if (!Array.isArray(body.messages)) {
-      return NextResponse.json({ error: 'messages array required' }, { status: 400 })
+      return NextResponse.json(
+        { error: 'messages array required' },
+        { status: 400 }
+      )
     }
     messages = body.messages
   } catch {
@@ -65,30 +72,32 @@ export async function POST(request: Request) {
   }
 
   const latestScan = await getLatestScan(user.id)
-  const systemMessage = buildSystemMessage(latestScan && redactLockedScan(latestScan))
+  const systemMessage = buildSystemMessage(
+    latestScan && redactLockedScan(latestScan)
+  )
 
-  const openaiRes = await fetch(OPENAI_PROXY, {
+  const openaiRes = await fetch(aiProxyUrl('chat'), {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
+    signal: AbortSignal.timeout(55_000),
     body: JSON.stringify({
-      model: 'gpt-4.1-mini',
-      messages: [
-        { role: 'system', content: systemMessage },
-        ...messages,
-      ],
-      max_tokens: 600,
-      temperature: 0.7,
-    }),
+      ...aiModelOptions('chat', 600, 0.7),
+      messages: [{ role: 'system', content: systemMessage }, ...messages]
+    })
   })
 
   if (!openaiRes.ok) {
-    const err = await openaiRes.text()
-    console.error('[/api/chat] OpenAI proxy error:', err)
+    console.error('[/api/chat] OpenAI proxy status:', openaiRes.status)
     return NextResponse.json({ error: 'Chat failed' }, { status: 500 })
   }
 
   const data = await openaiRes.json()
-  const reply: string = data.choices?.[0]?.message?.content ?? ''
-
-  return NextResponse.json({ reply })
+  try {
+    return NextResponse.json({ reply: completedAIText(data) })
+  } catch {
+    return NextResponse.json(
+      { error: 'Chat could not be completed. Please try again.' },
+      { status: 502 }
+    )
+  }
 }

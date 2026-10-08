@@ -82,7 +82,7 @@ const canonicalURL = canonical ?? new URL(Astro.url.pathname, Astro.site).href;
         })
 
         // Track clicks on any CTA linking to the web app
-        const appUrl = import.meta.env.PUBLIC_APP_URL ?? ''
+        const appUrl = import.meta.env.PUBLIC_APP_URL ?? 'https://app.aura-looksmaxxing.com'
         if (appUrl) {
           document.addEventListener('click', (e) => {
             const el = (e.target as Element).closest('a')
@@ -94,6 +94,9 @@ const canonicalURL = canonical ?? new URL(Astro.url.pathname, Astro.site).href;
               destination: url.pathname + url.search,
               page: location.pathname,
               label: el.textContent?.trim().slice(0, 60),
+              tool: el.dataset.tool,
+              placement: el.dataset.placement,
+              cta_rollout: el.dataset.ctaRollout,
             })
           })
         }

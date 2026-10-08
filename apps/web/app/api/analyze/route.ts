@@ -1,12 +1,16 @@
 import { NextResponse } from 'next/server'
 import { getSessionUser } from '@/lib/firebase/server'
 import { getCredits, deductCredits } from '@/lib/firebase/credits'
-import { createFaceScan, countUserScans, redactLockedScan } from '@/lib/firebase/scans'
+import {
+  createFaceScan,
+  countUserScans,
+  redactLockedScan
+} from '@/lib/firebase/scans'
 import { appConfig } from '@/lib/config'
+import { aiModelOptions, aiProxyUrl, completedAIText } from '@/lib/ai-model'
 
 export const maxDuration = 120
 
-const OPENAI_PROXY = 'https://openai-secure-proxy.vercel.app/api/chat'
 const ANALYZE_COST = appConfig.credits.scan
 
 const FACE_ANALYSIS_PROMPT = `You are a looksmaxxing face analysis AI. Analyze the face in the image and rate each metric objectively.
@@ -85,14 +89,18 @@ RULES:
 
 export async function POST(request: Request) {
   const user = await getSessionUser()
-  if (!user) return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
+  if (!user)
+    return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
 
   const isFirstScan = (await countUserScans(user.id)) === 0
 
   if (!isFirstScan) {
     const balance = await getCredits(user.id)
     if (balance.total_credits < ANALYZE_COST) {
-      return NextResponse.json({ error: 'Insufficient credits' }, { status: 402 })
+      return NextResponse.json(
+        { error: 'Insufficient credits' },
+        { status: 402 }
+      )
     }
   }
 
@@ -100,7 +108,10 @@ export async function POST(request: Request) {
   try {
     const body = await request.json()
     if (typeof body.imageBase64 !== 'string') {
-      return NextResponse.json({ error: 'imageBase64 required' }, { status: 400 })
+      return NextResponse.json(
+        { error: 'imageBase64 required' },
+        { status: 400 }
+      )
     }
     imageBase64 = body.imageBase64
   } catch {
@@ -111,37 +122,35 @@ export async function POST(request: Request) {
     ? imageBase64
     : `data:image/jpeg;base64,${imageBase64}`
 
-  const openaiRes = await fetch(OPENAI_PROXY, {
+  const openaiRes = await fetch(aiProxyUrl('analysis'), {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
+    signal: AbortSignal.timeout(90_000),
     body: JSON.stringify({
-      model: 'gpt-4.1-mini',
+      ...aiModelOptions('analysis', 1500, 0.1),
+      response_format: { type: 'json_object' },
       messages: [
         {
           role: 'user',
           content: [
             { type: 'text', text: FACE_ANALYSIS_PROMPT },
-            { type: 'image_url', image_url: { url: imageUrl, detail: 'high' } },
-          ],
-        },
-      ],
-      max_tokens: 1500,
-      temperature: 0.1,
-    }),
+            { type: 'image_url', image_url: { url: imageUrl, detail: 'high' } }
+          ]
+        }
+      ]
+    })
   })
 
   if (!openaiRes.ok) {
-    const err = await openaiRes.text()
-    console.error('[/api/analyze] OpenAI proxy error:', err)
+    console.error('[/api/analyze] OpenAI proxy status:', openaiRes.status)
     return NextResponse.json({ error: 'Analysis failed' }, { status: 500 })
   }
 
   const openaiData = await openaiRes.json()
-  const rawContent: string = openaiData.choices?.[0]?.message?.content ?? ''
 
   let analysisData: Record<string, unknown>
   try {
-    let json = rawContent
+    let json = completedAIText(openaiData)
     const jsonFence = json.indexOf('```json')
     const genericFence = json.indexOf('```')
     if (jsonFence !== -1) {
@@ -155,8 +164,11 @@ export async function POST(request: Request) {
     }
     analysisData = JSON.parse(json)
   } catch {
-    console.error('[/api/analyze] Failed to parse AI response:', rawContent)
-    return NextResponse.json({ error: 'Failed to parse analysis' }, { status: 500 })
+    console.error('[/api/analyze] Incomplete or invalid analysis response')
+    return NextResponse.json(
+      { error: 'Failed to parse analysis' },
+      { status: 500 }
+    )
   }
 
   if (!isFirstScan) {
@@ -178,9 +190,11 @@ export async function POST(request: Request) {
     symmetryScore: Number(analysisData.symmetryScore) || 50,
     skinType: (analysisData.skinType as string) || undefined,
     confidence: Number(analysisData.confidence) || 0.8,
-    categoryAnalysis: (analysisData.categoryAnalysis as Record<string, string[]>) || {},
-    recommendations: (analysisData.recommendations as Record<string, string>) || {},
-    details: (analysisData.details as Record<string, string>) || {},
+    categoryAnalysis:
+      (analysisData.categoryAnalysis as Record<string, string[]>) || {},
+    recommendations:
+      (analysisData.recommendations as Record<string, string>) || {},
+    details: (analysisData.details as Record<string, string>) || {}
   })
 
   return NextResponse.json({ scan: redactLockedScan(scan) })

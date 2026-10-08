@@ -47,6 +47,7 @@ export const appConfig = {
     signupBonus: 2,
     scan: 3,
     unlockScan: 3,
+    toolReport: 5,
     haircutTryOn: 2,
   },
 

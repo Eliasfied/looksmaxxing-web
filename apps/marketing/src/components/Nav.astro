@@ -1,6 +1,6 @@
 ---
 const BRAND_NAME = import.meta.env.PUBLIC_BRAND_NAME ?? 'Aura: Looksmaxxing';
-const APP_URL = import.meta.env.PUBLIC_APP_URL ?? '#';
+const APP_URL = import.meta.env.PUBLIC_APP_URL ?? 'https://app.aura-looksmaxxing.com';
 ---
 
 <nav class="sticky top-0 z-50 bg-black/90 backdrop-blur-md border-b border-white/[0.06]">
@@ -15,16 +15,16 @@ const APP_URL = import.meta.env.PUBLIC_APP_URL ?? '#';
     <!-- Desktop nav -->
     <div class="hidden md:flex items-center gap-7">
       <a href="/blog" class="text-[#888] hover:text-white transition-colors text-sm font-medium">Blog</a>
-      <a href="/tools" class="text-[#888] hover:text-white transition-colors text-sm font-medium">Tools</a>
+      <a href="/tools" class="text-fuchsia-300 hover:text-white transition-colors text-sm font-bold">Tools</a>
       <a href="/glossary" class="text-[#888] hover:text-white transition-colors text-sm font-medium">Glossary</a>
       <a href="/faq" class="text-[#888] hover:text-white transition-colors text-sm font-medium">FAQ</a>
       <a href="/pricing" class="text-[#888] hover:text-white transition-colors text-sm font-medium">Pricing</a>
       <a href={`${APP_URL}/login`} class="text-[#888] hover:text-white transition-colors text-sm font-medium">Login</a>
       <a
-        href={`${APP_URL}/register`}
+        href={`${APP_URL}/tools/ai-face-rating`}
         class="btn-gradient text-white font-bold px-5 py-2 rounded-full text-sm hover:opacity-90 transition-opacity"
       >
-        Get Started →
+        Upload photo →
       </a>
     </div>
 
@@ -62,8 +62,8 @@ const APP_URL = import.meta.env.PUBLIC_APP_URL ?? '#';
     </div>
 
     <div class="flex flex-col gap-3 pb-8">
-      <a href={`${APP_URL}/register`} class="btn-gradient text-white font-bold px-6 py-4 rounded-full text-center text-base hover:opacity-90 transition-opacity">
-        Get my PSL Score →
+      <a href={`${APP_URL}/tools/ai-face-rating`} class="btn-gradient text-white font-bold px-6 py-4 rounded-full text-center text-base hover:opacity-90 transition-opacity">
+        See my potential →
       </a>
       <a href={`${APP_URL}/login`} class="text-center text-[#666] text-sm py-2 hover:text-white transition-colors">
         Already have an account? Login

@@ -2,12 +2,14 @@ import { NextResponse } from 'next/server'
 import { cookies } from 'next/headers'
 import { adminAuth, adminDb } from '@/lib/firebase/admin'
 import { appConfig } from '@/lib/config'
+import { sameOrigin } from '@/lib/tool-store'
 
 const SESSION_DURATION_MS = 60 * 60 * 24 * 5 * 1000 // 5 days
 const SESSION_MAX_AGE_S = 60 * 60 * 24 * 5 // 5 days in seconds
 
 /** POST /api/auth/session – exchange a Firebase ID token for a session cookie */
 export async function POST(request: Request) {
+  if (!sameOrigin(request)) return NextResponse.json({ error: 'Invalid origin' }, { status: 403 })
   let idToken: string
   try {
     const body = await request.json()
@@ -28,24 +30,15 @@ export async function POST(request: Request) {
 
     // Create user + credits documents on first sign-in
     const userRef = adminDb.collection('users').doc(decoded.uid)
-    const userSnap = await userRef.get()
-    let hasPurchased = false
-    if (!userSnap.exists) {
-      const batch = adminDb.batch()
-      batch.set(userRef, {
-        email: decoded.email ?? '',
-        has_purchased: false,
-        created_at: new Date().toISOString(),
+    const hasPurchased = await adminDb.runTransaction(async tx => {
+      const snapshot = await tx.get(userRef)
+      if (snapshot.exists) return snapshot.data()?.has_purchased === true
+      tx.set(userRef, { email: decoded.email ?? '', has_purchased: false, created_at: new Date().toISOString() })
+      tx.set(adminDb.collection('credits').doc(decoded.uid), {
+        subscription_credits: 0, topup_credits: appConfig.credits.signupBonus, subscription_credits_reset_at: null
       })
-      batch.set(adminDb.collection('credits').doc(decoded.uid), {
-        subscription_credits: 0,
-        topup_credits: appConfig.credits.signupBonus,
-        subscription_credits_reset_at: null,
-      })
-      await batch.commit()
-    } else {
-      hasPurchased = userSnap.data()?.has_purchased === true
-    }
+      return false
+    })
 
     const cookieStore = await cookies()
     cookieStore.set('__session', sessionCookie, {

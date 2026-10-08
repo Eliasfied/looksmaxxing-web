@@ -1,0 +1,15 @@
+---
+import { relevantTool, toolHref } from '../../../../config/tool-routing.mjs';
+import { CONTENT_CTA_ROLLOUT, isContentCtaEnabled } from '../../../../config/content-cta-rollout.mjs';
+interface Props { topic: string; source: string; toolSlug?: string; placement?: string; compact?: boolean }
+const { topic, source, toolSlug, placement = 'article-end', compact = false } = Astro.props;
+const tool = relevantTool(topic, toolSlug);
+const appUrl = import.meta.env.PUBLIC_APP_URL ?? 'https://app.aura-looksmaxxing.com';
+---
+{tool && <aside class:list={['not-prose my-8 rounded-2xl border border-fuchsia-400/20 bg-gradient-to-br from-fuchsia-950/40 to-violet-950/25', compact ? 'p-5' : 'p-7 sm:p-9']} aria-label={tool.name}>
+  <p class="mb-2 text-xs font-bold uppercase tracking-widest text-fuchsia-300">{tool.audience === 'women' ? 'Your style. Your preferences.' : 'Try this with your own photo'}</p>
+  <h2 class:list={['font-bold text-white', compact ? 'text-xl' : 'text-2xl']}>{tool.name}</h2>
+  <p class="mt-2 leading-relaxed text-[#bbb]">{tool.description}</p>
+  {!compact && <ul class="my-5 grid gap-2 text-sm text-[#ddd] sm:grid-cols-3">{tool.resultLabels.map(label => <li class="rounded-xl border border-white/10 p-3">{label}</li>)}</ul>}
+  <a href={toolHref(tool.slug, source, appUrl)} data-tool={tool.slug} data-placement={placement} data-cta-rollout={isContentCtaEnabled(source) ? CONTENT_CTA_ROLLOUT : undefined} class="mt-5 inline-flex rounded-xl btn-gradient px-6 py-3 text-sm font-bold text-white">Upload photo & see my potential →</a>
+</aside>}

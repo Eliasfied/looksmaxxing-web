@@ -1,9 +1,10 @@
 'use client'
 
 import { useState } from 'react'
+import { safeToolReturn } from '@/lib/tool-report'
 import Image from 'next/image'
 import Link from 'next/link'
-import { useRouter } from 'next/navigation'
+import { useRouter, useSearchParams } from 'next/navigation'
 import { signInWithEmailAndPassword, signInWithPopup, GoogleAuthProvider } from 'firebase/auth'
 import { auth } from '@/lib/firebase/client'
 import { appConfig } from '@/lib/config'
@@ -19,6 +20,7 @@ async function createSession(idToken: string) {
 
 export default function LoginPage() {
   const router = useRouter()
+  const returnTo = safeToolReturn(useSearchParams().get('next'))
   const [email, setEmail] = useState('')
   const [password, setPassword] = useState('')
   const [error, setError] = useState<string | null>(null)
@@ -33,7 +35,7 @@ export default function LoginPage() {
       const credential = await signInWithEmailAndPassword(auth, email, password)
       const idToken = await credential.user.getIdToken()
       await createSession(idToken)
-      router.push('/dashboard')
+      router.push(returnTo ?? '/dashboard')
       router.refresh()
     } catch (err: unknown) {
       const msg = err instanceof Error ? err.message : 'Sign in failed'
@@ -50,7 +52,7 @@ export default function LoginPage() {
       const credential = await signInWithPopup(auth, provider)
       const idToken = await credential.user.getIdToken()
       await createSession(idToken)
-      router.push('/dashboard')
+      router.push(returnTo ?? '/dashboard')
       router.refresh()
     } catch (err: unknown) {
       const msg = err instanceof Error ? err.message : 'Google sign in failed'
@@ -125,7 +127,7 @@ export default function LoginPage() {
 
       <p className="mt-5 text-center text-sm text-[#888888]">
         No account?{' '}
-        <Link href="/register" className="text-purple-400 hover:text-purple-300 transition-colors">
+        <Link href={returnTo ? `/register?next=${encodeURIComponent(returnTo)}` : '/register'} className="text-purple-400 hover:text-purple-300 transition-colors">
           Sign up free
         </Link>
       </p>

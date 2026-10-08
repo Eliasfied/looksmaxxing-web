@@ -14,6 +14,7 @@ interface PurchaseButtonProps {
   children: React.ReactNode
   className?: string
   successRedirect?: string
+  onSuccess?: () => void | Promise<void>
 }
 
 function SuccessModal({ productName, onClose }: { productName: string; onClose: () => void }) {
@@ -42,7 +43,7 @@ function SuccessModal({ productName, onClose }: { productName: string; onClose: 
         <p className="mb-8 text-sm text-[#666666]">Credits are being added to your account.</p>
 
         <Link
-          href="/generate"
+          href="/dashboard"
           onClick={onClose}
           className="btn-gradient inline-flex items-center gap-2 rounded-xl px-6 py-3 text-sm font-bold text-white transition-opacity hover:opacity-90"
         >
@@ -54,7 +55,7 @@ function SuccessModal({ productName, onClose }: { productName: string; onClose: 
   )
 }
 
-export function PurchaseButton({ productId, productName, children, className, successRedirect }: PurchaseButtonProps) {
+export function PurchaseButton({ productId, productName, children, className, successRedirect, onSuccess }: PurchaseButtonProps) {
   const [loading, setLoading] = useState(false)
   const [error, setError] = useState<string | null>(null)
   const [showSuccess, setShowSuccess] = useState(false)
@@ -66,6 +67,7 @@ export function PurchaseButton({ productId, productName, children, className, su
     setError(null)
 
     try {
+      await auth.authStateReady()
       const user = auth.currentUser
       if (!user) throw new Error('Not logged in')
 
@@ -83,10 +85,16 @@ export function PurchaseButton({ productId, productName, children, className, su
         return
       }
 
+      posthog.capture('checkout_started', { product_id: productId })
       await purchases.purchase({ rcPackage: pkg })
 
       const name = productName ?? pkg.rcBillingProduct.displayName ?? productId
       posthog.capture('purchase_completed', { product_id: productId, product_name: name })
+
+      if (onSuccess) {
+        await onSuccess()
+        return
+      }
 
       if (successRedirect) {
         router.push(successRedirect)
@@ -102,9 +110,11 @@ export function PurchaseButton({ productId, productName, children, className, su
       setTimeout(() => router.refresh(), 7000)
     } catch (err) {
       if (err instanceof PurchasesError && err.errorCode === ErrorCode.UserCancelledError) {
+        posthog.capture('checkout_cancelled', { product_id: productId })
         return
       }
       setError('Something went wrong. Please try again.')
+      posthog.capture('checkout_failed', { product_id: productId })
       console.error('[PurchaseButton]', err)
     } finally {
       setLoading(false)
