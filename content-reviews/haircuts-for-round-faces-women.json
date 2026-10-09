@@ -1,0 +1,47 @@
+{
+  "slug": "haircuts-for-round-faces-women",
+  "reviewedAt": "2026-10-09T19:59:53.489Z",
+  "draft": true,
+  "review": {
+    "pass": false,
+    "issues": [
+      "Incomplete model response: max_tokens",
+      "No reviewable Markdown draft was saved."
+    ]
+  },
+  "sources": [],
+  "imageModel": "openai/gpt-image-2.5/flare/text-to-image",
+  "imageReviews": [],
+  "imageSettings": {
+    "width": 1024,
+    "height": 1024,
+    "quality": "low"
+  },
+  "usage": [
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "research",
+      "input": 30946,
+      "output": 3841,
+      "estimatedUsd": 0.100302,
+      "searches": 3
+    },
+    {
+      "model": "claude-opus-5-5",
+      "stage": "article",
+      "input": 34082,
+      "output": 11035,
+      "estimatedUsd": 0.357028,
+      "searches": 0
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "text-review",
+      "input": 36484,
+      "output": 6000,
+      "estimatedUsd": 0.132968,
+      "searches": 0
+    }
+  ],
+  "note": "Token estimates exclude web-search charges, images, tax and provider markups."
+}
