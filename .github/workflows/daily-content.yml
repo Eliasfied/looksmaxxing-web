@@ -23,6 +23,10 @@ on:
         description: 'Specific slug to generate (optional, for testing)'
         required: false
         default: ''
+      retry_review:
+        description: 'Retry only the specified review slug, reusing its saved draft'
+        type: boolean
+        default: false
 
 concurrency:
   group: aura-daily-content
@@ -72,10 +76,12 @@ jobs:
           TYPES: ${{ github.event.inputs.types || 'blog,glossary' }}
           PHASE: ${{ github.event.inputs.phase }}
           SLUG: ${{ github.event.inputs.slug }}
+          RETRY_REVIEW: ${{ github.event.inputs.retry_review }}
         run: |
           ARGS=(--count "$COUNT" --types "$TYPES" --auto)
           if [ -n "$PHASE" ]; then ARGS+=(--phase "$PHASE"); fi
           if [ -n "$SLUG" ]; then ARGS+=(--slug "$SLUG"); fi
+          if [ "$RETRY_REVIEW" = 'true' ]; then ARGS+=(--retry-review); fi
           node scripts/generate-content.mjs "${ARGS[@]}"
 
       - name: Save editorial reports

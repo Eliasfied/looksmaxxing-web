@@ -46,13 +46,17 @@ Den zweiten Befehlssatz in einem zweiten Terminal starten.
 
 ## Content-Pipeline
 
-1. Vorhandene Slugs werden nicht überschrieben. Neue Tool-Seiten dürfen nur für tatsächlich implementierte Tools entstehen.
+Nachbesserung vom 10. Oktober 2026: Die ausgefallenen Themen `best-glasses-for-round-face` und `haircuts-for-round-faces-women` wurden mit echter Recherche, Opus-Artikeln, Textprüfung und je drei GPT-Image-2.5-Bildern nachgeholt. Quellenbelege und missverständliche Grafiken wurden vor Freigabe korrigiert. Die letzten erfolgreichen Textprüfungen kosteten rechnerisch $0,021276 beziehungsweise $0,019704 statt zuvor rund $0,13 pro Versuch. Drei bestandene Bildprüfungen kommen auf etwa $0,014 dazu. Das sind Token-Schätzungen je erfolgreichem Prüfdurchgang; Recherche, Schreiben, Bilderstellung, Wiederholungen und Steuern sind zusätzlich. Alle Versuche bleiben im Prüfprotokoll sichtbar.
+
+Validiert: 39 Offline-Tests einschließlich Abbruch/Wiederaufnahme, Sperre bereits veröffentlichter Slugs und Bild-Cache-Integrität; echter Negativtest mit erfundener medizinischer Quellenbehauptung abgelehnt; 153 öffentliche Seiten gebaut. Beide neuen Artikel haben korrektes Canonical und Article-Schema, erscheinen im Blog und in der Sitemap, verwenden passende Tool-Links und insgesamt sechs freigegebene 1024×1024-WebP-Bilder. Die tägliche Queue enthält anschließend 139 weitere automatisch bearbeitbare Themen.
+
+1. Veröffentlichte Slugs werden nicht überschrieben. Ein einzelner Review-Entwurf kann ausdrücklich mit `--retry-review --slug SLUG` fortgesetzt werden. Neue Tool-Seiten dürfen nur für tatsächlich implementierte Tools entstehen.
 2. Recherche mit Websuche und echten Quellenzitaten; höchstens drei Suchaufrufe.
-3. Artikel: weiterhin Claude Opus 5.5, konfigurierbar über CONTENT_MODEL oder --model.
+3. Artikel: weiterhin Claude Opus 5.5, konfigurierbar über CONTENT_MODEL oder --model. Vor der Prüfung werden Markdown mit `draft: true` und Original-JSON einschließlich Bildbriefings und Quellenbelegen unter `content-reviews/drafts/SLUG.json` gespeichert. Die JSON-Datei bleibt als Wiederaufnahmepunkt erhalten.
 4. Strukturelle Prüfung: Quellen aus der Recherche, korrekte Slang-Begriffe, passende Tool-Links, ausreichender Inhalt, unterschiedliche Bildbriefings, keine rohen HTML-Injektionen.
-5. Zweite redaktionelle Prüfung mit Sonnet 5.5. Sie überprüft den Artikel gegen die Recherche und den tatsächlichen Produktumfang.
+5. Zweite redaktionelle Prüfung mit Sonnet 5.5: `effort: low`, adaptive Denkphase und maximal 4.096 Ausgabetokens. Sie erhält den Artikel, den Produktumfang und die vollständigen zitierten Quellenausschnitte, jedoch keinen Such-/Thinking-Verlauf. Ausgabe ausschließlich Freigabe und höchstens sechs konkrete blockierende Fehler. Fokus: erfundene Quellenbelege, wesentliche Falschaussagen, Produkt-/Medizinversprechen und unpassende Inhalte/Bildbriefings. Geschmacksfragen sind kein Ablehnungsgrund. Unvollständige oder ungültige Antworten geben einen Artikel niemals frei. Die Variante ohne Denkphase lieferte im Praxistest widersprüchliche Urteile und wird deshalb für Text nicht eingesetzt.
 6. Bilder: fal-Endpunkt openai/gpt-image-2.5/flare/text-to-image, quality=low, width=1024, height=1024. Drei Bilder pro Blogartikel, jeweils mit eigenem Zweck. Speicherung als WebP. Neue Hero-Bilder behalten ihr quadratisches Format.
-7. Jedes erzeugte Bild wird visuell gegen sein Briefing geprüft; der Alt-Text beschreibt das tatsächlich sichtbare Bild.
+7. Jedes erzeugte Bild wird visuell gegen sein Briefing geprüft; der Alt-Text beschreibt das tatsächlich sichtbare Bild. Diese Prüfung verwendet `effort: medium`, `thinking: between_tools` und maximal 1.000 Ausgabetokens. Bereits freigegebene Bilder werden bei Wiederaufnahme ohne erneute Kosten verwendet, aber nur wenn Bilddatei, Briefing, Artikelposition und Modellkonfiguration unverändert sind. SHA-256 und Prüfprotokoll werden unter `content-reviews/images/` gespeichert. Änderungen oder fehlende Nachweise erzwingen eine neue Erstellung und Prüfung.
 8. Fehlgeschlagene Prüfungen und medizinische Eingriffsthemen bleiben als Entwurf stehen. Auch Fehler vor dem ersten speicherbaren Entwurf erhalten einen Review-Bericht mit Fehlerursache und den CSV-Status review. Status und Bericht werden selbst dann gespeichert und im automatischen Lauf committed, wenn kein Artikel erzeugt wurde. So wird dasselbe gescheiterte Thema nicht täglich kostenpflichtig wiederholt. Review-Berichte stehen unter content-reviews/. Drafts fehlen im öffentlichen Build und bei internen Related-Links.
 9. Ein erfolgreicher Marketing-Build ist Pflicht vor Commit/Push. CI-Fehler und Entwürfe werden als Fehler sichtbar, nicht still als Erfolg quittiert.
 
@@ -86,15 +90,18 @@ Erst bei ausreichenden Daten und ohne auffällige Verschlechterung der Suchleist
 # Vollständig offline: keine API-Aufrufe und keine Dateischreibvorgänge
 pnpm content:preview
 
-# Kostenpflichtiger Generierungslauf, schreibt ausschließlich lokal; NICHT ausgeführt
+# Kostenpflichtiger Generierungslauf, schreibt ausschließlich lokal
 node scripts/generate-content.mjs --count 1 --types blog --no-git
+
+# Einen fehlgeschlagenen Artikel fortsetzen; vorhandener JSON-Entwurf spart Recherche/Writer
+node scripts/generate-content.mjs --slug SLUG --retry-review --no-git
 ```
 
---dry-run ist jetzt wirklich offline. --no-images erzwingt für bebilderte Formate einen Entwurf. Der tägliche Workflow würde erst nach Veröffentlichung dieser Codeänderungen die neue Pipeline verwenden.
+--dry-run ist wirklich offline. --no-images erzwingt für bebilderte Formate einen Entwurf. Der tägliche Workflow nutzt den auf main veröffentlichten Stand. Die manuelle Workflow-Ausführung bietet zusätzlich `retry_review` zusammen mit einem konkreten `slug`.
 
-Ein Entwurf wird nach Prüfung manuell überarbeitet: konkrete Beanstandungen aus content-reviews abarbeiten, Quellen und Bilder ansehen, draft auf false setzen, passendes updatedDate setzen und den Marketing-Build prüfen. Die gespeicherte automatische Prüfhistorie ist keine Garantie für medizinische oder wissenschaftliche Richtigkeit.
+Ein Entwurf wird nach Prüfung überarbeitet: konkrete Beanstandungen aus content-reviews abarbeiten, den Artikel unter `data` im JSON-Wiederaufnahmepunkt korrigieren, Quellen und Bildbriefings prüfen und anschließend `--retry-review --slug SLUG` ausführen. Die Pipeline prüft den korrigierten Entwurf erneut und erzeugt erst nach bestandenem Textcheck die Bilder. Markdown-Änderungen allein werden bei dieser Wiederaufnahme nicht übernommen. Klinische Themen brauchen weiterhin eine menschliche Freigabe. Die gespeicherte automatische Prüfhistorie ist keine Garantie für medizinische oder wissenschaftliche Richtigkeit.
 
-Falls kein Entwurf gespeichert werden konnte: die Ursache im Review-JSON beheben und die betroffenen Keyword-Zeilen nach bewusster Entscheidung wieder auf pending setzen. Existiert bereits ein Entwurf, diesen bearbeiten; die Pipeline überschreibt bestehende Slugs nicht automatisch. Der lokale Offline-Check meldet weiterhin 157 neue Blog-/Glossarseiten in der Queue.
+Falls noch kein Entwurf gespeichert werden konnte: Ursache im Review-JSON beheben und denselben expliziten Retry-Befehl verwenden. Nur in diesem Fall werden Recherche und Artikel erneut erzeugt. Existiert Markdown ohne JSON-Wiederaufnahmepunkt, stoppt die Pipeline zum Schutz des Entwurfs. Frühere Prüfberichte und Kosten bleiben unter `previousAttempts` erhalten. Der Tageslauf überspringt Review-Themen weiterhin, damit kein kostenpflichtiger Wiederholungszyklus entsteht. Die aktuelle Zahl neuer Themen liefert `pnpm content:preview`.
 
 ## Modelle und Kosten
 

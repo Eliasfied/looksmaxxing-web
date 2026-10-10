@@ -1,17 +1,84 @@
 {
   "slug": "haircuts-for-round-faces-women",
-  "reviewedAt": "2026-10-09T19:59:53.489Z",
-  "draft": true,
+  "reviewedAt": "2026-10-10T12:19:08.041Z",
+  "draft": false,
   "review": {
-    "pass": false,
-    "issues": [
-      "Incomplete model response: max_tokens",
-      "No reviewable Markdown draft was saved."
-    ]
+    "pass": true,
+    "issues": []
   },
-  "sources": [],
+  "sources": [
+    {
+      "title": "5 Best Haircuts For Round Faces",
+      "url": "https://www.concihairge.com/best-haircuts-for-round-face-shapes/"
+    },
+    {
+      "title": "The Best Haircuts and Styles for Every Face Shape: Whether Round, Oval, or Square",
+      "url": "https://www.aol.com/best-haircuts-styles-every-face-210000312.html"
+    },
+    {
+      "title": "The Best Shoulder-Length Haircuts for Your Face Shape, According to Stylists",
+      "url": "https://www.aol.com/best-shoulder-length-haircuts-face-151733277.html"
+    },
+    {
+      "title": "Celebrity Hair Stylists Explain the Best Haircuts for Every Face Shape",
+      "url": "https://www.aol.com/lifestyle/celebrity-hair-stylists-explain-best-221900445.html"
+    },
+    {
+      "title": "How to Choose the Perfect Hairstyle for a Round Face Shape - Revlon Professional",
+      "url": "https://www.revlonprofessional.com/blog/how-to-style-wavy-natural-hair-2/"
+    },
+    {
+      "title": "How to Choose The Best Hairstyle for Round Face - San Mateo Hair Salon",
+      "url": "https://lsalon.com/how-to-choose-the-best-hairstyle-for-round-face/"
+    },
+    {
+      "title": "Finding the Best Hairstyles for Round Faces",
+      "url": "https://us.davines.com/blogs/news/best-hairstyles-for-round-faces"
+    },
+    {
+      "title": "The 36 Best Haircuts for Round Faces",
+      "url": "https://www.aol.com/36-best-haircuts-round-faces-150000057.html"
+    },
+    {
+      "title": "The 15 Best Curly Hairstyles For Round Faces",
+      "url": "https://www.aol.com/15-best-curly-hairstyles-round-191550095.html"
+    },
+    {
+      "title": "60 Flattering Hairstyles for Round Faces Trending in 2026",
+      "url": "https://therighthairstyles.com/flattering-hairstyles-for-round-faces/"
+    },
+    {
+      "title": "50 Must-Try Long Layered Haircuts for Round Faces in 2026",
+      "url": "https://www.latest-hairstyles.com/long/long-layered-haircuts-for-round-faces.html"
+    }
+  ],
   "imageModel": "openai/gpt-image-2.5/flare/text-to-image",
-  "imageReviews": [],
+  "imageReviews": [
+    {
+      "image": "/blog/haircuts-for-round-faces-women/1.webp",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "Flat-style illustration of four women standing side by side against a neutral background, each with a different haircut: a below-the-jaw dark brown lob, long dark layers past the shoulders, shoulder-length highlighted hair with curtain bangs, and a black pixie cut with long side-swept bangs."
+      }
+    },
+    {
+      "image": "/blog/haircuts-for-round-faces-women/2.webp",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "Woman with long dark wavy hair and face-framing layers that fall past the chin to the collarbones, smiling softly in a three-quarter portrait near a window"
+      }
+    },
+    {
+      "image": "/blog/haircuts-for-round-faces-women/3.webp",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "Flat-lay on a light wooden surface of a handwritten salon note reading 'length: just below jaw, layers start: below chin, fringe: curtain, cheekbone length, part: middle or side', beside a black comb, cutting shears and two printed photos of wavy brown bob haircuts shown from behind, with a potted plant in the corner."
+      }
+    }
+  ],
   "imageSettings": {
     "width": 1024,
     "height": 1024,
@@ -20,28 +87,277 @@
   "usage": [
     {
       "model": "claude-sonnet-5-5",
-      "stage": "research",
-      "input": 30946,
-      "output": 3841,
-      "estimatedUsd": 0.100302,
-      "searches": 3
-    },
-    {
-      "model": "claude-opus-5-5",
-      "stage": "article",
-      "input": 34082,
-      "output": 11035,
-      "estimatedUsd": 0.357028,
+      "stage": "text-review",
+      "input": 9772,
+      "output": 16,
+      "estimatedUsd": 0.019704,
       "searches": 0
     },
     {
       "model": "claude-sonnet-5-5",
-      "stage": "text-review",
-      "input": 36484,
-      "output": 6000,
-      "estimatedUsd": 0.132968,
+      "stage": "image-review",
+      "input": 1865,
+      "output": 73,
+      "estimatedUsd": 0.00446,
+      "searches": 0
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "image-review",
+      "input": 1761,
+      "output": 133,
+      "estimatedUsd": 0.004852,
       "searches": 0
     }
   ],
-  "note": "Token estimates exclude web-search charges, images, tax and provider markups."
+  "note": "Token estimates exclude web-search charges, images, tax and provider markups.",
+  "previousAttempts": [
+    {
+      "slug": "haircuts-for-round-faces-women",
+      "reviewedAt": "2026-10-09T19:59:53.489Z",
+      "draft": true,
+      "review": {
+        "pass": false,
+        "issues": [
+          "Incomplete model response: max_tokens",
+          "No reviewable Markdown draft was saved."
+        ]
+      },
+      "sources": [],
+      "imageModel": "openai/gpt-image-2.5/flare/text-to-image",
+      "imageReviews": [],
+      "imageSettings": {
+        "width": 1024,
+        "height": 1024,
+        "quality": "low"
+      },
+      "usage": [
+        {
+          "model": "claude-sonnet-5-5",
+          "stage": "research",
+          "input": 30946,
+          "output": 3841,
+          "estimatedUsd": 0.100302,
+          "searches": 3
+        },
+        {
+          "model": "claude-opus-5-5",
+          "stage": "article",
+          "input": 34082,
+          "output": 11035,
+          "estimatedUsd": 0.357028,
+          "searches": 0
+        },
+        {
+          "model": "claude-sonnet-5-5",
+          "stage": "text-review",
+          "input": 36484,
+          "output": 6000,
+          "estimatedUsd": 0.132968,
+          "searches": 0
+        }
+      ],
+      "note": "Token estimates exclude web-search charges, images, tax and provider markups."
+    },
+    {
+      "slug": "haircuts-for-round-faces-women",
+      "reviewedAt": "2026-10-10T12:15:24.721Z",
+      "draft": true,
+      "review": {
+        "pass": false,
+        "issues": [
+          "Bangs and fringe: The article attributes the claim that a middle part helps elongate a round face to Davines, but a later section cites the same source for something different. More importantly, the Revlon URL slug is 'how-to-style-wavy-natural-hair-2', so it may not be a round-face source. The quoted evidence matches the claim, so this is only a minor concern.",
+          "Where Stylists Disagree: The article says the 36-cut roundup 'recommends a choppy lob with blunt ends and a sleek, blunt lob' while 'tell[ing] readers to avoid blunt bobs'. The evidence supports this, so this is not an error.",
+          "Short Cuts and Pixies: The article states 'pixie with a deep side part and long bangs' is a suggestion from the site. The evidence is truncated at 'deep s...', so 'side part' is an unverified completion of the text."
+        ]
+      },
+      "sources": [
+        {
+          "title": "5 Best Haircuts For Round Faces",
+          "url": "https://www.concihairge.com/best-haircuts-for-round-face-shapes/"
+        },
+        {
+          "title": "The Best Haircuts and Styles for Every Face Shape: Whether Round, Oval, or Square",
+          "url": "https://www.aol.com/best-haircuts-styles-every-face-210000312.html"
+        },
+        {
+          "title": "The Best Shoulder-Length Haircuts for Your Face Shape, According to Stylists",
+          "url": "https://www.aol.com/best-shoulder-length-haircuts-face-151733277.html"
+        },
+        {
+          "title": "An approach to face shape classification for hairstyle recommendation",
+          "url": "https://ieeexplore.ieee.org/document/7449857/"
+        },
+        {
+          "title": "A Mobile Based Application For Face Shape Recognition And Hairstyle Suggestion",
+          "url": "https://su-plus.strathmore.edu/bitstreams/57e0a2e9-b7de-40a8-87f1-6181991dc628/download"
+        },
+        {
+          "title": "Celebrity Hair Stylists Explain the Best Haircuts for Every Face Shape",
+          "url": "https://www.aol.com/lifestyle/celebrity-hair-stylists-explain-best-221900445.html"
+        },
+        {
+          "title": "How to Choose the Perfect Hairstyle for a Round Face Shape - Revlon Professional",
+          "url": "https://www.revlonprofessional.com/blog/how-to-style-wavy-natural-hair-2/"
+        },
+        {
+          "title": "How to Choose The Best Hairstyle for Round Face - San Mateo Hair Salon",
+          "url": "https://lsalon.com/how-to-choose-the-best-hairstyle-for-round-face/"
+        },
+        {
+          "title": "Finding the Best Hairstyles for Round Faces",
+          "url": "https://us.davines.com/blogs/news/best-hairstyles-for-round-faces"
+        },
+        {
+          "title": "The 36 Best Haircuts for Round Faces",
+          "url": "https://www.aol.com/36-best-haircuts-round-faces-150000057.html"
+        },
+        {
+          "title": "The 15 Best Curly Hairstyles For Round Faces",
+          "url": "https://www.aol.com/15-best-curly-hairstyles-round-191550095.html"
+        },
+        {
+          "title": "60 Flattering Hairstyles for Round Faces Trending in 2026",
+          "url": "https://therighthairstyles.com/flattering-hairstyles-for-round-faces/"
+        },
+        {
+          "title": "50 Must-Try Long Layered Haircuts for Round Faces in 2026",
+          "url": "https://www.latest-hairstyles.com/long/long-layered-haircuts-for-round-faces.html"
+        },
+        {
+          "title": "What Hairstyle Suits My Face Shape? AI vs Traditional Rules",
+          "url": "https://therighthairstyles.com/face-shape-hairstyle-guide-ai-analysis/"
+        },
+        {
+          "title": "Face shape classification using Inception v3",
+          "url": "https://arxiv.org/pdf/1911.07916"
+        }
+      ],
+      "imageModel": "openai/gpt-image-2.5/flare/text-to-image",
+      "imageReviews": [],
+      "imageSettings": {
+        "width": 1024,
+        "height": 1024,
+        "quality": "low"
+      },
+      "usage": [
+        {
+          "model": "claude-sonnet-5-5",
+          "stage": "research",
+          "input": 27577,
+          "output": 4006,
+          "estimatedUsd": 0.095214,
+          "searches": 3
+        },
+        {
+          "model": "claude-opus-5-5",
+          "stage": "article",
+          "input": 31112,
+          "output": 11368,
+          "estimatedUsd": 0.351808,
+          "searches": 0
+        },
+        {
+          "model": "claude-sonnet-5-5",
+          "stage": "text-review",
+          "input": 10595,
+          "output": 300,
+          "estimatedUsd": 0.02419,
+          "searches": 0
+        }
+      ],
+      "note": "Token estimates exclude web-search charges, images, tax and provider markups."
+    },
+    {
+      "slug": "haircuts-for-round-faces-women",
+      "reviewedAt": "2026-10-10T12:17:46.272Z",
+      "draft": true,
+      "review": {
+        "pass": false,
+        "issues": [
+          "Image 2 failed validation: Image failed editorial review: [\"The two heads show essentially identical hair; the face-framing layers do not visibly differ, so the diagram fails to demonstrate the contrast between layers starting at the cheekbones and layers starting below the chin.\",\"The left arrow is a long curved line that points to the cheek/face area rather than clearly marking where a shortest layer begins, which is misleading about the 'starts at cheekbones' concept.\",\"The right arrow points to hair near the jaw/neck, but the hair there shows no distinct shortest layer, so the 'starts below chin' marker does not correspond to any visible feature.\",\"The head is not clearly a round-face example and the illustration is more detailed painterly shading than the requested simple line art, reducing clarity as an educational diagram.\"]"
+        ]
+      },
+      "sources": [
+        {
+          "title": "5 Best Haircuts For Round Faces",
+          "url": "https://www.concihairge.com/best-haircuts-for-round-face-shapes/"
+        },
+        {
+          "title": "The Best Haircuts and Styles for Every Face Shape: Whether Round, Oval, or Square",
+          "url": "https://www.aol.com/best-haircuts-styles-every-face-210000312.html"
+        },
+        {
+          "title": "The Best Shoulder-Length Haircuts for Your Face Shape, According to Stylists",
+          "url": "https://www.aol.com/best-shoulder-length-haircuts-face-151733277.html"
+        },
+        {
+          "title": "Celebrity Hair Stylists Explain the Best Haircuts for Every Face Shape",
+          "url": "https://www.aol.com/lifestyle/celebrity-hair-stylists-explain-best-221900445.html"
+        },
+        {
+          "title": "How to Choose the Perfect Hairstyle for a Round Face Shape - Revlon Professional",
+          "url": "https://www.revlonprofessional.com/blog/how-to-style-wavy-natural-hair-2/"
+        },
+        {
+          "title": "How to Choose The Best Hairstyle for Round Face - San Mateo Hair Salon",
+          "url": "https://lsalon.com/how-to-choose-the-best-hairstyle-for-round-face/"
+        },
+        {
+          "title": "Finding the Best Hairstyles for Round Faces",
+          "url": "https://us.davines.com/blogs/news/best-hairstyles-for-round-faces"
+        },
+        {
+          "title": "The 36 Best Haircuts for Round Faces",
+          "url": "https://www.aol.com/36-best-haircuts-round-faces-150000057.html"
+        },
+        {
+          "title": "The 15 Best Curly Hairstyles For Round Faces",
+          "url": "https://www.aol.com/15-best-curly-hairstyles-round-191550095.html"
+        },
+        {
+          "title": "60 Flattering Hairstyles for Round Faces Trending in 2026",
+          "url": "https://therighthairstyles.com/flattering-hairstyles-for-round-faces/"
+        },
+        {
+          "title": "50 Must-Try Long Layered Haircuts for Round Faces in 2026",
+          "url": "https://www.latest-hairstyles.com/long/long-layered-haircuts-for-round-faces.html"
+        }
+      ],
+      "imageModel": "openai/gpt-image-2.5/flare/text-to-image",
+      "imageReviews": [],
+      "imageSettings": {
+        "width": 1024,
+        "height": 1024,
+        "quality": "low"
+      },
+      "usage": [
+        {
+          "model": "claude-sonnet-5-5",
+          "stage": "text-review",
+          "input": 9678,
+          "output": 16,
+          "estimatedUsd": 0.019516,
+          "searches": 0
+        },
+        {
+          "model": "claude-sonnet-5-5",
+          "stage": "image-review",
+          "input": 1760,
+          "output": 117,
+          "estimatedUsd": 0.00469,
+          "searches": 0
+        },
+        {
+          "model": "claude-sonnet-5-5",
+          "stage": "image-review",
+          "input": 1771,
+          "output": 338,
+          "estimatedUsd": 0.006922,
+          "searches": 0
+        }
+      ],
+      "note": "Token estimates exclude web-search charges, images, tax and provider markups."
+    }
+  ]
 }

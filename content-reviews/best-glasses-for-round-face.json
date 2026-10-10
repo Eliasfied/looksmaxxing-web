@@ -1,17 +1,92 @@
 {
   "slug": "best-glasses-for-round-face",
-  "reviewedAt": "2026-10-08T20:27:35.117Z",
-  "draft": true,
+  "reviewedAt": "2026-10-10T12:12:46.305Z",
+  "draft": false,
   "review": {
-    "pass": false,
-    "issues": [
-      "Incomplete model response: max_tokens",
-      "No reviewable Markdown draft was saved."
-    ]
+    "pass": true,
+    "issues": []
   },
-  "sources": [],
+  "sources": [
+    {
+      "title": "Glasses for Your Face Shape and Skin Tone",
+      "url": "https://www.allaboutvision.com/eyewear/eyeglasses/fit/glasses-shape-color-analysis/"
+    },
+    {
+      "title": "Four Factors to Choosing Eyeglass Frames",
+      "url": "https://www.vsp.com/eyewear-wellness/lasik-glasses-lenses/how-to-choose-glasses"
+    },
+    {
+      "title": "Choosing Glasses for Your Face Shape - Optometrists.org",
+      "url": "https://www.optometrists.org/general-practice-optometry/optical/guide-to-optical-frames/9115-2/"
+    },
+    {
+      "title": "Best glasses for round faces: which frames fit",
+      "url": "https://www.glasses.com/gl-us/blog/glasses-for-round-faces"
+    },
+    {
+      "title": "Best Glasses Frames for Round Faces: A Complete Guide - Heartland Optical",
+      "url": "https://heartlandoptical.com/best-glasses-frames-for-round-faces/"
+    },
+    {
+      "title": "What Glasses Shape for Round Face?",
+      "url": "https://firstoptometry.ca/what-glasses-shape-for-round-face/"
+    },
+    {
+      "title": "Glasses Measurements - How to Know Your Frames Size",
+      "url": "https://www.eyebuydirect.com/guides/frame-measurements"
+    },
+    {
+      "title": "How to Read Glasses Measurements",
+      "url": "https://www.feelgoodcontacts.com/eye-care-hub/glasses/glasses-frame-size-guide"
+    },
+    {
+      "title": "Glasses Frame Sizes & Measurements Guide",
+      "url": "https://eyemartexpress.com/blogs/news/frame-size-and-measurements"
+    },
+    {
+      "title": "Eyeglass Frame Sizes Explained: Simple Fit Guide",
+      "url": "https://www.warbyparker.com/learn/eyeglass-frame-sizes-explained-simple-fit-guide-2"
+    },
+    {
+      "title": "Glasses for face shape: a simple fitting guide",
+      "url": "https://www.glasses.com/gl-us/blog/glasses-for-face-shape"
+    },
+    {
+      "title": "Best Glasses for Round Faces",
+      "url": "https://mossparkopticians.co.uk/best-glasses-for-round-faces-in-expert-picks-style-tips/"
+    },
+    {
+      "title": "Best Glasses for a Round Face",
+      "url": "https://www.framesdirect.com/knowledge-center/best-glasses-for-round-faces"
+    }
+  ],
   "imageModel": "openai/gpt-image-2.5/flare/text-to-image",
-  "imageReviews": [],
+  "imageReviews": [
+    {
+      "image": "/blog/best-glasses-for-round-face/1.webp",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "Flat-lay of six eyeglass frames on a light neutral surface: a black rectangular frame, a tortoiseshell square frame, a thin gold hexagonal metal frame, a browline frame with dark top and gold rims, a burgundy cat-eye frame, and a thin oversized round gold metal frame, with a small sprig of greenery in the corner."
+      }
+    },
+    {
+      "image": "/blog/best-glasses-for-round-face/2.webp",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "Three identical round-faced illustrated figures with hair in buns, each wearing different glasses: black rectangular frames labeled Rectangle, burgundy upswept cat-eye frames labeled Cat-eye, and gold hexagonal frames labeled Geometric."
+      }
+    },
+    {
+      "image": "/blog/best-glasses-for-round-face/3.webp",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "Black rectangular eyeglasses shown from a three-quarter overhead angle with the left temple arm opened, its inside face printed with the size code 52-18-140, and a magnified circular inset labeled 'Example frame size' showing the same code."
+      }
+    }
+  ],
   "imageSettings": {
     "width": 1024,
     "height": 1024,
@@ -20,28 +95,465 @@
   "usage": [
     {
       "model": "claude-sonnet-5-5",
-      "stage": "research",
-      "input": 47691,
-      "output": 3235,
-      "estimatedUsd": 0.127732,
-      "searches": 3
-    },
-    {
-      "model": "claude-opus-5-5",
-      "stage": "article",
-      "input": 31116,
-      "output": 10987,
-      "estimatedUsd": 0.344204,
+      "stage": "text-review",
+      "input": 10558,
+      "output": 16,
+      "estimatedUsd": 0.021276,
       "searches": 0
     },
     {
       "model": "claude-sonnet-5-5",
-      "stage": "text-review",
-      "input": 34163,
-      "output": 6000,
-      "estimatedUsd": 0.128326,
+      "stage": "image-review",
+      "input": 1849,
+      "output": 109,
+      "estimatedUsd": 0.004788,
+      "searches": 0
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "image-review",
+      "input": 1847,
+      "output": 100,
+      "estimatedUsd": 0.004694,
       "searches": 0
     }
   ],
-  "note": "Token estimates exclude web-search charges, images, tax and provider markups."
+  "note": "Token estimates exclude web-search charges, images, tax and provider markups.",
+  "previousAttempts": [
+    {
+      "slug": "best-glasses-for-round-face",
+      "reviewedAt": "2026-10-08T20:27:35.117Z",
+      "draft": true,
+      "review": {
+        "pass": false,
+        "issues": [
+          "Incomplete model response: max_tokens",
+          "No reviewable Markdown draft was saved."
+        ]
+      },
+      "sources": [],
+      "imageModel": "openai/gpt-image-2.5/flare/text-to-image",
+      "imageReviews": [],
+      "imageSettings": {
+        "width": 1024,
+        "height": 1024,
+        "quality": "low"
+      },
+      "usage": [
+        {
+          "model": "claude-sonnet-5-5",
+          "stage": "research",
+          "input": 47691,
+          "output": 3235,
+          "estimatedUsd": 0.127732,
+          "searches": 3
+        },
+        {
+          "model": "claude-opus-5-5",
+          "stage": "article",
+          "input": 31116,
+          "output": 10987,
+          "estimatedUsd": 0.344204,
+          "searches": 0
+        },
+        {
+          "model": "claude-sonnet-5-5",
+          "stage": "text-review",
+          "input": 34163,
+          "output": 6000,
+          "estimatedUsd": 0.128326,
+          "searches": 0
+        }
+      ],
+      "note": "Token estimates exclude web-search charges, images, tax and provider markups."
+    },
+    {
+      "slug": "best-glasses-for-round-face",
+      "reviewedAt": "2026-10-10T12:06:33.460Z",
+      "draft": true,
+      "review": {
+        "pass": false,
+        "issues": [
+          "Round-face definition: the claim of 'about as wide as it is long' lacks support in the excerpts, and the broad assertion about 'someone has probably told you to avoid round glasses' is unsupported framing; soften or cite.",
+          "Cat-eye section: 'Works well for... vintage or more feminine look' is a styling preference, but Heartland only lists cat-eye as suitable; the unsupported 'very small, narrow version loses most of the effect' is presented as fact and needs hedging.",
+          "Browline section: the claim that browlines place 'visual weight along the brow area' and create a 'strong horizontal line' is not supported by the excerpt; Heartland support is not shown. Present as opinion or add support.",
+          "Wayfarer fit and 'Thin oversized round' row: 'Contrast level' ratings (Medium/High/Low) in the Quick Reference table are invented and unsupported by any source; label as editorial judgment or remove.",
+          "Aviator paragraph: 'Some guides warn against classic teardrop lenses' is unsupported by supplied sources; cite or remove.",
+          "Fit section: 'If the frames lift off your nose when you smile, the lenses are probably too deep' is unsupported by Feel Good Contacts excerpt; present as a practical tip, not a sourced claim.",
+          "Clear/pale frames 'soften' edges and 'darker colors make edges more visible' are presented as visual fact without source support; mark as preference.",
+          "Try-on routine: 'Mirrors flip your image, while photos show roughly what other people see' and 'stay within a few millimeters' are unsupported specifics; hedge or support.",
+          "Tool paragraph: product link appears before the concept is explained and mentions only generic outputs; it never names the stylist brief or planner tasks relevant to glasses, and 'haircut and accessory options' is loosely tied. Clarify the specific relevant output.",
+          "Frame width measurement: 'including the hinges' and total width being unprinted is unsupported by excerpts; Glasses.com excerpt also says 'strong bridge to elongate the nose' and 'avoid frames that sit too high' not reflected consistently with the brow-line advice."
+        ]
+      },
+      "sources": [
+        {
+          "title": "Glasses for Your Face Shape and Skin Tone",
+          "url": "https://www.allaboutvision.com/eyewear/eyeglasses/fit/glasses-shape-color-analysis/"
+        },
+        {
+          "title": "Four Factors to Choosing Eyeglass Frames",
+          "url": "https://www.vsp.com/eyewear-wellness/lasik-glasses-lenses/how-to-choose-glasses"
+        },
+        {
+          "title": "Choosing Glasses for Your Face Shape - Optometrists.org",
+          "url": "https://www.optometrists.org/general-practice-optometry/optical/guide-to-optical-frames/9115-2/"
+        },
+        {
+          "title": "Best glasses for round faces: which frames fit",
+          "url": "https://www.glasses.com/gl-us/blog/glasses-for-round-faces"
+        },
+        {
+          "title": "Best Glasses Frames for Round Faces: A Complete Guide - Heartland Optical",
+          "url": "https://heartlandoptical.com/best-glasses-frames-for-round-faces/"
+        },
+        {
+          "title": "What Glasses Shape for Round Face?",
+          "url": "https://firstoptometry.ca/what-glasses-shape-for-round-face/"
+        },
+        {
+          "title": "Glasses Measurements - How to Know Your Frames Size",
+          "url": "https://www.eyebuydirect.com/guides/frame-measurements"
+        },
+        {
+          "title": "How to Read Glasses Measurements",
+          "url": "https://www.feelgoodcontacts.com/eye-care-hub/glasses/glasses-frame-size-guide"
+        },
+        {
+          "title": "Glasses Frame Sizes & Measurements Guide",
+          "url": "https://eyemartexpress.com/blogs/news/frame-size-and-measurements"
+        },
+        {
+          "title": "Eyeglass Frame Sizes Explained: Simple Fit Guide",
+          "url": "https://www.warbyparker.com/learn/eyeglass-frame-sizes-explained-simple-fit-guide-2"
+        },
+        {
+          "title": "Glasses for face shape: a simple fitting guide",
+          "url": "https://www.glasses.com/gl-us/blog/glasses-for-face-shape"
+        },
+        {
+          "title": "Best Glasses for Round Faces",
+          "url": "https://mossparkopticians.co.uk/best-glasses-for-round-faces-in-expert-picks-style-tips/"
+        },
+        {
+          "title": "Best Glasses for a Round Face",
+          "url": "https://www.framesdirect.com/knowledge-center/best-glasses-for-round-faces"
+        }
+      ],
+      "imageModel": "openai/gpt-image-2.5/flare/text-to-image",
+      "imageReviews": [],
+      "imageSettings": {
+        "width": 1024,
+        "height": 1024,
+        "quality": "low"
+      },
+      "usage": [
+        {
+          "model": "claude-sonnet-5-5",
+          "stage": "research",
+          "input": 32832,
+          "output": 3671,
+          "estimatedUsd": 0.102374,
+          "searches": 3
+        },
+        {
+          "model": "claude-opus-5-5",
+          "stage": "article",
+          "input": 35268,
+          "output": 11949,
+          "estimatedUsd": 0.380052,
+          "searches": 0
+        },
+        {
+          "model": "claude-sonnet-5-5",
+          "stage": "text-review",
+          "input": 9943,
+          "output": 724,
+          "estimatedUsd": 0.027126,
+          "searches": 0
+        }
+      ],
+      "note": "Token estimates exclude web-search charges, images, tax and provider markups."
+    },
+    {
+      "slug": "best-glasses-for-round-face",
+      "reviewedAt": "2026-10-10T12:08:12.406Z",
+      "draft": true,
+      "review": {
+        "pass": false,
+        "issues": [
+          "Opening paragraph: \"a face with a soft jawline and fuller cheeks, angular glasses are a useful starting point\" and \"opticians commonly suggest\" are fine, but Quick Reference \"Contrast level\" column is acknowledged as editorial shorthand; acceptable. Main issue: cat-eye advice \"Try two widths... choose the upswept outline\" is vague, unsupported advice; clarify or remove.",
+          "Frames to Avoid section: Glasses.com is cited for oval frames, but VSP/Heartland attribution for \"rimless, round and small\" is stated as \"several sources agree\"; Heartland only supports avoiding round frames, not rimless/small. Correct attribution to avoid overstating Heartland.",
+          "Try-on routine step 4 says finger's width \"at the temples\" and fit section says top edge \"at or below your brows\"; source says \"no higher than eyebrows\" (fine), but Feel Good Contacts also says width should match face width at temples, while article says frame should be \"slightly wider than your face\" (EyeBuyDirect). Reconcile conflicting width guidance.",
+          "Browline section: claim it creates \"a strong horizontal line in the upper half\" and fit check \"top bar at or just below natural brow line\" are unsupported by Heartland excerpt; label as editorial advice rather than implying source support.",
+          "Image 2 brief shows cat-eye, rectangular and geometric on faces, but its section ('Best Frame Shapes') is fine; Image 3 brief (reading numbers with ruler measuring bridge) matches. However Image 2 placeholder sits after Wayfarer, while brief omits wayfarer/browline; acceptable. Main blocker: Face Shape Finder paragraph says it states \"how uncertain that call is\" and shows \"only a subjective styling-potential score\" free; free output limited to estimate, so claiming accessory suggestions without locking caveat is fine, but 'second opinion' framing overstates accuracy—soften."
+        ]
+      },
+      "sources": [
+        {
+          "title": "Glasses for Your Face Shape and Skin Tone",
+          "url": "https://www.allaboutvision.com/eyewear/eyeglasses/fit/glasses-shape-color-analysis/"
+        },
+        {
+          "title": "Four Factors to Choosing Eyeglass Frames",
+          "url": "https://www.vsp.com/eyewear-wellness/lasik-glasses-lenses/how-to-choose-glasses"
+        },
+        {
+          "title": "Choosing Glasses for Your Face Shape - Optometrists.org",
+          "url": "https://www.optometrists.org/general-practice-optometry/optical/guide-to-optical-frames/9115-2/"
+        },
+        {
+          "title": "Best glasses for round faces: which frames fit",
+          "url": "https://www.glasses.com/gl-us/blog/glasses-for-round-faces"
+        },
+        {
+          "title": "Best Glasses Frames for Round Faces: A Complete Guide - Heartland Optical",
+          "url": "https://heartlandoptical.com/best-glasses-frames-for-round-faces/"
+        },
+        {
+          "title": "What Glasses Shape for Round Face?",
+          "url": "https://firstoptometry.ca/what-glasses-shape-for-round-face/"
+        },
+        {
+          "title": "Glasses Measurements - How to Know Your Frames Size",
+          "url": "https://www.eyebuydirect.com/guides/frame-measurements"
+        },
+        {
+          "title": "How to Read Glasses Measurements",
+          "url": "https://www.feelgoodcontacts.com/eye-care-hub/glasses/glasses-frame-size-guide"
+        },
+        {
+          "title": "Glasses Frame Sizes & Measurements Guide",
+          "url": "https://eyemartexpress.com/blogs/news/frame-size-and-measurements"
+        },
+        {
+          "title": "Eyeglass Frame Sizes Explained: Simple Fit Guide",
+          "url": "https://www.warbyparker.com/learn/eyeglass-frame-sizes-explained-simple-fit-guide-2"
+        },
+        {
+          "title": "Glasses for face shape: a simple fitting guide",
+          "url": "https://www.glasses.com/gl-us/blog/glasses-for-face-shape"
+        },
+        {
+          "title": "Best Glasses for Round Faces",
+          "url": "https://mossparkopticians.co.uk/best-glasses-for-round-faces-in-expert-picks-style-tips/"
+        },
+        {
+          "title": "Best Glasses for a Round Face",
+          "url": "https://www.framesdirect.com/knowledge-center/best-glasses-for-round-faces"
+        }
+      ],
+      "imageModel": "openai/gpt-image-2.5/flare/text-to-image",
+      "imageReviews": [],
+      "imageSettings": {
+        "width": 1024,
+        "height": 1024,
+        "quality": "low"
+      },
+      "usage": [
+        {
+          "model": "claude-sonnet-5-5",
+          "stage": "text-review",
+          "input": 10252,
+          "output": 687,
+          "estimatedUsd": 0.027374,
+          "searches": 0
+        }
+      ],
+      "note": "Token estimates exclude web-search charges, images, tax and provider markups."
+    },
+    {
+      "slug": "best-glasses-for-round-face",
+      "reviewedAt": "2026-10-10T12:09:07.556Z",
+      "draft": true,
+      "review": {
+        "pass": false,
+        "issues": [
+          "Frames That Tend to Work Against a Round Face: attributes 'rimless, round and small' frames to VSP, but VSP says these 'accentuate the roundness'; Heartland and Glasses.com are cited accurately. Minor, but Glasses.com's 'small frames make face look larger' is paraphrased as width contrast; acceptable. No blocking error here.",
+          "Cat-eye frames: advice to 'try two widths side by side and choose the upswept outline you prefer' is fine, but Heartland lists cat-eye as angular; article says cat-eyes need 'real width' attributed implicitly to sources. Unsupported but styling-only; not blocking.",
+          "Wayfarer-style frames: describes them as 'trapezoid, slightly wider at top, usually thicker rim' with no source; cited clinic only says they add structure. Visible-frame description, not blocking.",
+          "Face Shape Finder paragraph: says 'only a subjective styling-potential score is shown free' then 'face-shape findings remain locked'; consistent with rules. No error."
+        ]
+      },
+      "sources": [
+        {
+          "title": "Glasses for Your Face Shape and Skin Tone",
+          "url": "https://www.allaboutvision.com/eyewear/eyeglasses/fit/glasses-shape-color-analysis/"
+        },
+        {
+          "title": "Four Factors to Choosing Eyeglass Frames",
+          "url": "https://www.vsp.com/eyewear-wellness/lasik-glasses-lenses/how-to-choose-glasses"
+        },
+        {
+          "title": "Choosing Glasses for Your Face Shape - Optometrists.org",
+          "url": "https://www.optometrists.org/general-practice-optometry/optical/guide-to-optical-frames/9115-2/"
+        },
+        {
+          "title": "Best glasses for round faces: which frames fit",
+          "url": "https://www.glasses.com/gl-us/blog/glasses-for-round-faces"
+        },
+        {
+          "title": "Best Glasses Frames for Round Faces: A Complete Guide - Heartland Optical",
+          "url": "https://heartlandoptical.com/best-glasses-frames-for-round-faces/"
+        },
+        {
+          "title": "What Glasses Shape for Round Face?",
+          "url": "https://firstoptometry.ca/what-glasses-shape-for-round-face/"
+        },
+        {
+          "title": "Glasses Measurements - How to Know Your Frames Size",
+          "url": "https://www.eyebuydirect.com/guides/frame-measurements"
+        },
+        {
+          "title": "How to Read Glasses Measurements",
+          "url": "https://www.feelgoodcontacts.com/eye-care-hub/glasses/glasses-frame-size-guide"
+        },
+        {
+          "title": "Glasses Frame Sizes & Measurements Guide",
+          "url": "https://eyemartexpress.com/blogs/news/frame-size-and-measurements"
+        },
+        {
+          "title": "Eyeglass Frame Sizes Explained: Simple Fit Guide",
+          "url": "https://www.warbyparker.com/learn/eyeglass-frame-sizes-explained-simple-fit-guide-2"
+        },
+        {
+          "title": "Glasses for face shape: a simple fitting guide",
+          "url": "https://www.glasses.com/gl-us/blog/glasses-for-face-shape"
+        },
+        {
+          "title": "Best Glasses for Round Faces",
+          "url": "https://mossparkopticians.co.uk/best-glasses-for-round-faces-in-expert-picks-style-tips/"
+        },
+        {
+          "title": "Best Glasses for a Round Face",
+          "url": "https://www.framesdirect.com/knowledge-center/best-glasses-for-round-faces"
+        }
+      ],
+      "imageModel": "openai/gpt-image-2.5/flare/text-to-image",
+      "imageReviews": [],
+      "imageSettings": {
+        "width": 1024,
+        "height": 1024,
+        "quality": "low"
+      },
+      "usage": [
+        {
+          "model": "claude-sonnet-5-5",
+          "stage": "text-review",
+          "input": 10320,
+          "output": 361,
+          "estimatedUsd": 0.02425,
+          "searches": 0
+        }
+      ],
+      "note": "Token estimates exclude web-search charges, images, tax and provider markups."
+    },
+    {
+      "slug": "best-glasses-for-round-face",
+      "reviewedAt": "2026-10-10T12:10:38.029Z",
+      "draft": true,
+      "review": {
+        "pass": false,
+        "issues": [
+          "Image 3 failed validation: Image failed editorial review: [\"The ruler does not measure the bridge gap: it is held below the bridge and its scale (0–20 mm) is not aligned to the gap between the lenses, so it fails to demonstrate how to measure bridge width.\",\"The ruler's ticks and numerals are inconsistent (the numeral 20 sits in the wrong place relative to the tick spacing), making it unreliable as a measuring reference.\",\"The printed numbers 52-18-140 appear on the outside face of a temple arm shown from the front, while the brief asked for the inside of the left temple arm. Combined with the arm being cropped and disconnected from the frame below, the top and bottom panels read as two separate images rather than a single coherent photo.\",\"Composition is a stacked collage of two panels with a visible seam; the hands and frame are not continuous, which could mislead readers about how the numbers and the bridge relate on the same frame.\",\"Finger anatomy is slightly awkward and the temple arm in the top panel does not visibly connect to the frame in the bottom panel.\"]"
+        ]
+      },
+      "sources": [
+        {
+          "title": "Glasses for Your Face Shape and Skin Tone",
+          "url": "https://www.allaboutvision.com/eyewear/eyeglasses/fit/glasses-shape-color-analysis/"
+        },
+        {
+          "title": "Four Factors to Choosing Eyeglass Frames",
+          "url": "https://www.vsp.com/eyewear-wellness/lasik-glasses-lenses/how-to-choose-glasses"
+        },
+        {
+          "title": "Choosing Glasses for Your Face Shape - Optometrists.org",
+          "url": "https://www.optometrists.org/general-practice-optometry/optical/guide-to-optical-frames/9115-2/"
+        },
+        {
+          "title": "Best glasses for round faces: which frames fit",
+          "url": "https://www.glasses.com/gl-us/blog/glasses-for-round-faces"
+        },
+        {
+          "title": "Best Glasses Frames for Round Faces: A Complete Guide - Heartland Optical",
+          "url": "https://heartlandoptical.com/best-glasses-frames-for-round-faces/"
+        },
+        {
+          "title": "What Glasses Shape for Round Face?",
+          "url": "https://firstoptometry.ca/what-glasses-shape-for-round-face/"
+        },
+        {
+          "title": "Glasses Measurements - How to Know Your Frames Size",
+          "url": "https://www.eyebuydirect.com/guides/frame-measurements"
+        },
+        {
+          "title": "How to Read Glasses Measurements",
+          "url": "https://www.feelgoodcontacts.com/eye-care-hub/glasses/glasses-frame-size-guide"
+        },
+        {
+          "title": "Glasses Frame Sizes & Measurements Guide",
+          "url": "https://eyemartexpress.com/blogs/news/frame-size-and-measurements"
+        },
+        {
+          "title": "Eyeglass Frame Sizes Explained: Simple Fit Guide",
+          "url": "https://www.warbyparker.com/learn/eyeglass-frame-sizes-explained-simple-fit-guide-2"
+        },
+        {
+          "title": "Glasses for face shape: a simple fitting guide",
+          "url": "https://www.glasses.com/gl-us/blog/glasses-for-face-shape"
+        },
+        {
+          "title": "Best Glasses for Round Faces",
+          "url": "https://mossparkopticians.co.uk/best-glasses-for-round-faces-in-expert-picks-style-tips/"
+        },
+        {
+          "title": "Best Glasses for a Round Face",
+          "url": "https://www.framesdirect.com/knowledge-center/best-glasses-for-round-faces"
+        }
+      ],
+      "imageModel": "openai/gpt-image-2.5/flare/text-to-image",
+      "imageReviews": [],
+      "imageSettings": {
+        "width": 1024,
+        "height": 1024,
+        "quality": "low"
+      },
+      "usage": [
+        {
+          "model": "claude-sonnet-5-5",
+          "stage": "text-review",
+          "input": 10321,
+          "output": 16,
+          "estimatedUsd": 0.020802,
+          "searches": 0
+        },
+        {
+          "model": "claude-sonnet-5-5",
+          "stage": "image-review",
+          "input": 1753,
+          "output": 139,
+          "estimatedUsd": 0.004896,
+          "searches": 0
+        },
+        {
+          "model": "claude-sonnet-5-5",
+          "stage": "image-review",
+          "input": 1743,
+          "output": 109,
+          "estimatedUsd": 0.004576,
+          "searches": 0
+        },
+        {
+          "model": "claude-sonnet-5-5",
+          "stage": "image-review",
+          "input": 1716,
+          "output": 426,
+          "estimatedUsd": 0.007692,
+          "searches": 0
+        }
+      ],
+      "note": "Token estimates exclude web-search charges, images, tax and provider markups."
+    }
+  ]
 }

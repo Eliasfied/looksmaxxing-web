@@ -1,6 +1,6 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { imageInput, IMAGE_MODEL, validateContent, needsHumanReview, productBrief, extractSources, reviewImage } from '../scripts/content-quality.mjs';
+import { imageInput, IMAGE_MODEL, validateContent, needsHumanReview, productBrief, extractSources, reviewImage, reviewPage } from '../scripts/content-quality.mjs';
 import { relevantTool, toolCatalog } from '../config/tool-routing.mjs';
 import remarkToolLinks from '../scripts/remark-tool-links.mjs';
 const page = { slug:'hairstyles-for-women', primary_keyword:'hairstyles for women', page_type:'blog' };
@@ -49,4 +49,38 @@ test('only citations actually returned by research become source evidence',()=>{
 test('failed image review throws instead of silently publishing the image',async()=>{
   const client={messages:{create:async()=>({stop_reason:'end_turn',usage:{input_tokens:1,output_tokens:1},content:[{type:'text',text:'{"pass":false,"issues":["wrong subject"],"alt":"wrong"}'}]})}};
   await assert.rejects(reviewImage(client,Buffer.from('test'),{},()=>{}),/failed editorial review/);
+});
+
+test('text review sends cited evidence without the research history and reserves output for the verdict', async () => {
+  let request, charged = false;
+  const client = { messages: { create: async params => {
+    request = params;
+    return { stop_reason: 'end_turn', usage: { input_tokens: 50, output_tokens: 15 }, content: [{ type: 'text', text: '{"pass":true,"issues":[]}' }] };
+  } } };
+  const data = article();
+  data._research = { confidentialHistory: 'DO_NOT_REPLAY' };
+  const result = await reviewPage(client, page, data, {
+    messages: [{ role: 'assistant', content: 'DO_NOT_REPLAY'.repeat(10000) }],
+    sources: [...sources.map(s => ({ ...s, evidence: 'A complete cited excerpt.' })), { url: 'https://unused.example', evidence: 'UNUSED' }],
+  }, () => { charged = true; });
+  assert.equal(result.pass, true);
+  assert.equal(request.messages.length, 1);
+  assert.equal(request.output_config.effort, 'low');
+  assert.equal(request.thinking, undefined);
+  assert.ok(request.max_tokens <= 4096);
+  assert.match(request.messages[0].content, /A complete cited excerpt/);
+  assert.doesNotMatch(request.messages[0].content, /DO_NOT_REPLAY|UNUSED/);
+  assert.equal(charged, true);
+});
+
+test('truncated and malformed review responses cannot approve publication and still record usage', async () => {
+  for (const response of [
+    { stop_reason: 'max_tokens', content: [{ type: 'text', text: '{"pass":true}' }] },
+    { stop_reason: 'end_turn', content: [{ type: 'text', text: '{"pass":true,"issues":"none"}' }] },
+  ]) {
+    let charged = false;
+    const client = { messages: { create: async () => ({ ...response, usage: { input_tokens: 1, output_tokens: 1600 } }) } };
+    await assert.rejects(reviewPage(client, page, article(), { sources }, () => { charged = true; }));
+    assert.equal(charged, true);
+  }
 });
