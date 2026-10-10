@@ -9,7 +9,7 @@ heroImage: "/blog/best-glasses-for-round-face/1.webp"
 heroImageAlt: "Flat-lay of six eyeglass frames on a light neutral surface: a black rectangular frame, a tortoiseshell square frame, a thin gold hexagonal metal frame, a browline frame with dark top and gold rims, a burgundy cat-eye frame, and a thin oversized round gold metal frame, with a small sprig of greenery in the corner."
 tags: ["glasses", "round face", "face shape", "eyewear", "styling"]
 readingTime: 8
-related: [best-haircut-for-round-face-men, oval-vs-diamond-face-shape, best-haircut-for-oval-face-men]
+related: [best-glasses-for-heart-face, best-haircut-for-round-face-men, oval-vs-diamond-face-shape]
 faq:
   - q: "What are the best glasses for a round face shape?"
     a: "Rectangular and square frames are the most commonly recommended, followed by geometric, browline, cat-eye and wayfarer-style frames. They all add straight lines and corners that contrast with soft facial curves. Pick a frame slightly wider than your face so the shape works as intended."

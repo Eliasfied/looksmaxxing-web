@@ -1,0 +1,14 @@
+{
+  "key": "{\"brief\":{\"prompt\":\"Close-up at an optician's fitting table: an optician's hands gently adjust the temple arm of a pair of thin metal semi-rimless glasses while the client sits facing them, shown from the side at shoulder level. Small hand tools and a few frames rest on the table, with a calm clinical setting, warm lighting and no text.\",\"alt\":\"Optician adjusting the temple arm of a client's glasses during a fitting\",\"purpose\":\"Illustrates the fit checklist section, showing that professional adjustment of temples and fit matters more than frame shape alone.\",\"article\":\"best-glasses-for-heart-face\",\"position\":3},\"model\":\"openai/gpt-image-2.5/flare/text-to-image\"}",
+  "attempts": [
+    {
+      "status": "passed",
+      "prompt": "Close-up at an optician's fitting table: an optician's hands gently adjust the temple arm of a pair of thin metal semi-rimless glasses while the client sits facing them, shown from the side at shoulder level. Small hand tools and a few frames rest on the table, with a calm clinical setting, warm lighting and no text.",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "An optician in a white coat adjusts the temple arm of thin metal semi-rimless glasses on a client seated facing her, with small hand tools and several frames on the fitting table in a warm, calm shop."
+      }
+    }
+  ]
+}

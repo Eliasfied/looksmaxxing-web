@@ -1,0 +1,176 @@
+{
+  "slug": "best-glasses-for-heart-face",
+  "reviewedAt": "2026-10-10T19:08:18.654Z",
+  "draft": false,
+  "review": {
+    "pass": true,
+    "issues": []
+  },
+  "textRepair": {
+    "status": "passed",
+    "issues": [
+      "Heart vs. Triangle vs. Diamond / Frame Styles: the article claims VSP recommends \"low-set temples\" and \"bottom-heavy frame lines\", but the evidence only supports low-set temples. \"Bottom-heavy\" comes from Optometrists.org, so this attribution to VSP is unsupported."
+    ],
+    "review": {
+      "pass": true,
+      "issues": []
+    }
+  },
+  "sources": [
+    {
+      "title": "Glasses for Your Face Shape and Skin Tone",
+      "url": "https://www.allaboutvision.com/eyewear/eyeglasses/fit/glasses-shape-color-analysis/"
+    },
+    {
+      "title": "The Ultimate Guide to Choosing the Perfect Eyeglass Frame",
+      "url": "https://www.asgeyehospital.com/blog/the-ultimate-guide-to-choosing-glasses-frames/"
+    },
+    {
+      "title": "Four Factors to Choosing Eyeglass Frames",
+      "url": "https://www.vsp.com/eyewear-wellness/lasik-glasses-lenses/how-to-choose-glasses"
+    },
+    {
+      "title": "Choosing Glasses for Your Face Shape - Optometrists.org",
+      "url": "https://www.optometrists.org/general-practice-optometry/optical/guide-to-optical-frames/9115-2/"
+    },
+    {
+      "title": "Best Glasses for Heart-shaped Faces",
+      "url": "https://www.allaboutvision.com/eyewear/eyeglasses/fit/glasses-frames-for-heart-shape-faces/"
+    },
+    {
+      "title": "how to pick the right glasses for your face shape",
+      "url": "https://www.webmd.com/eye-health/cm/how-to-pick-the-right-glasses-for-your-face-shape"
+    },
+    {
+      "title": "October Newsletter: Choosing the Right Eyeglasses for Your Face Shape",
+      "url": "https://www.drsluckgolden.com/articles/983409-october-newsletter-choosing-the-right-eyeglasses-for-your-face-shape"
+    },
+    {
+      "title": "How To Pick Glasses for Your Face Shape",
+      "url": "https://www.rosenoptometry.com/eyeglasses-and-contacts/choosing-glasses-how-the-pros-do-it/"
+    },
+    {
+      "title": "ICIC Express Letters Part B: Applications",
+      "url": "https://researchonline.ljmu.ac.uk/id/eprint/11400/8/Eyeglasses%20frame%20selection%20based%20on%20oval%20face%20shape%20using%20convolutional%20neural%20network.pdf"
+    },
+    {
+      "title": "(PDF) Facial Shape-Based Eyeglass Recommendation Using Convolutional Neural Networks",
+      "url": "https://www.researchgate.net/publication/377074027_Facial_Shape-Based_Eyeglass_Recommendation_Using_Convolutional_Neural_Networks"
+    },
+    {
+      "title": "Best Glasses For Heart Shaped Faces 2025",
+      "url": "https://www.bantonframeworks.co.uk/blogs/guides/glasses-for-heart-shaped-faces"
+    },
+    {
+      "title": "Glasses for Heart Shaped Faces: what is the best?",
+      "url": "https://www.glasses.com/gl-us/blog/glasses-for-heart-shaped-face"
+    },
+    {
+      "title": "Glasses for Heart Shaped Face",
+      "url": "https://www.lensmartonline.com/eyeglasses/heart-face"
+    },
+    {
+      "title": "How to Choose the Perfect Glasses for your Face Shape ?",
+      "url": "https://us.vuarnet.com/pages/how-do-you-choose-the-perfect-glasses-for-your-face-shape"
+    }
+  ],
+  "imageModel": "openai/gpt-image-2.5/flare/text-to-image",
+  "imageReviews": [
+    {
+      "image": "/blog/best-glasses-for-heart-face/1.webp",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "Overhead flat-lay of six eyeglass frames in two rows on a warm-gray linen surface: a thin gold oval, a metal aviator, a tortoiseshell D-frame, a blush cat-eye, a semi-rimless frame with a muted green-gray top bar, and a dark tortoiseshell rectangular frame with rounded corners, with an eucalyptus sprig in the corner."
+      }
+    },
+    {
+      "image": "/blog/best-glasses-for-heart-face/2.webp",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "Woman with long dark brown hair adjusting thin light-tortoiseshell oval glasses while looking into a tabletop mirror in a bright optical shop with shelves of frames blurred behind her"
+      }
+    },
+    {
+      "image": "/blog/best-glasses-for-heart-face/3.webp",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "An optician in a white coat adjusts the temple arm of thin metal semi-rimless glasses on a client seated facing her, with small hand tools and several frames on the fitting table in a warm, calm shop."
+      }
+    }
+  ],
+  "imageSettings": {
+    "width": 1024,
+    "height": 1024,
+    "quality": "low"
+  },
+  "usage": [
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "research",
+      "input": 30388,
+      "output": 3474,
+      "estimatedUsd": 0.095516,
+      "searches": 3
+    },
+    {
+      "model": "claude-opus-5-5",
+      "stage": "article",
+      "input": 32968,
+      "output": 9332,
+      "estimatedUsd": 0.318512,
+      "searches": 0
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "text-review",
+      "input": 11014,
+      "output": 128,
+      "estimatedUsd": 0.023308,
+      "searches": 0
+    },
+    {
+      "model": "claude-opus-5-5",
+      "stage": "article-repair",
+      "input": 10830,
+      "output": 8432,
+      "estimatedUsd": 0.21196,
+      "searches": 0
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "text-review",
+      "input": 11066,
+      "output": 16,
+      "estimatedUsd": 0.022292,
+      "searches": 0
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "image-review",
+      "input": 1786,
+      "output": 153,
+      "estimatedUsd": 0.005102,
+      "searches": 0
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "image-review",
+      "input": 1729,
+      "output": 86,
+      "estimatedUsd": 0.004318,
+      "searches": 0
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "image-review",
+      "input": 1728,
+      "output": 87,
+      "estimatedUsd": 0.004326,
+      "searches": 0
+    }
+  ],
+  "note": "Token estimates exclude web-search charges, images, tax and provider markups."
+}

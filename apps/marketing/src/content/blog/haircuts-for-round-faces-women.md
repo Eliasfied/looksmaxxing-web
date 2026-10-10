@@ -9,7 +9,7 @@ heroImage: "/blog/haircuts-for-round-faces-women/1.webp"
 heroImageAlt: "Flat-style illustration of four women standing side by side against a neutral background, each with a different haircut: a below-the-jaw dark brown lob, long dark layers past the shoulders, shoulder-length highlighted hair with curtain bangs, and a black pixie cut with long side-swept bangs."
 tags: ["haircuts for round faces", "women's hair", "bangs and fringe", "salon tips", "face shape"]
 readingTime: 9
-related: [best-glasses-for-round-face, oval-vs-diamond-face-shape, 6-haircuts-for-receding-hairline]
+related: [best-glasses-for-round-face, best-glasses-for-heart-face, oval-vs-diamond-face-shape]
 faq:
   - q: "What is the best haircut for a round face for women?"
     a: "No single cut wins, but stylists most often recommend a lob that falls below the jawline, long layers that start below the chin, or shoulder-length hair. The right choice also depends on your hair texture, density and how much styling you want to do."

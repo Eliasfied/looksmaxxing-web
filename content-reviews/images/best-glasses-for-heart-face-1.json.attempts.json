@@ -1,0 +1,14 @@
+{
+  "key": "{\"brief\":{\"prompt\":\"Bright overhead flat-lay of six eyeglass frames arranged in two neat rows on a soft warm-gray linen surface: a thin gold oval, a slim metal aviator, a light tortoiseshell D-frame, a soft-lift cat-eye in blush acetate, a semi-rimless pair with a muted top bar, and a rectangular frame with rounded corners. Clean natural daylight, no text, no faces, editorial product-photography style.\",\"alt\":\"Best glasses for heart face shape: oval, aviator, D-frame, cat-eye, semi-rimless and rectangular frames laid out\",\"purpose\":\"Introduces the full range of frame styles the article recommends for heart-shaped faces at a glance.\",\"article\":\"best-glasses-for-heart-face\",\"position\":1},\"model\":\"openai/gpt-image-2.5/flare/text-to-image\"}",
+  "attempts": [
+    {
+      "status": "passed",
+      "prompt": "Bright overhead flat-lay of six eyeglass frames arranged in two neat rows on a soft warm-gray linen surface: a thin gold oval, a slim metal aviator, a light tortoiseshell D-frame, a soft-lift cat-eye in blush acetate, a semi-rimless pair with a muted top bar, and a rectangular frame with rounded corners. Clean natural daylight, no text, no faces, editorial product-photography style.",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "Overhead flat-lay of six eyeglass frames in two rows on a warm-gray linen surface: a thin gold oval, a metal aviator, a tortoiseshell D-frame, a blush cat-eye, a semi-rimless frame with a muted green-gray top bar, and a dark tortoiseshell rectangular frame with rounded corners, with an eucalyptus sprig in the corner."
+      }
+    }
+  ]
+}

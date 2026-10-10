@@ -1,0 +1,14 @@
+{
+  "key": "{\"brief\":{\"prompt\":\"A woman with a heart-shaped face, a broad forehead and a narrow pointed chin, stands in a bright optical shop trying on thin light-tortoiseshell oval glasses while looking into a tabletop mirror. Display shelves of frames are softly blurred in the background, with natural light and no text overlays.\",\"alt\":\"Woman with a heart-shaped face trying on light oval glasses in an optical shop\",\"purpose\":\"Shows a light, oval frame that keeps the top of the face from looking heavy, illustrating the balance principle and the oval style.\",\"article\":\"best-glasses-for-heart-face\",\"position\":2},\"model\":\"openai/gpt-image-2.5/flare/text-to-image\"}",
+  "attempts": [
+    {
+      "status": "passed",
+      "prompt": "A woman with a heart-shaped face, a broad forehead and a narrow pointed chin, stands in a bright optical shop trying on thin light-tortoiseshell oval glasses while looking into a tabletop mirror. Display shelves of frames are softly blurred in the background, with natural light and no text overlays.",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "Woman with long dark brown hair adjusting thin light-tortoiseshell oval glasses while looking into a tabletop mirror in a bright optical shop with shelves of frames blurred behind her"
+      }
+    }
+  ]
+}
