@@ -1,0 +1,128 @@
+{
+  "slug": "best-glasses-for-square-face",
+  "reviewedAt": "2026-10-10T12:38:46.466Z",
+  "draft": true,
+  "review": {
+    "pass": false,
+    "issues": [
+      "Image 3 failed validation: Image failed editorial review: [\"The frames are folded and viewed edge-on/in a stacked configuration, so each pair shows two lens openings (top and bottom) that read as a single odd double-ringed shape rather than a clear front-facing frame; the shapes are hard to interpret as eyeglasses.\",\"The temple arms pass through the lens openings in a confusing, visually ambiguous way, which undermines comparison of rim thickness and shape.\",\"The middle tortoiseshell frame is not held by either hand and appears to float in mid-air, contradicting the brief of two hands holding three frames.\",\"The black frame appears to have its bridge and lens arrangement stacked vertically, making it look like a figure-eight, so it does not clearly read as a thick round acetate frame.\",\"Because the frames are not shown open and front-facing, the image does not clearly illustrate the color and rim-thickness comparison needed for the section.\"]"
+    ]
+  },
+  "textRepair": null,
+  "sources": [
+    {
+      "title": "Choosing Eyeglass Frames Based on Your Face Shape",
+      "url": "https://coloradoeyeclinic.net/choosing-the-right-eyeglass-frames-for-your-face-shape/"
+    },
+    {
+      "title": "Glasses for Square Faces: Frame Styles for Strong Features",
+      "url": "https://www.warbyparker.com/learn/glasses-for-square-faces-frame-styles-for-strong-features"
+    },
+    {
+      "title": "How to Find the Best Frames for Your Face Shape",
+      "url": "https://evansandpiggotteyecare.com/wp-content/uploads/2018/06/EPF-April-Consideration-Download.pdf"
+    },
+    {
+      "title": "Glasses for square faces: best frame shapes",
+      "url": "https://www.glasses.com/gl-us/blog/glasses-for-square-faces"
+    },
+    {
+      "title": "Best Type of Glasses for Square Faces",
+      "url": "https://www.allaboutvision.com/eyewear/eyeglasses/fit/glasses-for-square-faces/"
+    },
+    {
+      "title": "How to Find the Right Glasses for Your Face Shape",
+      "url": "https://www.visionworks.com/articles-how-to-find-glasses-frames-for-face-shape"
+    },
+    {
+      "title": "Frame Fit Guide: Find Perfect Eyeglasses for Your Face Shape",
+      "url": "https://www.poudrevalleyeyecare.com/blog/frame-fit-guide-find-perfect-eyeglasses-for-your-face-shape/"
+    },
+    {
+      "title": "Face Shape Guide - Empire Optical",
+      "url": "https://www.empireoptical.com/knowledge-base/face-shape-guide/"
+    },
+    {
+      "title": "Prescription Glasses For Square Face Shapes",
+      "url": "https://www.overnightglasses.com/eyeglasses/prescription-glasses-for-square-faces/"
+    },
+    {
+      "title": "Glasses for Square Faces, All the Latest Styles",
+      "url": "https://www.eyebuydirect.com/guides/glasses-for-square-faces"
+    },
+    {
+      "title": "Choose Best Glasses for Square Face Shape",
+      "url": "https://www.glassesshop.com/face-shape/square"
+    },
+    {
+      "title": "The Ultimate Guide to Glasses for Square Faces: Best Frames for Your Face Shape",
+      "url": "https://www.lensdirect.com/blog/fashion/the-ultimate-guide-to-glasses-for-square-faces-best-frames-for-your-face-shape/"
+    }
+  ],
+  "imageModel": "openai/gpt-image-2.5/flare/text-to-image",
+  "imageReviews": [],
+  "imageSettings": {
+    "width": 1024,
+    "height": 1024,
+    "quality": "low"
+  },
+  "usage": [
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "research",
+      "input": 27874,
+      "output": 3765,
+      "estimatedUsd": 0.093398,
+      "searches": 3
+    },
+    {
+      "model": "claude-opus-5-5",
+      "stage": "article",
+      "input": 30729,
+      "output": 10444,
+      "estimatedUsd": 0.331796,
+      "searches": 0
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "text-review",
+      "input": 9975,
+      "output": 16,
+      "estimatedUsd": 0.02011,
+      "searches": 0
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "image-review",
+      "input": 1727,
+      "output": 110,
+      "estimatedUsd": 0.004554,
+      "searches": 0
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "image-review",
+      "input": 1739,
+      "output": 80,
+      "estimatedUsd": 0.004278,
+      "searches": 0
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "image-review",
+      "input": 1714,
+      "output": 368,
+      "estimatedUsd": 0.007108,
+      "searches": 0
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "image-review",
+      "input": 1714,
+      "output": 358,
+      "estimatedUsd": 0.007008,
+      "searches": 0
+    }
+  ],
+  "note": "Token estimates exclude web-search charges, images, tax and provider markups."
+}

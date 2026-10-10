@@ -1,3 +1,4 @@
+import { ImageRejected } from './content-repair.mjs';
 import { toolCatalog, relevantTool, toolHref } from '../config/tool-routing.mjs';
 
 export const IMAGE_MODEL = 'openai/gpt-image-2.5/flare/text-to-image';
@@ -142,6 +143,7 @@ export async function reviewImage(client, image, brief, accountUsage) {
   });
   accountUsage(REVIEW_MODEL, response.usage, 'image-review');
   const result = extractJson(response);
-  if (result.pass !== true || !Array.isArray(result.issues) || result.issues.length || typeof result.alt !== 'string' || !result.alt.trim()) throw new Error('Image failed editorial review: ' + JSON.stringify(result.issues));
+  if (typeof result.pass !== 'boolean' || !Array.isArray(result.issues) || result.issues.some(i => typeof i !== 'string') || typeof result.alt !== 'string' || !result.alt.trim()) throw new Error('Invalid image review');
+  if (!result.pass || result.issues.length) throw new ImageRejected(result.issues);
   return result;
 }

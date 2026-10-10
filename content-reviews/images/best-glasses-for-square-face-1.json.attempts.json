@@ -1,0 +1,14 @@
+{
+  "key": "{\"brief\":{\"prompt\":\"Overhead flat lay of six different eyeglass frames arranged in a neat grid on a light linen surface: round, oval, cat-eye, browline, aviator and rimless styles in mixed finishes like tortoiseshell, black acetate, gold wire and clear. Soft natural daylight, clean minimalist styling, no text or labels.\",\"alt\":\"Six frame styles often recommended as the best glasses for square face shape, laid out on a table\",\"purpose\":\"Gives an at-a-glance overview of the curved frame families the article recommends for square faces.\",\"article\":\"best-glasses-for-square-face\",\"position\":1},\"model\":\"openai/gpt-image-2.5/flare/text-to-image\"}",
+  "attempts": [
+    {
+      "status": "passed",
+      "prompt": "Overhead flat lay of six different eyeglass frames arranged in a neat grid on a light linen surface: round, oval, cat-eye, browline, aviator and rimless styles in mixed finishes like tortoiseshell, black acetate, gold wire and clear. Soft natural daylight, clean minimalist styling, no text or labels.",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "Overhead flat lay of six eyeglass frames in a 2x3 grid on a light linen surface: round tortoiseshell, thin oval gold wire, black cat-eye, tortoiseshell browline with gold rims, gold aviator, and clear rimless frames."
+      }
+    }
+  ]
+}

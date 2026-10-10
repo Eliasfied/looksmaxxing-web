@@ -1,0 +1,26 @@
+{
+  "key": "{\"brief\":{\"prompt\":\"Close-up of two hands holding three eyeglass frames side by side above a wooden table: a thick black acetate round frame, a tortoiseshell oval frame and a thin rose-gold metal round frame. Shallow depth of field with the frames in sharp focus, neutral background, no text.\",\"alt\":\"Three glasses frames in black, tortoiseshell and rose gold compared for color and rim thickness\",\"purpose\":\"Illustrates the color and rim-thickness choices discussed in the section where expert advice splits.\",\"article\":\"best-glasses-for-square-face\",\"position\":3},\"model\":\"openai/gpt-image-2.5/flare/text-to-image\"}",
+  "attempts": [
+    {
+      "status": "rejected",
+      "prompt": "Close-up of two hands holding three eyeglass frames side by side above a wooden table: a thick black acetate round frame, a tortoiseshell oval frame and a thin rose-gold metal round frame. Shallow depth of field with the frames in sharp focus, neutral background, no text.",
+      "issues": [
+        "Frame count/anatomy mismatch: the brief specifies two hands holding three frames, but the image shows the frames folded with arms crossing the lens area and awkwardly held; the grip points are physically implausible (the left hand appears to hold the black frame with fingers hidden behind it, and the right hand holds the rose-gold frame in an odd pinch).",
+        "Brief mismatch: the middle tortoiseshell frame is not clearly an oval; it reads as nearly round/slightly oval, weakening the intended shape comparison.",
+        "The middle frame is not visibly held by either hand; it appears to float, which is a physically implausible/uncontrolled element.",
+        "Frames are folded with temples overlapping the lenses, obscuring the rim shape and thickness, which reduces the image's ability to illustrate color and rim-thickness comparison for a square-face article."
+      ]
+    },
+    {
+      "status": "rejected",
+      "prompt": "Close-up of two hands holding three eyeglass frames side by side above a wooden table: a thick black acetate round frame, a tortoiseshell oval frame and a thin rose-gold metal round frame. Shallow depth of field with the frames in sharp focus, neutral background, no text.\nEDITORIAL CORRECTION: Regenerate a simpler, accurate illustration of the same purpose. Fix these defects from the rejected image: [\"Frame count/anatomy mismatch: the brief specifies two hands holding three frames, but the image shows the frames folded with arms crossing the lens area and awkwardly held; the grip points are physically implausible (the left hand appears to hold the black frame with fingers hidden behind it, and the right hand holds the rose-gold frame in an odd pinch).\",\"Brief mismatch: the middle tortoiseshell frame is not clearly an oval; it reads as nearly round/slightly oval, weakening the intended shape comparison.\",\"The middle frame is not visibly held by either hand; it appears to float, which is a physically implausible/uncontrolled element.\",\"Frames are folded with temples overlapping the lenses, obscuring the rim shape and thickness, which reduces the image's ability to illustrate color and rim-thickness comparison for a square-face article.\"]. Avoid text, labels and complex comparative diagrams if they caused the defect.",
+      "issues": [
+        "The frames are folded and viewed edge-on/in a stacked configuration, so each pair shows two lens openings (top and bottom) that read as a single odd double-ringed shape rather than a clear front-facing frame; the shapes are hard to interpret as eyeglasses.",
+        "The temple arms pass through the lens openings in a confusing, visually ambiguous way, which undermines comparison of rim thickness and shape.",
+        "The middle tortoiseshell frame is not held by either hand and appears to float in mid-air, contradicting the brief of two hands holding three frames.",
+        "The black frame appears to have its bridge and lens arrangement stacked vertically, making it look like a figure-eight, so it does not clearly read as a thick round acetate frame.",
+        "Because the frames are not shown open and front-facing, the image does not clearly illustrate the color and rim-thickness comparison needed for the section."
+      ]
+    }
+  ]
+}

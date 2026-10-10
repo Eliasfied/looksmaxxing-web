@@ -1,0 +1,14 @@
+{
+  "key": "{\"brief\":{\"prompt\":\"Head-and-shoulders portrait of a woman with a square face, clearly defined jaw corners and a broad forehead, wearing subtly upswept tortoiseshell cat-eye glasses, facing the camera against a plain warm gray backdrop. Soft even studio lighting, hair pulled back so the jawline is visible, natural makeup, no text.\",\"alt\":\"Woman with a square face shape wearing tortoiseshell cat-eye glasses\",\"purpose\":\"Shows how a curved, upswept frame contrasts with an angular jawline, illustrating the frame-shape section.\",\"article\":\"best-glasses-for-square-face\",\"position\":2},\"model\":\"openai/gpt-image-2.5/flare/text-to-image\"}",
+  "attempts": [
+    {
+      "status": "passed",
+      "prompt": "Head-and-shoulders portrait of a woman with a square face, clearly defined jaw corners and a broad forehead, wearing subtly upswept tortoiseshell cat-eye glasses, facing the camera against a plain warm gray backdrop. Soft even studio lighting, hair pulled back so the jawline is visible, natural makeup, no text.",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "Woman with dark hair pulled back wearing tortoiseshell cat-eye glasses, facing the camera against a plain warm gray background, with a slight smile and natural makeup"
+      }
+    }
+  ]
+}
