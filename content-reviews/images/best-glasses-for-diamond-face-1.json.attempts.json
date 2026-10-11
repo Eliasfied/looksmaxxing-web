@@ -1,0 +1,14 @@
+{
+  "key": "{\"brief\":{\"prompt\":\"Overhead flat lay on a light neutral surface showing five eyeglass frames arranged in a loose arc: an oval metal frame, a round tortoiseshell frame, a cat-eye acetate frame, a browline frame and a soft-square frame. In the center is a simple hand-drawn outline of a diamond-shaped face with no facial features and no text labels.\",\"alt\":\"Five frame styles often suggested as the best glasses for diamond face shape, arranged around a diamond face outline\",\"purpose\":\"Gives an at-a-glance overview of the frame families commonly recommended for diamond faces: oval, round, cat-eye, browline and soft square.\",\"article\":\"best-glasses-for-diamond-face\",\"position\":1},\"model\":\"openai/gpt-image-2.5/flare/text-to-image\"}",
+  "attempts": [
+    {
+      "status": "passed",
+      "prompt": "Overhead flat lay on a light neutral surface showing five eyeglass frames arranged in a loose arc: an oval metal frame, a round tortoiseshell frame, a cat-eye acetate frame, a browline frame and a soft-square frame. In the center is a simple hand-drawn outline of a diamond-shaped face with no facial features and no text labels.",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "Overhead flat lay of five eyeglass frames arranged in an arc around a simple line-drawn diamond-shaped face outline with a hair bun: a thin oval metal frame, a round tortoiseshell frame, a black cat-eye frame, a browline frame with metal lower rims, and a gray soft-square frame, on a light neutral background."
+      }
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "key": "{\"brief\":{\"prompt\":\"Side-by-side portrait photo of two different adults with high cheekbones, narrow foreheads and tapered chins, both facing the camera with neutral expressions against a plain backdrop. On the left, a woman wears tortoiseshell cat-eye glasses that lift at the outer top corners. On the right, a man wears browline glasses with a dark top bar and thin metal lower rims.\",\"alt\":\"A woman in cat-eye glasses and a man in browline glasses, both with diamond-shaped faces\",\"purpose\":\"Shows how frames with a strong or upswept top line add visual width at the brow on diamond faces, for both feminine and masculine styling.\",\"article\":\"best-glasses-for-diamond-face\",\"position\":2},\"model\":\"openai/gpt-image-2.5/flare/text-to-image\"}",
+  "attempts": [
+    {
+      "status": "passed",
+      "prompt": "Side-by-side portrait photo of two different adults with high cheekbones, narrow foreheads and tapered chins, both facing the camera with neutral expressions against a plain backdrop. On the left, a woman wears tortoiseshell cat-eye glasses that lift at the outer top corners. On the right, a man wears browline glasses with a dark top bar and thin metal lower rims.",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "Side-by-side portrait of a woman with a dark updo wearing tortoiseshell cat-eye glasses and a man with short dark hair wearing browline glasses with a dark top bar and thin metal lower rims, both facing the camera with neutral expressions against a plain light gray background."
+      }
+    }
+  ]
+}
