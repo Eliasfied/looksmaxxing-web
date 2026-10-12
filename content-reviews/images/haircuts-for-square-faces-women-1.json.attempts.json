@@ -1,0 +1,14 @@
+{
+  "key": "{\"brief\":{\"prompt\":\"Warm, natural-light portrait of a woman with a clearly square face shape and defined jaw corners, wearing soft shoulder-length layered hair with a side-swept fringe, seated in a bright modern salon. Shoulders-up framing, relaxed confident expression, uncluttered background with soft greenery and a mirror edge.\",\"alt\":\"Woman with a square face wearing a soft layered haircut with side-swept bangs\",\"purpose\":\"Overview of the article topic: a flattering haircut for a woman with a square face shape.\",\"article\":\"haircuts-for-square-faces-women\",\"position\":1},\"model\":\"openai/gpt-image-2.5/flare/text-to-image\"}",
+  "attempts": [
+    {
+      "status": "passed",
+      "prompt": "Warm, natural-light portrait of a woman with a clearly square face shape and defined jaw corners, wearing soft shoulder-length layered hair with a side-swept fringe, seated in a bright modern salon. Shoulders-up framing, relaxed confident expression, uncluttered background with soft greenery and a mirror edge.",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "Smiling woman with a square face and defined jaw wearing a soft, shoulder-length layered brunette haircut with side-swept bangs, seated in a bright salon with plants and a round mirror in the background"
+      }
+    }
+  ]
+}
