@@ -1,0 +1,14 @@
+{
+  "key": "{\"brief\":{\"prompt\":\"A bright editorial flat lay of several eyeglass frames on a light linen surface: a tortoiseshell browline, a bold black tall square acetate frame, a wide burgundy cat-eye and a gold aviator, neatly spaced in a gentle arc. Soft natural daylight, clean minimal styling, no text and no faces.\",\"alt\":\"Selection of the best glasses for oblong face shape including browline, square, cat-eye and aviator frames\",\"purpose\":\"Overview of the frame styles that most guides recommend for oblong faces\",\"article\":\"best-glasses-for-oblong-face\",\"position\":1},\"model\":\"openai/gpt-image-2.5/flare/text-to-image\"}",
+  "attempts": [
+    {
+      "status": "passed",
+      "prompt": "A bright editorial flat lay of several eyeglass frames on a light linen surface: a tortoiseshell browline, a bold black tall square acetate frame, a wide burgundy cat-eye and a gold aviator, neatly spaced in a gentle arc. Soft natural daylight, clean minimal styling, no text and no faces.",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "Four eyeglass frames arranged on a light linen surface: a tortoiseshell browline with gold lower rims, a bold black square acetate frame, a burgundy cat-eye frame and a gold aviator with tortoiseshell temple tips, with a sprig of eucalyptus in the corner."
+      }
+    }
+  ]
+}

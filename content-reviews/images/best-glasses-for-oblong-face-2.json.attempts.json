@@ -1,0 +1,22 @@
+{
+  "key": "{\"brief\":{\"prompt\":\"A side-by-side styling comparison on a neutral grey background: on the left, a wide tortoiseshell browline frame with a thick top bar and contrasting gold temples; on the right, a thin rimless narrow rectangular frame. Both lie flat at the same scale and angle so the difference in width, visual weight and lens depth is easy to see, with no text labels.\",\"alt\":\"Wide browline frame with contrasting temples beside a thin narrow rimless frame\",\"purpose\":\"Shows the contrast between frames that add width and visual weight and frames that disappear or emphasize length\",\"article\":\"best-glasses-for-oblong-face\",\"position\":2},\"model\":\"openai/gpt-image-2.5/flare/text-to-image\"}",
+  "attempts": [
+    {
+      "status": "rejected",
+      "prompt": "A side-by-side styling comparison on a neutral grey background: on the left, a wide tortoiseshell browline frame with a thick top bar and contrasting gold temples; on the right, a thin rimless narrow rectangular frame. Both lie flat at the same scale and angle so the difference in width, visual weight and lens depth is easy to see, with no text labels.",
+      "issues": [
+        "Brief specifies 'contrasting gold temples' on the browline frame, but the temples visible are tortoiseshell; gold appears only on the brow-bar interior, bridge and lower rim, so the contrast detail is not met.",
+        "The left frame sits noticeably lower/larger and the two frames are not at an identical scale and vertical alignment, weakening the like-for-like width and lens-depth comparison."
+      ]
+    },
+    {
+      "status": "passed",
+      "prompt": "A side-by-side styling comparison on a neutral grey background: on the left, a wide tortoiseshell browline frame with a thick top bar and contrasting gold temples; on the right, a thin rimless narrow rectangular frame. Both lie flat at the same scale and angle so the difference in width, visual weight and lens depth is easy to see, with no text labels.\nEDITORIAL CORRECTION: Regenerate a simpler, accurate illustration of the same purpose. Fix these defects from the rejected image: [\"Brief specifies 'contrasting gold temples' on the browline frame, but the temples visible are tortoiseshell; gold appears only on the brow-bar interior, bridge and lower rim, so the contrast detail is not met.\",\"The left frame sits noticeably lower/larger and the two frames are not at an identical scale and vertical alignment, weakening the like-for-like width and lens-depth comparison.\"]. Avoid text, labels and complex comparative diagrams if they caused the defect.",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "Wide tortoiseshell browline glasses with gold lower rims and gold temples beside a thin, narrow rimless rectangular pair with clear lenses, shown flat on a neutral grey background"
+      }
+    }
+  ]
+}

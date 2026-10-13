@@ -1,0 +1,147 @@
+{
+  "slug": "best-glasses-for-oblong-face",
+  "reviewedAt": "2026-10-13T20:31:18.926Z",
+  "draft": false,
+  "review": {
+    "pass": true,
+    "issues": []
+  },
+  "textRepair": null,
+  "sources": [
+    {
+      "title": "Glasses for Your Face Shape and Skin Tone",
+      "url": "https://www.allaboutvision.com/eyewear/eyeglasses/fit/glasses-shape-color-analysis/"
+    },
+    {
+      "title": "Finding glasses for oblong face shapes",
+      "url": "https://www.allaboutvision.com/eyewear/eyeglasses/fit/glasses-for-oblong-face-shape/"
+    },
+    {
+      "title": "Best Glasses for Oblong Face Shape - Vision Center",
+      "url": "https://www.visioncenter.org/face-shapes/oblong-face-glasses/"
+    },
+    {
+      "title": "Best Glasses for Oblong Face Shape: Style Guide",
+      "url": "https://www.kraywoods.com/blogs/our-stories/best-eyeglasses-for-oblong-face-shape"
+    },
+    {
+      "title": "Glasses for Oblong Face Shape",
+      "url": "https://www.fostergrant.com/blogs/helpful-resources/glasses-for-oblong-face-shape"
+    },
+    {
+      "title": "African Facial Anthropometry and Spectacle Frame Design: A Review - PMC",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12515448/"
+    },
+    {
+      "title": "Frame Fit Guide: Find Perfect Eyeglasses for Your Face Shape",
+      "url": "https://www.poudrevalleyeyecare.com/blog/frame-fit-guide-find-perfect-eyeglasses-for-your-face-shape/"
+    },
+    {
+      "title": "(PDF) Facial Shape-Based Eyeglass Recommendation Using Convolutional Neural Networks",
+      "url": "https://www.researchgate.net/publication/377074027_Facial_Shape-Based_Eyeglass_Recommendation_Using_Convolutional_Neural_Networks"
+    },
+    {
+      "title": "What Shape Glasses for the Oblong Face?",
+      "url": "https://www.zeelool.com/blog/tips-tricks/what-shape-glasses-for-oblong-face"
+    },
+    {
+      "title": "Perfect 10 Glasses for Oblong Face Shapes for Men.",
+      "url": "https://mendeserve.com/blogs/lifestyle/glasses-for-oblong-face-shapes-for-men"
+    },
+    {
+      "title": "Oblong Face Shape",
+      "url": "https://www.yesglasses.com/face-shape/oblong"
+    }
+  ],
+  "imageModel": "openai/gpt-image-2.5/flare/text-to-image",
+  "imageReviews": [
+    {
+      "image": "/blog/best-glasses-for-oblong-face/1.webp",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "Four eyeglass frames arranged on a light linen surface: a tortoiseshell browline with gold lower rims, a bold black square acetate frame, a burgundy cat-eye frame and a gold aviator with tortoiseshell temple tips, with a sprig of eucalyptus in the corner."
+      }
+    },
+    {
+      "image": "/blog/best-glasses-for-oblong-face/2.webp",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "Wide tortoiseshell browline glasses with gold lower rims and gold temples beside a thin, narrow rimless rectangular pair with clear lenses, shown flat on a neutral grey background"
+      }
+    },
+    {
+      "image": "/blog/best-glasses-for-oblong-face/3.webp",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "An optician in a white coat gently adjusts the temple arm behind the ear of a customer wearing black square-framed glasses, while the customer holds the frame front and looks toward a small tabletop mirror; a tray of other frames sits in the foreground."
+      }
+    }
+  ],
+  "imageSettings": {
+    "width": 1024,
+    "height": 1024,
+    "quality": "low"
+  },
+  "usage": [
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "research",
+      "input": 28270,
+      "output": 3237,
+      "estimatedUsd": 0.08891,
+      "searches": 3
+    },
+    {
+      "model": "claude-opus-5-5",
+      "stage": "article",
+      "input": 30708,
+      "output": 8325,
+      "estimatedUsd": 0.289332,
+      "searches": 0
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "text-review",
+      "input": 9995,
+      "output": 16,
+      "estimatedUsd": 0.02015,
+      "searches": 0
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "image-review",
+      "input": 1725,
+      "output": 119,
+      "estimatedUsd": 0.00464,
+      "searches": 0
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "image-review",
+      "input": 1736,
+      "output": 204,
+      "estimatedUsd": 0.005512,
+      "searches": 0
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "image-review",
+      "input": 1736,
+      "output": 86,
+      "estimatedUsd": 0.004332,
+      "searches": 0
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "image-review",
+      "input": 1718,
+      "output": 101,
+      "estimatedUsd": 0.004446,
+      "searches": 0
+    }
+  ],
+  "note": "Token estimates exclude web-search charges, images, tax and provider markups."
+}

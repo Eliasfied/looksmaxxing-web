@@ -1,0 +1,14 @@
+{
+  "key": "{\"brief\":{\"prompt\":\"An optician's counter scene from a three-quarter angle: a person with a longer face shape tries on a black tall square frame in front of a small tabletop mirror while an optician gently checks the temple arm fit behind the ear. Warm, realistic lighting, several frames on a tray in the background, no visible text or brand logos.\",\"alt\":\"Optician checking temple fit as a customer tries on square glasses\",\"purpose\":\"Illustrates the in-person fit checks (bridge, temples, lens centring) that matter more than shape rules\",\"article\":\"best-glasses-for-oblong-face\",\"position\":3},\"model\":\"openai/gpt-image-2.5/flare/text-to-image\"}",
+  "attempts": [
+    {
+      "status": "passed",
+      "prompt": "An optician's counter scene from a three-quarter angle: a person with a longer face shape tries on a black tall square frame in front of a small tabletop mirror while an optician gently checks the temple arm fit behind the ear. Warm, realistic lighting, several frames on a tray in the background, no visible text or brand logos.",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "An optician in a white coat gently adjusts the temple arm behind the ear of a customer wearing black square-framed glasses, while the customer holds the frame front and looks toward a small tabletop mirror; a tray of other frames sits in the foreground."
+      }
+    }
+  ]
+}

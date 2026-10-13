@@ -9,7 +9,7 @@ heroImage: /blog/facial-dimorphism-explained/1.webp
 heroImageAlt: Illustration showing facial sexual dimorphism meaning with masculine and feminine facial feature comparison
 tags: [facial-dimorphism, looksmaxxing, face-analysis, attractiveness, biology]
 readingTime: 8
-related: [psl-scale-explained, haircut-for-face-shape, short-vs-long-ramus]
+related: [psl-scale-explained, haircut-for-face-shape, oval-vs-diamond-face-shape]
 faq:
   - q: What does dimorphism mean in simple terms?
     a: Dimorphism means the existence of two distinct physical forms within one species. In humans, sexual dimorphism refers to the structural differences between male and female faces and bodies that develop due to differences in hormone exposure during growth.
