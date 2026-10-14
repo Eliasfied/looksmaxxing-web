@@ -1,0 +1,14 @@
+{
+  "key": "{\"brief\":{\"prompt\":\"Head-and-shoulders portrait of an adult with a pear-shaped face (wider jaw, narrower forehead) wearing tortoiseshell browline glasses with a bold upper rim and thin metal lower rim, against a soft neutral background. Natural daylight, relaxed expression, clean editorial eyewear-campaign style, no text.\",\"alt\":\"Person with a triangle face shape wearing browline glasses, one of the best glasses for triangle face shape\",\"purpose\":\"Introduces the topic and shows the top-heavy, light-bottom frame principle on a triangle face at a glance.\",\"article\":\"best-glasses-for-triangle-face\",\"position\":1},\"model\":\"openai/gpt-image-2.5/flare/text-to-image\"}",
+  "attempts": [
+    {
+      "status": "passed",
+      "prompt": "Head-and-shoulders portrait of an adult with a pear-shaped face (wider jaw, narrower forehead) wearing tortoiseshell browline glasses with a bold upper rim and thin metal lower rim, against a soft neutral background. Natural daylight, relaxed expression, clean editorial eyewear-campaign style, no text.",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "Smiling woman with long dark wavy hair wearing tortoiseshell browline glasses with a thin metal lower rim, gold hoop earrings and a cream knit sweater against a soft neutral background"
+      }
+    }
+  ]
+}

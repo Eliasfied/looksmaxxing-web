@@ -1,0 +1,151 @@
+{
+  "slug": "best-glasses-for-triangle-face",
+  "reviewedAt": "2026-10-14T19:08:49.289Z",
+  "draft": false,
+  "review": {
+    "pass": true,
+    "issues": []
+  },
+  "textRepair": null,
+  "sources": [
+    {
+      "title": "Find the best glasses for your face shape",
+      "url": "https://www.pearlevision.com/en-us/glasses-frames-lenses/face-shape-guide/"
+    },
+    {
+      "title": "Three Tips on How to Find the Best Glasses for Your Face Shape",
+      "url": "https://www.poudrevalleyeyecare.com/blog/how-to-find-the-best-glasses-for-your-face-shape/"
+    },
+    {
+      "title": "Best Designer Glasses for Triangle Faces",
+      "url": "https://moscot.com/blogs/moscot-moments/best-designer-glasses-for-triangle-faces"
+    },
+    {
+      "title": "Glasses for triangle or pear-shaped faces",
+      "url": "https://www.specsavers.co.uk/glasses/face-shape/pear-face"
+    },
+    {
+      "title": "Glasses for Pear-Shaped Faces",
+      "url": "https://www.fostergrant.com/blogs/helpful-resources/glasses-for-pear-shaped-faces"
+    },
+    {
+      "title": "How to Choose Eyeglass Frames: A Guide for Opticians",
+      "url": "https://www.optogrid.com/blog/eyeglass-frames/"
+    },
+    {
+      "title": "Eyeglass Frame Sizes Explained: Simple Fit Guide",
+      "url": "https://www.warbyparker.com/learn/eyeglass-frame-sizes-explained-simple-fit-guide-2"
+    },
+    {
+      "title": "How to Choose the Glasses Frame Material That's Right for You - American Academy of Ophthalmology",
+      "url": "https://www.aao.org/eye-health/glasses-contacts/eyeglass-frame-materials"
+    },
+    {
+      "title": "Eyeglasses: How to Choose Glasses for Vision Correction - American Academy of Ophthalmology",
+      "url": "https://www.aao.org/eye-health/glasses-contacts/glasses"
+    },
+    {
+      "title": "Glasses for Triangle Faces",
+      "url": "https://eyewa.com/blog/english/glasses-for-triangle-faces/"
+    },
+    {
+      "title": "Best Glasses For Triangular Faces 2025",
+      "url": "https://www.bantonframeworks.co.uk/blogs/guides/glasses-for-triangular-faces"
+    },
+    {
+      "title": "The Best Glasses For Triangle-Shaped Faces",
+      "url": "https://www.yesglasses.com/blog/glasses-for-triangle-faces"
+    },
+    {
+      "title": "Best Glasses for Triangle Face Shape 2026",
+      "url": "https://www.glassesshop.com/face-shape/triangle"
+    },
+    {
+      "title": "Best Eyeglasses for Your Face Shape",
+      "url": "https://www.berrisoptical.com/blog/best-eyeglasses-for-your-face-shape.html"
+    }
+  ],
+  "imageModel": "openai/gpt-image-2.5/flare/text-to-image",
+  "imageReviews": [
+    {
+      "image": "/blog/best-glasses-for-triangle-face/1.webp",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "Smiling woman with long dark wavy hair wearing tortoiseshell browline glasses with a thin metal lower rim, gold hoop earrings and a cream knit sweater against a soft neutral background"
+      }
+    },
+    {
+      "image": "/blog/best-glasses-for-triangle-face/2.webp",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "Flat lay of five eyeglass frames stacked in a vertical row on a light wooden surface: a tortoiseshell cat-eye, a black and gold browline, a thin gold metal aviator, a brown tortoiseshell oval, and a black rectangle frame with a thicker top rim."
+      }
+    },
+    {
+      "image": "/blog/best-glasses-for-triangle-face/3.webp",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "A woman with dark hair in a loose updo, wearing a cream knit sweater, adjusts thin-rimmed cat-eye glasses at a mirror in a bright optical store, with shelves of frames softly blurred behind her and her reflection visible at the right."
+      }
+    }
+  ],
+  "imageSettings": {
+    "width": 1024,
+    "height": 1024,
+    "quality": "low"
+  },
+  "usage": [
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "research",
+      "input": 29688,
+      "output": 3267,
+      "estimatedUsd": 0.092046,
+      "searches": 3
+    },
+    {
+      "model": "claude-opus-5-5",
+      "stage": "article",
+      "input": 32145,
+      "output": 12251,
+      "estimatedUsd": 0.3736,
+      "searches": 0
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "text-review",
+      "input": 9883,
+      "output": 16,
+      "estimatedUsd": 0.019926,
+      "searches": 0
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "image-review",
+      "input": 1744,
+      "output": 93,
+      "estimatedUsd": 0.004418,
+      "searches": 0
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "image-review",
+      "input": 1741,
+      "output": 117,
+      "estimatedUsd": 0.004652,
+      "searches": 0
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "image-review",
+      "input": 1717,
+      "output": 106,
+      "estimatedUsd": 0.004494,
+      "searches": 0
+    }
+  ],
+  "note": "Token estimates exclude web-search charges, images, tax and provider markups."
+}

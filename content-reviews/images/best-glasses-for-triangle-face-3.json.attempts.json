@@ -1,0 +1,14 @@
+{
+  "key": "{\"brief\":{\"prompt\":\"In a bright optical store, a person with a wider jaw stands at a mirror trying on thin-rimmed cat-eye glasses, shown from a three-quarter angle. The frame's outer edges line up with their temples and a display wall of frames sits softly blurred behind, with no text.\",\"alt\":\"Trying on glasses at a mirror to check that frame width matches the temples\",\"purpose\":\"Demonstrates the fit check from the fit and try-on sections: sizing frames to temple width and viewing them from more than one angle.\",\"article\":\"best-glasses-for-triangle-face\",\"position\":3},\"model\":\"openai/gpt-image-2.5/flare/text-to-image\"}",
+  "attempts": [
+    {
+      "status": "passed",
+      "prompt": "In a bright optical store, a person with a wider jaw stands at a mirror trying on thin-rimmed cat-eye glasses, shown from a three-quarter angle. The frame's outer edges line up with their temples and a display wall of frames sits softly blurred behind, with no text.",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "A woman with dark hair in a loose updo, wearing a cream knit sweater, adjusts thin-rimmed cat-eye glasses at a mirror in a bright optical store, with shelves of frames softly blurred behind her and her reflection visible at the right."
+      }
+    }
+  ]
+}

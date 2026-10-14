@@ -1,0 +1,14 @@
+{
+  "key": "{\"brief\":{\"prompt\":\"Flat lay on a light wooden table showing five eyeglass frames in a neat row: a moderate cat-eye, a browline, a thin metal aviator, a wide oval and a rectangle with a thicker top rim. Shot from directly above in soft even lighting, each frame clearly visible with no text or labels.\",\"alt\":\"Five frame styles for triangle faces: cat-eye, browline, aviator, oval and top-heavy rectangle\",\"purpose\":\"Shows the recommended frame styles side by side so readers can see the shared feature of a stronger top line and lighter bottom edge.\",\"article\":\"best-glasses-for-triangle-face\",\"position\":2},\"model\":\"openai/gpt-image-2.5/flare/text-to-image\"}",
+  "attempts": [
+    {
+      "status": "passed",
+      "prompt": "Flat lay on a light wooden table showing five eyeglass frames in a neat row: a moderate cat-eye, a browline, a thin metal aviator, a wide oval and a rectangle with a thicker top rim. Shot from directly above in soft even lighting, each frame clearly visible with no text or labels.",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "Flat lay of five eyeglass frames stacked in a vertical row on a light wooden surface: a tortoiseshell cat-eye, a black and gold browline, a thin gold metal aviator, a brown tortoiseshell oval, and a black rectangle frame with a thicker top rim."
+      }
+    }
+  ]
+}

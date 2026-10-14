@@ -9,7 +9,7 @@ heroImage: "/blog/best-glasses-for-heart-face/1.webp"
 heroImageAlt: "Overhead flat-lay of six eyeglass frames in two rows on a warm-gray linen surface: a thin gold oval, a metal aviator, a tortoiseshell D-frame, a blush cat-eye, a semi-rimless frame with a muted green-gray top bar, and a dark tortoiseshell rectangular frame with rounded corners, with an eucalyptus sprig in the corner."
 tags: ["glasses", "face shape", "heart-shaped face", "eyewear", "styling"]
 readingTime: 8
-related: [best-glasses-for-round-face, best-glasses-for-oblong-face, best-haircut-for-oval-face-men]
+related: [best-glasses-for-triangle-face, best-glasses-for-round-face, best-glasses-for-oblong-face]
 faq:
   - q: "What are the best glasses for a heart-shaped face?"
     a: "Eye-care sources most often recommend oval, aviator, D-frame, rectangular or softened square, cat-eye, and rimless or semi-rimless frames. The common thread is balancing a wider forehead with a narrower chin, usually through frames that are lighter at the top or slightly fuller at the bottom."
