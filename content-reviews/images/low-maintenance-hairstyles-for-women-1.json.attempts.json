@@ -1,0 +1,9 @@
+{
+  "key": "{\"brief\":{\"prompt\":\"A bright, natural-light editorial photo of four women with different hair lengths and textures standing together casually: a short textured pixie, a wavy chin-length bob, a curly shoulder-length shag, and long straight hair with soft layers. Neutral warm background, relaxed everyday clothing, hair looking air-dried and effortless.\",\"alt\":\"Low maintenance hairstyles for women across short, medium and long lengths and different hair textures\",\"purpose\":\"Introduces the idea that low maintenance options exist at every length and texture, framing the article's tradeoff approach.\",\"article\":\"low-maintenance-hairstyles-for-women\",\"position\":1},\"model\":\"openai/gpt-image-2.5/flare/text-to-image\"}",
+  "attempts": [
+    {
+      "status": "started",
+      "prompt": "A bright, natural-light editorial photo of four women with different hair lengths and textures standing together casually: a short textured pixie, a wavy chin-length bob, a curly shoulder-length shag, and long straight hair with soft layers. Neutral warm background, relaxed everyday clothing, hair looking air-dried and effortless."
+    }
+  ]
+}
