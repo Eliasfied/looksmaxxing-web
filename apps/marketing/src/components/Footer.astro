@@ -57,6 +57,7 @@ const APP_URL = import.meta.env.PUBLIC_APP_URL ?? 'https://app.aura-looksmaxxing
           {[
             { label: "Privacy Policy", href: "/privacy" },
             { label: "Terms of Service", href: "/terms" },
+            { label: "Impressum", href: "/impressum" },
           ].map((l) => (
             <li><a href={l.href} class="text-[#555] hover:text-white transition-colors text-sm">{l.label}</a></li>
           ))}
@@ -70,6 +71,7 @@ const APP_URL = import.meta.env.PUBLIC_APP_URL ?? 'https://app.aura-looksmaxxing
       <div class="flex gap-5">
         <a href="/privacy" class="hover:text-white transition-colors">Privacy</a>
         <a href="/terms" class="hover:text-white transition-colors">Terms</a>
+        <a href="/impressum" class="hover:text-white transition-colors">Impressum</a>
       </div>
     </div>
   </div>

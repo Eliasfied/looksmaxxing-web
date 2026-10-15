@@ -1,0 +1,21 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+const BRAND_NAME = import.meta.env.PUBLIC_BRAND_NAME ?? 'Aura: Looksmaxxing';
+---
+
+<BaseLayout title={`Impressum | ${BRAND_NAME}`} description={`Impressum (legal notice) of ${BRAND_NAME}: provider information according to German law.`}>
+  <div class="max-w-3xl mx-auto px-4 py-16">
+    <h1 class="text-3xl md:text-4xl font-black text-white mb-2">Impressum</h1>
+    <p class="text-[#555] text-sm mb-12">Legal notice required by German law.</p>
+    <div lang="de" class="prose prose-invert prose-sm max-w-none text-[#888] leading-relaxed [&_h2]:text-white [&_h2]:text-xl [&_h2]:font-bold [&_h2]:mt-10 [&_h2]:mb-3 [&_a]:text-white">
+      <h2>Angaben gemäß § 5 DDG</h2>
+      <p>Elias Fiedler<br />eFeat Digital<br />Spiekerooger Straße 14<br />65199 Wiesbaden<br />Deutschland</p>
+      <h2>Kontakt</h2>
+      <p>E-Mail: <a href="mailto:efeatdigital@gmail.com">efeatdigital@gmail.com</a></p>
+      <h2>Verantwortlich für den Inhalt nach § 18 Abs. 2 MStV</h2>
+      <p>Elias Fiedler, Anschrift wie oben</p>
+      <h2>Verbraucherstreitbeilegung</h2>
+      <p>Wir sind nicht bereit und nicht verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.</p>
+    </div>
+  </div>
+</BaseLayout>

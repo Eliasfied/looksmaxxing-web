@@ -1,3 +1,5 @@
+import { appConfig } from '@/lib/config'
+
 export default function AuthLayout({ children }: { children: React.ReactNode }) {
   return (
     <div className="relative flex min-h-screen flex-col items-center justify-center bg-[#0a0a0a] p-4 overflow-hidden">
@@ -12,6 +14,11 @@ export default function AuthLayout({ children }: { children: React.ReactNode }) 
 
       <div className="relative z-10 w-full flex flex-col items-center">
         {children}
+        <footer className="mt-8 flex gap-5 text-xs text-white/40">
+          <a href={`${appConfig.brand.marketingUrl}/privacy`} className="hover:text-white">Privacy</a>
+          <a href={`${appConfig.brand.marketingUrl}/terms`} className="hover:text-white">Terms</a>
+          <a href={`${appConfig.brand.marketingUrl}/impressum`} className="hover:text-white">Impressum</a>
+        </footer>
       </div>
     </div>
   )

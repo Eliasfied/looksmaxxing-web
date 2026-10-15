@@ -26,6 +26,7 @@ export default function ToolsLayout({ children }: { children: React.ReactNode })
       <footer className="mx-auto flex max-w-6xl flex-wrap gap-5 px-5 py-8 text-sm text-white/50">
         <a href={`${appConfig.brand.marketingUrl}/privacy`}>Privacy</a>
         <a href={`${appConfig.brand.marketingUrl}/terms`}>Terms</a>
+        <a href={`${appConfig.brand.marketingUrl}/impressum`}>Impressum</a>
         <span>Photo-based AI suggestions, not a medical assessment.</span>
       </footer>
     </div>
