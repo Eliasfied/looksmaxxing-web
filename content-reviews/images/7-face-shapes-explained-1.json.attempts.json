@@ -1,0 +1,26 @@
+{
+  "key": "{\"brief\":{\"prompt\":\"A clean, modern illustration showing seven simple face outlines arranged in a single row on a soft neutral background: oval, round, square, oblong, heart, diamond and triangle. Each outline is a smooth line drawing with minimal facial detail and a small one-word label beneath it.\",\"alt\":\"The 7 face shapes shown as simple outlines: oval, round, square, oblong, heart, diamond and triangle\",\"purpose\":\"Gives readers a quick visual overview of the seven shapes before the detailed definitions.\",\"article\":\"7-face-shapes-explained\",\"position\":1},\"model\":\"openai/gpt-image-2.5/flare/text-to-image\"}",
+  "attempts": [
+    {
+      "status": "rejected",
+      "prompt": "A clean, modern illustration showing seven simple face outlines arranged in a single row on a soft neutral background: oval, round, square, oblong, heart, diamond and triangle. Each outline is a smooth line drawing with minimal facial detail and a small one-word label beneath it.",
+      "issues": [
+        "The seven face outlines are too similar to one another to work as a visual guide. Jaw, chin, forehead and cheekbone differences are subtle, and the oval, round, oblong and diamond faces are hard to tell apart, so the image does not convey the distinct shapes it is meant to illustrate.",
+        "The triangle face does not have a clearly wider jaw than forehead, and the heart and diamond faces lack a distinct wide forehead or cheekbone structure, so these outlines can mislead readers about what each shape looks like.",
+        "The square face does not show a strongly angular jaw, so it reads much like the round face.",
+        "Every outline contains the same detailed eyes, brows, nose and lips with identical hair and neck. The brief asked for minimal facial detail, and this repeated detail distracts from the face-shape silhouettes.",
+        "The faces occupy only a small band in the middle of a large empty canvas, which makes the outlines small and the labels tiny and low-impact."
+      ]
+    },
+    {
+      "status": "rejected",
+      "prompt": "A clean, modern illustration showing seven simple face outlines arranged in a single row on a soft neutral background: oval, round, square, oblong, heart, diamond and triangle. Each outline is a smooth line drawing with minimal facial detail and a small one-word label beneath it.\nEDITORIAL CORRECTION: Regenerate a simpler, accurate illustration of the same purpose. Fix these defects from the rejected image: [\"The seven face outlines are too similar to one another to work as a visual guide. Jaw, chin, forehead and cheekbone differences are subtle, and the oval, round, oblong and diamond faces are hard to tell apart, so the image does not convey the distinct shapes it is meant to illustrate.\",\"The triangle face does not have a clearly wider jaw than forehead, and the heart and diamond faces lack a distinct wide forehead or cheekbone structure, so these outlines can mislead readers about what each shape looks like.\",\"The square face does not show a strongly angular jaw, so it reads much like the round face.\",\"Every outline contains the same detailed eyes, brows, nose and lips with identical hair and neck. The brief asked for minimal facial detail, and this repeated detail distracts from the face-shape silhouettes.\",\"The faces occupy only a small band in the middle of a large empty canvas, which makes the outlines small and the labels tiny and low-impact.\"]. Avoid text, labels and complex comparative diagrams if they caused the defect.",
+      "issues": [
+        "The brief requires a small one-word label beneath each outline (oval, round, square, oblong, heart, diamond, triangle), but the image contains no labels at all, so readers cannot tell which shape is which.",
+        "The face shapes are not clearly distinguishable: several faces (e.g., the 1st, 2nd, 6th and 7th) look very similar, and the diamond and triangle shapes are not distinct or recognizable.",
+        "The faces are rendered as filled illustrations with hair, eyes, brows and lips rather than minimal smooth line-drawn outlines, adding detail beyond the brief.",
+        "Because of missing labels and weak shape differentiation, the image fails to serve its purpose of giving a quick visual overview of the seven face shapes."
+      ]
+    }
+  ]
+}
