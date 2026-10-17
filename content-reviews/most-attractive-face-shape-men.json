@@ -1,0 +1,158 @@
+{
+  "slug": "most-attractive-face-shape-men",
+  "reviewedAt": "2026-10-17T17:43:27.446Z",
+  "draft": true,
+  "review": {
+    "pass": false,
+    "issues": [
+      "Image 1 failed validation: Image failed editorial review: [\"The brief calls for minimal labels under each silhouette, but no labels appear anywhere. The six shapes (oval, square, round, rectangular, diamond, triangle) are shown only as colored outlines, so viewers can't tell which face shape each one represents without prior knowledge.\",\"The colored outline shapes are drawn over the faces and don't match the actual head contours. The oval, round, and rectangular outlines overlap the hair and ears, and the diamond and triangle extend beyond the face. This misrepresents the face shapes the image is meant to illustrate.\",\"The six head illustrations are nearly identical, with the same face width and jawline. The face shape differences come only from the overlaid geometric outlines, not from the heads themselves, so the faces don't convincingly show distinct shapes.\",\"The illustration is a small strip in the middle of a mostly empty canvas, leaving large blank areas above and below. The composition is weak for editorial use, and the heads are small.\",\"The image doesn't clearly serve its stated purpose of introducing face shape categories as styling shorthand, because without labels the categories are not identified.\"]"
+    ]
+  },
+  "textRepair": {
+    "status": "passed",
+    "issues": [
+      "Masculinity and the Jawline: the Spanish-men study (Soler et al.) is cited as \"unedited photos of Spanish men\", but the evidence says only \"in both sexes\" and gives no sample, nationality or photo-type detail. That framing is unsupported by the supplied evidence.",
+      "Why the Studies Disagree / Edited vs Natural Faces: the claim that masculinity effects \"often weaken or disappear\" in natural faces is contradicted by the cited srep39731 study, which found masculinity positively predicted male attractiveness. The generalization overstates the evidence."
+    ],
+    "review": {
+      "pass": true,
+      "issues": []
+    }
+  },
+  "sources": [
+    {
+      "title": "Further evidence that averageness and femininity, rather than symmetry and masculinity, predict facial attractiveness judgments",
+      "url": "https://www.nature.com/articles/s41598-025-86974-0"
+    },
+    {
+      "title": "Male facial attractiveness: evidence for hormone-mediated adaptive design - ScienceDirect",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S1090513801000666"
+    },
+    {
+      "title": "Does Masculinity Matter? The Contribution of Masculine Face Shape to Male Attractiveness in Humans",
+      "url": "https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0013585"
+    },
+    {
+      "title": "Male Facial Anthropometry and Attractiveness - Carles Soler, Jukka Kekäläinen, Manuel Núñez, María Sancho, Javier Núñez, Iván Yaber, Ricardo Gutiérrez, 2012",
+      "url": "https://journals.sagepub.com/doi/10.1068/p7214"
+    },
+    {
+      "title": "Predictors of facial attractiveness and health in humans",
+      "url": "https://www.nature.com/articles/srep39731"
+    },
+    {
+      "title": "The Relative Contribution of Jawbone and Cheekbone Prominence, Eyebrow Thickness, Eye Size, and Face Length to Evaluations of Facial Masculinity and Attractiveness: A Conjoint Data-Driven Approach",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6290027/"
+    },
+    {
+      "title": "Evidence from Meta-Analyses of the Facial Width-to-Height Ratio as an Evolved Cue of Threat - PMC",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4504483/"
+    },
+    {
+      "title": "Evidence from Meta-Analyses of the Facial Width-to-Height Ratio as an Evolved Cue of Threat",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4504483/"
+    },
+    {
+      "title": "Judging a man by the width of his face: the role of facial ratios and dominance in mate choice at speed-dating events - PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24458269/"
+    },
+    {
+      "title": "Is facial width-to-height ratio reliably associated with social inferences? - ScienceDirect",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S1090513821000568"
+    },
+    {
+      "title": "Editorial: Perceptions of People: Cues to Underlying Physiology and Psychology",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7156615/"
+    },
+    {
+      "title": "Re-evaluating the Role of Partnership-Related Perceptions in Women's Preferences for Men with Masculine Face Shapes",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11184995/"
+    },
+    {
+      "title": "Influence of facial shape on perceived attractiveness",
+      "url": "https://link.springer.com/article/10.1186/s40510-026-00617-2"
+    },
+    {
+      "title": "Facial shape affects self-perceived facial attractiveness",
+      "url": "https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0245557"
+    },
+    {
+      "title": "Geometric morphometrics of male facial shape in relation to physical strength and perceived attractiveness, dominance, and masculinity - PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/21957062/"
+    },
+    {
+      "title": "Frontal facial analysis of male celebrities attractiveness standards through artificial intelligence - ScienceDirect",
+      "url": "https://www.sciencedirect.com/science/article/pii/S2468785526000728"
+    },
+    {
+      "title": "Men’s Facial Width-to-Height Ratio Predicts Aggression: A Meta-Analysis",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4388848/"
+    }
+  ],
+  "imageModel": "openai/gpt-image-2.5/flare/text-to-image",
+  "imageReviews": [],
+  "imageSettings": {
+    "width": 1024,
+    "height": 1024,
+    "quality": "low"
+  },
+  "usage": [
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "research",
+      "input": 26347,
+      "output": 3666,
+      "estimatedUsd": 0.089354,
+      "searches": 3
+    },
+    {
+      "model": "claude-opus-5-5",
+      "stage": "article",
+      "input": 29583,
+      "output": 9564,
+      "estimatedUsd": 0.309612,
+      "searches": 0
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "text-review",
+      "input": 11077,
+      "output": 211,
+      "estimatedUsd": 0.024264,
+      "searches": 0
+    },
+    {
+      "model": "claude-opus-5-5",
+      "stage": "article-repair",
+      "input": 10978,
+      "output": 8492,
+      "estimatedUsd": 0.213752,
+      "searches": 0
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "text-review",
+      "input": 11155,
+      "output": 16,
+      "estimatedUsd": 0.02247,
+      "searches": 0
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "image-review",
+      "input": 1726,
+      "output": 395,
+      "estimatedUsd": 0.007402,
+      "searches": 0
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "image-review",
+      "input": 1726,
+      "output": 455,
+      "estimatedUsd": 0.008002,
+      "searches": 0
+    }
+  ],
+  "note": "Token estimates exclude web-search charges, images, tax and provider markups."
+}
