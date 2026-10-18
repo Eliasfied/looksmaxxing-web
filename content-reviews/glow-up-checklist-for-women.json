@@ -1,0 +1,95 @@
+{
+  "slug": "glow-up-checklist-for-women",
+  "reviewedAt": "2026-10-18T17:44:39.713Z",
+  "draft": true,
+  "review": {
+    "pass": false,
+    "issues": [
+      "Invalid image placements"
+    ]
+  },
+  "textRepair": {
+    "status": "rejected",
+    "issues": [
+      "Tinted Sunscreen and Dark Spots: The article says iron oxide is 'a mineral pigment, which is also what gives these sunscreens their color.' The supplied AAD evidence doesn't say this. It is an unsupported claim presented alongside the AAD attribution; remove it or source it separately."
+    ],
+    "review": {
+      "pass": false,
+      "issues": [
+        "Invalid image placements"
+      ]
+    }
+  },
+  "sources": [
+    {
+      "title": "GLOW-UP Slang Meaning",
+      "url": "https://www.merriam-webster.com/slang/glow-up"
+    },
+    {
+      "title": "glow up",
+      "url": "https://www.dictionary.com/culture/pop-culture/glow-up"
+    },
+    {
+      "title": "Sunscreen FAQs",
+      "url": "https://www.aad.org/media/stats-sunscreen"
+    },
+    {
+      "title": "American Academy of Dermatology Statement on the Importance of Sun Protection",
+      "url": "https://www.aad.org/news/statement-importance-of-sun-protection"
+    },
+    {
+      "title": "How to apply sunscreen",
+      "url": "https://www.aad.org/public/everyday-care/sun-protection/shade-clothing-sunscreen/how-to-apply-sunscreen"
+    },
+    {
+      "title": "[PDF] Beauty sleep: experimental study on the perceived health and attractiveness of sleep deprived people",
+      "url": "https://www.semanticscholar.org/paper/Beauty-sleep:-experimental-study-on-the-perceived-Axelsson-Sundelin/08508be726d8dc4288298fa55ae7050c70023422"
+    },
+    {
+      "title": "Negative effects of restricted sleep on facial appearance and social appeal",
+      "url": "https://royalsocietypublishing.org/rsos/article/4/5/160918/66370/Negative-effects-of-restricted-sleep-on-facial"
+    }
+  ],
+  "imageModel": "openai/gpt-image-2.5/flare/text-to-image",
+  "imageReviews": [],
+  "imageSettings": {
+    "width": 1024,
+    "height": 1024,
+    "quality": "low"
+  },
+  "usage": [
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "research",
+      "input": 30271,
+      "output": 3539,
+      "estimatedUsd": 0.095932,
+      "searches": 3
+    },
+    {
+      "model": "claude-opus-5-5",
+      "stage": "article",
+      "input": 32197,
+      "output": 10402,
+      "estimatedUsd": 0.336828,
+      "searches": 0
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "text-review",
+      "input": 8854,
+      "output": 117,
+      "estimatedUsd": 0.018878,
+      "searches": 0
+    },
+    {
+      "model": "claude-opus-5-5",
+      "stage": "article-repair",
+      "input": 8661,
+      "output": 7045,
+      "estimatedUsd": 0.175544,
+      "searches": 0
+    }
+  ],
+  "note": "Token estimates exclude web-search charges, images, tax and provider markups."
+}
