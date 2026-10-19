@@ -1,0 +1,129 @@
+{
+  "slug": "5-hunter-eyes-tips",
+  "reviewedAt": "2026-10-19T20:21:17.666Z",
+  "draft": true,
+  "review": {
+    "pass": false,
+    "issues": [
+      "What about cosmetic procedures: the article says exaggerated tilt looks surgical and cites a source saying research backs an upward tilt and low brow. Nothing supplied shows that research, and the claim is attributed to a site that is not a review.",
+      "What you can't change: the article states canthal tilt is fixed and set by eyelid and bone anatomy, with no supporting source. The cited sources cover orbital depth and eye shape, not tilt. Attribute the claim or soften it."
+    ]
+  },
+  "textRepair": {
+    "status": "rejected",
+    "issues": [
+      "Tip 2 / Aura description: The tool is said to \"explain how camera roll and head pose affect the result\" and the free output is a styling-potential estimate. This conflicts with the locked-findings rule only if it implies full observations are free. The paragraph does not state clearly that the left/right observations, photo limitations and styling context are locked behind the purchase."
+    ],
+    "review": {
+      "pass": false,
+      "issues": [
+        "What about cosmetic procedures: the article says exaggerated tilt looks surgical and cites a source saying research backs an upward tilt and low brow. Nothing supplied shows that research, and the claim is attributed to a site that is not a review.",
+        "What you can't change: the article states canthal tilt is fixed and set by eyelid and bone anatomy, with no supporting source. The cited sources cover orbital depth and eye shape, not tilt. Attribute the claim or soften it."
+      ]
+    }
+  },
+  "sources": [
+    {
+      "title": "Hunter Eyes: What They Are, How to Check Yours & What's Actually Achievable",
+      "url": "https://thefacereport.com/guides/hunter-eyes"
+    },
+    {
+      "title": "What Are Hunter Eyes? Meaning, Shape and Anatomy",
+      "url": "https://trymaxxing.com/blogs/news/hunter-eyes"
+    },
+    {
+      "title": "Hunter eyes vs prey eyes: the five traits that separate them",
+      "url": "https://softmaxx.io/blog/hunter-eyes-vs-prey-eyes"
+    },
+    {
+      "title": "Do I Have Hunter Eyes? 5-Trait Self-Check — SoftMaxx AI",
+      "url": "https://softmaxx.io/blog/hunter-eyes"
+    },
+    {
+      "title": "The isolated orbital floor fracture from a transconjunctival or subciliary perspective-A standardized anthropometric evaluation",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4765746/"
+    },
+    {
+      "title": "Hunter Eyes: What They Are and Whether You Can Get Them",
+      "url": "https://www.looksmeter.com/hunter-eyes"
+    },
+    {
+      "title": "Can Eye Shape Change By Itself? - Eye Plastic Surgery of Minnesota",
+      "url": "https://www.eyeplasticsmn.com/can-eye-shape-change-by-itself/"
+    },
+    {
+      "title": "Can Blepharoplasty Change My Eye Shape?",
+      "url": "https://drturner.com.au/blogs/blepharoplasty-eye-shape/"
+    },
+    {
+      "title": "How to Get Hunter Eyes Naturally: Structure, Canthal Tilt & Realistic Improvements",
+      "url": "https://www.stylementor.fashion/2026/02/eye-area-aesthetics-hunter-eyes-guide.html"
+    },
+    {
+      "title": "Surgery to Make Eyes Bigger: Wider eyes surgery (Dr. Explains)",
+      "url": "https://drkopelman.com/surgery-to-make-eyes-bigger/"
+    },
+    {
+      "title": "What Are Hunter Eyes? Meaning and Eye Area Explained",
+      "url": "https://lookmax-analyzer.com/looksmaxxingpedia/hunter-eyes"
+    },
+    {
+      "title": "Hunter Eyes: What They Are & Can You Get Them?",
+      "url": "https://looksmaxxing.com/hunter-eyes/"
+    },
+    {
+      "title": "Hunter Eyes: What They Are and How to Get Them",
+      "url": "https://looksmaxxers.com/pages/hunter-eyes-what-they-are-and-how-to-get-them"
+    }
+  ],
+  "imageModel": "openai/gpt-image-2.5/flare/text-to-image",
+  "imageReviews": [],
+  "imageSettings": {
+    "width": 1024,
+    "height": 1024,
+    "quality": "low"
+  },
+  "usage": [
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "research",
+      "input": 31271,
+      "output": 3751,
+      "estimatedUsd": 0.100052,
+      "searches": 3
+    },
+    {
+      "model": "claude-opus-5-5",
+      "stage": "article",
+      "input": 34244,
+      "output": 9534,
+      "estimatedUsd": 0.327656,
+      "searches": 0
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "text-review",
+      "input": 10116,
+      "output": 131,
+      "estimatedUsd": 0.021542,
+      "searches": 0
+    },
+    {
+      "model": "claude-opus-5-5",
+      "stage": "article-repair",
+      "input": 10090,
+      "output": 8055,
+      "estimatedUsd": 0.20146,
+      "searches": 0
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "text-review",
+      "input": 10104,
+      "output": 170,
+      "estimatedUsd": 0.021908,
+      "searches": 0
+    }
+  ],
+  "note": "Token estimates exclude web-search charges, images, tax and provider markups."
+}
