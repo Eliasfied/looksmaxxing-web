@@ -1,0 +1,120 @@
+{
+  "slug": "qoves-studio-review",
+  "reviewedAt": "2026-10-20T18:53:52.122Z",
+  "draft": true,
+  "review": {
+    "pass": false,
+    "issues": [
+      "Qoves Review at a Glance / What Qoves Costs: the Express Delivery row gives '24 to 48 hours', and the membership row claims 'six photos' and 'biometrics tracking' and 'care-team Q&A'. The supplied evidence is truncated and supports none of these details, so they are unsupported."
+    ]
+  },
+  "textRepair": {
+    "status": "rejected",
+    "issues": [
+      "What Buyers Say: Uncynical evidence says the writer thought they were charging $250 for something buildable in 2 hours; the draft omits the figure but frames it as a price-value complaint about Qoves. It's loosely accurate, but the reviewer's price conflicts with $150 and needs clarification.",
+      "What Buyers Say: Trustpilot praise is sourced from a single visible review snippet, yet the draft says 'Reviewers' (plural) and that 'public reviews we found lean positive'. The evidence doesn't support the plural or overall-lean claim; soften or qualify."
+    ],
+    "review": {
+      "pass": false,
+      "issues": [
+        "Qoves Review at a Glance / What Qoves Costs: the Express Delivery row gives '24 to 48 hours', and the membership row claims 'six photos' and 'biometrics tracking' and 'care-team Q&A'. The supplied evidence is truncated and supports none of these details, so they are unsupported."
+      ]
+    }
+  },
+  "sources": [
+    {
+      "title": "QOVES Review & Price 2026: Is $150 Worth It? - SoftMaxx AI",
+      "url": "https://softmaxx.io/blog/qoves-review"
+    },
+    {
+      "title": "QOVES Price 2026: $150/Year, Add-ons & Refunds - SoftMaxx AI",
+      "url": "https://softmaxx.io/blog/qoves-pricing"
+    },
+    {
+      "title": "Qoves Facial Analysis: What You Get for the Money",
+      "url": "https://realworldappeal.com/en/blog/qoves-facial-analysis-cost"
+    },
+    {
+      "title": "Qoves Review: Is It Legit, Worth $150, and What Reddit Actually Says",
+      "url": "https://realworldappeal.com/en/blog/qoves-review"
+    },
+    {
+      "title": "My Honest Qoves Review: I tried their aesthetic analysis. These are my results.",
+      "url": "https://alessaweiler.medium.com/my-honest-qoves-review-i-tried-their-aesthetic-analysis-these-are-my-results-be7aa6d9b61f"
+    },
+    {
+      "title": "QOVES Sample Comprehensive Report (Scribd)",
+      "url": "https://www.scribd.com/document/683724839/Sample-FINAL-Comprehensive-Report-V2"
+    },
+    {
+      "title": "I tried Qoves (which isn't a looksmaxxing app) - Uncynical",
+      "url": "https://uncynical.substack.com/p/i-tried-qoves-which-isnt-a-looksmaxxing"
+    },
+    {
+      "title": "Qoves reviews - Trustpilot (NZ)",
+      "url": "https://nz.trustpilot.com/review/qoves.com"
+    },
+    {
+      "title": "Qoves reviews - Trustpilot (FI)",
+      "url": "https://fi.trustpilot.com/review/qoves.com"
+    },
+    {
+      "title": "QOVES Studio - EverybodyWiki Bios & Wiki",
+      "url": "https://en.everybodywiki.com/QOVES_Studio"
+    },
+    {
+      "title": "Qoves Review 2026: Price, Controversy, and What Is Free",
+      "url": "https://thefaceanalysis.com/guides/qoves-review"
+    }
+  ],
+  "imageModel": "openai/gpt-image-2.5/flare/text-to-image",
+  "imageReviews": [],
+  "imageSettings": {
+    "width": 1024,
+    "height": 1024,
+    "quality": "low"
+  },
+  "usage": [
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "research",
+      "input": 28042,
+      "output": 3405,
+      "estimatedUsd": 0.090134,
+      "searches": 3
+    },
+    {
+      "model": "claude-opus-5-5",
+      "stage": "article",
+      "input": 30262,
+      "output": 10022,
+      "estimatedUsd": 0.321488,
+      "searches": 0
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "text-review",
+      "input": 9707,
+      "output": 208,
+      "estimatedUsd": 0.021494,
+      "searches": 0
+    },
+    {
+      "model": "claude-opus-5-5",
+      "stage": "article-repair",
+      "input": 9609,
+      "output": 7665,
+      "estimatedUsd": 0.191736,
+      "searches": 0
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "text-review",
+      "input": 9765,
+      "output": 120,
+      "estimatedUsd": 0.02073,
+      "searches": 0
+    }
+  ],
+  "note": "Token estimates exclude web-search charges, images, tax and provider markups."
+}
