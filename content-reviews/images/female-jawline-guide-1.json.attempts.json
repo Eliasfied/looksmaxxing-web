@@ -1,0 +1,14 @@
+{
+  "key": "{\"brief\":{\"prompt\":\"A softly lit editorial portrait of a woman in three-quarter view against a warm neutral backdrop, her hair swept back so her natural jawline and chin are clearly visible. Calm expression, natural skin texture, gentle window light from the front-left defining the lower face.\",\"alt\":\"Woman in three-quarter view showing her natural female jawline in soft window light\",\"purpose\":\"Introduces the topic at a glance: the female jawline as a natural feature shaped by bone, soft tissue and light.\",\"article\":\"female-jawline-guide\",\"position\":1},\"model\":\"openai/gpt-image-2.5/flare/text-to-image\"}",
+  "attempts": [
+    {
+      "status": "passed",
+      "prompt": "A softly lit editorial portrait of a woman in three-quarter view against a warm neutral backdrop, her hair swept back so her natural jawline and chin are clearly visible. Calm expression, natural skin texture, gentle window light from the front-left defining the lower face.",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "Woman with dark hair swept back in a loose updo, shown in three-quarter view in soft window light against a warm beige wall, with her natural jawline and chin clearly visible and a calm expression"
+      }
+    }
+  ]
+}

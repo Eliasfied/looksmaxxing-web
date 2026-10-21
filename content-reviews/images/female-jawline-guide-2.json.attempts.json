@@ -1,0 +1,24 @@
+{
+  "key": "{\"brief\":{\"prompt\":\"A clean illustrated row of four women's lower faces, drawn from the cheekbones down in a simple flat style, each with a different jawline: soft rounded, tapered V-shaped, square angular, and long. Each figure has a different skin tone and hair colour, with a single small word label beneath it and no measurement lines.\",\"alt\":\"Illustration of four female jawline shapes: rounded, tapered, square and long\",\"purpose\":\"Shows that there are several common female jawline shapes used as styling categories, with no single ideal.\",\"article\":\"female-jawline-guide\",\"position\":2},\"model\":\"openai/gpt-image-2.5/flare/text-to-image\"}",
+  "attempts": [
+    {
+      "status": "rejected",
+      "prompt": "A clean illustrated row of four women's lower faces, drawn from the cheekbones down in a simple flat style, each with a different jawline: soft rounded, tapered V-shaped, square angular, and long. Each figure has a different skin tone and hair colour, with a single small word label beneath it and no measurement lines.",
+      "issues": [
+        "The four jawlines are not visibly distinct: all four chins share nearly the same soft V/rounded contour, so the 'Square' figure shows no angular jaw and the 'Long' figure shows no elongated lower face. The panels therefore fail to illustrate several different jawline shapes and contradict their labels.",
+        "The 'Rounded' and 'Tapered' panels are almost indistinguishable, so the labels do not match the visible anatomy and could mislead readers about how to categorise their own jawline.",
+        "All four faces use identical lips, nose and neck structure with only skin tone and hair varying, which reduces the usefulness of the comparison as a jawline guide.",
+        "The stated article purpose, showing that there are several common jawline shapes, is not met because the shape variation is negligible."
+      ]
+    },
+    {
+      "status": "rejected",
+      "prompt": "A clean illustrated row of four women's lower faces, drawn from the cheekbones down in a simple flat style, each with a different jawline: soft rounded, tapered V-shaped, square angular, and long. Each figure has a different skin tone and hair colour, with a single small word label beneath it and no measurement lines.\nEDITORIAL CORRECTION: Regenerate a simpler, accurate illustration of the same purpose. Fix these defects from the rejected image: [\"The four jawlines are not visibly distinct: all four chins share nearly the same soft V/rounded contour, so the 'Square' figure shows no angular jaw and the 'Long' figure shows no elongated lower face. The panels therefore fail to illustrate several different jawline shapes and contradict their labels.\",\"The 'Rounded' and 'Tapered' panels are almost indistinguishable, so the labels do not match the visible anatomy and could mislead readers about how to categorise their own jawline.\",\"All four faces use identical lips, nose and neck structure with only skin tone and hair varying, which reduces the usefulness of the comparison as a jawline guide.\",\"The stated article purpose, showing that there are several common jawline shapes, is not met because the shape variation is negligible.\"]. Avoid text, labels and complex comparative diagrams if they caused the defect.",
+      "issues": [
+        "Missing required labels: the brief specifies a single small word label beneath each figure (rounded, tapered, square, long), but no text appears anywhere in the image, so viewers cannot tell which jawline category each figure represents.",
+        "Jawline shapes are not clearly differentiated: all four figures share nearly identical nose, lips and chin structure, and the jaws read as similar soft V/rounded shapes. There is no distinctly square angular jaw and no clearly long face, so the image fails to illustrate the purpose of showing several different common jawline categories.",
+        "Figures are cropped as tall panels with unequal hair/edge treatment and large empty white space above and below, which weakens the clean row layout intended for the article."
+      ]
+    }
+  ]
+}
