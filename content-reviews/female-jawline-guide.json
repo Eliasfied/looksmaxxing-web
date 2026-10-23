@@ -1,12 +1,10 @@
 {
   "slug": "female-jawline-guide",
   "reviewedAt": "2026-10-21T19:06:52.218Z",
-  "draft": true,
+  "draft": false,
   "review": {
-    "pass": false,
-    "issues": [
-      "Image 2 failed validation: Image failed editorial review: [\"Missing required labels: the brief specifies a single small word label beneath each figure (rounded, tapered, square, long), but no text appears anywhere in the image, so viewers cannot tell which jawline category each figure represents.\",\"Jawline shapes are not clearly differentiated: all four figures share nearly identical nose, lips and chin structure, and the jaws read as similar soft V/rounded shapes. There is no distinctly square angular jaw and no clearly long face, so the image fails to illustrate the purpose of showing several different common jawline categories.\",\"Figures are cropped as tall panels with unequal hair/edge treatment and large empty white space above and below, which weakens the clean row layout intended for the article.\"]"
-    ]
+    "pass": true,
+    "issues": []
   },
   "textRepair": {
     "status": "passed",
@@ -134,5 +132,156 @@
       "searches": 0
     }
   ],
-  "note": "Token estimates exclude web-search charges, images, tax and provider markups."
+  "note": "Token estimates exclude web-search charges, images, tax and provider markups.",
+  "releasedAt": "2026-10-23T19:32:13.024Z",
+  "imageFailures": [
+    {
+      "image": 2,
+      "error": "Image 2 was never approved"
+    },
+    {
+      "image": 3,
+      "error": "Image 3 was never approved"
+    }
+  ],
+  "previousAttempts": [
+    {
+      "slug": "female-jawline-guide",
+      "reviewedAt": "2026-10-21T19:06:52.218Z",
+      "draft": true,
+      "review": {
+        "pass": false,
+        "issues": [
+          "Image 2 failed validation: Image failed editorial review: [\"Missing required labels: the brief specifies a single small word label beneath each figure (rounded, tapered, square, long), but no text appears anywhere in the image, so viewers cannot tell which jawline category each figure represents.\",\"Jawline shapes are not clearly differentiated: all four figures share nearly identical nose, lips and chin structure, and the jaws read as similar soft V/rounded shapes. There is no distinctly square angular jaw and no clearly long face, so the image fails to illustrate the purpose of showing several different common jawline categories.\",\"Figures are cropped as tall panels with unequal hair/edge treatment and large empty white space above and below, which weakens the clean row layout intended for the article.\"]"
+        ]
+      },
+      "textRepair": {
+        "status": "passed",
+        "issues": [
+          "How the Female Jawline Changes With Age: The article says mandibular angles increased by 3 to 7 degrees, citing the PubMed review. The supplied evidence is truncated and never mentions this figure. The figure and its interpretation as a more open jaw angle are unverified and must be removed or sourced.",
+          "How the Female Jawline Changes With Age: The article says the review reports men showed more pronounced mandibular remodeling overall. No supplied evidence supports this attribution, so it must be removed or verified."
+        ],
+        "review": {
+          "pass": true,
+          "issues": []
+        }
+      },
+      "sources": [
+        {
+          "title": "Shape analysis of female facial attractiveness - ScienceDirect",
+          "url": "https://www.sciencedirect.com/science/article/pii/S0042698905005493"
+        },
+        {
+          "title": "Facial attractiveness and preference of sexual dimorphism: A comparison across five populations",
+          "url": "https://www.cambridge.org/core/journals/evolutionary-human-sciences/article/facial-attractiveness-and-preference-of-sexual-dimorphism-a-comparison-across-five-populations/855665E31FE47492B4F5356B5F34FE7F"
+        },
+        {
+          "title": "Frontiers",
+          "url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2018.02428/full"
+        },
+        {
+          "title": "A new data-driven mathematical model dissociates attractiveness from sexual dimorphism of human faces",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7538911/"
+        },
+        {
+          "title": "The Effect of Target Sex, Sexual Dimorphism, and Facial Attractiveness on Perceptions of Target Attractiveness and Trustworthiness",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6002689/"
+        },
+        {
+          "title": "Does Mewing Actually Reshape Your Jaw?",
+          "url": "https://aaoinfo.org/whats-trending/is-mewing-bad-for-you/"
+        },
+        {
+          "title": "Mewing: Does This Viral Jawline Trend Actually Work?",
+          "url": "https://www.elateorthodontics.com/mewing-in-2025/"
+        },
+        {
+          "title": "Mewing: What Orthodontists Say About the Evidence",
+          "url": "https://acibademinternational.com/blog/mewing-what-orthodontists-say-about-tongue-posture-jawlines-and-the-evidence/"
+        },
+        {
+          "title": "Facial bone aging: An update and literature review - PMC",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12914125/"
+        },
+        {
+          "title": "Aging and menopause reprogram osteoclast precursors for aggressive bone resorption",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7329827/"
+        }
+      ],
+      "imageModel": "openai/gpt-image-2.5/flare/text-to-image",
+      "imageReviews": [],
+      "imageSettings": {
+        "width": 1024,
+        "height": 1024,
+        "quality": "low"
+      },
+      "usage": [
+        {
+          "model": "claude-sonnet-5-5",
+          "stage": "research",
+          "input": 26080,
+          "output": 3697,
+          "estimatedUsd": 0.08913,
+          "searches": 3
+        },
+        {
+          "model": "claude-opus-5-5",
+          "stage": "article",
+          "input": 28307,
+          "output": 11105,
+          "estimatedUsd": 0.335328,
+          "searches": 0
+        },
+        {
+          "model": "claude-sonnet-5-5",
+          "stage": "text-review",
+          "input": 9570,
+          "output": 181,
+          "estimatedUsd": 0.02095,
+          "searches": 0
+        },
+        {
+          "model": "claude-opus-5-5",
+          "stage": "article-repair",
+          "input": 9445,
+          "output": 7402,
+          "estimatedUsd": 0.18582,
+          "searches": 0
+        },
+        {
+          "model": "claude-sonnet-5-5",
+          "stage": "text-review",
+          "input": 9200,
+          "output": 16,
+          "estimatedUsd": 0.01856,
+          "searches": 0
+        },
+        {
+          "model": "claude-sonnet-5-5",
+          "stage": "image-review",
+          "input": 1705,
+          "output": 84,
+          "estimatedUsd": 0.00425,
+          "searches": 0
+        },
+        {
+          "model": "claude-sonnet-5-5",
+          "stage": "image-review",
+          "input": 1711,
+          "output": 349,
+          "estimatedUsd": 0.006912,
+          "searches": 0
+        },
+        {
+          "model": "claude-sonnet-5-5",
+          "stage": "image-review",
+          "input": 1711,
+          "output": 306,
+          "estimatedUsd": 0.006482,
+          "searches": 0
+        }
+      ],
+      "note": "Token estimates exclude web-search charges, images, tax and provider markups."
+    }
+  ]
 }

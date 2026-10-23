@@ -7,7 +7,7 @@ cluster: "listicle"
 pubDate: "2026-10-16"
 tags: ["face shapes", "facial proportions", "glasses", "haircuts", "styling"]
 readingTime: 9
-related: []
+related: [6-haircuts-for-receding-hairline, best-glasses-for-diamond-face, best-glasses-for-heart-face]
 faq:
   - q: "What are the 7 face shapes?"
     a: "The seven most guides use are oval, round, square, heart, diamond, oblong and triangle. Oblong is also called rectangular, and triangle is sometimes called pear. Some sources use five or six categories instead, so seven is a convention rather than a fixed standard."
@@ -50,9 +50,9 @@ sources:
     url: "https://www.carecredit.com/well-u/health-wellness/how-to-choose-glasses-for-your-face-shape/"
   - title: "How to Pick Out the Best Glasses for Your Face Shape - Access Eye"
     url: "https://www.accesseye.com/how-to-pick-out-the-best-glasses-for-your-face-shape/"
-quality_reviewed: false
+quality_reviewed: true
 imageModel: "openai/gpt-image-2.5/flare/text-to-image"
-draft: true
+draft: false
 ---
 
 Most haircut guides, glasses guides and contouring tutorials start with the same question: *what is your face shape?* The usual answer is a list of seven. It is a useful vocabulary for talking about proportions. It is also less precise than most guides admit.
@@ -116,8 +116,6 @@ You don't need calipers. You need a decent photo and a few honest comparisons. T
 6. **Match to the closest shape, then pick a runner-up.** Widest at the forehead points to heart. Widest at the jaw points to triangle. Roughly as wide as long with soft angles points to round ([SymmetryIQ](https://symmetryiq.app/face-shapes)). Even widths split into square (shorter) or oblong (longer). Cheekbones widest with narrow ends point to oval or diamond, depending on how sharp the taper is.
 
 A second opinion is useful when you can't decide between two shapes. Aura's [Face Shape Finder](https://app.aura-looksmaxxing.com/tools/face-shape-detector?source=%2Fblog%2F7-face-shapes-explained) gives a *likely* face shape with its uncertainty stated, rather than a verdict. It explains your forehead, cheek and jaw proportions and suggests styling options based on your preferences. You can upload a photo before creating an account. The free result is a subjective styling-potential estimate, and the full findings require an account and a one-time $2.99 purchase.
-
-{{IMAGE_2}}
 
 ## The 7 Face Shapes in Detail
 
@@ -191,8 +189,6 @@ Both can be true for different people. The difference often comes down to overal
 - The frame doesn't press on your cheeks when you smile.
 
 A frame that fits well and suits your style will usually beat a "correct" shape that pinches or slides.
-
-{{IMAGE_3}}
 
 ## When You Sit Between Two Shapes
 

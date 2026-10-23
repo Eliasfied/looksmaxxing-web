@@ -9,7 +9,7 @@ heroImage: /blog/trimax-surgery-explained/1.webp
 heroImageAlt: Side-profile skull illustration highlighting the upper jaw, lower jaw, and chin involved in trimax surgery
 tags: [trimax, jaw surgery, orthognathic surgery, genioplasty, looksmaxxing]
 readingTime: 9
-related: [looksmaxxing-transformations, bimax-surgery-cost, forward-growth-explained]
+related: [looksmaxxing-transformations, bimax-surgery-cost, height-and-frame-guide]
 faq:
   - q: What is the difference between bimax and trimax surgery?
     a: Bimax moves the upper and lower jaw to correct bite and jaw position. Trimax adds a genioplasty, which cuts and moves the chin bone separately so its projection and height can be fine-tuned independently of the bite.

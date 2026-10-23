@@ -1,12 +1,10 @@
 {
   "slug": "7-face-shapes-explained",
   "reviewedAt": "2026-10-16T18:36:15.607Z",
-  "draft": true,
+  "draft": false,
   "review": {
-    "pass": false,
-    "issues": [
-      "Image 1 failed validation: Image failed editorial review: [\"The brief requires a small one-word label beneath each outline (oval, round, square, oblong, heart, diamond, triangle), but the image contains no labels at all, so readers cannot tell which shape is which.\",\"The face shapes are not clearly distinguishable: several faces (e.g., the 1st, 2nd, 6th and 7th) look very similar, and the diamond and triangle shapes are not distinct or recognizable.\",\"The faces are rendered as filled illustrations with hair, eyes, brows and lips rather than minimal smooth line-drawn outlines, adding detail beyond the brief.\",\"Because of missing labels and weak shape differentiation, the image fails to serve its purpose of giving a quick visual overview of the seven face shapes.\"]"
-    ]
+    "pass": true,
+    "issues": []
   },
   "textRepair": {
     "status": "passed",
@@ -141,5 +139,167 @@
       "searches": 0
     }
   ],
-  "note": "Token estimates exclude web-search charges, images, tax and provider markups."
+  "note": "Token estimates exclude web-search charges, images, tax and provider markups.",
+  "releasedAt": "2026-10-23T19:32:12.998Z",
+  "imageFailures": [
+    {
+      "image": 1,
+      "error": "Image 1 was never approved"
+    },
+    {
+      "image": 2,
+      "error": "Image 2 was never approved"
+    },
+    {
+      "image": 3,
+      "error": "Image 3 was never approved"
+    }
+  ],
+  "previousAttempts": [
+    {
+      "slug": "7-face-shapes-explained",
+      "reviewedAt": "2026-10-16T18:36:15.607Z",
+      "draft": true,
+      "review": {
+        "pass": false,
+        "issues": [
+          "Image 1 failed validation: Image failed editorial review: [\"The brief requires a small one-word label beneath each outline (oval, round, square, oblong, heart, diamond, triangle), but the image contains no labels at all, so readers cannot tell which shape is which.\",\"The face shapes are not clearly distinguishable: several faces (e.g., the 1st, 2nd, 6th and 7th) look very similar, and the diamond and triangle shapes are not distinct or recognizable.\",\"The faces are rendered as filled illustrations with hair, eyes, brows and lips rather than minimal smooth line-drawn outlines, adding detail beyond the brief.\",\"Because of missing labels and weak shape differentiation, the image fails to serve its purpose of giving a quick visual overview of the seven face shapes.\"]"
+        ]
+      },
+      "textRepair": {
+        "status": "passed",
+        "issues": [
+          "Why \"Seven\" Is a Convention: The arXiv paper's 2014 study proposed five new categories (kite, rectangle, teardrop, heptagon, oblong), and the draft repeats this. But \"oblong\" already sits among the paper's five basic shapes, so the claim of five extra categories is internally inconsistent and needs correcting or removing."
+        ],
+        "review": {
+          "pass": true,
+          "issues": []
+        }
+      },
+      "sources": [
+        {
+          "title": "The 7 Face Shapes Explained: How to Find Yours (2026 Guide)",
+          "url": "https://www.calqora.com/blog/face-and-style--the-7-face-shapes-explained-how-to-find-yours"
+        },
+        {
+          "title": "Face Shapes: The 7 Types & How to Find Yours",
+          "url": "https://symmetryiq.app/face-shapes"
+        },
+        {
+          "title": "Face shape classification using Inception v3",
+          "url": "https://arxiv.org/pdf/1911.07916"
+        },
+        {
+          "title": "What are the best glasses for my face shape?: Astorino & Associates Eye Center: Ophthalmology",
+          "url": "https://www.astorinoeyecare.com/blog/what-are-the-best-glasses-for-my-face-shape"
+        },
+        {
+          "title": "A hybrid approach to building face shape classifier for hairstyle recommender system - ScienceDirect",
+          "url": "https://www.sciencedirect.com/science/article/abs/pii/S0957417418307346"
+        },
+        {
+          "title": "Face Shape Classification Using Swin Transformer Model - ScienceDirect",
+          "url": "https://www.sciencedirect.com/science/article/pii/S1877050923017258"
+        },
+        {
+          "title": "(PDF) Hairstyle Recommendation Based on Face Shape Using Image Processing",
+          "url": "https://www.researchgate.net/publication/348404026_Hairstyle_Recommendation_Based_on_Face_Shape_Using_Image_Processing"
+        },
+        {
+          "title": "Types of Face Shapes and Their Characteristics",
+          "url": "https://faceshapetool.com/blog/types-of-face-shapes"
+        },
+        {
+          "title": "Face Shapes: 7 Types & How to Find Your Face Shape",
+          "url": "https://faceshapedetector.app/face-shapes"
+        },
+        {
+          "title": "What are the 7 face shapes",
+          "url": "https://www.refinebothell.com/blog/What%20are%20the%207%20face%20shapes/"
+        },
+        {
+          "title": "Choosing Glasses for Your Face Shape  - Optometrists.org",
+          "url": "https://www.optometrists.org/general-practice-optometry/optical/guide-to-optical-frames/9115-2/"
+        },
+        {
+          "title": "Glasses for Your Face Shape and Skin Tone",
+          "url": "https://www.allaboutvision.com/eyewear/eyeglasses/fit/glasses-shape-color-analysis/"
+        },
+        {
+          "title": "How to Pick the Right Glasses Frames for Your Face Shape",
+          "url": "https://www.carecredit.com/well-u/health-wellness/how-to-choose-glasses-for-your-face-shape/"
+        },
+        {
+          "title": "How to Pick Out the Best Glasses for Your Face Shape - Access Eye",
+          "url": "https://www.accesseye.com/how-to-pick-out-the-best-glasses-for-your-face-shape/"
+        }
+      ],
+      "imageModel": "openai/gpt-image-2.5/flare/text-to-image",
+      "imageReviews": [],
+      "imageSettings": {
+        "width": 1024,
+        "height": 1024,
+        "quality": "low"
+      },
+      "usage": [
+        {
+          "model": "claude-sonnet-5-5",
+          "stage": "research",
+          "input": 31690,
+          "output": 4867,
+          "estimatedUsd": 0.11205,
+          "searches": 3
+        },
+        {
+          "model": "claude-opus-5-5",
+          "stage": "article",
+          "input": 36336,
+          "output": 9810,
+          "estimatedUsd": 0.341544,
+          "searches": 0
+        },
+        {
+          "model": "claude-sonnet-5-5",
+          "stage": "text-review",
+          "input": 10651,
+          "output": 135,
+          "estimatedUsd": 0.022652,
+          "searches": 0
+        },
+        {
+          "model": "claude-opus-5-5",
+          "stage": "article-repair",
+          "input": 11063,
+          "output": 7936,
+          "estimatedUsd": 0.202972,
+          "searches": 0
+        },
+        {
+          "model": "claude-sonnet-5-5",
+          "stage": "text-review",
+          "input": 10667,
+          "output": 16,
+          "estimatedUsd": 0.021494,
+          "searches": 0
+        },
+        {
+          "model": "claude-sonnet-5-5",
+          "stage": "image-review",
+          "input": 1714,
+          "output": 390,
+          "estimatedUsd": 0.007328,
+          "searches": 0
+        },
+        {
+          "model": "claude-sonnet-5-5",
+          "stage": "image-review",
+          "input": 1714,
+          "output": 313,
+          "estimatedUsd": 0.006558,
+          "searches": 0
+        }
+      ],
+      "note": "Token estimates exclude web-search charges, images, tax and provider markups."
+    }
+  ]
 }

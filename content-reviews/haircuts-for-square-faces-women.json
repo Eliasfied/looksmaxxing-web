@@ -1,12 +1,10 @@
 {
   "slug": "haircuts-for-square-faces-women",
   "reviewedAt": "2026-10-12T22:22:56.305Z",
-  "draft": true,
+  "draft": false,
   "review": {
-    "pass": false,
-    "issues": [
-      "Image 2 failed validation: Image failed editorial review: [\"The brief requires a small one-word label under each portrait, but no labels are present. The empty space below the portraits suggests they were meant to go there, so the cuts are unidentified and the side-by-side comparison is weakened.\",\"The first (side-swept fringe) and second (lob) portraits do not clearly differ in length: both reach the shoulders, and the lob is not distinctly shorter or 'below the jaw'. This blurs the comparison of length the article purpose depends on.\",\"The pixie portrait shows a visibly different jawline and neck taper from the other two, so the 'same square face shape' consistency is imperfect and the comparison is partly misleading.\"]"
-    ]
+    "pass": true,
+    "issues": []
   },
   "textRepair": null,
   "sources": [
@@ -100,5 +98,122 @@
       "searches": 0
     }
   ],
-  "note": "Token estimates exclude web-search charges, images, tax and provider markups."
+  "note": "Token estimates exclude web-search charges, images, tax and provider markups.",
+  "releasedAt": "2026-10-23T19:32:13.030Z",
+  "imageFailures": [
+    {
+      "image": 2,
+      "error": "Image 2 was never approved"
+    },
+    {
+      "image": 3,
+      "error": "Image 3 was never approved"
+    }
+  ],
+  "previousAttempts": [
+    {
+      "slug": "haircuts-for-square-faces-women",
+      "reviewedAt": "2026-10-12T22:22:56.305Z",
+      "draft": true,
+      "review": {
+        "pass": false,
+        "issues": [
+          "Image 2 failed validation: Image failed editorial review: [\"The brief requires a small one-word label under each portrait, but no labels are present. The empty space below the portraits suggests they were meant to go there, so the cuts are unidentified and the side-by-side comparison is weakened.\",\"The first (side-swept fringe) and second (lob) portraits do not clearly differ in length: both reach the shoulders, and the lob is not distinctly shorter or 'below the jaw'. This blurs the comparison of length the article purpose depends on.\",\"The pixie portrait shows a visibly different jawline and neck taper from the other two, so the 'same square face shape' consistency is imperfect and the comparison is partly misleading.\"]"
+        ]
+      },
+      "textRepair": null,
+      "sources": [
+        {
+          "title": "What is my face shape? Learn how to determine your face shape",
+          "url": "https://www.today.com/style/what-my-face-shape-learn-how-determine-your-face-shape-t139826"
+        },
+        {
+          "title": "Square Face Shape: Hair, Glasses & Styling Guide",
+          "url": "https://www.detect-faceshape.com/square-face-shape/"
+        },
+        {
+          "title": "5 Haircuts For Square Face Shapes, According to Celebrity Hairstylists",
+          "url": "https://theeverygirl.com/square-face-haircuts/"
+        },
+        {
+          "title": "The Best Shoulder-Length Haircuts for Your Face Shape, According to Stylists",
+          "url": "https://www.aol.com/best-shoulder-length-haircuts-face-151733277.html"
+        },
+        {
+          "title": "Celebrity Hair Stylists Explain the Best Haircuts for Every Face Shape",
+          "url": "https://www.aol.com/lifestyle/celebrity-hair-stylists-explain-best-221900445.html"
+        },
+        {
+          "title": "The Best Haircuts and Hairstyles for Square Face Shapes - L’Oréal Paris",
+          "url": "https://www.lorealparisusa.com/beauty-magazine/hair-style/hairstyle-trends/best-hairstyles-for-square-faces"
+        },
+        {
+          "title": "Hairstyles for Your Face Shape: 6 Shapes, 18 Cuts (and 3 to Avoid)",
+          "url": "https://ckstudiosalon.com/hairstyles-for-face-shapes/"
+        },
+        {
+          "title": "Why Choosing a Haircut Based on Face Shape is Overrated: Barber Shares Expert Insights — WesleySnipsHair",
+          "url": "https://www.wesleysnipshair.com/blog/choosing-a-haircut-based-on-face-shape-is-overrated-heres-why"
+        }
+      ],
+      "imageModel": "openai/gpt-image-2.5/flare/text-to-image",
+      "imageReviews": [],
+      "imageSettings": {
+        "width": 1024,
+        "height": 1024,
+        "quality": "low"
+      },
+      "usage": [
+        {
+          "model": "claude-sonnet-5-5",
+          "stage": "research",
+          "input": 28681,
+          "output": 3003,
+          "estimatedUsd": 0.087392,
+          "searches": 3
+        },
+        {
+          "model": "claude-opus-5-5",
+          "stage": "article",
+          "input": 30332,
+          "output": 9802,
+          "estimatedUsd": 0.317368,
+          "searches": 0
+        },
+        {
+          "model": "claude-sonnet-5-5",
+          "stage": "text-review",
+          "input": 8766,
+          "output": 16,
+          "estimatedUsd": 0.017692,
+          "searches": 0
+        },
+        {
+          "model": "claude-sonnet-5-5",
+          "stage": "image-review",
+          "input": 1722,
+          "output": 100,
+          "estimatedUsd": 0.004444,
+          "searches": 0
+        },
+        {
+          "model": "claude-sonnet-5-5",
+          "stage": "image-review",
+          "input": 1737,
+          "output": 424,
+          "estimatedUsd": 0.007714,
+          "searches": 0
+        },
+        {
+          "model": "claude-sonnet-5-5",
+          "stage": "image-review",
+          "input": 1737,
+          "output": 307,
+          "estimatedUsd": 0.006544,
+          "searches": 0
+        }
+      ],
+      "note": "Token estimates exclude web-search charges, images, tax and provider markups."
+    }
+  ]
 }

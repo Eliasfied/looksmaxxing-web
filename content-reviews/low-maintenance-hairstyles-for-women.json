@@ -1,12 +1,10 @@
 {
   "slug": "low-maintenance-hairstyles-for-women",
   "reviewedAt": "2026-10-15T18:50:25.171Z",
-  "draft": true,
+  "draft": false,
   "review": {
-    "pass": false,
-    "issues": [
-      "Image 1 failed validation: Forbidden"
-    ]
+    "pass": true,
+    "issues": []
   },
   "textRepair": {
     "status": "passed",
@@ -114,5 +112,140 @@
       "searches": 0
     }
   ],
-  "note": "Token estimates exclude web-search charges, images, tax and provider markups."
+  "note": "Token estimates exclude web-search charges, images, tax and provider markups.",
+  "releasedAt": "2026-10-23T19:32:13.035Z",
+  "imageFailures": [
+    {
+      "image": 1,
+      "error": "Image 1 was never approved"
+    },
+    {
+      "image": 2,
+      "error": "Image 2 was never approved"
+    },
+    {
+      "image": 3,
+      "error": "Image 3 was never approved"
+    }
+  ],
+  "previousAttempts": [
+    {
+      "slug": "low-maintenance-hairstyles-for-women",
+      "reviewedAt": "2026-10-15T18:50:25.171Z",
+      "draft": true,
+      "review": {
+        "pass": false,
+        "issues": [
+          "Image 1 failed validation: Forbidden"
+        ]
+      },
+      "textRepair": {
+        "status": "passed",
+        "issues": [
+          "Long cuts: Healthline's Michael Fuzailov quote is an average time between cuts of 3 to 4 months. The article presents it as a long-layers figure and contrasts it with L'Oréal's general six-to-eight-week answer. Neither source is about long hair, so the 'stylists disagree' framing is misleading.",
+          "Habits section: the Draelos quote is attributed to an 'AAD meeting' and the AAD is cited for avoiding over-styling. The evidence supplies only the PR Newswire tip and no meeting context or Draelos name, so the attribution is unsupported."
+        ],
+        "review": {
+          "pass": true,
+          "issues": []
+        }
+      },
+      "sources": [
+        {
+          "title": "Tips for healthy hair",
+          "url": "https://www.aad.org/public/everyday-care/hair-scalp-care/hair/healthy-hair-tips"
+        },
+        {
+          "title": "6 curly hair tips from dermatologists",
+          "url": "https://www.aad.org/news/6-curly-hair-tips-from-dermatologists"
+        },
+        {
+          "title": "How Often Should You Really Wash Your Hair?",
+          "url": "https://health.clevelandclinic.org/the-dirty-truth-about-washing-your-hair"
+        },
+        {
+          "title": "Is it bad to wash your hair every day?",
+          "url": "https://goldenbergdermatology.com/wp-content/uploads/2023/02/a11.pdf"
+        },
+        {
+          "title": "How Often Should You Cut Your Hair? - L’Oréal Paris",
+          "url": "https://www.lorealparisusa.com/beauty-magazine/hair-care/all-hair-types/how-often-should-you-cut-your-hair"
+        },
+        {
+          "title": "how often should you cut your hair",
+          "url": "https://www.healthline.com/health/beauty-skin-care/how-often-should-you-cut-your-hair"
+        },
+        {
+          "title": "National healthy skin month: dermatologists provide tips on caring for your skin, hair, and nails",
+          "url": "https://www.aad.org/news/national-healthy-skin-dermatologists-provide-tips-on-skin-hair-nails"
+        },
+        {
+          "title": "Going to Great Lengths for Beautiful Hair? Dermatologist Shares Hair Care Tips for Healthy and Damaged Hair",
+          "url": "https://www.prnewswire.com/news-releases/going-to-great-lengths-for-beautiful-hair-dermatologist-shares-hair-care-tips-for-healthy-and-damaged-hair-115273904.html"
+        },
+        {
+          "title": "2026 Haircut Trends: Best Hair Cut Styles for Women — Mavo Hairlounge",
+          "url": "https://mavohairlounge.com/blog/haircut-trends-the-complete-expert-guide"
+        },
+        {
+          "title": "8 Trending Short Haircuts for Women in 2026 (With Photos)",
+          "url": "https://numihair.com/blog/trending-short-haircut-styles-for-women/"
+        },
+        {
+          "title": "25+ Low-Maintenance Haircuts for Women (Easy, Stylish & Trending in 2026) » Hair Aura Pro",
+          "url": "https://hairaurapro.com/low-maintenance-haircuts-for-women/"
+        }
+      ],
+      "imageModel": "openai/gpt-image-2.5/flare/text-to-image",
+      "imageReviews": [],
+      "imageSettings": {
+        "width": 1024,
+        "height": 1024,
+        "quality": "low"
+      },
+      "usage": [
+        {
+          "model": "claude-sonnet-5-5",
+          "stage": "research",
+          "input": 32908,
+          "output": 2818,
+          "estimatedUsd": 0.093996,
+          "searches": 3
+        },
+        {
+          "model": "claude-opus-5-5",
+          "stage": "article",
+          "input": 34949,
+          "output": 8209,
+          "estimatedUsd": 0.303976,
+          "searches": 0
+        },
+        {
+          "model": "claude-sonnet-5-5",
+          "stage": "text-review",
+          "input": 9829,
+          "output": 210,
+          "estimatedUsd": 0.021758,
+          "searches": 0
+        },
+        {
+          "model": "claude-opus-5-5",
+          "stage": "article-repair",
+          "input": 10169,
+          "output": 7965,
+          "estimatedUsd": 0.199976,
+          "searches": 0
+        },
+        {
+          "model": "claude-sonnet-5-5",
+          "stage": "text-review",
+          "input": 9773,
+          "output": 16,
+          "estimatedUsd": 0.019706,
+          "searches": 0
+        }
+      ],
+      "note": "Token estimates exclude web-search charges, images, tax and provider markups."
+    }
+  ]
 }

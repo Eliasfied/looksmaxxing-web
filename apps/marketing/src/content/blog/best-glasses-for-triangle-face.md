@@ -9,7 +9,7 @@ heroImage: "/blog/best-glasses-for-triangle-face/1.webp"
 heroImageAlt: "Smiling woman with long dark wavy hair wearing tortoiseshell browline glasses with a thin metal lower rim, gold hoop earrings and a cream knit sweater against a soft neutral background"
 tags: ["glasses", "face shape", "triangle face", "eyewear", "styling"]
 readingTime: 8
-related: [best-glasses-for-heart-face, best-glasses-for-round-face, best-glasses-for-oblong-face]
+related: [best-glasses-for-heart-face, best-glasses-for-square-face, best-haircut-for-triangle-face-men]
 faq:
   - q: "What are the best glasses for a triangle face shape?"
     a: "Frames with a stronger top line and a lighter bottom edge are the most consistent recommendation. Pearle Vision lists cat-eye, browline, oval and aviator for pear and triangle faces, and Specsavers suggests cat-eye or rectangular frames."

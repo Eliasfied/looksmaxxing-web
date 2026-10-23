@@ -19,10 +19,10 @@ sources:
     url: "https://www.urbandictionary.com/define.php?term=volcel"
   - title: "Volcel"
     url: "https://digitalcultures.net/slang/internet-culture/volcel/"
-quality_reviewed: false
+quality_reviewed: true
 related_terms: ["incel", "fakecel", "truecel", "mgtow", "heightcel", "blackpill"]
 examples: ["She's been volcel for a year while she focuses on her degree, and she's clear it's her own choice.", "On incel forums, a tall poster who mentions he isn't dating is often dismissed as a volcel rather than a 'real' incel.", "He jokingly calls himself volcel, but really he just hasn't found anyone he wants to date."]
-draft: true
+draft: false
 ---
 
 ## What does volcel mean
@@ -31,7 +31,7 @@ Volcel is short for "voluntary celibate," someone who chooses not to have sex wi
 
 In incel forums, volcel works mostly as a way of deciding who belongs. The [ADL](https://www.adl.org/resources/backgrounder/incels-involuntary-celibates) defines it as a term for someone who is voluntarily celibate and so does not qualify as an incel. The same label is sometimes called "fakecel," and people given it are seen as frauds who are not accepted by the community. Researcher [Tim Squirrell](https://www.timsquirrell.com/blog/2018/5/30/a-definitive-guide-to-incels-part-two-the-blackpill-and-vocabulary) calls it a gatekeeping term with an overtone of derision. Incels use it for men they believe could have sex but don't.
 
-Outside those spaces, people use the word more loosely. On [Urban Dictionary](https://www.urbandictionary.com/define.php?term=volcel), some users apply it to anyone who chooses celibacy, whether for a short time or for life and whether for religious reasons or not. Others use it ironically, as a meme. Most people who choose celibacy just say "celibate."
+Outside those spaces, people use the word more loosely. On [Urban Dictionary](https://www.urbandictionary.com/define.php?term=volcel), some users apply it to anyone who chooses celibacy, whether for a short time or for life and whether for religious reasons or not. One entry gives priests as an example.
 
 ## Origin
 
@@ -41,4 +41,4 @@ Volcel was coined as a counterpart to incel. According to [Squirrell](https://ww
 
 In looks-focused forums, other users often assign volcel status based on someone's appearance. Squirrell quotes a heightcel user who claims that being tall makes a man a volcel, on the idea that his looks give him options. The label is a judgment made by other users, not a measurement. It also ignores the many reasons people date or choose not to. The term overlaps with MGTOW, men who choose not to associate with women, though [Urban Dictionary](https://www.urbandictionary.com/define.php?term=volcel) users note the two are not the same thing.
 
-If you want to think about your appearance without relying on forum verdicts, a practical place to start is your visible features and grooming. Aura's [AI Face Analysis](https://app.aura-looksmaxxing.com/tools/ai-face-rating?source=%2Fglossary%2Fvolcel) gives you a facial profile, a feature breakdown and personal styling suggestions. Its scores are subjective estimates based on your photo, not objective attractiveness ratings, and it does not say whether anyone is incel or volcel. The free result is a styling-potential estimate. The full findings require a one-time purchase.
+If you want to think about your appearance without relying on forum verdicts, a practical place to start is your visible features and grooming. Aura's [AI Face Analysis](https://app.aura-looksmaxxing.com/tools/ai-face-rating?source=%2Fglossary%2Fvolcel) is built around a facial profile, a feature breakdown and personal styling suggestions. Any scores are subjective estimates based on your photo, not objective attractiveness measurements. The free result is a subjective styling-potential estimate. The full findings are locked until you create an account and make a $2.99 one-time purchase.

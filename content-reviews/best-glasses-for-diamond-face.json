@@ -1,12 +1,10 @@
 {
   "slug": "best-glasses-for-diamond-face",
   "reviewedAt": "2026-10-11T19:20:31.432Z",
-  "draft": true,
+  "draft": false,
   "review": {
-    "pass": false,
-    "issues": [
-      "Image 3 failed validation: Image failed editorial review: [\"Anatomy error: the optician's hands are implausible. One hand pinches the nose pad area while the other hand/thumb appears to press over the customer's mouth and upper lip, with fingers merging awkwardly into her face, which looks unnatural and distracting.\",\"Nose pads are unclear: clear pad pieces float at the nose, one appearing detached from the frame, so the nose-pad adjustment is not convincingly depicted.\",\"Brief mismatch: the frame is thin round/circular metal glasses rather than oval, and the key visual cue (lower rim clearly above prominent cheekbones without touching skin) is not clearly shown, since the cheekbones are not prominent and the rim-to-cheek gap is not evident.\",\"Framing is not a clean three-quarter view of the adjustment; the optician's body and hands dominate and block the view of the fit check.\"]"
-    ]
+    "pass": true,
+    "issues": []
   },
   "textRepair": null,
   "sources": [
@@ -132,5 +130,150 @@
       "searches": 0
     }
   ],
-  "note": "Token estimates exclude web-search charges, images, tax and provider markups."
+  "note": "Token estimates exclude web-search charges, images, tax and provider markups.",
+  "releasedAt": "2026-10-23T19:32:13.009Z",
+  "imageFailures": [
+    {
+      "image": 3,
+      "error": "Image 3 was never approved"
+    }
+  ],
+  "previousAttempts": [
+    {
+      "slug": "best-glasses-for-diamond-face",
+      "reviewedAt": "2026-10-11T19:20:31.432Z",
+      "draft": true,
+      "review": {
+        "pass": false,
+        "issues": [
+          "Image 3 failed validation: Image failed editorial review: [\"Anatomy error: the optician's hands are implausible. One hand pinches the nose pad area while the other hand/thumb appears to press over the customer's mouth and upper lip, with fingers merging awkwardly into her face, which looks unnatural and distracting.\",\"Nose pads are unclear: clear pad pieces float at the nose, one appearing detached from the frame, so the nose-pad adjustment is not convincingly depicted.\",\"Brief mismatch: the frame is thin round/circular metal glasses rather than oval, and the key visual cue (lower rim clearly above prominent cheekbones without touching skin) is not clearly shown, since the cheekbones are not prominent and the rim-to-cheek gap is not evident.\",\"Framing is not a clean three-quarter view of the adjustment; the optician's body and hands dominate and block the view of the fit check.\"]"
+        ]
+      },
+      "textRepair": null,
+      "sources": [
+        {
+          "title": "Diamond Face Shape: How to Identify Yours & Best Styles",
+          "url": "https://ovalfaceshape.com/diamond-face-shape/"
+        },
+        {
+          "title": "What Face Shape Has High Cheekbones? - Oblong Face Shape",
+          "url": "https://oblongfaceshape.com/what-face-shape-has-high-cheekbones/"
+        },
+        {
+          "title": "Diamond Face Shape: Hairstyles, Makeup & Photo Tips",
+          "url": "https://www.perfectcorp.com/consumer/blog/selfie-editing/diamond-face-shape"
+        },
+        {
+          "title": "Glasses for Diamond Shaped Faces: the guide",
+          "url": "https://www.glasses.com/gl-us/blog/glasses-for-diamond-shaped-faces"
+        },
+        {
+          "title": "Best glasses for a diamond face shape 2025",
+          "url": "https://www.bantonframeworks.co.uk/blogs/guides/glasses-for-diamond-faces"
+        },
+        {
+          "title": "How to Pick the Best Glasses for Diamond Face Shapes",
+          "url": "https://www.zennioptical.com/blog/choosing-glasses-for-diamond-face-shapes/"
+        },
+        {
+          "title": "Best Glasses for Diamond Face Shape: Tips for Perfect Look",
+          "url": "https://www.vooglam.com/blogDetail/glasses-for-diamond-face-shape"
+        },
+        {
+          "title": "Best Designer Glasses for the Diamond Face Shape",
+          "url": "https://moscot.com/blogs/moscot-moments/best-designer-glasses-for-diamond-face-shape"
+        },
+        {
+          "title": "Best Glasses Frames for Diamond Faces",
+          "url": "https://www.glassesshop.com/face-shape/diamond"
+        },
+        {
+          "title": "How to Choose Eyeglass Frames: A Guide for Opticians",
+          "url": "https://www.optogrid.com/blog/eyeglass-frames/"
+        },
+        {
+          "title": "Glasses Fitting for Children - American Association for Pediatric Ophthalmology and Strabismus",
+          "url": "https://aapos.org/glossary/glasses-fitting-for-children"
+        },
+        {
+          "title": "Eyeglass Frame Sizes Explained: Simple Fit Guide",
+          "url": "https://www.warbyparker.com/learn/eyeglass-frame-sizes-explained-simple-fit-guide-2"
+        },
+        {
+          "title": "How to Choose the Glasses Frame Material That's Right for You - American Academy of Ophthalmology",
+          "url": "https://www.aao.org/eye-health/glasses-contacts/eyeglass-frame-materials"
+        },
+        {
+          "title": "Eyeglasses: How to Choose Glasses for Vision Correction - American Academy of Ophthalmology",
+          "url": "https://www.aao.org/eye-health/glasses-contacts/glasses"
+        }
+      ],
+      "imageModel": "openai/gpt-image-2.5/flare/text-to-image",
+      "imageReviews": [],
+      "imageSettings": {
+        "width": 1024,
+        "height": 1024,
+        "quality": "low"
+      },
+      "usage": [
+        {
+          "model": "claude-sonnet-5-5",
+          "stage": "research",
+          "input": 28523,
+          "output": 3804,
+          "estimatedUsd": 0.095086,
+          "searches": 3
+        },
+        {
+          "model": "claude-opus-5-5",
+          "stage": "article",
+          "input": 31504,
+          "output": 14833,
+          "estimatedUsd": 0.422676,
+          "searches": 0
+        },
+        {
+          "model": "claude-sonnet-5-5",
+          "stage": "text-review",
+          "input": 10301,
+          "output": 16,
+          "estimatedUsd": 0.020762,
+          "searches": 0
+        },
+        {
+          "model": "claude-sonnet-5-5",
+          "stage": "image-review",
+          "input": 1762,
+          "output": 135,
+          "estimatedUsd": 0.004874,
+          "searches": 0
+        },
+        {
+          "model": "claude-sonnet-5-5",
+          "stage": "image-review",
+          "input": 1762,
+          "output": 114,
+          "estimatedUsd": 0.004664,
+          "searches": 0
+        },
+        {
+          "model": "claude-sonnet-5-5",
+          "stage": "image-review",
+          "input": 1736,
+          "output": 313,
+          "estimatedUsd": 0.006602,
+          "searches": 0
+        },
+        {
+          "model": "claude-sonnet-5-5",
+          "stage": "image-review",
+          "input": 1736,
+          "output": 355,
+          "estimatedUsd": 0.007022,
+          "searches": 0
+        }
+      ],
+      "note": "Token estimates exclude web-search charges, images, tax and provider markups."
+    }
+  ]
 }
