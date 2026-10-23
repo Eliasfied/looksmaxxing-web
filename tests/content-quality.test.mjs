@@ -1,6 +1,6 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { imageInput, IMAGE_MODEL, validateContent, needsHumanReview, productBrief, extractSources, reviewImage, reviewPage } from '../scripts/content-quality.mjs';
+import { imageInput, IMAGE_MODEL, validateContent, needsHumanReview, productBrief, extractSources, reviewImage, reviewPage, isDeterministicIssue, DETERMINISTIC_ISSUES } from '../scripts/content-quality.mjs';
 import { relevantTool, toolCatalog } from '../config/tool-routing.mjs';
 import remarkToolLinks from '../scripts/remark-tool-links.mjs';
 const page = { slug:'hairstyles-for-women', primary_keyword:'hairstyles for women', page_type:'blog' };
@@ -83,4 +83,29 @@ test('truncated and malformed review responses cannot approve publication and st
     await assert.rejects(reviewPage(client, page, article(), { sources }, () => { charged = true; }));
     assert.equal(charged, true);
   }
+});
+
+test('a disclaimer denying a claim passes while the claim itself is still rejected', () => {
+  const disclaimed = article();
+  disclaimed.body_markdown += '\n\nIts scores are subjective photo-based estimates, not objective attractiveness measurements.';
+  assert.deepEqual(validateContent(page, disclaimed, sources), []);
+
+  for (const claim of [
+    'Aura gives you an objective attractiveness score from one selfie.',
+    'The model is scientifically accurate face rating technology.',
+    'Your photos are never shared with third parties.',
+  ]) {
+    const bad = article();
+    bad.body_markdown += '\n\n' + claim;
+    assert.ok(validateContent(page, bad, sources).includes('Unsupported product claim'), claim);
+  }
+});
+
+test('deterministic findings are told apart from the reviewer prose that blocks a release', () => {
+  assert.ok(isDeterministicIssue('Unsupported product claim'));
+  assert.ok(isDeterministicIssue('Unverified external link: https://made-up.test'));
+  assert.ok(isDeterministicIssue('Missing body_markdown'));
+  assert.ok(!isDeterministicIssue('What you cannot change: the article states canthal tilt is fixed, with no supporting source.'));
+  assert.ok(!isDeterministicIssue('Clinical or intervention topic requires human review before publishing.'));
+  for (const issue of DETERMINISTIC_ISSUES) assert.ok(isDeterministicIssue(issue));
 });
