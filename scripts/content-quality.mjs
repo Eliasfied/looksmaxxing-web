@@ -32,6 +32,21 @@ export function extractSources(message) {
   return [...sources.values()];
 }
 
+// A disclaimer that denies the claim ("not objective attractiveness ratings") is
+// exactly what we want authors to write, so the phrase alone is not the offence.
+// Only flag it where nothing in the same sentence negates it.
+const PRODUCT_CLAIMS = /objective (?:face|attractiveness|beauty|baseline)|scientifically accurate (?:face|rating|score)/gi;
+const CLAIM_NEGATION = /\b(?:not|never|no|nor|isn't|aren't|wasn't|don't|doesn't|cannot|can't|without|rather than|instead of|far from)\b[^.!?]*$/i;
+
+function hasUnsupportedProductClaim(text) {
+  if (/never shared with third parties/i.test(text)) return true;
+  for (const match of text.matchAll(PRODUCT_CLAIMS)) {
+    const lead = text.slice(Math.max(0, match.index - 160), match.index);
+    if (!CLAIM_NEGATION.test(lead)) return true;
+  }
+  return false;
+}
+
 export function needsHumanReview(page) {
   return /\b(surgery|surgical|bonesmash\w*|steroid\w*|isotretinoin|minoxidil|finasteride|orthognathic|filler\w*|botox|peptide\w*|hormone\w*)\b/i.test(page.primary_keyword + ' ' + page.slug.replace(/-/g, ' '));
 }
@@ -52,6 +67,21 @@ export function productBrief(page) {
   };
 }
 
+// Every issue validateContent can raise. Releasing a stored draft needs to tell
+// these apart from the reviewer's free-text editorial findings: a deterministic
+// issue is cleared by re-running the check, an editorial one is not.
+export const DETERMINISTIC_ISSUES = Object.freeze([
+  'Unsafe slug', 'Tool has no implementation', 'Missing ', 'Raw HTML or unsafe URL in article',
+  'Invented glossary definition', 'Unsupported product claim', 'Dated title',
+  'Content is too thin for this format', 'Not enough cited sources', 'A source was not found in research',
+  'CTA does not lead to the matched implemented tool', 'Too many in-body product links',
+  'Missing contextual product link', 'Unverified external link: ', 'Exactly three visual briefs required',
+  'Invalid image placements', 'Duplicate image briefs',
+  'Image needs a specific prompt, alt text and article purpose',
+]);
+
+export const isDeterministicIssue = issue => DETERMINISTIC_ISSUES.some(known => issue.startsWith(known));
+
 export function validateContent(page, data, evidenceSources) {
   const issues = [], brief = productBrief(page);
   if (!/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(page.slug)) issues.push('Unsafe slug');
@@ -63,7 +93,7 @@ export function validateContent(page, data, evidenceSources) {
   const allText = JSON.stringify(Object.fromEntries(Object.entries(data).filter(([key]) => !key.startsWith('_'))));
   if (/<\/?[a-z][^>]*>|javascript:|data:text\/html/i.test(body)) issues.push('Raw HTML or unsafe URL in article');
   if (/maxillary tilt negative|high tier nasal/i.test(allText)) issues.push('Invented glossary definition');
-  if (/objective (?:face|attractiveness|beauty|baseline)|scientifically accurate (?:face|rating|score)|never shared with third parties/i.test(allText)) issues.push('Unsupported product claim');
+  if (hasUnsupportedProductClaim(allText)) issues.push('Unsupported product claim');
   if (/\b20\d{2}\b/.test((data.title ?? '') + ' ' + (data.h1 ?? ''))) issues.push('Dated title');
   const words = body.split(/\s+/).filter(Boolean).length;
   const min = page.page_type === 'blog' ? 700 : page.page_type === 'glossary' ? 120 : 300;

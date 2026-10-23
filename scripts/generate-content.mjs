@@ -23,6 +23,8 @@
  *   --no-git            Generate and review local files without committing or pushing
  *   --slug SLUG         Process only a specific slug (for testing)
  *   --retry-review      Retry one review topic with --slug; reuse its saved draft
+ *   --release SLUGS     Publish stored drafts (comma-separated) without inference
+ *   --release-reviewed  Publish every stored draft that has nothing editorial open
  *
  * Env vars (in scripts/.env.local or root .env.local):
  *   ANTHROPIC_API_KEY
@@ -37,7 +39,7 @@ import { execSync } from 'child_process';
 import { fileURLToPath } from 'url';
 import { relinkAll } from './relink-content.mjs';
 import { toolCatalog } from '../config/tool-routing.mjs';
-import { IMAGE_MODEL, imageInput, researchPage, reviewPage, reviewImage, productBrief, needsHumanReview, extractJson } from './content-quality.mjs';
+import { IMAGE_MODEL, imageInput, researchPage, reviewPage, reviewImage, productBrief, needsHumanReview, extractJson, validateContent, isDeterministicIssue } from './content-quality.mjs';
 import { runContentJob, recordContentJob, isDraftContent } from './content-job.mjs';
 import { readReviewedImage, saveReviewedImage } from './content-image-cache.mjs';
 
@@ -76,6 +78,11 @@ const NO_IMAGES = hasFlag('--no-images');
 const NO_GIT = hasFlag('--no-git');
 const ONLY_SLUG = getArg('--slug');
 const RETRY_REVIEW = hasFlag('--retry-review');
+// Release stored drafts whose only findings were deterministic rules that now
+// pass, or an illustration that failed. No inference, no image generation.
+const RELEASE = (getArg('--release') ?? '').split(',').map(s => s.trim()).filter(Boolean);
+const RELEASE_ALL = hasFlag('--release-reviewed');
+const RELEASING = RELEASE.length > 0 || RELEASE_ALL;
 
 // ─── Model ──────────────────────────────────────────────────────────────────
 // Opus 5.5 thinks on every request and cannot be told not to, so two things
@@ -558,14 +565,26 @@ function buildFrontmatter(obj) {
 }
 
 // ─── Save markdown to content collection ────────────────────────────────────
+
+// A page is written more than once: as a checkpoint, after review, and again
+// when a stored draft is released days later. Only the first write dates it, so
+// re-saving keeps the original pubDate instead of backdating the whole backlog
+// to the day someone cleared it.
+function publishDate(type, slug) {
+  const file = path.join(CONTENT_DIRS[type], slug + '.md');
+  const existing = fs.existsSync(file) ? fs.readFileSync(file, 'utf8').match(/^pubDate:\s*"?(\d{4}-\d{2}-\d{2})"?/m) : null;
+  return existing ? existing[1] : new Date().toISOString().split('T')[0];
+}
+
 async function saveBlogMarkdown(page, data) {
-  const today = new Date().toISOString().split('T')[0];
+  const today = publishDate('blog', page.slug);
 
   // Generate the 3 images first
   const prompts = (data.image_prompts ?? []).slice(0, 3);
   const images = data._draft ? [] : await generateBlogImages(page.slug, prompts);
   const heroImage = images.find(i => i.num === 1 && i.publicPath);
-  data._imageReviews = images.map(image => ({ image: image.publicPath, review: image.review }));
+  data._imageReviews = images.filter(i => i.publicPath).map(image => ({ image: image.publicPath, review: image.review }));
+  data._imageFailures = images.filter(i => !i.publicPath).map(i => ({ image: i.num, error: i.failure }));
 
   // Inject images into body markdown
   const bodyWithImages = injectImagesIntoBody(data.body_markdown, images);
@@ -596,7 +615,7 @@ async function saveBlogMarkdown(page, data) {
 }
 
 async function saveToolMarkdown(page, data) {
-  const today = new Date().toISOString().split('T')[0];
+  const today = publishDate('tool', page.slug);
 
   // Generate 1 hero image
   let hero = null;
@@ -662,7 +681,7 @@ async function generateToolImage(slug, imagePrompt) {
 }
 
 async function saveGlossaryMarkdown(page, data) {
-  const today = new Date().toISOString().split('T')[0];
+  const today = publishDate('glossary', page.slug);
   const fm = {
     title: data.title,
     description: data.description,
@@ -731,7 +750,7 @@ async function generateBlogImages(slug, imagePrompts) {
     console.log(`   ⏭️  Skipping image generation (--no-images)`);
     return [];
   }
-  if (!process.env.FAL_API_KEY) {
+  if (!RELEASING && !process.env.FAL_API_KEY) {
     throw new Error('FAL_API_KEY is required for publishable images');
   }
 
@@ -752,6 +771,13 @@ async function generateBlogImages(slug, imagePrompts) {
       results.push({ num, publicPath, alt: cached.alt, review: cached });
       continue;
     }
+    if (RELEASING) {
+      // Releasing a stored draft never pays for inference: an image that was
+      // not approved before stays missing until a backfill run regenerates it.
+      console.log(`   No approved image ${num}; releasing without it.`);
+      results.push({ num, publicPath: null, alt, failure: `Image ${num} was never approved` });
+      continue;
+    }
     try {
       console.log(`   🎨 Image ${num}/3: ${prompt.slice(0, 60)}...`);
       const { image: webp, review: inspection } = await generateReviewedImage(brief, manifest);
@@ -760,8 +786,11 @@ async function generateBlogImages(slug, imagePrompts) {
       console.log(`      ✓ Saved ${publicPath} (${sizeKb} KB)`);
       results.push({ num, publicPath, alt: inspection.alt, review: inspection });
     } catch (e) {
-      console.warn(`      ❌ Image ${num} failed: ${e.message}`);
-      throw new Error(`Image ${num} failed validation: ${e.message}`);
+      // An illustration that cannot be produced or survives no editorial pass
+      // must not hold back an article whose text already passed review. The
+      // placeholder is dropped and the gap is recorded for a later backfill.
+      console.warn(`      ❌ Image ${num} failed, publishing without it: ${e.message}`);
+      results.push({ num, publicPath: null, alt, failure: `Image ${num} failed validation: ${e.message}` });
     }
   }
   return results;
@@ -779,6 +808,9 @@ function injectImagesIntoBody(body, imageResults) {
       out = out.replace(placeholder, '');
     }
   }
+  // A placeholder with no entry at all — the draft path generates no images —
+  // would otherwise reach the Markdown file as literal text.
+  out = out.replace(/\{\{IMAGE_\d+\}\}/g, '');
   // Clean up any double blank lines created by removed placeholders
   out = out.replace(/\n{3,}/g, '\n\n');
   return out;
@@ -798,8 +830,75 @@ function makeBranchName() {
   return `content/batch-${stamp}`;
 }
 
+// ─── Release stored drafts ──────────────────────────────────────────────────
+
+// A draft may be released only when nothing editorial is still open against it.
+// Deterministic findings are re-checked here and clear once the rule passes;
+// a failed illustration never blocks reviewed text. Anything the reviewer wrote
+// in prose, and any clinical topic, stays a draft for a human.
+function releaseVerdict(slug) {
+  const draftPath = path.join(DRAFT_DIR, slug + '.json');
+  const reportPath = path.join(ROOT, 'content-reviews', slug + '.json');
+  if (!fs.existsSync(draftPath)) return { blocked: ['No draft checkpoint to verify; regenerate instead.'] };
+  const { page, data } = JSON.parse(fs.readFileSync(draftPath, 'utf8'));
+  if (needsHumanReview(page)) return { blocked: ['Clinical or intervention topic requires human review before publishing.'] };
+  const open = validateContent(page, data, data._research?.sources ?? []);
+  if (open.length) return { blocked: open };
+  const recorded = fs.existsSync(reportPath) ? JSON.parse(fs.readFileSync(reportPath, 'utf8')).review?.issues ?? [] : [];
+  const editorial = recorded.filter(issue => !/^Image \d+ failed validation/.test(issue) && !isDeterministicIssue(issue));
+  if (editorial.length) return { blocked: editorial };
+  return { page, data };
+}
+
+async function releaseDrafts(rows) {
+  const drafted = fs.existsSync(DRAFT_DIR)
+    ? fs.readdirSync(DRAFT_DIR).filter(f => f.endsWith('.json')).map(f => f.slice(0, -5))
+    : [];
+  const wanted = RELEASE_ALL ? drafted : RELEASE;
+  const released = [], held = [];
+  for (const slug of wanted) {
+    const verdict = releaseVerdict(slug);
+    if (verdict.blocked) { held.push({ slug, issues: verdict.blocked }); continue; }
+    const { page, data } = verdict;
+    const file = path.join(CONTENT_DIRS[page.page_type], page.slug + '.md');
+    if (!fs.existsSync(file)) { held.push({ slug, issues: ['No Markdown file to release.'] }); continue; }
+    if (!isDraftContent(fs.readFileSync(file, 'utf8'))) { held.push({ slug, issues: ['Already published.'] }); continue; }
+    data._draft = false;
+    data._review = { pass: true, issues: [] };
+    const outPath = await SAVERS[page.page_type](page, data);
+    for (const row of rows) if (row.slug === slug && row.status === 'review') row.status = 'generated';
+    const reportPath = path.join(ROOT, 'content-reviews', slug + '.json');
+    const previous = fs.existsSync(reportPath) ? JSON.parse(fs.readFileSync(reportPath, 'utf8')) : {};
+    const { previousAttempts = [], ...lastAttempt } = previous;
+    fs.writeFileSync(reportPath, JSON.stringify({
+      ...previous,
+      releasedAt: new Date().toISOString(),
+      draft: false,
+      review: { pass: true, issues: [] },
+      imageFailures: data._imageFailures ?? [],
+      previousAttempts: [...previousAttempts, lastAttempt],
+    }, null, 2) + '\n');
+    released.push({ slug, outPath, missingImages: (data._imageFailures ?? []).map(f => f.image) });
+  }
+  console.log(JSON.stringify({ released, held }, null, 2));
+  return { released, held };
+}
+
 // ─── Main ───────────────────────────────────────────────────────────────────
 async function main() {
+  if (RELEASING) {
+    if (!fs.existsSync(CSV_PATH)) throw new Error('keywords.csv not found');
+    const rows = loadCsvAsObjects();
+    const { released, held } = await releaseDrafts(rows);
+    if (!released.length) { console.error('Nothing released.'); if (held.length) process.exitCode = 1; return; }
+    writeCsvFromObjects(rows);
+    relinkAll();
+    execSync('pnpm --filter marketing build', { cwd: ROOT, stdio: 'inherit' });
+    for (const { slug, missingImages } of released) {
+      if (missingImages.length) console.warn('Released ' + slug + ' without image(s) ' + missingImages.join(', ') + '; backfill later.');
+    }
+    return;
+  }
   if (RETRY_REVIEW && !ONLY_SLUG) throw new Error('--retry-review requires --slug; review topics are never retried automatically.');
   if (!Number.isInteger(COUNT) || COUNT < 1 || COUNT > 10 || TYPES.some(t => !CONTENT_DIRS[t])) throw new Error('Invalid count or page type');
   if (!fs.existsSync(CSV_PATH)) throw new Error('keywords.csv not found');
@@ -828,12 +927,13 @@ async function main() {
         : data._review,
       textRepair: data?._textRepair ? { status: data._textRepair.status, issues: data._textRepair.issues, review: data._textRepair.review } : null,
       sources: data?.sources ?? [], imageModel: IMAGE_MODEL, imageReviews: data?._imageReviews ?? [],
+      imageFailures: data?._imageFailures ?? [],
       imageSettings: { width: 1024, height: 1024, quality: 'low' }, usage: costs.slice(costStart),
       note: 'Token estimates exclude web-search charges, images, tax and provider markups.',
       ...(previous ? { previousAttempts: [...previousAttempts, lastAttempt] } : {}),
     }, null, 2) + '\n');
     if (outPath) {
-      generated.push({ page, outPath, draft: result.status === 'review' });
+      generated.push({ page, outPath, draft: result.status === 'review', images: data?._imageFailures ?? [] });
     }
   }
   console.log(JSON.stringify({ tokens: USAGE, costs }, null, 2));
@@ -849,6 +949,9 @@ async function main() {
   if (generated.length) relinkAll();
   execSync('pnpm --filter marketing build', { cwd: ROOT, stdio: 'inherit' });
   const needsReview = batch.some(page => rows.some(row => row.slug === page.slug && row.status === 'review'));
+  for (const { page, images } of generated) {
+    if (images?.length) console.warn('Published ' + page.slug + ' without image(s) ' + images.map(i => i.image).join(', ') + '; backfill with --slug ' + page.slug);
+  }
   if (NO_GIT) { console.log('Local files saved; no commit or push.'); if (needsReview) process.exitCode = 1; return; }
   git('add apps/marketing/src/content apps/marketing/src/data/keywords.csv content-reviews');
   for (const dir of ['blog', 'tools']) if (fs.existsSync(path.join(PUBLIC_BASE, dir))) git('add apps/marketing/public/' + dir);
