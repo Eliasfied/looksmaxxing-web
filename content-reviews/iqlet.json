@@ -1,0 +1,79 @@
+{
+  "slug": "iqlet",
+  "reviewedAt": "2026-10-23T18:50:11.761Z",
+  "draft": true,
+  "review": {
+    "pass": false,
+    "issues": [
+      "Unsupported product claim"
+    ]
+  },
+  "textRepair": {
+    "status": "rejected",
+    "issues": [
+      "Unsupported product claim"
+    ],
+    "review": {
+      "pass": false,
+      "issues": [
+        "Unsupported product claim"
+      ]
+    }
+  },
+  "sources": [
+    {
+      "title": "iqlet - Wiktionary, the free dictionary",
+      "url": "https://en.wiktionary.org/wiki/iqlet"
+    },
+    {
+      "title": "Urban Dictionary: iqlet",
+      "url": "https://www.urbandictionary.com/define.php?term=iqlet"
+    },
+    {
+      "title": "Iqlet Meaning Slang",
+      "url": "https://www.tiktok.com/discover/iqlet-meaning-slang"
+    },
+    {
+      "title": "Brainlet",
+      "url": "https://knowyourmeme.com/memes/brainlet"
+    },
+    {
+      "title": "Brainlet",
+      "url": "https://digitalcultures.net/memes/brainlet/"
+    }
+  ],
+  "imageModel": "openai/gpt-image-2.5/flare/text-to-image",
+  "imageReviews": [],
+  "imageSettings": {
+    "width": 1024,
+    "height": 1024,
+    "quality": "low"
+  },
+  "usage": [
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "research",
+      "input": 40892,
+      "output": 2421,
+      "estimatedUsd": 0.105994,
+      "searches": 3
+    },
+    {
+      "model": "claude-opus-5-5",
+      "stage": "article",
+      "input": 24930,
+      "output": 3971,
+      "estimatedUsd": 0.17914,
+      "searches": 0
+    },
+    {
+      "model": "claude-opus-5-5",
+      "stage": "article-repair",
+      "input": 3545,
+      "output": 2297,
+      "estimatedUsd": 0.06012,
+      "searches": 0
+    }
+  ],
+  "note": "Token estimates exclude web-search charges, images, tax and provider markups."
+}
