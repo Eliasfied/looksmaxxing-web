@@ -1,0 +1,14 @@
+{
+  "key": "{\"brief\":{\"prompt\":\"A young woman with no makeup sitting by a bright window, looking straight into a phone propped on a shelf at her exact eye height, with her chin level and a relaxed, neutral expression. Natural daylight, shot from the side so the level phone and level head position are clearly visible.\",\"alt\":\"Woman taking a straight-on photo at eye level with her head level to check her canthal tilt\",\"purpose\":\"Demonstrates the photo setup from the measuring section: camera at eye height and a level head, since a downward head tilt exaggerates a positive tilt.\",\"article\":\"canthal-tilt-female\",\"position\":2},\"model\":\"openai/gpt-image-2.5/flare/text-to-image\"}",
+  "attempts": [
+    {
+      "status": "passed",
+      "prompt": "A young woman with no makeup sitting by a bright window, looking straight into a phone propped on a shelf at her exact eye height, with her chin level and a relaxed, neutral expression. Natural daylight, shot from the side so the level phone and level head position are clearly visible.",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "Side profile of a young woman with no visible makeup and her hair in a loose bun, sitting by a bright window and looking straight ahead at a smartphone propped on a shelf at her eye height, with her chin level and a neutral expression."
+      }
+    }
+  ]
+}

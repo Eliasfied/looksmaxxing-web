@@ -1,0 +1,153 @@
+{
+  "slug": "canthal-tilt-female",
+  "reviewedAt": "2026-10-24T17:47:31.217Z",
+  "draft": false,
+  "review": {
+    "pass": true,
+    "issues": []
+  },
+  "textRepair": null,
+  "sources": [
+    {
+      "title": "Is medial canthal tilt a powerful cue for facial attractiveness? - PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17237692/"
+    },
+    {
+      "title": "Using Artificial Intelligence to Quantify Sexual Dimorphism in Aesthetic Faces: Analysis of 100 Facial Points in 42 Caucasian Celebrities - PMC",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10335162/"
+    },
+    {
+      "title": "Understanding the impact of eyebrow and lateral canthal height on the perception of character traits: A rating-based analysis of 2081 participants - ScienceDirect",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S1748681525002086"
+    },
+    {
+      "title": "What Are Hunter Eyes? Meaning, Shape and Anatomy",
+      "url": "https://trymaxxing.com/blogs/news/hunter-eyes"
+    },
+    {
+      "title": "The Influence of Sagittal Head Tilt on Periorbital Appearance: Implications for Clinical Photography and the Evaluation of Postoperative Results",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8830303/"
+    },
+    {
+      "title": "What is an Eye canthal Tilt? Why is a positive tilt more attractive than a negative tilt among females?",
+      "url": "https://pinkmirror.com/blog/what-is-an-eye-canthal-tilt-why-is-a-positive-tilt-more-attractive-than-a-negative-tilt-among-females/"
+    },
+    {
+      "title": "Canthal Tilt: Negative vs Positive and How to Measure It",
+      "url": "https://lookist.app/blog/canthal-tilt"
+    },
+    {
+      "title": "Canthal Tilt Calculator: Positive or Negative? Free Test",
+      "url": "https://attractivenesstest.co/tools/canthal-tilt"
+    },
+    {
+      "title": "Canthal Tilt: What's Normal and What's Attractive",
+      "url": "https://looksmaxxing.com/canthal-tilt/"
+    },
+    {
+      "title": "Canthal Tilt Test - Free AI Canthal Tilt Calculator",
+      "url": "https://www.bodyfatestimator.ai/canthal-tilt-test"
+    },
+    {
+      "title": "TikTok Says Your Canthal Tilt Determines How Attractive You Are: Beauty Pros Uncover the Grain of Truth In the Claim",
+      "url": "https://www.yahoo.com/lifestyle/tiktok-says-canthal-tilt-determines-142345762.html"
+    }
+  ],
+  "imageModel": "openai/gpt-image-2.5/flare/text-to-image",
+  "imageReviews": [
+    {
+      "image": "/blog/canthal-tilt-female/2.webp",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "Side profile of a young woman with no visible makeup and her hair in a loose bun, sitting by a bright window and looking straight ahead at a smartphone propped on a shelf at her eye height, with her chin level and a neutral expression."
+      }
+    },
+    {
+      "image": "/blog/canthal-tilt-female/3.webp",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "Illustrated close-up of a green eye with a thin black winged liner flicking up toward the tail of a softly lifted brow, with upper lashes fanned upward and outward; beside it on a light marble surface lie a black eyeliner pencil, a brown brow pencil with a spoolie end, and a separate spoolie brush."
+      }
+    }
+  ],
+  "imageFailures": [
+    {
+      "image": 1,
+      "error": "Image 1 failed validation: Image failed editorial review: [\"Brief asked for three pairs of eyes (upturned, level, downturned) in a soft editorial illustration; the image instead shows three near-identical full-face, photorealistic portraits of a woman, not an illustration focused on eyes.\",\"The canthal tilt differences are barely perceptible or absent: all three faces have essentially the same neutral-to-slightly-different eye angle, so the image fails to illustrate positive, neutral and negative tilt categories at a glance.\",\"The three panels appear to be the same face with minimal variation, which could mislead readers into thinking subtle or no differences define the categories; no clear upturned vs. downturned contrast is visible.\",\"Composition (full faces, hair, neck, shoulders) distracts from the eye shape focus and does not match the 'pairs of eyes side by side' brief.\"]"
+    }
+  ],
+  "imageSettings": {
+    "width": 1024,
+    "height": 1024,
+    "quality": "low"
+  },
+  "usage": [
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "research",
+      "input": 29928,
+      "output": 4232,
+      "estimatedUsd": 0.102176,
+      "searches": 3
+    },
+    {
+      "model": "claude-opus-5-5",
+      "stage": "article",
+      "input": 32945,
+      "output": 10573,
+      "estimatedUsd": 0.34324,
+      "searches": 0
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "text-review",
+      "input": 9128,
+      "output": 16,
+      "estimatedUsd": 0.018416,
+      "searches": 0
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "image-review",
+      "input": 1726,
+      "output": 379,
+      "estimatedUsd": 0.007242,
+      "searches": 0
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "image-review",
+      "input": 1726,
+      "output": 370,
+      "estimatedUsd": 0.007152,
+      "searches": 0
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "image-review",
+      "input": 1722,
+      "output": 96,
+      "estimatedUsd": 0.004404,
+      "searches": 0
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "image-review",
+      "input": 1742,
+      "output": 413,
+      "estimatedUsd": 0.007614,
+      "searches": 0
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "image-review",
+      "input": 1742,
+      "output": 127,
+      "estimatedUsd": 0.004754,
+      "searches": 0
+    }
+  ],
+  "note": "Token estimates exclude web-search charges, images, tax and provider markups."
+}

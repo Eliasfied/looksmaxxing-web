@@ -1,0 +1,25 @@
+{
+  "key": "{\"brief\":{\"prompt\":\"Close-up of an illustrated woman's eye with a thin winged liner angled toward the tail of a softly lifted brow, with outer lashes brushed upward and outward. Beside it, a small flat lay of an eyeliner pencil, a brow pencil and a spoolie on a light marble surface, with no text.\",\"alt\":\"Eye makeup example with a thin winged liner angled toward the brow tail and outer lashes lifted\",\"purpose\":\"Illustrates the editorial styling suggestion that liner direction, outer-lash focus and brow tail position change the visual line around the eye without changing anatomy.\",\"article\":\"canthal-tilt-female\",\"position\":3},\"model\":\"openai/gpt-image-2.5/flare/text-to-image\"}",
+  "attempts": [
+    {
+      "status": "rejected",
+      "prompt": "Close-up of an illustrated woman's eye with a thin winged liner angled toward the tail of a softly lifted brow, with outer lashes brushed upward and outward. Beside it, a small flat lay of an eyeliner pencil, a brow pencil and a spoolie on a light marble surface, with no text.",
+      "issues": [
+        "Brief specifies an 'illustrated' eye, but the image is a photorealistic close-up, not an illustration.",
+        "Brief calls for a 'softly lifted brow', but the brow is a fairly flat/gently arched shape with a long tail sweeping downward at the end; the liner wing is not clearly angled toward the brow tail, so the key concept (liner direction aligning with brow tail position) is not clearly illustrated.",
+        "Outer lashes are not clearly brushed upward and outward; lashes appear fanned/curved without a distinct lifted outer emphasis.",
+        "Flat lay includes a second black pencil-like item plus a brow pencil with an attached spoolie and a separate spoolie, so the set is not clearly 'an eyeliner pencil, a brow pencil and a spoolie' as specified (duplicate spoolie, ambiguous items).",
+        "Eyeliner wing is relatively thick/dramatic rather than the 'thin winged liner' requested."
+      ]
+    },
+    {
+      "status": "passed",
+      "prompt": "Close-up of an illustrated woman's eye with a thin winged liner angled toward the tail of a softly lifted brow, with outer lashes brushed upward and outward. Beside it, a small flat lay of an eyeliner pencil, a brow pencil and a spoolie on a light marble surface, with no text.\nEDITORIAL CORRECTION: Regenerate a simpler, accurate illustration of the same purpose. Fix these defects from the rejected image: [\"Brief specifies an 'illustrated' eye, but the image is a photorealistic close-up, not an illustration.\",\"Brief calls for a 'softly lifted brow', but the brow is a fairly flat/gently arched shape with a long tail sweeping downward at the end; the liner wing is not clearly angled toward the brow tail, so the key concept (liner direction aligning with brow tail position) is not clearly illustrated.\",\"Outer lashes are not clearly brushed upward and outward; lashes appear fanned/curved without a distinct lifted outer emphasis.\",\"Flat lay includes a second black pencil-like item plus a brow pencil with an attached spoolie and a separate spoolie, so the set is not clearly 'an eyeliner pencil, a brow pencil and a spoolie' as specified (duplicate spoolie, ambiguous items).\",\"Eyeliner wing is relatively thick/dramatic rather than the 'thin winged liner' requested.\"]. Avoid text, labels and complex comparative diagrams if they caused the defect.",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "Illustrated close-up of a green eye with a thin black winged liner flicking up toward the tail of a softly lifted brow, with upper lashes fanned upward and outward; beside it on a light marble surface lie a black eyeliner pencil, a brown brow pencil with a spoolie end, and a separate spoolie brush."
+      }
+    }
+  ]
+}

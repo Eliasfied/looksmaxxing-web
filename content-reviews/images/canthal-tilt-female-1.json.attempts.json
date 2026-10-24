@@ -1,0 +1,25 @@
+{
+  "key": "{\"brief\":{\"prompt\":\"Soft editorial illustration of three pairs of women's eyes arranged side by side on a warm neutral background: one gently upturned, one level, one gently downturned, each with natural lashes and simple brows. Clean, modern beauty-magazine style with no text, labels or measurement lines.\",\"alt\":\"Illustration of canthal tilt in female eyes: upturned, neutral and downturned eye shapes\",\"purpose\":\"Gives an at-a-glance overview of the three canthal tilt categories (positive, neutral, negative) introduced at the start of the article.\",\"article\":\"canthal-tilt-female\",\"position\":1},\"model\":\"openai/gpt-image-2.5/flare/text-to-image\"}",
+  "attempts": [
+    {
+      "status": "rejected",
+      "prompt": "Soft editorial illustration of three pairs of women's eyes arranged side by side on a warm neutral background: one gently upturned, one level, one gently downturned, each with natural lashes and simple brows. Clean, modern beauty-magazine style with no text, labels or measurement lines.",
+      "issues": [
+        "The three eyes do not clearly illustrate distinct canthal tilt categories. The left eye shows only a slight upward tilt, the middle eye is nearly level with a very faint upward angle, and the right eye is only marginally downturned. The differences are too subtle to convey positive, neutral and negative tilt at a glance, so the article's purpose is not met.",
+        "The eyes are not arranged as the brief specifies (upturned, level, downturned). They look like near-identical copies, with the first eye mainly distinguished by a winged liner, which adds a makeup variable that confuses the comparison.",
+        "The right eye appears to have a heavier upper lid or partial hooding, so the lid shape differs from the other two. This conflates lid shape with tilt and could mislead readers about what canthal tilt is.",
+        "The eyes are shown as floating isolated crops with soft vignetted skin edges. This looks slightly unnatural and offers no facial context or reference axis to help readers perceive tilt."
+      ]
+    },
+    {
+      "status": "rejected",
+      "prompt": "Soft editorial illustration of three pairs of women's eyes arranged side by side on a warm neutral background: one gently upturned, one level, one gently downturned, each with natural lashes and simple brows. Clean, modern beauty-magazine style with no text, labels or measurement lines.\nEDITORIAL CORRECTION: Regenerate a simpler, accurate illustration of the same purpose. Fix these defects from the rejected image: [\"The three eyes do not clearly illustrate distinct canthal tilt categories. The left eye shows only a slight upward tilt, the middle eye is nearly level with a very faint upward angle, and the right eye is only marginally downturned. The differences are too subtle to convey positive, neutral and negative tilt at a glance, so the article's purpose is not met.\",\"The eyes are not arranged as the brief specifies (upturned, level, downturned). They look like near-identical copies, with the first eye mainly distinguished by a winged liner, which adds a makeup variable that confuses the comparison.\",\"The right eye appears to have a heavier upper lid or partial hooding, so the lid shape differs from the other two. This conflates lid shape with tilt and could mislead readers about what canthal tilt is.\",\"The eyes are shown as floating isolated crops with soft vignetted skin edges. This looks slightly unnatural and offers no facial context or reference axis to help readers perceive tilt.\"]. Avoid text, labels and complex comparative diagrams if they caused the defect.",
+      "issues": [
+        "Brief asked for three pairs of eyes (upturned, level, downturned) in a soft editorial illustration; the image instead shows three near-identical full-face, photorealistic portraits of a woman, not an illustration focused on eyes.",
+        "The canthal tilt differences are barely perceptible or absent: all three faces have essentially the same neutral-to-slightly-different eye angle, so the image fails to illustrate positive, neutral and negative tilt categories at a glance.",
+        "The three panels appear to be the same face with minimal variation, which could mislead readers into thinking subtle or no differences define the categories; no clear upturned vs. downturned contrast is visible.",
+        "Composition (full faces, hair, neck, shoulders) distracts from the eye shape focus and does not match the 'pairs of eyes side by side' brief."
+      ]
+    }
+  ]
+}
