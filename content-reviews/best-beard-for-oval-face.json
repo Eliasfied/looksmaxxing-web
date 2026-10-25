@@ -1,0 +1,152 @@
+{
+  "slug": "best-beard-for-oval-face",
+  "reviewedAt": "2026-10-25T18:03:15.105Z",
+  "draft": false,
+  "review": {
+    "pass": true,
+    "issues": []
+  },
+  "textRepair": null,
+  "sources": [
+    {
+      "title": "Oval Face Shape Guide (2026): Hair, Glasses & Styling",
+      "url": "https://www.detect-faceshape.com/oval-face-shape/"
+    },
+    {
+      "title": "Face categorizing method, face categorizing apparatus, categorization map, face categorizing program, and computer-readable medium storing program",
+      "url": "https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/8351711"
+    },
+    {
+      "title": "Oval Face Shape: Free Test, Are You Really Oval? (2026)",
+      "url": "https://oblongfaceshape.com/oval-face-shape/"
+    },
+    {
+      "title": "Oval Face Shape: Definition, Exact Ratio, and How to Tell",
+      "url": "https://ovalfaceshape.com/oval-face-shape/"
+    },
+    {
+      "title": "Beard styles for an oval face: what keeps the balance",
+      "url": "https://becometen.com/guides/beard-for-oval-face"
+    },
+    {
+      "title": "Best Beard for Oval Face: 2026 Styles That Suit You",
+      "url": "https://ovalfaceshape.com/best-beard-shape-for-oval-face/"
+    },
+    {
+      "title": "7 Best Beard Styles for Oval Faces (And What to Avoid)",
+      "url": "https://thebeardclub.com/blogs/beard-culture/beard-styles-for-oval-faces"
+    },
+    {
+      "title": "Best Beard Styles for Your Face Shape: Men's Guide",
+      "url": "https://mensfashioner.com/articles/best-beard-styles-for-face-shape-men"
+    },
+    {
+      "title": "Beard Styles for Men",
+      "url": "https://cremocompany.com/blogs/blog/beard-styles-cremos-complete-guide"
+    },
+    {
+      "title": "Best Facial Hair Styles For Oval Faces: Discover Your Best Look",
+      "url": "https://beardbeasts.com/blogs/news/facial-hair-styles-for-oval-faces"
+    },
+    {
+      "title": "Best Beard Styles for Oval Faces: The Most Versatile Face Shape",
+      "url": "https://beardsorcery.com/book-of-beardcraft/best-beard-styles-for-oval-faces-the-most-versatile-face-shape"
+    },
+    {
+      "title": "Beard Types For Face Shapes: The Complete Styling Guide (Round, Square, Oval, Long, Heart, Diamond)",
+      "url": "https://grizzlygco.com/the-grizzly-blog/beard-styling-for-your-face-shape"
+    }
+  ],
+  "imageModel": "openai/gpt-image-2.5/flare/text-to-image",
+  "imageReviews": [
+    {
+      "image": "/blog/best-beard-for-oval-face/1.webp",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "Front-facing head-and-shoulders portrait of a dark-haired man with an oval face and a neatly groomed short boxed beard, wearing a black crewneck sweater against a plain warm-gray studio background with soft, even lighting."
+      }
+    },
+    {
+      "image": "/blog/best-beard-for-oval-face/2.webp",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "Illustrated 2x2 grid of the same oval-faced, dark-haired man in a gray t-shirt wearing four beard styles, labeled heavy stubble, short boxed beard, controlled full beard and Van Dyke, on a light neutral background."
+      }
+    },
+    {
+      "image": "/blog/best-beard-for-oval-face/3.webp",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "Barber using a black trimmer to define the neckline of a client's short beard in a bright barbershop, with the jawline and neck edge in focus"
+      }
+    }
+  ],
+  "imageFailures": [],
+  "imageSettings": {
+    "width": 1024,
+    "height": 1024,
+    "quality": "low"
+  },
+  "usage": [
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "research",
+      "input": 32314,
+      "output": 3303,
+      "estimatedUsd": 0.097658,
+      "searches": 3
+    },
+    {
+      "model": "claude-opus-5-5",
+      "stage": "article",
+      "input": 34593,
+      "output": 8602,
+      "estimatedUsd": 0.310412,
+      "searches": 0
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "text-review",
+      "input": 9739,
+      "output": 16,
+      "estimatedUsd": 0.019638,
+      "searches": 0
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "image-review",
+      "input": 1708,
+      "output": 98,
+      "estimatedUsd": 0.004396,
+      "searches": 0
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "image-review",
+      "input": 1734,
+      "output": 306,
+      "estimatedUsd": 0.006528,
+      "searches": 0
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "image-review",
+      "input": 1734,
+      "output": 105,
+      "estimatedUsd": 0.004518,
+      "searches": 0
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "image-review",
+      "input": 1702,
+      "output": 67,
+      "estimatedUsd": 0.004074,
+      "searches": 0
+    }
+  ],
+  "note": "Token estimates exclude web-search charges, images, tax and provider markups."
+}

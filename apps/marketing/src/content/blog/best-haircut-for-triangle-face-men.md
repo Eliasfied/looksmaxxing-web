@@ -9,7 +9,7 @@ heroImage: /blog/best-haircut-for-triangle-face-men/1.webp
 heroImageAlt: Best haircut for triangle face men shown on an illustrated man with a textured quiff
 tags: [haircuts, face shape, triangle face, "men's grooming", looksmaxxing]
 readingTime: 9
-related: [best-haircut-for-oblong-face-men, best-haircut-for-square-face-men, best-haircut-for-oval-face-men]
+related: [best-haircut-for-oblong-face-men, best-haircut-for-oval-face-men, best-haircut-for-square-face-men]
 faq:
   - q: What is the best haircut for a triangle face shape in men?
     a: The best options add volume on top and keep some width at the temples, such as a textured quiff, a side part with medium-length sides, or messy layered medium hair. These build up the narrower upper face so it balances the wider jaw.

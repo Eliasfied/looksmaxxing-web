@@ -1,0 +1,23 @@
+{
+  "key": "{\"brief\":{\"prompt\":\"A clean illustrated grid of four side-by-side head-and-shoulders drawings of the same generic, non-realistic oval-faced man, each wearing a different beard: heavy stubble, short boxed beard, controlled full beard and Van Dyke. Each panel has a small, simple text label with the style name on a light neutral background.\",\"alt\":\"Illustrated comparison of heavy stubble, short boxed beard, full beard and Van Dyke on an oval face\",\"purpose\":\"Shows the core beard styles for oval faces side by side so readers can compare their coverage and outline.\",\"article\":\"best-beard-for-oval-face\",\"position\":2},\"model\":\"openai/gpt-image-2.5/flare/text-to-image\"}",
+  "attempts": [
+    {
+      "status": "rejected",
+      "prompt": "A clean illustrated grid of four side-by-side head-and-shoulders drawings of the same generic, non-realistic oval-faced man, each wearing a different beard: heavy stubble, short boxed beard, controlled full beard and Van Dyke. Each panel has a small, simple text label with the style name on a light neutral background.",
+      "issues": [
+        "Brief specifies 'clean illustrated', 'drawings' of a 'non-realistic' generic man; the image is a photorealistic render that looks like real photographs of a person, not an illustration.",
+        "The face reads as a realistic individual rather than a deliberately generic oval-faced figure, which undercuts the stated style and could be mistaken for stock photography of a real man.",
+        "Because the images are photorealistic, subtle differences (e.g. slight face shape/jawline shifts and skin tone changes between panels) make it unclear whether only the beard varies, weakening the like-for-like comparison."
+      ]
+    },
+    {
+      "status": "passed",
+      "prompt": "A clean illustrated grid of four side-by-side head-and-shoulders drawings of the same generic, non-realistic oval-faced man, each wearing a different beard: heavy stubble, short boxed beard, controlled full beard and Van Dyke. Each panel has a small, simple text label with the style name on a light neutral background.\nEDITORIAL CORRECTION: Regenerate a simpler, accurate illustration of the same purpose. Fix these defects from the rejected image: [\"Brief specifies 'clean illustrated', 'drawings' of a 'non-realistic' generic man; the image is a photorealistic render that looks like real photographs of a person, not an illustration.\",\"The face reads as a realistic individual rather than a deliberately generic oval-faced figure, which undercuts the stated style and could be mistaken for stock photography of a real man.\",\"Because the images are photorealistic, subtle differences (e.g. slight face shape/jawline shifts and skin tone changes between panels) make it unclear whether only the beard varies, weakening the like-for-like comparison.\"]. Avoid text, labels and complex comparative diagrams if they caused the defect.",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "Illustrated 2x2 grid of the same oval-faced, dark-haired man in a gray t-shirt wearing four beard styles, labeled heavy stubble, short boxed beard, controlled full beard and Van Dyke, on a light neutral background."
+      }
+    }
+  ]
+}

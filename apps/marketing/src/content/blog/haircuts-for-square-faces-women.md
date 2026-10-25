@@ -9,7 +9,7 @@ heroImage: "/blog/haircuts-for-square-faces-women/1.webp"
 heroImageAlt: "Smiling woman with a square face and defined jaw wearing a soft, shoulder-length layered brunette haircut with side-swept bangs, seated in a bright salon with plants and a round mirror in the background"
 tags: ["women's haircuts", "square face shape", "bangs and fringe", "face shape", "salon tips"]
 readingTime: 9
-related: [haircuts-for-round-faces-women, low-maintenance-hairstyles-for-women, female-jawline-guide]
+related: [haircuts-for-round-faces-women, low-maintenance-hairstyles-for-women, best-beard-for-oval-face]
 faq:
   - q: "What is the most flattering haircut for a square face for women?"
     a: "There is no single best cut. Side-swept bangs come up most often: stylists interviewed by The Everygirl called them the best option because they shorten the forehead and soften the angles. Soft layers, layered bobs and face-framing pieces with a side part are also common recommendations."

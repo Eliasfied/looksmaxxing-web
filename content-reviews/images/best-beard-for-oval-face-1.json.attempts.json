@@ -1,0 +1,14 @@
+{
+  "key": "{\"brief\":{\"prompt\":\"A front-facing portrait of an adult man with an oval face shape and a neatly groomed short boxed beard, set against a plain warm-gray studio background with soft, even lighting. The framing is head and shoulders, with the clean cheek line and neckline clearly visible.\",\"alt\":\"Man with an oval face wearing a neat short boxed beard, an example of the best beard style for an oval face\",\"purpose\":\"Introduces the topic at a glance with a balanced, well-groomed beard on an oval face.\",\"article\":\"best-beard-for-oval-face\",\"position\":1},\"model\":\"openai/gpt-image-2.5/flare/text-to-image\"}",
+  "attempts": [
+    {
+      "status": "passed",
+      "prompt": "A front-facing portrait of an adult man with an oval face shape and a neatly groomed short boxed beard, set against a plain warm-gray studio background with soft, even lighting. The framing is head and shoulders, with the clean cheek line and neckline clearly visible.",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "Front-facing head-and-shoulders portrait of a dark-haired man with an oval face and a neatly groomed short boxed beard, wearing a black crewneck sweater against a plain warm-gray studio background with soft, even lighting."
+      }
+    }
+  ]
+}
