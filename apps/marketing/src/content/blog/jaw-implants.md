@@ -22,6 +22,7 @@ faq:
     a: Silicone implants can generally be removed, though the tissue pocket and surrounding anatomy may have changed, so the face may not return to how it looked before. Porous polyethylene implants are much harder to remove because tissue grows into the material. Removal is another operation with its own risks.
   - q: Is there a non-surgical alternative to jaw implants?
     a: Nothing non-surgical adds bone. But much of how defined a jaw looks depends on body fat under the chin and along the jaw, posture, and facial hair, and those can change a lot without any medical risk. That is where we recommend starting.
+stance: "Jaw implants are cosmetic surgery. They carry real risks, including infection that can force removal, implants shifting out of place, nerve damage to the lower lip and chin, bone loss under the implant, and further operations to fix any of these. Outside of reconstruction after injury or illness, **we don't recommend them.** If a sharper jaw is your goal, start with the non-surgical options further down this page."
 medical_procedure: true
 draft: false
 ---
@@ -29,8 +30,6 @@ draft: false
 Jaw implants come up constantly in looksmaxxing discussions as the "permanent fix" for a narrow or soft jawline. They are a real procedure with a real effect. They are also cosmetic surgery: a foreign body placed on the jawbone, with risks that can mean more surgery later.
 
 This guide covers what jaw implants are, how the surgery works, what can go wrong, and what to try first.
-
-> **Where we stand:** Jaw implants are cosmetic surgery. They carry real risks, including infection that can force removal, implants shifting out of place, nerve damage to the lower lip and chin, bone loss under the implant, and further operations to fix any of these. Outside of reconstruction after injury or illness, **we don't recommend them.** If a sharper jaw is your goal, start with the non-surgical options further down this page.
 
 ## What Are Jaw Implants?
 

@@ -22,6 +22,7 @@ faq:
     a: The implant sits just above the eye socket. Early swelling commonly affects how the eyes open and feel. Any persistent change in vision or eyelid function after recovery needs to be reported to the surgeon immediately.
   - q: Are fillers a safer alternative for the brow ridge?
     a: Not necessarily. The forehead and the area between the eyebrows are among the highest-risk zones for filler, because injecting into a blood vessel there can block blood supply to the skin and, rarely, to the eye. Fillers in this area should only ever be considered with an experienced medical injector, and we don't recommend them for looks.
+stance: "Brow ridge implants are cosmetic surgery next to the eyes. They carry real risks, including lasting numbness of the forehead and scalp, a scar across the top of the head, infection, implants shifting and further operations to correct any of these. Outside of reconstruction after injury, **we don't recommend them.** If your goal is a stronger-looking brow, start with the non-surgical options further down this page."
 medical_procedure: true
 draft: false
 ---
@@ -29,8 +30,6 @@ draft: false
 The brow ridge gets a lot of attention in looksmaxxing as a marker of a "masculine" upper face, and brow ridge implants are sold as the way to build one. They are a real procedure. They are also cosmetic surgery right above the eyes, often done through an incision across the whole top of the scalp, with risks that can stay permanently.
 
 This guide covers what the procedure involves, what can go wrong, what it costs, and what to try first.
-
-> **Where we stand:** Brow ridge implants are cosmetic surgery next to the eyes. They carry real risks, including lasting numbness of the forehead and scalp, a scar across the top of the head, infection, implants shifting and further operations to correct any of these. Outside of reconstruction after injury, **we don't recommend them.** If your goal is a stronger-looking brow, start with the non-surgical options further down this page.
 
 ## What Are Brow Ridge Implants?
 

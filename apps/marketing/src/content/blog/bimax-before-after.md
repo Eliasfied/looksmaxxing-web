@@ -22,6 +22,7 @@ faq:
     a: Bimax is an orthognathic surgery for skeletal problems that orthodontics cannot fix on its own, such as a severely misaligned bite or a restricted airway. It changes the face as well, but that is a side effect of the functional correction, not a reason to have major jaw surgery. We don't recommend it for appearance alone.
   - q: What is the difference between bimax and double jaw surgery?
     a: "They refer to the same procedure. \"Double jaw surgery\" is the colloquial term for bimaxillary osteotomy, which moves both the upper jaw (maxilla) and lower jaw (mandible). The terms are interchangeable, though surgeons typically use the clinical terminology in formal contexts."
+stance: "Bimax is major surgery. It cuts and moves bone, and some of its risks are permanent, including lasting numbness of the lower lip and chin. It exists to fix real functional problems like a severely misaligned bite or a restricted airway. **We don't recommend it for appearance alone.** If looks are your main goal, start with the non-surgical options further down this page, and if a doctor has raised bimax for a functional reason, talk it through with a board-certified oral and maxillofacial surgeon."
 medical_procedure: true
 draft: false
 ---
@@ -29,8 +30,6 @@ draft: false
 Bimaxillary osteotomy, almost always shortened to "bimax," is one of the most significant operations performed on the face. It cuts and moves both the upper jaw (maxilla) and the lower jaw (mandible) at once, which is why before and after photos can look striking, sometimes almost like different people. That is also why they draw so much attention in looksmaxxing spaces.
 
 The photos leave out most of what matters: why the surgery was done, what the recovery involved, and what can go wrong. This article covers what bimax actually changes, the risks that come with it, and how to read before and after comparisons without being misled.
-
-> **Where we stand:** Bimax is major surgery. It cuts and moves bone, and some of its risks are permanent, including lasting numbness of the lower lip and chin. It exists to fix real functional problems like a severely misaligned bite or a restricted airway. **We don't recommend it for appearance alone.** If looks are your main goal, start with the non-surgical options further down this page, and if a doctor has raised bimax for a functional reason, talk it through with a board-certified oral and maxillofacial surgeon.
 
 ## What Bimax Surgery Actually Does
 

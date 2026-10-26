@@ -22,6 +22,7 @@ faq:
     a: Usually not. Most surgeon quotes cover the surgical procedure itself. Pre-surgical orthodontics, which can last one to two years and cost $4,000 to $8,000 separately, is typically billed by an orthodontist. Always ask for an itemized estimate so you understand exactly what each quote includes.
   - q: How long does recovery from bimax surgery take?
     a: Most patients follow a liquid or soft diet for four to six weeks and take two to four weeks off work depending on their job. Swelling can persist for three to six months, and final bony healing typically takes six to twelve months. Post-surgical orthodontic treatment continues for several months after the procedure.
+stance: "Bimax is major surgery. It cuts and moves bone, and some of its risks are permanent, including lasting numbness of the lower lip and chin. It exists to fix real functional problems like a severely misaligned bite or a restricted airway. **We don't recommend it for appearance alone,** at any price. If a doctor has raised bimax for a functional reason, talk it through with a board-certified oral and maxillofacial surgeon who has reviewed your imaging."
 medical_procedure: true
 draft: false
 ---
@@ -29,8 +30,6 @@ draft: false
 Bimaxillary osteotomy, commonly called bimax surgery, is one of the most structurally significant operations in facial surgery. It repositions both the upper jaw (maxilla) and lower jaw (mandible) at once, changing the way your teeth, airway and facial profile relate to each other. It is expensive, and the price on the quote is only part of what it costs.
 
 This guide breaks down the financial cost, explains what drives the variation, and covers the cost that no quote prices in: the risk.
-
-> **Where we stand:** Bimax is major surgery. It cuts and moves bone, and some of its risks are permanent, including lasting numbness of the lower lip and chin. It exists to fix real functional problems like a severely misaligned bite or a restricted airway. **We don't recommend it for appearance alone,** at any price. If a doctor has raised bimax for a functional reason, talk it through with a board-certified oral and maxillofacial surgeon who has reviewed your imaging.
 
 ## What Is Bimax Surgery?
 

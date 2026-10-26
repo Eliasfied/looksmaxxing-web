@@ -2,6 +2,7 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { getCollection, render } from 'astro:content';
 import ToolCTA from '../../components/ToolCTA.astro';
+import StanceNote from '../../components/StanceNote.astro';
 import ArticleBody from '../../components/ArticleBody.astro';
 
 const APP_URL = import.meta.env.PUBLIC_APP_URL ?? 'https://app.aura-looksmaxxing.com';
@@ -102,6 +103,8 @@ const breadcrumbSchema = {
         <img src={post.data.heroImage} alt={post.data.heroImageAlt ?? post.data.title} class="w-full h-full object-cover" width="1024" height="1024" />
       </div>
     )}
+
+    {post.data.stance && <StanceNote text={post.data.stance} />}
 
     <ArticleBody>
       <Content />

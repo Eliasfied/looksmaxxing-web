@@ -20,6 +20,7 @@ faq:
     a: Hyaluronic acid filler can be dissolved with an enzyme called hyaluronidase. That helps with lumps, asymmetry or an unwanted look, and it is the emergency treatment when filler blocks a blood vessel. It does not undo damage to tissue that has already happened, and the enzyme itself can cause reactions.
   - q: How much jaw filler do men typically use?
     a: Providers commonly use 1 to 4 syringes (1 mL each) for a male jaw, sometimes over several sessions. Higher volumes are a common route into the gradual escalation that many patients later regret.
+stance: "Jaw filler is a medical procedure, not a grooming product. It is temporary, it becomes a recurring yearly cost, and it carries real risks, most seriously filler entering a blood vessel and cutting off blood supply to the skin. Many men end up with more product than they intended. **We don't recommend it as a looksmaxxing shortcut.** If a sharper jaw is your goal, start with the non-surgical options further down this page. If you still decide to have it, go only to a doctor or medically qualified injector who can treat complications on the spot."
 medical_procedure: true
 draft: false
 ---
@@ -27,8 +28,6 @@ draft: false
 Jaw filler is one of the most searched cosmetic procedures for men, usually sold as the "non-surgical" way to a sharper jaw. It is non-surgical. It is still a medical procedure: a gel injected near the facial artery, repeated every year or so, with risks that range from lumps to blocked blood vessels.
 
 This guide covers what jaw filler actually changes, what it does not, what can go wrong, and why a lot of men end up regretting it.
-
-> **Where we stand:** Jaw filler is a medical procedure, not a grooming product. It is temporary, it becomes a recurring yearly cost, and it carries real risks, most seriously filler entering a blood vessel and cutting off blood supply to the skin. Many men end up with more product than they intended. **We don't recommend it as a looksmaxxing shortcut.** If a sharper jaw is your goal, start with the non-surgical options further down this page. If you still decide to have it, go only to a doctor or medically qualified injector who can treat complications on the spot.
 
 ## What Jaw Filler Actually Does
 

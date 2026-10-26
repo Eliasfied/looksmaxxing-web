@@ -24,6 +24,7 @@ faq:
     a: "The bone changes are intended to be long-lasting, but some degree of relapse, where bones drift partly back toward their original position, can occur, especially with large movements. Some side effects can be permanent too, most importantly lasting numbness of the lower lip or chin."
   - q: Will trimax surgery leave visible scars?
     a: The cuts are usually made through incisions inside the mouth, so most patients have no visible facial scars. In some cases small skin punctures are used to place screws, and these typically heal to be barely noticeable.
+stance: "Trimax is major surgery. It cuts and moves the upper jaw, the lower jaw and the chin, and some of its risks are permanent, including lasting numbness of the lower lip and chin. It exists to fix real functional problems like a severe bite problem or sleep apnea. **We don't recommend it for appearance alone.** If looks are your main goal, start with the non-surgical options further down this page, and if a doctor has raised it for a functional reason, talk it through with a board-certified oral and maxillofacial surgeon who has examined you."
 medical_procedure: true
 draft: false
 ---
@@ -31,8 +32,6 @@ draft: false
 If you've spent any time around looksmaxxing discussions, you've seen **trimax surgery** described as the heavy hitter of facial procedures, the answer to "forward growth" and a stronger jawline. That framing leaves out what it is: three separate bone cuts in one operation, a timeline of years, and risks that can stay with you for life.
 
 This guide explains what trimax involves, what can go wrong, who it is actually designed for, and what to try first if your goal is how you look.
-
-> **Where we stand:** Trimax is major surgery. It cuts and moves the upper jaw, the lower jaw and the chin, and some of its risks are permanent, including lasting numbness of the lower lip and chin. It exists to fix real functional problems like a severe bite problem or sleep apnea. **We don't recommend it for appearance alone.** If looks are your main goal, start with the non-surgical options further down this page, and if a doctor has raised it for a functional reason, talk it through with a board-certified oral and maxillofacial surgeon who has examined you.
 
 ## What Trimax Surgery Actually Is
 

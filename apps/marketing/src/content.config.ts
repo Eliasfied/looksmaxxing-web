@@ -28,6 +28,9 @@ const blog = defineCollection({
     // offers the tool only as a way to see non-surgical options, never as a
     // step towards the procedure.
     medical_procedure: z.boolean().default(false),
+    // The site's position on the procedure, rendered above the article.
+    // Supports **bold** and nothing else.
+    stance: z.string().optional(),
     draft: z.boolean().default(false),
   }),
 });

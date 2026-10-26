@@ -20,6 +20,7 @@ faq:
     a: If it is hyaluronic acid filler, it can usually be dissolved with an enzyme called hyaluronidase. That is another procedure, the enzyme can cause reactions of its own, and the area does not always return exactly to how it was. Non-HA fillers are much harder to remove.
   - q: Is chin filler worth it?
     a: For appearance, we don't think so. Besides migration, chin filler carries the risk of filler blocking a blood vessel, which can damage skin and needs emergency treatment. It is temporary, so the cost and the risk come back with every top-up. Body fat, posture and facial hair change the lower face without any of that.
+stance: "Chin filler is a medical procedure, not a grooming product. Beyond migration, it carries the risk of filler entering a blood vessel and cutting off blood supply to the skin, and because it wears off, the cost and the risk come back with every top-up. **We don't recommend it for appearance.** If you already have filler and something has changed, see a medically qualified injector rather than waiting."
 medical_procedure: true
 draft: false
 ---
@@ -27,8 +28,6 @@ draft: false
 Chin filler is marketed as a quick, non-surgical way to project the chin and sharpen the lower face. One question comes up again and again among people researching it, and among people who already have it: does chin filler migrate?
 
 Yes, it can. This article explains what migration means, why it happens, how to recognize it, what else can go wrong with chin filler, and what to do if you already have it.
-
-> **Where we stand:** Chin filler is a medical procedure, not a grooming product. Beyond migration, it carries the risk of filler entering a blood vessel and cutting off blood supply to the skin, and because it wears off, the cost and the risk come back with every top-up. **We don't recommend it for appearance.** If you already have filler and something has changed, see a medically qualified injector rather than waiting.
 
 ## What "Migration" Actually Means
 
