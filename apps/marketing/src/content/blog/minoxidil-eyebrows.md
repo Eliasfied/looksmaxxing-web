@@ -1,6 +1,6 @@
 ---
 title: "Minoxidil Eyebrows: Before, After, Side Effects"
-description: Curious about minoxidil for eyebrows? See real before and after results, how to apply it safely, and what the research actually says.
+description: "Real before and after results on brows, how to apply it without it migrating onto the forehead, the shedding phase, and the side effects."
 slug: minoxidil-eyebrows
 primary_keyword: minoxidil eyebrows before and after
 cluster: procedure

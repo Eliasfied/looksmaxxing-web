@@ -1,6 +1,6 @@
 ---
 title: "Haircuts for a Receding Hairline: 6 That Hide It"
-description: Discover the 6 best haircuts for a receding hairline. Practical advice on styles that minimize thinning and keep you looking sharp.
+description: "Six cuts that work with a receding hairline instead of fighting it, why the comb-forward backfires, and the exact words to use at the barber."
 slug: 6-haircuts-for-receding-hairline
 primary_keyword: haircuts for receding hairline
 cluster: listicle

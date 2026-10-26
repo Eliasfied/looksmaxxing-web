@@ -1,6 +1,6 @@
 ---
 title: "High vs Low Cheekbones: Which Reads Better?"
-description: Learn the real differences between high vs low cheekbones, how to identify your type, and what each means for your facial appearance and structure.
+description: "High and low cheekbones are about where the malar bone sits, not how sharp it looks. How to identify yours and what each does to the midface."
 slug: high-vs-low-cheekbones
 primary_keyword: high vs low cheekbones
 cluster: compare-cheekbones

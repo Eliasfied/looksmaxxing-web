@@ -1,6 +1,6 @@
 ---
 title: "Jawmaxxing: What Moves the Needle, What Doesn't"
-description: A complete jawmaxxing guide covering mewing, jaw exercises, filler, and surgery. Learn what actually works and what to skip.
+description: "Body fat does more for a jawline than every exercise combined. What genuinely works, in order of effect, and what to stop paying for."
 slug: jawline-improvement-guide
 primary_keyword: jawmaxxing
 cluster: jawline-improvement-guide

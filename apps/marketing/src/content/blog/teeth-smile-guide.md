@@ -1,6 +1,6 @@
 ---
 title: "Sharpened Canine Teeth: Trend or Permanent Damage?"
-description: Learn how sharpened canine teeth affect your smile width, palate shape, and overall facial aesthetics. Practical tips for a better smile.
+description: "Filing canines is permanent and the enamel does not grow back. What the trend involves, what dentists say, and the reversible alternatives."
 slug: teeth-smile-guide
 primary_keyword: sharpened canine teeth
 cluster: teeth-smile-guide

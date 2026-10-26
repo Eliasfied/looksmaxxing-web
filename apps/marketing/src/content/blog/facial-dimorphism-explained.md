@@ -1,6 +1,6 @@
 ---
 title: "Dimorphism: Why a Face Reads Male or Female"
-description: Understand dimorphism meaning, how sexual dimorphism shapes facial features, and what it means for attractiveness, health, and self-improvement.
+description: "Sexual dimorphism explains why some faces read male or female at a glance. The specific features involved, and what the preference research found."
 slug: facial-dimorphism-explained
 primary_keyword: dimorphism meaning
 cluster: facial-dimorphism

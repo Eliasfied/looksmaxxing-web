@@ -1,6 +1,6 @@
 ---
 title: "Best Haircut for a Square Face: 9 That Suit It"
-description: Find the best haircut for square face men. 9 flattering cuts, styles to avoid, and how to brief your barber so your jawline looks sharp and balanced.
+description: "Nine cuts that work with a strong jaw rather than competing with it, the styles that flatten the look, and how to ask for it clearly."
 slug: best-haircut-for-square-face-men
 primary_keyword: best haircut for square face men
 cluster: haircut-square

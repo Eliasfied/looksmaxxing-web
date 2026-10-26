@@ -1,6 +1,6 @@
 ---
 title: "How to Shave Without Cream: What to Use Instead"
-description: Learn how to shave without shaving cream safely using water, oils, conditioner, and more. Practical tips to avoid irritation and get a close shave.
+description: "Water alone is the worst option. What to use instead, from conditioner to oils, the grain rule that matters more than the product, and the aftercare."
 slug: how-to-shave-without-cream
 primary_keyword: shave without shaving cream
 cluster: how-to-grooming

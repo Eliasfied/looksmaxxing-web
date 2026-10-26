@@ -1,6 +1,6 @@
 ---
 title: "Best Glasses for a Diamond Face: Frames That Fit"
-description: "Find the best glasses for diamond face shape: which frame styles balance cheekbones, how to confirm your shape, and fit checks that matter more than trends."
+description: "Which frames balance prominent cheekbones, how to confirm you are actually diamond, and the fit checks that matter more than the shape rule."
 slug: "best-glasses-for-diamond-face"
 primary_keyword: "best glasses for diamond face shape"
 cluster: "glasses-diamond"

@@ -1,6 +1,6 @@
 ---
 title: "Best Glasses for a Round Face: Sharpen It Up"
-description: "The best glasses for round face shape add angles and fit the right width. Compare frame styles, what to avoid, and how to read frame measurements."
+description: "Angular frames add definition a round face lacks, but width matters more than shape. Which styles to try, which to skip, and how to size them."
 slug: "best-glasses-for-round-face"
 primary_keyword: "best glasses for round face shape"
 cluster: "glasses-round"

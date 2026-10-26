@@ -1,6 +1,6 @@
 ---
 title: "Looksmax for Women: The Guide Nobody Writes"
-description: A practical guide to looksmaxxing for women covering skincare, facial structure, body composition, and habits that genuinely move the needle.
+description: "Skincare, facial structure, body composition and the habits that genuinely move the needle, written for women rather than adapted from male advice."
 slug: looksmaxxing-for-women
 primary_keyword: looksmax women
 cluster: looksmaxxing-women

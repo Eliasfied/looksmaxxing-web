@@ -1,6 +1,6 @@
 ---
 title: "How to Get a Clean Shave Without Razor Burn"
-description: Learn how to get a clean shave with the right prep, technique, and aftercare. Practical steps for a smooth, irritation-free result every time.
+description: "Razor burn comes from technique and pressure, not the blade. The prep, the grain direction, the aftercare, and the mistakes that cause bumps."
 slug: how-to-get-clean-shave
 primary_keyword: how to get a clean shave
 cluster: how-to-grooming

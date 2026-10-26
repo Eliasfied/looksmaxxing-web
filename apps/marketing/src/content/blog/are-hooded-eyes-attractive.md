@@ -1,6 +1,6 @@
 ---
 title: "Are Hooded Eyes Attractive? The Honest Answer"
-description: Hooded eyes attractive or not? Discover what research and perception studies say, plus practical tips to enhance this common eye shape.
+description: "Hooded lids are one of the most common eye shapes, not a defect. What the research actually shows, and how to work with the lid instead of against it."
 slug: are-hooded-eyes-attractive
 primary_keyword: hooded eyes attractive
 cluster: why-attractive

@@ -1,6 +1,6 @@
 ---
 title: "Jaw Implants: Cost, Recovery and Real Risks"
-description: "Everything you need to know about jaw implants: types, surgery, recovery, risks, and how to decide if they're right for your face."
+description: "Implant types, the surgery itself, the recovery timeline, the complication rates, and the questions that separate a good consult from a sales pitch."
 slug: jaw-implants
 primary_keyword: jaw implants
 cluster: procedure

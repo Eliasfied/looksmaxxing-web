@@ -1,6 +1,6 @@
 ---
 title: "How to Get Low Set Eyebrows: What Actually Works"
-description: Learn how to get low set eyebrows through grooming, makeup, and cosmetic options. Practical, honest advice for changing your brow position and facial look.
+description: "Brow position is bone plus muscle tone. What grooming and shaping genuinely shift, what makeup fakes well, and what requires a procedure."
 slug: how-to-get-low-set-eyebrows
 primary_keyword: how to get low set eyebrows
 cluster: how-to-eyebrows

@@ -1,6 +1,6 @@
 ---
 title: "PSL Scale Calculator: Get Your PSL Score"
-description: "Find out your PSL score with Aura's AI-powered PSL scale calculator. Get a detailed face rating, jawline analysis, and personalized improvement tips."
+description: "Your PSL score from one photo, what the number actually describes, and the specific things worth changing first. The full report is $2.99 once."
 slug: psl-score-calculator
 primary_keyword: psl scale
 cluster: psl-score-calculator

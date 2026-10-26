@@ -1,6 +1,6 @@
 ---
 title: "Compact Midface: Why It Reads as Attractive"
-description: Learn what a compact midface is, how it affects facial aesthetics, and practical steps you can take to assess and improve your facial balance.
+description: "A compact midface means a short distance between eyes and mouth, and it reads as attractive for a measurable reason. How to assess yours."
 slug: compact-midface
 primary_keyword: compact midface
 cluster: anatomy

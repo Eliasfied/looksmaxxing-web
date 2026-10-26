@@ -1,6 +1,6 @@
 ---
 title: "How to Thicken Eyebrows for Men: What Works"
-description: "Learn how to thicken eyebrows men's style with proven methods, from grooming habits to serums and microblading. Practical, honest advice."
+description: "Brows thin from over-plucking, age and genetics, and each responds differently. What grooming fixes, what serums do, and when microblading makes sense."
 slug: how-to-thicken-eyebrows-men
 primary_keyword: how to thicken eyebrows men
 cluster: how-to-eyebrows

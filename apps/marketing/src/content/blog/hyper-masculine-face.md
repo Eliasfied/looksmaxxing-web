@@ -1,6 +1,6 @@
 ---
 title: "Hyper Masculine Face: The Traits Behind It"
-description: Learn what defines a hyper masculine face, the science behind each trait, and practical steps you can take to develop a stronger, more defined look.
+description: "Brow ridge, jaw width, midface length and chin projection drive it. The science behind each trait, and which are trainable versus fixed."
 slug: hyper-masculine-face
 primary_keyword: hyper masculine face
 cluster: why-attractive

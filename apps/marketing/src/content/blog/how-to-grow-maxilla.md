@@ -1,6 +1,6 @@
 ---
 title: "How to Grow Your Maxilla: Age Changes Everything"
-description: Learn how to grow your maxilla through mewing, chewing, posture, and orthodontic options. Practical steps backed by anatomy and research.
+description: "Maxillary expansion works reliably before the midpalatal suture fuses and gets surgical after. Where that line falls and what to do on each side."
 slug: how-to-grow-maxilla
 primary_keyword: how to grow maxilla
 cluster: how-to-maxilla

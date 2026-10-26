@@ -1,6 +1,6 @@
 ---
 title: "Hairstyle Forum Advice: What's Right, What's Junk"
-description: Discover what hairstyle forums get right about matching cuts to face shapes, plus science-backed tips for oval, square, round, and oblong faces.
+description: "What hairstyle forums get right about matching cuts to face shapes, which rules are recycled nonsense, and what stylists actually use."
 slug: haircut-for-face-shape
 primary_keyword: hairstyle forum
 cluster: haircut-styles-face-shape

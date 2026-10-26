@@ -1,6 +1,6 @@
 ---
 title: "Good vs Bad Maxilla: See the Difference"
-description: Learn what separates a good vs bad maxilla, how each affects your facial appearance, and what you can actually do to improve your midface structure.
+description: "What separates a well-positioned maxilla from a recessed one, how it changes the eyes and the smile, and which interventions work at which age."
 slug: good-vs-bad-maxilla
 primary_keyword: good vs bad maxilla
 cluster: compare-maxilla

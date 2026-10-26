@@ -1,6 +1,6 @@
 ---
 title: "How to Ascend: The Realistic Looksmaxxing Path"
-description: Learn how to ascend through proven looksmaxxing strategies. Covers skincare, body composition, grooming, and mindset for measurable improvement.
+description: "Ascending is mostly unglamorous: body fat, sleep, skin, grooming, fit. The sequence that compounds, and the shortcuts that waste a year."
 slug: how-to-ascend-looksmaxxing
 primary_keyword: how to ascend
 cluster: how-to-presence

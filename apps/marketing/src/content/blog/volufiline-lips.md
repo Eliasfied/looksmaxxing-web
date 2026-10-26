@@ -1,6 +1,6 @@
 ---
 title: "Volufiline Lips: Before, After and the Catch"
-description: "See real volufiline lips before and after results. Learn how this plant-based compound works, how long it takes, and whether it's worth trying."
+description: "What volufiline actually is, how long before anything shows, how the results compare to filler, and whether it holds up when you stop."
 slug: volufiline-lips
 primary_keyword: volufiline lips before and after
 cluster: procedure

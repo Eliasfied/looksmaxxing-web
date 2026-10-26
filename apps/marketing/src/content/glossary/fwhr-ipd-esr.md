@@ -1,6 +1,6 @@
 ---
 title: "PFL in Looksmax: The Ratio Behind the Acronym"
-description: PFL looksmax means Potential For Looksmaxxing, a rating of how much someone can realistically improve their appearance through self-improvement methods.
+description: "PFL means Potential For Looksmaxxing: a rating of how much someone could realistically improve, as opposed to how they look right now."
 slug: fwhr-ipd-esr
 term: PFL Looksmax
 abbreviation: Potential For Looksmaxxing

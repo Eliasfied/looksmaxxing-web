@@ -1,6 +1,6 @@
 ---
 title: "Chin to Philtrum Ratio: The Harmony Rule Explained"
-description: Learn how the chin to philtrum ratio affects facial harmony, what ideal measurements look like, and how to assess and improve your own proportions.
+description: "The chin-to-philtrum ratio is one of the clearest proportion rules in facial analysis. The numbers, how to measure yours, and what shifts it."
 slug: facial-harmony-guide
 primary_keyword: chin to philtrum ratio
 cluster: face-symmetry-harmony

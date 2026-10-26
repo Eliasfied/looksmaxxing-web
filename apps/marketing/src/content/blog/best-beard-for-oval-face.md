@@ -1,6 +1,6 @@
 ---
 title: "Best Beard for an Oval Face: 7 Styles Ranked"
-description: "Find the best beard style for an oval face. Learn the length vs. width rule, which styles keep your balance, and which to approach with care."
+description: "An oval face suits most beards, which makes length-to-width the thing to get right. Seven styles ranked, plus the two worth approaching carefully."
 slug: "best-beard-for-oval-face"
 primary_keyword: "best beard style for oval face"
 cluster: "beard-oval"

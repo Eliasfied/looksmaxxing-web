@@ -1,6 +1,6 @@
 ---
 title: "Accutane Before and After: Month by Month"
-description: See what before and after accutane pictures really show, what changes are typical, and what factors influence your results on isotretinoin.
+description: "What accutane photos actually show month by month, which changes are typical by week 16, and why two people on the same dose end up different."
 slug: accutane-before-after
 primary_keyword: before and after accutane pictures
 cluster: procedure

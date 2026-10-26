@@ -1,6 +1,6 @@
 ---
 title: "HGH Face Before and After: What It Really Does"
-description: "Explore HGH face before and after effects: which facial features change, what the science says, and how to track your results objectively."
+description: "HGH thickens the brow, lengthens the jaw and widens the nose, and the changes do not reverse. What the endocrine literature documents."
 slug: hgh-face-changes
 primary_keyword: hgh face before and after
 cluster: hgh-face

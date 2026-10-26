@@ -1,6 +1,6 @@
 ---
 title: "Gonial Angle: The Jaw Number That Matters Most"
-description: "Learn what the gonial angle is, how it's measured, what makes it attractive, and how to assess and improve yours with practical, evidence-based steps."
+description: "The gonial angle is the single most cited jaw measurement and the most misreported. How it is taken on an x-ray, what is normal, and what shifts it."
 slug: gonial-angle-explained
 primary_keyword: gonial angle
 cluster: anatomy

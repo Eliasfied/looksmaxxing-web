@@ -1,6 +1,6 @@
 ---
 title: "Masculine Face Shape: The Traits That Define It"
-description: Learn what defines a masculine face shape, which features matter most, and practical steps you can take to improve your facial structure.
+description: "The specific features that make a face read masculine, how much each contributes, and which ones respond to anything other than genetics."
 slug: masculine-face-shape
 primary_keyword: masculine face shape
 cluster: why-attractive

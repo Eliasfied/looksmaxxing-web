@@ -1,6 +1,6 @@
 ---
 title: "Minoxidil on Eyelashes: Why Doctors Say Don't"
-description: Curious about using minoxidil on eyelashes? Learn how it works, what the research says, risks to know, and how to apply it safely.
+description: "Dermatologists advise against it for a reason: the eye is not skin. What happens, what the alternatives are, and what Latisse does differently."
 slug: minoxidil-eyelashes
 primary_keyword: minoxidil on eyelashes
 cluster: procedure

@@ -1,6 +1,6 @@
 ---
 title: "Best Glasses for a Triangle Face: Frames That Work"
-description: "Find the best glasses for triangle face shape: frame styles that add width up top, where guides disagree, and how to size frames to your face."
+description: "Frames that add weight up top to balance a wider jaw, where the standard guides contradict each other, and how to size frames to your own face."
 slug: "best-glasses-for-triangle-face"
 primary_keyword: "best glasses for triangle face shape"
 cluster: "glasses-triangle"

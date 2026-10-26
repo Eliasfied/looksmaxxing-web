@@ -1,6 +1,6 @@
 ---
 title: "How to Fix Asymmetrical Eyebrows: 5 Real Fixes"
-description: Learn how to fix asymmetrical eyebrows with shaping, filling, and grooming techniques that create a balanced, natural look without surgery.
+description: "Most brow asymmetry is muscle and habit, not bone. Five fixes from shaping to filling, and when it is worth seeing someone about it."
 slug: how-to-fix-asymmetrical-eyebrows
 primary_keyword: how to fix asymmetrical eyebrows
 cluster: how-to-eyebrows

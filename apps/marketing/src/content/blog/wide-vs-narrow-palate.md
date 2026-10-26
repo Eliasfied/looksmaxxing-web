@@ -1,6 +1,6 @@
 ---
 title: "Wide vs Narrow Palate: Why It Changes Your Face"
-description: Learn the key differences between a wide vs narrow palate, how each affects facial aesthetics, breathing, and what you can do about it.
+description: "Palate width affects the face, the airway and the bite together. How to check yours, and what expansion can do before and after the suture fuses."
 slug: wide-vs-narrow-palate
 primary_keyword: wide vs narrow palate
 cluster: compare-palate

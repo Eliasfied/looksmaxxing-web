@@ -1,6 +1,6 @@
 ---
 title: "Minoxidil on Eyelashes: Risky and Rarely Worth It"
-description: Can minoxidil on eyelashes actually boost lash growth? We break down the evidence, risks, and better alternatives including Latisse and rosemary oil.
+description: "Minoxidil near the eye carries risks most guides skip, including permanent iris darkening. What the evidence shows and the safer alternatives."
 slug: eyelash-growth-guide
 primary_keyword: minoxidil on eyelashes
 cluster: eyelash-growth

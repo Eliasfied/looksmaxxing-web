@@ -1,6 +1,6 @@
 ---
 title: "The Looksmaxxing Scale: Where You Actually Sit"
-description: Learn how the looksmaxxing scale works, how to read a looksmax chart, and get actionable tips to improve your score and appearance.
+description: "How the looksmaxxing scale is built, what each band actually describes, and how to turn a score into something you can act on this month."
 slug: looksmaxxing-tips-and-checklist
 primary_keyword: looksmaxing scale
 cluster: looksmaxxing-guide

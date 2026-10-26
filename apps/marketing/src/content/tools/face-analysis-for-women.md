@@ -1,6 +1,6 @@
 ---
 title: "Face Analysis for Women: Your Features, Explained"
-description: "Explore face shape, hair framing and brow ideas around your personal preferences."
+description: "Upload a photo and your preferences for a read on your face shape, plus hair framing and brow ideas built around what you actually want."
 slug: face-analysis-for-women
 primary_keyword: "face analysis for women"
 cluster: personal-styling

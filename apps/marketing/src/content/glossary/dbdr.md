@@ -1,6 +1,6 @@
 ---
 title: "DBDR Face: What the Acronym Actually Describes"
-description: DBDR face refers to a facial type defined by prominent, dark brows and specific bone structure traits. Learn what it means in looksmaxxing contexts.
+description: "DBDR stands for dark brows, dark ring, a facial type defined by heavy brows and a visible limbal ring. What it means in looksmaxxing threads."
 slug: dbdr
 term: DBDR Face
 abbreviation: Dark Brow Dominant Recessive

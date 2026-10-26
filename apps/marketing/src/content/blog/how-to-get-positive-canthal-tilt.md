@@ -1,6 +1,6 @@
 ---
 title: "How to Get Positive Canthal Tilt: Honest Options"
-description: Learn how to get positive canthal tilt through exercises, styling, makeup, and procedures. Practical, honest advice on improving your eye area.
+description: "The tilt is set by where the ligaments attach, so no exercise changes it. What styling achieves, and what the surgical options actually involve."
 slug: how-to-get-positive-canthal-tilt
 primary_keyword: how to get positive canthal tilt
 cluster: how-to-eyes

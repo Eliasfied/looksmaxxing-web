@@ -1,6 +1,6 @@
 ---
 title: "Face Symmetry Analyzer: How Even Is Your Face?"
-description: "Explore apparent facial balance and the effects of lighting and pose."
+description: "A left-right read on your face from one photo, plus how much of what you see is pose and lighting rather than actual asymmetry."
 slug: symmetry-analyzer
 primary_keyword: "face symmetry analyzer"
 cluster: personal-styling

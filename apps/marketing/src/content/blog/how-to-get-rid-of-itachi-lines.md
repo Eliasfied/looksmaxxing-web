@@ -1,6 +1,6 @@
 ---
 title: "How to Get Rid of Itachi Lines: What Fades Them"
-description: Learn what Itachi lines are, why they form under the eyes, and practical ways to reduce or prevent them with skincare, habits, and more.
+description: "Those lines under the eyes come from volume loss and repeated expression, not tiredness. What fades them, what hides them, and what prevents them."
 slug: how-to-get-rid-of-itachi-lines
 primary_keyword: how to get rid of itachi lines
 cluster: how-to-skin

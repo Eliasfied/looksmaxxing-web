@@ -1,6 +1,6 @@
 ---
 title: "Bigonial Width: The Jaw Number Measured Wrong"
-description: Learn what bigonial width is, how it shapes facial aesthetics, and what research says about ideal measurements for men and women.
+description: "Bigonial width is the distance between your jaw angles, and it is measured wrong constantly. What it is, how it is taken, and what the research shows."
 slug: bigonial-width
 primary_keyword: bigonial width
 cluster: anatomy

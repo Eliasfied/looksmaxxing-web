@@ -1,6 +1,6 @@
 ---
 title: "How to Mog Someone: What It Actually Takes"
-description: Learn how to mog someone by improving your facial aesthetics, posture, grooming, and presence. Practical steps backed by real principles.
+description: "Mogging is mostly height, posture and grooming, not bone structure. What actually creates the effect, and why chasing it tends to backfire."
 slug: how-to-mog-someone
 primary_keyword: how to mog
 cluster: how-to-presence

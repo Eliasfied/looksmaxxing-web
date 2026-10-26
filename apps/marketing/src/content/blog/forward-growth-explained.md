@@ -1,6 +1,6 @@
 ---
 title: "How to Raise Your Hyoid Bone: What's Possible"
-description: Learn how to raise the hyoid bone through targeted exercises and habits. Practical hyoid training techniques explained with anatomy and actionable steps.
+description: "The hyoid sits in soft tissue, not fused to anything, which is why claims about raising it are overstated. The anatomy and what training can do."
 slug: forward-growth-explained
 primary_keyword: how to raise hyoid bone
 cluster: forward-growth-mewing

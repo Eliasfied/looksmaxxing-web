@@ -1,6 +1,6 @@
 ---
 title: "Does Bonesmashing Work? What Doctors Say"
-description: Does bonesmashing work? We break down the science, real risks, and what users actually report. Get the honest answer before trying anything.
+description: "Bonesmashing claims repeated micro-trauma thickens facial bone. What the surgical literature says, what actually happens, and the permanent risks."
 slug: bonesmashing-truth
 primary_keyword: does bonesmashing work
 cluster: bonesmashing-truth

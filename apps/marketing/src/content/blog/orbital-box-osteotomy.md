@@ -1,6 +1,6 @@
 ---
 title: "Orbital Box Osteotomy: Before, After and Risks"
-description: Explore orbital box osteotomy before and after outcomes, surgical technique, recovery timeline, and what realistic results actually look like.
+description: "One of the most invasive facial procedures performed. What the surgery involves, the recovery timeline, the risks, and what results look like."
 slug: orbital-box-osteotomy
 primary_keyword: orbital box osteotomy before and after
 cluster: procedure

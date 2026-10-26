@@ -1,6 +1,6 @@
 ---
 title: "Y Taper vs V Taper: Which One Reads Better?"
-description: "Y taper vs v taper explained: what each body shape looks like, how they differ, and how to train toward your goal physique."
+description: "The Y taper comes from lat width high on the back, the V from the waist. What separates them and how to train toward the one you want."
 slug: y-taper-vs-v-taper
 primary_keyword: y taper vs v taper
 cluster: compare-frame

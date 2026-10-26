@@ -1,6 +1,6 @@
 ---
 title: "Haircut Finder: AI Cuts for Your Face Shape"
-description: "Get three haircut suggestions and a brief for your stylist."
+description: "Three haircut suggestions for your face shape and hair type, why each one suits you, and a brief you can read out loud to your stylist."
 slug: haircut-recommendation-tool
 primary_keyword: "haircut finder"
 cluster: personal-styling

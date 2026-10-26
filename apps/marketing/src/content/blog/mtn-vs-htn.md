@@ -1,6 +1,6 @@
 ---
 title: "MTN vs HTN: Where Do You Actually Land?"
-description: "MTN vs HTN explained: learn how maxillary and horizontal tilt affect facial attractiveness, PSL scoring, and which to prioritize for looksmaxxing."
+description: "Mid-tier and high-tier normie describe overlapping ranges, which is why people argue about them. What separates the two in practice."
 slug: mtn-vs-htn
 primary_keyword: mtn vs htn
 cluster: compare-tiers

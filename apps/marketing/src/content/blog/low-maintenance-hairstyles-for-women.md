@@ -1,6 +1,6 @@
 ---
 title: "Low Maintenance Hairstyles: What 'Easy' Means"
-description: "Low maintenance hairstyles for women, sorted by what upkeep really means: daily styling, salon visits and wash routine. Pick a cut that fits your life."
+description: "Low maintenance means three different things: daily styling, salon frequency and wash routine. Cuts sorted by which kind of easy you need."
 slug: "low-maintenance-hairstyles-for-women"
 primary_keyword: "low maintenance hairstyles for women"
 cluster: "women-hair"

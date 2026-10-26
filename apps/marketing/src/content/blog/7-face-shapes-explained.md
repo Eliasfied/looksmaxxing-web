@@ -1,6 +1,6 @@
 ---
 title: "The 7 Face Shapes: Find Yours in 30 Seconds"
-description: "Learn the 7 face shapes, how to identify yours from a simple photo, and how to use the result for glasses and haircuts without treating it as a strict rule."
+description: "The seven face shapes, how to pin yours down from one straight-on photo, and how to use the answer for glasses and haircuts without it becoming a rule."
 slug: "7-face-shapes-explained"
 primary_keyword: "7 face shapes"
 cluster: "listicle"

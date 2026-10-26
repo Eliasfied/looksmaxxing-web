@@ -1,6 +1,6 @@
 ---
 title: "Best Haircut for a Triangle Face: 9 That Work"
-description: Find the best haircut for triangle face men. Learn which cuts add width up top, balance a strong jaw, and which styles to avoid. Barber tips included.
+description: "Nine cuts that add width up top to balance a heavy jaw, the styles that make the imbalance sharper, and barber wording that gets it right."
 slug: best-haircut-for-triangle-face-men
 primary_keyword: best haircut for triangle face men
 cluster: haircut-triangle

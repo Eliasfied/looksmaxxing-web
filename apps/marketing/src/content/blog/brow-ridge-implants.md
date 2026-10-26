@@ -1,6 +1,6 @@
 ---
 title: "Brow Ridge Implants: Cost, Risks and Recovery"
-description: Learn what brow ridge implants involve, who they suit, costs, risks, and recovery. A practical guide before consulting a surgeon.
+description: "What brow ridge implants involve, who is a candidate, what they cost, the recovery timeline, and the complications to understand before consulting."
 slug: brow-ridge-implants
 primary_keyword: brow ridge implants
 cluster: procedure

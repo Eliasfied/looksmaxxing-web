@@ -1,6 +1,6 @@
 ---
 title: "Canthal Tilt Checker: Measure Your Eye Angle"
-description: Find out if you have a positive or negative canthal tilt with AI facial analysis. Get a detailed breakdown and personalized tips in seconds.
+description: "Find out whether your canthal tilt is positive, neutral or negative from one straight-on photo, and what that means for how your eyes read."
 slug: canthal-tilt-checker
 primary_keyword: canthal tilt
 cluster: canthal-tilt-checker

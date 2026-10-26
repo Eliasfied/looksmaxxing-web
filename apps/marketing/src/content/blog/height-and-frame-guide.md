@@ -1,6 +1,6 @@
 ---
 title: "K Shami's Height and Frame: The Full Breakdown"
-description: "Discover K Shami's height, how it compares to other athletes, and practical tips on height, frame, and clavicle width for men serious about their physique."
+description: "K Shami's listed height versus how he looks on camera, how frame and clavicle width change perceived size, and what is trainable."
 slug: height-and-frame-guide
 primary_keyword: k shami height
 cluster: height-frame-guide

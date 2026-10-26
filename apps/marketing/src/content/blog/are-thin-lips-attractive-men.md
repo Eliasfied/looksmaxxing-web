@@ -1,6 +1,6 @@
 ---
 title: "Thin Lips on Men: Attractive or Not?"
-description: Do thin lips hurt attractiveness in men? Learn what research says, which features compensate, and how to make the most of your look.
+description: "Lip fullness carries far less weight for men than for women. What the studies found, which features matter more, and what makes a real difference."
 slug: are-thin-lips-attractive-men
 primary_keyword: thin lips men
 cluster: why-attractive

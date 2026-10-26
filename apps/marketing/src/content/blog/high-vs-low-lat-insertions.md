@@ -1,6 +1,6 @@
 ---
 title: "High vs Low Lat Insertions: Can You Change Them?"
-description: "High lat insertions vs low explained: how each affects your V-taper, waist appearance, and what you can realistically do about it."
+description: "Lat insertion height is genetic and sets the width of your V-taper. How to check yours, and what training can and cannot compensate for."
 slug: high-vs-low-lat-insertions
 primary_keyword: high lat insertions vs low
 cluster: compare-frame

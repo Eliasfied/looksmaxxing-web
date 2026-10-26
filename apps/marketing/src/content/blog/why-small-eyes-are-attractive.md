@@ -1,6 +1,6 @@
 ---
 title: "Small Eyes on Men: Actually a Problem?"
-description: Small eyes in men can signal strength, intensity, and sharp bone structure. Learn why small eyes are attractive and how to enhance your look.
+description: "Small eyes often sit under a strong brow ridge, which reads as intensity rather than weakness. What the perception research found."
 slug: why-small-eyes-are-attractive
 primary_keyword: small eyes men
 cluster: why-attractive

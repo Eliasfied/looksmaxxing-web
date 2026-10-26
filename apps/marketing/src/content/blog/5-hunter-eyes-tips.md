@@ -1,6 +1,6 @@
 ---
 title: "How to Get Hunter Eyes: 5 Tips That Actually Work"
-description: "Learn how to get hunter eyes realistically: what the slang means, which eye-area traits are fixed, and 5 practical tips for brows, photos and presentation."
+description: "Hunter eyes are mostly bone, and bone does not move. What the term means, which traits are fixed, and 5 things that do change the look."
 slug: "5-hunter-eyes-tips"
 primary_keyword: "how to get hunter eyes"
 cluster: "listicle"

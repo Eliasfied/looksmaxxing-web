@@ -1,6 +1,6 @@
 ---
 title: "Most Attractive Face Shape for Men: The Studies"
-description: "Is there a most attractive face shape for men? What studies say about jawlines, face width and averageness, plus styling tips for your own face shape."
+description: "No single face shape wins. What studies say about jaw width, averageness and masculinity, and how to style the shape you actually have."
 slug: "most-attractive-face-shape-men"
 primary_keyword: "most attractive face shape men"
 cluster: "why-attractive"

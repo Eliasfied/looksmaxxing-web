@@ -1,6 +1,6 @@
 ---
 title: "Recessed vs Normal Maxilla: How to Tell"
-description: Learn the visual and structural differences between a recessed vs normal maxilla, how it affects facial appearance, and what options exist to address it.
+description: "The profile line from forehead to chin settles it in one photo. How to take it, what to look for, and what the options are if it is recessed."
 slug: recessed-vs-normal-maxilla
 primary_keyword: recessed vs normal maxilla
 cluster: compare-maxilla

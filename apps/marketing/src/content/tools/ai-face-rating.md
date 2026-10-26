@@ -1,6 +1,6 @@
 ---
 title: "AI Face Rating: An Honest Score From One Photo"
-description: Get an instant AI face rating with PSL scores, jawline analysis, and a personalized looksmaxxing plan. No signup needed to start.
+description: "Upload one photo for a PSL-style score and a feature-by-feature read of your face. No account needed for the estimate; the full report is $2.99 once."
 slug: ai-face-rating
 primary_keyword: face rating
 cluster: face-rating-ai

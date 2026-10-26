@@ -1,6 +1,6 @@
 ---
 title: "Best Haircut for an Oblong Face: 8 Cuts, 1 to Skip"
-description: "Find the best haircut for oblong face men: 8 styles that add width, shorten face length, and balance your proportions, plus barber scripts and beard tips."
+description: "Eight cuts that add width and visually shorten a long face, the one style that makes it worse, plus beard pairings and a barber script."
 slug: best-haircut-for-oblong-face-men
 primary_keyword: best haircut for oblong face men
 cluster: haircut-oblong

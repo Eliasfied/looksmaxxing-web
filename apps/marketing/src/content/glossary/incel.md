@@ -1,6 +1,6 @@
 ---
 title: "Incel: What the Term Means and What It Doesn't"
-description: Incel stands for involuntary celibate. Learn what the term means, where it comes from, and how it connects to looksmaxxing culture.
+description: "Incel is short for involuntary celibate. Where the term came from, how its meaning shifted, and how it connects to looksmaxxing communities."
 slug: incel
 term: Incel
 abbreviation: Involuntary Celibate

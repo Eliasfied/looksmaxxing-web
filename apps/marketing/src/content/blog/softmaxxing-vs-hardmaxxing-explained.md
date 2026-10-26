@@ -1,6 +1,6 @@
 ---
 title: "Softmaxxing vs Hardmaxxing: Where to Start"
-description: "Softmaxxing vs hardmaxxing explained: learn what each approach involves, who each suits, and how to build a practical plan that fits your goals."
+description: "Softmaxxing is reversible and cheap, hardmaxxing is neither. What each involves, who each suits, and how to build a plan that fits your goals."
 slug: softmaxxing-vs-hardmaxxing-explained
 primary_keyword: softmaxxing vs hardmaxxing
 cluster: compare-techniques

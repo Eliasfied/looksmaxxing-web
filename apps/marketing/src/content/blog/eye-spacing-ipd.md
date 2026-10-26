@@ -1,6 +1,6 @@
 ---
 title: "Eye Spacing: The Ratio That Shapes Your Look"
-description: Learn what eye spacing reveals about facial harmony, how IPD affects attractiveness, and practical ways to optimize your appearance based on your measurements.
+description: "Eye spacing is one of the few facial ratios with consistent research behind it. What your IPD means, how to measure it, and what it does not predict."
 slug: eye-spacing-ipd
 primary_keyword: eye spacing
 cluster: anatomy

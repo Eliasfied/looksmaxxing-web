@@ -1,6 +1,6 @@
 ---
 title: "How to Fix Negative Canthal Tilt: Real Options"
-description: Learn how to fix negative canthal tilt with proven methods from mewing to surgery. Understand what causes it and which options may actually help.
+description: "Canthal tilt is set by bone and ligament, so mewing does nothing for it. What the real options are, from styling to canthoplasty, and what each costs."
 slug: how-to-fix-negative-canthal-tilt
 primary_keyword: how to fix negative canthal tilt
 cluster: how-to-eyes

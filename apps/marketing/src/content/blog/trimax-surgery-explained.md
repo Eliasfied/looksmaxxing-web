@@ -1,6 +1,6 @@
 ---
 title: "Trimax Surgery: Procedure, Risks and Recovery"
-description: Trimax surgery combines upper jaw, lower jaw, and chin surgery. Learn how it works, who it suits, recovery, real risks, and costs before you consult.
+description: "Upper jaw, lower jaw and chin in one operation. How it works, who it suits, the recovery, the real complication rates, and what it costs."
 slug: trimax-surgery-explained
 primary_keyword: trimax surgery
 cluster: trimax

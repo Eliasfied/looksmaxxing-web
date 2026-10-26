@@ -1,6 +1,6 @@
 ---
 title: "Canthal Tilt in Women: What the Studies Found"
-description: "Canthal tilt female guide: what studies on women's eye angles found, why selfie measurements mislead, and practical brow and makeup styling ideas."
+description: "What studies on women's eye angles actually found, why the famous 93 percent figure came from edited photos, and practical brow and makeup ideas."
 slug: "canthal-tilt-female"
 primary_keyword: "canthal tilt female"
 cluster: "canthal-tilt-female"

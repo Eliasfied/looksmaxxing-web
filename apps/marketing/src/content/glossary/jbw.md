@@ -1,6 +1,6 @@
 ---
 title: "JBW: The Theory and What's Wrong With It"
-description: "JBW stands for 'Just Be White,' a theory claiming white men have an inherent dating advantage globally. Learn what it means and how it's discussed in looksmaxxing."
+description: "JBW stands for \"Just Be White\", a theory claiming white men hold an inherent dating advantage globally. What it claims and where it falls apart."
 slug: jbw
 term: JBW
 abbreviation: Just Be White

@@ -1,6 +1,6 @@
 ---
 title: "Bimax Before and After: What Actually Changes"
-description: See what bimax surgery before and after really looks like. Learn what changes, what stays the same, and how to set realistic expectations.
+description: "What double jaw surgery actually changes in the face, what stays exactly the same, and how swelling makes the first three months misleading."
 slug: bimax-before-after
 primary_keyword: bimax before and after
 cluster: procedure

@@ -1,6 +1,6 @@
 ---
 title: "Buccal Fat Removal Gone Wrong: What You Can't Undo"
-description: Buccal fat removal gone wrong can cause lasting facial changes. Learn the real risks, red flags, and how to make a more informed decision before surgery.
+description: "Buccal fat removal cannot be undone, and the hollowing often shows up years later. The real risks, the red flags in a consultation, and who regrets it."
 slug: buccal-fat-removal
 primary_keyword: buccal fat removal gone wrong
 cluster: procedure

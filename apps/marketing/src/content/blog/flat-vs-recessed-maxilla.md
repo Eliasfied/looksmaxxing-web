@@ -1,6 +1,6 @@
 ---
 title: "Flat vs Recessed Maxilla: How to Tell Them Apart"
-description: Learn the difference between a flat vs recessed maxilla, how each affects your face, and what you can realistically do about it.
+description: "A flat maxilla and a recessed one are different problems with different fixes. How to tell them apart and what is realistic at your age."
 slug: flat-vs-recessed-maxilla
 primary_keyword: flat vs recessed maxilla
 cluster: compare-maxilla

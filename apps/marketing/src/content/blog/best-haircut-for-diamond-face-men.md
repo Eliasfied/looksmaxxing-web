@@ -1,6 +1,6 @@
 ---
 title: "Best Haircut for a Diamond Face: 7 That Suit It"
-description: Find the best haircut for diamond face men. 7 cuts that widen the forehead, soften cheekbones, and balance a narrow chin, plus beard tips and styles to avoid.
+description: "Seven cuts that widen the forehead and soften prominent cheekbones, which styles make a narrow chin worse, and how to brief your barber."
 slug: best-haircut-for-diamond-face-men
 primary_keyword: best haircut for diamond face men
 cluster: haircut-diamond

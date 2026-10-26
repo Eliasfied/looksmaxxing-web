@@ -1,6 +1,6 @@
 ---
 title: "Best Glasses for an Oblong Face: And What to Avoid"
-description: "Find the best glasses for oblong face shape with clear frame principles, styles to try or skip, where expert advice disagrees, and fit checks that matter."
+description: "Frames that add width to a long face, the styles that stretch it further, where expert advice contradicts itself, and the measurements to check."
 slug: "best-glasses-for-oblong-face"
 primary_keyword: "best glasses for oblong face shape"
 cluster: "glasses-oblong"

@@ -1,6 +1,6 @@
 ---
 title: "Dark Spots at the Outer Eye: Causes and Fixes"
-description: Dark spots at the outer corner of your eye are common but treatable. Learn causes, proven ingredients, and how to build a routine that actually works.
+description: "Dark patches at the outer eye are usually post-inflammatory or vascular, and the fix differs. The causes, the proven ingredients, the routine."
 slug: mens-skincare-routine
 primary_keyword: hyperpigmentation outer corner of eye
 cluster: mens-skincare-routine

@@ -1,6 +1,6 @@
 ---
 title: "JFL: What It Means in Looksmax Threads"
-description: JFL is internet slang used in looksmaxxing communities to express disbelief or dark humor, often reacting to extreme before/afters or harsh PSL takes.
+description: "JFL is shorthand for disbelief or dark humour in looksmaxxing threads, usually aimed at extreme before and afters or harsh PSL ratings."
 slug: jfl
 term: JFL
 abbreviation: Just For Laughs (ironic dismissal)

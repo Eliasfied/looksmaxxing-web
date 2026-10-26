@@ -1,6 +1,6 @@
 ---
 title: "Mewing Exercises for Jawline: AI Jawline Check"
-description: Analyze your jawline shape, gonial angle, and face ratios instantly. Get a personalized mewing exercise plan based on your actual facial structure.
+description: "A read on your jawline shape and gonial angle from one photo, with mewing and training suggestions based on your actual structure, not a template."
 slug: jawline-analyzer
 primary_keyword: mewing exercises for jawline
 cluster: jawline-analyzer

@@ -1,6 +1,6 @@
 ---
 title: "Qoves Review: Is the $150 Report Worth It?"
-description: "An honest Qoves review covering the $150 yearly price, add-ons, refund rules, what the report contains, buyer feedback and the criticism to weigh before you pay."
+description: "The $150 yearly price, what the report actually contains, the refund rules, buyer feedback and the criticism worth weighing before you pay."
 slug: "qoves-studio-review"
 primary_keyword: "qoves review"
 cluster: "qoves-review"

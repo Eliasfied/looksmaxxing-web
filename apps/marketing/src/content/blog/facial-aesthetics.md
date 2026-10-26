@@ -1,6 +1,6 @@
 ---
 title: "Face Forward Aesthetics: What Actually Moves a Face"
-description: Learn face forward aesthetics concepts, key facial structures, and practical improvement strategies. Science-backed tips to refine your look.
+description: "Which facial structures actually drive how a face reads, which changes move the needle, and which popular fixes are noise. Evidence first."
 slug: facial-aesthetics
 primary_keyword: face forward aesthetics
 cluster: facial-aesthetics-pillar

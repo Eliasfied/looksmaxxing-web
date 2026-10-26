@@ -1,6 +1,6 @@
 ---
 title: "Pheromone Max: Does Any of It Actually Work?"
-description: Learn what pheromone maxxing means, how it fits into soft maxing and cologne max, and practical steps to optimize your natural scent and grooming.
+description: "Pheromone sprays have almost no evidence behind them. What actually affects how you smell, and the grooming basics that do the work."
 slug: mens-grooming-essentials
 primary_keyword: pheromone max
 cluster: mens-grooming-essentials

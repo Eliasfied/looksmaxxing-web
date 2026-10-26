@@ -1,6 +1,6 @@
 ---
 title: "Does Chin Filler Migrate? What to Watch For"
-description: Does chin filler migrate? Learn why it happens, how to spot it, which factors raise your risk, and what you can do to prevent it.
+description: "Chin filler migrates more often than clinics admit. Why it happens, how to spot it early, which factors raise your risk, and how to prevent it."
 slug: chin-filler-migrate
 primary_keyword: does chin filler migrate
 cluster: procedure

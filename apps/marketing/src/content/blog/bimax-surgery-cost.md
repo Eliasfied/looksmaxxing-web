@@ -1,6 +1,6 @@
 ---
 title: "Bimax Cost: What the Price Actually Covers"
-description: Understand bimax surgery cost from surgeon fees to hidden expenses. Learn what drives the price and how to plan your budget before consulting a surgeon.
+description: "What a bimax quote covers and what it leaves out: surgeon fee, hospital, anaesthesia, orthodontics before and after, and the costs people forget."
 slug: bimax-surgery-cost
 primary_keyword: bimax cost
 cluster: procedure

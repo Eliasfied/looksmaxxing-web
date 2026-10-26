@@ -1,6 +1,6 @@
 ---
 title: "Glow Up Checklist for Women: 30 Days, No Nonsense"
-description: "A realistic glow up checklist for women covering sunscreen, sleep, hair, grooming and style, plus a simple four-week plan you can actually stick with."
+description: "Sunscreen, sleep, hair, grooming and fit, in the order that actually matters, plus a four-week plan built so the first week is easy to finish."
 slug: "glow-up-checklist-for-women"
 primary_keyword: "glow up checklist for women"
 cluster: "women-glow-up"

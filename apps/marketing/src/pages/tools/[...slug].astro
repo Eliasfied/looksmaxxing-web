@@ -18,7 +18,10 @@ const steps = [
 ];
 const schema = { '@context': 'https://schema.org', '@type': 'SoftwareApplication', name: tool.name, applicationCategory: 'LifestyleApplication', operatingSystem: 'Web', offers: { '@type': 'Offer', name: 'Full report unlock', price: '2.99', priceCurrency: 'USD' } };
 ---
-<BaseLayout title={page.data.title} description={tool.description + ' See your potential estimate without an account; unlock your full report for $2.99.'}>
+<!-- The catalog description is UI copy, reused on cards and in the article CTA.
+     The search snippet is written for the result page, so it comes from the
+     page's own frontmatter and falls back to the catalog only if it is missing. -->
+<BaseLayout title={page.data.title} description={page.data.description ?? tool.description + ' See your potential estimate without an account; unlock your full report for $2.99.'}>
   <Fragment slot="head"><script type="application/ld+json" set:html={JSON.stringify(schema)} /></Fragment>
   <section class="max-w-6xl mx-auto px-6 pt-16 pb-12">
     <a href="/tools" class="text-sm text-[#999]">← All tools</a>

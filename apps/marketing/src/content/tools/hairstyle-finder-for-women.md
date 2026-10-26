@@ -1,6 +1,6 @@
 ---
 title: "Hairstyle Finder for Women: Your Cut Shortlist"
-description: "Find haircut, fringe and face-framing ideas with a practical salon brief."
+description: "A shortlist of cuts, fringe options and face-framing ideas for your face shape, plus a salon brief so you leave with what you came for."
 slug: hairstyle-finder-for-women
 primary_keyword: "hairstyle finder for women"
 cluster: personal-styling

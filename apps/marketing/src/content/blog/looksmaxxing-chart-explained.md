@@ -1,6 +1,6 @@
 ---
 title: "Looksmaxxing Chart: How to Actually Read It"
-description: Learn what a looksmaxxing chart actually measures, how PSL scoring works, and how to use the data to build a real improvement plan.
+description: "What a looksmaxxing chart is actually measuring, how PSL scoring is derived, and how to read one without letting it become a verdict on you."
 slug: looksmaxxing-chart-explained
 primary_keyword: looksmaxing chart
 cluster: looksmaxxing-chart

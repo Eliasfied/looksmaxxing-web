@@ -1,6 +1,6 @@
 ---
 title: "Ideal Philtrum Length: The Numbers Explained"
-description: Learn what makes an ideal philtrum, how length and shape affect facial harmony, and what you can realistically do to improve yours.
+description: "Philtrum length is one of the ratios that shifts most with age. What the numbers are, how to measure yours, and what actually changes it."
 slug: philtrum-explained
 primary_keyword: ideal philtrum
 cluster: anatomy

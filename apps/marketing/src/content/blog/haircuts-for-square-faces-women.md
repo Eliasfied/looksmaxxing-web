@@ -1,6 +1,6 @@
 ---
 title: "Haircuts for Square Faces: Soften or Lean In?"
-description: "Haircuts for square faces for women: stylist-backed cuts, fringe options, texture tips and a salon brief so you leave with a cut that suits you."
+description: "Soften a square jaw or lean into it, both work. Stylist-backed cuts, fringe options, texture advice and a salon brief you can read out loud."
 slug: "haircuts-for-square-faces-women"
 primary_keyword: "haircuts for square faces women"
 cluster: "women-hair"

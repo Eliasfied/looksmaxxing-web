@@ -1,6 +1,6 @@
 ---
 title: "30-Day Glow-Up Planner: Your Week by Week Plan"
-description: "Build a four-week grooming and styling plan with daily checklists."
+description: "A four-week grooming and styling plan built from your photo, broken into daily tasks and weekly priorities so the first week is easy to finish."
 slug: glow-up-planner
 primary_keyword: "30-day glow-up planner"
 cluster: personal-styling

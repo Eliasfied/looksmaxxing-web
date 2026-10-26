@@ -1,6 +1,6 @@
 ---
 title: "Short vs Long Ramus: How It Shapes Your Jaw"
-description: Understand how short vs long ramus height shapes your jaw, face ratio, and overall aesthetics. Learn what each means and what you can do about it.
+description: "Ramus height drives the lower-face ratio more than the jaw angle does. What each variant means and what can realistically be done."
 slug: short-vs-long-ramus
 primary_keyword: short vs long ramus
 cluster: compare-jaw

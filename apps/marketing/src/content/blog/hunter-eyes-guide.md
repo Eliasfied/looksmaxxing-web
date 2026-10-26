@@ -1,6 +1,6 @@
 ---
 title: "Hunter Eyes: What They Are and Who Can Get Them"
-description: "Learn what hunter eyes are, why they're considered attractive, and what you can realistically do to achieve a more intense, hooded eye look."
+description: "Hunter eyes come from a low brow ridge over a positively tilted eye, both set by bone. What creates the look and who can realistically get it."
 slug: hunter-eyes-guide
 primary_keyword: hunter eyes
 cluster: hunter-eyes-guide

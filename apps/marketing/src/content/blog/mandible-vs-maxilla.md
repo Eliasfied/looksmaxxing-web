@@ -1,6 +1,6 @@
 ---
 title: "Mandible vs Maxilla: Which One Is Your Problem?"
-description: Learn the key differences between the mandible vs maxilla, how each bone shapes your face, and what you can do to optimize both for better facial harmony.
+description: "Most jaw complaints are actually maxillary. How to tell which bone is the problem, since the fix for each is completely different."
 slug: mandible-vs-maxilla
 primary_keyword: mandible vs maxilla
 cluster: compare-bones

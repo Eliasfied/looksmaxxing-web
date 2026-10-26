@@ -1,6 +1,6 @@
 ---
 title: "Positive vs Negative Canthal Tilt: How to Tell"
-description: Learn the difference between positive vs negative canthal tilt, how each affects your appearance, and what you can realistically do about it.
+description: "Measure the inner and outer corner against the horizontal, not against a photo taken from below. How to tell yours and what it does to the eye."
 slug: positive-vs-negative-canthal-tilt
 primary_keyword: positive vs negative canthal tilt
 cluster: compare-canthal-tilt

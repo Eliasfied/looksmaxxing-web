@@ -1,6 +1,6 @@
 ---
 title: "Best Glasses for an Oval Face: Almost Anything?"
-description: "Find the best glasses for oval face shape: which frame styles work, why size matters more than shape, and how to read frame measurements for a better fit."
+description: "An oval face suits nearly every frame shape, so size becomes the deciding factor. How to read the numbers printed on the temple arm and use them."
 slug: "best-glasses-for-oval-face"
 primary_keyword: "best glasses for oval face shape"
 cluster: "glasses-oval"

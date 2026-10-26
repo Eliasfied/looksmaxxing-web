@@ -1,6 +1,6 @@
 ---
 title: "Mewing: What It Changes and What It Can't"
-description: Learn what mewing is, how to do it correctly, and what the research says. A practical guide to tongue posture, jaw development, and facial structure.
+description: "Mewing changes tongue posture, which can affect soft tissue. What it does not do is move adult bone. The technique, the evidence, the limits."
 slug: mewing-complete-guide
 primary_keyword: mewing
 cluster: mewing-complete-guide

@@ -1,6 +1,6 @@
 ---
 title: "Flat Maxilla: Causes and What Can Still Change"
-description: Learn what a flat maxilla is, how to tell if you have one, and what options exist to address a recessed upper jaw for better facial structure.
+description: "A flat maxilla changes the eyes, the nose and the smile at once. How to tell if you have one, and what is realistic at your age."
 slug: maxilla-guide
 primary_keyword: flat maxilla
 cluster: maxilla-guide

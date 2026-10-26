@@ -1,6 +1,6 @@
 ---
 title: "Flared Gonions: Why Your Jaw Looks Wide"
-description: Learn what flared gonions are, how inward or outward flaring affects your jawline aesthetics, and what options exist to address them.
+description: "Flared gonions make the jaw read wide from the front and odd from the side. What causes the flaring and which options actually address it."
 slug: inward-flared-gonions
 primary_keyword: flared gonions
 cluster: anatomy

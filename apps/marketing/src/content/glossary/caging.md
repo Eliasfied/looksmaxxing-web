@@ -1,6 +1,6 @@
 ---
 title: "Caging: What It Means in Looksmaxxing Slang"
-description: "Caging means deliberately cutting calories and reducing body fat to sharpen facial features. Learn how it's used in looksmaxxing communities."
+description: "Caging means cutting calories hard to strip facial fat and sharpen the features underneath. How it is used, and where it goes wrong."
 slug: caging
 term: Caging
 primary_keyword: caging meaning

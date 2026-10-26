@@ -1,6 +1,6 @@
 ---
 title: "Female Jawline: What's Genetic and What Isn't"
-description: "What shapes a female jawline, what attractiveness research shows, why mewing falls short, and practical hair, makeup and photo styling tips."
+description: "What actually shapes a female jawline, what the attractiveness research shows, why mewing falls short, and the hair and makeup choices that help."
 slug: "female-jawline-guide"
 primary_keyword: "female jawline"
 cluster: "female-jawline"

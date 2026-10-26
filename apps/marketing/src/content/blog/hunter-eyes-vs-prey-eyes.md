@@ -1,6 +1,6 @@
 ---
 title: "Hunter Eyes vs Prey Eyes: What Separates Them"
-description: Learn what separates hunter eyes from prey eyes, the key anatomical traits behind each, and practical steps to improve your eye area appearance.
+description: "Prey eyes sit under a flat brow with visible sclera above the iris. The specific traits behind each, and which parts respond to styling."
 slug: hunter-eyes-vs-prey-eyes
 primary_keyword: hunter eyes vs prey eyes
 cluster: compare-eyes

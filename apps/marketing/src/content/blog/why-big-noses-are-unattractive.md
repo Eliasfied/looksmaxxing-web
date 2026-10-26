@@ -1,6 +1,6 @@
 ---
 title: "Why Big Noses Read as Unattractive (and When Not)"
-description: Explore why a big nose can read as unattractive, the facial ratios behind it, and practical steps you can take to improve your overall appearance.
+description: "Nose size matters less than projection and the angle to the lip. What the ratio research shows, and what actually changes how it reads."
 slug: why-big-noses-are-unattractive
 primary_keyword: big nose unattractive
 cluster: why-attractive

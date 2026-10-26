@@ -1,6 +1,6 @@
 ---
 title: "Best Glasses for a Square Face: Soften the Jaw"
-description: "Find the best glasses for square face shape: which frame shapes to try, where expert advice disagrees, and the fit checks that matter as much as shape."
+description: "Round and oval frames soften a strong jaw, but the rule has limits. Which shapes to try, where stylists disagree, and the fit checks that decide it."
 slug: "best-glasses-for-square-face"
 primary_keyword: "best glasses for square face shape"
 cluster: "glasses-square"

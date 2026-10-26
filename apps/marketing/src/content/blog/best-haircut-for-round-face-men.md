@@ -1,6 +1,6 @@
 ---
 title: "Best Haircut for a Round Face: 9 That Slim It"
-description: Find the best haircut for round face men. Learn which cuts add height, slim the cheeks, and sharpen your jawline, plus what to ask your barber.
+description: "Nine cuts that add height and slim the cheeks, why volume on the sides works against you, and what to ask for so you leave with the right shape."
 slug: best-haircut-for-round-face-men
 primary_keyword: best haircut for round face men
 cluster: haircut-round

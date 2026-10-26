@@ -1,6 +1,6 @@
 ---
 title: "What Is Looksmax? The No-Nonsense Explainer"
-description: Learn what looksmax means, why it matters, and how to apply evidence-based techniques to improve your appearance starting today.
+description: "What looksmaxxing means, where the term came from, which parts have evidence behind them, and which parts are forum mythology."
 slug: what-is-looksmaxxing
 primary_keyword: looksmax
 cluster: looksmaxxing-pillar

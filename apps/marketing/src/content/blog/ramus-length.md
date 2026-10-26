@@ -1,6 +1,6 @@
 ---
 title: "Ramus Length: The Jaw Measurement Few Check"
-description: Learn what ramus length is, how it shapes your jawline and facial balance, and what you can realistically do to assess and improve it.
+description: "Ramus height sets how long the lower face reads and is rarely checked. Where it is measured, what is typical, and what it means for your jaw."
 slug: ramus-length
 primary_keyword: ramus length
 cluster: anatomy

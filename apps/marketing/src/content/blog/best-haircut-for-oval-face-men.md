@@ -1,6 +1,6 @@
 ---
 title: "Best Haircut for an Oval Face: 10 That Suit It"
-description: "Find the best haircut for oval face men: 10 styles that suit you, how to confirm your face shape, match your hair type, and brief your barber clearly."
+description: "An oval face takes almost any cut, so the decision moves to hair type. Ten styles, how to confirm your shape, and how to brief your barber."
 slug: best-haircut-for-oval-face-men
 primary_keyword: best haircut for oval face men
 cluster: haircut-oval

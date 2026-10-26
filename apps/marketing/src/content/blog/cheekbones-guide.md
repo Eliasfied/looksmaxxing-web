@@ -1,6 +1,6 @@
 ---
 title: "Malar Bones: What Really Sets Cheekbones Apart"
-description: Learn what malar bones are, how they shape your face, and what you can do to enhance cheekbone prominence. Practical, evidence-backed guide.
+description: "The malar bones are what people mean by cheekbones. Where they sit, how they shape the midface, and which changes are real versus marketing."
 slug: cheekbones-guide
 primary_keyword: malar bones
 cluster: cheekbones-guide

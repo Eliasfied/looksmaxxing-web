@@ -1,6 +1,6 @@
 ---
 title: "Downturned Medial Canthus: What Can Be Done"
-description: Learn what a downturned medial canthus is, how it shapes your eye appearance, and what surgical and non-surgical options may help.
+description: "A downturned inner corner changes the eye more than most people realise. What causes it, and which surgical and non-surgical options exist."
 slug: medial-canthus
 primary_keyword: downturned medial canthus
 cluster: anatomy

@@ -1,6 +1,6 @@
 ---
 title: "How to Fix a Recessed Maxilla: What Works by Age"
-description: Learn how to fix a recessed maxilla with surgical, orthodontic, and lifestyle options. Practical guidance on what actually moves the needle.
+description: "What is possible depends almost entirely on whether your growth plates have closed. Expansion, surgery and the honest limits at each age."
 slug: how-to-fix-recessed-maxilla
 primary_keyword: how to fix recessed maxilla
 cluster: how-to-maxilla

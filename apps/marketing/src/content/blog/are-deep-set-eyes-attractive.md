@@ -1,6 +1,6 @@
 ---
 title: "Are Deep Set Eyes Attractive? What Studies Found"
-description: Are deep set eyes attractive? Explore the science, cultural perception, and practical tips for making the most of this striking eye shape.
+description: "Deep set eyes read as intense because of the brow ridge above them. What perception studies found, and how lighting and brows change the effect."
 slug: are-deep-set-eyes-attractive
 primary_keyword: are deep set eyes attractive
 cluster: why-attractive

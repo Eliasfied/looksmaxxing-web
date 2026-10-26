@@ -1,6 +1,6 @@
 ---
 title: "Masculine Face Shape Detector: Find Yours"
-description: Find your face shape instantly with AI. Discover if you have an oval, diamond, square, or other masculine face shape and get personalized tips to improve it.
+description: "Oval, square, diamond, round or oblong: settle your face shape from one photo, and get the glasses and haircut implications that follow from it."
 slug: face-shape-detector
 primary_keyword: masculine face shape
 cluster: face-shape-detector

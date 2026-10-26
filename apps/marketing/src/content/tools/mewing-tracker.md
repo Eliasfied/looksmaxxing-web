@@ -1,6 +1,6 @@
 ---
 title: "Mewing Results Tracker: See Your Real Progress"
-description: "Track your mewing results over time with AI-powered facial analysis. Upload progress photos, get jawline scores, and see what's actually changing."
+description: "Compare two photos months apart and see what changed and what is just lighting and angle. Honest about what a photo can and cannot establish."
 slug: mewing-tracker
 primary_keyword: mewing results
 cluster: mewing-progress-tracker

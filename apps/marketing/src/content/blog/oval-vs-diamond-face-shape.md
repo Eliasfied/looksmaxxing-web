@@ -1,6 +1,6 @@
 ---
 title: "Oval vs Diamond Face: The Difference Is Subtle"
-description: Learn how to tell oval and diamond face shapes apart, what makes each unique, and how to style both shapes to your advantage.
+description: "The difference comes down to cheekbone width against forehead width, and it is subtle. How to tell them apart and why it changes your frames."
 slug: oval-vs-diamond-face-shape
 primary_keyword: oval vs diamond face shape
 cluster: compare-face-shape
