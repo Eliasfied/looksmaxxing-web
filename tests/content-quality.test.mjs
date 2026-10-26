@@ -109,3 +109,18 @@ test('deterministic findings are told apart from the reviewer prose that blocks 
   assert.ok(!isDeterministicIssue('Clinical or intervention topic requires human review before publishing.'));
   for (const issue of DETERMINISTIC_ISSUES) assert.ok(isDeterministicIssue(issue));
 });
+
+test('a brief asking for lettering is refused, naming it to rule it out is not', () => {
+  const withLabels = article();
+  withLabels.image_prompts[0].prompt = 'A clean illustration showing seven simple face outlines in a row on a neutral background, each outline a smooth line drawing with a small one-word label beneath it.';
+  assert.ok(validateContent(page, withLabels, sources).includes('Image brief asks for text inside the picture'));
+
+  for (const prompt of [
+    'A clean illustrated grid of four panels showing the same neutral cartoon face, consistent lighting and no labels or text anywhere in the frame at all.',
+    'Overhead flat lay of five eyeglass frames arranged in a loose arc on light linen, shot without captions or annotations of any kind whatsoever.',
+  ]) {
+    const negated = article();
+    negated.image_prompts[0].prompt = prompt;
+    assert.deepEqual(validateContent(page, negated, sources), [], prompt);
+  }
+});

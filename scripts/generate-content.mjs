@@ -316,10 +316,21 @@ IMAGE RULES:
   \`\`\`
 - Provide exactly 3 image_prompts in the JSON.
   * image_prompts[0] = HERO image: a big-picture, eye-catching overview visual that represents the topic at a glance. Avoid being too detail-heavy.
-  * image_prompts[1] and image_prompts[2] = INLINE supporting visuals: specific styling examples, useful comparisons or technique demonstrations. No simulated outcome claims or fake before/after transformations.
+  * image_prompts[1] and image_prompts[2] = INLINE supporting visuals: concrete styling examples or technique demonstrations. No simulated outcome claims or fake before/after transformations.
+  * The image generator cannot write legible text and cannot render small geometric
+    differences reliably. A brief that needs either comes back wrong and is rejected,
+    so do not write one. Concretely:
+    - NEVER ask for text in the picture: no labels, captions, annotations, callouts,
+      arrows, legends, numbers, measurements or one-word tags under anything.
+    - NEVER ask for a taxonomy figure: no "one panel per face shape", no "three pairs
+      of eyes showing each tilt", no set of variants the reader must tell apart by
+      angle, degree, proportion or a few millimetres. The prose carries the taxonomy;
+      the picture shows ONE concrete instance of it.
+    - Anything shown together in one image must differ OBVIOUSLY at a glance — by
+      shape, colour, material or styling, never by a subtle anatomical difference.
   * Each prompt must:
     - Describe an EDUCATIONAL or ILLUSTRATIVE visual (no abstract concepts).
-    - Be specific and visual.
+    - Be specific and visual, and describe ONE subject in ONE scene.
     - Avoid celebrity faces, real-person likenesses, or copyrighted material.
     - Match the article topic precisely.
     - Be ~2 sentences, focused on what should be SHOWN.
@@ -334,7 +345,7 @@ Return ONLY valid JSON (no markdown fences, no preamble) matching this exact sch
   "tags": ["tag1", "tag2", "tag3"],
   "body_markdown": "## First H2\\n\\nFirst paragraph...\\n\\n## Second H2\\n\\nMore content...\\n\\n{{IMAGE_2}}\\n\\n## Third H2\\n\\n... {{IMAGE_3}} ...",
   "image_prompts": [
-    { "prompt": "Detailed visual description for the first image, e.g. clean educational diagram showing X.", "alt": "Alt text for image 1, with primary keyword if natural" },
+    { "prompt": "Detailed visual description for the first image: one concrete subject in one scene, no text or labels in the picture.", "alt": "Alt text for image 1, with primary keyword if natural" },
     { "prompt": "Visual description for image 2.", "alt": "Alt text for image 2" },
     { "prompt": "Visual description for image 3.", "alt": "Alt text for image 3" }
   ],
@@ -458,7 +469,7 @@ async function generatePage(page) {
   if (!builder) throw new Error(`Unknown page_type: ${page.page_type}`);
   const brief = productBrief(page);
   const prompt = builder(page) + '\n\nVERIFIED PRODUCT BRIEF (overrides any generic CTA examples above):\n' + JSON.stringify(brief) +
-    '\nRESEARCH: Use only supported claims from the preceding research. Add sources:[{title,url}] to your JSON with the exact source URLs. Add tool_slug and audience from the brief. Each image_prompts entry also needs purpose: the specific concept in its surrounding section that this picture teaches. Match women-focused articles with appropriate styling examples, without forcing the same colour palette on every image. Prefer clear, simple styling examples over diagrams needing exact ruler markings, subtle comparative changes or precisely aligned anatomical arrows. Keep text sparse and do not request unverifiable before/after results. Never invent app screenshots.';
+    '\nRESEARCH: Use only supported claims from the preceding research. Add sources:[{title,url}] to your JSON with the exact source URLs. Add tool_slug and audience from the brief. Each image_prompts entry also needs purpose: the specific concept in its surrounding section that this picture teaches. Match women-focused articles with appropriate styling examples, without forcing the same colour palette on every image. Image briefs must obey the visual constraints above: one concrete subject per picture, no text, labels, captions, arrows or numbers inside it, and no taxonomy or measurement figure the reader would have to decode. Do not request unverifiable before/after results. Never invent app screenshots.';
 
   const client = await anthropic();
   const research = await researchPage(client, page, accountUsage);
@@ -830,6 +841,19 @@ function makeBranchName() {
   return `content/batch-${stamp}`;
 }
 
+// ─── IndexNow hand-off ──────────────────────────────────────────────────────
+
+// IndexNow wants the URLs that changed, not the whole site, so the run records
+// what it actually published and the deploy step submits exactly that.
+function writeIndexNowUrls(pages) {
+  const site = (process.env.PUBLIC_SITE_URL ?? 'https://www.aura-looksmaxxing.com').replace(/\/$/, '');
+  const target = path.join(ROOT, '.indexnow-urls.txt');
+  if (!pages.length) { fs.rmSync(target, { force: true }); return; }
+  const urls = pages.map(page => `${site}/${page.page_type === 'tool' ? 'tools' : page.page_type}/${page.slug}`);
+  fs.writeFileSync(target, urls.join('\n') + '\n');
+  console.log('Wrote ' + urls.length + ' URL(s) to .indexnow-urls.txt for IndexNow.');
+}
+
 // ─── Release stored drafts ──────────────────────────────────────────────────
 
 // A draft may be released only when nothing editorial is still open against it.
@@ -878,7 +902,7 @@ async function releaseDrafts(rows) {
       imageFailures: data._imageFailures ?? [],
       previousAttempts: [...previousAttempts, lastAttempt],
     }, null, 2) + '\n');
-    released.push({ slug, outPath, missingImages: (data._imageFailures ?? []).map(f => f.image) });
+    released.push({ slug, page, outPath, missingImages: (data._imageFailures ?? []).map(f => f.image) });
   }
   console.log(JSON.stringify({ released, held }, null, 2));
   return { released, held };
@@ -897,6 +921,7 @@ async function main() {
     for (const { slug, missingImages } of released) {
       if (missingImages.length) console.warn('Released ' + slug + ' without image(s) ' + missingImages.join(', ') + '; backfill later.');
     }
+    writeIndexNowUrls(released.map(r => r.page));
     return;
   }
   if (RETRY_REVIEW && !ONLY_SLUG) throw new Error('--retry-review requires --slug; review topics are never retried automatically.');
@@ -961,6 +986,7 @@ async function main() {
   finally { fs.unlinkSync(commitFile); }
   const { execFileSync } = await import('node:child_process');
   execFileSync('git', ['push', '-u', 'origin', branch], { cwd: ROOT, stdio: 'inherit' });
+  writeIndexNowUrls(generated.filter(g => !g.draft).map(g => g.page));
   if (needsReview) { console.error('Drafts need review: see content-reviews. Drafts were excluded from the public build.'); process.exitCode = 1; }
 }
 main().catch(error => { console.error('Content pipeline failed:', error.message); process.exitCode = 1; });

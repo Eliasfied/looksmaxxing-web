@@ -9,7 +9,7 @@ const leanReviewOptions = model => ({
   ...(model === 'claude-sonnet-5-5' ? { thinking: { type: 'between_tools' } } : {}),
 });
 export const imageInput = prompt => ({
-  prompt: prompt + ' Create a clear, editorial-quality visual with natural lighting, accurate anatomy and a composition tailored to this specific topic. Square composition with generous safe margins. No invented app screens, fake measurements, fake transformations, logos, watermarks or unnecessary decorative text.',
+  prompt: prompt + ' Create a clear, editorial-quality visual with natural lighting, accurate anatomy and a composition tailored to this specific topic. Square composition with generous safe margins. Render no text of any kind: no words, letters, numbers, labels, captions, legends or watermarks anywhere in the image. No invented app screens, fake measurements, fake transformations or logos.',
   image_size: { width: 1024, height: 1024 }, quality: 'low', num_images: 1, output_format: 'png',
 });
 
@@ -76,11 +76,25 @@ export const DETERMINISTIC_ISSUES = Object.freeze([
   'Content is too thin for this format', 'Not enough cited sources', 'A source was not found in research',
   'CTA does not lead to the matched implemented tool', 'Too many in-body product links',
   'Missing contextual product link', 'Unverified external link: ', 'Exactly three visual briefs required',
-  'Invalid image placements', 'Duplicate image briefs',
+  'Invalid image placements', 'Duplicate image briefs', 'Image brief asks for text inside the picture',
   'Image needs a specific prompt, alt text and article purpose',
 ]);
 
 export const isDeterministicIssue = issue => DETERMINISTIC_ISSUES.some(known => issue.startsWith(known));
+
+// Lettering the image generator cannot render legibly. A good brief often names
+// these to rule them out ("no labels or text"), so the mention alone is not the
+// offence — only an unnegated one is.
+const UNRENDERABLE_BRIEF = /\b(labell?ed|labell?ing|labels?|captions?|annotated|annotations?|callouts?|legends?|one-word|text overlay|lettering|typography|handwritten|watermarks?)\b/gi;
+const BRIEF_NEGATION = /\b(no|not|never|without|avoid|avoiding|omit|omitting|free of|minus|nor|exclude|excluding)\b[^.;]*$/i;
+
+function wantsTextInImage(prompt) {
+  for (const match of String(prompt).matchAll(UNRENDERABLE_BRIEF)) {
+    const lead = String(prompt).slice(Math.max(0, match.index - 80), match.index);
+    if (!BRIEF_NEGATION.test(lead)) return true;
+  }
+  return false;
+}
 
 export function validateContent(page, data, evidenceSources) {
   const issues = [], brief = productBrief(page);
@@ -119,6 +133,10 @@ export function validateContent(page, data, evidenceSources) {
     const prompts = data.image_prompts ?? [];
     if (new Set(prompts.map(p => p?.prompt?.toLowerCase())).size !== prompts.length) issues.push('Duplicate image briefs');
     if (prompts.some(p => !p || typeof p.prompt !== 'string' || p.prompt.length < 60 || typeof p.alt !== 'string' || !p.alt.trim() || typeof p.purpose !== 'string' || !p.purpose.trim())) issues.push('Image needs a specific prompt, alt text and article purpose');
+    // The generator cannot write legible text, so a brief that needs any is a
+    // brief the visual review will refuse. Catching it here costs nothing and
+    // lets the repair pass rewrite it before an image is ever paid for.
+    if (prompts.some(p => wantsTextInImage(p?.prompt ?? ''))) issues.push('Image brief asks for text inside the picture');
   }
   return [...new Set(issues)];
 }
