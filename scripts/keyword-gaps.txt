@@ -1,0 +1,83 @@
+# Candidate keywords for the gaps the 2026-09 audit named, to be measured with
+#   node scripts/keyword-research.mjs --seeds scripts/keyword-gaps.txt --ideas
+# Nothing here has a volume yet. Only measured terms belong in keywords.csv,
+# because the daily run picks the highest-volume pending page and a guessed
+# number would jump the queue ahead of everything real.
+#
+# Coverage today (285 slugs): 25 comparisons, all conceptual (hunter eyes vs
+# prey eyes); 3 reviews; 3 cost pages; 1 age page; 8 for women; 6 before/after.
+# The commercial-intent terms below are where competitors rank and the site has
+# nothing: softmaxx.io, realworldappeal.com, looksmaxxing.guide, qoves.com,
+# selfmadenewbie.com and fazly.app all publish app comparisons.
+
+# --- Product comparison and buying intent (strongest gap: nothing at all) ---
+best looksmaxxing app
+best free looksmaxxing app
+looksmaxxing app free
+best face rating app
+best ai face analysis app
+umax alternative
+umax review
+qoves alternative
+looksmax ai alternative
+umax vs looksmax ai
+free alternative to umax
+is umax accurate
+are face rating apps accurate
+best facial analysis app free
+
+# --- Cost cluster (3 pages today) ---
+how much does jaw surgery cost
+jaw implant cost
+chin implant cost
+buccal fat removal cost
+veneers cost
+hair transplant cost
+lip filler cost
+how much does mewing cost
+cost of looksmaxxing surgery
+cheapest looksmaxxing
+
+# --- Age segments (1 page today) ---
+looksmaxxing at 25
+looksmaxxing at 35
+looksmaxxing at 40
+glow up at 30
+glow up in your 30s
+looksmaxxing for teens
+is 30 too old to looksmax
+anti aging for men
+how to look younger men
+best age to looksmax
+
+# --- Women (8 pages today, mostly haircuts) ---
+glow up tips for women
+facial harmony women
+female face rating
+jawline exercises for women
+skincare routine for women glow up
+how to look more feminine face
+soft girl face
+facial femininity
+best haircut for women by face shape
+makeup for face shape
+
+# --- Before/after and proof (6 pages today) ---
+mewing before and after
+jawline before and after
+looksmaxxing before and after
+skincare before and after
+hair transplant before and after
+weight loss face before and after
+braces before and after face
+double chin before and after
+
+# --- Beginner and intent entry points ---
+how to start looksmaxxing
+looksmaxxing guide for beginners
+looksmaxxing routine
+daily looksmaxxing routine
+looksmaxxing checklist
+does looksmaxxing work
+is looksmaxxing healthy
+looksmaxxing side effects
