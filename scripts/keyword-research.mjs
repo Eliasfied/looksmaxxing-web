@@ -129,7 +129,44 @@ export function csvRow({ keyword, volume, sd, cluster, slug, phase }) {
   return [keyword, volume, sd ?? '', cluster, slug, 'pending', 'blog', 'yes', phase ?? 5].join(',');
 }
 
+// Rows that went into the queue without a measured volume. getPendingPages
+// sorts by volume, so an unmeasured keyword is not merely unranked — it is
+// ranked last. "hair transplant cost" sat at 0 while DataForSEO put it at
+// 27,100, which buried its page behind every 400-volume term in the file.
+async function measureQueue() {
+  const csvPath = path.join(ROOT, 'apps/marketing/src/data/keywords.csv');
+  const lines = fs.readFileSync(csvPath, 'utf8').replace(/\r/g, '').split('\n');
+  const header = lines[0].split(',');
+  const col = name => header.indexOf(name);
+  const [kw, vol, sd, status] = ['keyword', 'volume', 'sd', 'status'].map(col);
+  if ([kw, vol, sd, status].some(i => i === -1)) throw new Error('keywords.csv is missing an expected column');
+
+  const rows = lines.slice(1).filter(Boolean).map(l => l.split(','));
+  const unmeasured = rows.filter(r => r[status] === 'pending' && !(Number(r[vol]) > 0));
+  if (!unmeasured.length) { console.log('Every pending keyword already has a volume.'); return; }
+  console.error(`Measuring ${unmeasured.length} pending keyword(s) with no volume…`);
+
+  const keywords = [...new Set(unmeasured.map(r => r[kw].toLowerCase()))];
+  const volumes = await searchVolume(keywords);
+  const difficulties = await difficulty(keywords).catch(() => new Map());
+
+  let filled = 0, stillNone = 0;
+  for (const row of unmeasured) {
+    const found = volumes.get(row[kw].toLowerCase());
+    if (!found || typeof found.volume !== 'number' || found.volume <= 0) { stillNone++; continue; }
+    row[vol] = String(found.volume);
+    const kd = difficulties.get(row[kw].toLowerCase());
+    if (typeof kd === 'number' && !row[sd]) row[sd] = String(kd);
+    filled++;
+  }
+  fs.writeFileSync(csvPath, [lines[0], ...rows.map(r => r.join(','))].join('\n') + '\n');
+  console.log(`Filled ${filled} volume(s); ${stillNone} keyword(s) still have none and keep 0.`);
+  const top = unmeasured.filter(r => Number(r[vol]) > 0).sort((a, b) => Number(b[vol]) - Number(a[vol])).slice(0, 15);
+  for (const r of top) console.log(String(r[vol]).padStart(7) + '  ' + r[kw]);
+}
+
 async function main() {
+  if (args.includes('--measure-queue')) return measureQueue();
   if (!SEEDS) throw new Error('--seeds <file> is required (one keyword per line, # for comments)');
   const seedPath = path.isAbsolute(SEEDS) ? SEEDS : path.join(ROOT, SEEDS);
   if (!fs.existsSync(seedPath)) throw new Error(`Seed file not found: ${seedPath}`);
