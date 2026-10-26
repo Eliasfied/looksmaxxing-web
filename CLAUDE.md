@@ -177,6 +177,15 @@ Hak einfach ab (`- [x]`) wenn erledigt.
       bei der nächsten Validierung durchlaufen — dort einmal nachstoßen.
 
 ### 🟡 Danach
+- [ ] **Bild-Backfill zu Ende bringen** — 5 Seiten haben noch Lücken:
+      `female-jawline-guide` und `haircuts-for-square-faces-women` (je 2 fehlen),
+      `best-glasses-for-diamond-face`, `best-glasses-for-square-face`,
+      `canthal-tilt-female` (je 1). Dazu `glow-up-checklist-for-women` Bild 2,
+      das alle drei Versuche verloren hat.
+      `node scripts/generate-content.mjs --backfill-images --count 5`
+      ⚠️ Der Modus schreibt die Briefs neu, also werden auch die bereits
+      freigegebenen Bilder dieser Seiten neu erzeugt. Für Seiten mit nur einer
+      Lücke lohnt sich das nur, wenn die vorhandenen Bilder ohnehin schwach sind.
 - [ ] Bilder ohne `width`/`height` (12 von 16 auf der Startseite) → CLS
 - [ ] Keywords nachfüllen: 45 Cluster offen (~32.000 Volumen, ~6 Wochen Vorlauf).
       `scripts/expand-clusters.mjs` braucht frische Ubersuggest-Exporte.
