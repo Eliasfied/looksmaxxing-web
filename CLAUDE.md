@@ -123,18 +123,25 @@ Hak einfach ab (`- [x]`) wenn erledigt.
 - [ ] Core Web Vitals Report prüfen
 
 ### 10.2 Bing Webmaster Tools
-- [ ] Account anlegen: https://www.bing.com/webmasters → „Import your sites from
-      Google Search Console" (zieht Property + Verifizierung + Sitemap mit, ~2 Min).
-      Fallback ohne Import: Site manuell hinzufügen, per DNS-TXT verifizieren,
-      Sitemap `https://www.aura-looksmaxxing.com/sitemap-index.xml` einreichen
-      (⚠️ NICHT `/sitemap.xml` — existiert nicht).
+- [x] Account + Property stehen, Search Performance liefert Daten
+      (Stand 2026-10-26: 265 Klicks / 27,6K Impressions, steigend).
+- [ ] Unter „Sitemaps" prüfen, dass `https://www.aura-looksmaxxing.com/sitemap-index.xml`
+      eingereicht ist (⚠️ NICHT `/sitemap.xml` — existiert nicht).
 - [x] IndexNow Key: `12aa09fb4abee29fdfc774d3fe6b4224`, ausgeliefert unter
       `/12aa09fb4abee29fdfc774d3fe6b4224.txt` (Datei liegt in `apps/marketing/public/`).
       `scripts/indexnow.mjs` zeigte vorher auf `getbanana.ai` — behoben.
       Läuft automatisch im `daily-content` Workflow für neu veröffentlichte Seiten.
       Einmalig alles anmelden: `node scripts/indexnow.mjs --all`
-- [ ] Nach dem Bing-Setup: in Webmaster Tools unter „IndexNow" prüfen, dass die
-      Pings ankommen (der Key wird dort erst nach dem ersten Submit sichtbar).
+- [ ] In Webmaster Tools unter „IndexNow" prüfen, dass die Pings ankommen.
+      ⚠️ Dort **nicht** „Get Started" klicken — das erzeugt einen *neuen* Key.
+      Unserer liegt schon und funktioniert (Test-Submit 2026-10-26: HTTP 202).
+      Die Seite zeigt die Einstiegs-Werbung, bis Bing die ersten Pings verarbeitet
+      hat; das dauert bis zu einen Tag.
+
+> Bings Hinweis „Some URLs are not getting indexed due to robots NOINDEX meta tags"
+> ist **kein Fehler**: er betrifft `app.aura-looksmaxxing.com`, das in
+> `apps/web/app/layout.tsx` bewusst auf `index: false` steht. Die Marketing-Site
+> setzt nirgends `noindex` (geprüft 2026-10-26, live und im Code).
 
 > IndexNow bedient Bing, Yandex, Seznam und Naver — **nicht Google**. Der direkte
 > Traffic-Effekt ist klein; relevant ist, dass ChatGPT-Suche und Copilot auf dem
