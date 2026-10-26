@@ -19,7 +19,7 @@ faq:
     a: Prostaglandin analogs can increase iris pigmentation, potentially darkening light-colored eyes permanently. This effect is more documented with direct ocular drops than with lash-line application of Latisse, but it is a real risk, especially for people with blue, green, or hazel eyes. Your prescribing doctor should review this before you begin treatment.
   - q: Does rosemary oil actually help eyelash growth?
     a: Direct clinical evidence for rosemary oil on eyelashes is limited. The interest comes from a small scalp study where rosemary oil performed comparably to minoxidil over six months. The active compound rosmarinic acid may support follicle activity, and the risk profile is low. Results vary and tend to be modest compared to prescription options.
-draft: false
+draft: true
 ---
 
 Longer, thicker eyelashes change how your eyes read on your face. They add definition, make the eye appear larger, and create contrast that draws attention upward toward your features. For men especially, fuller lashes can soften or sharpen a look depending on natural face structure.

@@ -1,129 +1,109 @@
 ---
 title: "HGH Face Before and After: What It Really Does"
-description: "HGH thickens the brow, lengthens the jaw and widens the nose, and the changes do not reverse. What the endocrine literature documents."
+description: "HGH thickens the brow, lengthens the jaw and widens the nose, and the bone changes do not reverse. The risks, the law, and why we advise against it."
 slug: hgh-face-changes
 primary_keyword: hgh face before and after
 cluster: hgh-face
 pubDate: 2026-09-27
+updatedDate: 2026-10-26
 heroImage: /blog/hgh-face-changes/1.webp
 heroImageAlt: HGH face before and after illustrated facial changes diagram
-tags: [hgh, facial-changes, looksmaxxing, hormones, jawline]
+tags: [hgh, facial-changes, hormones, jawline]
 readingTime: 8
 related: [how-to-grow-maxilla, bimax-before-after, mandible-vs-maxilla]
 faq:
-  - q: How long does it take to see facial changes from HGH?
-    a: Skin quality improvements may appear within the first one to three months of consistent use. Structural bone changes, such as increased jaw definition or brow prominence, are much slower and may require six months to a year or more of use before becoming visible in photographs.
+  - q: Should I take HGH to improve my face?
+    a: No. The facial effects of growth hormone come from having too much of it, and the bone changes, such as a thicker brow, longer jaw and wider nose, do not reverse. It also raises the risk of diabetes, joint pain and fluid retention. We don't recommend it for appearance under any circumstances.
+  - q: Is it legal to take HGH for looks?
+    a: Growth hormone is a prescription medicine for specific medical conditions such as a diagnosed deficiency. In many countries, including the United States, prescribing or distributing it for anti-aging, bodybuilding or appearance is illegal. Products sold outside that system are often counterfeit, mislabeled or contaminated.
   - q: Are HGH facial changes permanent?
-    a: Soft tissue changes, including improved skin thickness and reduced facial fat, will largely reverse if HGH use is discontinued. Bone changes, however, are largely permanent. Any bony growth that occurs during use does not revert when the hormone is stopped.
-  - q: Can low-dose HGH still cause facial changes?
-    a: Research suggests that even lower, therapeutic-range doses can improve skin collagen and reduce subcutaneous fat over time. Significant structural bone changes are less likely at low doses but cannot be ruled out with extended use. Individual response also varies based on baseline IGF-1 levels and genetics.
+    a: Soft tissue changes, such as skin thickness and facial fat, largely reverse after stopping. Bone changes do not. Any bony growth that happens during use stays, and undoing it would mean surgery.
   - q: How do I tell if facial changes in before and after photos are really from HGH?
-    a: "Look for controlled conditions in both photos: same lighting angle, same camera distance, same facial expression, and similar body weight. If those variables are not controlled, changes in lighting or fat loss could account for most of the visible difference. True structural changes require long-term consistent documentation under controlled conditions to verify."
+    a: "Look for controlled conditions in both photos: the same lighting, camera distance, expression and similar body weight. Without that, changes in lighting or fat loss can explain most of the visible difference."
+stance: "Growth hormone is a prescription medicine for people with a diagnosed deficiency or specific medical conditions. Taken for looks, its documented facial effects are the effects of having too much of it: a thicker brow, a longer jaw, a wider nose and coarser features, and the bone changes do not reverse. It also raises the risk of diabetes, joint pain and fluid retention. In many countries, including the United States, giving it out for anti-aging or appearance is illegal, and black-market products are often fake or contaminated. **We don't recommend it for appearance under any circumstances.**"
+medical_procedure: true
 draft: false
 ---
 
-Human growth hormone is one of the most discussed compounds in appearance-focused communities, and the face is where people first claim to notice changes. Before you draw conclusions from a handful of photos posted online, it helps to understand the biology behind what HGH actually does to facial structure, what the realistic timeline looks like, and how to tell signal from noise when comparing before and after photos.
+Human growth hormone gets discussed in appearance-focused communities as a way to sharpen the jaw and improve skin. The facial changes it causes are real. They are also, quite precisely, the facial changes of a medical condition caused by excess growth hormone, and the bone changes are permanent.
 
-This article breaks down the mechanisms, the documented changes, and the honest limitations. **Talk to a qualified medical professional before considering any hormone therapy.** HGH is a prescription compound with real risks, and nothing in this article constitutes medical advice.
+This article explains what HGH does to the face, the risks, what the research actually covers, and what improves the things people hope HGH will fix.
 
-## How HGH Affects Facial Tissue and Bone
+## How HGH Affects the Face
 
-Human growth hormone (HGH) works primarily by stimulating the liver to produce insulin-like growth factor 1 (IGF-1). IGF-1 is the downstream signal that drives most of the tissue-level changes people associate with growth hormone use. On the face, this affects several distinct structures:
+Growth hormone works mainly by making the liver produce insulin-like growth factor 1 (IGF-1), which drives most of its effects on tissue.
 
-- **Cortical and cancellous bone**: Research suggests IGF-1 can stimulate osteoblast (bone-forming cell) activity. In adults whose growth plates are fused, this does not produce linear growth but can produce periosteal expansion, meaning bones may grow outward and thicken over time.
-- **Soft tissue and skin**: HGH has well-documented effects on collagen synthesis and skin thickness. Users often report improved skin texture, reduced fine lines, and a firmer appearance, effects likely tied to increased collagen type I production.
-- **Subcutaneous fat**: HGH is lipolytic, meaning it promotes fat breakdown. Reduced facial fat can sharpen definition in the cheeks and jawline, making underlying bone structure more visible.
-- **Muscle and connective tissue**: Increased protein synthesis may add density to the muscles of mastication (the masseter and temporalis), subtly widening the lower face.
+- **Bone:** In adults, whose growth plates have closed, excess IGF-1 does not make you taller. It makes bones grow outward and thicken, which is what changes the shape of the face.
+- **Skin:** Growth hormone affects collagen production and skin thickness.
+- **Fat:** It promotes fat breakdown, which can make the face look leaner.
+- **Water:** It causes fluid retention, which makes the face, hands and feet puffy, especially early on.
 
-Understanding which of these mechanisms is driving a given change matters, because not all changes are permanent, and not all of them are desirable depending on your starting facial structure.
+## What Changes, and Why That Is the Problem
 
-## Which Facial Features Change Most Visibly
+The clearest picture of what excess growth hormone does to an adult face comes from **acromegaly**, a condition in which the body produces too much of it for years. The changes are well documented:
 
-### The Jaw and Chin
+- **The jaw** grows longer and juts forward, sometimes until the teeth no longer meet properly.
+- **The brow ridge** and forehead become more prominent.
+- **The nose** widens and thickens.
+- **The lips and tongue** enlarge.
+- **Features coarsen** overall.
 
-The mandible (lower jaw) and the chin region are the most commonly cited sites of visible change. The chin may appear to project more forward (increased pogonion projection), and the jaw angles can become more defined. These changes are gradual and tend to be more pronounced with higher doses or longer durations of use.
-
-In clinical literature on acromegaly, a condition caused by chronic excess growth hormone, mandibular prognathism (an overdeveloped lower jaw that protrudes beyond the upper jaw) is a hallmark feature. Recreational or therapeutic use at lower doses produces far more subtle effects, but the same structures are being stimulated.
-
-### The Brow Ridge and Orbital Bones
-
-The supraorbital ridge (brow bone) and the orbital rims around the eyes are among the denser bones in the skull and respond slowly. Some users report a more prominent brow over extended periods, which can create a more defined, hunter-eye appearance by slightly lowering the brow relative to the orbit. This is a slow, dose-dependent process.
-
-### The Nose
-
-The nasal bones and septal cartilage may thicken slightly. Some users notice the nose appears slightly wider or the tip becomes less refined. This is one of the less desirable changes for many people and worth factoring into the cost-benefit analysis.
-
-### Skin Quality
-
-This is arguably the most consistent and noticeable change at moderate doses. Improved skin hydration, reduced sagging, and a firmer texture are frequently reported. The skin appears healthier and more elastic, which reads as a significant rejuvenation effect in before and after comparisons.
+Lower doses taken for appearance produce subtler effects, but they stimulate the same structures in the same direction. There is no dose that reliably delivers "a sharper jaw" without the rest. Bone growth also does not distribute evenly, so asymmetries can become more noticeable.
 
 ![Anatomical diagram showing facial bones affected by HGH and IGF-1](/blog/hgh-face-changes/2.webp)
 
-## The Timeline: When Do Changes Appear
+## The Risks
 
-Facial bone changes are slow. Here is a realistic breakdown of what tends to happen at different points:
+### To the face
 
-**Weeks 1 to 4**: Primarily water retention and improved skin hydration. The face may look slightly fuller or "puffier," especially around the hands and face. This is not structural change; it is fluid redistribution.
+- **Permanent bone changes.** Soft tissue effects fade after stopping. Bone changes do not. A jaw, brow or nose that has grown beyond what you wanted can only be changed back with surgery.
+- **Unwanted changes.** A wider nose and coarser features are common effects, and few people want them.
 
-**Months 1 to 3**: Skin quality improvements become more noticeable. Collagen synthesis is ramping up. Fat loss in the face may begin if the user is in a caloric deficit or running higher doses.
+### To the body
 
-**Months 3 to 6**: Soft tissue changes (skin tightening, facial fat reduction) are more evident. Early, subtle changes to bony structure may begin but are not yet visible in photos.
+- **Diabetes risk.** Growth hormone raises blood sugar and can cause insulin resistance.
+- **Joint and nerve pain.** Joint pain and carpal tunnel syndrome, from tissue swelling, are well-known side effects.
+- **Fluid retention** and swelling of the hands, feet and face.
+- **Unknown long-term effects.** It should not be used by anyone with active cancer, and its long-term effects at the doses people take for appearance have not been studied well.
 
-**6 months and beyond**: Bony changes, if they occur, become detectable. Jaw definition, chin projection, and brow development are longer-arc changes that require extended, consistent use.
+### Legal and supply
 
-The practical takeaway is that most dramatic before and after photos online either reflect long-term use, high doses, other compounding factors (such as fat loss, better lighting, or additional substances), or some combination of all three.
+In many countries, including the United States, prescribing or distributing growth hormone for anti-aging, bodybuilding or appearance is illegal. What is sold outside proper medical channels is often counterfeit, mislabeled or contaminated, and injecting it brings its own risk of infection.
 
-## Reading Before and After Photos Critically
+## What the Research Actually Covers
 
-Before and after photos are the primary way people evaluate HGH face changes, and they are notoriously easy to manipulate, even unintentionally. Here is what to account for when looking at comparisons:
+Most research on growth hormone and the face comes from two groups:
 
-1. **Lighting angle**: Harsher, directional lighting creates more shadow and definition. A simple change in light source can make a jawline look dramatically sharper without any physical change.
-2. **Camera distance and focal length**: Shooting closer with a wide lens distorts facial proportions. Distance and lens choice affect how prominent the chin and nose appear.
-3. **Body fat percentage**: If someone lost significant body fat between photos, that alone would sharpen facial definition considerably.
-4. **Grooming and posture**: Neck posture affects how the jawline reads in a photo. Looking slightly downward or forward creates more definition.
-5. **Skin treatment and hydration**: Better skincare, improved sleep, and hydration all affect how skin looks in photos.
+- **People with growth hormone deficiency** receiving replacement therapy. They are being brought back to normal levels, so their results say little about healthy people taking extra.
+- **People with acromegaly**, whose excess growth hormone causes the dramatic, largely irreversible changes described above.
 
-None of this means that real changes do not occur. It means that isolating the variable of HGH requires controlling for all of these other factors, which almost no casual before and after photo does.
-
-If you want an objective baseline before making any changes to your routine, using a tool like [Aura](https://app.aura-looksmaxxing.com) to score and document your current facial structure gives you a measurable starting point. Aura's AI analysis covers jawline definition, brow prominence, and overall facial harmony, so you are comparing against real metrics rather than subjective impressions.
-
-## What Clinical Research Actually Shows
-
-Most research on HGH and facial changes comes from two populations: patients with growth hormone deficiency (GHD) receiving therapeutic HGH replacement, and patients with acromegaly (pathological excess of growth hormone).
-
-**In GHD patients**: Therapeutic replacement has been shown to improve skin thickness, reduce subcutaneous fat, and improve soft tissue quality. These patients are restoring physiologically normal levels, so results are not directly comparable to supraphysiological use.
-
-**In acromegaly**: The facial changes are dramatic and well-documented, including coarsening of features, mandibular prognathism, macroglossia (enlarged tongue), and frontal bossing (prominent forehead/brow). These changes result from years of excess hormone and are largely irreversible.
-
-Research on healthy adults using HGH at recreational or "anti-aging" doses is more limited. Studies suggest benefits in body composition and skin quality are real but modest, and the long-term skeletal effects at these doses are not fully characterized.
+Research in healthy adults taking it for "anti-aging" is limited. Benefits to body composition and skin are modest, and the long-term effects on bone at these doses are not well understood.
 
 ![Controlled before and after facial photo comparison method for tracking HGH changes](/blog/hgh-face-changes/3.webp)
 
-## Risks Specific to Facial Changes
+## Reading Before and After Photos Critically
 
-It is worth being direct about the risks that are specific to facial appearance, separate from systemic risks like insulin resistance, fluid retention, or carpal tunnel syndrome.
+Online before and after photos rarely isolate growth hormone as the cause:
 
-- **Irreversibility of bone changes**: Unlike soft tissue changes, bony changes do not reverse when you stop using HGH. A jaw or brow that has grown beyond your preferred aesthetic cannot be walked back without surgery.
-- **Asymmetric growth**: Bone growth stimulated by IGF-1 does not always distribute evenly. Subtle asymmetries may become more pronounced.
-- **Nose changes**: As noted above, nasal thickening is not a change most people are seeking, and it is not reversible.
-- **Feature coarsening**: At higher doses or with long-term use, facial features can take on a coarser, more prominent quality that departs from conventional aesthetic ideals.
+1. **Lighting:** Harsh, directional light creates shadows that make a jaw look sharper.
+2. **Camera distance and lens:** Shooting close with a wide lens distorts proportions.
+3. **Body fat:** Losing fat between photos sharpens the face on its own.
+4. **Posture and grooming:** Head position changes how the jaw reads.
+5. **Other substances:** Many people posting results take several things at once.
 
-These are not reasons to dismiss the topic, but they are reasons to go in with realistic expectations and medical supervision.
+## What Actually Improves What People Hope HGH Will Fix
 
-## Practical Steps for Anyone Considering HGH
+- **Sleep.** Most of the body's own growth hormone is released during deep sleep. Consistent, sufficient sleep is the one reliable, risk-free way to support it.
+- **Lower body fat.** The sharper jaw and cheek definition people want from HGH mostly comes from less facial fat, which diet and exercise achieve without permanent bone changes.
+- **Strength training.** Supports body composition and the body's own hormone balance.
+- **Skin care.** Daily sunscreen is the most effective way to protect skin quality over time, with a moisturizer and, if needed, advice from a dermatologist.
 
-If you are seriously researching this, here is how to approach it responsibly:
+## If You Are Already Using It
 
-1. **Get baseline labs**: IGF-1, fasting glucose, HbA1c, and a full hormone panel give you a starting point and let you monitor for adverse metabolic effects.
-2. **Work with an endocrinologist or anti-aging physician**: HGH is a prescription compound. Obtaining it legally requires a diagnosis and a prescription. Unsupervised use carries legal and health risks.
-3. **Document your baseline appearance objectively**: Photos in controlled lighting, same angle, same distance. [Aura](https://app.aura-looksmaxxing.com) can provide a structured facial analysis that tracks specific metrics like jawline score and facial symmetry, which is more useful than eyeballing a selfie.
-4. **Set realistic expectations**: Soft tissue improvements (skin quality, some fat reduction) are the most reliably documented. Structural bone changes require long timelines and higher doses, and they come with greater risk of unwanted outcomes.
-5. **Monitor regularly**: Repeat labs at 3-month intervals. Document facial changes with consistent photo conditions so you can actually see what is changing versus what is lighting and angle.
+- **See a doctor,** and be honest about what you are taking. Blood sugar and other checks matter.
+- **Watch for warning signs:** joint pain, numbness or tingling in the hands, swelling, excessive thirst or frequent urination, and changes in the shape of your face, hands or feet.
+- **Stop sourcing it outside medical care.** You cannot know what is in it.
 
-## Summary: What the Evidence Supports
+## Summary
 
-HGH does appear to cause real facial changes, but the nature of those changes depends heavily on dose, duration, individual genetics, and baseline hormone levels. The most consistent and earliest effects involve skin quality and subcutaneous fat reduction. Structural bone changes require longer timelines, carry irreversibility, and scale with dose in ways that can move past aesthetic ideals into territory most users would not want.
-
-Before and after photos circulating online are useful for understanding the general direction of change, but they are rarely controlled well enough to isolate HGH as the cause. A critical eye, a solid baseline, and medical oversight are the foundations of any responsible approach to this topic.
-
-**Always consult a qualified medical professional before starting any hormone therapy.** The risks are real, the effects are not fully reversible, and self-administration without medical guidance is both dangerous and, in most jurisdictions, illegal.
+Growth hormone does change the face, mainly toward the features of a hormone disorder, with bone changes that stay. It raises the risk of diabetes and joint problems, it is illegal to supply for appearance in many countries, and black-market products are unreliable. The changes people hope for, a leaner jaw and better skin, come more safely from sleep, lower body fat and good skin care.

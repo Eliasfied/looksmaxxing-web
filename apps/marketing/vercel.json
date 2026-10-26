@@ -13,6 +13,7 @@
     { "source": "/explore", "destination": "/", "permanent": true },
     { "source": "/explore/:path*", "destination": "/", "permanent": true },
     { "source": "/blog/looksmaxxing-transformations", "destination": "/blog/bimax-before-after", "permanent": true },
+    { "source": "/blog/eyelash-growth-guide", "destination": "/blog/minoxidil-eyelashes", "permanent": true },
     { "source": "/:path+/", "destination": "/:path+", "permanent": true }
   ],
   "headers": [

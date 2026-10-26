@@ -164,7 +164,7 @@ test('a partial rebrief only replaces the gaps and must differ from the briefs i
 
 test('medical treatments are kept out of the queue while anatomy and terminology stay', () => {
   for (const topic of ['finasteride', 'masseter botox', 'lip filler cost', 'rhinoplasty-guide', 'brow lift guide',
-    'neck-lift-guide', 'hair transplant', 'chemical peel', 'microneedling', 'buccal fat removal', 'chin implant cost',
+    'neck-lift-guide', 'hair transplant', 'chemical peel', 'microneedling', 'buccal fat removal', 'chin implant cost', 'orbital-box-osteotomy', 'canthoplasty', 'trimax', 'leg lengthening surgery',
     'looksmaxxing peptides', 'laser skin resurfacing', 'veneers guide']) {
     assert.ok(isClinicalTreatment(topic), topic + ' should be excluded');
   }
@@ -174,4 +174,34 @@ test('medical treatments are kept out of the queue while anatomy and terminology
   }
   // Slug and keyword are both checked, so either one is enough to exclude.
   assert.ok(isClinicalTreatment('tear-trough-hollows', 'tear trough filler'));
+});
+
+test('a medical procedure is never mentioned without advising against it', () => {
+  const issue = 'Medical procedure mentioned without advising against it';
+  const withBody = extra => { const a = article(); a.body_markdown += '\n\n' + extra; return validateContent(page, a, sources); };
+  const flagged = extra => withBody(extra).some(i => i.startsWith(issue));
+
+  // Presented as an option: refused.
+  assert.ok(flagged('If styling is not enough, jaw filler or a chin implant can add projection.'));
+  assert.ok(flagged('In more extreme cases, surgical options like canthoplasty can change the tilt.'));
+  assert.ok(flagged('Some men use minoxidil to fill in a patchy beard.'));
+  // The FAQ is reader-facing text too.
+  const inFaq = article(); inFaq.faq = [{ q: 'Is bimax worth it?', a: 'It can give a dramatic profile change.' }];
+  assert.ok(validateContent(page, inFaq, sources).some(i => i.startsWith(issue)));
+
+  // Advised against, in either apostrophe: accepted.
+  assert.ok(!flagged('Some people consider jaw filler. We don\'t recommend it for appearance, because of vascular risks.'));
+  assert.ok(!flagged('Some people consider jaw filler. We don’t recommend it for appearance.'));
+  assert.ok(!flagged('Surgery exists for functional problems. We do not recommend it for looks alone.'));
+
+  // Ruling a procedure out, or naming a cosmetic product, is not a recommendation.
+  assert.ok(!flagged('These changes take time, but they work without surgery and are fully non-surgical.'));
+  assert.ok(!flagged('A beard filler pencil can make sparse patches look denser.'));
+  assert.ok(!flagged('Most of the body\'s own growth hormone is released during deep sleep.'));
+});
+
+test('a source title that names a procedure does not count as the article recommending it', () => {
+  const a = article();
+  a.sources = [{ title: 'Jaw surgery outcomes in adults', url: sources[0].url }, sources[1]];
+  assert.ok(!validateContent(page, a, sources).some(i => i.startsWith('Medical procedure mentioned')));
 });
