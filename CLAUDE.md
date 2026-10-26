@@ -125,13 +125,19 @@ Hak einfach ab (`- [x]`) wenn erledigt.
 ### 10.2 Bing Webmaster Tools
 - [x] Account + Property stehen, Search Performance liefert Daten
       (Stand 2026-10-26: 265 Klicks / 27,6K Impressions, steigend).
-- [ ] Unter „Sitemaps" prüfen, dass `https://www.aura-looksmaxxing.com/sitemap-index.xml`
-      eingereicht ist (⚠️ NICHT `/sitemap.xml` — existiert nicht).
+- [x] Sitemap eingereicht und erfolgreich gecrawlt (zuletzt 2026-10-24).
+      Bings „URLs discovered: 1" pro Zeile ist korrekt: die Zeile ist ein
+      *Sitemap Index*, und der enthält genau ein Kind (`sitemap-0.xml`) mit
+      aktuell 171 URLs. Kein Fehler.
+      Der zusätzliche Apex-Eintrag `aura-looksmaxxing.com/sitemap-index.xml`
+      kann weg — er leitet per 308 auf die www-Variante, die schon drin ist.
 - [x] IndexNow Key: `12aa09fb4abee29fdfc774d3fe6b4224`, ausgeliefert unter
       `/12aa09fb4abee29fdfc774d3fe6b4224.txt` (Datei liegt in `apps/marketing/public/`).
       `scripts/indexnow.mjs` zeigte vorher auf `getbanana.ai` — behoben.
       Läuft automatisch im `daily-content` Workflow für neu veröffentlichte Seiten.
-      Einmalig alles anmelden: `node scripts/indexnow.mjs --all`
+      Bestand einmalig angemeldet (2026-10-26, 171 URLs, HTTP 200).
+      Nochmal alles anmelden — nur bei Bedarf, nicht routinemäßig:
+      `node scripts/indexnow.mjs --all`
 - [ ] In Webmaster Tools unter „IndexNow" prüfen, dass die Pings ankommen.
       ⚠️ Dort **nicht** „Get Started" klicken — das erzeugt einen *neuen* Key.
       Unserer liegt schon und funktioniert (Test-Submit 2026-10-26: HTTP 202).
@@ -165,10 +171,10 @@ Hak einfach ab (`- [x]`) wenn erledigt.
       `draft: true`, weil ein abgelehntes Bild den ganzen Artikel blockierte und
       die Produktbehauptungs-Regel Negation ignorierte. Behoben, 9 Drafts
       nachträglich freigegeben. Seit 24.10. sind die Runs grün.
-- [ ] **Vercel Apex-Redirect auf 308 umstellen** — Settings → Domains →
-      `aura-looksmaxxing.com`. Liefert aktuell 307 (temporary), daher 94 Seiten
-      in GSC als „Seite mit Weiterleitung / Validierung fehlgeschlagen".
-      Die Regel in `vercel.json` greift nicht, der Domain-Level-Redirect kommt zuerst.
+- [x] ~~Vercel Apex-Redirect auf 308 umstellen~~ — erledigt. Geprüft 2026-10-26:
+      `/`, `/blog` und `/pricing` auf dem Apex liefern alle 308 auf die
+      www-Variante. In GSC sollten die 94 „Seite mit Weiterleitung"-Fälle damit
+      bei der nächsten Validierung durchlaufen — dort einmal nachstoßen.
 
 ### 🟡 Danach
 - [ ] Bilder ohne `width`/`height` (12 von 16 auf der Startseite) → CLS
