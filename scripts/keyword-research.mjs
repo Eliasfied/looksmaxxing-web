@@ -20,6 +20,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { isClinicalTreatment } from './content-quality.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 for (const envFile of ['.env.local', 'scripts/.env.local']) {
@@ -142,25 +143,37 @@ async function measureQueue() {
   if ([kw, vol, sd, status].some(i => i === -1)) throw new Error('keywords.csv is missing an expected column');
 
   const rows = lines.slice(1).filter(Boolean).map(l => l.split(','));
-  const unmeasured = rows.filter(r => r[status] === 'pending' && !(Number(r[vol]) > 0));
-  if (!unmeasured.length) { console.log('Every pending keyword already has a volume.'); return; }
-  console.error(`Measuring ${unmeasured.length} pending keyword(s) with no volume…`);
+  // The original import wrote 0 for "not measured" in both columns, so 0 is
+  // treated as missing here. Checking for an empty field instead kept the
+  // placeholder and discarded the real score: finasteride (301,000 searches)
+  // stayed at difficulty 0.
+  const missing = value => !(Number(value) > 0);
+  const unmeasured = rows.filter(r => r[status] === 'pending' && (missing(r[vol]) || missing(r[sd])));
+  if (!unmeasured.length) { console.log('Every pending keyword already has a volume and a difficulty.'); return; }
+  console.error(`Measuring ${unmeasured.length} pending keyword(s) missing a volume or a difficulty…`);
 
   const keywords = [...new Set(unmeasured.map(r => r[kw].toLowerCase()))];
   const volumes = await searchVolume(keywords);
-  const difficulties = await difficulty(keywords).catch(() => new Map());
+  const difficulties = await difficulty(keywords);
 
-  let filled = 0, stillNone = 0;
+  let volumesFilled = 0, sdFilled = 0, noVolume = 0, noSd = 0;
   for (const row of unmeasured) {
-    const found = volumes.get(row[kw].toLowerCase());
-    if (!found || typeof found.volume !== 'number' || found.volume <= 0) { stillNone++; continue; }
-    row[vol] = String(found.volume);
-    const kd = difficulties.get(row[kw].toLowerCase());
-    if (typeof kd === 'number' && !row[sd]) row[sd] = String(kd);
-    filled++;
+    const key = row[kw].toLowerCase();
+    if (missing(row[vol])) {
+      const found = volumes.get(key);
+      if (found && typeof found.volume === 'number' && found.volume > 0) { row[vol] = String(found.volume); volumesFilled++; }
+      else noVolume++;
+    }
+    if (missing(row[sd])) {
+      const kd = difficulties.get(key);
+      // DataForSEO reports genuinely easy terms as 0 too, so a measured 0 is
+      // written — but only when it came from the API, never kept from the import.
+      if (typeof kd === 'number') { row[sd] = String(kd); sdFilled++; }
+      else { row[sd] = ''; noSd++; }
+    }
   }
   fs.writeFileSync(csvPath, [lines[0], ...rows.map(r => r.join(','))].join('\n') + '\n');
-  console.log(`Filled ${filled} volume(s); ${stillNone} keyword(s) still have none and keep 0.`);
+  console.log(`Volumes filled: ${volumesFilled} (${noVolume} have none). Difficulties filled: ${sdFilled} (${noSd} not in DataForSEO, left blank).`);
   const top = unmeasured.filter(r => Number(r[vol]) > 0).sort((a, b) => Number(b[vol]) - Number(a[vol])).slice(0, 15);
   for (const r of top) console.log(String(r[vol]).padStart(7) + '  ' + r[kw]);
 }
@@ -182,11 +195,14 @@ async function main() {
   }
 
   const volumes = await searchVolume(keywords);
+  const clinical = keywords.filter(k => isClinicalTreatment(k));
   const measured = keywords
+    .filter(k => !isClinicalTreatment(k))
     .map(k => ({ keyword: k, ...(volumes.get(k) ?? { volume: null }) }))
     .filter(r => typeof r.volume === 'number' && r.volume > 0)
     .sort((a, b) => b.volume - a.volume);
-  const dropped = keywords.length - measured.length;
+  const dropped = keywords.length - measured.length - clinical.length;
+  if (clinical.length) console.error(`Left out ${clinical.length} medical-treatment keyword(s); the site does not publish those.`);
 
   const sd = await difficulty(measured.map(r => r.keyword)).catch(err => {
     console.error('Difficulty lookup failed, leaving sd blank: ' + err.message);

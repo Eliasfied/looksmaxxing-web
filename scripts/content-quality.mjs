@@ -47,6 +47,15 @@ function hasUnsupportedProductClaim(text) {
   return false;
 }
 
+// Medical treatments are not published at all: prescription drugs, injections,
+// surgery, implants, lasers and peels. That is an editorial decision, not a
+// review step, so it removes the topic from the queue rather than drafting it.
+// Anatomy and terminology stay (sanpaku eyes, norwood scale, nasolabial folds):
+// describing a feature is not advising a procedure.
+const CLINICAL_TREATMENT = /\b(finasteride|minoxidil|dutasteride|isotretinoin|accutane|tretinoin|botox|fillers?|kybella|injections?|surgery|surgical|rhinoplasty|blepharoplasty|genioplasty|bimax|lefort|orthognathic|implants?|transplants?|lipo|liposuction|(?:face|brow|neck|thread|eye|lip|cheek|mini) ?lifts?|facelift|chemical peels?|microneedling|laser|steroids?|peptides?|hormones?|trt|hgh|buccal fat|veneers?)\b/i;
+
+export const isClinicalTreatment = (...texts) => texts.some(t => CLINICAL_TREATMENT.test(String(t ?? '').replace(/-/g, ' ')));
+
 export function needsHumanReview(page) {
   return /\b(surgery|surgical|bonesmash\w*|steroid\w*|isotretinoin|minoxidil|finasteride|orthognathic|filler\w*|botox|peptide\w*|hormone\w*)\b/i.test(page.primary_keyword + ' ' + page.slug.replace(/-/g, ' '));
 }

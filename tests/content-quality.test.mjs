@@ -1,6 +1,6 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { imageInput, IMAGE_MODEL, validateContent, needsHumanReview, productBrief, extractSources, reviewImage, reviewPage, isDeterministicIssue, DETERMINISTIC_ISSUES, rebriefImages } from '../scripts/content-quality.mjs';
+import { imageInput, IMAGE_MODEL, validateContent, needsHumanReview, productBrief, extractSources, reviewImage, reviewPage, isDeterministicIssue, DETERMINISTIC_ISSUES, rebriefImages, isClinicalTreatment } from '../scripts/content-quality.mjs';
 import { relevantTool, toolCatalog } from '../config/tool-routing.mjs';
 import remarkToolLinks from '../scripts/remark-tool-links.mjs';
 const page = { slug:'hairstyles-for-women', primary_keyword:'hairstyles for women', page_type:'blog' };
@@ -160,4 +160,18 @@ test('a partial rebrief only replaces the gaps and must differ from the briefs i
   // A replacement that repeats a brief being kept is refused.
   await assert.rejects(() => rebriefImages(reply({ image_prompts: [{ prompt: kept, alt: 'Frames', purpose: 'again' }] }), page, data, () => {}, [3]), /duplicate/);
   await assert.rejects(() => rebriefImages(reply({ image_prompts: [] }), page, data, () => {}, [3]), /1 image brief/);
+});
+
+test('medical treatments are kept out of the queue while anatomy and terminology stay', () => {
+  for (const topic of ['finasteride', 'masseter botox', 'lip filler cost', 'rhinoplasty-guide', 'brow lift guide',
+    'neck-lift-guide', 'hair transplant', 'chemical peel', 'microneedling', 'buccal fat removal', 'chin implant cost',
+    'looksmaxxing peptides', 'laser skin resurfacing', 'veneers guide']) {
+    assert.ok(isClinicalTreatment(topic), topic + ' should be excluded');
+  }
+  for (const topic of ['sanpaku eyes', 'norwood scale', 'nasolabial folds', 'epicanthic fold', 'cupids bow',
+    'oval face shape', 'how to lose face fat', 'hairstyle for round face', 'golden ratio face', 'jawline exercises']) {
+    assert.ok(!isClinicalTreatment(topic), topic + ' should stay');
+  }
+  // Slug and keyword are both checked, so either one is enough to exclude.
+  assert.ok(isClinicalTreatment('tear-trough-hollows', 'tear trough filler'));
 });

@@ -40,7 +40,7 @@ import { execSync } from 'child_process';
 import { fileURLToPath } from 'url';
 import { relinkAll } from './relink-content.mjs';
 import { toolCatalog } from '../config/tool-routing.mjs';
-import { IMAGE_MODEL, imageInput, researchPage, reviewPage, reviewImage, productBrief, needsHumanReview, extractJson, validateContent, isDeterministicIssue, rebriefImages } from './content-quality.mjs';
+import { IMAGE_MODEL, imageInput, researchPage, reviewPage, reviewImage, productBrief, needsHumanReview, extractJson, validateContent, isDeterministicIssue, rebriefImages, isClinicalTreatment } from './content-quality.mjs';
 import { runContentJob, recordContentJob, isDraftContent } from './content-job.mjs';
 import { readReviewedImage, saveReviewedImage } from './content-image-cache.mjs';
 
@@ -86,6 +86,8 @@ const RELEASE_ALL = hasFlag('--release-reviewed');
 const RELEASING = RELEASE.length > 0 || RELEASE_ALL;
 // Give published pages the illustrations they went live without.
 const BACKFILL_IMAGES = hasFlag('--backfill-images');
+// DataForSEO keyword difficulty above which a page is not attempted.
+const MAX_DIFFICULTY = 35;
 
 // ─── Model ──────────────────────────────────────────────────────────────────
 // Opus 5.5 thinks on every request and cannot be told not to, so two things
@@ -224,6 +226,9 @@ function getPendingPages(rows) {
     const existing = path.join(CONTENT_DIRS[row.page_type], row.slug + '.md');
     if (fs.existsSync(existing) && (!RETRY_REVIEW || !isDraftContent(fs.readFileSync(existing, 'utf8')))) continue;
     if (row.page_type === 'tool' && !toolCatalog.some(t => t.slug === row.slug)) continue;
+    // Never written, whatever the csv says: a regenerated keyword file must not
+    // quietly put medical treatments back in front of the generator.
+    if (isClinicalTreatment(row.slug, row.keyword)) continue;
 
     if (!map.has(row.slug)) {
       map.set(row.slug, {
@@ -232,10 +237,12 @@ function getPendingPages(rows) {
       });
     }
     const e = map.get(row.slug);
-    e.keywords.push({ keyword: row.keyword, volume: parseInt(row.volume || '0', 10) });
+    const sd = row.sd === '' || row.sd == null ? null : Number(row.sd);
+    e.keywords.push({ keyword: row.keyword, volume: parseInt(row.volume || '0', 10), sd });
     if (row.primary === 'yes') {
       e.primary_keyword = row.keyword;
       e.primary_volume = parseInt(row.volume || '0', 10);
+      e.primary_sd = sd;
     }
   }
   // Make sure we have a primary keyword for each (fallback to highest volume)
@@ -244,7 +251,16 @@ function getPendingPages(rows) {
       e.keywords.sort((a, b) => b.volume - a.volume);
       e.primary_keyword = e.keywords[0].keyword;
       e.primary_volume = e.keywords[0].volume;
+      e.primary_sd = e.keywords[0].sd;
     }
+  }
+  // A page whose main keyword is out of reach costs a day and a full generation
+  // to rank nowhere. A difficulty of 0 is not filtered: DataForSEO reports 0
+  // when it has no backlink data, and checking the live top 10 for the biggest
+  // of those (sanpaku eyes, norwood scale, oblong face shape) showed forums and
+  // small sites — winnable, not unknown-and-hard.
+  for (const [slug, e] of map) {
+    if (typeof e.primary_sd === 'number' && e.primary_sd > MAX_DIFFICULTY) map.delete(slug);
   }
   // Sort: volume desc, then phase asc as tiebreaker.
   // Volume leads deliberately — sorting by phase first buries high-volume
