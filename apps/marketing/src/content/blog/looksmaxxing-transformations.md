@@ -19,7 +19,7 @@ faq:
     a: No. Non-surgical methods may improve skin quality, muscle tone, posture, and soft tissue appearance, but they cannot reposition bones in adults. Surgery addresses structural skeletal discrepancies that no topical or exercise-based method can replicate.
   - q: What is the safest starting point before pursuing any transformation?
     a: Start with a clear baseline assessment of your current facial structure and identify which specific features you want to address. Understanding whether an issue is skeletal, muscular, or related to skin or hair determines the correct category of intervention and prevents wasted effort or unnecessary risk.
-draft: false
+draft: true
 ---
 
 ## What Is a Bimax and Why Do Before-and-After Photos Matter?

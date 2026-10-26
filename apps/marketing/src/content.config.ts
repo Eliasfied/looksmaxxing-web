@@ -23,6 +23,11 @@ const blog = defineCollection({
     imageModel: z.string().optional(),
     related: z.array(z.string()).default([]),
     faq: z.array(z.object({ q: z.string(), a: z.string() })).default([]),
+    // The page covers a medical procedure the site does not recommend for
+    // appearance. The template then drops the tool box after the intro and
+    // offers the tool only as a way to see non-surgical options, never as a
+    // step towards the procedure.
+    medical_procedure: z.boolean().default(false),
     draft: z.boolean().default(false),
   }),
 });

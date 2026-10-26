@@ -9,7 +9,7 @@ heroImage: /blog/hgh-face-changes/1.webp
 heroImageAlt: HGH face before and after illustrated facial changes diagram
 tags: [hgh, facial-changes, looksmaxxing, hormones, jawline]
 readingTime: 8
-related: [how-to-grow-maxilla, looksmaxxing-transformations, mandible-vs-maxilla]
+related: [how-to-grow-maxilla, bimax-before-after, mandible-vs-maxilla]
 faq:
   - q: How long does it take to see facial changes from HGH?
     a: Skin quality improvements may appear within the first one to three months of consistent use. Structural bone changes, such as increased jaw definition or brow prominence, are much slower and may require six months to a year or more of use before becoming visible in photographs.

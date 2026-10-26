@@ -1,14 +1,23 @@
 ---
 import { relevantTool, toolHref } from '../../../../config/tool-routing.mjs';
 import { CONTENT_CTA_ROLLOUT } from '../../../../config/content-cta-rollout.mjs';
-interface Props { topic: string; source: string; toolSlug?: string; placement?: string; compact?: boolean }
-const { topic, source, toolSlug, placement = 'article-end', compact = false } = Astro.props;
+interface Props { topic: string; source: string; toolSlug?: string; placement?: string; compact?: boolean; nonSurgical?: boolean }
+const { topic, source, toolSlug, placement = 'article-end', compact = false, nonSurgical = false } = Astro.props;
 const tool = relevantTool(topic, toolSlug);
 const appUrl = import.meta.env.PUBLIC_APP_URL ?? 'https://app.aura-looksmaxxing.com';
 // Topics with no matching tool (height, surgery, supplements) still get a way in:
 // the tool index, where the reader picks the question that actually fits them.
 const href = tool ? toolHref(tool.slug, source, appUrl) : `${appUrl}/tools?source=${encodeURIComponent(source)}`;
 ---
+{nonSurgical ? (
+<aside class="not-prose my-8 rounded-2xl border border-white/10 bg-[#111111] p-7 sm:p-9" aria-label="Non-surgical options">
+  <p class="mb-2 text-xs font-bold uppercase tracking-widest text-[#888]">Before any procedure</p>
+  <h2 class="text-2xl font-bold text-white">See what changes without surgery</h2>
+  <p class="mt-2 leading-relaxed text-[#bbb]">Most of what people want from a procedure starts somewhere less drastic: body fat, grooming, hairstyle, posture. Upload one photo to see where your face stands and which of those levers are likely to matter most for you.</p>
+  <a href={href} data-tool={tool?.slug} data-placement={placement} data-cta-rollout={CONTENT_CTA_ROLLOUT} data-variant="non-surgical" class="mt-5 inline-flex rounded-xl border border-white/20 px-6 py-3 text-sm font-bold text-white hover:bg-white/5">See my non-surgical options →</a>
+  <p class="mt-3 text-xs text-[#888]">No account needed for the potential estimate. The full report is $2.99 once.</p>
+</aside>
+) : (
 <aside class:list={['not-prose my-8 rounded-2xl border border-fuchsia-400/20 bg-gradient-to-br from-fuchsia-950/40 to-violet-950/25', compact ? 'p-5' : 'p-7 sm:p-9']} aria-label={tool ? tool.name : 'Aura photo tools'}>
   <p class="mb-2 text-xs font-bold uppercase tracking-widest text-fuchsia-300">{tool?.audience === 'women' ? 'Your style. Your preferences.' : 'Try this with your own photo'}</p>
   <h2 class:list={['font-bold text-white', compact ? 'text-xl' : 'text-2xl']}>{tool ? tool.name : 'See where you actually stand'}</h2>
@@ -17,3 +26,4 @@ const href = tool ? toolHref(tool.slug, source, appUrl) : `${appUrl}/tools?sourc
   <a href={href} data-tool={tool?.slug} data-placement={placement} data-cta-rollout={CONTENT_CTA_ROLLOUT} class="mt-5 inline-flex rounded-xl btn-gradient px-6 py-3 text-sm font-bold text-white">Upload photo & see my potential →</a>
   <p class="mt-3 text-xs text-[#888]">No account needed for the potential estimate. The full report is $2.99 once.</p>
 </aside>
+)}

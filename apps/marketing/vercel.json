@@ -12,6 +12,7 @@
     { "source": "/faq/:path+", "destination": "/faq", "statusCode": 301 },
     { "source": "/explore", "destination": "/", "permanent": true },
     { "source": "/explore/:path*", "destination": "/", "permanent": true },
+    { "source": "/blog/looksmaxxing-transformations", "destination": "/blog/bimax-before-after", "permanent": true },
     { "source": "/:path+/", "destination": "/:path+", "permanent": true }
   ],
   "headers": [
