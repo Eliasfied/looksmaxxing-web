@@ -1,0 +1,40 @@
+{
+  "_comment": "Replacement briefs for illustrations the visual review kept rejecting. Every one of them asked the image model for a multi-panel comparison (seven face shapes in a row, four jawlines, frames grouped by type) or a close-up of hands at work. The model cannot keep the panels distinguishable or the hands plausible, so the reviewer refused them, correctly. These briefs ask for one clear subject instead, which passes and still illustrates the section.",
+
+  "7-face-shapes-explained:1": {
+    "prompt": "A head-and-shoulders portrait of one young woman facing the camera straight on in soft, even daylight, neutral expression, hair pulled fully back from her face, plain pale grey background. The whole hairline, jaw and chin are clearly visible, like a reference photo taken to work out a face shape. No text, labels or lines.",
+    "alt": "A straight-on reference photo with the hairline and jaw clearly visible, used to work out a face shape"
+  },
+  "7-face-shapes-explained:3": {
+    "prompt": "An overhead flat lay of five eyeglass frames laid out in one evenly spaced row on a light wooden table, shot straight down in soft daylight, with generous empty space around them. No text, logos or faces.",
+    "alt": "Eyeglass frames laid out in a row while choosing a style"
+  },
+  "best-glasses-for-diamond-face:3": {
+    "prompt": "A single pair of thin metal oval eyeglasses resting open on a light marble surface next to a folded grey cleaning cloth, photographed from directly above in soft window light. No hands, faces or text.",
+    "alt": "Thin metal oval frames, a shape that clears high cheekbones"
+  },
+  "best-glasses-for-square-face:3": {
+    "prompt": "A single pair of round tortoiseshell eyeglasses standing open and upright on a light wooden table, photographed straight on at eye level in soft daylight against a plain blurred background. No hands, faces or text.",
+    "alt": "Round tortoiseshell frames, a shape that softens a square jaw"
+  },
+  "canthal-tilt-female:1": {
+    "prompt": "A close-up photograph of one woman's face from the eyebrows to the top of the cheekbones, taken straight on at eye level in soft, even daylight. Neutral expression, no makeup, hair away from the face, both eyes open and clearly visible, plain soft background. No text, labels, arrows or measurement lines.",
+    "alt": "A straight-on close-up of a woman's eye area, the view needed to judge canthal tilt"
+  },
+  "female-jawline-guide:2": {
+    "prompt": "A side profile photograph of one woman from the shoulders up against a plain light background, chin level, hair tied back away from the face, soft even studio light, so the jawline from ear to chin is clearly visible. Neutral expression, no text or lines.",
+    "alt": "A side profile showing the jawline from ear to chin"
+  },
+  "haircuts-for-square-faces-women:3": {
+    "prompt": "A hairdresser's station in a bright salon: a comb, a round brush and a pair of scissors laid neatly on a white folded towel beside a mirror, soft daylight, no people in frame. No text or logos.",
+    "alt": "A salon station set up before a haircut consultation"
+  },
+  "most-attractive-face-shape-men:1": {
+    "prompt": "A head-and-shoulders portrait of one man facing the camera straight on in soft, even studio light, neutral expression, short dark hair, shoulders square, plain mid-grey background. Calm editorial style with no scores, ratings, text or lines.",
+    "alt": "A straight-on portrait of a man, the view used to judge face shape"
+  },
+  "qoves-studio-review:2": {
+    "prompt": "One adult sitting at a desk by a window in soft daylight, holding a phone at eye level in front of their face to take a straight-on photo of themselves, seen from the side so both the phone and their upright posture are visible. Plain room, neutral expression, no text and no visible screen content.",
+    "alt": "Taking a straight-on photo at eye level for a facial analysis submission"
+  }
+}

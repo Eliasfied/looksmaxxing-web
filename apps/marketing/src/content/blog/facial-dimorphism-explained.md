@@ -1,5 +1,5 @@
 ---
-title: "Dimorphism Meaning: What It Tells You About Your Face"
+title: "Dimorphism: Why a Face Reads Male or Female"
 description: Understand dimorphism meaning, how sexual dimorphism shapes facial features, and what it means for attractiveness, health, and self-improvement.
 slug: facial-dimorphism-explained
 primary_keyword: dimorphism meaning

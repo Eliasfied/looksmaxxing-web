@@ -1,5 +1,5 @@
 ---
-title: "Best Haircut for Heart Face Men: 7 Cuts That Work"
+title: "Best Haircut for a Heart Face: 7 That Suit It"
 description: Find the best haircut for heart face men. 7 barber-tested cuts that balance a wide forehead and narrow chin, plus what to avoid and how to ask your barber.
 slug: best-haircut-for-heart-face-men
 primary_keyword: best haircut for heart face men

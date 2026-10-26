@@ -125,12 +125,12 @@ export default function RegisterPage() {
             disabled={loading}
             className="w-full rounded-xl py-3 text-sm font-bold text-white btn-gradient hover:opacity-90 disabled:opacity-50 disabled:cursor-not-allowed transition-opacity"
           >
-            {loading ? 'Creating account...' : 'Create free account'}
+            {loading ? 'Creating account...' : 'Create account'}
           </button>
         </form>
 
         <p className="mt-4 text-center text-xs text-[#555555]">
-          Free to start &nbsp;&middot;&nbsp; No credit card required
+          First scan included &nbsp;&middot;&nbsp; No credit card required
         </p>
 
         <div className="relative my-5">

@@ -1,0 +1,14 @@
+{
+  "key": "{\"brief\":{\"prompt\":\"A tidy wooden desk viewed from above, with a printed multi-page facial analysis report fanned out beside a laptop, a pen, a sticky-note pad and a cup of coffee. The report pages show simple line-drawn face outlines and bar charts with no readable text or real faces.\",\"alt\":\"Printed facial analysis report on a desk, illustrating a Qoves review\",\"article\":\"qoves-studio-review\",\"position\":1},\"model\":\"openai/gpt-image-2.5/flare/text-to-image\"}",
+  "attempts": [
+    {
+      "status": "passed",
+      "prompt": "A tidy wooden desk viewed from above, with a printed multi-page facial analysis report fanned out beside a laptop, a pen, a sticky-note pad and a cup of coffee. The report pages show simple line-drawn face outlines and bar charts with no readable text or real faces.",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "Overhead view of a wooden desk with five fanned printed report pages showing line-drawn face outlines, profile and eye sketches, and blue, teal and purple bar and pie charts, beside a laptop, yellow sticky-note pad, cup of black coffee, pen and small potted plant."
+      }
+    }
+  ]
+}

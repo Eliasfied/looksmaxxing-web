@@ -1,5 +1,5 @@
 ---
-title: "Pheromone Max: The Complete Grooming Guide"
+title: "Pheromone Max: Does Any of It Actually Work?"
 description: Learn what pheromone maxxing means, how it fits into soft maxing and cologne max, and practical steps to optimize your natural scent and grooming.
 slug: mens-grooming-essentials
 primary_keyword: pheromone max

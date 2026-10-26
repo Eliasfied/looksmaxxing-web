@@ -1,5 +1,5 @@
 ---
-title: "Iqlet Meaning - Looksmaxxing Glossary"
+title: "Iqlet: The Insult and Why It Says Nothing"
 description: "Iqlet is derogatory internet slang for someone seen as unintelligent, built from IQ plus -let. Learn its meaning, origin and how it shows up online."
 slug: "iqlet"
 term: "Iqlet"

@@ -1,5 +1,5 @@
 ---
-title: "Best Glasses for Square Face Shape: A Practical Guide"
+title: "Best Glasses for a Square Face: Soften the Jaw"
 description: "Find the best glasses for square face shape: which frame shapes to try, where expert advice disagrees, and the fit checks that matter as much as shape."
 slug: "best-glasses-for-square-face"
 primary_keyword: "best glasses for square face shape"
@@ -215,6 +215,8 @@ These can't all be universal rules, and none of them is backed by evidence that 
 - **How much attention you want on the frames.** Black and bold colors stand out. Clear, tortoiseshell and thin metal recede.
 
 Rim thickness is a related choice. Thicker rims make glasses a feature. Thinner rims let your face do the talking. Neither is correct for a square face. It depends on whether you want the glasses noticed.
+
+![Round tortoiseshell eyeglasses with clear lenses standing open and upright on a light wooden table, photographed straight on against a plain blurred background.](/blog/best-glasses-for-square-face/3.webp)
 
 ## A Practical Way to Choose Your Frames
 

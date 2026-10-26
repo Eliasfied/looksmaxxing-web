@@ -1,5 +1,5 @@
 ---
-title: JFL Meaning - Looksmaxxing Glossary
+title: "JFL: What It Means in Looksmax Threads"
 description: JFL is internet slang used in looksmaxxing communities to express disbelief or dark humor, often reacting to extreme before/afters or harsh PSL takes.
 slug: jfl
 term: JFL

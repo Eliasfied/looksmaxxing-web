@@ -1,5 +1,5 @@
 ---
-title: How to Tell If Your Maxilla Is Recessed
+title: "Is Your Maxilla Recessed? 5 Signs to Check"
 description: Learn how to tell if your maxilla is recessed using facial landmarks, bite analysis, and self-assessment methods. Practical, anatomy-based guidance.
 slug: how-to-tell-if-maxilla-is-recessed
 primary_keyword: how to tell if maxilla is recessed

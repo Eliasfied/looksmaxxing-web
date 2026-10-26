@@ -1,0 +1,14 @@
+{
+  "key": "{\"brief\":{\"prompt\":\"A side-by-side illustration of two different adult men in plain t-shirts, one with a broad, wide-cheeked face and a stern expression, the other with a longer, narrower jaw and a relaxed, friendly expression. Simple neutral studio backdrop, no text, no numbers, no arrows, no scores.\",\"alt\":\"Two illustrated men with different face widths showing that dominant-looking and attractive-looking faces are not the same\",\"article\":\"most-attractive-face-shape-men\",\"position\":2},\"model\":\"openai/gpt-image-2.5/flare/text-to-image\"}",
+  "attempts": [
+    {
+      "status": "passed",
+      "prompt": "A side-by-side illustration of two different adult men in plain t-shirts, one with a broad, wide-cheeked face and a stern expression, the other with a longer, narrower jaw and a relaxed, friendly expression. Simple neutral studio backdrop, no text, no numbers, no arrows, no scores.",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "Side-by-side photo-style portraits of two different men in plain white t-shirts against a neutral gray backdrop: on the left, a man with a broad, wide-cheeked face, short dark hair and a stern expression; on the right, a man with a longer, narrower jaw, wavy brown hair, light stubble and a relaxed, friendly smile."
+      }
+    }
+  ]
+}

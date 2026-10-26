@@ -1,5 +1,5 @@
 ---
-title: "Best Glasses for Round Face Shape: Frames and Fit Guide"
+title: "Best Glasses for a Round Face: Sharpen It Up"
 description: "The best glasses for round face shape add angles and fit the right width. Compare frame styles, what to avoid, and how to read frame measurements."
 slug: "best-glasses-for-round-face"
 primary_keyword: "best glasses for round face shape"

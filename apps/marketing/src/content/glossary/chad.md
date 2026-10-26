@@ -1,5 +1,5 @@
 ---
-title: Chad Meaning - Looksmaxxing Glossary
+title: "Chad vs Chadlite: What Separates the Two"
 description: Chad refers to a man considered highly attractive and socially dominant in PSL and looksmaxxing communities. Learn what separates a chad from a chadlite.
 slug: chad
 term: Chad

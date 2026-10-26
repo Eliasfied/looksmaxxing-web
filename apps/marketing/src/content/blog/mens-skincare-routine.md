@@ -1,5 +1,5 @@
 ---
-title: "Hyperpigmentation Outer Corner of Eye: Causes & Fixes"
+title: "Dark Spots at the Outer Eye: Causes and Fixes"
 description: Dark spots at the outer corner of your eye are common but treatable. Learn causes, proven ingredients, and how to build a routine that actually works.
 slug: mens-skincare-routine
 primary_keyword: hyperpigmentation outer corner of eye

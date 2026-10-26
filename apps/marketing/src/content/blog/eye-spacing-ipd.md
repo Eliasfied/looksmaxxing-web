@@ -1,5 +1,5 @@
 ---
-title: "Eye Spacing: What It Means for Your Face"
+title: "Eye Spacing: The Ratio That Shapes Your Look"
 description: Learn what eye spacing reveals about facial harmony, how IPD affects attractiveness, and practical ways to optimize your appearance based on your measurements.
 slug: eye-spacing-ipd
 primary_keyword: eye spacing

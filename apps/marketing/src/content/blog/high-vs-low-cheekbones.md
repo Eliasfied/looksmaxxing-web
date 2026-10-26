@@ -1,5 +1,5 @@
 ---
-title: "High vs Low Cheekbones: What's the Difference?"
+title: "High vs Low Cheekbones: Which Reads Better?"
 description: Learn the real differences between high vs low cheekbones, how to identify your type, and what each means for your facial appearance and structure.
 slug: high-vs-low-cheekbones
 primary_keyword: high vs low cheekbones

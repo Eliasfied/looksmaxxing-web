@@ -1,5 +1,5 @@
 ---
-title: DBDR Face Meaning - Looksmaxxing Glossary
+title: "DBDR Face: What the Acronym Actually Describes"
 description: DBDR face refers to a facial type defined by prominent, dark brows and specific bone structure traits. Learn what it means in looksmaxxing contexts.
 slug: dbdr
 term: DBDR Face

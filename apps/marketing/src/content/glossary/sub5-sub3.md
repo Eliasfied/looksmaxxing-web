@@ -1,5 +1,5 @@
 ---
-title: Sub5 Face Meaning - Looksmaxxing Glossary
+title: "Sub5 Face: What the Rating Actually Claims"
 description: A sub5 face scores below 5 out of 10 on the PSL attractiveness scale. Learn what sub5 and sub3 mean in looksmaxxing communities.
 slug: sub5-sub3
 term: Sub5 / Sub3

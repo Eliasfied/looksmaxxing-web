@@ -1,5 +1,5 @@
 ---
-title: "Good vs Bad Maxilla: What the Difference Looks Like"
+title: "Good vs Bad Maxilla: See the Difference"
 description: Learn what separates a good vs bad maxilla, how each affects your facial appearance, and what you can actually do to improve your midface structure.
 slug: good-vs-bad-maxilla
 primary_keyword: good vs bad maxilla

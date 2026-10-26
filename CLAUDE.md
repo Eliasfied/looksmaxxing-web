@@ -89,14 +89,29 @@ Hak einfach ab (`- [x]`) wenn erledigt.
 
 ---
 
-## 8. PostHog Analytics (optional)
+## 8. PostHog Analytics ← **NICHT MEHR OPTIONAL**
 
-- [ ] Account: https://posthog.com → API Key kopieren
-- [ ] In Vercel eintragen:
+Ohne das sieht niemand, wo der Funnel bricht. Der Code ist fertig instrumentiert
+(`posthog-provider.tsx`, Events `tool_upload_started` → `tool_preview_created` →
+`tool_preview_viewed` → `tool_unlock_clicked` → `tool_report_unlocked`).
+
+- [x] Projekt in eigener Organisation, Region **EU**
+- [x] API Key in `.env.local` eingetragen
+- [ ] In Vercel (`apps/web`) eintragen, Production + Preview + Development:
   ```
   NEXT_PUBLIC_POSTHOG_KEY=phc_...
-  NEXT_PUBLIC_POSTHOG_HOST=https://app.posthog.com
+  NEXT_PUBLIC_POSTHOG_HOST=https://eu.i.posthog.com
   ```
+- [ ] **Redeployen** — `NEXT_PUBLIC_*` wird zur Buildzeit eingebacken
+- [ ] Funnel anlegen, aufgeschlüsselt nach `aura_source` (Herkunfts-Seite) und `tool`
+
+> Der Provider initialisiert nur bei `NODE_ENV === 'production'` — lokal kommen
+> bewusst keine Events an. Session Recording und Autocapture sind aus und müssen
+> aus bleiben: Nutzer laden ihr Gesicht hoch.
+>
+> Die Marketing-App (Astro) hat **kein** PostHog. Die Zuordnung läuft über den
+> `?source=`-Parameter in jedem Tool-Link, der als Super-Property `aura_source`
+> registriert wird. Das spart ein Cookie-Banner.
 
 ---
 

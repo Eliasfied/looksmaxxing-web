@@ -1,5 +1,5 @@
 ---
-title: Canthal Tilt Checker – Analyze Your Eye Angle
+title: "Canthal Tilt Checker: Measure Your Eye Angle"
 description: Find out if you have a positive or negative canthal tilt with AI facial analysis. Get a detailed breakdown and personalized tips in seconds.
 slug: canthal-tilt-checker
 primary_keyword: canthal tilt
@@ -8,7 +8,7 @@ pubDate: 2026-05-10
 h1: Canthal Tilt Checker
 subtitle: "Upload a photo and let Aura's AI measure your canthal tilt angle, classify it as positive or negative, and explain what it means for your overall facial harmony."
 cta_label: Open the Canthal Tilt Checker
-badge: Free
+badge: No signup
 heroImage: /tools/canthal-tilt-checker/hero.webp
 heroImageAlt: AI canthal tilt checker interface showing eye angle measurement on a phone screen
 benefits:
@@ -35,8 +35,8 @@ steps:
     title: Review Your Results and Plan
     description: See your exact angle, understand whether it is positive or negative, and get a personalized plan with lifestyle, grooming, and professional options.
 faq:
-  - q: Is the canthal tilt checker free?
-    a: Yes. Aura offers a free canthal tilt analysis as part of its core face rating tool. Optional premium features unlock deeper scoring breakdowns and a full personalized improvement plan.
+  - q: What does the canthal tilt checker cost?
+    a: The potential estimate costs nothing and needs no account. Aura includes a canthal tilt analysis as part of its core face rating tool. Optional premium features unlock deeper scoring breakdowns and a full personalized improvement plan.
   - q: How accurate is the canthal tilt measurement?
     a: "Aura's AI measures the angle between your medial and lateral canthi to the nearest degree under good photo conditions. Accuracy depends on photo quality, lighting, and head position. The tool flags low-confidence results so you know when to resubmit."
   - q: Do I need to upload my photo?

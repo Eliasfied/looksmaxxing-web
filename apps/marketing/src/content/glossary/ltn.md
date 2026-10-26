@@ -1,5 +1,5 @@
 ---
-title: LTN Meaning - Looksmaxxing Glossary
+title: "LTN: Low Tier Normie, and How It's Used"
 description: LTN stands for Low-Tier Normie in looksmaxxing slang. It describes someone with average to below-average looks who falls outside top-tier attractiveness rankings.
 slug: ltn
 term: LTN

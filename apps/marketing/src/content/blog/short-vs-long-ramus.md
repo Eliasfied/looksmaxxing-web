@@ -1,5 +1,5 @@
 ---
-title: "Short vs Long Ramus: What It Means for Your Face"
+title: "Short vs Long Ramus: How It Shapes Your Jaw"
 description: Understand how short vs long ramus height shapes your jaw, face ratio, and overall aesthetics. Learn what each means and what you can do about it.
 slug: short-vs-long-ramus
 primary_keyword: short vs long ramus

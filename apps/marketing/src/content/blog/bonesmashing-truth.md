@@ -1,5 +1,5 @@
 ---
-title: Does Bonesmashing Work? The Honest Truth
+title: "Does Bonesmashing Work? What Doctors Say"
 description: Does bonesmashing work? We break down the science, real risks, and what users actually report. Get the honest answer before trying anything.
 slug: bonesmashing-truth
 primary_keyword: does bonesmashing work

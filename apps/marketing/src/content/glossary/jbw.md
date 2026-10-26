@@ -1,5 +1,5 @@
 ---
-title: JBW Meaning - Looksmaxxing Glossary
+title: "JBW: The Theory and What's Wrong With It"
 description: "JBW stands for 'Just Be White,' a theory claiming white men have an inherent dating advantage globally. Learn what it means and how it's discussed in looksmaxxing."
 slug: jbw
 term: JBW

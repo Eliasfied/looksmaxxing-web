@@ -1,5 +1,5 @@
 ---
-title: "Softmaxxing vs Hardmaxxing: What's the Difference?"
+title: "Softmaxxing vs Hardmaxxing: Where to Start"
 description: "Softmaxxing vs hardmaxxing explained: learn what each approach involves, who each suits, and how to build a practical plan that fits your goals."
 slug: softmaxxing-vs-hardmaxxing-explained
 primary_keyword: softmaxxing vs hardmaxxing

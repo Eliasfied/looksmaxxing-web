@@ -1,5 +1,5 @@
 ---
-title: "Flared Gonions: What They Are and How to Address Them"
+title: "Flared Gonions: Why Your Jaw Looks Wide"
 description: Learn what flared gonions are, how inward or outward flaring affects your jawline aesthetics, and what options exist to address them.
 slug: inward-flared-gonions
 primary_keyword: flared gonions

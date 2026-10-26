@@ -206,7 +206,7 @@ export function ToolUpload({ tool }: { tool: ToolDefinition }) {
             />
             <span>
               I am 18 or older and these are my photos. I agree to AI processing to create this
-              report. The free preview shows only the potential estimate; the full report is paid.
+              report. The preview shows only the potential estimate; the full report is paid.
             </span>
           </label>
           {error && (

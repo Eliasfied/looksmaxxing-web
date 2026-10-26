@@ -1,5 +1,5 @@
 ---
-title: HTB LTB MTB Meaning - Looksmaxxing Glossary
+title: "HTB, MTB, LTB: The Female Tier Scale Explained"
 description: HTB, LTB, and MTB stand for High-Tier, Low-Tier, and Mid-Tier Bloomer. Learn what these looksmaxxing and TikTok slang terms mean.
 slug: htb-ltb-mtb
 term: HTB / LTB / MTB

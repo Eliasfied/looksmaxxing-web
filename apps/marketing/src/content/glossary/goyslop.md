@@ -1,5 +1,5 @@
 ---
-title: Goyslop Meaning - Looksmaxxing Glossary
+title: "Goyslop: What the Term Means and Where It Started"
 description: Goyslop is slang for ultra-processed junk food. In looksmaxxing communities, it refers to foods that may worsen skin, jawline, and overall appearance.
 slug: goyslop
 term: Goyslop

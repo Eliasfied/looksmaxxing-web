@@ -1,5 +1,5 @@
 ---
-title: "Clean Shaven vs Stubble: Which Look Works for You?"
+title: "Clean Shaven vs Stubble: Which Suits Your Face?"
 description: "Clean shaven vs stubble: discover which style suits your face shape, skin, and goals with practical tips backed by research and expert guidance."
 slug: clean-shaven-vs-stubble
 primary_keyword: clean shaven vs stubble

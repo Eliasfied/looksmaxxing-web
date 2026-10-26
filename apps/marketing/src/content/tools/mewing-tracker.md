@@ -1,5 +1,5 @@
 ---
-title: Mewing Results Tracker | Aura Looksmaxxing App
+title: "Mewing Results Tracker: See Your Real Progress"
 description: "Track your mewing results over time with AI-powered facial analysis. Upload progress photos, get jawline scores, and see what's actually changing."
 slug: mewing-tracker
 primary_keyword: mewing results
@@ -8,7 +8,7 @@ pubDate: 2026-06-01
 h1: Track Your Mewing Results with AI Facial Analysis
 subtitle: "Upload progress photos and let Aura's AI measure changes in your jawline, facial structure, and symmetry over time, so you can see whether your mewing practice is working."
 cta_label: Open the Mewing Tracker
-badge: Free
+badge: No signup
 heroImage: /tools/mewing-tracker/hero.webp
 heroImageAlt: AI mewing results tracker showing jawline analysis and progress graph
 benefits:
@@ -35,8 +35,8 @@ steps:
     title: Check In Regularly and Compare
     description: Upload new photos at consistent intervals, and the tracker plots your score changes over time so you can identify real progress.
 faq:
-  - q: Is the mewing tracker free to use?
-    a: Yes. Aura offers a free facial analysis that includes baseline scoring for jawline definition and symmetry. Some advanced comparison features and detailed progress history are available with a premium account.
+  - q: What does the mewing tracker cost?
+    a: The potential estimate costs nothing and needs no account. Aura includes a facial analysis with baseline scoring for jawline definition and symmetry. Some advanced comparison features and detailed progress history are available with a premium account.
   - q: How accurate is the AI analysis?
     a: The AI is consistent and precise when photos are taken under similar conditions. Accuracy depends heavily on photo quality and consistency. The scores are best used as relative indicators of change over time, not absolute measurements.
   - q: Do I need to upload my photo?

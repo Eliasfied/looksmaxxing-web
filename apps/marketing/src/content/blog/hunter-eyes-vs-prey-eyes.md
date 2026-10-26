@@ -1,5 +1,5 @@
 ---
-title: "Hunter Eyes vs Prey Eyes: What's the Difference?"
+title: "Hunter Eyes vs Prey Eyes: What Separates Them"
 description: Learn what separates hunter eyes from prey eyes, the key anatomical traits behind each, and practical steps to improve your eye area appearance.
 slug: hunter-eyes-vs-prey-eyes
 primary_keyword: hunter eyes vs prey eyes

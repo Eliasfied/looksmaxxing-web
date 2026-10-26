@@ -1,5 +1,5 @@
 ---
-title: "Face Analysis for Women | Aura"
+title: "Face Analysis for Women: Your Features, Explained"
 description: "Explore face shape, hair framing and brow ideas around your personal preferences."
 slug: face-analysis-for-women
 primary_keyword: "face analysis for women"
@@ -14,5 +14,5 @@ related: [symmetry-analyzer, haircut-recommendation-tool, hairstyle-finder-for-w
 
 Explore face shape, hair framing and brow ideas around your personal preferences.
 
-Start with a photo and your preferences. The potential estimate is free; the complete report can be unlocked for $2.99 after creating an account.
+Start with a photo and your preferences. The potential estimate costs nothing; the complete report can be unlocked for $2.99 after creating an account.
 

@@ -1,5 +1,5 @@
 ---
-title: PSL Scale Calculator – Get Your PSL Score
+title: "PSL Scale Calculator: Get Your PSL Score"
 description: "Find out your PSL score with Aura's AI-powered PSL scale calculator. Get a detailed face rating, jawline analysis, and personalized improvement tips."
 slug: psl-score-calculator
 primary_keyword: psl scale
@@ -8,7 +8,7 @@ pubDate: 2026-05-08
 h1: "PSL Scale Calculator: Get Your PSL Score Instantly"
 subtitle: "Upload a photo and Aura's AI rates your facial features on the PSL scale, breaking down your score by category so you know exactly where you stand and what to improve."
 cta_label: Open the PSL Score Calculator
-badge: Free
+badge: No signup
 heroImage: /tools/psl-score-calculator/hero.webp
 heroImageAlt: PSL scale calculator interface showing facial analysis scores on a phone screen
 benefits:
@@ -35,8 +35,8 @@ steps:
     title: Get Your PSL Score and Plan
     description: Review your overall PSL score, per-category breakdown, and a personalized list of improvements ranked by impact.
 faq:
-  - q: Is the PSL score calculator free?
-    a: Yes, Aura offers a free PSL score and face rating. Optional premium features unlock deeper category analysis, progress tracking over time, and a more detailed personalized improvement plan.
+  - q: What does the PSL score calculator cost?
+    a: The potential estimate costs nothing and needs no account. Aura gives a PSL score and face rating. Optional premium features unlock deeper category analysis, progress tracking over time, and a more detailed personalized improvement plan.
   - q: "How accurate is Aura's PSL rating?"
     a: "Aura's AI applies consistent geometric measurements to the same facial traits human raters evaluate, which removes mood and personal bias from the process. Accuracy depends on photo quality, so a clear, well-lit front-facing photo will produce the most reliable PSL score."
   - q: Do I need to upload a photo to get my PSL score?

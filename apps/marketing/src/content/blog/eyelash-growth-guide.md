@@ -1,5 +1,5 @@
 ---
-title: "Minoxidil on Eyelashes: Does It Work?"
+title: "Minoxidil on Eyelashes: Risky and Rarely Worth It"
 description: Can minoxidil on eyelashes actually boost lash growth? We break down the evidence, risks, and better alternatives including Latisse and rosemary oil.
 slug: eyelash-growth-guide
 primary_keyword: minoxidil on eyelashes

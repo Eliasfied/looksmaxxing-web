@@ -1,5 +1,5 @@
 ---
-title: "Haircuts for Round Faces for Women: What Stylists Agree On"
+title: "Haircuts for Round Faces: What Stylists Agree On"
 description: "Haircuts for round faces for women: lobs, long layers, curtain bangs and pixies, plus where stylists disagree and wording to use at your next salon visit."
 slug: "haircuts-for-round-faces-women"
 primary_keyword: "haircuts for round faces women"

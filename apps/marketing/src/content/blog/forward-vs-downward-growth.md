@@ -1,5 +1,5 @@
 ---
-title: "Forward vs Downward Growth: What It Means for Your Face"
+title: "Forward vs Downward Growth: Why Your Face Changed"
 description: Learn how forward vs downward facial growth shapes your jawline, cheekbones, and overall attractiveness, plus what you can do about it.
 slug: forward-vs-downward-growth
 primary_keyword: forward vs downward growth

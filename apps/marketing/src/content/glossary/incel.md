@@ -1,5 +1,5 @@
 ---
-title: Incel Meaning - Looksmaxxing Glossary
+title: "Incel: What the Term Means and What It Doesn't"
 description: Incel stands for involuntary celibate. Learn what the term means, where it comes from, and how it connects to looksmaxxing culture.
 slug: incel
 term: Incel

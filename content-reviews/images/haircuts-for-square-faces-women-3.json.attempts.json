@@ -1,0 +1,14 @@
+{
+  "key": "{\"brief\":{\"prompt\":\"A hairdresser's station in a bright salon: a comb, a round brush and a pair of scissors laid neatly on a white folded towel beside a mirror, soft daylight, no people in frame. No text or logos.\",\"alt\":\"A salon station set up before a haircut consultation\",\"article\":\"haircuts-for-square-faces-women\",\"position\":3},\"model\":\"openai/gpt-image-2.5/flare/text-to-image\"}",
+  "attempts": [
+    {
+      "status": "passed",
+      "prompt": "A hairdresser's station in a bright salon: a comb, a round brush and a pair of scissors laid neatly on a white folded towel beside a mirror, soft daylight, no people in frame. No text or logos.",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "A salon station with a black comb, round brush and scissors laid on a folded white towel on a marble counter beside a mirror, with a black salon chair and a plant in the bright background"
+      }
+    }
+  ]
+}

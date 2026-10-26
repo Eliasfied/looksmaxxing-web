@@ -1,6 +1,6 @@
 ---
-title: "AI Face Rating: Get Your Attractiveness Score Free"
-description: Get an instant AI face rating with PSL scores, jawline analysis, and a personalized looksmaxxing plan. Free to try at Aura.
+title: "AI Face Rating: An Honest Score From One Photo"
+description: Get an instant AI face rating with PSL scores, jawline analysis, and a personalized looksmaxxing plan. No signup needed to start.
 slug: ai-face-rating
 primary_keyword: face rating
 cluster: face-rating-ai
@@ -8,7 +8,7 @@ pubDate: 2026-05-14
 h1: "AI Face Rating: See Where You Stand on the Attractiveness Scale"
 subtitle: Upload a photo and get a detailed face rating powered by AI, including PSL scoring, facial feature breakdowns, and actionable improvement suggestions.
 cta_label: Open the Face Rater
-badge: Free
+badge: No signup
 heroImage: /tools/ai-face-rating/hero.webp
 heroImageAlt: AI face rating interface showing attractiveness score and facial feature analysis
 benefits:
@@ -35,8 +35,8 @@ steps:
     title: Review Your Report
     description: Get your PSL score, a feature-by-feature breakdown, and a looksmax report with specific, actionable next steps.
 faq:
-  - q: Is the face rating free?
-    a: Yes. Aura offers a free face rating that includes a PSL score and basic feature breakdown. A premium tier unlocks the full looksmax report with detailed improvement plans and hunter-eye analysis.
+  - q: What does the face rating cost?
+    a: The potential estimate costs nothing and needs no account. The full report, with the feature-by-feature breakdown and your improvement plan, is $2.99 once after you create an account. Subscriptions are optional.
   - q: How accurate is an AI attractiveness test?
     a: "Accuracy depends on photo quality and the model's training. Aura uses facial landmark detection to measure proportions against established benchmarks, which produces consistent results. It's most useful as a structured baseline, not an absolute verdict."
   - q: Do I need to upload my photo?

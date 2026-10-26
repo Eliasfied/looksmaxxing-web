@@ -1,5 +1,5 @@
 ---
-title: "Hairstyle Finder for Women | Aura"
+title: "Hairstyle Finder for Women: Your Cut Shortlist"
 description: "Find haircut, fringe and face-framing ideas with a practical salon brief."
 slug: hairstyle-finder-for-women
 primary_keyword: "hairstyle finder for women"
@@ -14,5 +14,5 @@ related: [glow-up-planner, face-analysis-for-women, haircut-recommendation-tool,
 
 Find haircut, fringe and face-framing ideas with a practical salon brief.
 
-Start with a photo and your preferences. The potential estimate is free; the complete report can be unlocked for $2.99 after creating an account.
+Start with a photo and your preferences. The potential estimate costs nothing; the complete report can be unlocked for $2.99 after creating an account.
 

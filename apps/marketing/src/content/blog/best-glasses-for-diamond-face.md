@@ -1,5 +1,5 @@
 ---
-title: "Best Glasses for Diamond Face Shape: A Practical Guide"
+title: "Best Glasses for a Diamond Face: Frames That Fit"
 description: "Find the best glasses for diamond face shape: which frame styles balance cheekbones, how to confirm your shape, and fit checks that matter more than trends."
 slug: "best-glasses-for-diamond-face"
 primary_keyword: "best glasses for diamond face shape"
@@ -198,6 +198,8 @@ Most frames print three measurements, in millimeters, on the inside of the templ
 - Temple length
 
 [Warby Parker's fit guide](https://www.warbyparker.com/learn/eyeglass-frame-sizes-explained-simple-fit-guide-2) gives common ranges of about 40 to 60 mm for lens width, 14 to 24 mm for bridge width, and 120 to 150 mm for temple length. It also notes that the most suitable size varies by person. If you already own a pair that fits well, use its numbers as a reference when you shop, especially online.
+
+![Thin silver metal oval eyeglasses resting open on a light grey-veined marble surface beside a folded grey microfiber cleaning cloth, in soft natural light.](/blog/best-glasses-for-diamond-face/3.webp)
 
 ## Materials and Budget
 

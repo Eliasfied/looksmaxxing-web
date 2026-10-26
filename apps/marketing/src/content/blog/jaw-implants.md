@@ -1,5 +1,5 @@
 ---
-title: "Jaw Implants: What to Expect Before & After"
+title: "Jaw Implants: Cost, Recovery and Real Risks"
 description: "Everything you need to know about jaw implants: types, surgery, recovery, risks, and how to decide if they're right for your face."
 slug: jaw-implants
 primary_keyword: jaw implants

@@ -1,5 +1,5 @@
 ---
-title: Oofy Doofy Meaning - Looksmaxxing Glossary
+title: "Oofy Doofy: The Theory and Its Obvious Flaw"
 description: Oofy doofy refers to an unattractive or awkward-looking man who still dates attractive women, challenging the idea that looks determine dating success.
 slug: oofy-doofy
 term: Oofy Doofy

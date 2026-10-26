@@ -1,5 +1,5 @@
 ---
-title: "Best Glasses for Heart Face Shape: Frames That Balance"
+title: "Best Glasses for a Heart Face: What Balances It"
 description: "Find the best glasses for heart face shape: which frame styles balance a wider forehead and narrower chin, what to avoid, and how to check fit."
 slug: "best-glasses-for-heart-face"
 primary_keyword: "best glasses for heart face shape"

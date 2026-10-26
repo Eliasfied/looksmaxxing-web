@@ -1,5 +1,5 @@
 ---
-title: "Flat Maxilla: Causes, Effects & How to Fix It"
+title: "Flat Maxilla: Causes and What Can Still Change"
 description: Learn what a flat maxilla is, how to tell if you have one, and what options exist to address a recessed upper jaw for better facial structure.
 slug: maxilla-guide
 primary_keyword: flat maxilla

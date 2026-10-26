@@ -1,10 +1,12 @@
 ---
-title: "Qoves Review: Price, Report Contents and Criticism"
+title: "Qoves Review: Is the $150 Report Worth It?"
 description: "An honest Qoves review covering the $150 yearly price, add-ons, refund rules, what the report contains, buyer feedback and the criticism to weigh before you pay."
 slug: "qoves-studio-review"
 primary_keyword: "qoves review"
 cluster: "qoves-review"
 pubDate: "2026-10-20"
+heroImage: /blog/qoves-studio-review/1.webp
+heroImageAlt: "Overhead view of a wooden desk with five fanned printed report pages showing line-drawn face outlines, profile and eye sketches, and blue, teal and purple bar and pie charts, beside a laptop, yellow sticky-note pad, cup of black coffee, pen and small potted plant."
 tags: ["qoves review", "facial analysis", "looksmaxxing", "face rating", "buyer guide"]
 readingTime: 9
 related: []
@@ -114,6 +116,8 @@ The membership includes a personalised improvement protocol and before-and-after
 
 One buyer who [reviewed her Qoves analysis on Medium](https://alessaweiler.medium.com/my-honest-qoves-review-i-tried-their-aesthetic-analysis-these-are-my-results-be7aa6d9b61f) described an assessments section covering how feminine she looked and how proportional and symmetric her face was. A separate analysis section broke each part of her face into components, with statistics on each one's contribution to her overall look. She liked it, but also admitted there was a bit of information overload. Expect a lot of reading, and set aside time to work through it.
 
+![Side view of a person with dark hair in a bun, wearing a beige sweater and jeans, sitting upright at a wooden desk by a window and holding a phone at eye level in front of their face to take a straight-on photo.](/blog/qoves-studio-review/2.webp)
+
 ## What Buyers Say
 
 The handful of public reviews we looked at point in different directions. They are too few to show an overall trend, so treat them as examples rather than a verdict.
@@ -183,6 +187,8 @@ Aura's [AI Face Analysis](https://app.aura-looksmaxxing.com/tools/ai-face-rating
 | Best use | Homework before a professional consultation | Exploring styling ideas |
 
 Neither tool replaces advice from a dermatologist, surgeon, or experienced stylist who sees you in person.
+
+![Person seated in a bright, modern clinic waiting area, viewed from the side, holding a clipboard with printed facial photos, skin close-ups, color-mapped face images and a handwritten list of questions, with a notebook and pen on a side table.](/blog/qoves-studio-review/3.webp)
 
 ## Practical Tips If You Decide to Buy Qoves
 

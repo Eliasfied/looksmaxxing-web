@@ -1,5 +1,5 @@
 ---
-title: Caging Meaning - Looksmaxxing Glossary
+title: "Caging: What It Means in Looksmaxxing Slang"
 description: "Caging means deliberately cutting calories and reducing body fat to sharpen facial features. Learn how it's used in looksmaxxing communities."
 slug: caging
 term: Caging

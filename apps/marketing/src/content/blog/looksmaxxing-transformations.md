@@ -1,5 +1,5 @@
 ---
-title: "Bimax Before and After: What Results Look Like"
+title: "Bimax Before and After: Real Transformations"
 description: Explore bimax before and after results, plus lefort 2, orbital osteotomy, accutane, and other transformations. See what real change looks like.
 slug: looksmaxxing-transformations
 primary_keyword: bimax before and after

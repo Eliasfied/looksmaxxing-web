@@ -1,0 +1,23 @@
+{
+  "key": "{\"brief\":{\"prompt\":\"A close-up, eye-level shot of a woman in a bright bathroom mirror applying a matte contour shade just under her jawbone with a soft angled brush, blending toward her neck. Her hair falls in chin-length face-framing layers, and small drop earrings are visible.\",\"alt\":\"Woman blending soft contour along her jawline with an angled brush as a styling technique\",\"article\":\"female-jawline-guide\",\"position\":3},\"model\":\"openai/gpt-image-2.5/flare/text-to-image\"}",
+  "attempts": [
+    {
+      "status": "rejected",
+      "prompt": "A close-up, eye-level shot of a woman in a bright bathroom mirror applying a matte contour shade just under her jawbone with a soft angled brush, blending toward her neck. Her hair falls in chin-length face-framing layers, and small drop earrings are visible.",
+      "issues": [
+        "Anatomy/composition problem: the right foreground contains a second partial figure (hand, hair, face edge) that reads as an odd duplicate or reflection and creates confusing anatomy",
+        "The brush is positioned at/near the ear and neck side rather than clearly applying contour just under the jawbone, so the stated technique is not clearly illustrated",
+        "The hand holding the brush has slightly awkward finger positioning, weakening clarity for a how-to article image"
+      ]
+    },
+    {
+      "status": "passed",
+      "prompt": "A close-up, eye-level shot of a woman in a bright bathroom mirror applying a matte contour shade just under her jawbone with a soft angled brush, blending toward her neck. Her hair falls in chin-length face-framing layers, and small drop earrings are visible.\nEDITORIAL CORRECTION: Regenerate a simpler, accurate illustration of the same purpose. Fix these defects from the rejected image: [\"Anatomy/composition problem: the right foreground contains a second partial figure (hand, hair, face edge) that reads as an odd duplicate or reflection and creates confusing anatomy\",\"The brush is positioned at/near the ear and neck side rather than clearly applying contour just under the jawbone, so the stated technique is not clearly illustrated\",\"The hand holding the brush has slightly awkward finger positioning, weakening clarity for a how-to article image\"]. Avoid text, labels and complex comparative diagrams if they caused the defect.",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "Woman with chin-length wavy brown hair and small pearl drop earrings looks into a bathroom mirror while holding a black angled makeup brush against her jawline to blend contour toward her neck"
+      }
+    }
+  ]
+}

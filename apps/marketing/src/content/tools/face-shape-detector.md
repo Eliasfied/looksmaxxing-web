@@ -1,5 +1,5 @@
 ---
-title: Masculine Face Shape Detector | Aura AI
+title: "Masculine Face Shape Detector: Find Yours"
 description: Find your face shape instantly with AI. Discover if you have an oval, diamond, square, or other masculine face shape and get personalized tips to improve it.
 slug: face-shape-detector
 primary_keyword: masculine face shape
@@ -8,7 +8,7 @@ pubDate: 2026-05-12
 h1: Masculine Face Shape Detector
 subtitle: Upload a photo and get an instant AI analysis of your face shape, how it compares to the most attractive masculine proportions, and what you can do to improve it.
 cta_label: Open the Face Shape Detector
-badge: Free
+badge: No signup
 heroImage: /tools/face-shape-detector/hero.webp
 heroImageAlt: AI masculine face shape detector interface showing geometric face mapping
 benefits:
@@ -35,8 +35,8 @@ steps:
     title: Review your results and improvement plan
     description: See your face shape label, how it scores for masculine attractiveness, and a prioritized list of changes that may improve your overall look.
 faq:
-  - q: Is the face shape detector free?
-    a: Yes. Aura offers a free face shape analysis with your first upload. Premium features unlock deeper scoring, full PSL breakdowns, and a personalized improvement plan.
+  - q: What does the face shape detector cost?
+    a: The potential estimate costs nothing and needs no account. Aura includes a face shape analysis with your first upload. Premium features unlock deeper scoring, full PSL breakdowns, and a personalized improvement plan.
   - q: How accurate is the AI face shape detection?
     a: Accuracy depends heavily on photo quality. With a clear, front-facing photo in good lighting, the landmark model reliably identifies the widest and narrowest facial points. Using a blurry or angled photo will reduce precision. The tips section above covers how to get the best result.
   - q: Do I need to upload my photo to use the tool?

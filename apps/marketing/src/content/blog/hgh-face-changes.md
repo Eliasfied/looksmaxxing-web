@@ -1,5 +1,5 @@
 ---
-title: "HGH Face Before and After: What Really Changes"
+title: "HGH Face Before and After: What It Really Does"
 description: "Explore HGH face before and after effects: which facial features change, what the science says, and how to track your results objectively."
 slug: hgh-face-changes
 primary_keyword: hgh face before and after

@@ -19,7 +19,7 @@ export default function OnboardingPricingPage() {
           href="/tools"
           className="mt-5 inline-block text-sm font-semibold text-fuchsia-300"
         >
-          Try a free potential preview →
+          See a potential preview first →
         </Link>
       </div>
       <StarterPackCard successRedirect="/tools" />

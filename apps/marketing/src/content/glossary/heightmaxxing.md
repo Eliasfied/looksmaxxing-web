@@ -1,5 +1,5 @@
 ---
-title: Heightpill Meaning - Looksmaxxing Glossary
+title: "Heightpill: What Taking It Actually Means"
 description: The heightpill is the belief that height is one of the most impactful factors in male attractiveness. Learn what it means in looksmaxxing culture.
 slug: heightmaxxing
 term: Heightpill

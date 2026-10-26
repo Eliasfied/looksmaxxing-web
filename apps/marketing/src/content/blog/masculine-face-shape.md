@@ -1,5 +1,5 @@
 ---
-title: "Masculine Face Shape: What It Is & How to Improve It"
+title: "Masculine Face Shape: The Traits That Define It"
 description: Learn what defines a masculine face shape, which features matter most, and practical steps you can take to improve your facial structure.
 slug: masculine-face-shape
 primary_keyword: masculine face shape

@@ -1,5 +1,5 @@
 ---
-title: Oneitis Meaning - Looksmaxxing Glossary
+title: "Oneitis: What It Means and Why It Sticks"
 description: Oneitis means an obsessive fixation on one romantic interest, often unrequited. Learn where the term comes from and how it shows up in looksmaxxing spaces.
 slug: oneitis
 term: Oneitis

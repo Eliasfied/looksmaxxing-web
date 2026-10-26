@@ -1,5 +1,5 @@
 ---
-title: "Oval vs Diamond Face Shape: Key Differences"
+title: "Oval vs Diamond Face: The Difference Is Subtle"
 description: Learn how to tell oval and diamond face shapes apart, what makes each unique, and how to style both shapes to your advantage.
 slug: oval-vs-diamond-face-shape
 primary_keyword: oval vs diamond face shape

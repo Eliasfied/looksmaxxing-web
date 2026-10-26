@@ -1,5 +1,5 @@
 ---
-title: Normie Meaning - Looksmaxxing Glossary
+title: "Low Tier Normie: Where the Label Comes From"
 description: A normie is someone with average attractiveness. The low tier normie, mid tier normie, and high tier normie scale breaks this range into three sub-levels.
 slug: normie
 term: Normie

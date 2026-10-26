@@ -1,5 +1,5 @@
 ---
-title: "Orbital Box Osteotomy Before and After: What to Expect"
+title: "Orbital Box Osteotomy: Before, After and Risks"
 description: Explore orbital box osteotomy before and after outcomes, surgical technique, recovery timeline, and what realistic results actually look like.
 slug: orbital-box-osteotomy
 primary_keyword: orbital box osteotomy before and after

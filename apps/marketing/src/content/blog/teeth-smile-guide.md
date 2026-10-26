@@ -1,5 +1,5 @@
 ---
-title: "Sharpened Canine Teeth: Smile Aesthetics Guide"
+title: "Sharpened Canine Teeth: Trend or Permanent Damage?"
 description: Learn how sharpened canine teeth affect your smile width, palate shape, and overall facial aesthetics. Practical tips for a better smile.
 slug: teeth-smile-guide
 primary_keyword: sharpened canine teeth

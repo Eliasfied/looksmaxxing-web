@@ -1,5 +1,5 @@
 ---
-title: "How to Fix Negative Canthal Tilt: Your Full Guide"
+title: "How to Fix Negative Canthal Tilt: Real Options"
 description: Learn how to fix negative canthal tilt with proven methods from mewing to surgery. Understand what causes it and which options may actually help.
 slug: how-to-fix-negative-canthal-tilt
 primary_keyword: how to fix negative canthal tilt

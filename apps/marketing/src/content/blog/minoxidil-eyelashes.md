@@ -1,5 +1,5 @@
 ---
-title: "Minoxidil on Eyelashes: Does It Actually Work?"
+title: "Minoxidil on Eyelashes: Why Doctors Say Don't"
 description: Curious about using minoxidil on eyelashes? Learn how it works, what the research says, risks to know, and how to apply it safely.
 slug: minoxidil-eyelashes
 primary_keyword: minoxidil on eyelashes

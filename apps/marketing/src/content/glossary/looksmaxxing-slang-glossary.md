@@ -1,5 +1,5 @@
 ---
-title: Hagmaxxing Meaning - Looksmaxxing Glossary
+title: "Hagmaxxing: What the Term Actually Means"
 description: Hagmaxxing means deliberately leaning into sharp, angular, or aged facial features rather than softening them. Learn how it fits looksmaxxing culture.
 slug: looksmaxxing-slang-glossary
 term: Hagmaxxing

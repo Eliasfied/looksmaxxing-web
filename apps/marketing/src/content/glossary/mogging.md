@@ -1,5 +1,5 @@
 ---
-title: Mogging Meaning - Looksmaxxing Glossary
+title: "Mogger Skull: What Mogging Actually Means"
 description: Mogging means visually dominating someone else in terms of physical appearance. Learn what a mogger skull is and how the term is used in looksmaxxing.
 slug: mogging
 term: Mogging

@@ -1,5 +1,5 @@
 ---
-title: "Ramus Length: What It Means for Your Jaw"
+title: "Ramus Length: The Jaw Measurement Few Check"
 description: Learn what ramus length is, how it shapes your jawline and facial balance, and what you can realistically do to assess and improve it.
 slug: ramus-length
 primary_keyword: ramus length

@@ -1,5 +1,5 @@
 ---
-title: KHHV Meaning - Looksmaxxing Glossary
+title: "KHHV: What the Acronym Stands For"
 description: KHHV stands for Kissless Hugless Handholdless Virgin. Learn what the term means, where it comes from, and how it relates to looksmaxxing.
 slug: khhv
 term: KHHV

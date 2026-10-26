@@ -1,5 +1,5 @@
 ---
-title: "Ideal Philtrum: Length, Shape & Proportions Explained"
+title: "Ideal Philtrum Length: The Numbers Explained"
 description: Learn what makes an ideal philtrum, how length and shape affect facial harmony, and what you can realistically do to improve yours.
 slug: philtrum-explained
 primary_keyword: ideal philtrum

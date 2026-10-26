@@ -1,5 +1,5 @@
 ---
-title: Hardmaxxing Meaning - Looksmaxxing Glossary
+title: "Hardmaxxing: Where the Line to Softmaxxing Sits"
 description: Hardmaxxing means pursuing permanent or medical changes to improve looks. Softmaxxing covers non-invasive, reversible improvements. Learn the difference.
 slug: softmaxxing-vs-hardmaxxing
 term: Softmaxxing vs Hardmaxxing

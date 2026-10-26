@@ -1,5 +1,5 @@
 ---
-title: "Jawmaxxing: How to Improve Your Jawline"
+title: "Jawmaxxing: What Moves the Needle, What Doesn't"
 description: A complete jawmaxxing guide covering mewing, jaw exercises, filler, and surgery. Learn what actually works and what to skip.
 slug: jawline-improvement-guide
 primary_keyword: jawmaxxing

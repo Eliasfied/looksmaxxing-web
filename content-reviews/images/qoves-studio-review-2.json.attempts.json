@@ -1,0 +1,14 @@
+{
+  "key": "{\"brief\":{\"prompt\":\"One adult sitting at a desk by a window in soft daylight, holding a phone at eye level in front of their face to take a straight-on photo of themselves, seen from the side so both the phone and their upright posture are visible. Plain room, neutral expression, no text and no visible screen content.\",\"alt\":\"Taking a straight-on photo at eye level for a facial analysis submission\",\"article\":\"qoves-studio-review\",\"position\":2},\"model\":\"openai/gpt-image-2.5/flare/text-to-image\"}",
+  "attempts": [
+    {
+      "status": "passed",
+      "prompt": "One adult sitting at a desk by a window in soft daylight, holding a phone at eye level in front of their face to take a straight-on photo of themselves, seen from the side so both the phone and their upright posture are visible. Plain room, neutral expression, no text and no visible screen content.",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "Side view of a person with dark hair in a bun, wearing a beige sweater and jeans, sitting upright at a wooden desk by a window and holding a phone at eye level in front of their face to take a straight-on photo."
+      }
+    }
+  ]
+}

@@ -1,5 +1,5 @@
 ---
-title: "Minoxidil Eyebrows Before and After: What to Expect"
+title: "Minoxidil Eyebrows: Before, After, Side Effects"
 description: Curious about minoxidil for eyebrows? See real before and after results, how to apply it safely, and what the research actually says.
 slug: minoxidil-eyebrows
 primary_keyword: minoxidil eyebrows before and after

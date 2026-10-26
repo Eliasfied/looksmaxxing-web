@@ -1,10 +1,12 @@
 ---
-title: "Canthal Tilt Female: What the Research Shows"
+title: "Canthal Tilt in Women: What the Studies Found"
 description: "Canthal tilt female guide: what studies on women's eye angles found, why selfie measurements mislead, and practical brow and makeup styling ideas."
 slug: "canthal-tilt-female"
 primary_keyword: "canthal tilt female"
 cluster: "canthal-tilt-female"
 pubDate: "2026-10-24"
+heroImage: /blog/canthal-tilt-female/1.webp
+heroImageAlt: "A straight-on close-up of a woman's face from the hairline to the upper cheeks, showing her dark eyebrows, open gray-green eyes, and bare skin, with her dark hair pulled back against a plain light background."
 tags: ["canthal tilt", "eye shape", "female facial features", "eye makeup", "brow styling"]
 readingTime: 8
 related: [positive-vs-negative-canthal-tilt, how-to-fix-negative-canthal-tilt, how-to-get-positive-canthal-tilt]

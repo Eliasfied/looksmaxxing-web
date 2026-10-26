@@ -1,5 +1,5 @@
 ---
-title: "Hunter Eyes vs Almond Eyes: Key Differences Explained"
+title: "Hunter Eyes vs Almond Eyes: Spot the Difference"
 description: Learn the real differences between hunter eyes and almond eyes, how each is defined anatomically, and what they mean for facial aesthetics.
 slug: hunter-eyes-vs-almond-eyes
 primary_keyword: hunter eyes vs almond eyes

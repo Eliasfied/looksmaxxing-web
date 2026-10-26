@@ -1,5 +1,5 @@
 ---
-title: "Bimax Before and After: What to Expect"
+title: "Bimax Before and After: What Actually Changes"
 description: See what bimax surgery before and after really looks like. Learn what changes, what stays the same, and how to set realistic expectations.
 slug: bimax-before-after
 primary_keyword: bimax before and after

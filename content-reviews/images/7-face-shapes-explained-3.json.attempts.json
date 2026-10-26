@@ -1,0 +1,14 @@
+{
+  "key": "{\"brief\":{\"prompt\":\"An overhead flat lay of five eyeglass frames laid out in one evenly spaced row on a light wooden table, shot straight down in soft daylight, with generous empty space around them. No text, logos or faces.\",\"alt\":\"Eyeglass frames laid out in a row while choosing a style\",\"article\":\"7-face-shapes-explained\",\"position\":3},\"model\":\"openai/gpt-image-2.5/flare/text-to-image\"}",
+  "attempts": [
+    {
+      "status": "passed",
+      "prompt": "An overhead flat lay of five eyeglass frames laid out in one evenly spaced row on a light wooden table, shot straight down in soft daylight, with generous empty space around them. No text, logos or faces.",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "Five folded eyeglass frames in a row on a light wooden surface, seen from above: tortoiseshell, thin gold metal, black, translucent pink and dark green."
+      }
+    }
+  ]
+}

@@ -1,10 +1,12 @@
 ---
-title: "The 7 Face Shapes Explained: How to Find Yours"
+title: "The 7 Face Shapes: Find Yours in 30 Seconds"
 description: "Learn the 7 face shapes, how to identify yours from a simple photo, and how to use the result for glasses and haircuts without treating it as a strict rule."
 slug: "7-face-shapes-explained"
 primary_keyword: "7 face shapes"
 cluster: "listicle"
 pubDate: "2026-10-16"
+heroImage: /blog/7-face-shapes-explained/1.webp
+heroImageAlt: "A straight-on portrait of a young woman with dark hair pulled fully back, neutral expression, against a plain pale grey background, with her hairline, jaw and chin clearly visible for assessing face shape"
 tags: ["face shapes", "facial proportions", "glasses", "haircuts", "styling"]
 readingTime: 9
 related: [best-glasses-for-diamond-face, 6-haircuts-for-receding-hairline, best-glasses-for-heart-face]
@@ -117,6 +119,8 @@ You don't need calipers. You need a decent photo and a few honest comparisons. T
 
 A second opinion is useful when you can't decide between two shapes. Aura's [Face Shape Finder](https://app.aura-looksmaxxing.com/tools/face-shape-detector?source=%2Fblog%2F7-face-shapes-explained) gives a *likely* face shape with its uncertainty stated, rather than a verdict. It explains your forehead, cheek and jaw proportions and suggests styling options based on your preferences. You can upload a photo before creating an account. The free result is a subjective styling-potential estimate, and the full findings require an account and a one-time $2.99 purchase.
 
+![Person with hair in a ponytail, seen from behind and slightly to the side, holds a phone at eye level in front of a bathroom mirror, their face reflected straight-on in soft daylight.](/blog/7-face-shapes-explained/2.webp)
+
 ## The 7 Face Shapes in Detail
 
 The hair and frame notes below follow common stylist and optician conventions. Many hairstyle recommendation systems are built on *guidelines from an expert* rather than tested outcomes ([ScienceDirect](https://www.sciencedirect.com/science/article/abs/pii/S0957417418307346)). Treat the notes as starting points and adapt them to your taste, hair texture and the look you want, feminine, masculine or anything in between.
@@ -189,6 +193,8 @@ Both can be true for different people. The difference often comes down to overal
 - The frame doesn't press on your cheeks when you smile.
 
 A frame that fits well and suits your style will usually beat a "correct" shape that pinches or slides.
+
+![Five folded eyeglass frames in a row on a light wooden surface, seen from above: tortoiseshell, thin gold metal, black, translucent pink and dark green.](/blog/7-face-shapes-explained/3.webp)
 
 ## When You Sit Between Two Shapes
 

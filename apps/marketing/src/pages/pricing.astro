@@ -3,7 +3,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 import PricingSection from '../components/PricingSection.astro';
 const schema = { '@context': 'https://schema.org', '@type': 'SoftwareApplication', name: 'Aura: Looksmaxxing', applicationCategory: 'LifestyleApplication', operatingSystem: 'Web', offers: [{ '@type': 'Offer', name: 'One report', price: '2.99', priceCurrency: 'USD' }, { '@type': 'Offer', name: 'Monthly subscription', price: '9.99', priceCurrency: 'USD' }, { '@type': 'Offer', name: 'Annual subscription', price: '49.99', priceCurrency: 'USD' }] };
 ---
-<BaseLayout title="Pricing — One Report or a Subscription | Aura" description="Start with a free potential preview. Unlock a full report for $2.99 once, or choose $9.99 monthly / $49.99 yearly for recurring credits.">
+<BaseLayout title="Pricing: One Report for $2.99, or a Plan | Aura" description="Start with a potential preview, no account needed. Unlock a full report for $2.99 once, or choose $9.99 monthly / $49.99 yearly for recurring credits.">
   <Fragment slot="head"><script type="application/ld+json" set:html={JSON.stringify(schema)} /></Fragment>
   <header class="max-w-3xl mx-auto px-6 pt-16 text-center"><h1 class="text-5xl font-black">Aura pricing</h1><p class="mt-5 text-[#aaa] text-lg">See your preview before choosing what to buy.</p></header>
   <PricingSection />

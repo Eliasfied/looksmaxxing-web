@@ -32,6 +32,14 @@ function PageViewTracker({ children }: { children: React.ReactNode }) {
   const searchParams = useSearchParams()
 
   useEffect(() => {
+    // The marketing site tags every tool link with the page it came from, but
+    // the parameter is gone by the time someone reaches the report and pays.
+    // Registering it makes every later event in the session carry the origin,
+    // so a purchase can be traced back to the article that produced it.
+    const source = searchParams.get('source')
+    if (source && source.startsWith('/') && !source.startsWith('//')) {
+      posthog.register({ aura_source: source })
+    }
     posthog.capture('$pageview', { $current_url: window.location.href })
   }, [pathname, searchParams])
 

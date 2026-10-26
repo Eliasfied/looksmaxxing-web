@@ -1,5 +1,5 @@
 ---
-title: "Downturned Medial Canthus: What It Means & Options"
+title: "Downturned Medial Canthus: What Can Be Done"
 description: Learn what a downturned medial canthus is, how it shapes your eye appearance, and what surgical and non-surgical options may help.
 slug: medial-canthus
 primary_keyword: downturned medial canthus

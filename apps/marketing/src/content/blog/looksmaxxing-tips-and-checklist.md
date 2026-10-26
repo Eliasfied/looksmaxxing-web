@@ -1,5 +1,5 @@
 ---
-title: "Looksmaxxing Scale Explained: How to Use It"
+title: "The Looksmaxxing Scale: Where You Actually Sit"
 description: Learn how the looksmaxxing scale works, how to read a looksmax chart, and get actionable tips to improve your score and appearance.
 slug: looksmaxxing-tips-and-checklist
 primary_keyword: looksmaxing scale

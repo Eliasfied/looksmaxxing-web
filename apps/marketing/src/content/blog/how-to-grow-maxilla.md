@@ -1,5 +1,5 @@
 ---
-title: "How to Grow Your Maxilla: What Actually Works"
+title: "How to Grow Your Maxilla: Age Changes Everything"
 description: Learn how to grow your maxilla through mewing, chewing, posture, and orthodontic options. Practical steps backed by anatomy and research.
 slug: how-to-grow-maxilla
 primary_keyword: how to grow maxilla

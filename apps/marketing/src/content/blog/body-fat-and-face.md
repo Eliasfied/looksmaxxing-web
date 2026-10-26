@@ -1,5 +1,5 @@
 ---
-title: "K Shami Debloat Powder: Does It Actually Work?"
+title: "K Shami Debloat Powder: Does It Do Anything?"
 description: Everything you need to know about K Shami debloat powder, face bloating causes, and how to get a leaner, sharper-looking face naturally.
 slug: body-fat-and-face
 primary_keyword: k shami debloat powder

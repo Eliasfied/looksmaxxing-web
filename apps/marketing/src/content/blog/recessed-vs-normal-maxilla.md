@@ -1,5 +1,5 @@
 ---
-title: "Recessed vs Normal Maxilla: Key Differences Explained"
+title: "Recessed vs Normal Maxilla: How to Tell"
 description: Learn the visual and structural differences between a recessed vs normal maxilla, how it affects facial appearance, and what options exist to address it.
 slug: recessed-vs-normal-maxilla
 primary_keyword: recessed vs normal maxilla

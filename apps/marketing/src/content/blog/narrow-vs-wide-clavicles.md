@@ -1,5 +1,5 @@
 ---
-title: "Narrow vs Wide Clavicles: What the Difference Means"
+title: "Narrow vs Wide Clavicles: Can You Change Them?"
 description: "Narrow vs wide clavicles explained: how clavicle width affects shoulder appearance, perceived attractiveness, and what you can actually do about it."
 slug: narrow-vs-wide-clavicles
 primary_keyword: narrow vs wide clavicles

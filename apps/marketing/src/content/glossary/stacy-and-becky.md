@@ -1,5 +1,5 @@
 ---
-title: Stacylite Meaning - Looksmaxxing Glossary
+title: "Stacylite: Between Stacy and Becky, Explained"
 description: A stacylite is a woman considered just below full Stacy status in PSL ranking. Learn how stacylite, Becky tiers, and Stacy differ in looksmaxxing.
 slug: stacy-and-becky
 term: Stacylite

@@ -1,5 +1,5 @@
 ---
-title: "Mewing Exercises for Jawline: AI Jawline Analyzer"
+title: "Mewing Exercises for Jawline: AI Jawline Check"
 description: Analyze your jawline shape, gonial angle, and face ratios instantly. Get a personalized mewing exercise plan based on your actual facial structure.
 slug: jawline-analyzer
 primary_keyword: mewing exercises for jawline
@@ -8,7 +8,7 @@ pubDate: 2026-05-31
 h1: "Jawline Analyzer: Mewing Exercises Built for Your Face"
 subtitle: Upload a photo and get an AI-powered breakdown of your jawline shape, gonial angle, and face-width-to-height ratio, plus targeted mewing exercises matched to your specific structure.
 cta_label: Open the Jawline Analyzer
-badge: Free
+badge: No signup
 heroImage: /tools/jawline-analyzer/hero.webp
 heroImageAlt: AI jawline analyzer interface showing mewing exercises for jawline improvement with facial measurement overlays
 benefits:
@@ -35,8 +35,8 @@ steps:
     title: Follow Your Custom Exercise Plan
     description: Based on your results, you get a prioritized list of mewing exercises and posture habits, with notes on realistic timelines and what to track over time.
 faq:
-  - q: Is the jawline analyzer free?
-    a: Yes. Aura offers a free jawline analysis that includes your jaw shape classification and basic ratio measurements. A premium tier unlocks deeper metric breakdowns and a more detailed personalized plan.
+  - q: What does the jawline analyzer cost?
+    a: The potential estimate costs nothing and needs no account. Aura includes a jawline analysis that includes your jaw shape classification and basic ratio measurements. A premium tier unlocks deeper metric breakdowns and a more detailed personalized plan.
   - q: How accurate is the gonial angle measurement?
     a: The AI estimates your gonial angle from your photo using landmark detection. Accuracy depends heavily on photo quality and angle. It is a useful directional reference, not a clinical measurement. For medical decisions, consult a qualified professional.
   - q: Do I need to upload my photo?

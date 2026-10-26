@@ -1,0 +1,14 @@
+{
+  "key": "{\"brief\":{\"prompt\":\"A bright barbershop scene with a male client in the chair holding a phone showing a straight-on photo of his own face, while a barber points at the top and sides of his hair while discussing the cut. Natural lighting, realistic but non-celebrity people, no visible app interface or on-screen text.\",\"alt\":\"Man showing a barber a straight-on face photo to choose a haircut that suits his face shape\",\"article\":\"most-attractive-face-shape-men\",\"position\":3},\"model\":\"openai/gpt-image-2.5/flare/text-to-image\"}",
+  "attempts": [
+    {
+      "status": "passed",
+      "prompt": "A bright barbershop scene with a male client in the chair holding a phone showing a straight-on photo of his own face, while a barber points at the top and sides of his hair while discussing the cut. Natural lighting, realistic but non-celebrity people, no visible app interface or on-screen text.",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "Barber in a black apron points at the top and sides of a seated client's hair while the client, draped in a black cape, holds up a phone showing a straight-on photo of his own face in a bright barbershop."
+      }
+    }
+  ]
+}

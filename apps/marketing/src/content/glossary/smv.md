@@ -1,5 +1,5 @@
 ---
-title: SMV Meaning - Looksmaxxing Glossary
+title: "SMV and Chadfishing: What the Terms Mean"
 description: SMV stands for Sexual Market Value, a concept used in looksmaxxing communities to rate overall physical attractiveness and dating prospects on a numeric scale.
 slug: smv
 term: SMV

@@ -1,5 +1,5 @@
 ---
-title: "Mandible vs Maxilla: Key Differences Explained"
+title: "Mandible vs Maxilla: Which One Is Your Problem?"
 description: Learn the key differences between the mandible vs maxilla, how each bone shapes your face, and what you can do to optimize both for better facial harmony.
 slug: mandible-vs-maxilla
 primary_keyword: mandible vs maxilla

@@ -1,5 +1,5 @@
 ---
-title: Are Hooded Eyes Attractive? The Honest Answer
+title: "Are Hooded Eyes Attractive? The Honest Answer"
 description: Hooded eyes attractive or not? Discover what research and perception studies say, plus practical tips to enhance this common eye shape.
 slug: are-hooded-eyes-attractive
 primary_keyword: hooded eyes attractive

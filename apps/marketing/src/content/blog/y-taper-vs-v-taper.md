@@ -1,5 +1,5 @@
 ---
-title: "Y Taper vs V Taper: Which Body Shape Is Better?"
+title: "Y Taper vs V Taper: Which One Reads Better?"
 description: "Y taper vs v taper explained: what each body shape looks like, how they differ, and how to train toward your goal physique."
 slug: y-taper-vs-v-taper
 primary_keyword: y taper vs v taper

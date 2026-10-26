@@ -1,0 +1,14 @@
+{
+  "key": "{\"brief\":{\"prompt\":\"A flat-lay photo on a light wooden surface showing simple low-effort hair care items: a microfiber towel, a wide-tooth comb, soft fabric scrunchies, a hair dryer set to a low heat setting, and an unbranded bottle of heat protectant. Clean overhead composition with natural shadows and no text or logos.\",\"alt\":\"Gentle hair care tools for keeping a low maintenance haircut easy to manage\",\"article\":\"low-maintenance-hairstyles-for-women\",\"position\":3},\"model\":\"openai/gpt-image-2.5/flare/text-to-image\"}",
+  "attempts": [
+    {
+      "status": "passed",
+      "prompt": "A flat-lay photo on a light wooden surface showing simple low-effort hair care items: a microfiber towel, a wide-tooth comb, soft fabric scrunchies, a hair dryer set to a low heat setting, and an unbranded bottle of heat protectant. Clean overhead composition with natural shadows and no text or logos.",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "Overhead flat-lay on a light wooden surface of a folded lavender microfiber towel, a wooden wide-tooth comb, three fabric scrunchies in pink, cream and sage green, a gray hair dryer, and an unlabeled clear spray bottle of heat protectant."
+      }
+    }
+  ]
+}

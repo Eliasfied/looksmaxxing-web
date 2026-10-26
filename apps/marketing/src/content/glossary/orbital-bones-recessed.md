@@ -1,5 +1,5 @@
 ---
-title: Recessed Infras Meaning - Looksmaxxing Glossary
+title: "Recessed Infraorbitals: What the Term Means"
 description: Recessed infras refer to infraorbital bones that sit too far back, creating hollow under-eyes and a less defined midface. Learn what this means for facial aesthetics.
 slug: orbital-bones-recessed
 term: Recessed Infras

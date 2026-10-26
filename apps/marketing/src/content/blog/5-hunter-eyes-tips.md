@@ -1,5 +1,5 @@
 ---
-title: "How to Get Hunter Eyes: 5 Realistic Tips"
+title: "How to Get Hunter Eyes: 5 Tips That Actually Work"
 description: "Learn how to get hunter eyes realistically: what the slang means, which eye-area traits are fixed, and 5 practical tips for brows, photos and presentation."
 slug: "5-hunter-eyes-tips"
 primary_keyword: "how to get hunter eyes"

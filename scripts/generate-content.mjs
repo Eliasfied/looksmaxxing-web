@@ -315,8 +315,8 @@ IMAGE RULES:
   More content.
   \`\`\`
 - Provide exactly 3 image_prompts in the JSON.
-  * image_prompts[0] = HERO image: a big-picture, eye-catching overview visual that represents the topic at a glance. Avoid being too detail-heavy.
-  * image_prompts[1] and image_prompts[2] = INLINE supporting visuals: specific styling examples, useful comparisons or technique demonstrations. No simulated outcome claims or fake before/after transformations.
+  * image_prompts[0] = HERO image: ONE clear subject, photographed simply. This is the card image in listings, so it has to read at thumbnail size. A single person, a single object or a single scene. NEVER a row, grid, panel set or side-by-side comparison, and never an outline chart of several shapes: the image model cannot keep such variants visually distinct, the visual review rejects them, and the article then publishes with no picture at all.
+  * image_prompts[1] and image_prompts[2] = INLINE supporting visuals: specific styling examples or technique demonstrations. No simulated outcome claims or fake before/after transformations. Prefer one subject here too; if you do ask for a comparison, keep it to two clearly different items, never four or seven.
   * Each prompt must:
     - Describe an EDUCATIONAL or ILLUSTRATIVE visual (no abstract concepts).
     - Be specific and visual.
@@ -324,6 +324,8 @@ IMAGE RULES:
     - Match the article topic precisely.
     - Be ~2 sentences, focused on what should be SHOWN.
     - All 3 images must be VISUALLY DISTINCT from each other (different framing, subject, or angle).
+    - Avoid close-ups of hands performing a fiddly task (adjusting, pinching, holding several items): these render implausibly and get rejected.
+    - Do not ask for text, one-word labels, rulers, arrows or measurement lines in the image.
 
 Return ONLY valid JSON (no markdown fences, no preamble) matching this exact schema:
 {
@@ -379,7 +381,7 @@ Return ONLY valid JSON matching this exact schema:
   "h1": "On-page H1 (the big headline visitors see, NO YEAR)",
   "subtitle": "1-2 sentence subtitle under H1 explaining what the tool does",
   "cta_label": "Open the [Tool Name]",
-  "badge": "Free / Popular / New / null",
+  "badge": "No signup / Popular / New / null",
   "image_prompt": { "prompt": "Visual description of the hero image", "alt": "Alt text with the primary keyword if natural" },
   "benefits": [
     { "icon": "💯", "title": "Benefit 1", "description": "One sentence." },
@@ -394,7 +396,7 @@ Return ONLY valid JSON matching this exact schema:
   ],
   "body_markdown": "## What is [topic]\\n\\n4-6 paragraphs of useful supporting content with H2/H3 structure...\\n\\n## How [tool] works\\n\\n...\\n\\n## Tips for accurate results\\n\\n...",
   "faq": [
-    { "q": "Is it free?", "a": "The potential preview is free. The full report costs $2.99 once after account creation; subscriptions are optional." },
+    { "q": "What does it cost?", "a": "The potential preview costs nothing and needs no account. The full report costs $2.99 once after account creation; subscriptions are optional." },
     { "q": "How accurate is it?", "a": "..." },
     { "q": "Do I need to upload my photo?", "a": "..." },
     { "q": "Is my data safe?", "a": "..." },
@@ -404,7 +406,7 @@ Return ONLY valid JSON matching this exact schema:
 
 body_markdown should be 600-1000 words of supporting content (NOT promotional copy — actual useful content about the topic).
 Use realistic emoji for benefits (💯⚡🎯🔒📊🤖💪✨🎨📱).
-The "badge" field can be set to "Free" for the most popular tools or null otherwise.`;
+The "badge" field can be set to "No signup", "Popular" or "New", or null otherwise. Never set it to "Free": the product is paid and only the potential estimate costs nothing.`;
 
 const GLOSSARY_PROMPT = (page) => `You are writing a short glossary entry for Aura's looksmaxxing dictionary.
 
@@ -963,4 +965,11 @@ async function main() {
   execFileSync('git', ['push', '-u', 'origin', branch], { cwd: ROOT, stdio: 'inherit' });
   if (needsReview) { console.error('Drafts need review: see content-reviews. Drafts were excluded from the public build.'); process.exitCode = 1; }
 }
-main().catch(error => { console.error('Content pipeline failed:', error.message); process.exitCode = 1; });
+// Importing this module must not start a pipeline run: the image backfill reuses
+// generateReviewedImage and the frontmatter helpers without generating articles.
+const IS_ENTRYPOINT = process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url);
+if (IS_ENTRYPOINT) {
+  main().catch(error => { console.error('Content pipeline failed:', error.message); process.exitCode = 1; });
+}
+
+export { generateReviewedImage, buildFrontmatter, compressToWebp, downloadBuffer, generateOneImage, PUBLIC_BASE, CONTENT_DIRS, DRAFT_DIR, ROOT };

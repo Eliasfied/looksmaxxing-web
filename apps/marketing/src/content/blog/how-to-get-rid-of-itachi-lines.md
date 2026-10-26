@@ -1,5 +1,5 @@
 ---
-title: How to Get Rid of Itachi Lines
+title: "How to Get Rid of Itachi Lines: What Fades Them"
 description: Learn what Itachi lines are, why they form under the eyes, and practical ways to reduce or prevent them with skincare, habits, and more.
 slug: how-to-get-rid-of-itachi-lines
 primary_keyword: how to get rid of itachi lines

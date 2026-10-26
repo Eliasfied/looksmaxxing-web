@@ -1,5 +1,5 @@
 ---
-title: "Bigonial Width: What It Is and Why It Matters"
+title: "Bigonial Width: The Jaw Number Measured Wrong"
 description: Learn what bigonial width is, how it shapes facial aesthetics, and what research says about ideal measurements for men and women.
 slug: bigonial-width
 primary_keyword: bigonial width

@@ -1,5 +1,5 @@
 ---
-title: How to Grow Masseter Muscle for a Stronger Jaw
+title: "How to Grow Masseter Muscle Without Wrecking Teeth"
 description: Learn how to grow masseter muscle with proven exercises, diet tips, and lifestyle habits that may build a more defined, stronger jaw over time.
 slug: how-to-grow-masseter-muscle
 primary_keyword: how to grow masseter muscle

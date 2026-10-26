@@ -1,5 +1,5 @@
 ---
-title: "Gonial Angle: What It Is and Why It Matters"
+title: "Gonial Angle: The Jaw Number That Matters Most"
 description: "Learn what the gonial angle is, how it's measured, what makes it attractive, and how to assess and improve yours with practical, evidence-based steps."
 slug: gonial-angle-explained
 primary_keyword: gonial angle

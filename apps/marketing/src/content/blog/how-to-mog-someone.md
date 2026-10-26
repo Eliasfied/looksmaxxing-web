@@ -1,5 +1,5 @@
 ---
-title: "How to Mog Someone: The Complete Guide"
+title: "How to Mog Someone: What It Actually Takes"
 description: Learn how to mog someone by improving your facial aesthetics, posture, grooming, and presence. Practical steps backed by real principles.
 slug: how-to-mog-someone
 primary_keyword: how to mog

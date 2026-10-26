@@ -1,5 +1,5 @@
 ---
-title: "Bimax Cost: What to Expect and Why It Varies"
+title: "Bimax Cost: What the Price Actually Covers"
 description: Understand bimax surgery cost from surgeon fees to hidden expenses. Learn what drives the price and how to plan your budget before consulting a surgeon.
 slug: bimax-surgery-cost
 primary_keyword: bimax cost

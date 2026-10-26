@@ -1,5 +1,5 @@
 ---
-title: How to Get Positive Canthal Tilt (What Actually Works)
+title: "How to Get Positive Canthal Tilt: Honest Options"
 description: Learn how to get positive canthal tilt through exercises, styling, makeup, and procedures. Practical, honest advice on improving your eye area.
 slug: how-to-get-positive-canthal-tilt
 primary_keyword: how to get positive canthal tilt

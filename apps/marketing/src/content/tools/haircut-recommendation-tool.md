@@ -1,5 +1,5 @@
 ---
-title: "Haircut for Face Shape AI: Find Your Best Cut | Aura"
+title: "Haircut Finder: AI Cuts for Your Face Shape"
 description: "Get three haircut suggestions and a brief for your stylist."
 slug: haircut-recommendation-tool
 primary_keyword: "haircut finder"
@@ -14,5 +14,5 @@ related: [glow-up-planner, face-analysis-for-women, hairstyle-finder-for-women, 
 
 Get three haircut suggestions and a brief for your stylist.
 
-Start with a photo and your preferences. The potential estimate is free; the complete report can be unlocked for $2.99 after creating an account.
+Start with a photo and your preferences. The potential estimate costs nothing; the complete report can be unlocked for $2.99 after creating an account.
 

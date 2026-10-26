@@ -1,5 +1,5 @@
 ---
-title: Chadlite Meaning - Looksmaxxing Glossary
+title: "Chadlite: The Tier Just Below Chad, Explained"
 description: A chadlite is someone rated above average in looks but falling short of full Chad status. Learn what separates a chadlite from a Chad on the PSL scale.
 slug: chadlite
 term: Chadlite

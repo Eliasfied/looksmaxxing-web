@@ -1,5 +1,5 @@
 ---
-title: HTN Meaning - Looksmaxxing Glossary
+title: "HTN: What High Tier Normie Really Means"
 description: HTN stands for High-Tier Normie in looksmaxxing slang. It describes someone with above-average looks who falls just below conventionally attractive.
 slug: htn
 term: HTN

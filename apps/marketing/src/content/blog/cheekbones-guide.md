@@ -1,5 +1,5 @@
 ---
-title: "Malar Bones: Anatomy, Aesthetics & Improvement Guide"
+title: "Malar Bones: What Really Sets Cheekbones Apart"
 description: Learn what malar bones are, how they shape your face, and what you can do to enhance cheekbone prominence. Practical, evidence-backed guide.
 slug: cheekbones-guide
 primary_keyword: malar bones

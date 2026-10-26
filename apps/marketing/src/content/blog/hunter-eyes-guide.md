@@ -1,5 +1,5 @@
 ---
-title: "Hunter Eyes: What They Are and How to Get Them"
+title: "Hunter Eyes: What They Are and Who Can Get Them"
 description: "Learn what hunter eyes are, why they're considered attractive, and what you can realistically do to achieve a more intense, hooded eye look."
 slug: hunter-eyes-guide
 primary_keyword: hunter eyes

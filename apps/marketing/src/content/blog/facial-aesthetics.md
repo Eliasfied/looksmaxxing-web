@@ -1,5 +1,5 @@
 ---
-title: "Face Forward Aesthetics: A Complete Guide"
+title: "Face Forward Aesthetics: What Actually Moves a Face"
 description: Learn face forward aesthetics concepts, key facial structures, and practical improvement strategies. Science-backed tips to refine your look.
 slug: facial-aesthetics
 primary_keyword: face forward aesthetics

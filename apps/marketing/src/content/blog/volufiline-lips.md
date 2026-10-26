@@ -1,5 +1,5 @@
 ---
-title: "Volufiline Lips Before and After: What to Expect"
+title: "Volufiline Lips: Before, After and the Catch"
 description: "See real volufiline lips before and after results. Learn how this plant-based compound works, how long it takes, and whether it's worth trying."
 slug: volufiline-lips
 primary_keyword: volufiline lips before and after

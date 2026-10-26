@@ -1,5 +1,5 @@
 ---
-title: "Face Symmetry Analyzer | Aura"
+title: "Face Symmetry Analyzer: How Even Is Your Face?"
 description: "Explore apparent facial balance and the effects of lighting and pose."
 slug: symmetry-analyzer
 primary_keyword: "face symmetry analyzer"
@@ -14,5 +14,5 @@ related: [face-analysis-for-women, haircut-recommendation-tool, glow-up-planner,
 
 Explore apparent facial balance and the effects of lighting and pose.
 
-Start with a photo and your preferences. The potential estimate is free; the complete report can be unlocked for $2.99 after creating an account.
+Start with a photo and your preferences. The potential estimate costs nothing; the complete report can be unlocked for $2.99 after creating an account.
 

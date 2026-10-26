@@ -1,0 +1,23 @@
+{
+  "key": "{\"brief\":{\"prompt\":\"A person seated in a bright, modern clinic waiting area, holding a clipboard with a printed report and a short handwritten list of questions, with a notebook and pen on the side table. The scene is shot from a side angle at mid-distance, with a calm, neutral mood and no visible readable text.\",\"alt\":\"Person preparing questions from a facial report before a professional consultation\",\"article\":\"qoves-studio-review\",\"position\":3},\"model\":\"openai/gpt-image-2.5/flare/text-to-image\"}",
+  "attempts": [
+    {
+      "status": "rejected",
+      "prompt": "A person seated in a bright, modern clinic waiting area, holding a clipboard with a printed report and a short handwritten list of questions, with a notebook and pen on the side table. The scene is shot from a side angle at mid-distance, with a calm, neutral mood and no visible readable text.",
+      "issues": [
+        "The clipboard report is not clearly a facial analysis report. It shows generic charts, bar graphs and image thumbnails, so it does not illustrate the stated purpose of preparing questions from a facial report for a consultation.",
+        "The handwritten list on the clipboard contains pseudo-text and scribbles that look like gibberish. The brief asked for no visible readable text, and this reads as unreadable or garbled text.",
+        "The handwritten list is pasted on top of the printed report and looks like a detached note. This weakens the intended 'short handwritten list of questions' and looks artificial."
+      ]
+    },
+    {
+      "status": "passed",
+      "prompt": "A person seated in a bright, modern clinic waiting area, holding a clipboard with a printed report and a short handwritten list of questions, with a notebook and pen on the side table. The scene is shot from a side angle at mid-distance, with a calm, neutral mood and no visible readable text.\nEDITORIAL CORRECTION: Regenerate a simpler, accurate illustration of the same purpose. Fix these defects from the rejected image: [\"The clipboard report is not clearly a facial analysis report. It shows generic charts, bar graphs and image thumbnails, so it does not illustrate the stated purpose of preparing questions from a facial report for a consultation.\",\"The handwritten list on the clipboard contains pseudo-text and scribbles that look like gibberish. The brief asked for no visible readable text, and this reads as unreadable or garbled text.\",\"The handwritten list is pasted on top of the printed report and looks like a detached note. This weakens the intended 'short handwritten list of questions' and looks artificial.\"]. Avoid text, labels and complex comparative diagrams if they caused the defect.",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "Person seated in a bright, modern clinic waiting area, viewed from the side, holding a clipboard with printed facial photos, skin close-ups, color-mapped face images and a handwritten list of questions, with a notebook and pen on a side table."
+      }
+    }
+  ]
+}

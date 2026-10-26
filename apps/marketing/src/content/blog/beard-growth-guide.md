@@ -1,5 +1,5 @@
 ---
-title: "How to Grow a Beard with Minoxidil: Full Guide"
+title: "Minoxidil Beard: Real Timeline and Real Risks"
 description: Learn how to grow a beard with minoxidil safely and effectively. Covers dosage, application, timelines, and realistic expectations for fuller facial hair.
 slug: beard-growth-guide
 primary_keyword: grow a beard with minoxidil

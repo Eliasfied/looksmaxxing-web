@@ -143,7 +143,7 @@ export function UploadModal({ onClose, onScanComplete, isFirstScan }: Props) {
         </div>
 
         <p className="mt-3 text-center text-xs text-[#444]">
-          {isFirstScan ? 'First scan free' : `Costs ${appConfig.credits.scan} credits`} · Results in ~20 seconds
+          {isFirstScan ? 'First scan included' : `Costs ${appConfig.credits.scan} credits`} · Results in ~20 seconds
         </p>
       </div>
     </div>

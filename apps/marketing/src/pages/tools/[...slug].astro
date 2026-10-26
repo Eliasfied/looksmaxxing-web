@@ -18,7 +18,7 @@ const steps = [
 ];
 const schema = { '@context': 'https://schema.org', '@type': 'SoftwareApplication', name: tool.name, applicationCategory: 'LifestyleApplication', operatingSystem: 'Web', offers: { '@type': 'Offer', name: 'Full report unlock', price: '2.99', priceCurrency: 'USD' } };
 ---
-<BaseLayout title={page.data.title} description={tool.description + ' Free potential preview; unlock your full report for $2.99.'}>
+<BaseLayout title={page.data.title} description={tool.description + ' See your potential estimate without an account; unlock your full report for $2.99.'}>
   <Fragment slot="head"><script type="application/ld+json" set:html={JSON.stringify(schema)} /></Fragment>
   <section class="max-w-6xl mx-auto px-6 pt-16 pb-12">
     <a href="/tools" class="text-sm text-[#999]">← All tools</a>
@@ -27,11 +27,11 @@ const schema = { '@context': 'https://schema.org', '@type': 'SoftwareApplication
         <h1 class="mt-4 text-4xl sm:text-5xl font-black leading-tight">{tool.name}</h1>
         <p class="mt-5 text-lg text-[#aaa] leading-relaxed">{tool.description}</p>
         <a href={toolHref(tool.slug, source, APP_URL)} data-tool={tool.slug} data-placement="tool-hero" class="inline-block mt-7 btn-gradient rounded-xl px-7 py-4 font-bold">Upload photo & see my potential →</a>
-        <p class="mt-4 text-sm text-[#888]">Potential score free · Full report $2.99 once</p>
+        <p class="mt-4 text-sm text-[#888]">Potential score without an account · Full report $2.99 once</p>
       </div>
       <div class="rounded-3xl border border-fuchsia-400/20 bg-gradient-to-br from-fuchsia-950/40 to-violet-950/20 p-7">
         <p class="text-xs uppercase tracking-widest text-[#999]">How your report is organised</p>
-        <div class="my-6 rounded-2xl border border-white/10 p-5"><p class="text-fuchsia-300 font-bold">Your potential estimate</p><p class="mt-2 text-sm text-[#aaa]">Visible in your free preview</p></div>
+        <div class="my-6 rounded-2xl border border-white/10 p-5"><p class="text-fuchsia-300 font-bold">Your potential estimate</p><p class="mt-2 text-sm text-[#aaa]">Visible in your preview</p></div>
         <div class="space-y-3">{tool.resultLabels.map(label => <div class="rounded-xl border border-white/10 p-4"><span class="text-sm font-bold">{label}</span><span class="block mt-1 text-xs text-[#888]">Included in the full report</span></div>)}</div>
         <p class="mt-5 text-xs text-[#777]">Report outline — your personal result is created from your photo.</p>
       </div>

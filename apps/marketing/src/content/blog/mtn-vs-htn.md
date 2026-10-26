@@ -1,5 +1,5 @@
 ---
-title: "MTN vs HTN: Which Tilt Improves Your Look?"
+title: "MTN vs HTN: Where Do You Actually Land?"
 description: "MTN vs HTN explained: learn how maxillary and horizontal tilt affect facial attractiveness, PSL scoring, and which to prioritize for looksmaxxing."
 slug: mtn-vs-htn
 primary_keyword: mtn vs htn

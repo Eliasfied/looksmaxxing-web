@@ -1,5 +1,5 @@
 ---
-title: "Ideal FWHR: What the Research Actually Says"
+title: "Ideal FWHR: The Number Everyone Measures Wrong"
 description: Learn what the ideal FWHR is, how to measure it, and what facial width-to-height ratio research says about attractiveness and masculinity.
 slug: face-ratio-fwhr
 primary_keyword: ideal fwhr

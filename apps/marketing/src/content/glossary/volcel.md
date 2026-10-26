@@ -1,5 +1,5 @@
 ---
-title: "Volcel Meaning - Looksmaxxing Glossary"
+title: "Volcel: What It Means and How It's Used"
 description: "Volcel means voluntary celibate. Learn how the term is used in incel and looksmaxxing forums, why it is often derogatory, and how it differs from incel."
 slug: "volcel"
 term: "Volcel"

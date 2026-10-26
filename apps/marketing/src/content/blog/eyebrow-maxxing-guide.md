@@ -1,5 +1,5 @@
 ---
-title: "Eyebrow Dye Before and After: Full Guide"
+title: "Eyebrow Dye Before and After: Worth It or Not?"
 description: See real eyebrow dye before and after results, learn ideal brow placement, shape tips, and whether minoxidil can help grow fuller brows.
 slug: eyebrow-maxxing-guide
 primary_keyword: eyebrow dye before and after

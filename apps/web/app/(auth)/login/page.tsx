@@ -128,7 +128,7 @@ export default function LoginPage() {
       <p className="mt-5 text-center text-sm text-[#888888]">
         No account?{' '}
         <Link href={returnTo ? `/register?next=${encodeURIComponent(returnTo)}` : '/register'} className="text-purple-400 hover:text-purple-300 transition-colors">
-          Sign up free
+          Create an account
         </Link>
       </p>
     </div>

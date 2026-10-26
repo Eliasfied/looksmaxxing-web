@@ -1,5 +1,5 @@
 ---
-title: Are Deep Set Eyes Attractive? What the Science Says
+title: "Are Deep Set Eyes Attractive? What Studies Found"
 description: Are deep set eyes attractive? Explore the science, cultural perception, and practical tips for making the most of this striking eye shape.
 slug: are-deep-set-eyes-attractive
 primary_keyword: are deep set eyes attractive

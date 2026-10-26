@@ -321,7 +321,7 @@ function FeaturesStep({ onNext }: { onNext: () => void }) {
         onClick={onNext}
         className="btn-gradient mt-8 w-full rounded-full py-4 text-sm font-bold text-white transition-opacity hover:opacity-90"
       >
-        Start my free scan
+        Start my first scan
       </button>
     </div>
   )
@@ -398,9 +398,9 @@ function ScanStep({
         disabled={!image || loading}
         className="btn-gradient mt-8 w-full rounded-full py-4 text-sm font-bold text-white transition-opacity hover:opacity-90 disabled:cursor-not-allowed disabled:opacity-40"
       >
-        {loading ? 'Analyzing your face…' : 'Analyze my face — free'}
+        {loading ? 'Analyzing your face…' : 'Analyze my face'}
       </button>
-      <p className="mt-3 text-center text-xs text-[#444]">Your first scan is free · No card required</p>
+      <p className="mt-3 text-center text-xs text-[#444]">Your first scan is included · No card required</p>
     </div>
   )
 }

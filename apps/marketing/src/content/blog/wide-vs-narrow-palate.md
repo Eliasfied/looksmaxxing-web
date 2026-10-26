@@ -1,5 +1,5 @@
 ---
-title: "Wide vs Narrow Palate: What It Means for Your Face"
+title: "Wide vs Narrow Palate: Why It Changes Your Face"
 description: Learn the key differences between a wide vs narrow palate, how each affects facial aesthetics, breathing, and what you can do about it.
 slug: wide-vs-narrow-palate
 primary_keyword: wide vs narrow palate

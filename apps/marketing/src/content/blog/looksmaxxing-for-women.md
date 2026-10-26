@@ -1,5 +1,5 @@
 ---
-title: "Looksmax Women: The Complete Guide"
+title: "Looksmax for Women: The Guide Nobody Writes"
 description: A practical guide to looksmaxxing for women covering skincare, facial structure, body composition, and habits that genuinely move the needle.
 slug: looksmaxxing-for-women
 primary_keyword: looksmax women

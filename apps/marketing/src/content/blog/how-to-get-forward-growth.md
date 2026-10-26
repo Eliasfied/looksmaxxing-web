@@ -1,5 +1,5 @@
 ---
-title: "How to Get Forward Growth: A Practical Guide"
+title: "How to Get Forward Growth: What's Still Possible"
 description: Learn how to get forward growth of your face and jaw with mewing, posture work, and lifestyle changes. Evidence-based tips for real results.
 slug: how-to-get-forward-growth
 primary_keyword: how to get forward growth

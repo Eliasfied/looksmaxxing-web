@@ -1,5 +1,5 @@
 ---
-title: "PSL Scale Explained: Ratings, Scores & What They Mean"
+title: "The PSL Scale: What Each Rating Actually Means"
 description: Learn what PSL means, how PSL ratings work, and how the scale is used to assess facial attractiveness. A clear, grounded breakdown of PSL slang and scores.
 slug: psl-scale-explained
 primary_keyword: psl

@@ -1,5 +1,5 @@
 ---
-title: "Before and After Accutane Pictures: What to Expect"
+title: "Accutane Before and After: Month by Month"
 description: See what before and after accutane pictures really show, what changes are typical, and what factors influence your results on isotretinoin.
 slug: accutane-before-after
 primary_keyword: before and after accutane pictures

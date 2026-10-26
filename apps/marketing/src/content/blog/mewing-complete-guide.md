@@ -1,5 +1,5 @@
 ---
-title: "Mewing: The Complete Guide to Tongue Posture"
+title: "Mewing: What It Changes and What It Can't"
 description: Learn what mewing is, how to do it correctly, and what the research says. A practical guide to tongue posture, jaw development, and facial structure.
 slug: mewing-complete-guide
 primary_keyword: mewing

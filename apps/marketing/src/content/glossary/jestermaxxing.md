@@ -1,5 +1,5 @@
 ---
-title: Jestermaxxing Meaning - Looksmaxxing Glossary
+title: "Jestermaxxing: The Trap Behind Being Funny"
 description: Jestermaxxing means leaning into humor and clowning to compensate for perceived low looks. Learn what it means and how it fits into looksmaxxing culture.
 slug: jestermaxxing
 term: Jestermaxxing

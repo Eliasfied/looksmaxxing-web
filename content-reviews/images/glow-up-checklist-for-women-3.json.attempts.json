@@ -1,0 +1,14 @@
+{
+  "key": "{\"brief\":{\"prompt\":\"A small capsule wardrobe on a wooden clothing rack against a white wall: an olive midi skirt, dark straight jeans, a cream knit sweater, a navy blouse, a camel trench coat, with loafers and ankle boots on the floor below. Bright even lighting, clothes evenly spaced so each piece is clearly visible.\",\"alt\":\"Capsule wardrobe on a clothing rack with coordinated pieces that mix into multiple outfits\",\"article\":\"glow-up-checklist-for-women\",\"position\":3},\"model\":\"openai/gpt-image-2.5/flare/text-to-image\"}",
+  "attempts": [
+    {
+      "status": "passed",
+      "prompt": "A small capsule wardrobe on a wooden clothing rack against a white wall: an olive midi skirt, dark straight jeans, a cream knit sweater, a navy blouse, a camel trench coat, with loafers and ankle boots on the floor below. Bright even lighting, clothes evenly spaced so each piece is clearly visible.",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "Capsule wardrobe on a light wooden rack against a white wall: olive midi skirt, dark straight-leg jeans, cream knit sweater, navy blouse and camel trench coat, with brown horsebit loafers and black ankle boots on the floor below."
+      }
+    }
+  ]
+}

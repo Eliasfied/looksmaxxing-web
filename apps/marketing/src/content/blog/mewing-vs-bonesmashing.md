@@ -1,5 +1,5 @@
 ---
-title: "Mewing vs Bonesmashing: What You Need to Know"
+title: "Mewing vs Bonesmashing: One of Them Is Dangerous"
 description: Mewing vs bonesmashing compared side by side. Learn what each technique involves, the risks, and which approach makes sense for your goals.
 slug: mewing-vs-bonesmashing
 primary_keyword: mewing vs bonesmashing

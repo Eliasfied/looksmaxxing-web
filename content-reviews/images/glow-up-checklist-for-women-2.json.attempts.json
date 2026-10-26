@@ -1,0 +1,14 @@
+{
+  "key": "{\"brief\":{\"prompt\":\"Illustrated side-by-side panel of three different women from shoulders up, each with a different natural hair texture and a low-maintenance style: a sleek straight shoulder-length cut, a defined curly shape with face-framing layers, and coily hair in a neat puff. Plain soft background, friendly editorial illustration style, no text labels.\",\"alt\":\"Illustration of three low-maintenance hairstyles for straight, curly and coily hair textures\",\"article\":\"glow-up-checklist-for-women\",\"position\":2},\"model\":\"openai/gpt-image-2.5/flare/text-to-image\"}",
+  "attempts": [
+    {
+      "status": "passed",
+      "prompt": "Illustrated side-by-side panel of three different women from shoulders up, each with a different natural hair texture and a low-maintenance style: a sleek straight shoulder-length cut, a defined curly shape with face-framing layers, and coily hair in a neat puff. Plain soft background, friendly editorial illustration style, no text labels.",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "Illustration of three women shown from the shoulders up side by side: one with sleek, straight shoulder-length dark hair, one with defined, voluminous curls and face-framing layers, and one with coily hair in a neat puff, against a plain soft cream background."
+      }
+    }
+  ]
+}

@@ -1,5 +1,5 @@
 ---
-title: Foid Meaning - Looksmaxxing Glossary
+title: "Foid: What It Means and Why It's a Slur"
 description: "Foid is slang for a woman, short for 'female humanoid.' Learn how the term is used in looksmaxxing and male self-improvement communities."
 slug: foid
 term: Foid

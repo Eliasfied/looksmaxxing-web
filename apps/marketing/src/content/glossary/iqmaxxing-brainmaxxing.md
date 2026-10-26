@@ -1,5 +1,5 @@
 ---
-title: IQmax Meaning - Looksmaxxing Glossary
+title: "IQmax: What Maxxing Intelligence Means"
 description: IQmax (or iqmaxxing) means deliberately improving cognitive performance as part of a broader self-improvement strategy. Learn how it connects to looksmaxxing.
 slug: iqmaxxing-brainmaxxing
 term: IQmax

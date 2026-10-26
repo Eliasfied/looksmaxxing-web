@@ -108,7 +108,7 @@ export default async function SettingsPage() {
           <div>
             <p className="text-xs uppercase tracking-wider text-[#666666] mb-1">Current Plan</p>
             <p className="text-xl font-bold text-white">
-              {subscription?.plan_name ?? 'Free'}
+              {subscription?.plan_name ?? 'No plan'}
             </p>
             {subscription?.plan_monthly_credits && (
               <p className="mt-1 text-sm text-[#888888]">

@@ -1,5 +1,5 @@
 ---
-title: Truecel, Fakecel & Greycel Meaning - Looksmaxxing Glossary
+title: "Truecel, Fakecel, Greycel: The Difference"
 description: Truecel, fakecel, and greycel are incel-adjacent terms that classify men by how much their looks alone explain their dating struggles. Defined here neutrally.
 slug: truecel-fakecel-greycel
 term: Truecel / Fakecel / Greycel

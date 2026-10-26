@@ -1,5 +1,5 @@
 ---
-title: "High Lat Insertions vs Low: What It Means for Your Physique"
+title: "High vs Low Lat Insertions: Can You Change Them?"
 description: "High lat insertions vs low explained: how each affects your V-taper, waist appearance, and what you can realistically do about it."
 slug: high-vs-low-lat-insertions
 primary_keyword: high lat insertions vs low

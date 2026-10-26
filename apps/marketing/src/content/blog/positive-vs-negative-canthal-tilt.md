@@ -1,5 +1,5 @@
 ---
-title: "Positive vs Negative Canthal Tilt: Full Guide"
+title: "Positive vs Negative Canthal Tilt: How to Tell"
 description: Learn the difference between positive vs negative canthal tilt, how each affects your appearance, and what you can realistically do about it.
 slug: positive-vs-negative-canthal-tilt
 primary_keyword: positive vs negative canthal tilt

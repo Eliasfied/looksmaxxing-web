@@ -1,5 +1,5 @@
 ---
-title: What Is Looksmax? The Complete Guide
+title: "What Is Looksmax? The No-Nonsense Explainer"
 description: Learn what looksmax means, why it matters, and how to apply evidence-based techniques to improve your appearance starting today.
 slug: what-is-looksmaxxing
 primary_keyword: looksmax

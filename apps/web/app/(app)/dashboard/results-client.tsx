@@ -85,7 +85,7 @@ export function ResultsClient({ initialScans }: Props) {
           <div className="mb-4 text-5xl">📸</div>
           <h2 className="text-lg font-bold text-white mb-2">No scans yet</h2>
           <p className="text-[#555] text-sm mb-6">
-            Start a new tool report with a free potential preview.
+            Start a new tool report. The potential estimate comes first.
           </p>
           <Link
             href="/tools/ai-face-rating"

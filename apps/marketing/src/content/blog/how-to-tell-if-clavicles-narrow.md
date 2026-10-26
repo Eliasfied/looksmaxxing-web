@@ -1,5 +1,5 @@
 ---
-title: How to Tell If You Have Narrow Clavicles
+title: "Narrow Clavicles: How to Tell in 10 Seconds"
 description: Learn how to tell if you have narrow clavicles using simple measurements and visual checks. Understand what narrow clavicles mean for your frame and aesthetics.
 slug: how-to-tell-if-clavicles-narrow
 primary_keyword: how to tell if you have narrow clavicles
