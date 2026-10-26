@@ -1,0 +1,14 @@
+{
+  "key": "{\"brief\":{\"prompt\":\"An optician in a bright eyewear shop adjusting a pair of tortoiseshell glasses on a seated adult customer, viewed from a three-quarter angle so the frame arms meeting the temples and ears are clearly visible. Warm, natural light, with shelves of frames softly blurred in the background and no visible text.\",\"alt\":\"Optician checking how a glasses frame fits at the temples and ears\",\"purpose\":\"Illustrates the fit checklist: frame width at the temples, arms resting without pressure and glasses staying in place.\",\"article\":\"best-glasses-for-oval-face\",\"position\":3},\"model\":\"openai/gpt-image-2.5/flare/text-to-image\"}",
+  "attempts": [
+    {
+      "status": "passed",
+      "prompt": "An optician in a bright eyewear shop adjusting a pair of tortoiseshell glasses on a seated adult customer, viewed from a three-quarter angle so the frame arms meeting the temples and ears are clearly visible. Warm, natural light, with shelves of frames softly blurred in the background and no visible text.",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "Smiling optician in a white coat adjusting tortoiseshell glasses at the temple and ear of a seated male customer in a bright eyewear shop with shelves of frames blurred behind them"
+      }
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "key": "{\"brief\":{\"prompt\":\"A clean, bright flat lay of five eyeglass frames on a light neutral surface: a black rectangular frame, a tortoiseshell square frame, a thin gold round frame, a soft rose cat-eye frame and a silver aviator frame. The frames are evenly spaced with soft natural shadows and no text or people.\",\"alt\":\"Five frame styles often recommended as the best glasses for an oval face shape\",\"purpose\":\"Gives an at-a-glance overview of the main frame shapes the article covers for oval faces.\",\"article\":\"best-glasses-for-oval-face\",\"position\":1},\"model\":\"openai/gpt-image-2.5/flare/text-to-image\"}",
+  "attempts": [
+    {
+      "status": "passed",
+      "prompt": "A clean, bright flat lay of five eyeglass frames on a light neutral surface: a black rectangular frame, a tortoiseshell square frame, a thin gold round frame, a soft rose cat-eye frame and a silver aviator frame. The frames are evenly spaced with soft natural shadows and no text or people.",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "Flat lay of five eyeglass frames on a light neutral background: a black rectangular frame, a tortoiseshell square frame, a thin gold round frame, a translucent rose cat-eye frame and a silver aviator frame."
+      }
+    }
+  ]
+}

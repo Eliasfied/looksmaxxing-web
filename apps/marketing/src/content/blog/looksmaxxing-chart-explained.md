@@ -9,7 +9,7 @@ heroImage: /blog/looksmaxxing-chart-explained/1.webp
 heroImageAlt: Looksmaxxing chart infographic showing labeled facial trait scores on a male face diagram
 tags: [looksmaxxing, PSL, face rating, male aesthetics, self-improvement]
 readingTime: 8
-related: [looksmaxxing-tips-and-checklist, psl-scale-explained, height-and-frame-guide]
+related: [looksmaxxing-tips-and-checklist, psl-scale-explained, softmaxxing-vs-hardmaxxing-explained]
 faq:
   - q: What is a looksmaxxing chart?
     a: "A looksmaxxing chart is a structured scoring system that rates individual facial and physical traits on a numerical scale, typically 1 to 10, to give an overall attractiveness score. It's based on the PSL framework and is used to identify which specific traits to prioritize for improvement."

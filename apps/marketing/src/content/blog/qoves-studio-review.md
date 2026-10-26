@@ -16,7 +16,7 @@ faq:
   - q: "Can I get a refund from Qoves?"
     a: "One review reports that refunds are only available before you submit your photos or questionnaire. Cancelling stops the next renewal but does not refund the current year. Decide on add-ons and read the terms before uploading."
   - q: "Is the Qoves report scientifically accurate?"
-    a: "The measurements describe your face, but the ideal values they are compared against come from layperson attractiveness ratings in research studies. Academics cited in a Guardian feature said this literature is too inconsistent for population-wide generalisations. Treat scores as context rather than objective verdicts."
+    a: "The measurements describe your face, but the ideal values they are compared against come from layperson attractiveness ratings in research studies. An academic cited in a Guardian feature said this literature is too inconsistent for population-wide generalisations. Treat scores as context rather than objective verdicts."
   - q: "Does Qoves recommend surgery?"
     a: "Surgical recommendations with visualisations are sold as a separate add-on. Visualisations do not show risks, recovery or whether you are a suitable candidate. Talk to a qualified professional before considering any procedure."
 tool_slug: "ai-face-rating"
@@ -114,16 +114,14 @@ The membership includes a personalised improvement protocol and before-and-after
 
 One buyer who [reviewed her Qoves analysis on Medium](https://alessaweiler.medium.com/my-honest-qoves-review-i-tried-their-aesthetic-analysis-these-are-my-results-be7aa6d9b61f) described an assessments section covering how feminine she looked and how proportional and symmetric her face was. A separate analysis section broke each part of her face into components, with statistics on each one's contribution to her overall look. She liked it, but also admitted there was a bit of information overload. Expect a lot of reading, and set aside time to work through it.
 
-{{IMAGE_2}}
-
 ## What Buyers Say
 
-Customer feedback is mixed, though the public reviews we found lean positive.
+The handful of public reviews we looked at point in different directions. They are too few to show an overall trend, so treat them as examples rather than a verdict.
 
-- **Praise for depth.** Reviewers on [Trustpilot](https://nz.trustpilot.com/review/qoves.com) describe the level of detail as exceptional and highlight how thoroughly ratios and proportions are broken down.
-- **Slower than promised at times.** One of those same Trustpilot reviewers noted that turnaround took longer than the website stated because of high demand.
-- **Some disappointment.** Another [Trustpilot reviewer](https://fi.trustpilot.com/review/qoves.com) called the service "highly disappointing" and took issue with the example photo shown during onboarding.
-- **Questions about value and the end goal.** The writer behind [Uncynical](https://uncynical.substack.com/p/i-tried-qoves-which-isnt-a-looksmaxxing) said they went in thinking the price was for something they could build in a couple of hours with an AI coding tool. After seeing their "after" picture, they were not keen on actually looking like that.
+- **Praise for depth.** One review on [Trustpilot](https://nz.trustpilot.com/review/qoves.com) called the level of detail, care and professionalism in the report exceptional.
+- **Slower than promised at times.** A review on the same Trustpilot page noted that turnaround took longer than the website stated because of high demand.
+- **Some disappointment.** Another [Trustpilot reviewer](https://fi.trustpilot.com/review/qoves.com) called the service "highly disappointing" and took issue with the example photo Qoves shows.
+- **Questions about value and the end goal.** The writer behind [Uncynical](https://uncynical.substack.com/p/i-tried-qoves-which-isnt-a-looksmaxxing) said they went in thinking Qoves was charging $250 for something they could build in about two hours with an AI coding tool. That figure is higher than the $150 base price cited elsewhere in this review, and the post does not explain the difference, so confirm the current price at checkout. After seeing their "after" picture, the writer was not keen on actually looking like that.
 
 That last point is worth sitting with. A report can be detailed and well made, and you can still disagree with where it points you. Your preferences count.
 
@@ -135,8 +133,8 @@ The most substantial critique concerns the science rather than the service.
 
 A [summary by The Face Analysis](https://thefaceanalysis.com/guides/qoves-review) describes a Guardian feature on paid facial analysis services. It reports three points:
 
-1. A psychology professor whose research Qoves referenced in a video said she studies bullying and mental health, not beauty. She warned that services like this can be destructive for people with body dysmorphia or eating disorders.
-2. A third academic who studies attraction said the literature is too inconsistent for population-wide generalisations.
+1. A psychology professor whose research Qoves referenced in a video said she studies bullying and mental health, not beauty, and she raised a warning about such services.
+2. Another academic who studies attraction said the literature is too inconsistent for population-wide generalisations.
 3. Qoves did not respond to the Guardian's request for comment.
 
 That summary comes from a competing site, so read the original Guardian piece if you want the full context.
@@ -162,7 +160,7 @@ The surgical recommendations add-on suggests procedures and shows visualisations
 
 **Consider skipping it if you:**
 
-- Are going through body image distress. The academic warnings above apply most directly to you.
+- Are going through body image distress. A detailed critique of your face can be hard to read, and the academics quoted above questioned the science behind these reports.
 - Want to measure, change something, and re-check often. SoftMaxx notes that one report a year is the wrong cadence for that.
 - Mainly want quick, practical styling direction, such as a haircut, grooming routine, or glasses shape.
 
@@ -186,8 +184,6 @@ Aura's [AI Face Analysis](https://app.aura-looksmaxxing.com/tools/ai-face-rating
 
 Neither tool replaces advice from a dermatologist, surgeon, or experienced stylist who sees you in person.
 
-{{IMAGE_3}}
-
 ## Practical Tips If You Decide to Buy Qoves
 
 These are editorial suggestions, not instructions from Qoves.
@@ -203,4 +199,4 @@ These are editorial suggestions, not instructions from Qoves.
 
 ## The Bottom Line
 
-Qoves sells a detailed, human-reviewed facial report built on a measurement-heavy method. Buyers often praise its depth. The fair criticisms are its cost over time, an early refund cutoff, and a scientific foundation that academics have called too inconsistent for personalised recommendations. Use it as organised homework for a professional conversation, not as an objective ranking of your face, and it can earn its place. If your real goal is better styling, start with something smaller and cheaper.
+Qoves sells a detailed, human-reviewed facial report built on a measurement-heavy method. Some buyers praise its depth. The fair criticisms are its cost over time, an early refund cutoff, and a scientific foundation that academics have called too inconsistent for personalised recommendations. Use it as organised homework for a professional conversation, not as an objective ranking of your face, and it can earn its place. If your real goal is better styling, start with something smaller and cheaper.

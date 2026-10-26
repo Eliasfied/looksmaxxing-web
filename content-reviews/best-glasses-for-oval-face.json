@@ -1,65 +1,90 @@
 {
   "slug": "best-glasses-for-oval-face",
-  "reviewedAt": "2026-10-08T15:55:12.192Z",
-  "draft": true,
+  "reviewedAt": "2026-10-26T12:34:34.803Z",
+  "draft": false,
   "review": {
-    "pass": false,
-    "issues": [
-      "A source was not found in research"
-    ]
+    "pass": true,
+    "issues": []
   },
+  "textRepair": null,
   "sources": [
     {
-      "title": "Four Factors to Choosing Eyeglass Frames (VSP)",
-      "url": "https://www.vsp.com/eyewear-wellness/lasik-glasses-lenses/how-to-choose-glasses"
+      "title": "Glasses for an Oval Face: How To Choose the Best Style",
+      "url": "https://www.framesdirect.com/knowledge-center/best-glasses-for-oval-face"
     },
     {
-      "title": "Glasses for Your Face Shape and Skin Tone (All About Vision)",
-      "url": "https://www.allaboutvision.com/eyewear/eyeglasses/fit/glasses-shape-color-analysis/"
+      "title": "How to Choose Eyeglass Frames: A Guide for Opticians",
+      "url": "https://www.optogrid.com/blog/eyeglass-frames/"
     },
     {
-      "title": "Choosing Glasses for Your Face Shape (Optometrists.org)",
-      "url": "https://www.optometrists.org/general-practice-optometry/optical/guide-to-optical-frames/9115-2/"
+      "title": "5 Best Glasses For Oval Face Shape - Vision Center",
+      "url": "https://www.visioncenter.org/face-shapes/oval-face-glasses/"
     },
     {
-      "title": "How to Pick the Right Glasses Frames for Your Face Shape (CareCredit)",
-      "url": "https://www.carecredit.com/well-u/health-wellness/how-to-choose-glasses-for-your-face-shape/"
+      "title": "Eyeglass Frames: Glasses for Oval Faces",
+      "url": "https://www.allaboutvision.com/eyewear/eyeglasses/fit/glasses-frames-for-oval-faces/"
     },
     {
-      "title": "How To Pick Glasses for Your Face Shape (Rosen Optometry)",
-      "url": "https://www.rosenoptometry.com/eyeglasses-and-contacts/choosing-glasses-how-the-pros-do-it/"
-    },
-    {
-      "title": "The Ultimate Guide to Choosing the Perfect Eyeglass Frame (ASG Eye Hospital)",
-      "url": "https://www.asgeyehospital.com/blog/the-ultimate-guide-to-choosing-glasses-frames/"
-    },
-    {
-      "title": "The Ultimate Guide to Ophthalmic Frame Styles (Optical Training)",
-      "url": "https://opticaltraining.com/html/continuing_ed/wbt/ABO/Ophthalmic_Frames/page_eight.html"
-    },
-    {
-      "title": "Best Glasses for Oval Face Shape: Style Guide (Kraywoods)",
-      "url": "https://www.kraywoods.com/blogs/our-stories/best-eyeglasses-for-oval-face-shape"
-    },
-    {
-      "title": "Eyeglass Frame Sizes Explained: Simple Fit Guide (Warby Parker)",
-      "url": "https://www.warbyparker.com/learn/eyeglass-frame-sizes-explained-simple-fit-guide-2"
-    },
-    {
-      "title": "Choosing the right frame size for your glasses (Vision Express)",
-      "url": "https://www.visionexpress.com/glasses/buyers-guide/choosing-the-right-frame"
-    },
-    {
-      "title": "Frame Fit Guide: Find Perfect Eyeglasses for Your Face Shape (Poudre Valley Eye Care)",
+      "title": "Frame Fit Guide: Find Perfect Eyeglasses for Your Face Shape",
       "url": "https://www.poudrevalleyeyecare.com/blog/frame-fit-guide-find-perfect-eyeglasses-for-your-face-shape/"
     },
     {
-      "title": "Choosing the Right Eyeglasses for Your Face Shape (Drs. Luck and Golden)",
-      "url": "https://www.drsluckgolden.com/articles/983409-october-newsletter-choosing-the-right-eyeglasses-for-your-face-shape"
+      "title": "How Should Glasses Fit?",
+      "url": "https://www.allaboutvision.com/eyewear/eyeglasses/fit/right-frames-size/"
+    },
+    {
+      "title": "Glasses for Your Face Shape: How to Pick Frames",
+      "url": "https://trymaxxing.com/blogs/news/glasses-for-your-face-shape"
+    },
+    {
+      "title": "How to Determine the Perfect Glasses Frame Size for You",
+      "url": "https://www.pro-optical.com/perfect-fit-how-to-determine-your-glass-frames-sizes"
+    },
+    {
+      "title": "Glasses Measurements: How To Find Your Frame Size",
+      "url": "https://www.warbyparker.com/learn/eyeglasses-measurements"
+    },
+    {
+      "title": "How to find your glasses size: Frame measurements & size chart",
+      "url": "https://www.clearly.ca/thelook/glasses-measurements"
+    },
+    {
+      "title": "What are the best glasses for my face shape?: Astorino & Associates Eye Center: Ophthalmology",
+      "url": "https://www.astorinoeyecare.com/blog/what-are-the-best-glasses-for-my-face-shape"
+    },
+    {
+      "title": "Face Shape Guide: How to Choose the Best Glasses for Your Face",
+      "url": "https://www.framesdirect.com/knowledge-center/face-shape-guide"
     }
   ],
   "imageModel": "openai/gpt-image-2.5/flare/text-to-image",
-  "imageReviews": [],
+  "imageReviews": [
+    {
+      "image": "/blog/best-glasses-for-oval-face/1.webp",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "Flat lay of five eyeglass frames on a light neutral background: a black rectangular frame, a tortoiseshell square frame, a thin gold round frame, a translucent rose cat-eye frame and a silver aviator frame."
+      }
+    },
+    {
+      "image": "/blog/best-glasses-for-oval-face/2.webp",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "Four-panel illustration of the same short-haired, oval-faced cartoon figure in a cream top on pastel blue, green, pink and lavender backgrounds, wearing rectangular, round, cat-eye and hexagonal glasses respectively."
+      }
+    },
+    {
+      "image": "/blog/best-glasses-for-oval-face/3.webp",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "Smiling optician in a white coat adjusting tortoiseshell glasses at the temple and ear of a seated male customer in a bright eyewear shop with shelves of frames blurred behind them"
+      }
+    }
+  ],
+  "imageFailures": [],
   "imageSettings": {
     "width": 1024,
     "height": 1024,
@@ -69,17 +94,49 @@
     {
       "model": "claude-sonnet-5-5",
       "stage": "research",
-      "input": 30382,
-      "output": 3238,
-      "estimatedUsd": 0.093144,
+      "input": 30153,
+      "output": 3659,
+      "estimatedUsd": 0.096896,
       "searches": 3
     },
     {
       "model": "claude-opus-5-5",
       "stage": "article",
-      "input": 30391,
-      "output": 10848,
-      "estimatedUsd": 0.338524,
+      "input": 32953,
+      "output": 9969,
+      "estimatedUsd": 0.331192,
+      "searches": 0
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "text-review",
+      "input": 9926,
+      "output": 16,
+      "estimatedUsd": 0.020012,
+      "searches": 0
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "image-review",
+      "input": 1717,
+      "output": 96,
+      "estimatedUsd": 0.004394,
+      "searches": 0
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "image-review",
+      "input": 1735,
+      "output": 102,
+      "estimatedUsd": 0.00449,
+      "searches": 0
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "image-review",
+      "input": 1721,
+      "output": 84,
+      "estimatedUsd": 0.004282,
       "searches": 0
     }
   ],

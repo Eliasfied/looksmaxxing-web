@@ -7,7 +7,7 @@ cluster: "listicle"
 pubDate: "2026-10-16"
 tags: ["face shapes", "facial proportions", "glasses", "haircuts", "styling"]
 readingTime: 9
-related: [6-haircuts-for-receding-hairline, best-glasses-for-diamond-face, best-glasses-for-heart-face]
+related: [best-glasses-for-diamond-face, 6-haircuts-for-receding-hairline, best-glasses-for-heart-face]
 faq:
   - q: "What are the 7 face shapes?"
     a: "The seven most guides use are oval, round, square, heart, diamond, oblong and triangle. Oblong is also called rectangular, and triangle is sometimes called pear. Some sources use five or six categories instead, so seven is a convention rather than a fixed standard."

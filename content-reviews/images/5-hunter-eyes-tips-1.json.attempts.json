@@ -1,0 +1,14 @@
+{
+  "key": "{\"brief\":{\"prompt\":\"Close-up portrait of a man's eye area under soft overhead studio light, showing a dense, fairly straight brow sitting close to the eye and a gentle shadow over the upper lid. Neutral grey background, natural skin texture, no text or graphics.\",\"alt\":\"Close-up of a man's eye area showing a low brow and natural shadow, illustrating how to get hunter eyes through presentation\",\"purpose\":\"Hero overview of the eye-area features the term refers to: brow position, lid exposure and shadow from the brow ridge.\",\"article\":\"5-hunter-eyes-tips\",\"position\":1},\"model\":\"openai/gpt-image-2.5/flare/text-to-image\"}",
+  "attempts": [
+    {
+      "status": "passed",
+      "prompt": "Close-up portrait of a man's eye area under soft overhead studio light, showing a dense, fairly straight brow sitting close to the eye and a gentle shadow over the upper lid. Neutral grey background, natural skin texture, no text or graphics.",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "Close-up of a man's eye and brow with dark, dense, fairly straight eyebrow sitting low over a green-grey eye, soft shadow across the upper lid, natural skin texture and light stubble against a neutral grey background"
+      }
+    }
+  ]
+}

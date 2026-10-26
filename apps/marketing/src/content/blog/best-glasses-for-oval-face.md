@@ -1,213 +1,208 @@
 ---
-title: "Best Glasses for Oval Face Shape: A Fit-First Guide"
-description: "Find the best glasses for oval face shape: which frames work, the width rule eye-care guides agree on, and how to read frame sizes before you buy."
+title: "Best Glasses for Oval Face Shape: Frames and Fit Guide"
+description: "Find the best glasses for oval face shape: which frame styles work, why size matters more than shape, and how to read frame measurements for a better fit."
 slug: "best-glasses-for-oval-face"
 primary_keyword: "best glasses for oval face shape"
 cluster: "glasses-oval"
-pubDate: "2026-10-08"
-tags: ["glasses", "oval face", "face shape", "eyewear fit", "frame size"]
-readingTime: 8
-related: []
+pubDate: "2026-10-26"
+heroImage: "/blog/best-glasses-for-oval-face/1.webp"
+heroImageAlt: "Flat lay of five eyeglass frames on a light neutral background: a black rectangular frame, a tortoiseshell square frame, a thin gold round frame, a translucent rose cat-eye frame and a silver aviator frame."
+tags: ["glasses", "face shape", "oval face", "eyewear fit", "frame size"]
+readingTime: 9
+related: [best-beard-for-oval-face, best-glasses-for-round-face, oval-vs-diamond-face-shape]
 faq:
   - q: "What are the best glasses for an oval face shape?"
-    a: "Most eye-care guides say oval faces can wear almost any frame shape if the size is in proportion. Square, rectangular and geometric frames are the most commonly recommended. Round, browline, aviator and cat-eye frames also work, depending on the look you want."
-  - q: "Do round glasses suit an oval face?"
-    a: "They can. Sources disagree on whether round frames complement an oval face or work as a deliberate contrast, so the choice is a matter of taste. If full round frames feel too soft, try a thin rim or a panto shape."
-  - q: "Are oversized glasses good for an oval face?"
-    a: "Slightly larger frames are fine, and some guides say oversized styles complement oval faces. VSP warns that frames covering more than half the face throw off its natural balance. Aim for a frame about as wide as your face, or slightly wider."
-  - q: "What size glasses should I get for an oval face?"
-    a: "Size depends on your face width, not its shape. Total frame width (two lens widths plus the bridge) should be within about 3 mm of your face width, and your eyes should sit near the center of each lens. Using a pair that already fits you as a baseline is the most reliable approach."
-  - q: "How do I know if my face is oval or oblong?"
-    a: "Both shapes are longer than they are wide. An oval face has a softly rounded chin and a forehead slightly wider than the chin, while an oblong face has a more squared-off chin. If you sit between the two, try frames recommended for both."
+    a: "Square, rectangular and geometric frames are the most commonly recommended because they add contrast to soft curves. Round and cat-eye frames also work well, and aviators are fine if they aren't wider than your cheekbones. Because oval faces suit most shapes, frame size usually matters more than the shape you pick."
+  - q: "Can people with oval faces wear round glasses?"
+    a: "Yes. Round frames echo the softer curves of an oval face for a relaxed or vintage look. The main caution is size, because very small round frames can look out of proportion, while a well-sized pair looks balanced."
+  - q: "How wide should glasses be for an oval face?"
+    a: "Aim for a frame about as wide as your face at the temples. Sources give tolerances from a few millimetres to about 5mm, but they agree on avoiding frames noticeably narrower than the widest part of your face. Leave enough room that the arms don't press on your head."
+  - q: "What do the numbers on my glasses mean?"
+    a: "The three numbers inside the arm, such as 54-16-140, are lens width, bridge width and temple length in millimetres. Bridge widths typically run from 14 to 24 mm, and temple lengths are commonly 135, 140, 145 or 150 mm. Use the numbers from a pair that fits you well as your baseline."
+  - q: "How do I know if my face is really oval?"
+    a: "Oval faces are generally described as longer than they are wide, with a rounded jaw, a forehead slightly wider than the jaw and no dominant angles. Many faces fall between oval and oblong or between oval and round, so a straight-on photo with your hair pulled back makes it easier to judge. If yours is borderline, borrow from the advice for the neighbouring shape."
 tool_slug: "face-shape-detector"
 audience: "everyone"
 sources:
-  - title: "Four Factors to Choosing Eyeglass Frames (VSP)"
-    url: "https://www.vsp.com/eyewear-wellness/lasik-glasses-lenses/how-to-choose-glasses"
-  - title: "Glasses for Your Face Shape and Skin Tone (All About Vision)"
-    url: "https://www.allaboutvision.com/eyewear/eyeglasses/fit/glasses-shape-color-analysis/"
-  - title: "Choosing Glasses for Your Face Shape (Optometrists.org)"
-    url: "https://www.optometrists.org/general-practice-optometry/optical/guide-to-optical-frames/9115-2/"
-  - title: "How to Pick the Right Glasses Frames for Your Face Shape (CareCredit)"
-    url: "https://www.carecredit.com/well-u/health-wellness/how-to-choose-glasses-for-your-face-shape/"
-  - title: "How To Pick Glasses for Your Face Shape (Rosen Optometry)"
-    url: "https://www.rosenoptometry.com/eyeglasses-and-contacts/choosing-glasses-how-the-pros-do-it/"
-  - title: "The Ultimate Guide to Choosing the Perfect Eyeglass Frame (ASG Eye Hospital)"
-    url: "https://www.asgeyehospital.com/blog/the-ultimate-guide-to-choosing-glasses-frames/"
-  - title: "The Ultimate Guide to Ophthalmic Frame Styles (Optical Training)"
-    url: "https://opticaltraining.com/html/continuing_ed/wbt/ABO/Ophthalmic_Frames/page_eight.html"
-  - title: "Best Glasses for Oval Face Shape: Style Guide (Kraywoods)"
-    url: "https://www.kraywoods.com/blogs/our-stories/best-eyeglasses-for-oval-face-shape"
-  - title: "Eyeglass Frame Sizes Explained: Simple Fit Guide (Warby Parker)"
-    url: "https://www.warbyparker.com/learn/eyeglass-frame-sizes-explained-simple-fit-guide-2"
-  - title: "Choosing the right frame size for your glasses (Vision Express)"
-    url: "https://www.visionexpress.com/glasses/buyers-guide/choosing-the-right-frame"
-  - title: "Frame Fit Guide: Find Perfect Eyeglasses for Your Face Shape (Poudre Valley Eye Care)"
+  - title: "Glasses for an Oval Face: How To Choose the Best Style"
+    url: "https://www.framesdirect.com/knowledge-center/best-glasses-for-oval-face"
+  - title: "How to Choose Eyeglass Frames: A Guide for Opticians"
+    url: "https://www.optogrid.com/blog/eyeglass-frames/"
+  - title: "5 Best Glasses For Oval Face Shape - Vision Center"
+    url: "https://www.visioncenter.org/face-shapes/oval-face-glasses/"
+  - title: "Eyeglass Frames: Glasses for Oval Faces"
+    url: "https://www.allaboutvision.com/eyewear/eyeglasses/fit/glasses-frames-for-oval-faces/"
+  - title: "Frame Fit Guide: Find Perfect Eyeglasses for Your Face Shape"
     url: "https://www.poudrevalleyeyecare.com/blog/frame-fit-guide-find-perfect-eyeglasses-for-your-face-shape/"
-  - title: "Choosing the Right Eyeglasses for Your Face Shape (Drs. Luck and Golden)"
-    url: "https://www.drsluckgolden.com/articles/983409-october-newsletter-choosing-the-right-eyeglasses-for-your-face-shape"
-quality_reviewed: false
+  - title: "How Should Glasses Fit?"
+    url: "https://www.allaboutvision.com/eyewear/eyeglasses/fit/right-frames-size/"
+  - title: "Glasses for Your Face Shape: How to Pick Frames"
+    url: "https://trymaxxing.com/blogs/news/glasses-for-your-face-shape"
+  - title: "How to Determine the Perfect Glasses Frame Size for You"
+    url: "https://www.pro-optical.com/perfect-fit-how-to-determine-your-glass-frames-sizes"
+  - title: "Glasses Measurements: How To Find Your Frame Size"
+    url: "https://www.warbyparker.com/learn/eyeglasses-measurements"
+  - title: "How to find your glasses size: Frame measurements & size chart"
+    url: "https://www.clearly.ca/thelook/glasses-measurements"
+  - title: "What are the best glasses for my face shape?: Astorino & Associates Eye Center: Ophthalmology"
+    url: "https://www.astorinoeyecare.com/blog/what-are-the-best-glasses-for-my-face-shape"
+  - title: "Face Shape Guide: How to Choose the Best Glasses for Your Face"
+    url: "https://www.framesdirect.com/knowledge-center/face-shape-guide"
+quality_reviewed: true
 imageModel: "openai/gpt-image-2.5/flare/text-to-image"
-draft: true
+draft: false
 ---
 
-If you have an oval face, most style guides give you the same verdict: almost anything works. That is mostly true. It is also why the advice feels useless when you are facing a wall of frames, because "anything works" does not tell you which pair to buy.
+If you have an oval face, you have probably been told you can wear almost any glasses. That is broadly true, and it is also why the advice is hard to use. When everything works, you still need a way to choose.
 
-A more useful rule is this. An oval face gives you freedom on **shape** but not on **size**. If the width and proportions are right, you can choose square, round, browline or aviator based on the look you want. If the size is wrong, even a "recommended" shape will look off.
+This guide covers three things. First, which frame shapes are commonly recommended for oval faces and why. Second, the sizing numbers that matter more than the shape. Third, a fit checklist to run through before you buy.
 
-This guide covers four things:
+One honest caveat up front. Face-shape matching is a styling convention used by opticians and eyewear retailers, not a measured science. Treat the shape advice below as a starting point. The fit and sizing guidance is the more concrete part.
 
-- how to confirm you actually have an oval face
-- the sizing rule that eye-care sources agree on
-- what each frame shape does visually
-- how to read the numbers printed on a frame so you can shop with less guesswork
+## What Counts as an Oval Face
 
-## Why Oval Faces Get the "Anything Goes" Verdict
+There is no single clinical definition, and sources describe the oval shape a little differently:
 
-Face-shape guidance is a styling convention, not a scientific system. The usual logic is contrast. CareCredit's guide calls it the golden rule of face-fitting: *eyewear should contrast with the shape of the face*. Round faces get angular frames, and square faces get curved ones.
+- An ophthalmology practice describes it as a face that is [longer than it is wide](https://www.astorinoeyecare.com/blog/what-are-the-best-glasses-for-my-face-shape), with a rounded jaw and forehead.
+- A retailer guide lists [balanced features, high cheekbones and a narrow chin](https://www.framesdirect.com/knowledge-center/face-shape-guide).
+- Another guide describes it this way: [face length exceeds width by a modest margin](https://trymaxxing.com/blogs/news/glasses-for-your-face-shape), the forehead is slightly wider than the jaw, and the chin is gently curved.
 
-Oval faces are the exception because there is little to balance out. An oval face is usually described as symmetrical, longer than it is wide, and softly curved at the forehead and jawline. Rosen Optometry puts it plainly: with an oval face, you will probably look great in almost any pair of glasses.
+The common thread is **balance**. No single area, whether forehead, cheekbones or jaw, clearly dominates, and the outline has soft curves rather than sharp corners.
 
-CareCredit adds the caveat that matters. Nearly any frame style works on an oval face, classic or trendy, **as long as it is in a size that is in proportion to your face**.
+Many real faces sit between categories. An oval face can lean longer, which is closer to *oblong*. It can also lean shorter and fuller, which is closer to *round*. If yours is borderline, borrow a little from the advice for the neighbouring shape.
 
-So the real question for oval faces is not "which shape?" It is "which size, and which look do I want?"
+### A quick self-check
 
-## How to Tell If Your Face Is Actually Oval
+This is an editorial suggestion, not a clinical method:
 
-The advice only helps if the label is right. Oval is often confused with oblong, round or heart-shaped faces, and each of those gets different frame recommendations.
+1. Pull your hair back from your face and hairline.
+2. Take a straight-on photo at eye level in even light. Don't tilt your head or use a wide-angle selfie lens up close.
+3. Compare roughly how wide your forehead, cheekbones and jaw look.
+4. Ask whether your face looks clearly longer than it is wide, and whether your jaw is rounded rather than angular.
 
-Here is a quick self-check:
+If you want a second opinion, the [Face Shape Finder](https://app.aura-looksmaxxing.com/tools/face-shape-detector?source=%2Fblog%2Fbest-glasses-for-oval-face) gives your *likely* face shape with uncertainty, not a fixed label. It explains your forehead, cheek and jaw proportions and suggests styling options, including accessories like glasses. You can upload a photo before signing up. The free result is a subjective styling estimate, and the full findings need an account and a one-time purchase.
 
-1. **Set up a clear view.** Pull your hair back and look straight into a mirror. If you use a photo instead, take it at eye level, not from above or below.
-2. **Compare length and width.** Oval faces are noticeably longer than they are wide.
-3. **Compare forehead and jaw.** CareCredit describes the oval chin as slightly narrower than the forehead.
-4. **Check the jawline.** It should curve gently, with no sharp corners.
-5. **Look at the chin.** Rosen Optometry notes that oblong faces are also longer than they are wide but have a more squared-off chin. A rounded chin points to oval, and a flatter, squarer one points to oblong.
+## Why Oval Faces Are Called the Easy Shape
 
-Sources define oval in slightly different ways, so treat the category as a range rather than a strict box. Many people sit between two shapes, and that is fine. Use the guidance for both and see which frames you prefer.
+Eyewear sources broadly agree on this point. Frames Direct says [oval faces suit almost any glasses frame shape](https://www.framesdirect.com/knowledge-center/best-glasses-for-oval-face). Vision Center points to [natural symmetry and balanced features](https://www.visioncenter.org/face-shapes/oval-face-glasses/) as the reason. A guide written for opticians agrees that [most frame shapes work well](https://www.optogrid.com/blog/eyeglass-frames/).
 
-If you are still unsure, Aura's [Face Shape Finder](https://app.aura-looksmaxxing.com/tools/face-shape-detector?source=%2Fblog%2Fbest-glasses-for-oval-face) gives your *likely* face shape rather than a single fixed label. It explains your forehead, cheek and jaw proportions and suggests haircuts and accessories, including glasses.
+That does not mean every frame looks equally good on you. Once shape is no longer the limit, two other things decide the result:
 
-You can upload a photo before creating an account. The free result is a subjective styling estimate. The full breakdown requires an account and a one-time $2.99 purchase. Treat the result as a second opinion to compare with your mirror check, not as a measurement.
+- **Size and proportion.** This matters most, and it gets its own section below.
+- **The effect you want.** One useful framing is that the goal is [not to "correct" anything](https://trymaxxing.com/blogs/news/glasses-for-your-face-shape) but to create visual balance.
 
-## The One Rule That Matters: Width and Proportion
+In practice, most frames fall into one of three approaches. This is our editorial framework, not a rule from any standards body:
 
-The eye-care sources do not agree on everything, but they do agree on width.
+- **Contrast:** angular frames against soft facial curves.
+- **Echo:** curved frames that repeat your face's softness.
+- **Statement:** bolder shapes, colours or sizes that make the glasses a focal point.
 
-- **All About Vision** advises frames that are as wide as, or wider than, the broadest part of an oval face.
-- **VSP** says frames that suit an oval face have a strong bridge, are wider than the broadest part of the face, and are geometric in shape.
+## The Best Frame Shapes for an Oval Face
 
-The limit is on the other side. VSP warns that *overlarge frames covering more than half of your face* throw off the natural balance and symmetry of an oval face. Optometrists.org is more relaxed about oversized frames and says they can complement an oval face.
+### Square and rectangular frames: contrast
 
-The practical middle ground looks like this:
+These are the most commonly recommended options. Frames Direct notes that [square and rectangular frames add contrast and definition](https://www.framesdirect.com/knowledge-center/best-glasses-for-oval-face) to the softer curves of an oval face. The optician guide agrees that these shapes [add structure and visual interest](https://www.optogrid.com/blog/eyeglass-frames/).
 
-- Aim for a frame that is about as wide as your face, or slightly wider.
-- Statement sizes are fine if they still leave most of your face visible.
+*Editorial note:* a thin metal rectangle reads as quiet and professional. A thick acetate square reads as deliberate and bold. Both are contrast. They just differ in volume.
 
-### What "Too Narrow" and "Too Wide" Look Like
+### Geometric frames: contrast with more personality
 
-- **Too narrow:** The frame front ends inside the edges of your face, and the temple arms (the side pieces) press outward against your head. EyeBuyDirect notes that a too-narrow frame makes the face look wider.
-- **Too wide:** You see a clear gap between the temple arms and the sides of your head. EyeBuyDirect notes that a too-wide frame makes the face look narrower. Its rule of thumb is no more than a finger's width of space between the temple arm and your face.
-- **Too big overall:** The lenses cover more than half your face, which is the point where VSP says balance starts to suffer.
+Hexagonal, octagonal and other faceted shapes push the contrast idea further. The [optician guide](https://www.optogrid.com/blog/eyeglass-frames/) groups geometric frames with square and rectangular ones as shapes that add structure to an oval face. They suit you if you want something more distinctive than a classic rectangle.
 
-### Where Your Eyes Sit in the Lens
+### Round frames: echo, if well sized
 
-Fit affects how well you see as well as how the frame looks. Warby Parker's sizing guide recommends matching frame size to your face size and pupil position, so your eyes land in an appropriate area of each lens. Poudre Valley Eye Care advises that your eyes be centered in the lenses.
+Round frames work differently. Frames Direct explains that instead of adding contrast, [they echo the softer curves of the face](https://www.framesdirect.com/knowledge-center/best-glasses-for-oval-face), giving a more relaxed or vintage look.
 
-This is a good reason to check your eye position in a mirror before judging the style.
+The catch is size. The same source warns that very small round frames can look out of balance, while a well-sized round frame complements the face without overpowering it. If round frames have felt off to you before, the size was likely the issue rather than the shape.
 
-{{IMAGE_2}}
+### Cat-eye frames: lift at the outer corners
 
-## Frame Shapes That Work on Oval Faces, and What Each One Does
+The upswept outer corners draw attention upward and outward. All About Vision says [the cat-eye shape emphasizes your cheekbones](https://www.allaboutvision.com/eyewear/eyeglasses/fit/glasses-frames-for-oval-faces/) and makes them look more contoured. Cat-eyes range from subtle, slightly lifted corners to strongly retro wings, so choose the intensity you like.
 
-Once the size is right, the shape is mostly a choice about the look you want. Here is what each common option does on an oval face.
+### Aviators: watch the width
 
-### Square and Rectangle Frames
+Aviators can work on oval faces, with one size caveat. Vision Center notes that [aviators wider than your cheekbones](https://www.visioncenter.org/face-shapes/oval-face-glasses/) can unbalance your features. If you like the teardrop shape, look for a pair that doesn't extend well past your cheekbones.
 
-These come up most often. Optometrists.org says oval faces are balanced well with square, rectangular or geometric frames. An eye-hospital guide from ASG adds that most styles work, but strong lines and geometric shapes provide balance and contrast.
+### Other options worth trying
 
-**The effect:** straight lines and corners add structure against the soft curves of an oval face. One eyewear brand's guide suggests rectangles for narrower oval faces, because the longer horizontal line adds visual width, and squares for wider ones. Treat that as a starting point, not a rule.
+These aren't specifically backed by the sources above, so treat them as editorial suggestions:
 
-### Geometric Frames
+- **Browline frames:** a heavier top rim with a lighter lower rim. A classic, structured look.
+- **Rimless or semi-rimless:** minimal visual weight, so your features stay the focus.
+- **Oversized frames:** these can work as a statement, but proportion matters more here than with any other style.
 
-Hexagonal, octagonal and other faceted shapes fit VSP's "geometric" description. They act like square frames with more personality. They give the same contrast with a less conventional outline, which suits you if a plain rectangle feels too corporate.
+### Quick comparison
 
-### Browline Frames
+| Frame shape | Main effect | Watch out for |
+|---|---|---|
+| Square / rectangle | Contrast, definition | Frames too narrow for your face |
+| Geometric | Contrast with personality | Busy shapes you tire of quickly |
+| Round | Echo, relaxed or vintage | Sizes that are too small |
+| Cat-eye | Lift toward cheekbones | Wing intensity that doesn't match your style |
+| Aviator | Classic teardrop | Width past your cheekbones |
 
-Browline frames have a heavier top rim and a thin or rimless lower edge. Styling guides point out that the heavier top draws the eye upward to the brow area. This is a good choice if you want structure without a full, heavy frame around each lens.
+![Four-panel illustration of the same short-haired, oval-faced cartoon figure in a cream top on pastel blue, green, pink and lavender backgrounds, wearing rectangular, round, cat-eye and hexagonal glasses respectively.](/blog/best-glasses-for-oval-face/2.webp)
 
-### Round and Panto Frames
+## Size Matters More Than Shape
 
-This is where sources disagree.
+For oval faces, sizing is where most frame choices succeed or fail.
 
-- Some guides say round frames flatter an oval face by echoing its curves.
-- Others describe them as a deliberate, editorial choice that works through contrast rather than conventional matching.
+### The one rule sources agree on
 
-Both views can be true. Round frames on an oval face read softer and more vintage, while angular frames read sharper. Panto frames are round with a slightly flattened top, and they sit between the two. If you want round but worry it will look too soft, try a thinner rim or a panto shape first.
+The most consistent warning is to avoid frames that are too narrow. The optician guide says [the main thing to avoid is frames significantly narrower than the widest part of the face](https://www.optogrid.com/blog/eyeglass-frames/), because they disrupt the natural balance.
 
-### Aviator Frames
+Sources differ slightly on how close the match should be:
 
-Vision Center notes that the teardrop shape of aviators suits an oval face. It also warns that aviators wider than your cheekbones can unbalance your features and suggests choosing a less wide pair. Width matters more with aviators than with most shapes because the lenses are large.
+- Frames Direct suggests frames [at least as wide as the broadest part of your face](https://www.framesdirect.com/knowledge-center/best-glasses-for-oval-face).
+- All About Vision says total frame width should [match the width of your face at the temples](https://www.allaboutvision.com/eyewear/eyeglasses/fit/right-frames-size/), with enough room at the sides so the arms don't dig in.
+- One eye-care practice says your face width should match the frame's combined lens and bridge measurements [within 2-4mm](https://www.poudrevalleyeyecare.com/blog/frame-fit-guide-find-perfect-eyeglasses-for-your-face-shape/).
+- Another guide puts the tolerance at [approximately 5mm](https://trymaxxing.com/blogs/news/glasses-for-your-face-shape) of your widest facial dimension.
 
-### Cat-Eye Frames
+The practical takeaway is to aim for a frame about as wide as your face at the temples. Avoid noticeably narrower, and leave enough room that the arms don't press on your head.
 
-Cat-eye frames appear on most oval-face lists. The upswept outer corners pull attention up and outward toward the cheekbones. They are a strong choice for anyone who likes a more dramatic outline, and they come in versions from subtle to bold.
+### How to read the numbers on your glasses
 
-### Wire and Rimless Frames
+Most frames have three numbers printed on the inside of the arm, [usually formatted like 54-16-140](https://www.pro-optical.com/perfect-fit-how-to-determine-your-glass-frames-sizes). In order, these are:
 
-An optical-training resource for opticians says wire frames are well suited to oval faces and notes that they are easy to adjust. Rimless and thin wire frames keep the focus on your face rather than the frame. They are a good choice if you want glasses that look understated.
+- **Lens width:** the horizontal width of one lens, in millimetres.
+- **Bridge width:** the gap between the two lenses, where the frame sits on your nose. Warby Parker gives a [typical range of 14 to 24 mm](https://www.warbyparker.com/learn/eyeglasses-measurements).
+- **Temple length:** the length of each arm. Common standards are [135, 140, 145 and 150](https://www.warbyparker.com/learn/eyeglasses-measurements) mm.
 
-## How to Read the Numbers on a Frame
+### Find your size in five steps
 
-Most frames have three numbers printed on the inside of a temple arm or behind the bridge, in a format like **52-18-140**. All three are in millimeters:
+1. **Start with a pair that fits.** If you own glasses that feel right, check the three numbers inside the arm. That is your baseline.
+2. **Measure if the numbers have worn off.** Measure [horizontally across one lens at its widest point](https://www.warbyparker.com/learn/eyeglasses-measurements) for lens width. For bridge width, measure the shortest gap between the two lenses.
+3. **Measure your face.** Looking in a mirror, measure roughly from temple to temple.
+4. **Use a size chart as a rough guide.** For example, one retailer chart pairs a [narrow face, under 129mm temple to temple](https://www.clearly.ca/thelook/glasses-measurements), with a lens width of 50mm and under and arms of 135 to 140mm. Brands size differently, so treat charts as a starting point.
+5. **Compare new frames against your baseline.** Small differences in lens or bridge width change how a frame sits more than you might expect.
 
-1. **Lens width:** the horizontal width of one lens at its widest point. Warby Parker gives a common range of about 40 to 60 mm.
-2. **Bridge width:** the gap between the lenses, where the frame rests on your nose. This is commonly 14 to 24 mm. Warby Parker notes that a bridge much narrower than your nose can feel tight, and one much wider can let the glasses sit lower than you expect.
-3. **Temple length:** the length of the arm, commonly 120 to 150 mm.
+## Fit Checklist Before You Buy
 
-### Turning the Numbers Into a Size
+A flattering shape in the wrong fit will still look and feel off. Run through these checks in a store or during a home try-on:
 
-Vision Express suggests estimating total frame width by adding two lens widths and the bridge width. For example, 52 + 52 + 18 = 122 mm. Choose a frame within about 3 mm of your own face width.
+- **Eyes centred in the lenses.** All About Vision says [the center of each pupil should align with the optical center of each lens](https://www.allaboutvision.com/eyewear/eyeglasses/fit/right-frames-size/) when you look straight ahead. This is why your pupillary distance is measured.
+- **No slipping.** The same source says you should be able to [move, bend and shake your head](https://www.allaboutvision.com/eyewear/eyeglasses/fit/right-frames-size/) without your glasses sliding down your nose.
+- **No pressure at the sides.** The arms should run back to your ears without digging into your temples or leaving marks.
+- **Comfortable bridge.** The frame should rest on your nose without pinching or sitting so loose that it drops. *(Editorial)*
+- **Sensible brow position.** As a common styling guideline, the top of the frame sits near your brow line rather than far above or well below it. *(Editorial)*
 
-Its rough size bands are:
+If you wear progressive lenses or have a strong prescription, ask your optician whether a frame is deep and large enough before you commit. Lens requirements can rule out some styles regardless of how they look.
 
-- **Small or narrow faces:** frame width under 129 mm
-- **Medium faces:** 130 to 139 mm
+![Smiling optician in a white coat adjusting tortoiseshell glasses at the temple and ear of a seated male customer in a bright eyewear shop with shelves of frames blurred behind them](/blog/best-glasses-for-oval-face/3.webp)
 
-Poudre Valley Eye Care uses lens width instead:
+## Colour, Thickness and Personal Style
 
-| Face size | Lens width |
-|---|---|
-| Small | 47 to 50 mm |
-| Medium | 51 to 54 mm |
-| Large | 55 mm and up |
+Once shape and size are settled, these choices shape most of the final look. This section is editorial guidance, not sourced rules.
 
-These bands are approximate, and brands size differently. The most reliable shortcut is to take a pair whose fit you already like and use its numbers as your baseline.
+- **Thickness sets the volume.** Thin wire frames are understated. Thick acetate makes the glasses part of your outfit.
+- **Colour can match or contrast.** Tortoiseshell and warm browns blend softly with many skin tones and hair colours. Black reads sharper and more graphic. Clear and pale frames look light and modern.
+- **Match your wardrobe, not just your face.** If you mostly wear neutrals, a coloured frame can be your one accent. If your style is already bold, simpler frames keep things balanced.
+- **Style preferences are personal.** A softly lifted cat-eye in a rose or champagne tone and a heavy black rectangle can both suit an oval face. Choose by the look you want to project, not by rules about who should wear what.
 
-## A Practical Checklist for Trying Frames On
+## Common Mistakes to Avoid
 
-Use these steps in a store or with a home try-on set.
-
-1. **Start with your prescription.** If you wear progressive or multifocal lenses, the frame must be tall enough from top to bottom to fit several focal zones. Do not fall for a slim frame before checking this with your optician.
-2. **Bring a reference pair.** Note its three numbers and how it feels. Compare every new frame against it.
-3. **Do the finger test.** Slide a finger between the temple arm and the side of your head. If there is much more than a finger's width of space, the frame is too wide.
-4. **Check the bridge.** The frame should not pinch your nose or slide down when you look at the floor.
-5. **Check your eye position.** Your pupils should sit roughly in the center of each lens.
-6. **Try one frame from each family.** Pick one angular (square or rectangle), one curved (round or panto) and one top-heavy (browline or cat-eye). Comparing different families shows your preference faster than comparing five similar rectangles.
-7. **Take two photos.** Take one from the front and one at a three-quarter angle. People see your glasses from the side as often as from the front.
-8. **Have the fit adjusted.** Opticians can bend temples and adjust nose pads so a good frame fits properly. Many practices adjust frames before you leave.
-
-{{IMAGE_3}}
-
-## What Face-Shape Rules Can't Tell You
-
-Face-shape charts are a shortcut. They are not proof that one frame is objectively best. None of the eye-care sources above present them as anything more than general guidance, and that is the right way to use them.
-
-Other factors matter as much as shape:
-
-- **Hair and complexion.** Rosen Optometry suggests thinking about how your hair color and complexion affect your choice.
-- **Brows.** Strong brows and a heavy browline frame can compete. Lighter brows often pair well with a defined top rim.
-- **Your style.** A frame that suits your face but clashes with how you dress will not feel right.
-- **Comfort.** You will wear these glasses for hours every day, so weight, pressure points and how the frame sits on your nose count for more than any chart.
-
-An oval face lets you choose glasses based on taste rather than correction. Get the width right, keep your eyes centered in the lenses, and then pick the shape that feels most like you.
+- **Picking by shape and ignoring width.** This is the most common miss, since a narrow frame throws off an otherwise balanced face.
+- **Going too small with round frames.** Small rounds are the style sources most often flag as looking out of proportion.
+- **Oversized aviators that pass your cheekbones.** Size the teardrop to your face.
+- **Trusting one try-on photo.** Check frames from the front and the side, in daylight, and with your usual hairstyle.
+- **Treating face shape as a verdict.** It is a starting point. Comfort, prescription needs and personal taste all count more than matching a chart.

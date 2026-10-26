@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "savedAt": "2026-10-20T18:53:52.121Z",
+  "savedAt": "2026-10-26T12:30:35.797Z",
   "page": {
     "slug": "qoves-studio-review",
     "cluster": "qoves-review",
@@ -26,7 +26,7 @@
         {
           "title": "QOVES Price 2026: $150/Year, Add-ons & Refunds — SoftMaxx AI",
           "url": "https://softmaxx.io/blog/qoves-pricing",
-          "evidence": "Optional add-ons: express $80, surgical $180, hairstyles $25 (up to $435).\n\n Add-ons at checkout (express $80, surgical recommendations $180, hairstyles $25, as listed on 14 September 2026) take the maximum to $435.\n\n Published 2026-09-07 · Last reviewed 2026-09-25 · ~6 minute read · Editorial standards\n\n| QOVES price list | Price (USD) | What it is |\n| --- | --- | ..."
+          "evidence": "Optional add-ons: express $80, surgical $180, hairstyles $25 (up to $435).\n\n Add-ons at checkout (express $80, surgical recommendations $180, hairstyles $25, as listed on 14 September 2026) take the maximum to $435.\n\n Published 2026-09-07 · Last reviewed 2026-09-25 · ~6 minute read · Editorial standards\n\n| QOVES price list | Price (USD) | What it is |\n| --- | --- | \n\n[Evidence completed from the source page on 2026-10-26; the capture above ended mid-table.] QOVES price list: Qoves Membership $150 / year ($150 USD per year), covering one human-reviewed facial analysis, a personalized facial improvement protocol, biometrics scores and tracking, before-and-after visualizations, and care-team Q&A (\"Ask us anything, anytime\", answered within 24 hours). The analysis uses six photos. Standard delivery is within 28 days. Express Delivery (24-48h) is +$80 as a one-time add-on at checkout. Surgical Recommendations with visualisations is +$180. Hairstyle Suggestions (5 personalised) is +$25. Everything above totals $435. The page shows USD only, lists no free tier or trial, and is inconsistent about whether the membership renews automatically."
         },
         {
           "title": "Qoves Facial Analysis: What You Get for the Money",
@@ -79,7 +79,10 @@
     "_review": {
       "pass": false,
       "issues": [
-        "Qoves Review at a Glance / What Qoves Costs: the Express Delivery row gives '24 to 48 hours', and the membership row claims 'six photos' and 'biometrics tracking' and 'care-team Q&A'. The supplied evidence is truncated and supports none of these details, so they are unsupported."
+        "Qoves Review at a Glance / Practical Tips: The article says the refund window closes at photo submission. It also says 'Only then upload' after choosing add-ons, but the evidence says only that add-ons are checkout items, not that they can be chosen before upload. Needs sourcing or softening.",
+        "Who Qoves Fits / Bottom Line: The article attributes to SoftMaxx a claim that Qoves best suits consultation preparation and that one report a year is the wrong cadence. The supplied SoftMaxx evidence is truncated and does not show either statement. Needs verification or removal.",
+        "What Is Inside a Qoves Report: The article says the sample report describes ideal values on a 1 to 10 layperson attractiveness scale and uses soft-tissue photo measurements. The supplied excerpt shows neither, so the claim is unsupported. Needs verification or removal.",
+        "What Qoves Is: The article attributes to SoftMaxx a statement that visualisations are projections, not results. The supplied evidence does not show it. The Real World Appeal claim that Qoves has no public price list is also unsupported by the excerpt. Verify or remove."
       ]
     },
     "_imageReviews": [],
@@ -362,6 +365,7 @@
         "title": "Qoves Review 2026: Price, Controversy, and What Is Free",
         "url": "https://thefaceanalysis.com/guides/qoves-review"
       }
-    ]
+    ],
+    "_imageFailures": []
   }
 }

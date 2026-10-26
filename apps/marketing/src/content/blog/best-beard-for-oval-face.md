@@ -9,7 +9,7 @@ heroImage: "/blog/best-beard-for-oval-face/1.webp"
 heroImageAlt: "Front-facing head-and-shoulders portrait of a dark-haired man with an oval face and a neatly groomed short boxed beard, wearing a black crewneck sweater against a plain warm-gray studio background with soft, even lighting."
 tags: ["beard styles", "oval face", "grooming", "face shape", "men's styling"]
 readingTime: 9
-related: [best-haircut-for-oval-face-men, oval-vs-diamond-face-shape, best-haircut-for-round-face-men]
+related: [best-glasses-for-oval-face, best-haircut-for-oval-face-men, oval-vs-diamond-face-shape]
 faq:
   - q: "What is the best beard style for an oval face?"
     a: "There's no single best one, because oval faces suit most beards. Heavy stubble and the short boxed beard are the safest defaults, since they add structure without changing your proportions much. A controlled full beard, goatee, Van Dyke or Balbo also work if kept neat."

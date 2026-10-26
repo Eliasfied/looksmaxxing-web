@@ -1,0 +1,14 @@
+{
+  "key": "{\"brief\":{\"prompt\":\"Flat-lay of brow grooming tools on a light wooden surface: a spoolie brush, small curved brow scissors, slanted tweezers and a handheld mirror. Clean, well-lit product-style composition with no people and no text.\",\"alt\":\"Brow grooming tools including spoolie, brow scissors and tweezers for keeping brows low and full\",\"purpose\":\"Illustrates the practical tools for the brow grooming tip: brushing up and trimming ends instead of over-plucking the lower brow line.\",\"article\":\"5-hunter-eyes-tips\",\"position\":3},\"model\":\"openai/gpt-image-2.5/flare/text-to-image\"}",
+  "attempts": [
+    {
+      "status": "passed",
+      "prompt": "Flat-lay of brow grooming tools on a light wooden surface: a spoolie brush, small curved brow scissors, slanted tweezers and a handheld mirror. Clean, well-lit product-style composition with no people and no text.",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "Flat-lay on a light wooden surface of four brow grooming tools: a black spoolie brush, small curved stainless-steel brow scissors, slanted tweezers and a black handheld round mirror."
+      }
+    }
+  ]
+}

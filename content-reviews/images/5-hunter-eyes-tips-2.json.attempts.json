@@ -1,0 +1,24 @@
+{
+  "key": "{\"brief\":{\"prompt\":\"A person holding a smartphone at eye level and arm's length to take a straight-on selfie, with head level and relaxed face, photographed from the side in an evenly lit room. A second, smaller inset shows the same person holding the phone tilted and too low, to contrast correct and incorrect photo setup, with no text labels.\",\"alt\":\"Correct versus incorrect phone position for checking canthal tilt in a selfie\",\"purpose\":\"Shows how camera roll, height and head pose affect a fair self-check of apparent eye tilt, as explained in Tip 2.\",\"article\":\"5-hunter-eyes-tips\",\"position\":2},\"model\":\"openai/gpt-image-2.5/flare/text-to-image\"}",
+  "attempts": [
+    {
+      "status": "rejected",
+      "prompt": "A person holding a smartphone at eye level and arm's length to take a straight-on selfie, with head level and relaxed face, photographed from the side in an evenly lit room. A second, smaller inset shows the same person holding the phone tilted and too low, to contrast correct and incorrect photo setup, with no text labels.",
+      "issues": [
+        "The main image does not show the correct setup: the phone is held above head height with the arm raised and the head tilted slightly up, rather than at eye level and arm's length with a level head.",
+        "The phone is too high and not aligned with the eyes, so the main image gives a misleading contrast with the inset.",
+        "The inset is ambiguous: the phone is held at roughly face height, not clearly tilted and too low, so the correct vs. incorrect contrast is weak.",
+        "Side-profile framing makes it unclear how the phone camera relates to the face, so the image does not clearly illustrate fair canthal tilt self-check positioning."
+      ]
+    },
+    {
+      "status": "passed",
+      "prompt": "A person holding a smartphone at eye level and arm's length to take a straight-on selfie, with head level and relaxed face, photographed from the side in an evenly lit room. A second, smaller inset shows the same person holding the phone tilted and too low, to contrast correct and incorrect photo setup, with no text labels.\nEDITORIAL CORRECTION: Regenerate a simpler, accurate illustration of the same purpose. Fix these defects from the rejected image: [\"The main image does not show the correct setup: the phone is held above head height with the arm raised and the head tilted slightly up, rather than at eye level and arm's length with a level head.\",\"The phone is too high and not aligned with the eyes, so the main image gives a misleading contrast with the inset.\",\"The inset is ambiguous: the phone is held at roughly face height, not clearly tilted and too low, so the correct vs. incorrect contrast is weak.\",\"Side-profile framing makes it unclear how the phone camera relates to the face, so the image does not clearly illustrate fair canthal tilt self-check positioning.\"]. Avoid text, labels and complex comparative diagrams if they caused the defect.",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "A woman in a green sweater photographed in profile holds a smartphone upright at eye level with her arm extended and head level. A smaller inset shows the same woman looking down at a phone held low and tilted, contrasting correct and incorrect selfie positioning."
+      }
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "key": "{\"brief\":{\"prompt\":\"A simple illustrated grid of four panels showing the same neutral, gender-unspecified cartoon face with a balanced oval outline, each panel wearing a different frame: rectangular, round, cat-eye and geometric hexagon. Flat illustration style with soft pastel backgrounds, consistent lighting and no labels or text.\",\"alt\":\"Illustrated oval face shown wearing rectangular, round, cat-eye and geometric glasses\",\"purpose\":\"Compares the contrast approach (angular frames) with the echo approach (curved frames) on the same oval face shape.\",\"article\":\"best-glasses-for-oval-face\",\"position\":2},\"model\":\"openai/gpt-image-2.5/flare/text-to-image\"}",
+  "attempts": [
+    {
+      "status": "passed",
+      "prompt": "A simple illustrated grid of four panels showing the same neutral, gender-unspecified cartoon face with a balanced oval outline, each panel wearing a different frame: rectangular, round, cat-eye and geometric hexagon. Flat illustration style with soft pastel backgrounds, consistent lighting and no labels or text.",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "Four-panel illustration of the same short-haired, oval-faced cartoon figure in a cream top on pastel blue, green, pink and lavender backgrounds, wearing rectangular, round, cat-eye and hexagonal glasses respectively."
+      }
+    }
+  ]
+}
