@@ -10,7 +10,7 @@ heroImage: /blog/beard-growth-guide/1.webp
 heroImageAlt: Timeline illustration showing how to grow a beard with minoxidil over 12 months
 tags: [beard growth, minoxidil, facial hair, looksmaxxing, grooming]
 readingTime: 8
-related: [best-beard-for-oval-face, clean-shaven-vs-stubble, minoxidil-eyebrows]
+related: [clean-shaven-vs-stubble, minoxidil-eyebrows, how-to-fix-asymmetrical-eyebrows]
 faq:
   - q: Is it safe to use minoxidil on your face?
     a: It is not approved for the face, and long-term safety data for facial use is limited. Known side effects include skin irritation, hair growing where you don't want it, and effects on heart rate and blood pressure, which are more likely with the oral form. We don't recommend it for appearance.

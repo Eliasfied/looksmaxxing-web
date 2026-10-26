@@ -1,0 +1,37 @@
+{
+  "key": "{\"brief\":{\"prompt\":\"A hairstylist stands behind a seated client at a salon mirror during a consultation, gesturing toward the crown of the client's shoulder-length wavy hair while both look at the reflection. Soft, even salon lighting, a calm and friendly mood, and a clean neutral interior.\",\"alt\":\"Stylist and client discussing a round face haircut during a salon consultation\",\"purpose\":\"Illustrates the consultation step of describing crown volume, layer placement and fringe length to a stylist.\",\"article\":\"hairstyle-for-round-face\",\"position\":3},\"model\":\"openai/gpt-image-2.5/flare/text-to-image\"}",
+  "attempts": [
+    {
+      "status": "rejected",
+      "prompt": "A hairstylist stands behind a seated client at a salon mirror during a consultation, gesturing toward the crown of the client's shoulder-length wavy hair while both look at the reflection. Soft, even salon lighting, a calm and friendly mood, and a clean neutral interior.",
+      "issues": [
+        "Composition does not match the brief: the stylist stands beside/in front of the client (to the left, facing her) rather than behind the seated client, so the mirror reflection does not logically show her behind the client.",
+        "Mirror reflection is geometrically inconsistent: the stylist appears behind the client in the mirror while physically standing to the side, and the client's reflection is shown from the front at a different offset than her back view.",
+        "Neither the stylist nor client is actually looking at the shared reflection as briefed; the stylist looks down at the client's head directly, so the mirror-consultation interaction is not convincingly depicted.",
+        "Gesture toward the crown is weak: the stylist's hand touches the upper back/top of the hair rather than clearly indicating crown volume, so the consultation purpose (describing crown volume, layer placement, fringe length) is only loosely illustrated.",
+        "Client's shoulder-length wavy hair is shown, but no fringe/face-framing is visible in the back view, and the round-face context is not conveyed."
+      ]
+    },
+    {
+      "status": "rejected",
+      "prompt": "A hairstylist stands behind a seated client at a salon mirror during a consultation, gesturing toward the crown of the client's shoulder-length wavy hair while both look at the reflection. Soft, even salon lighting, a calm and friendly mood, and a clean neutral interior.\nEDITORIAL CORRECTION: Regenerate a simpler, accurate illustration of the same purpose. Fix these defects from the rejected image: [\"Composition does not match the brief: the stylist stands beside/in front of the client (to the left, facing her) rather than behind the seated client, so the mirror reflection does not logically show her behind the client.\",\"Mirror reflection is geometrically inconsistent: the stylist appears behind the client in the mirror while physically standing to the side, and the client's reflection is shown from the front at a different offset than her back view.\",\"Neither the stylist nor client is actually looking at the shared reflection as briefed; the stylist looks down at the client's head directly, so the mirror-consultation interaction is not convincingly depicted.\",\"Gesture toward the crown is weak: the stylist's hand touches the upper back/top of the hair rather than clearly indicating crown volume, so the consultation purpose (describing crown volume, layer placement, fringe length) is only loosely illustrated.\",\"Client's shoulder-length wavy hair is shown, but no fringe/face-framing is visible in the back view, and the round-face context is not conveyed.\"]. Avoid text, labels and complex comparative diagrams if they caused the defect.",
+      "issues": [
+        "Spatial/mirror logic is broken: the stylist stands to the left of the client in the foreground, but the mirror reflection shows her positioned behind the client, and her reflected pose doesn't match her actual position or gesture.",
+        "Reflection mismatch: the client's real hair is shoulder-length wavy with no visible fringe from behind, yet the mirror shows her with a full fringe/bangs and a different hair silhouette; the stylist's real hairstyle (low bun) differs from her reflection (hair down/half-up, no bun).",
+        "Stylist's reflected right hand floats near the client's shoulder while the real hand touches the crown, which is anatomically/physically inconsistent.",
+        "Brief asks the stylist to stand behind the client gesturing at the crown; in the actual scene she stands beside the client, and the client and stylist are not both clearly looking at the reflection (stylist looks down at the client's head, not the mirror)."
+      ]
+    },
+    {
+      "status": "rejected",
+      "prompt": "A single clear, natural editorial photograph for this article point: Illustrates the consultation step of describing crown volume, layer placement and fringe length to a stylist.. One subject, one scene, realistic lighting and accurate anatomy. No text, letters, numbers or labels anywhere. No diagram, no panels, no side-by-side comparison.",
+      "reduced": true,
+      "issues": [
+        "Composition does not match the brief: the stylist stands beside/in front of the client facing her in profile, not behind the seated client at the mirror; the mirror is off to the side and neither person is looking at a reflection.",
+        "The stylist's gestures (one hand flat above the head, one open palm near the chin/jaw) do not point to the crown of the hair, so the image does not illustrate the stated purpose of describing crown volume and layer placement.",
+        "The client's hair is long (well past the shoulders) with layers and a full fringe, not the shoulder-length wavy hair specified in the brief.",
+        "Hand gestures are ambiguous and read as measuring face height rather than discussing layers, fringe length or crown volume, weakening relevance to the round-face haircut consultation step."
+      ]
+    }
+  ]
+}

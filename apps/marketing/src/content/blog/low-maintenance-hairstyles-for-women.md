@@ -9,7 +9,7 @@ heroImage: "/blog/low-maintenance-hairstyles-for-women/1.webp"
 heroImageAlt: "A smiling woman with a softly textured, collarbone-length wavy haircut walks through a bright apartment doorway holding a takeaway coffee cup, a brown leather bag on her shoulder, with warm morning light behind her."
 tags: ["women's haircuts", "low maintenance hair", "hair care routine", "bangs and fringe", "salon tips"]
 readingTime: 9
-related: [haircuts-for-square-faces-women, haircuts-for-round-faces-women, glow-up-checklist-for-women]
+related: [haircuts-for-square-faces-women, haircuts-for-round-faces-women, canthal-tilt-female]
 faq:
   - q: "What is the most low maintenance haircut for women?"
     a: "It depends on which kind of upkeep you want to cut. Pixies and crops need the least daily styling but usually need maintenance about monthly. Long hair with long layers can often go longer between salon visits. Textured medium cuts like shags and soft bobs sit in between."

@@ -10,7 +10,7 @@ heroImage: /blog/minoxidil-eyelashes/1.webp
 heroImageAlt: Close-up illustration of eyelashes on a human eye showing lash density
 tags: [minoxidil, eyelashes, looksmaxxing, hair growth, eye area]
 readingTime: 7
-related: [minoxidil-eyebrows, eyebrow-maxxing-guide, how-to-thicken-eyebrows-men]
+related: [minoxidil-eyebrows, accutane-before-after, buccal-fat-removal]
 faq:
   - q: Is it safe to put minoxidil near your eyes?
     a: No product containing minoxidil is approved for use on the eyelashes. Applied to the lash line, it can run into the eye and cause irritation and conjunctivitis, grow unwanted hair on the eyelids and cheeks, and be absorbed through thin eyelid skin. We don't recommend it.

@@ -9,7 +9,7 @@ heroImage: /blog/mens-grooming-essentials/1.webp
 heroImageAlt: "Men's pheromone max grooming essentials laid out on a marble surface"
 tags: [pheromone-maxxing, mens-grooming, soft-maxing, cologne-max, looksmaxxing]
 readingTime: 8
-related: [haircut-for-face-shape, cheekbones-guide, facial-harmony-guide]
+related: [haircut-for-face-shape, height-and-frame-guide, trimax-surgery-explained]
 faq:
   - q: What is pheromone maxxing?
     a: Pheromone maxxing is the practice of optimizing your natural chemical and scent presentation through diet, hygiene, hormonal health, and strategic fragrance use. The goal is to improve how you are perceived through smell, not just visually. It sits firmly within the soft maxing category and requires no medical interventions.

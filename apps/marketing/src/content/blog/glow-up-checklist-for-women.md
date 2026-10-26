@@ -9,7 +9,7 @@ heroImage: "/blog/glow-up-checklist-for-women/1.webp"
 heroImageAlt: "Flat-lay on a light wooden table in soft dappled morning light: a white sunscreen tube with a yellow cap, a folded grey linen shirt, a wooden hairbrush, a potted pothos plant, and a closed green notebook with a pen resting on top."
 tags: ["glow up", "women's self-care", "sun protection", "personal style", "grooming routine"]
 readingTime: 9
-related: [low-maintenance-hairstyles-for-women, haircuts-for-square-faces-women, haircuts-for-round-faces-women]
+related: [canthal-tilt-female, low-maintenance-hairstyles-for-women, what-is-looksmaxxing]
 faq:
   - q: "What should be on a glow up checklist for women?"
     a: "Start with daily broad-spectrum, water-resistant sunscreen of SPF 30 or higher, consistent sleep, a haircut you can maintain, grooming details you care about, and clothes that fit. Add a simple tracking system, like a daily checklist and a weekly review, so the habits stick."

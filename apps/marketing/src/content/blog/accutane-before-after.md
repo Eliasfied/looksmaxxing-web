@@ -10,7 +10,7 @@ heroImage: /blog/accutane-before-after/1.webp
 heroImageAlt: Skin cross-section diagram showing sebaceous gland changes relevant to before and after accutane pictures
 tags: [accutane, isotretinoin, acne treatment, skin]
 readingTime: 9
-related: [mens-skincare-routine]
+related: [bimax-before-after, jaw-filler-before-after, minoxidil-eyebrows]
 faq:
   - q: Should I take accutane to improve my skin for looksmaxxing?
     a: No. Isotretinoin is a strong prescription medication for severe or scarring acne, decided with a dermatologist. It causes severe birth defects, needs blood tests during treatment, and has side effects ranging from very dry skin to mood changes. We don't recommend it for oily skin, mild breakouts or general skin quality, and never without a prescription.

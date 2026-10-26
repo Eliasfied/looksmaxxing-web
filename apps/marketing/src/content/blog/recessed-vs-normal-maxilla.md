@@ -9,7 +9,7 @@ heroImage: /blog/recessed-vs-normal-maxilla/1.webp
 heroImageAlt: Side-by-side profile comparison of recessed vs normal maxilla facial structure
 tags: [maxilla, facial-structure, looksmaxxing, bone-structure, facial-anatomy]
 readingTime: 8
-related: [flat-vs-recessed-maxilla, good-vs-bad-maxilla, mandible-vs-maxilla]
+related: [flat-vs-recessed-maxilla, good-vs-bad-maxilla, cheekbones-guide]
 faq:
   - q: Can you fix a recessed maxilla without surgery?
     a: The bone itself, not in fully grown adults. Tongue posture and palate expanders may have some effect in adolescents. In adults, moving the maxilla takes jaw surgery, which is meant for bite and breathing problems, and we don't recommend it for appearance. Posture, breathing and lower body fat change how the midface reads without that risk.

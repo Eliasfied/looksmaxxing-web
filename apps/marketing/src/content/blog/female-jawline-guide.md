@@ -9,7 +9,7 @@ heroImage: "/blog/female-jawline-guide/1.webp"
 heroImageAlt: "Woman with dark hair swept back in a loose updo, shown in three-quarter view in soft window light against a warm beige wall, with her natural jawline and chin clearly visible and a calm expression"
 tags: ["female jawline", "face shape", "feminine styling", "mewing", "makeup contouring", "hair framing"]
 readingTime: 9
-related: [jawline-improvement-guide, forward-growth-explained, haircuts-for-round-faces-women]
+related: [forward-growth-explained, haircuts-for-round-faces-women, haircuts-for-square-faces-women]
 faq:
   - q: "Can you change a female jawline naturally?"
     a: "There is no evidence that mewing or facial exercises reshape adult bone, and the American Association of Orthodontists says claims about reshaping the jaw through exercises or hacks are not supported. What you can change is how your jawline looks, through hair framing, brow shape, contouring, necklines and camera angle."

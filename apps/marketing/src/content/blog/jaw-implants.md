@@ -10,7 +10,7 @@ heroImage: /blog/jaw-implants/1.webp
 heroImageAlt: Illustration showing defined jawline anatomy relevant to jaw implants
 tags: [jaw implants, facial surgery, jawline, looksmaxxing, facial aesthetics]
 readingTime: 8
-related: [jaw-filler-before-after, brow-ridge-implants, bimax-before-after]
+related: [brow-ridge-implants, jaw-filler-before-after, orbital-box-osteotomy]
 faq:
   - q: Are jaw implants worth it?
     a: For appearance, we don't think so. Jaw implants are cosmetic surgery with risks that include infection that can force removal, implants shifting, nerve damage to the lower lip and chin, and revision surgery. They make sense mainly in reconstruction after injury or illness. If you want a sharper jaw, start with body fat, posture and grooming.

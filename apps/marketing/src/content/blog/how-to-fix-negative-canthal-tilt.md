@@ -9,7 +9,7 @@ heroImage: /blog/how-to-fix-negative-canthal-tilt/1.webp
 heroImageAlt: Diagram comparing negative, neutral, and positive canthal tilt in human eyes
 tags: [eyes, facial-aesthetics, looksmaxxing, canthal-tilt, eye-area]
 readingTime: 8
-related: [how-to-get-positive-canthal-tilt, mtn-vs-htn, positive-vs-negative-canthal-tilt]
+related: [how-to-get-positive-canthal-tilt, mtn-vs-htn, teeth-smile-guide]
 faq:
   - q: Can negative canthal tilt be fixed without surgery?
     a: Makeup, brow shaping, sleep and lower body fat can change how the eye area looks without altering the bone or tendon. Changing the structure itself takes surgery such as canthoplasty, which we don't recommend for appearance, because the risks include an unnatural or uneven eye shape, dry eyes and scarring.

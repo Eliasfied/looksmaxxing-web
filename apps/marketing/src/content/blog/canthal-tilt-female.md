@@ -9,7 +9,7 @@ heroImage: "/blog/canthal-tilt-female/1.webp"
 heroImageAlt: "Close-up of a woman's face from the nose upward, with one green-hazel eye in sharp focus, defined brow and natural lashes, softly lit against a blurred warm terracotta background"
 tags: ["canthal tilt", "eye shape", "female facial features", "eye makeup", "brow styling"]
 readingTime: 8
-related: [positive-vs-negative-canthal-tilt, how-to-fix-negative-canthal-tilt, how-to-get-positive-canthal-tilt]
+related: [positive-vs-negative-canthal-tilt, are-deep-set-eyes-attractive, how-to-fix-negative-canthal-tilt]
 faq:
   - q: "Do women have a more positive canthal tilt than men?"
     a: "In one study of 42 Caucasian celebrities, women averaged 8.50° and men 6.51°. A study of South Indian adults also reported a slightly higher average for women. The difference is small and individual faces vary widely."

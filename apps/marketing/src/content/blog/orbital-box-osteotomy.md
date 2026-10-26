@@ -10,7 +10,7 @@ heroImage: /blog/orbital-box-osteotomy/1.webp
 heroImageAlt: Anatomical diagram of the orbital box osteotomy bony structure in a human skull
 tags: [facial surgery, orbital surgery, craniofacial procedures, bone surgery]
 readingTime: 8
-related: [hunter-eyes-guide, positive-vs-negative-canthal-tilt, brow-ridge-importance]
+related: [bimax-before-after, accutane-before-after, bimax-surgery-cost]
 faq:
   - q: Should I get orbital box osteotomy to change how my eyes look?
     a: No. It is skull surgery that cuts the bone around the eye on all sides and moves the whole socket, with risks that include double vision, loss of vision and infections close to the brain. It exists for serious deformities such as eye sockets at clearly different heights. We don't recommend it for appearance under any circumstances.

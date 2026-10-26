@@ -9,7 +9,7 @@ heroImage: "/blog/best-glasses-for-oval-face/1.webp"
 heroImageAlt: "Flat lay of five eyeglass frames on a light neutral background: a black rectangular frame, a tortoiseshell square frame, a thin gold round frame, a translucent rose cat-eye frame and a silver aviator frame."
 tags: ["glasses", "face shape", "oval face", "eyewear fit", "frame size"]
 readingTime: 9
-related: [best-beard-for-oval-face, best-glasses-for-round-face, oval-vs-diamond-face-shape]
+related: [best-beard-for-oval-face, oval-vs-diamond-face-shape, best-haircut-for-oval-face-men]
 faq:
   - q: "What are the best glasses for an oval face shape?"
     a: "Square, rectangular and geometric frames are the most commonly recommended because they add contrast to soft curves. Round and cat-eye frames also work well, and aviators are fine if they aren't wider than your cheekbones. Because oval faces suit most shapes, frame size usually matters more than the shape you pick."

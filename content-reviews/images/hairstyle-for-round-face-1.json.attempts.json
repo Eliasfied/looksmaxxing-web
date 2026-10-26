@@ -1,0 +1,14 @@
+{
+  "key": "{\"brief\":{\"prompt\":\"A young woman with a softly rounded face and full cheeks sits in a bright salon chair, wearing a glossy long bob that falls just below her chin with loose, gentle waves. Warm side lighting and a softly blurred salon background keep the focus on her hair and face, framed from the shoulders up.\",\"alt\":\"Woman with a round face wearing a wavy long bob, a popular hairstyle for round face shapes\",\"purpose\":\"Introduces the long bob, the most consistent stylist recommendation for round faces.\",\"article\":\"hairstyle-for-round-face\",\"position\":1},\"model\":\"openai/gpt-image-2.5/flare/text-to-image\"}",
+  "attempts": [
+    {
+      "status": "passed",
+      "prompt": "A young woman with a softly rounded face and full cheeks sits in a bright salon chair, wearing a glossy long bob that falls just below her chin with loose, gentle waves. Warm side lighting and a softly blurred salon background keep the focus on her hair and face, framed from the shoulders up.",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "Smiling woman with a softly rounded face and a glossy, wavy long bob with subtle caramel highlights, seated in a bright salon with warm side lighting and blurred shelves and plants behind her"
+      }
+    }
+  ]
+}

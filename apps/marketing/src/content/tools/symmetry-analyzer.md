@@ -9,7 +9,7 @@ h1: "Face Symmetry Analyzer"
 subtitle: "Explore apparent facial balance and the effects of lighting and pose."
 cta_label: "See my potential"
 draft: false
-related: [face-analysis-for-women, haircut-recommendation-tool, glow-up-planner, hairstyle-finder-for-women]
+related: [glow-up-planner, hairstyle-finder-for-women, face-analysis-for-women, haircut-recommendation-tool]
 ---
 
 Explore apparent facial balance and the effects of lighting and pose.

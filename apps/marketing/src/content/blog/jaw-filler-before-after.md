@@ -10,7 +10,7 @@ heroImage: /blog/jaw-filler-before-after/1.webp
 heroImageAlt: "Jaw filler before and after men: facial anatomy diagram showing key injection zones along the male jawline"
 tags: [jaw filler, dermal filler, jawline, looksmaxxing, facial aesthetics]
 readingTime: 8
-related: [chin-filler-migrate, jaw-implants, 8-jawline-exercises]
+related: [chin-filler-migrate, jaw-implants, volufiline-lips]
 faq:
   - q: Is jaw filler worth it for men?
     a: For most men, we don't think so. It is temporary, the cost repeats every year or so, and it carries real risks, most seriously filler blocking a blood vessel. Many men also end up with more product over time than they planned. Lower body fat, posture and a well-shaped beard change jaw definition without any of that.

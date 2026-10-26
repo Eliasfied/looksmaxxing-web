@@ -10,7 +10,7 @@ heroImage: /blog/bimax-surgery-cost/1.webp
 heroImageAlt: Diagram showing bimax surgery jaw movement on a skull profile
 tags: [jaw surgery, orthognathic surgery, facial surgery, bimax, surgery cost]
 readingTime: 9
-related: [bimax-before-after, brow-ridge-implants, orbital-box-osteotomy]
+related: [bimax-before-after, orbital-box-osteotomy, brow-ridge-implants]
 faq:
   - q: What is the average cost of bimax surgery?
     a: The total out-of-pocket cost for bimax surgery in the United States typically ranges from $25,000 to $40,000, including surgeon fees, anesthesia, facility costs, and hardware. Prices are lower in medical tourism destinations like South Korea or Turkey, where all-inclusive packages may range from $8,000 to $18,000.

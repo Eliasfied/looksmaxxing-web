@@ -9,7 +9,7 @@ heroImage: /blog/how-to-fix-asymmetrical-eyebrows/1.webp
 heroImageAlt: Close-up illustration showing asymmetrical eyebrows with one brow higher than the other
 tags: [eyebrows, grooming, looksmaxxing, facial symmetry, beauty]
 readingTime: 8
-related: [how-to-get-low-set-eyebrows, how-to-thicken-eyebrows-men, how-to-ascend-looksmaxxing]
+related: [how-to-thicken-eyebrows-men, how-to-get-low-set-eyebrows, beard-growth-guide]
 faq:
   - q: Can asymmetrical eyebrows be fixed permanently without surgery?
     a: Semi-permanent options like microblading can last one to two years and create a more symmetrical appearance, but they fade and need to be maintained. Surgery exists, but we don't recommend it for brow asymmetry, which almost everyone has to some degree.

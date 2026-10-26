@@ -9,7 +9,7 @@ heroImage: /blog/how-to-grow-maxilla/1.webp
 heroImageAlt: Anatomical diagram of the maxilla bone highlighted in a human skull, showing how to grow maxilla through understanding its structure
 tags: [maxilla, mewing, facial structure, looksmaxxing, jawline]
 readingTime: 8
-related: [how-to-fix-recessed-maxilla, how-to-raise-hyoid-bone, mewing-vs-bonesmashing]
+related: [how-to-fix-recessed-maxilla, mewing-complete-guide, maxilla-guide]
 faq:
   - q: Can you grow your maxilla after 18?
     a: The midpalatal suture begins fusing in the late teens but may remain partially open into the mid-twenties. After that, the bone is largely set. Expansion and jaw surgery are treatments for bite and breathing problems, and we don't recommend surgery for appearance. An orthodontist can tell you whether your bite needs treatment.

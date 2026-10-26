@@ -10,7 +10,7 @@ heroImage: /blog/hgh-face-changes/1.webp
 heroImageAlt: HGH face before and after illustrated facial changes diagram
 tags: [hgh, facial-changes, hormones, jawline]
 readingTime: 8
-related: [how-to-grow-maxilla, bimax-before-after, mandible-vs-maxilla]
+related: [eyebrow-maxxing-guide, how-to-grow-masseter-muscle, jawline-improvement-guide]
 faq:
   - q: Should I take HGH to improve my face?
     a: No. The facial effects of growth hormone come from having too much of it, and the bone changes, such as a thicker brow, longer jaw and wider nose, do not reverse. It also raises the risk of diabetes, joint pain and fluid retention. We don't recommend it for appearance under any circumstances.

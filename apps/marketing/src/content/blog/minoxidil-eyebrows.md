@@ -10,7 +10,7 @@ heroImage: /blog/minoxidil-eyebrows/1.webp
 heroImageAlt: Minoxidil eyebrows before and after concept illustration showing sparse versus fuller brow
 tags: [minoxidil, eyebrow growth, looksmaxxing, grooming, hair growth]
 readingTime: 7
-related: [minoxidil-eyelashes, how-to-thicken-eyebrows-men, eyebrow-maxxing-guide]
+related: [minoxidil-eyelashes, bimax-before-after, volufiline-lips]
 faq:
   - q: Is minoxidil on eyebrows safe?
     a: It is not approved for eyebrows, and the evidence for that use is limited. Known side effects include hair growing where you don't want it on the forehead and face, skin and eye irritation, and, more rarely, effects on blood pressure and heart rate. We don't recommend it for appearance.

@@ -1,0 +1,14 @@
+{
+  "key": "{\"brief\":{\"prompt\":\"A man with a softly rounded face, shown in three-quarter view in a barbershop, wearing a short textured haircut with noticeably more length and lift on top than at the neatly trimmed sides. Natural daylight from a window, a muted interior background, framed from the chest up.\",\"alt\":\"Man with a round face wearing a short textured haircut with height on top\",\"purpose\":\"Shows how crown volume and height on top apply to shorter cuts and men's styles.\",\"article\":\"hairstyle-for-round-face\",\"position\":2},\"model\":\"openai/gpt-image-2.5/flare/text-to-image\"}",
+  "attempts": [
+    {
+      "status": "passed",
+      "prompt": "A man with a softly rounded face, shown in three-quarter view in a barbershop, wearing a short textured haircut with noticeably more length and lift on top than at the neatly trimmed sides. Natural daylight from a window, a muted interior background, framed from the chest up.",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "Man with a softly rounded face seen in three-quarter view in a barbershop, wearing a short textured haircut with noticeable height on top and tapered, neatly trimmed sides, lit by natural window light"
+      }
+    }
+  ]
+}

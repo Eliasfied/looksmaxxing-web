@@ -9,7 +9,7 @@ heroImage: "/blog/best-glasses-for-diamond-face/1.webp"
 heroImageAlt: "Overhead flat lay of five eyeglass frames arranged in an arc around a simple line-drawn diamond-shaped face outline with a hair bun: a thin oval metal frame, a round tortoiseshell frame, a black cat-eye frame, a browline frame with metal lower rims, and a gray soft-square frame, on a light neutral background."
 tags: ["glasses", "diamond face shape", "face shapes", "eyewear", "styling"]
 readingTime: 9
-related: [best-glasses-for-oblong-face, best-glasses-for-square-face, best-glasses-for-round-face]
+related: [best-glasses-for-triangle-face, best-glasses-for-oblong-face, best-glasses-for-round-face]
 faq:
   - q: "What glasses suit a diamond face shape?"
     a: "Styling guides most often recommend oval, round and cat-eye frames, with browline and soft-square frames as good alternatives. The usual reasoning is to add width at the brow and bring curves to an angular face. This is styling convention rather than science, so try several shapes and let fit decide."

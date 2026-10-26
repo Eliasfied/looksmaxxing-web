@@ -9,7 +9,7 @@ heroImage: /blog/how-to-mog-someone/1.webp
 heroImageAlt: Illustration comparing optimized versus unoptimized male physical presence to explain how to mog
 tags: [looksmaxxing, presence, facial aesthetics, grooming, confidence]
 readingTime: 8
-related: [how-to-ascend-looksmaxxing, hunter-eyes-vs-almond-eyes, what-is-looksmaxxing]
+related: [how-to-ascend-looksmaxxing, how-to-get-low-set-eyebrows, hunter-eyes-vs-almond-eyes]
 faq:
   - q: What does it mean to mog someone?
     a: To mog someone means to visually or socially overshadow them through superior physical presence, aesthetics, or demeanor. The term is used in self-improvement communities to describe one person standing out clearly compared to another in a shared environment.

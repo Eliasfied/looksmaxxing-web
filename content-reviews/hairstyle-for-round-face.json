@@ -1,0 +1,149 @@
+{
+  "slug": "hairstyle-for-round-face",
+  "reviewedAt": "2026-10-26T20:17:38.696Z",
+  "draft": false,
+  "review": {
+    "pass": true,
+    "issues": []
+  },
+  "textRepair": null,
+  "sources": [
+    {
+      "title": "The Most Flattering Haircuts For A Round Face Shape",
+      "url": "https://www.aol.com/lifestyle/most-flattering-haircuts-round-face-224814327.html"
+    },
+    {
+      "title": "30 of the Most Flattering Hairstyle Cuts for Round Faces",
+      "url": "https://www.lorealparisusa.com/beauty-magazine/hair-style/hairstyle-trends/hairstyles-for-round-faces"
+    },
+    {
+      "title": "Celebrity Hair Stylists Explain the Best Haircuts for Every Face Shape",
+      "url": "https://www.aol.com/lifestyle/celebrity-hair-stylists-explain-best-221900445.html"
+    },
+    {
+      "title": "There's a Perfect Bob Hairstyle for Your Face Shape: Here's Where You'll Find It",
+      "url": "https://www.aol.com/articles/theres-perfect-bob-hairstyle-face-111500223.html"
+    },
+    {
+      "title": "7 Best Hairstyles for Round Faces, According to a Celebrity Hairstylist",
+      "url": "https://shopping.yahoo.com/beauty/hair/articles/7-best-hairstyles-round-faces-001500415.html"
+    },
+    {
+      "title": "Best Hairstyles for Round Face Shape: Complete Guide",
+      "url": "https://www.photoaistudio.com/blog/best-hairstyles-round-face-shape-guide"
+    },
+    {
+      "title": "Hairstyles For Round Faces: 41 Best Styles To Slim And Elongate",
+      "url": "https://www.stylecraze.com/articles/perfect-hairstyles-for-round-face/"
+    },
+    {
+      "title": "21 of the best hairstyles for round faces",
+      "url": "https://www.tymestyle.com/blogs/blog/21-of-the-best-hairstyles-for-round-faces"
+    },
+    {
+      "title": "short hair styles to flatter all faces",
+      "url": "https://www.foxnews.com/lifestyle/short-hair-styles-to-flatter-all-faces"
+    },
+    {
+      "title": "Facial shape affects self-perceived facial attractiveness",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7857636/"
+    }
+  ],
+  "imageModel": "openai/gpt-image-2.5/flare/text-to-image",
+  "imageReviews": [
+    {
+      "image": "/blog/hairstyle-for-round-face/1.webp",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "Smiling woman with a softly rounded face and a glossy, wavy long bob with subtle caramel highlights, seated in a bright salon with warm side lighting and blurred shelves and plants behind her"
+      }
+    },
+    {
+      "image": "/blog/hairstyle-for-round-face/2.webp",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "Man with a softly rounded face seen in three-quarter view in a barbershop, wearing a short textured haircut with noticeable height on top and tapered, neatly trimmed sides, lit by natural window light"
+      }
+    }
+  ],
+  "imageFailures": [
+    {
+      "image": 3,
+      "error": "Image 3 failed validation: Image failed editorial review: [\"Composition does not match the brief: the stylist stands beside/in front of the client facing her in profile, not behind the seated client at the mirror; the mirror is off to the side and neither person is looking at a reflection.\",\"The stylist's gestures (one hand flat above the head, one open palm near the chin/jaw) do not point to the crown of the hair, so the image does not illustrate the stated purpose of describing crown volume and layer placement.\",\"The client's hair is long (well past the shoulders) with layers and a full fringe, not the shoulder-length wavy hair specified in the brief.\",\"Hand gestures are ambiguous and read as measuring face height rather than discussing layers, fringe length or crown volume, weakening relevance to the round-face haircut consultation step.\"]"
+    }
+  ],
+  "imageSettings": {
+    "width": 1024,
+    "height": 1024,
+    "quality": "low"
+  },
+  "usage": [
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "research",
+      "input": 29588,
+      "output": 3231,
+      "estimatedUsd": 0.091486,
+      "searches": 3
+    },
+    {
+      "model": "claude-opus-5-5",
+      "stage": "article",
+      "input": 32648,
+      "output": 11404,
+      "estimatedUsd": 0.358672,
+      "searches": 0
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "text-review",
+      "input": 9806,
+      "output": 16,
+      "estimatedUsd": 0.019772,
+      "searches": 0
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "image-review",
+      "input": 1713,
+      "output": 87,
+      "estimatedUsd": 0.004296,
+      "searches": 0
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "image-review",
+      "input": 1693,
+      "output": 88,
+      "estimatedUsd": 0.004266,
+      "searches": 0
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "image-review",
+      "input": 1705,
+      "output": 406,
+      "estimatedUsd": 0.00747,
+      "searches": 0
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "image-review",
+      "input": 1705,
+      "output": 382,
+      "estimatedUsd": 0.00723,
+      "searches": 0
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "image-review",
+      "input": 1705,
+      "output": 330,
+      "estimatedUsd": 0.00671,
+      "searches": 0
+    }
+  ],
+  "note": "Token estimates exclude web-search charges, images, tax and provider markups."
+}

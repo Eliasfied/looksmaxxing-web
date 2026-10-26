@@ -9,7 +9,7 @@ heroImage: /blog/how-to-get-forward-growth/1.webp
 heroImageAlt: Comparison illustration showing downward vs forward facial growth patterns
 tags: [mewing, forward growth, jawline, facial structure, looksmaxxing]
 readingTime: 8
-related: [how-to-raise-hyoid-bone, forward-vs-downward-growth, mewing-complete-guide]
+related: [how-to-raise-hyoid-bone, mewing-complete-guide, mewing-vs-bonesmashing]
 faq:
   - q: Can adults actually get forward growth, or is it only possible during childhood?
     a: Significant skeletal forward growth from lifestyle changes is much harder to achieve after the growth plates close, typically in the late teens to early twenties. However, adults can still see improvements in soft tissue definition, muscle tone, posture, and perceived jaw projection through consistent mewing, chewing habits, and postural correction. Moving the bone in adults takes jaw surgery, which is meant for bite and breathing problems, and we don't recommend it for appearance.

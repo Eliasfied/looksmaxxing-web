@@ -9,7 +9,7 @@ heroImage: "/blog/best-glasses-for-square-face/1.webp"
 heroImageAlt: "Overhead flat lay of six eyeglass frames in a 2x3 grid on a light linen surface: round tortoiseshell, thin oval gold wire, black cat-eye, tortoiseshell browline with gold rims, gold aviator, and clear rimless frames."
 tags: ["glasses", "square face", "face shape", "eyewear", "styling"]
 readingTime: 9
-related: [best-glasses-for-diamond-face, best-glasses-for-oblong-face, best-glasses-for-heart-face]
+related: [best-glasses-for-round-face, best-glasses-for-triangle-face, best-glasses-for-diamond-face]
 faq:
   - q: "What is the best glasses shape for a square face?"
     a: "Round and oval frames are the most commonly recommended. Their curves contrast with a square face's straight jaw and broad forehead. Cat-eye, browline, aviator and rimless styles are also widely suggested."

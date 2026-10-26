@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "fingerprint": "611b4ee50a35f1868d79c651625014db3a9803a82b37ff1660a0500a6b57b851",
+  "brief": {
+    "prompt": "A young woman with a softly rounded face and full cheeks sits in a bright salon chair, wearing a glossy long bob that falls just below her chin with loose, gentle waves. Warm side lighting and a softly blurred salon background keep the focus on her hair and face, framed from the shoulders up.",
+    "alt": "Woman with a round face wearing a wavy long bob, a popular hairstyle for round face shapes",
+    "purpose": "Introduces the long bob, the most consistent stylist recommendation for round faces.",
+    "article": "hairstyle-for-round-face",
+    "position": 1
+  },
+  "sha256": "49295cf232c697204685b551744c8fe2de88d8d08e179fd0fc104c20afa9242a",
+  "reviewedAt": "2026-10-26T20:16:41.295Z",
+  "review": {
+    "pass": true,
+    "issues": [],
+    "alt": "Smiling woman with a softly rounded face and a glossy, wavy long bob with subtle caramel highlights, seated in a bright salon with warm side lighting and blurred shelves and plants behind her"
+  }
+}

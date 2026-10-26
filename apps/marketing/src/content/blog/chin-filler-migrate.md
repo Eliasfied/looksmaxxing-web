@@ -10,7 +10,7 @@ heroImage: /blog/chin-filler-migrate/1.webp
 heroImageAlt: Diagram showing does chin filler migrate with directional arrows on a side-profile face
 tags: [chin filler, filler migration, dermal filler, jawline, facial aesthetics]
 readingTime: 8
-related: [jaw-filler-before-after, jaw-implants, 8-jawline-exercises]
+related: [jaw-filler-before-after, jaw-implants, buccal-fat-removal]
 faq:
   - q: Does chin filler always migrate?
     a: No. Migration is a known risk, not an inevitable outcome. It becomes more likely with soft products, shallow placement, high volumes and repeated treatments without dissolving earlier filler.

@@ -9,7 +9,7 @@ heroImage: /blog/hunter-eyes-vs-prey-eyes/1.webp
 heroImageAlt: Hunter eyes vs prey eyes comparison diagram showing canthal tilt and brow position differences
 tags: [hunter eyes, prey eyes, eye area, facial aesthetics, looksmaxxing]
 readingTime: 8
-related: [hunter-eyes-vs-almond-eyes, 5-hunter-eyes-tips, hunter-eyes-guide]
+related: [hunter-eyes-vs-almond-eyes, hunter-eyes-guide, 5-hunter-eyes-tips]
 faq:
   - q: Can you change hunter eyes to prey eyes or vice versa naturally?
     a: Bone structure, which determines most of the difference, cannot be changed without surgery. However, factors like brow grooming, body fat percentage, and skin health can influence how your eye area reads. The changes achievable without procedures are modest but real.

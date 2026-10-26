@@ -45,7 +45,7 @@ faq:
     a: Aura processes photos for analysis purposes and does not sell your images or share them with third parties. You can review the full privacy policy at app.aura-looksmaxxing.com for details on how your data is handled.
   - q: Can I use the PSL calculator on my phone?
     a: Yes, Aura is fully accessible on mobile browsers at app.aura-looksmaxxing.com, so you can upload a photo and get your PSL score directly from your phone without downloading a separate app.
-related: [ai-face-rating, canthal-tilt-checker, face-shape-detector, jawline-analyzer]
+related: [ai-face-rating, mewing-tracker, canthal-tilt-checker, jawline-analyzer]
 draft: false
 ---
 

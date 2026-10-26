@@ -10,7 +10,7 @@ heroImage: /blog/buccal-fat-removal/1.webp
 heroImageAlt: Illustration of buccal fat pad location in the human face, relevant to understanding buccal fat removal gone wrong
 tags: [buccal fat removal, facial surgery risks, face procedures, surgical complications]
 readingTime: 8
-related: [cheekbones-guide, high-vs-low-cheekbones, chin-filler-migrate]
+related: [accutane-before-after, chin-filler-migrate, bimax-surgery-cost]
 faq:
   - q: Is buccal fat removal worth it?
     a: For appearance, we don't think so. It permanently removes fat that supports the cheeks, the face keeps losing volume with age, and many people who looked good soon after surgery look hollow years later. We don't recommend it.

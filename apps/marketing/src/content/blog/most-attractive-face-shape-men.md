@@ -9,7 +9,7 @@ heroImage: "/blog/most-attractive-face-shape-men/1.webp"
 heroImageAlt: "Five men of different ages and ethnicities standing side by side against a plain warm-gray studio backdrop, wearing green, maroon, blue, mustard and gray crewneck sweatshirts and looking calmly at the camera."
 tags: ["face shape", "male attractiveness", "facial proportions", "jawline", "men's grooming"]
 readingTime: 9
-related: [masculine-face-shape, why-small-eyes-are-attractive, hyper-masculine-face]
+related: [masculine-face-shape, why-small-eyes-are-attractive, are-thin-lips-attractive-men]
 faq:
   - q: "What is the most attractive face shape for men?"
     a: "No study we found ranks face shape labels like oval or square for male attractiveness. The most consistent finding is that faces closer to the population average are rated more attractive. Effects of masculinity and jaw shape are mixed across studies."

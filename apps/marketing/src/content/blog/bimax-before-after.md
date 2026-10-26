@@ -10,7 +10,7 @@ heroImage: /blog/bimax-before-after/1.webp
 heroImageAlt: Bimax before and after profile illustration showing jaw repositioning
 tags: [jaw surgery, facial surgery, orthognathic surgery, looksmaxxing, procedure]
 readingTime: 9
-related: [bimax-surgery-cost, orbital-box-osteotomy, jaw-implants]
+related: [bimax-surgery-cost, brow-ridge-implants, jaw-implants]
 faq:
   - q: Can the numbness after bimax be permanent?
     a: Yes. Cutting the lower jaw puts the nerve that supplies feeling to the lower lip and chin at risk, and moving the upper jaw can affect sensation in the cheeks and upper lip. Most people regain much of that feeling over months, but a minority are left with lasting numbness or altered sensation. Ask any surgeon for their own rate, not a general figure.

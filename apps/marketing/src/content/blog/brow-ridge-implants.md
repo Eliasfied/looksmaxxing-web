@@ -10,7 +10,7 @@ heroImage: /blog/brow-ridge-implants/1.webp
 heroImageAlt: Anatomical illustration showing the brow ridge area on a male face profile
 tags: [facial surgery, brow ridge, looksmaxxing, facial implants, craniofacial aesthetics]
 readingTime: 8
-related: [brow-ridge-importance, jaw-implants, eyebrow-maxxing-guide]
+related: [jaw-implants, minoxidil-eyelashes, volufiline-lips]
 faq:
   - q: Are brow ridge implants worth it?
     a: For appearance, we don't think so. They are cosmetic surgery close to the eyes, often through an incision across the whole scalp, with risks that include lasting numbness of the forehead and scalp, infection, implants shifting and revision surgery. They make sense mainly for reconstruction after injury. Brow grooming and lower body fat are the safer place to start.
