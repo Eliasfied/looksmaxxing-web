@@ -105,9 +105,9 @@ This distinction matters because it affects which interventions are even theoret
 
 **Eyebrow shape and placement** is one of the biggest soft-tissue levers. Brows that are shaped to arch toward the center can visually narrow wide-set eyes. Brows that extend further outward and have more horizontal shape can create the appearance of wider spacing.
 
-**Nose width** also plays into perception. Rhinoplasty or non-surgical nose contouring can shift how your eye spacing reads without touching the eye area at all.
+**Nose width** also plays into perception. Eyewear with a bridge that suits your spacing, and brow grooming that frames the eyes, shift how your eye spacing reads.
 
-*Talk to a qualified medical professional before considering any surgical or injectable procedure related to orbital or nasal anatomy.*
+*Surgery and injections around the eyes and nose are also sold for this. We don't recommend them for appearance: the blood vessels in this area connect to the vessels supplying the eye, which makes filler here a risk to vision, and surgery can leave scars or breathing problems.*
 
 ![Anatomical diagram of orbital bone structure showing how eye spacing is determined by the skull](/blog/eye-spacing-ipd/3.webp)
 

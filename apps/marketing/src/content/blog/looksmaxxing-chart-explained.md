@@ -86,7 +86,7 @@ A few errors come up repeatedly when people first start working with a looksmaxx
 
 **Ignoring the lighting and photo quality variable.** If you're scoring yourself from selfies taken in harsh overhead lighting with a wide-angle lens, you're scoring a distorted version of your face. Standardized conditions matter for meaningful comparisons.
 
-**Conflating soft-max ceiling with overall ceiling.** The chart gives you an overall score, but your practical target should be your *soft-max ceiling*, meaning the highest score achievable without surgical intervention. For most people, this ceiling is 1.5 to 2 full points above their current baseline.
+**Conflating soft-max ceiling with overall ceiling.** The chart gives you an overall score, but your practical target should be your *soft-max ceiling*, meaning the highest score achievable through body composition, skin, grooming and style. For most people, this ceiling is 1.5 to 2 full points above their current baseline.
 
 ## How to Use a Looksmaxxing Chart Practically
 
@@ -107,7 +107,7 @@ Organize your improvements into tiers:
 - **Tier 2 (3-12 months):** Body recomposition, dental hygiene, mewing practice (research on long-term structural effects is limited and largely anecdotal)
 - **Tier 3 (12+ months, optional):** Consultation with a qualified professional for procedures if structural concerns persist
 
-For any surgical or procedural interventions, always consult a board-certified plastic surgeon, maxillofacial surgeon, or dermatologist before proceeding. What works on the chart as a target doesn't automatically translate to being a good surgical candidate.
+We don't recommend surgery or injections to move up the chart. They carry real medical risks, and a number on a chart is not a reason to take them. Skin conditions and bite problems are medical questions for a dermatologist or orthodontist.
 
 ### Step 5: Re-evaluate Quarterly
 The chart is most useful as a progress tool, not a one-time snapshot. Reassess every 90 days with standardized conditions to track real change.

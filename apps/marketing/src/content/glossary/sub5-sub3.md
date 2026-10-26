@@ -27,6 +27,6 @@ The sub-N rating format comes from PSL (Psych, Sluthate, Lookism) online communi
 
 ## How it relates to looksmaxxing
 
-For people who identify as sub5, looksmaxxing offers a structured path to improvement. Soft approaches, including better grooming, haircut optimization, fat loss, and skincare, can shift a rating noticeably. Hard approaches such as mewing, jaw exercises, or in some cases surgical consultation target underlying structural traits.
+For people who identify as sub5, looksmaxxing offers a structured path to improvement. Soft approaches, including better grooming, haircut optimization, fat loss, and skincare, can shift a rating noticeably. Mewing and jaw exercises are sometimes grouped with them. Surgery for a higher rating is something we don't recommend, because of its medical risks.
 
 If you want an honest baseline, tools like the Aura app provide AI-driven PSL scoring and facial analysis, covering traits like jawline definition and eye area, along with a personalized improvement plan. Knowing where you actually stand is more useful than guessing. From there, the sub5 label becomes a starting point rather than a ceiling.

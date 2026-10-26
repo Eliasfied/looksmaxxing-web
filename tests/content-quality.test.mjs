@@ -197,6 +197,7 @@ test('a medical procedure is never mentioned without advising against it', () =>
   // Ruling a procedure out, or naming a cosmetic product, is not a recommendation.
   assert.ok(!flagged('These changes take time, but they work without surgery and are fully non-surgical.'));
   assert.ok(!flagged('A beard filler pencil can make sparse patches look denser.'));
+  assert.ok(!flagged('Slow down and cut the filler words that signal uncertainty.'));
   assert.ok(!flagged('Most of the body\'s own growth hormone is released during deep sleep.'));
 });
 

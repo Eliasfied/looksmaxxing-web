@@ -18,7 +18,7 @@ faq:
   - q: "What canthal tilt counts as hunter eyes?"
     a: "There's no agreed scientific threshold. The term is forum slang, and the degree targets you see online are opinions, not measured standards. Photo angle and head pose also change how tilt appears, so a single selfie is not a reliable reading."
   - q: "Will eyelid surgery give me hunter eyes?"
-    a: "Usually not. Blepharoplasty works on soft tissue around the eye, not the eye itself, and removing upper-lid skin tends to make eyes look more open, not more hooded. Talk to a qualified oculoplastic surgeon before considering any procedure."
+    a: "Usually not. Blepharoplasty works on soft tissue around the eye, not the eye itself, and removing upper-lid skin tends to make eyes look more open, not more hooded. We don't recommend eyelid surgery for appearance. If a drooping lid blocks your vision, that is a medical question for an oculoplastic surgeon."
 tool_slug: "canthal-tilt-checker"
 audience: "everyone"
 sources:
@@ -163,8 +163,8 @@ The hunter-eyes topic attracts confident claims that don't hold up. Before you c
 
 Two facts help set expectations:
 
-- **Eyelid surgery works on soft tissue.** [Blepharoplasty operates on the soft tissue around the eye](https://drturner.com.au/blogs/blepharoplasty-eye-shape/), not on the eye itself. Removing excess upper-lid skin can make an eye look *more open* by lifting visual weight off the lid margin. That's often the opposite of what hunter-eye searchers want.
-- **Non-surgical options mostly push toward a wider look.** [Makeup, lash extensions, under-eye filler, brow-lifting injectables and certain eye drops can make eyes look more open](https://drkopelman.com/surgery-to-make-eyes-bigger/). Most of them push toward a wider look, not a hooded one.
+- **Eyelid surgery works on soft tissue.** [Blepharoplasty operates on the soft tissue around the eye](https://drturner.com.au/blogs/blepharoplasty-eye-shape/), not on the eye itself. Removing excess upper-lid skin can make an eye look *more open* by lifting visual weight off the lid margin. That's often the opposite of what hunter-eye searchers want. We don't recommend eyelid surgery for appearance either way: risks include dry eyes, eyes that are harder to close, asymmetry and scarring.
+- **Non-surgical options mostly push toward a wider look.** [Makeup, lash extensions, under-eye filler, brow-lifting injectables and certain eye drops can make eyes look more open](https://drkopelman.com/surgery-to-make-eyes-bigger/). Most of them push toward a wider look, not a hooded one. Under-eye filler in particular is not worth the risk: filler entering a blood vessel near the eye has caused permanent vision loss.
 
 There's also a risk of overshooting. [Exaggerated tilt can look unnatural or "surgical"](https://www.stylementor.fashion/2026/02/eye-area-aesthetics-hunter-eyes-guide.html). More is not automatically better.
 

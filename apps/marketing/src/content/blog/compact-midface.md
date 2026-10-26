@@ -18,7 +18,7 @@ faq:
   - q: Is a compact midface unattractive?
     a: Not necessarily. A compact midface is a proportional characteristic, and some research suggests a shorter middle facial third correlates with perceived youthfulness and attractiveness. The overall aesthetic impact depends on accompanying features like cheekbone projection, orbital support, and lower-third balance.
   - q: What cosmetic procedures address a compact midface?
-    a: The most common options include hyaluronic acid fillers placed in the malar region, cheek implants for permanent projection, and in cases of significant maxillary deficiency, orthognathic surgery such as a Le Fort I osteotomy. Always consult a qualified medical professional before pursuing any of these procedures.
+    a: The most common options include hyaluronic acid fillers placed in the malar region, cheek implants for permanent projection, and in cases of significant maxillary deficiency, orthognathic surgery such as a Le Fort I osteotomy. We don't recommend any of them for appearance, because of their medical risks.
 draft: false
 ---
 
@@ -112,25 +112,27 @@ For those interested in more significant changes, there are cosmetic and medical
 
 ### Dermal Fillers
 
-**Hyaluronic acid fillers** placed in the malar (cheekbone) region or along the infraorbital hollows can add forward projection and subtle vertical lift to the midface. This does not lengthen the midface vertically, but it increases the apparent depth and structure of this zone, which addresses the flatness that often accompanies a compact midface.
+Clinics sell fillers, implants and jaw surgery for a flat or compact midface. They are covered here so you know what they involve, but **we don't recommend any of them for appearance.**
 
-Results typically last 9 to 18 months depending on the product and placement. Fillers are one of the more accessible entry points for people who want to see how added midface volume changes their overall appearance.
+**Hyaluronic acid fillers** placed in the cheekbone region or under the eyes add volume over the bone. Under the eyes is one of the riskiest places to inject filler: the blood vessels there connect to the vessels supplying the eye, and filler entering them has caused vision loss.
+
+Results typically last 9 to 18 months, so the cost and the risk come back with every top-up, and filler can migrate or form lumps.
 
 ### Orthognathic Surgery
 
-For significant maxillary deficiency, **Le Fort I osteotomy** is a surgical procedure that repositions the maxilla forward and sometimes downward, addressing the root cause of a compact or retrusive midface. This is a major surgical intervention used primarily for functional reasons (bite correction, airway issues) but has aesthetic outcomes as well.
+For significant maxillary deficiency, **Le Fort I osteotomy** is a surgical procedure that repositions the maxilla forward and sometimes downward, addressing the root cause of a compact or retrusive midface. This is a major operation for functional problems such as a bite that does not work or a restricted airway, with risks including lasting numbness of the upper lip and cheeks and relapse. We don't recommend it for appearance.
 
 This is not a procedure to pursue for cosmetic reasons alone without careful consultation and evaluation by a board-certified maxillofacial or craniofacial surgeon.
 
 ### Cheek Implants
 
-Silicone malar implants placed over the cheekbone structure can provide permanent forward and lateral projection to the midface. Unlike fillers, implants do not dissolve and do not require repeat treatment. The trade-off is surgical risk, recovery time, and the permanence of the change.
+Silicone malar implants placed over the cheekbone structure can provide permanent forward and lateral projection to the midface. Unlike fillers, implants do not dissolve and do not require repeat treatment. Risks include infection, implants shifting, visible edges, numbness of the cheek and upper lip, and further surgery to correct any of these.
 
 ## Putting It All Together
 
 A compact midface is a structural characteristic defined by the relative vertical shortness of the middle facial third. It is neither universally attractive nor unattractive. Context matters: the midface needs to be read in relation to cheekbone projection, orbital support, lower-third length, and overall facial harmony.
 
-The most practical path forward starts with an honest assessment of your current proportions. From there, non-surgical adjustments in grooming and posture offer a low-risk starting point. For people motivated to explore further, cosmetic options exist on a spectrum from reversible fillers to permanent surgical correction.
+The most practical path forward starts with an honest assessment of your current proportions. From there, non-surgical adjustments in grooming and posture offer a low-risk starting point. Lower body fat, better sleep and a hairstyle or beard that balances the face carry no medical risk. We don't recommend fillers, implants or surgery for appearance.
 
 If you want a detailed breakdown of your specific facial proportions before committing to any plan, [Aura](https://app.aura-looksmaxxing.com) provides AI-driven analysis of midface metrics, cheekbone projection, and overall facial harmony, giving you a clear, data-based picture of where you stand.
 

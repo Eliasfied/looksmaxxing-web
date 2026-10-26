@@ -110,13 +110,13 @@ This sounds minor but is worth noting. Forward head posture tilts the face sligh
 
 ## Surgical and Medical Options
 
-For men with significant concerns about brow ridge projection or shape, surgical options exist. These are serious procedures and are not appropriate for the vast majority of men. This section is included for completeness and accuracy.
+Surgical options exist, and this section is included so you know what they involve. **We don't recommend them for appearance.**
 
-**Forehead contouring / brow ridge augmentation**: A craniofacial or maxillofacial surgeon can augment a flat or under-projected brow ridge using custom implants (typically made from PEEK or silicone) or bone cement. This is performed under general anesthesia through a coronal (scalp) incision.
+**Forehead contouring / brow ridge augmentation**: A craniofacial or maxillofacial surgeon can augment a flat or under-projected brow ridge using custom implants (typically made from PEEK or silicone) or bone cement. It is done under general anesthesia, usually through an incision across the top of the scalp, and risks include a permanent scalp scar, lasting numbness of the forehead and scalp, infection, implants shifting and further surgery.
 
 **Frontal sinus setback**: In cases where the brow ridge is excessively prominent (more common in transgender women seeking feminization, but occasionally relevant in other contexts), the frontal sinus anterior wall can be repositioned. This is a specialized procedure.
 
-**Filler (off-label)**: Some practitioners inject hyaluronic acid filler along the supraorbital rim to add soft-tissue volume and the appearance of projection. Results are temporary (typically six to eighteen months) and outcomes depend heavily on injector skill and individual anatomy. Vascular complications in the periorbital area are a real risk with filler.
+**Filler (off-label)**: Some practitioners inject hyaluronic acid filler along the supraorbital rim to add soft-tissue volume and the appearance of projection. Results are temporary (typically six to eighteen months) and outcomes depend heavily on injector skill and individual anatomy. The brow and the area between the eyebrows are among the highest-risk zones for filler: filler entering a blood vessel here can damage the skin and has caused vision loss. We don't recommend it.
 
 **Important**: Talk to a qualified medical professional before considering any of these interventions. A board-certified plastic surgeon, craniofacial surgeon, or oculoplastic surgeon with experience in male facial anatomy is the appropriate starting point. Outcomes vary, risks are real, and no procedure should be approached without thorough consultation.
 

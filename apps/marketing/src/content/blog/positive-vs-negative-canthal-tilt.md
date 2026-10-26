@@ -14,7 +14,7 @@ faq:
   - q: What is considered a good canthal tilt angle?
     a: Most facial aesthetics frameworks consider a positive tilt of roughly 3 to 8 degrees above horizontal to be optimal. Neutral (zero degrees) is generally considered acceptable, while negative tilt of more than a few degrees tends to create a tired or downturned appearance. The ideal range varies slightly based on sex, ethnicity, and overall facial structure.
   - q: Can negative canthal tilt be fixed without surgery?
-    a: It can be improved in appearance without surgery but not structurally changed. Makeup techniques such as upward-flicked liner and lifted outer brows can visually simulate positive tilt. Minimally invasive options like filler placement may soften the effect. Only surgical procedures like canthopexy or canthoplasty actually reposition the outer corner.
+    a: It can be improved in appearance without surgery but not structurally changed. Makeup techniques such as upward-flicked liner and lifted outer brows can visually simulate positive tilt. Only surgery such as canthopexy or canthoplasty actually repositions the outer corner, and we don't recommend it or filler near the eyes for appearance, because of the risks to the shape and function of the eye.
   - q: Does canthal tilt change with age?
     a: Yes. The lateral canthal tendon loosens gradually over time, and soft tissue volume in the outer eye area decreases, both of which cause the outer corner to descend. People who had neutral or positive tilt in their twenties may notice increasing negative tilt by their forties. This is one reason upward canthal tilt is associated with youth.
   - q: How do I accurately measure my canthal tilt at home?
@@ -105,7 +105,7 @@ Skin and fat changes compound this. Volume loss in the lateral cheek and orbital
 
 ## Non-Surgical Ways to Improve the Appearance of Canthal Tilt
 
-If surgery is not on your radar, several non-invasive approaches can meaningfully shift how your tilt reads. These do not change your bone structure, but they can change perception.
+Without any procedure, several everyday approaches can meaningfully shift how your tilt reads. These do not change your bone structure, but they can change perception.
 
 ### Makeup Techniques
 
@@ -123,21 +123,23 @@ Some practitioners suggest that consistent work on mewing (proper tongue posture
 
 ## Surgical and Minimally Invasive Options
 
+These are covered so you know what clinics are selling. **We don't recommend any of them for appearance.** The eye area is delicate, and these procedures can leave an eye that looks unnatural or uneven, a lower lid that pulls away from the eye, dry eyes, or in the case of filler, a blocked blood vessel that can affect vision.
+
 For those interested in more direct correction, several procedures address canthal tilt. Speaking with a qualified oculoplastic surgeon or plastic surgeon is essential before considering any of these.
 
 ### Canthoplasty and Canthopexy
 
-**Lateral canthoplasty** repositions the lateral canthal tendon higher on the orbital rim, physically elevating the outer corner of the eye. **Canthopexy** is a less invasive version that tightens and suspends the existing tendon without detaching it. Both can produce meaningful upward shift of the outer corner.
+**Lateral canthoplasty** repositions the lateral canthal tendon higher on the orbital rim, physically elevating the outer corner of the eye. **Canthopexy** is a less invasive version that tightens and suspends the existing tendon without detaching it. Both change the outer corner, and both can go wrong in ways that are hard to undo: asymmetry, scarring, dry eye and a lower lid that pulls down and shows more white.
 
 ### Fox Eye Lift (Thread Lift)
 
-A thread-based procedure that pulls the outer corner of the eye upward and slightly laterally. Results are less permanent than canthoplasty but the recovery is lighter. Longevity varies significantly by individual.
+A thread-based procedure that pulls the outer corner of the eye upward and slightly laterally. Results are temporary, and complications include dimpling, threads that can be seen or felt, asymmetry and infection.
 
 ### Filler in the Lateral Orbital Area
 
-Strategically placed filler in the lateral cheek or orbital rim area can create the illusion of a more supported outer corner, subtly improving the appearance of canthal tilt without touching the eye itself. This is one of the more accessible options with a lower risk profile.
+Filler placed along the outer eye socket rim or upper cheek is sold to make the outer corner look more supported. It is not low risk: the area around the eye is one of the most dangerous places to inject filler, because its blood vessels connect to the vessels supplying the eye, and filler entering them has caused permanent vision loss.
 
-**Important:** All surgical and injectable procedures carry real risks. Talk to a qualified professional before considering any of these options. Results vary, and choosing an experienced, board-certified specialist matters significantly.
+**Important:** If your eye shape changed after an injury, or an eyelid sags away from the eye, see an oculoplastic surgeon, because that is a medical question. For appearance alone, we don't think any of these procedures is worth the risk.
 
 ## Canthal Tilt in Context: It Is One Feature Among Many
 

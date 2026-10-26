@@ -16,7 +16,7 @@ faq:
   - q: How long does it take to see results from mewing?
     a: There is no fixed timeline. Some people notice postural improvements and reduced jaw tension within weeks. Structural changes, if they occur in adults, are thought to take one to several years of consistent practice. Age plays a significant role, with younger individuals showing faster adaptation.
   - q: Can mewing fix a recessed jaw or weak chin?
-    a: Mewing may help improve mild jaw positioning issues related to posture and muscle habits, particularly in younger people. A significantly recessed mandible or chin typically has genetic or skeletal causes that tongue posture alone cannot correct. Orthognathic surgery or orthodontic treatment are the evidence-based options for structural jaw issues. Talk to a qualified professional before considering any intervention.
+    a: Mewing may help improve mild jaw positioning issues related to posture and muscle habits, particularly in younger people. A significantly recessed mandible or chin typically has genetic or skeletal causes that tongue posture alone cannot correct. Orthodontics and jaw surgery treat bite and breathing problems; we don't recommend jaw surgery for appearance.
   - q: What is the difference between mewing and myofunctional therapy?
     a: Myofunctional therapy is a clinically practiced discipline performed by trained therapists that addresses tongue posture, swallowing patterns, and breathing habits. Mewing overlaps significantly with myofunctional principles but is a self-directed practice. If you have diagnosed issues like tongue thrust or sleep-disordered breathing, working with a certified myofunctional therapist is likely more effective than self-guided mewing alone.
 draft: false

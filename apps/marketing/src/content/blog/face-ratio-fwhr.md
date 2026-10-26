@@ -14,7 +14,7 @@ faq:
   - q: What is the ideal FWHR for men?
     a: Research suggests that a FWHR between 1.9 and 2.0 is associated with high perceived dominance and masculinity in men. This range tends to score well in attractiveness ratings across multiple studies, though it is one metric among many that contribute to overall facial aesthetics.
   - q: Can you increase your FWHR naturally?
-    a: You cannot change your underlying bone structure without surgical intervention, but you can improve the appearance of facial width. Reducing body fat to reveal cheekbone definition, developing the masseter muscles through consistent chewing, and strategic facial hair can all make the face appear wider and more structured.
+    a: You cannot change your underlying bone structure, but you can improve the appearance of facial width. Reducing body fat to reveal cheekbone definition, developing the masseter muscles through consistent chewing, and strategic facial hair can all make the face appear wider and more structured.
   - q: Is a high FWHR always more attractive?
     a: Not necessarily. Very high FWHRs above roughly 2.2 are sometimes associated with an aggressive appearance that does not always translate to higher attractiveness ratings. The effect also depends heavily on other facial features, symmetry, and individual variation in observer preferences.
   - q: Does FWHR differ between men and women?
@@ -141,7 +141,7 @@ A defined beard can restructure the apparent shape of the lower face significant
 Before making any changes, it helps to know exactly where you are starting from. Getting an objective facial analysis, including your FWHR alongside other key ratios, gives you a clear baseline. [Aura](https://app.aura-looksmaxxing.com) provides AI-generated facial scoring and structure analysis that covers multiple ratios at once, so you can see which traits are already strong and which ones have the most room for improvement.
 
 ### On Surgical Options
-For those considering more significant structural changes, options like zygomatic implants or bichectomy (buccal fat removal) do exist and can meaningfully alter FWHR. **Always consult a qualified maxillofacial surgeon or board-certified plastic surgeon before considering any procedure.** These are irreversible decisions with real risks that require professional evaluation.
+Cheekbone implants and buccal fat removal are sold to change FWHR. **We don't recommend them for appearance.** Implants carry risks of infection, shifting and numbness, and buccal fat removal is permanent and can leave the face gaunt with age.
 
 ## Is There a Single "Perfect" FWHR?
 

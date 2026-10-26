@@ -16,9 +16,9 @@ faq:
   - q: Are flared gonions unattractive?
     a: Not necessarily. Outward-flared gonions can contribute to a wide, strong jaw appearance that is considered masculine in many contexts. Whether flaring is a problem depends on how the jaw width compares to the rest of your facial proportions, particularly your cheekbone width and chin.
   - q: Can masseter Botox reduce flared gonions?
-    a: Botulinum toxin injections into the masseter muscle can reduce jaw width when the flaring is driven by muscle bulk rather than bone. Results typically develop over several months and require repeat treatments to maintain. A medical professional should assess whether this approach is appropriate for your specific anatomy.
+    a: Botulinum toxin injections into the masseter muscle can reduce jaw width when the flaring is driven by muscle bulk rather than bone. It has to be repeated to last and can cause weaker chewing, an uneven smile and hollowing below the cheekbones. We don't recommend it for appearance.
   - q: Is surgery necessary to fix flared gonions?
-    a: Surgery is rarely necessary and is only appropriate when the flaring is significant, bone-driven, and causing meaningful aesthetic or functional issues. Most cases are better addressed through non-surgical options first, and any surgical decision should follow thorough consultation with a board-certified maxillofacial surgeon.
+    a: Surgery is rarely necessary, and only for functional problems. We don't recommend it for appearance. Most cases are better addressed through non-surgical options first, and any surgical decision should follow thorough consultation with a board-certified maxillofacial surgeon.
 draft: false
 ---
 
@@ -81,7 +81,7 @@ Depending on what is driving your flared gonion appearance, several non-surgical
 
 ### Masseter Reduction with Botulinum Toxin
 
-If masseter hypertrophy is contributing to outward flaring, injections of botulinum toxin (commonly called Botox, though several brands exist) into the masseter muscle can reduce its bulk over time. As the muscle atrophies from reduced neural stimulation, the jaw narrows visually. Some users report a meaningful reduction in jaw width within a few months of treatment.
+If masseter hypertrophy is contributing to outward flaring, injections of botulinum toxin (commonly called Botox, though several brands exist) into the masseter muscle can reduce its bulk over time. As the muscle atrophies from reduced neural stimulation, the jaw narrows visually. It has to be repeated every few months to last, and side effects include weaker chewing, an uneven smile and a hollow look below the cheekbones. We don't recommend it for appearance.
 
 This approach works best when the flaring is primarily soft-tissue driven. If the bone itself is the main contributor, the effect will be more limited. Always consult a qualified medical professional before considering any injectable treatment.
 
@@ -95,31 +95,31 @@ For those carrying excess facial fat, general fat loss through diet and cardiova
 
 ### Jawline Contouring with Filler
 
-Strategically placed dermal filler along the jawline can redefine the visual line of the jaw without affecting the gonion angle itself. A skilled injector can sometimes create the illusion of a sharper, more defined jaw angle or soften an overly aggressive flare by adjusting how the light falls across the lower face. Results are temporary and highly dependent on injector skill.
+Strategically placed dermal filler along the jawline can redefine the visual line of the jaw without affecting the gonion angle itself. The effect is temporary, and filler along the jaw carries the risk of blocking a blood vessel, which can damage the skin. We don't recommend it for appearance.
 
 ![Diagram showing masseter muscle and its relationship to the gonial angle and lateral jaw flaring](/blog/inward-flared-gonions/3.webp)
 
 ## Surgical Options
 
-For those with structural, bone-level flaring that is significantly affecting their facial aesthetics, surgical interventions exist. These are serious procedures and should only be pursued after thorough consultation with a board-certified maxillofacial or craniofacial surgeon.
+Surgery is the only way to change the bone at the jaw angle. **We don't recommend it for appearance.** It is covered here so you know what it involves.
 
 ### Gonial Angle Reduction (Mandible Contouring)
 
-In cases of excessive lateral flaring, surgeons can perform **mandible angle reduction** or **gonion shaving**, removing bone from the angular region to narrow the jaw. This is most common in East Asian facial contouring practices, where a wide or square jaw is more frequently sought to be reduced. The surgery carries real risks including nerve damage, infection, asymmetry, and prolonged recovery, and should never be taken lightly.
+In cases of excessive lateral flaring, surgeons can perform **mandible angle reduction** or **gonion shaving**, removing bone from the angular region to narrow the jaw. This is most common in East Asian facial contouring practices, where a wide or square jaw is more frequently sought to be reduced. The surgery carries real risks including nerve damage to the lower lip and chin, infection, asymmetry, sagging soft tissue over the narrowed bone, and a long recovery.
 
 ### Mandibular Angle Implants
 
-For inward-flared gonions where the goal is to add width and definition, custom or semi-custom mandibular angle implants can be placed to augment the posterior jaw. This is a more nuanced procedure than chin implants and requires careful planning with CT imaging to achieve symmetrical results.
+For inward-flared gonions where the goal is to add width and definition, custom or semi-custom mandibular angle implants can be placed to augment the posterior jaw. Risks include infection, implants shifting, nerve damage and further surgery. We don't recommend them for appearance.
 
-**Talk to a qualified professional before considering any surgical procedure.** Results vary significantly based on individual anatomy, surgeon skill, and healing.
+If your jaw shape changed after an injury, or you have pain or difficulty chewing, see a doctor or maxillofacial surgeon. For appearance alone, none of these procedures is worth the risk.
 
 ## Practical Tips for Managing Your Approach
 
 If you are looking to address flared gonions, here is a sensible sequence to follow:
 
-1. **Get a clear baseline assessment.** Understand what is actually driving the appearance, bone, muscle, or fat, before deciding on any intervention. Imaging, or at minimum a thorough in-person consultation with a surgeon, is the only way to know for certain.
-2. **Start with reversible options first.** Fat loss, muscle management, and non-invasive treatments carry far lower risk than surgical procedures and are logical starting points.
-3. **Be patient with non-surgical methods.** Masseter reduction from botulinum toxin, for example, typically requires multiple sessions over several months to achieve noticeable results.
+1. **Get a clear baseline assessment.** Understand what is actually driving the appearance, bone, muscle or fat, before worrying about it.
+2. **Start with what carries no risk.** Fat loss, posture and facial hair change how the jaw angle reads, and they are fully reversible.
+3. **Be patient.** Changes from fat loss and posture show over months, not weeks.
 4. **Evaluate proportions, not just the gonions in isolation.** Your jaw angle only matters relative to the rest of your face. Work on understanding your full facial geometry before fixating on one feature.
 5. **Use objective tools where possible.** Getting feedback from [Aura](https://app.aura-looksmaxxing.com) or a clinical professional is more useful than relying on mirror perception, which tends to be inconsistent and emotionally influenced.
 

@@ -113,14 +113,14 @@ Chronic sleep deprivation causes periorbital darkening and puffiness. Getting co
 
 ### Cosmetic Procedures (For Reference Only)
 
-Several cosmetic procedures are associated with altering the eye area's appearance:
+Several cosmetic procedures are sold to change the eye area. They are listed so you can recognize them. **We don't recommend any of them for appearance.**
 
 - **Canthoplasty or canthopexy**: Surgical repositioning of the lateral canthal tendon to change canthal tilt.
 - **Fox eye lift / thread lift**: A non-surgical technique that pulls the outer corner upward (increasing positive tilt, which is the opposite of hunter eyes).
 - **Ptosis repair**: Corrects drooping of the upper eyelid, which can affect how open the eye appears.
 - **Brow lowering surgery**: Repositions the brow closer to the eye.
 
-These are medical procedures with real risks and recovery times. **Talk to a qualified medical professional before considering any of these options.** This article does not constitute medical advice.
+Their risks include dry eyes, eyes that are harder to close, asymmetry, scarring and a lower lid that pulls away from the eye, and some of these changes are permanent. A drooping lid that blocks your vision is a medical question for an oculoplastic surgeon. This article does not constitute medical advice.
 
 ![How to measure canthal tilt at home using a front-facing photo and reference line](/blog/hunter-eyes-vs-prey-eyes/3.webp)
 

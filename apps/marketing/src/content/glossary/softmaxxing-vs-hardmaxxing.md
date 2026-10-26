@@ -8,7 +8,7 @@ cluster: gloss-softmax-hardmax
 pubDate: 2026-06-05
 short_definition: Softmaxxing refers to low-effort, reversible improvements like grooming and styling, while hardmaxxing involves permanent or medical interventions such as surgery or orthodontics.
 related_terms: [looksmaxxing, bonesmashing, mewing, skincare-routine, psl-score]
-examples: [He had been softmaxxing for six months before deciding that his jaw profile needed hardmaxxing through orthognathic surgery., If you have not tried softmaxxing basics like fixing your diet, skincare, and haircut, hardmaxxing is probably premature., She used Aura to get a full facial assessment and figure out which concerns were softmaxxable and which might require a harder approach.]
+examples: [He had been softmaxxing for six months and saw more change than he expected without any procedure., If you have not tried softmaxxing basics like fixing your diet, skincare, and haircut, hardmaxxing is probably premature., She used Aura to get a full facial assessment and figure out which concerns were softmaxxable and which might require a harder approach.]
 draft: false
 ---
 
@@ -28,4 +28,4 @@ Both terms grew out of online communities focused on male appearance optimizatio
 
 In looksmaxxing, knowing where you sit on the soft-to-hard spectrum helps you prioritize. Most coaches and practitioners recommend exhausting softmaxxing options first, since they carry no surgical risk and often produce meaningful improvements on their own. Tools like Aura, the AI face-rating and looksmaxxing app at app.aura-looksmaxxing.com, can help you identify which features respond to softmaxxing and which structural traits may warrant a deeper conversation with a professional. Aura provides jawline analysis, hunter-eye detection, and personalized improvement plans that can make this triage process clearer.
 
-If you are considering hardmaxxing procedures, talk to a qualified medical professional before pursuing any surgical or medical intervention. Research your options carefully, understand the risks, and set realistic expectations.
+We don't recommend hardmaxxing procedures for appearance. They carry real risks, such as nerve damage, infection and results that cannot be undone. Where a procedure exists for a medical problem, such as jaw surgery for a bite that does not work, that is a decision for a doctor.

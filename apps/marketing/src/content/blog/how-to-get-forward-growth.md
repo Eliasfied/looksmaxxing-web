@@ -12,7 +12,7 @@ readingTime: 8
 related: [how-to-raise-hyoid-bone, forward-vs-downward-growth, mewing-complete-guide]
 faq:
   - q: Can adults actually get forward growth, or is it only possible during childhood?
-    a: Significant skeletal forward growth from lifestyle changes is much harder to achieve after the growth plates close, typically in the late teens to early twenties. However, adults can still see improvements in soft tissue definition, muscle tone, posture, and perceived jaw projection through consistent mewing, chewing habits, and postural correction. For structural skeletal changes, orthognathic surgery is the only reliably documented option in adults.
+    a: Significant skeletal forward growth from lifestyle changes is much harder to achieve after the growth plates close, typically in the late teens to early twenties. However, adults can still see improvements in soft tissue definition, muscle tone, posture, and perceived jaw projection through consistent mewing, chewing habits, and postural correction. Moving the bone in adults takes jaw surgery, which is meant for bite and breathing problems, and we don't recommend it for appearance.
   - q: How long does mewing take to show results?
     a: Most people who report visible changes from mewing describe a timeline of six months to two or more years of consistent practice. Results vary significantly based on age, starting structure, and how consistently correct posture is maintained. Younger individuals during active growth phases tend to see more pronounced changes.
   - q: Is mastic gum actually better than regular chewing gum for jaw development?
@@ -112,9 +112,9 @@ It would be dishonest not to address the ceiling here. If you are a fully grown 
 
 For significant maxillary or mandibular retrusion, options exist in the clinical space:
 
-- **Orthognathic surgery** (jaw surgery) can physically move the maxilla or mandible forward. This is a major surgical procedure with a significant recovery period.
-- **SARPE** (surgically assisted rapid palatal expansion) widens and can mildly advance the maxilla in adults whose midpalatal suture has fused.
-- **MSE** (maxillary skeletal expander) is a device some orthodontists use, though its effectiveness in fully mature adults is debated.
+- **Orthognathic surgery** (jaw surgery) can physically move the maxilla or mandible forward. It is major surgery for bite and breathing problems, with risks including lasting numbness of the lips and chin, relapse and a recovery of months. **We don't recommend it for appearance.**
+- **SARPE** (surgically assisted rapid palatal expansion) widens the upper jaw in adults whose midpalatal suture has fused. It is a treatment for a narrow bite, not a cosmetic one.
+- **MSE** (maxillary skeletal expander) is a device some orthodontists use for a narrow bite, though its effectiveness in fully mature adults is debated.
 
 These are medical procedures with real risks and significant costs. Speak to a qualified orthodontist or maxillofacial surgeon before considering any of them. Do not pursue them based on online advice alone.
 

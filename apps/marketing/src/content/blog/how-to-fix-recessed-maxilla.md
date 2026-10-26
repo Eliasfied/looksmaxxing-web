@@ -12,7 +12,7 @@ readingTime: 8
 related: [how-to-grow-maxilla, maxilla-guide, flat-vs-recessed-maxilla]
 faq:
   - q: Can a recessed maxilla be fixed without surgery?
-    a: In adults, non-surgical methods like mewing, posture correction, and myofunctional therapy may improve facial muscle tone and posture but are unlikely to produce significant skeletal change. Orthodontic options like MARPE may offer modest skeletal expansion for eligible adults. Meaningful correction of moderate to severe maxillary recession in adults generally requires surgery.
+    a: In adults, non-surgical methods like mewing, posture correction, and myofunctional therapy may improve facial muscle tone and posture but are unlikely to produce significant skeletal change. Orthodontic options like MARPE may offer modest skeletal expansion for eligible adults. Moving the bone itself requires surgery, which is meant for bite or breathing problems. We don't recommend it for appearance alone.
   - q: How do I know if my maxilla is actually recessed or if it is my nose or chin?
     a: A lateral cephalometric X-ray taken by an orthodontist or oral surgeon is the most reliable way to assess true maxillary position relative to the skull base. A self-assessment using the Ricketts E-plane or checking the infraorbital rim against the eyeball can give you a rough initial read before booking a professional appointment.
   - q: At what age is mewing most effective for the maxilla?
@@ -24,7 +24,7 @@ draft: false
 
 A recessed maxilla is one of the more impactful structural issues affecting facial appearance, yet it often goes undiagnosed or gets blamed on the nose, the chin, or general genetics. If you have been told your midface looks flat, your upper lip lacks projection, or your under-eye area appears hollow, the maxilla is frequently the root cause.
 
-This guide breaks down what a recessed maxilla actually is, why it matters, and what your real options are for addressing it, from non-invasive habits to surgical correction.
+This guide breaks down what a recessed maxilla actually is, why it matters, and what genuinely helps, and why we don't recommend jaw surgery for appearance alone.
 
 ## What Is a Recessed Maxilla?
 
@@ -129,21 +129,21 @@ A **facemask or protraction headgear** applies forward traction to the maxilla u
 
 ## Surgical Approaches
 
-For moderate to severe maxillary recession in adults, surgery is the most direct and reliable solution. These are significant procedures, and a qualified oral and maxillofacial surgeon or craniofacial plastic surgeon should be consulted before considering any of them.
+Surgery is the only way to move an adult maxilla, and that is exactly why it belongs to people with a functional problem: a bite that does not work or an airway that is restricted. **We don't recommend jaw surgery for appearance alone.** These operations cut and move bone, and their risks include lasting numbness of the lips and cheeks, relapse, and further operations. If a doctor has raised it for a functional reason, talk it through with a board-certified oral and maxillofacial surgeon.
 
-> **Important disclaimer:** All surgical procedures carry real risks including infection, nerve damage, relapse, and complications from anesthesia. Talk to a qualified medical professional before considering any surgical intervention.
+> **The risks:** Altered sensation in the upper lip, cheeks and teeth is common after moving the maxilla, and in a minority it does not recover. Bones can drift partly back. Nasal shape can change, and plates sometimes have to be removed in a later operation. The recovery takes months.
 
 ### Le Fort I Osteotomy
 
 The **Le Fort I** is the gold-standard surgical procedure for maxillary repositioning. The surgeon cuts the maxilla free from the skull base and physically moves it forward (advancement), upward, or downward depending on the correction needed. It is then fixed in the new position with titanium plates and screws.
 
-Typical outcomes:
-- Forward advancement of 4 to 12 millimeters depending on the case
-- Improved lip projection and midface fullness
-- Correction of Class III dental relationships
-- Often combined with genioplasty or mandibular surgery for full facial balance
+What it changes, in the functional cases it is meant for:
+- Forward advancement of the upper jaw, often by several millimeters
+- A corrected bite, typically in Class III cases
+- Changes to lip projection and midface fullness as a consequence
+- Sometimes combined with chin or lower-jaw surgery, each adding its own risks
 
-Recovery involves significant swelling for several weeks, a liquid to soft food diet, and full healing over several months. Results, when the surgical plan is well-designed, are stable and long-lasting.
+Recovery involves significant swelling for several weeks, a liquid to soft food diet, and full healing over several months. The bone heals in its new position, but some relapse is possible, and numbness can outlast the recovery.
 
 ### Bimax Surgery
 
@@ -151,7 +151,7 @@ Recovery involves significant swelling for several weeks, a liquid to soft food 
 
 ### Implants as an Adjunct
 
-**Submalar or midface implants** do not fix skeletal recession but can add volume and projection in the infraorbital and cheek region. They are sometimes combined with Le Fort I for patients who need additional soft tissue projection after skeletal repositioning. As a standalone procedure, implants address appearance rather than underlying structure.
+**Submalar or midface implants** do not fix skeletal recession but can add volume and projection in the infraorbital and cheek region. They are sometimes combined with Le Fort I for patients who need additional soft tissue projection after skeletal repositioning. On their own they only address appearance, with the risks of any implant: infection, shifting and further surgery. We don't recommend them for appearance.
 
 ## Choosing the Right Approach for You
 
@@ -162,7 +162,8 @@ The appropriate intervention depends on several factors:
 | Mild dental tipping only | Orthodontics alone |
 | Narrow arch, moderate recession, adolescent | RPE or facemask |
 | Narrow arch, adult | MARPE or SARPE |
-| Skeletal recession, adult | Le Fort I or bimax surgery |
+| Skeletal recession with a bite or breathing problem, adult | Orthognathic surgery, decided with a surgeon |
+| Skeletal recession, appearance only | Posture, body fat and grooming, not surgery |
 | Wanting to optimize within current structure | Mewing, posture, myofunctional therapy |
 
 No single approach is right for everyone. Severity, age, budget, risk tolerance, and underlying cause all factor in. A lateral cephalogram and consultation with a board-certified orthodontist and an oral and maxillofacial surgeon together gives you the most complete picture.
@@ -174,7 +175,7 @@ If you want to start with a clearer sense of your current facial structure befor
 1. **Take a neutral lateral photo** in good lighting to assess your profile honestly.
 2. **Start nasal breathing and correct tongue posture** regardless of what other steps you pursue. These have no downside and support long-term facial health.
 3. **Book a consultation with an orthodontist** who has experience in orthopedic cases and can order a cephalogram.
-4. **If surgery is on your radar**, seek out an oral and maxillofacial surgeon who routinely performs orthognathic procedures, not just cosmetic jaw work.
+4. **If you have a bite or breathing problem**, an oral and maxillofacial surgeon who routinely performs orthognathic procedures can assess whether surgery is warranted. For appearance alone, we don't recommend it.
 5. **Do not rush decisions.** Orthodontic and surgical plans take months to finalize and years to fully execute. The upside of getting it right is worth the patience.
 
 Recessed maxilla is a well-understood anatomical issue with real, documented solutions. The key is correctly identifying the type and degree of recession, then matching it to the intervention that fits your situation.

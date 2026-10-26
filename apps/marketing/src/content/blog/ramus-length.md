@@ -16,7 +16,7 @@ faq:
   - q: Does a longer ramus always mean a better jawline?
     a: Not necessarily. Ramus length only contributes positively to jaw aesthetics when paired with the right gonial angle and overall facial proportions. A very long ramus with an obtuse gonial angle can produce a weak, poorly defined rear jaw. A shorter but steeply vertical ramus with an acute gonial angle often looks more defined. The combination of dimensions matters more than any single measurement.
   - q: Can ramus length be increased without surgery?
-    a: In growing adolescents, functional orthodontic appliances may stimulate additional condylar growth, which can increase ramus length. In skeletally mature adults, bone dimensions cannot be meaningfully changed without surgical intervention such as orthognathic surgery or distraction osteogenesis. Non-surgical approaches like chewing exercises can build surrounding muscle but do not alter the bone itself.
+    a: In growing adolescents, functional orthodontic appliances may stimulate additional condylar growth, which can increase ramus length. In adults, the bone is set. Chewing exercises can build surrounding muscle but do not alter the bone. Jaw surgery can, but it is meant for bite and breathing problems, and we don't recommend it for appearance.
   - q: How does ramus length relate to facial asymmetry?
     a: Asymmetric ramus development, where one ramus is noticeably longer or more vertical than the other, is a common cause of facial asymmetry. It can cause the chin to deviate to one side and create uneven jaw angles. Mild asymmetry is nearly universal, but significant differences are usually identified on panoramic or cephalometric X-rays and may be addressed through orthodontic treatment or surgery depending on severity.
 draft: false
@@ -68,7 +68,7 @@ This is counterintuitive to many people. More ramus length does not automaticall
 Clinically, ramus length is assessed through:
 
 1. **Lateral cephalometry:** A standardized X-ray taken from the side with the head in a fixed position. Landmarks like the gonion and condylion are traced and the linear distance is measured.
-2. **CBCT (cone beam computed tomography):** A 3D imaging method used by oral surgeons that allows precise measurement from multiple planes, especially useful for surgical planning.
+2. **CBCT (cone beam computed tomography):** A 3D imaging method used in dentistry that allows precise measurement from multiple planes.
 3. **Orthopantomogram (OPG/panoramic X-ray):** A flattened panoramic image of the jaw, less precise for ramus length due to distortion but useful for a general assessment.
 
 For the average person without access to clinical imaging, a rough self-assessment can be done by palpating the gonial angle (the bony corner behind your rear molars) and observing your profile in photos. A long, upright ramus will produce a sharply defined rear jaw corner and a tall vertical distance from that corner to your earlobe level.
@@ -82,8 +82,8 @@ Ramus length has significant implications in orthodontics because growth of the 
 Orthodontists and oral surgeons pay close attention to ramus length when planning:
 
 - **Functional appliance therapy** in growing patients (e.g., Herbst appliance, twin block), which research suggests may stimulate condylar growth and effectively increase ramus length in adolescents.
-- **Orthognathic surgery** in adults, where procedures like a BSSO (bilateral sagittal split osteotomy) or vertical ramus osteotomy directly modify jaw position and can alter the functional ramus length.
-- **Distraction osteogenesis**, a technique that gradually lengthens bone over time and is sometimes used for severe mandibular deficiencies.
+- **Orthognathic surgery** in adults, where procedures like a BSSO (bilateral sagittal split osteotomy) or vertical ramus osteotomy move the lower jaw. It is meant for bite and breathing problems, with risks including lasting numbness of the lower lip and chin, and we don't recommend it for appearance.
+- **Distraction osteogenesis**, a technique that gradually lengthens bone and is used for severe jaw deficiencies, usually in children with craniofacial conditions. It is not a cosmetic procedure.
 
 It is worth noting that non-surgical interventions in adults have limited capacity to change bone dimensions. Chewing exercises, mewing, and posture adjustments may influence soft tissue appearance and muscle development around the jaw, but they do not meaningfully alter the ramus bone itself once skeletal maturity is reached.
 
@@ -119,12 +119,12 @@ While ramus bone length itself cannot be changed without surgery in adults, ther
 - **Masseter hypertrophy (natural).** Consistent chewing and jaw muscle training may increase masseter size over time, which can widen and define the rear jaw from the front view. This is distinct from changing bone but can create a similar visual effect.
 - **Posture and head position.** Chronic forward head posture compresses the visual appearance of the neck-jaw transition. Improving cervical posture can improve the jaw angle appearance without touching bone.
 - **Facial hair.** For males, strategic beard shaping can visually lengthen or define the rear jaw and create the illusion of a stronger gonial region.
-- **Dermal fillers.** Jawline filler injected at the gonial angle and along the mandibular border can simulate the appearance of a longer or more defined ramus region. Results are temporary and highly technique-dependent. Consult a board-certified practitioner.
+- **Skip jawline filler.** Filler along the jaw angle is sold to imitate a longer ramus. It is temporary, can form lumps or migrate, and carries the risk of blocking a blood vessel, which can damage the skin. We don't recommend it for appearance.
 
 None of these approaches change actual ramus length, but they can meaningfully change how your jaw reads visually, which is often the underlying goal.
 
 ## Summary
 
-Ramus length is a specific, measurable dimension of the mandible that plays a significant role in lower face height, jaw angularity, chin position, and overall facial balance. It is not the only jaw variable that matters, but understanding it gives you a more complete picture of why certain faces look the way they do and what kinds of interventions, whether lifestyle-based, orthodontic, or surgical, are actually relevant to your situation.
+Ramus length is a specific, measurable dimension of the mandible that plays a significant role in lower face height, jaw angularity, chin position, and overall facial balance. It is not the only jaw variable that matters, but understanding it gives you a more complete picture of why certain faces look the way they do and which levers are actually relevant to you. For adults those are body fat, muscle, posture and grooming; jaw surgery is for bite and breathing problems, and we don't recommend it for appearance.
 
 Knowing your baseline is the first step. From there, the path forward depends entirely on your specific anatomy and goals, which is why professional assessment matters far more than general advice.

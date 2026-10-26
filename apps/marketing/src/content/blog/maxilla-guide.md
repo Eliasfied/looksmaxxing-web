@@ -16,7 +16,7 @@ faq:
   - q: How do I know if my upper maxilla is recessed?
     a: Common signs include a hollow tear-trough area under the eyes, flat cheeks, a receded upper lip in side profile, and a negative orbital vector where the eye appears to protrude past the cheek. A cephalometric X-ray with an SNA angle below 80 degrees is the most objective indicator, and an orthodontist or oral surgeon can assess this properly.
   - q: Can mewing fix a flat maxilla in adults?
-    a: Mewing (correct oral posture with the tongue on the palate) may provide modest benefits in younger individuals whose facial sutures are still active. In adults, the evidence for significant bone remodeling through oral posture alone is limited. It is a low-risk habit worth maintaining, but adults with significant maxillary retrusion typically need orthodontic or surgical intervention for meaningful structural change.
+    a: Mewing (correct oral posture with the tongue on the palate) may provide modest benefits in younger individuals whose facial sutures are still active. In adults, the evidence for significant bone remodeling through oral posture alone is limited. It is a low-risk habit worth maintaining. Moving the bone itself takes surgery, which is meant for bite and breathing problems, and we don't recommend it for appearance.
   - q: What is the difference between the maxilla and the mandible?
     a: The maxilla is the upper jaw, forming the midface, upper teeth, cheek base, and orbital floor. The mandible is the lower jaw, forming the chin and lower facial frame. They work together in bite function, but their aesthetic contributions are distinct. A recessed maxilla affects the midface and under-eye area, while a weak mandible mainly affects the chin and lower jaw definition.
 draft: false
@@ -95,7 +95,7 @@ Maxillary development is influenced by a combination of genetics, breathing patt
 
 ## How to Fix a Recessed Maxilla
 
-Options range from non-invasive habits to significant surgical procedures. The right approach depends on age, severity, and individual goals. **Always talk to a qualified professional before considering any clinical intervention.**
+Options range from everyday habits to orthodontics and surgery. **We don't recommend surgery or implants for appearance.** Jaw surgery exists for bite and breathing problems, and if one of those affects you, that is a question for an orthodontist or maxillofacial surgeon.
 
 ### Mewing and Oral Posture (Conservative)
 
@@ -113,13 +113,13 @@ In cases where the skeletal discrepancy is mild, orthodontics can reposition tee
 
 ### Orthognathic Surgery (Le Fort I Osteotomy)
 
-For significant maxillary retrusion, the most effective solution is **Le Fort I osteotomy**, a surgical procedure that detaches the maxilla from the skull base and moves it forward, upward, or downward depending on the treatment plan. This is typically done in combination with mandibular surgery for comprehensive correction.
+The only way to move an adult maxilla is **Le Fort I osteotomy**, a surgical procedure that detaches the maxilla from the skull base and moves it forward, upward, or downward. This is typically done in combination with mandibular surgery for comprehensive correction.
 
-Results are predictable and can substantially alter facial aesthetics and function (bite, airway, lip support). Recovery is significant, and cost is high. This is not a casual decision. Consult an oral and maxillofacial surgeon or a craniofacial specialist with extensive experience in orthognathic cases.
+It is an operation for functional problems such as a bite that does not work or a restricted airway. Risks include lasting numbness of the upper lip, cheeks and teeth, relapse, nasal changes and further surgery, with a recovery of months. We don't recommend it for appearance.
 
 ### Midface Implants
 
-Silicone implants placed over the submalar or malar region can improve the appearance of midface projection without moving bone. They address the aesthetic issue rather than the skeletal one, but are a relevant option for adults who do not want or qualify for orthognathic surgery.
+Silicone implants placed over the submalar or malar region can improve the appearance of midface projection without moving bone. They only change appearance, with the risks of any implant: infection, shifting, visible edges and further surgery. We don't recommend them for appearance.
 
 ![Diagram comparing downward growth versus forward growth facial development patterns affecting the maxilla](/blog/maxilla-guide/3.webp)
 
@@ -156,5 +156,5 @@ None of these individual features is diagnostic on its own. Facial aesthetics ar
 - A flat or recessed maxilla produces hollow under-eyes, flat cheeks, poor lip support, and a receded midface in profile.
 - Causes include genetics, mouth breathing, and downward rather than forward growth patterns.
 - Self-assessment is possible through profile photos and the orbital rim check, but cephalometric imaging gives objective data.
-- Options range from oral posture habits and expansion devices to surgery, depending on age and severity.
-- Talk to a qualified professional before pursuing any clinical or surgical intervention.
+- Posture, breathing habits and orthodontics in younger people are the realistic levers.
+- Jaw surgery is for bite and breathing problems; we don't recommend surgery or implants for appearance.

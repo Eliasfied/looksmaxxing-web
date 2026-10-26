@@ -139,6 +139,6 @@ Online communities dedicated to male grooming and looksmaxxing produce a large v
 - **Does the advice address your specific face shape?** Generic advice is less useful than shape-specific guidance.
 - **Does it account for texture and density?** If it does not mention hair type at all, treat it as incomplete.
 - **Is it based on principles or preferences?** Advice grounded in proportion principles transfers more reliably than personal taste.
-- **Is it asking you to do something extreme?** Drastic cuts based on forum advice, especially surgical or chemical changes, warrant a professional opinion first. Talk to a qualified professional before considering any procedure intended to alter your appearance permanently.
+- **Is it asking you to do something extreme?** Drastic cuts based on forum advice warrant a second opinion from a good barber or stylist. Forums also push procedures like hairline lowering; we don't recommend surgery for appearance.
 
 The best hairstyle forum threads are the ones where someone takes the time to explain the reasoning behind a recommendation. That reasoning is what you can actually apply to your own situation.

@@ -16,7 +16,7 @@ faq:
   - q: Is a downturned medial canthus the same as negative canthal tilt?
     a: Not exactly. Negative canthal tilt describes the lateral (outer) corner sitting lower than the medial (inner) corner. A downturned medial canthus refers to the inner corner itself being angled or displaced downward, which is a distinct anatomical finding, though both conditions can occur together.
   - q: Can medial canthoplasty fix a downturned inner corner?
-    a: "For appropriate candidates, medial canthoplasty may reposition the inner corner by tightening or re-anchoring the medial canthal tendon. Results depend heavily on the underlying cause and the surgeon's technique. Talk to a qualified oculoplastic or plastic surgeon to determine whether the procedure suits your anatomy."
+    a: "Medial canthoplasty can reposition the inner corner by tightening or re-anchoring the tendon, and it is used when injury or earlier surgery has displaced it. For appearance alone, we don't recommend it, because scarring and damage to tear drainage can be permanent. If your inner corner changed after an injury, see an oculoplastic surgeon."
   - q: Are there risks to epicanthoplasty for medial canthus correction?
     a: Yes. Epicanthoplasty carries risks including visible scarring at the inner corner, asymmetry, over-correction, and fold recurrence. Choosing an experienced surgeon with a strong track record in this specific procedure reduces but does not eliminate these risks.
 draft: false
@@ -75,7 +75,7 @@ Injury to the medial orbital area or prior eyelid surgery can disrupt the cantha
 
 ## Surgical Correction: Medial Canthoplasty
 
-The primary surgical approach for a downturned or malpositioned medial canthus is **medial canthoplasty**, sometimes combined with **epicanthoplasty** when an epicanthal fold is involved.
+Surgery on the inner eye corner exists for medical problems, such as a tendon torn by injury or displaced by earlier surgery. **We don't recommend it for appearance.** The inner corner sits right next to the tear drainage system, and scarring, asymmetry and damage to tear drainage can be permanent. For the medical cases, the main procedure is **medial canthoplasty**, sometimes combined with **epicanthoplasty**.
 
 ### What Medial Canthoplasty Involves
 
@@ -89,9 +89,9 @@ Recovery typically involves bruising and swelling for one to three weeks, with f
 
 ### Epicanthoplasty as a Related Procedure
 
-When an epicanthal fold is the primary driver of the appearance, **epicanthoplasty** alone may be sufficient. This procedure modifies or removes the fold, revealing more of the inner corner and potentially lifting its apparent position. It is one of the more commonly performed aesthetic eye procedures in East and Southeast Asian cosmetic surgery practices.
+An epicanthal fold is a normal feature, very common in East Asian faces and in many others, not a defect to correct. **Epicanthoplasty** modifies or removes the fold surgically. It can leave visible scars at the inner corner, an unnatural look and asymmetry, and the result is hard to reverse. We don't recommend it.
 
-> **Important disclaimer:** Both medial canthoplasty and epicanthoplasty are surgical procedures with real risks including scarring, asymmetry, dry eye, and damage to the lacrimal drainage system. Talk to a qualified, board-certified oculoplastic or plastic surgeon before considering either procedure. The information here is educational only.
+> **Where we stand:** Medial canthoplasty and epicanthoplasty are surgery with real risks, including scarring, asymmetry, dry eye and damage to the tear drainage system that can leave the eye watering permanently. If an injury or earlier surgery has changed your inner eye corner, an oculoplastic surgeon can assess it. For appearance, we don't recommend either procedure.
 
 ## Non-Surgical Approaches and Their Limitations
 
@@ -109,7 +109,7 @@ These are perceptual adjustments, not corrections. They work well for daily appe
 
 ### Filler Considerations
 
-Some practitioners use small amounts of hyaluronic acid filler near the nasal root or tear trough to change how the medial canthal area reads visually. This is an **off-label, high-risk injection zone** given the proximity to the angular artery and the ophthalmic circulation. Filler in this region carries a non-trivial risk of vascular occlusion and vision complications. It should only be approached by highly experienced injectors, if at all.
+Some practitioners use small amounts of hyaluronic acid filler near the nasal root or tear trough to change how the medial canthal area reads visually. This is an **off-label, high-risk injection zone** given the proximity to the angular artery and the ophthalmic circulation. Filler in this region carries a non-trivial risk of vascular occlusion and vision complications. We don't recommend it.
 
 ![Eye anatomy diagram with canthal tilt measurement lines and inner corner makeup technique illustration](/blog/medial-canthus/3.webp)
 
@@ -128,7 +128,7 @@ For a structured analysis, [Aura](https://app.aura-looksmaxxing.com) uses AI to 
 
 ## Practical Tips for Managing the Appearance
 
-If surgery is not on the table and you want to make the most of your current anatomy:
+To make the most of your current anatomy without any procedure:
 
 - **Control lighting in photos.** Overhead lighting casts shadows below the inner corner and exaggerates a downturned appearance. Soft, diffused frontal light is more flattering.
 - **Work on periorbital skin quality.** Puffiness and dark circles in the tear trough area visually compound the effect of a low inner corner. Staying hydrated, reducing sodium, and getting adequate sleep can reduce soft tissue edema around the eye.
@@ -147,7 +147,7 @@ Not exactly. Negative canthal tilt describes the lateral (outer) corner sitting 
 
 ### Can medial canthoplasty fix a downturned inner corner?
 
-For appropriate candidates, medial canthoplasty may reposition the inner corner by tightening or re-anchoring the medial canthal tendon. Results depend heavily on the underlying cause and the surgeon's technique. Talk to a qualified oculoplastic or plastic surgeon to understand whether the procedure is appropriate for your anatomy.
+Medial canthoplasty can reposition the inner corner by tightening or re-anchoring the tendon, and it is used when injury or earlier surgery has displaced it. For appearance alone, we don't recommend it, because scarring and damage to tear drainage can be permanent. If your inner corner changed after an injury, see an oculoplastic surgeon.
 
 ### Are there risks to epicanthoplasty for medial canthus correction?
 

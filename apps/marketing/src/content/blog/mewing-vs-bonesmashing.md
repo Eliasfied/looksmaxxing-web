@@ -97,7 +97,7 @@ Beyond the mewing vs bonesmashing debate, it's worth zooming out and asking what
 
 ### Factors You Cannot Change Without Medical Intervention
 
-Bone structure, particularly in adults with fused sutures, does not change meaningfully through surface-level practices. If your goals involve significant skeletal change, the only evidence-based options are orthodontic appliances, orthognathic surgery, or jaw implants. These are legitimate medical procedures with real outcomes, but they come with their own risks, costs, and recovery periods. Any of these should be discussed thoroughly with a qualified specialist.
+Bone structure, particularly in adults with fused sutures, does not change meaningfully through surface-level practices. Changing the bone itself takes orthodontics, jaw surgery or implants. Orthodontics and jaw surgery are treatments for bite and breathing problems, decided with a specialist. We don't recommend surgery or implants for appearance: risks include lasting numbness of the lips and chin, infection and further surgery.
 
 If you want an honest baseline before deciding what to pursue, [Aura](https://app.aura-looksmaxxing.com) can give you an objective AI-based analysis of your facial structure, including jawline scoring and symmetry assessment, which helps you identify what is actually worth addressing versus what looks fine from an outside perspective.
 

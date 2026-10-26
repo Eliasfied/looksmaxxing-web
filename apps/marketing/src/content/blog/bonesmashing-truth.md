@@ -84,7 +84,7 @@ This section matters. If you are considering bonesmashing, these are not hypothe
 
 **Asymmetry**: Perhaps the most ironic outcome. If one side is struck with more force or more frequency than the other, uneven remodeling or soft tissue response may make the face more asymmetric, not less.
 
-*Talk to a qualified medical professional before attempting any practice that involves applying force to your face or skull. This includes a maxillofacial surgeon or craniofacial specialist who can assess your bone density, facial anatomy, and any pre-existing conditions.*
+*We don't recommend bonesmashing, or the surgery some people turn to afterwards. If you have already hit your face and have pain, numbness, swelling that does not go down, or changes in your bite or vision, see a doctor.*
 
 ![Comparison illustration showing how body fat and masseter muscle affect jawline definition](/blog/bonesmashing-truth/3.webp)
 

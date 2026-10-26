@@ -12,11 +12,11 @@ readingTime: 8
 related: [how-to-get-positive-canthal-tilt, mtn-vs-htn, positive-vs-negative-canthal-tilt]
 faq:
   - q: Can negative canthal tilt be fixed without surgery?
-    a: Mild cases may be visually improved through makeup techniques, brow shaping, Botox, or soft tissue fillers. These approaches change how the eye area looks without altering the underlying bone or tendon structure. For significant or structurally caused negative canthal tilt, surgical options like canthoplasty are typically the only way to achieve meaningful change.
+    a: Makeup, brow shaping, sleep and lower body fat can change how the eye area looks without altering the bone or tendon. Changing the structure itself takes surgery such as canthoplasty, which we don't recommend for appearance, because the risks include an unnatural or uneven eye shape, dry eyes and scarring.
   - q: Does mewing fix negative canthal tilt?
     a: Mewing may support proper midface development in adolescents whose facial bones are still growing, which could indirectly influence periorbital support over time. In adults, the evidence for bony change from mewing alone is minimal. It is unlikely to correct established negative canthal tilt on its own, though maintaining correct oral posture is still generally beneficial for facial structure.
   - q: What is the difference between canthopexy and canthoplasty?
-    a: Canthopexy tightens and reinforces the lateral canthal tendon without cutting it, making it a less invasive option suited for mild laxity. Canthoplasty involves detaching the tendon, repositioning it higher on the orbital rim, and reattaching it, offering more significant correction for moderate to severe negative canthal tilt. Both procedures should only be performed by an experienced oculoplastic or craniofacial surgeon.
+    a: Canthopexy tightens and reinforces the lateral canthal tendon without cutting it, making it a less invasive option suited for mild laxity. Canthoplasty involves detaching the tendon, repositioning it higher on the orbital rim, and reattaching it, offering more significant correction for moderate to severe negative canthal tilt. Both are surgery on the eye corner, and we don't recommend either for appearance.
   - q: Is negative canthal tilt permanent or does it get worse with age?
     a: Negative canthal tilt caused by genetics remains relatively stable, though soft tissue aging can make it appear more pronounced over time as the lateral canthal tendon loosens and periorbital volume decreases. Age-related worsening is common and is one reason canthal descent correction is a frequent component of facial rejuvenation procedures.
 draft: false
@@ -94,9 +94,9 @@ Chronic fluid retention, poor sleep, and high salt intake can worsen periorbital
 
 ## Minimally Invasive Clinical Options
 
-If non-surgical methods are not producing the results you want, there are clinical options that sit between daily habits and full surgery.
+Beyond everyday changes, some clinics offer injections, threads and surgery for the eye area. They are covered below so you know what they involve, not as next steps: **we don't recommend any of them for appearance.** The eye area is one of the most delicate parts of the face, and these procedures can leave the eye looking unnatural, uneven or harder to close, sometimes permanently.
 
-> **Important: Always consult a qualified, board-certified medical professional before pursuing any clinical or surgical procedure. The information here is educational only.**
+> **Important:** Botox near the brows can cause the brow or eyelid to droop. Thread lifts are temporary and can cause dimpling, visible threads and infection. Filler near the eye is a high-risk area, because filler entering a blood vessel there has caused blindness. Any change to vision after an injection is an emergency.
 
 ### Botox for Brow Tail Lifting
 
@@ -104,17 +104,17 @@ Strategically placed **botulinum toxin** injections can relax the depressor musc
 
 ### Thread Lifts
 
-**Barbed thread lifts** in the lateral orbital area can temporarily suspend soft tissue and create a mild lifting effect at the outer corner of the eye. Some practitioners report success with this approach for mild to moderate soft tissue descent, though longevity varies and results are generally less predictable than surgical options.
+**Barbed thread lifts** in the lateral orbital area can temporarily suspend soft tissue and create a mild lifting effect at the outer corner of the eye. Results fade, often within months, and complications include dimpling, threads that can be seen or felt, asymmetry and infection.
 
 ### Filler in the Lateral Orbit
 
-Small amounts of hyaluronic acid filler placed along the lateral orbital rim may add structural support and improve the perceived tilt by adding volume where bone is deficient. This is a technique-sensitive procedure and should only be performed by an experienced injector familiar with periorbital anatomy.
+Small amounts of hyaluronic acid filler placed along the lateral orbital rim may add structural support and improve the perceived tilt by adding volume where bone is deficient. It is also one of the riskiest places to inject filler: the blood vessels around the eye connect to the vessels supplying the eye itself, and filler entering them has caused permanent vision loss. We don't recommend it for appearance.
 
 ![Comparison illustration of canthopexy versus canthoplasty for correcting negative canthal tilt](/blog/how-to-fix-negative-canthal-tilt/3.webp)
 
 ## Surgical Options for Negative Canthal Tilt
 
-For structural cases, surgery offers the most definitive correction. These are serious procedures requiring thorough consultation, realistic expectations, and a qualified oculoplastic or craniofacial surgeon.
+Surgery is the only way to change the bony or tendon structure of the eye corner. It is meant for medical problems such as a lower eyelid that sags away from the eye after injury, aging or earlier surgery. **We don't recommend eye-corner surgery for appearance:** the risks include an eye shape that looks unnatural or uneven, a lower lid that pulls down and shows more white, dry eyes and scarring, and results that are hard to undo.
 
 ### Canthoplasty and Canthopexy
 
@@ -123,24 +123,24 @@ These are the most direct surgical approaches to canthal tilt:
 - **Canthopexy**: The lateral canthal tendon is tightened and repositioned without cutting it. Less invasive, better suited for mild laxity.
 - **Lateral canthoplasty**: The tendon is detached, repositioned higher on the orbital rim, and re-anchored. This can meaningfully raise the outer corner of the eye and create a more positive tilt.
 
-Results from well-performed canthoplasty can be significant and long-lasting. Risks include asymmetry, scarring, dry eye, and changes to the eye shape that may not be reversible. Choosing a surgeon with specific experience in this procedure is non-negotiable.
+The changes are often permanent, which cuts both ways. Risks include asymmetry, scarring, dry eye, a lower lid that pulls away from the eye, and an eye shape that may not be reversible. Revision surgery on the eye corner is difficult.
 
 ### Orbital Rim Augmentation
 
-For cases where the issue is fundamentally bony, **orbital rim implants** or fat grafting along the lateral orbital rim can provide structural support. This is less commonly performed than canthoplasty but may be appropriate when bone deficiency is the primary driver.
+For cases where the issue is fundamentally bony, **orbital rim implants** or fat grafting along the lateral orbital rim can provide structural support. Both are procedures with their own risks, from infection and implants shifting to unpredictable fat survival. We don't recommend them for appearance.
 
 ### Fox Eye Procedure
 
-The "fox eye" or "cat eye" procedure involves a combination of temporal brow lifting and canthal repositioning to create an almond-shaped, upwardly slanted eye appearance. Some versions are done with threads (temporary) and others with surgical techniques (more permanent). Outcomes depend heavily on individual anatomy and surgical technique.
+The "fox eye" or "cat eye" procedure involves a combination of temporal brow lifting and canthal repositioning to create an almond-shaped, upwardly slanted eye appearance. Some versions are done with threads (temporary) and others with surgical techniques (more permanent). It is a trend-driven look, and results can appear overdone or unnatural, with the risks of both brow and eye-corner surgery. We don't recommend it.
 
 ## Choosing the Right Approach for Your Situation
 
 The correct path depends entirely on the cause and severity of your canthal tilt.
 
-1. **Mild, soft-tissue-related tilt**: Start with non-invasive approaches. Makeup, skincare, lifestyle optimization, and possibly Botox or threading are reasonable first steps.
-2. **Moderate tilt with tendon laxity**: Canthopexy or conservative canthoplasty may be appropriate after a thorough surgical consult.
-3. **Significant tilt with structural bone deficiency**: Orbital rim augmentation or more involved canthoplasty. Requires specialist evaluation.
-4. **Age-related descent**: A combination of soft tissue support (filler, thread) or surgical lifting may be appropriate depending on overall facial aging.
+1. **Mild, soft-tissue-related tilt**: Makeup, brow shaping, skincare, sleep and lower body fat. These change how the eye area reads, with no risk.
+2. **Moderate or structural tilt**: The same steps. A negative tilt that is part of your anatomy is not a medical problem, and we don't recommend surgery to change it.
+3. **An eyelid that sags away from the eye, or tilt that changed after injury or surgery**: See an oculoplastic surgeon. That is a medical question, not an aesthetic one.
+4. **Age-related descent**: Brow grooming, skincare and sun protection. Treatments for aging are a decision for a doctor, not a looksmaxxing step.
 
 If you are unsure where your case falls, getting an objective facial analysis first is a practical step. [Aura](https://app.aura-looksmaxxing.com) can assess your eye area geometry and canthal tilt as part of a broader facial evaluation, which can help you go into any consultation with clearer information.
 
@@ -149,7 +149,7 @@ If you are unsure where your case falls, getting an objective facial analysis fi
 Negative canthal tilt is partially structural and partially optical. Even surgical correction has limits set by individual anatomy. A few honest points:
 
 - Non-surgical methods can reduce the *appearance* of negative tilt but rarely change the underlying angle measurably.
-- Surgical options offer real structural change but come with recovery time, cost, and surgical risk.
+- Surgery can change the structure, but with risks to the shape and function of the eye that we don't think are worth taking for appearance.
 - Mild negative canthal tilt is extremely common and does not need correction unless it genuinely bothers you.
 - Pursuing any change from a grounded, informed place leads to better outcomes than chasing perfection under external pressure.
 

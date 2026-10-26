@@ -89,7 +89,7 @@ Some of these traits are genuinely structural. Others can be approximated throug
 
 **Facial fat.** Overall body fat percentage influences how defined your facial features appear. Dropping from 28% to 22% body fat, for example, typically makes cheekbones, jawline, and eye area more prominent without any procedure. This is one of the most underrated levers in female looksmaxxing.
 
-**Buccal fat.** This is a distinct fat pad in the lower cheek area. It does not reduce with diet alone, which is why surgical buccal fat removal has become popular. *This is a procedure with permanent, sometimes unpredictable results. Consult a board-certified plastic surgeon before considering it.*
+**Buccal fat.** This is a distinct fat pad in the lower cheek area. It does not reduce much with diet alone, which is why surgical buccal fat removal has become popular. *We don't recommend it for appearance. The removal is permanent, and because the face loses fat with age anyway, it can leave the cheeks looking gaunt years later.*
 
 **Jawline definition through gum chewing and masseter development.** Hard chewing (mastic gum, for example) may develop the masseter muscle over time. The effect is modest and takes months, but some users report more visible jaw definition. Note that significant masseter hypertrophy can actually widen the lower face, which may or may not suit your facial shape.
 
@@ -145,9 +145,9 @@ If you are beginning a looksmaxing women's journey and want to prioritize effect
 5. **Optimize hair.** Get a cut suited to your face shape. Focus on health.
 6. **Learn strategic makeup.** Contour, brow shaping, and lash work are the highest-return areas.
 7. **Address posture.** Daily hip flexor and thoracic mobility work, plus consistent upper back training.
-8. **Revisit structural options only after the above are dialed in.** If, after 6-12 months of soft-maxing, you still have specific concerns that are genuinely structural, that is the time to consult professionals about non-surgical options (filler, Botox) or, rarely, surgical ones.
+8. **Reassess after 6 to 12 months.** By then you will see what was presentation and what is simply your structure. We don't recommend filler, Botox or surgery for appearance as a next step: they carry medical risks, and structure is not a problem to fix.
 
-*For any cosmetic procedures, surgical or otherwise, always consult a qualified medical professional before proceeding.*
+*We don't recommend cosmetic procedures for appearance. Skin conditions, hair loss or hormonal symptoms are worth a doctor's look, because those are medical questions.*
 
 ## Common Mistakes Looksmaxing Women Make
 

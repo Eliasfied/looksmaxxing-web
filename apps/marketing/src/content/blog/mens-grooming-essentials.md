@@ -38,7 +38,7 @@ It is not about spraying on a bottle labeled "pheromones" from a gas station. Mo
 
 ## How Pheromone Max Fits Into the Broader Looksmaxxing Framework
 
-Looksmaxxing exists on a spectrum. On one end you have **hard maxxing**, which involves surgical or medical interventions like orthognathic surgery, rhinoplasty, or hormone therapy. On the other end is **soft maxing**, which covers everything achievable through lifestyle, grooming, and style changes with no procedures required.
+Looksmaxxing exists on a spectrum. On one end you have **hard maxxing**, which involves surgical or medical interventions like jaw surgery, rhinoplasty, or hormone therapy. We don't recommend hard maxxing for appearance, because of its risks. On the other end is **soft maxing**, which covers everything achievable through lifestyle, grooming, and style changes with no procedures required.
 
 Pheromone max is firmly in the soft maxxing category. It costs little, carries no medical risk, and compounds over time as your habits improve. It is also one of the more overlooked areas. Most men focus heavily on the visual, which makes sense, but scent operates below conscious awareness and can meaningfully shift how people perceive and remember you.
 
@@ -144,7 +144,7 @@ Here is a concrete daily and weekly framework.
 
 ## A Note on Hard Maxxing and Medical Approaches
 
-Some discussions around pheromone optimization extend into hormonal interventions, including TRT (testosterone replacement therapy) or peptide use. These are outside the scope of soft maxing entirely. If you are considering any hormonal or medical intervention based on a desire to improve your social or physical presentation, talk to a qualified medical professional before doing anything. Self-administering hormones carries real risks that no grooming guide can adequately address.
+Some discussions around pheromone optimization extend into hormonal interventions, including TRT (testosterone replacement therapy) or peptide use. These are outside the scope of soft maxing entirely. We don't recommend hormones or peptides for appearance. Self-administered testosterone can shut down your own production, affect fertility, and strain the heart. If you have symptoms of low testosterone, see a doctor and get bloodwork.
 
 Pheromone max in the practical, accessible sense does not require any of this. The lifestyle and grooming steps covered above are sufficient to make a real difference for most men.
 

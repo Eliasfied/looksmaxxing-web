@@ -18,7 +18,7 @@ faq:
   - q: Can hooded eyes become less hooded without surgery?
     a: In some cases, yes. Reducing facial puffiness through sleep, hydration, and sodium reduction may lessen the appearance of hooding caused by soft tissue volume. Brow grooming and strategic makeup can also make the hood appear less prominent. Structural hooding caused by the brow bone itself cannot be changed without surgery.
   - q: Do hooded eyes get worse with age?
-    a: They often do to some degree. As skin loses elasticity and subcutaneous fat redistributes, the fold tends to descend further. This is one reason upper blepharoplasty is among the most common cosmetic procedures in older adults. Early attention to skin health and sun protection may slow this progression, though it cannot stop it entirely.
+    a: They often do to some degree. As skin loses elasticity and subcutaneous fat redistributes, the fold tends to descend further. When the fold starts to block vision, eyelid surgery becomes a medical question for an oculoplastic surgeon. Early attention to skin health and sun protection may slow this progression, though it cannot stop it entirely.
 draft: false
 ---
 
@@ -103,9 +103,9 @@ Low body fat tends to reduce the soft tissue volume sitting above the orbital ri
 
 ## When to Consider a Professional Consultation
 
-If your hooding is severe enough to interfere with your vision, you may qualify for a functional blepharoplasty (upper eyelid surgery) covered under some insurance plans. If the concern is purely cosmetic, an oculoplastic surgeon or board-certified plastic surgeon can walk you through options including blepharoplasty and brow lifting procedures.
+If your hooding is severe enough to interfere with your vision, you may qualify for a functional blepharoplasty (upper eyelid surgery) covered under some insurance plans. If the concern is purely cosmetic, we don't recommend eyelid or brow surgery. Risks include dry eyes, eyes that are harder to close, asymmetry, scarring and a result that looks surprised or hollow.
 
-Talk to a qualified medical professional before considering any surgical or injectable intervention for this area. Results, recovery, and risks vary significantly based on individual anatomy and surgeon skill.
+Injections around the eyes are not worth it for appearance either: filler entering a blood vessel there has caused permanent vision loss, and Botox near the brow can make the lid droop further.
 
 Non-surgical options such as thread lifts or neuromodulators (like botulinum toxin injected into the depressor muscles of the brow) can produce a subtle lift in some cases. These also require a professional consultation to determine candidacy.
 

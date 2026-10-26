@@ -18,7 +18,7 @@ faq:
   - q: Does losing weight affect lip appearance in men?
     a: Indirectly, yes. Reducing body fat sharpens jaw and chin definition, which frames the lower face more clearly and draws attention away from lip volume. Lips themselves do not contain significant fat, so weight loss does not thin the lips further in most cases, but the surrounding structural improvements can make the overall lower face look more attractive.
   - q: Is lip filler a good option for men with thin lips?
-    a: It can be, but it requires careful judgment about quantity and goal. Male lip augmentation is most effective when it aims for subtle volume increase and improved border definition rather than dramatic fullness. Consult a board-certified dermatologist or plastic surgeon with experience treating male patients before pursuing any filler procedure.
+    a: We don't recommend it for appearance. Lip filler can form lumps, migrate above the lip line and, more rarely, block a blood vessel and damage the lip tissue. Thin lips are common and often read as masculine, and lip care and facial hair change how they look without those risks.
 draft: false
 ---
 
@@ -107,11 +107,11 @@ If you are evaluating your face systematically, lips rank below jaw definition, 
 
 ## When to Consider Professional Options
 
-Some men do pursue lip augmentation. The most common non-surgical option is **hyaluronic acid filler**, which adds controlled volume and can be dissolved if you are not satisfied with the result. Results typically last six to twelve months.
+Some men do pursue lip augmentation. **We don't recommend it for appearance.** The most common option is **hyaluronic acid filler**, which lasts six to twelve months. Risks include lumps, filler migrating above the lip line and, more rarely, filler blocking a blood vessel, which can damage the lip tissue. Dissolving it is possible but is itself an injection with side effects.
 
-For men, the goal with filler is generally subtle improvement in volume and definition, not a dramatic increase. Over-augmented lips read as unnatural on male faces and can undermine the masculine facial structure you are trying to support.
+Over-augmented lips also read as unnatural on male faces. Lip balm, hydration, sun protection for the lips and facial hair that frames the mouth are the risk-free levers.
 
-Surgical options such as a **lip lift** (shortening the philtrum surgically) are also available and produce permanent results.
+Surgery such as a **lip lift** (shortening the area between nose and lip) is permanent, including when the result is not what you wanted, and leaves a scar under the nose. We don't recommend it for appearance.
 
 **Talk to a qualified medical professional before considering any cosmetic procedure.** A board-certified plastic surgeon or dermatologist with experience in male facial aesthetics can assess whether intervention is appropriate for your specific anatomy and what realistic outcomes look like.
 

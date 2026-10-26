@@ -14,9 +14,9 @@ faq:
   - q: What is the looksmaxxing scale and how is it scored?
     a: The looksmaxxing scale rates male facial attractiveness from 1 to 10 based on specific anatomical traits including bone structure, eye area, skin quality, and facial proportions. It originates from the PSL community and attempts to create a measurable framework rather than a purely subjective impression. A score around 4 to 5 represents the average male, while scores above 7 reflect strong bone structure and facial harmony.
   - q: Can you actually change your score on the looksmaxxing scale?
-    a: Yes, within limits. Traits like skin quality, facial fat, grooming, and muscle development are all changeable and can shift a perceived score by one to two points with consistent effort. Bone structure in adults is largely fixed without surgical intervention, though oral posture, body composition, and muscle development all influence how structure reads visually.
+    a: Yes, within limits. Traits like skin quality, facial fat, grooming, and muscle development are all changeable and can shift a perceived score by one to two points with consistent effort. Bone structure in adults is largely fixed, though oral posture, body composition, and muscle development all influence how structure reads visually.
   - q: What is the difference between soft maxxing and hard maxxing?
-    a: Soft maxxing refers to non-invasive improvements like skincare, fat loss, grooming, and posture correction. Hard maxxing involves more committed or structural changes such as orthodontic work, surgical procedures, or long-term training protocols. Most people see the best return on investment by exhausting soft-maxxing options before considering anything more involved.
+    a: Soft maxxing refers to non-invasive improvements like skincare, fat loss, grooming, and posture correction. Hard maxxing means medical procedures such as surgery and injections. We don't recommend hard maxxing for appearance, because of its risks; soft maxxing is where the real, safe progress is.
   - q: How do I get an accurate baseline score before starting to looksmaxx?
     a: Self-rating is unreliable due to familiarity bias and inconsistent lighting. AI-based tools like Aura provide a more objective starting point, analyzing specific traits such as jawline definition, canthal tilt, and hunter-eye presence to give a PSL-aligned score and a breakdown of your strongest and weakest features.
 draft: false
@@ -100,14 +100,14 @@ These involve more commitment or professional guidance.
 
 ### Procedural Options (Consult a Professional First)
 
-For anyone considering surgical or injectable procedures, talk to a qualified medical professional before making any decisions. Outcomes vary, risks are real, and the looksmaxxing community's enthusiasm for specific procedures does not substitute for individualized clinical assessment.
+The looksmaxxing community talks a lot about surgery and injections. **We don't recommend them for appearance.** The risks are real, and community enthusiasm says nothing about what can go wrong. These are the procedures you will see discussed, so you can recognize them:
 
 Commonly discussed options include:
 
-- **Dermal fillers** for chin or jaw definition
-- **Rhinoplasty** for nasal projection or tip refinement
-- **Lower blepharoplasty** for under-eye area correction
-- **Jaw surgery (orthognathic)** for significant bite and structure issues
+- **Dermal fillers** for chin or jaw definition: can migrate, form lumps or block a blood vessel
+- **Rhinoplasty** for the nose: breathing problems and revision surgery are real risks
+- **Lower blepharoplasty** for the under-eye area: can pull the lower lid down and dry out the eye
+- **Jaw surgery (orthognathic)**: a treatment for bite and breathing problems, with risks such as lasting numbness of the lips
 
 ![Looksmaxxing before and after concept showing facial definition changes with body fat reduction](/blog/looksmaxxing-tips-and-checklist/3.webp)
 

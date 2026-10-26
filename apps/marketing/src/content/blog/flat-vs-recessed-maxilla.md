@@ -14,7 +14,7 @@ faq:
   - q: What is the main difference between a flat maxilla and a recessed maxilla?
     a: A flat maxilla lacks forward surface projection, making the midface look two-dimensional or deflated. A recessed maxilla refers to the entire bone being positioned too far back relative to the skull, which creates a concave facial profile and is often linked to a misaligned bite. The two conditions can occur together but describe different structural issues.
   - q: Can a recessed or flat maxilla be fixed without surgery?
-    a: In adults, meaningful changes to maxillary bone position typically require surgical intervention such as a Le Fort I osteotomy. Non-surgical approaches like oral posture habits and palate expansion devices may have some effect during facial development phases but have limited evidence for producing significant bone changes in fully developed adults. Soft tissue fillers can approximate better midface projection temporarily.
+    a: In adults, moving the maxilla takes surgery such as a Le Fort I osteotomy, which is meant for bite and breathing problems, and we don't recommend it for appearance. Non-surgical approaches like oral posture habits and palate expansion devices may have some effect during facial development phases but have limited evidence for producing significant bone changes in fully developed adults. Fillers are sold for this too, but we don't recommend them because of their risks.
   - q: How do I know if my maxilla is recessed or just flat?
     a: "A lateral profile photo can reveal whether your midface appears concave or simply flat. Checking your bite is also informative: if your lower teeth sit in front of your upper teeth, skeletal recession is more likely. For a definitive assessment, a cephalometric X-ray analyzed by an orthodontist or oral and maxillofacial surgeon is the most reliable method."
   - q: Does mewing help with a flat or recessed maxilla in adults?
@@ -113,13 +113,13 @@ For individuals whose facial skeleton is still developing (generally before the 
 
 ### Surgical options
 
-For adults with established skeletal patterns, significant changes to maxillary position require surgery. The primary procedure is **Le Fort I osteotomy**, a jaw surgery in which the maxilla is surgically repositioned forward, backward, or vertically. This is a significant procedure performed by oral and maxillofacial surgeons and is typically indicated for functional reasons (bite correction, airway improvement) as well as aesthetic ones.
+For adults with established skeletal patterns, significant changes to maxillary position require surgery. The primary procedure is **Le Fort I osteotomy**, a jaw surgery in which the maxilla is surgically repositioned forward, backward, or vertically. It is an operation for functional problems such as a bite that does not work or a restricted airway, with risks including lasting numbness of the upper lip and cheeks, relapse and further surgery. We don't recommend it for appearance.
 
-For surface projection without repositioning the bone, **midface implants** (specifically zygomaticomalar implants or paranasal implants) can add volume and projection to the flat maxilla region without altering skeletal position.
+For surface projection without repositioning the bone, **midface implants** (specifically zygomaticomalar implants or paranasal implants) add volume over the bone without moving it. They carry the risks of any implant, including infection, shifting and further surgery, and we don't recommend them for appearance.
 
-Soft tissue fillers in the midface can approximate some of the visual effects of better maxillary projection, though results are temporary and carry their own risk profile.
+Fillers in the midface are also sold for this. They are temporary and carry the risk of blocking a blood vessel, which near the eyes can affect vision. We don't recommend them for appearance.
 
-*Talk to a qualified professional, such as a board-certified oral and maxillofacial surgeon or orthodontist, before considering any surgical or orthodontic intervention for maxillary positioning.*
+*If you have a bite or breathing problem, an orthodontist or oral and maxillofacial surgeon can assess it. For appearance alone, we don't think these procedures are worth their risks.*
 
 ![Visual comparison of flat recessed maxilla versus well-projected maxilla on male faces](/blog/flat-vs-recessed-maxilla/3.webp)
 
@@ -149,6 +149,6 @@ None of these approaches will reposition an adult maxilla on their own. But they
 
 A flat maxilla and a recessed maxilla are related but distinct conditions. Flatness refers to insufficient surface projection, producing a two-dimensional midface appearance. Recession refers to the entire bone sitting too far back relative to the skull, producing a concave profile and often a misaligned bite. Both conditions reduce midface definition and can affect perceived attractiveness.
 
-Understanding which condition applies to you, or whether both do, is the starting point for any rational approach to improvement. Non-surgical options are limited for adults but worth exploring under professional guidance. Surgical options exist and are effective but represent significant interventions that require careful professional evaluation.
+Understanding which condition applies to you, or whether both do, is the starting point for any rational approach to improvement. For adults, posture, breathing, lower body fat and grooming are what can change how the midface reads without risk. Surgery is for functional problems, and we don't recommend it for appearance.
 
 Start with an honest assessment of your current facial structure, set realistic expectations, and work systematically from there.

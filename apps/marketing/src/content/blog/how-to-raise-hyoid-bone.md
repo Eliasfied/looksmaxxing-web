@@ -18,7 +18,7 @@ faq:
   - q: How long does it take to see changes from hyoid exercises?
     a: Measurable increases in suprahyoid muscle strength can appear within four to eight weeks of daily practice according to myofunctional therapy research. Visible changes in the soft tissue appearance of the neck and jaw may take several months and depend on factors like starting posture, body composition, age, and consistency.
   - q: Is hyoid suspension surgery worth considering?
-    a: Hyoid suspension is a legitimate surgical procedure used primarily for sleep apnea and, in some cases, neck aesthetics. It carries real surgical risks and requires a significant recovery period. Anyone considering it should consult a qualified maxillofacial surgeon or ENT specialist to evaluate whether they are a suitable candidate and to understand the potential outcomes and risks fully.
+    a: Only as a sleep apnea treatment decided with a doctor. It is also offered for neck appearance, and we don't recommend it for that, because risks include difficulty swallowing, voice changes and further surgery. Lower body fat and better posture change how the neck looks without those risks.
 draft: false
 ---
 
@@ -148,11 +148,11 @@ It is important to be direct about limitations. Exercises can improve muscle ton
 
 - Structurally relocate the hyoid to a significantly higher skeletal position in an adult
 - Correct hyoid depression caused by anatomical anomalies or post-surgical scarring
-- Produce results equivalent to surgical hyoid suspension procedures
+- Do what surgery on the hyoid does
 
-Hyoid suspension surgery exists as a procedure primarily in the context of sleep apnea treatment, where the hyoid is physically anchored to the thyroid cartilage to open the airway. Some surgeons also perform it in the context of neck rejuvenation. These are serious medical procedures with recovery time, risks, and costs that require careful evaluation.
+Hyoid suspension surgery exists as a procedure primarily in the context of sleep apnea treatment, where the hyoid is physically anchored to the thyroid cartilage to open the airway. Some surgeons also offer it for neck appearance. **We don't recommend it for appearance.** Risks include difficulty swallowing, infection, changes to the voice and further surgery.
 
-**If you are considering any surgical or medical procedure related to hyoid position, consult a qualified maxillofacial surgeon or ENT specialist before making any decisions.**
+**If you snore heavily or stop breathing during sleep, see a doctor or ENT specialist, because that is a medical question. For neck appearance, lower body fat and better posture are the safe levers.**
 
 ## Building a Consistent Daily Routine
 

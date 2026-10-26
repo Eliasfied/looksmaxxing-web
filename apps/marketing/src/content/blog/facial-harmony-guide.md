@@ -16,9 +16,9 @@ faq:
   - q: How long should the philtrum be?
     a: The ideal philtrum length is generally cited as 11 to 13 mm in women and 13 to 15 mm in men. Lengths above these ranges are associated with an aged or heavy midface appearance and can make the chin look relatively weak even when bone structure is adequate.
   - q: Can the chin to philtrum ratio be improved without surgery?
-    a: Yes, to a degree. Reducing facial fat, adjusting beard shape, and correcting forward head posture can all improve how the lower face reads in photos and in person. These changes do not alter bone structure but influence the perception of proportion meaningfully. Injectable chin filler is a minimally invasive option that sits between lifestyle changes and surgery.
+    a: Yes, to a degree. Reducing facial fat, adjusting beard shape, and correcting forward head posture can all improve how the lower face reads in photos and in person. These changes do not alter bone structure but influence the perception of proportion meaningfully. Chin filler is also sold for this, but we don't recommend it, because it can migrate or block a blood vessel.
   - q: How does the facial convexity angle relate to chin projection?
-    a: The facial convexity angle measures how forward or backward the chin sits relative to the forehead and nose in profile. A recessed chin increases facial convexity beyond the ideal 0 to 12 degree range, which makes the philtrum appear longer and the profile weaker. Improving chin projection, whether through posture, filler, or surgery, directly reduces excess facial convexity.
+    a: The facial convexity angle measures how forward or backward the chin sits relative to the forehead and nose in profile. A recessed chin increases facial convexity beyond the ideal 0 to 12 degree range, which makes the philtrum appear longer and the profile weaker. Better head posture and a beard that adds definition to the chin reduce how convex the profile reads.
 draft: false
 ---
 
@@ -96,11 +96,11 @@ If your ratio falls below 1.0, your philtrum is longer than your chin height, wh
 
 ### What If Your Ratio Is Off?
 
-There are several approaches, ranging from non-invasive to surgical:
+Reducing facial fat, beard shape and head posture are the levers without risk. Clinics also sell the following, which we list so you know what they involve. **We don't recommend any of them for appearance.**
 
-- **Chin filler or implant** can increase chin height and projection, improving the ratio without altering the philtrum.
-- **Lip lift surgery (subnasal bullhorn)** shortens the philtrum directly and is considered one of the more impactful lower-face procedures per unit of change.
-- **Orthodontic treatment or jaw surgery** addresses skeletal imbalances at the root level, particularly for Class II or Class III malocclusion patterns.
+- **Chin filler or implant** adds chin projection. Filler can migrate or block a blood vessel; implants carry risks of infection, shifting and nerve damage to the lower lip.
+- **Lip lift surgery (subnasal bullhorn)** shortens the philtrum by removing skin under the nose. It leaves a scar that can be visible, and the skin cannot be put back.
+- **Orthodontic treatment or jaw surgery** treats bite problems such as Class II or Class III malocclusion. That is a medical decision, and we don't recommend jaw surgery for appearance.
 - **Mewing and posture correction** may help younger individuals support forward facial growth, though evidence for adult structural change remains limited.
 
 Talk to a qualified professional, such as a maxillofacial surgeon, orthodontist, or board-certified plastic surgeon, before considering any of these options. Self-diagnosis from photos has limits, and clinical evaluation includes factors photographs cannot capture.

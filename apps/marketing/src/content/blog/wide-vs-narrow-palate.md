@@ -122,13 +122,13 @@ The mid-palatal suture is still open, making expansion relatively straightforwar
 
 ### In Older Adolescents and Young Adults
 
-As the suture begins to interdigitate (the bone edges become interlocked), conventional RPEs become less effective. **Surgically assisted rapid palatal expansion (SARPE)** involves a minor surgical procedure to release the suture before applying expander forces. This approach extends the window for non-surgical expansion into the mid-twenties for some patients.
+As the suture begins to interdigitate (the bone edges become interlocked), conventional RPEs become less effective. **Surgically assisted rapid palatal expansion (SARPE)** involves a minor surgical procedure to release the suture before applying expander forces. It is a treatment for bite and breathing problems, planned by an orthodontist and a surgeon, not a cosmetic procedure.
 
 ### In Adults
 
 For fully fused sutures, the most reliable option is **MARPE** (miniscrew-assisted rapid palatal expansion). This uses small titanium screws anchored directly into the palatal bone to apply force without relying on the teeth. Research on MARPE in adults is still accumulating, but results in younger adults (late twenties and early thirties) are generally promising. Outcomes vary with age and individual bone density.
 
-For severe skeletal discrepancies, **Le Fort I osteotomy** (a form of orthognathic surgery that repositions the maxilla) combined with surgically assisted expansion is the most definitive approach.
+For severe skeletal discrepancies, **Le Fort I osteotomy** (a form of orthognathic surgery that repositions the maxilla) combined with surgically assisted expansion is used. It is major surgery with risks including lasting numbness of the upper lip and teeth, relapse and a long recovery, and we don't recommend it for appearance.
 
 **Talk to a qualified orthodontist or oral and maxillofacial surgeon before considering any of these procedures.** The right intervention depends on your age, the degree of narrowing, your occlusion, and your airway anatomy. There is no one-size-fits-all protocol.
 
@@ -160,7 +160,7 @@ If you are unsure where your own facial structure stands and want an objective l
 
 ### If You Are Over 30
 
-- Surgical options (SARPE or orthognathic surgery) are available but involve more commitment in terms of recovery and cost.
+- Surgical options (SARPE or orthognathic surgery) are for bite and breathing problems. We don't recommend them for appearance.
 - Focus on what is controllable: nasal breathing, tongue posture, sleep quality, and overall facial muscle use.
 - Cosmetic orthodontics can address dental alignment without changing bone.
 

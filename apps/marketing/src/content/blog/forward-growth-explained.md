@@ -148,6 +148,6 @@ One challenge with hyoid training is that the changes are gradual and the area i
 
 Hyoid exercises and tongue posture can genuinely influence the resting position of the hyoid and the muscle tone of the suprahyoid group. What they cannot do is change bone structure in a skeletally mature adult, address significant soft tissue excess, or compensate for severe structural asymmetry.
 
-If your primary concern is the cervicomental angle and conservative methods have not produced the results you want after consistent effort, options such as neck liposuction, submental procedures, or orthognathic evaluation exist. Talk to a qualified professional, such as a maxillofacial surgeon or orofacial myofunctional therapist, before considering any of those routes.
+If your primary concern is the cervicomental angle and conservative methods have not produced the results you want after consistent effort, neck liposuction and other procedures are sold for it. We don't recommend them for appearance: risks include uneven contours, nerve injury and loose skin. An orofacial myofunctional therapist can help with tongue posture and swallowing, and bite or breathing problems are a question for an orthodontist.
 
 For the majority of people reading this, the protocol above, done consistently, will produce real and noticeable improvement in neck definition and jaw sharpness over the course of several months.

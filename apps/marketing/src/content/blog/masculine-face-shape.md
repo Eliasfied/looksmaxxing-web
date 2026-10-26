@@ -14,7 +14,7 @@ faq:
   - q: What is the most important feature for a masculine face shape?
     a: The jawline, specifically the width between the jaw angles (bigonial width) and the sharpness of the gonial angle, is the most influential single feature. A wide, defined jaw is the primary visual signal of facial masculinity and is more impactful than any other single feature.
   - q: Can you change your face shape without surgery?
-    a: You can improve the appearance of your facial structure through body fat reduction, masseter muscle development, neck training, and posture correction. These changes work within your existing bone structure rather than altering it. For permanent structural changes, surgical options exist but require a qualified professional consultation.
+    a: You can improve the appearance of your facial structure through body fat reduction, masseter muscle development, neck training, and posture correction. These changes work within your existing bone structure rather than altering it. Surgery can change the bone, but we don't recommend it for appearance because of its risks.
   - q: Does mewing actually work for adults?
     a: The evidence for mewing producing structural changes in adults is largely anecdotal since adult cranial sutures are fused. For younger people still in development, there is more plausible rationale. For adults, the main practical benefit is posture correction, which can improve how the jaw looks in person and in photos.
   - q: How does body fat percentage affect facial masculinity?
@@ -143,12 +143,12 @@ One challenge with self-assessment is that people are notoriously bad at objecti
 
 ## When to Consider Professional Options
 
-For people who want structural changes beyond what lifestyle and grooming can provide, there are clinical options. These range from non-surgical to surgical:
+Clinics sell procedures to change face shape. They are listed here so you know what they involve. **We don't recommend any of them for appearance.**
 
-- **Dermal fillers (jaw and chin)**: Hyaluronic acid fillers can add projection to the chin or definition to the jaw angle temporarily (typically 12 to 18 months). Results vary considerably with the injector's skill.
+- **Dermal fillers (jaw and chin)**: Fillers add projection to the chin or jaw angle for 12 to 18 months. They can migrate, form lumps or block a blood vessel, which can damage the skin.
 - **Masseter Botox**: Paradoxically, Botox in the masseter reduces its size. This is used to slim an overly wide lower face, the opposite of what most men seeking masculinity want. Worth knowing so you do not accidentally request the wrong procedure.
-- **Jaw implants**: Surgical implants at the jaw angle (gonial angle implants) or chin (genioplasty) can create permanent structural changes. These are significant procedures with real recovery times and risks.
-- **Orthognathic surgery**: For severe skeletal issues affecting bite and facial structure, jaw surgery can address underlying bone position.
+- **Jaw implants**: Implants at the jaw angle, or genioplasty on the chin bone, change structure permanently. Risks include infection, implants shifting, numbness of the lower lip and chin, and further surgery.
+- **Orthognathic surgery**: Jaw surgery is a treatment for bite and breathing problems, decided with a doctor, not a way to look more masculine.
 
 Talk to a qualified maxillofacial surgeon or board-certified plastic surgeon before considering any of these procedures. Understand the risks, recovery, and realistic outcomes before committing.
 

@@ -118,12 +118,12 @@ This sits at the edge of looksmaxxing but matters in practice. Clothes that fit 
 
 Once the fundamentals are genuinely dialed in, some people consider more advanced interventions. These include things like cosmetic procedures, orthodontic work, or hormonal optimization. These carry real costs, risks, and tradeoffs.
 
-**Talk to a qualified medical professional before considering any cosmetic procedure, surgery, or pharmaceutical intervention.** This guide does not recommend specific procedures. It simply acknowledges that they exist and that their effects vary significantly between individuals.
+**We don't recommend cosmetic procedures, surgery or appearance-driven medication.** They carry real medical risks, and this guide acknowledges that they exist only so you can recognize them. Medical problems are a different matter and belong with a doctor.
 
 Common areas people explore at this stage include:
 
-- **Orthodontics and orthognathic considerations:** Teeth alignment and bite affect both facial symmetry and the apparent shape of the lower third of the face.
-- **Dermal fillers and neurotoxins:** May help address specific structural concerns under the guidance of a qualified dermatologist or plastic surgeon.
+- **Orthodontics:** Teeth alignment and bite affect both facial symmetry and the lower third of the face. Bite problems are a question for an orthodontist.
+- **Fillers and Botox:** Sold for structural concerns. We don't recommend them for appearance, because of risks such as blocked blood vessels, lumps and drooping.
 - **Hormonal health:** Testosterone and related hormones influence facial masculinization, skin quality, and body composition. Getting bloodwork done and addressing deficiencies through proper medical channels is reasonable if you suspect an issue.
 
 If you are seriously considering advanced interventions, it is worth getting a thorough, objective analysis of your current facial features first. [Aura](https://app.aura-looksmaxxing.com) can give you a detailed breakdown of your specific features, including hunter-eye detection and jawline scoring, so you know which areas are genuinely below your natural potential before spending money on procedures.

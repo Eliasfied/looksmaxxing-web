@@ -134,7 +134,7 @@ These do not change bone structure, but they significantly influence how facial 
 
 ### Procedures to Consider (With Professional Guidance)
 
-For those considering more significant interventions, options like **jaw filler, chin augmentation, or brow bone modification** exist and are performed by qualified practitioners. *Talk to a qualified medical professional before considering any cosmetic procedure.* Results, risks, and suitability vary significantly between individuals.
+Clinics also sell **jaw filler, chin augmentation and brow bone surgery** to make a face look more masculine or feminine. *We don't recommend them for appearance.* Their risks include blocked blood vessels, nerve damage, infection and results that cannot be undone.
 
 ![Guide to photographing your face for facial dimorphism and jawline self-assessment](/blog/facial-dimorphism-explained/3.webp)
 

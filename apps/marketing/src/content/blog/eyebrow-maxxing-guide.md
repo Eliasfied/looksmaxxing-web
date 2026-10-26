@@ -16,7 +16,7 @@ faq:
   - q: Can I use regular hair dye on my eyebrows?
     a: No. Standard hair dye contains peroxide concentrations too high for use near the eye area and can cause serious irritation or chemical burns. Use products specifically formulated for eyebrows or eyebrows and eyelashes.
   - q: Does minoxidil actually grow eyebrow hair?
-    a: Research suggests minoxidil may help extend the growth phase of eyebrow hair follicles, and some users report visible density increases after 4 to 6 months of consistent use. Results are not guaranteed and this is off-label use, so consult a dermatologist before starting.
+    a: Research suggests minoxidil may help extend the growth phase of eyebrow hair follicles, and some users report visible density increases after 4 to 6 months of consistent use. It is off-label use of a blood-pressure medication near the eyes, results fade when you stop, and we don't recommend it for appearance.
   - q: How far apart should eyebrows be for a balanced look?
     a: The inner corners of each eyebrow should roughly align with the inner corners of the eyes. A gap that is too narrow creates a compressed look, while a gap that is too wide can make the nose appear broader. This proportion holds across most face shapes.
 draft: false
@@ -88,7 +88,7 @@ If your brows sit high on your forehead and you want a more low-set look, there 
 - **Fill in the lower edge:** using brow pencil to extend pigment slightly downward creates the illusion of a lower-set brow
 - **Grow out the lower hairs:** allowing straying hairs below the brow to grow in slightly adds downward visual weight
 
-Surgical options for brow lowering exist (brow ptosis surgery), but this is a significant procedure. Talk to a qualified plastic surgeon or oculoplastic specialist before considering anything surgical.
+Surgery to change brow position exists, but we don't recommend it for appearance: risks include scarring, numbness of the forehead and scalp, and a brow that ends up uneven or looking surprised. A brow that droops so far it affects your vision is a medical question for an oculoplastic surgeon.
 
 ### How to Get Low Set Eyebrows Without Procedures
 
@@ -110,7 +110,7 @@ Important caveats:
 - Results typically require 4 to 6 months of consistent use to assess
 - Hair shed may occur when stopping
 
-**Talk to a qualified dermatologist before starting minoxidil for eyebrow growth.** This is especially important if you have any underlying health conditions or are taking other medications.
+**We don't recommend minoxidil on the eyebrows for appearance.** It is a blood-pressure medication used off-label next to the eyes, results fall out when you stop, and side effects include unwanted hair on the forehead, skin and eye irritation and, more rarely, effects on heart rate. If your brows are thinning without an obvious reason, see a doctor, because it can be a sign of a thyroid problem or another condition. More in our [minoxidil eyebrows guide](/blog/minoxidil-eyebrows).
 
 ![Minoxidil eyebrows before and after showing increased brow density](/blog/eyebrow-maxxing-guide/3.webp)
 
@@ -144,7 +144,7 @@ Dye is a good starting point, but it's one variable among several. A structured 
 
 1. **Assess your current brows objectively.** Look at color relative to your hair, thickness, arch position, spacing, and vertical placement on the face. If you want outside input, [Aura](https://app.aura-looksmaxxing.com) provides an AI-based facial analysis that evaluates feature proportions including brow area.
 2. **Prioritize shape before color.** Get the arch and tail position right through threading, waxing, or careful tweezing before adding dye.
-3. **Address density if needed.** If sparse brows are limiting your results, consult a dermatologist about options including minoxidil or microblading.
-4. **Add color last.** Once shape and density are where you want them, dye gives definition and makes the final result more impactful.
+3. **Address density if needed.** Stop over-plucking and let brows grow back for a few months, and fill gaps with a pencil or powder. Unexplained thinning is worth a doctor's look.
+4. **Add color last.** A brow pencil, powder or tinted gel gives definition. Be careful with dyes near the eyes: in the United States no dye is approved for tinting eyebrows, and eye injuries have been reported.
 
 Consistency matters more than any single product or technique. Eyebrow shape changes slowly, density changes slowly, and the compound effect of several months of correct grooming is usually more significant than any single intervention.

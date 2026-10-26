@@ -16,7 +16,7 @@ faq:
   - q: Does ramus height affect bite?
     a: Yes. Ramus height is closely tied to the vertical relationship between the upper and lower jaws. A very short ramus can contribute to an open bite, while certain ramus and mandibular plane configurations are associated with deep bite or crossbite. Orthodontists routinely assess ramus height as part of treatment planning.
   - q: Can you increase ramus height without surgery?
-    a: Bone height cannot be meaningfully increased without surgical intervention in an adult. During adolescence, growth modification appliances used in orthodontics may influence jaw development to a degree. In adults, non-surgical approaches work on soft tissue and muscle, not on ramus bone height itself.
+    a: Not in an adult. During adolescence, growth modification appliances used in orthodontics may influence jaw development to a degree. In adults, body fat, muscle and grooming change how the jaw reads. Surgery changes the bone, but we don't recommend it for appearance.
   - q: Is a long ramus more attractive than a short one?
     a: There is no universal answer. A long ramus with a well-defined gonial angle and proportionate lower face height is often considered aesthetically favorable in male faces, particularly in Western beauty norms. However, an excessively long ramus that creates a narrow, elongated face is not. Short ramus height can be attractive when paired with good jaw width and chin projection. Proportion and context always matter more than any single measurement.
 draft: false
@@ -120,7 +120,7 @@ For a more structured baseline, [Aura](https://app.aura-looksmaxxing.com) provid
 
 ## What Can Be Done About Ramus Height
 
-This section covers options ranging from non-surgical to surgical. Always talk to a qualified medical or dental professional before considering any of these.
+This section covers the options, including surgery. **We don't recommend surgery or implants for appearance.** Jaw surgery exists for bite and breathing problems, and if you have one of those, an orthodontist or oral and maxillofacial surgeon can assess it.
 
 ### Non-Surgical Options
 
@@ -134,16 +134,16 @@ This section covers options ranging from non-surgical to surgical. Always talk t
 
 These are serious interventions. They are not casual upgrades.
 
-- **Orthognathic surgery.** This is jaw repositioning surgery, often combined with orthodontic treatment. It can change the vertical and horizontal position of the mandible. Some patients with genuine skeletal discrepancies are candidates. Recovery is significant.
-- **Ramus sagittal split osteotomy (SSRO).** A specific surgical technique that allows surgeons to adjust the vertical and horizontal position of the lower jaw by splitting the ramus. Used for both functional and aesthetic correction.
-- **Jaw angle implants.** These do not change ramus height directly but can add definition to the gonial angle area, making the jaw corner appear more prominent.
-- **Genioplasty.** A chin repositioning surgery that adjusts chin height and projection. Because the chin interacts so directly with the ramus in facial proportions, genioplasty is sometimes used to compensate for ramus height discrepancies without touching the ramus itself.
+- **Orthognathic surgery.** This is jaw repositioning surgery, often combined with orthodontic treatment. It can change the vertical and horizontal position of the mandible, and it is meant for functional problems. Risks include lasting numbness of the lower lip and chin, relapse and a recovery of months.
+- **Ramus sagittal split osteotomy (SSRO).** A specific surgical technique that allows surgeons to adjust the vertical and horizontal position of the lower jaw by splitting the ramus. The nerve to the lower lip runs through the area being split, which is why numbness after this surgery is common and sometimes permanent.
+- **Jaw angle implants.** These add shape at the jaw corner without changing ramus height. Risks include infection, implants shifting, nerve damage and further surgery.
+- **Genioplasty.** A chin repositioning surgery that adjusts chin height and projection. Because the chin interacts so directly with the ramus in facial proportions, genioplasty is sometimes used to balance ramus height. Risks include numbness of the lower lip and chin, and asymmetry.
 
 These procedures carry real risks including nerve damage, asymmetry, and extended recovery. Consult with a board-certified oral and maxillofacial surgeon or craniofacial surgeon to understand whether you are a candidate and what realistic outcomes look like.
 
 ## Practical Tips for Working With Your Ramus Height
 
-If you are not considering surgery, there are still practical steps worth taking.
+These are the practical steps worth taking.
 
 1. **Get a proper assessment first.** Know what you are working with before trying to fix it. A lateral photo with consistent lighting, or a consultation with an orthodontist, gives you real data.
 2. **Focus on overall facial harmony, not just one metric.** Ramus height only matters in the context of your full facial structure. A short ramus in a face with great chin projection and midface proportions may need no intervention.

@@ -12,13 +12,13 @@ readingTime: 8
 related: [how-to-get-low-set-eyebrows, how-to-thicken-eyebrows-men, how-to-ascend-looksmaxxing]
 faq:
   - q: Can asymmetrical eyebrows be fixed permanently without surgery?
-    a: Semi-permanent options like microblading can last one to two years and create a more symmetrical appearance, but they are not truly permanent. They fade and need to be maintained. For a lasting structural correction, surgical options exist but are rarely necessary for brow-level asymmetry alone.
+    a: Semi-permanent options like microblading can last one to two years and create a more symmetrical appearance, but they fade and need to be maintained. Surgery exists, but we don't recommend it for brow asymmetry, which almost everyone has to some degree.
   - q: Is it possible to fix eyebrow asymmetry by filling only one brow?
     a: "Yes, and this is often the most effective approach. Identify the better-shaped brow, then use a pencil or powder to bring the weaker brow's arch height, head position, and tail length closer to it. You do not need to alter the stronger brow at all."
   - q: How long does it take for over-plucked brows to grow back and even out?
     a: Most brow hairs complete a full growth cycle in roughly four to six months. Growing out an over-plucked brow to its full natural density typically takes three to six months, though this varies by individual. Brow serums with peptide ingredients may support the process for some people.
   - q: Can Botox really fix uneven eyebrow height?
-    a: In the right hands, yes. A small amount of botulinum toxin can relax the muscle pulling one brow upward or allow a depressed brow to sit slightly higher. The effect is temporary, lasting about three to four months, and must be performed by a qualified medical professional. Talk to a qualified professional before considering this option to understand whether it suits your specific anatomy.
+    a: It can shift brow height slightly by relaxing the muscle pulling one brow upward. The effect lasts about three to four months, and side effects include a drooping brow or eyelid. We don't recommend it for appearance; grooming and a brow pencil even out most asymmetry without that risk.
 draft: false
 ---
 
@@ -114,6 +114,8 @@ Brow lamination is a chemical process that restructures brow hairs to lie in a u
 
 ### Botox for Brow Position
 
+**We don't recommend Botox for brow symmetry.** It is covered here so you know what it involves. Side effects include a drooping brow or eyelid, a brow that ends up more uneven, and headaches, and it has to be repeated every few months.
+
 If your asymmetry is driven by muscle imbalance rather than shape, a small amount of botulinum toxin injected into the frontalis or procerus muscle on the dominant side can relax that side's lift, bringing the higher brow down. Conversely, injecting the depressor supercilii on the lower side may allow that brow to sit higher.
 
 This requires a qualified medical professional, ideally a dermatologist or plastic surgeon with facial anatomy expertise. Results last three to four months. **Talk to a qualified professional before considering any injectable treatment.** Results vary, and injecting the wrong area can temporarily affect eyelid position.
@@ -140,7 +142,7 @@ The goal is not a mathematically perfect face. It is a face that reads as balanc
 ## FAQ
 
 **Q: Can asymmetrical eyebrows be fixed permanently without surgery?**
-A: Semi-permanent options like microblading can last one to two years and create a more symmetrical appearance, but they are not truly permanent. They fade and need to be maintained. For a lasting structural correction, surgical options exist but are rarely necessary for brow-level asymmetry.
+A: Semi-permanent options like microblading can last one to two years and create a more symmetrical appearance, but they fade and need to be maintained. Surgery exists, but we don't recommend it for brow asymmetry, which almost everyone has to some degree.
 
 **Q: Is it possible to fix eyebrow asymmetry by filling only one brow?**
 A: Yes, and this is often the most effective approach. Identify the better-shaped brow, then use a pencil or powder to bring the weaker brow's arch height, head position, and tail length closer to it. You do not need to alter the stronger brow at all.
@@ -149,4 +151,4 @@ A: Yes, and this is often the most effective approach. Identify the better-shape
 A: Most brow hairs grow in full cycles of roughly four to six months. Growing out an over-plucked brow to its full density typically takes three to six months, though this varies significantly by individual. Brow serums with peptide ingredients may support the process.
 
 **Q: Can Botox really fix uneven eyebrow height?**
-A: In the right hands, yes. A small amount of botulinum toxin can relax the muscle pulling one brow upward or allow a depressed brow to lift slightly. The effect is temporary, lasting about three to four months, and must be performed by a qualified medical professional. Talk to a qualified professional before considering this option to understand whether it suits your specific anatomy.
+A: It can shift brow height slightly by relaxing the muscle pulling one brow upward. The effect lasts about three to four months, and side effects include a drooping brow or eyelid. We don't recommend it for appearance; grooming and a brow pencil even out most asymmetry without that risk.

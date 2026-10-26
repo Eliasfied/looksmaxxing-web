@@ -14,7 +14,7 @@ faq:
   - q: What is the ideal philtrum length for men and women?
     a: For women, research suggests an optimal philtrum length of roughly 11 to 13 mm. For men, the range is slightly higher at around 13 to 15 mm. These are averages from aesthetic studies, not absolute standards, and should be interpreted in the context of your overall facial proportions.
   - q: Can a long philtrum be fixed without surgery?
-    a: Non-surgical options like a botulinum toxin lip flip or strategic lip filler placement can reduce the visual appearance of a long philtrum, but they do not change the actual length. For a permanent reduction, surgical lip lift procedures are the only reliable structural option.
+    a: Not in length. A mustache or stubble changes how it reads. A lip flip, lip filler and lip lift surgery are also sold for this, but we don't recommend them for appearance, because of risks such as lumps, an uneven smile and permanent scarring.
   - q: Does the philtrum change with age?
     a: Yes. The philtrum tends to elongate as we age due to loss of soft tissue volume, changes in bone structure, and skin laxity. This is one reason a shorter, well-defined philtrum is often associated with a more youthful appearance.
   - q: How does the philtrum affect lip shape?
@@ -52,7 +52,7 @@ That said, aesthetic studies do offer useful benchmarks:
 
 - In adult women, a philtrum length of roughly **11 to 13 mm** is frequently cited as aesthetically optimal in the plastic surgery literature.
 - In adult men, the range tends to sit slightly higher, around **13 to 15 mm**, partly because male faces are larger overall.
-- A philtrum exceeding **16 to 18 mm** is generally considered elongated and is one of the more common concerns people bring to maxillofacial surgeons.
+- A philtrum exceeding **16 to 18 mm** is generally considered elongated. The philtrum also lengthens naturally with age.
 
 These numbers come from studies analyzing facial attractiveness ratings and are averages, not hard cutoffs. Your ethnicity, jaw height, and overall facial proportions all shift what looks balanced on your specific face.
 
@@ -103,7 +103,7 @@ Here is the honest answer: the philtrum is one of the harder facial features to 
 
 ### Non-Surgical Options
 
-**Lip filler placement:** A skilled injector can use hyaluronic acid filler to accentuate the philtral columns and enhance the Cupid's bow without altering the philtrum's actual length. This works by adding volume to the ridges, making them cast more shadow and appear more defined. It does not shorten a long philtrum, but it can make an undefined one look sharper.
+**Lip filler placement:** Filler is sold to sharpen the philtral columns and the Cupid's bow. It does not shorten a long philtrum. We don't recommend it for appearance: lip filler can block a blood vessel and damage the lip tissue, and it can form lumps or migrate above the lip line.
 
 **Lip flip with botulinum toxin:** A small amount of botulinum toxin injected into the orbicularis oris muscle above the upper lip causes a slight eversion (outward roll) of the lip, which can visually reduce the apparent length of the philtrum by bringing the lip edge upward. The effect is subtle and temporary.
 
@@ -111,13 +111,15 @@ Here is the honest answer: the philtrum is one of the harder facial features to 
 
 ### Surgical Options
 
-For those with a significantly elongated philtrum, **lip lift surgery** is the most direct intervention. The most common technique is the **bullhorn lip lift** (subnasal lip lift), which removes a strip of skin directly beneath the nose to shorten the philtrum and elevate the upper lip.
+This is covered so you know what the procedure involves. **We don't recommend it for appearance.**
+
+For those with a significantly elongated philtrum, **lip lift surgery** is the most direct intervention. The most common technique is the **bullhorn lip lift** (subnasal lip lift), which removes a strip of skin directly beneath the nose to shorten the philtrum and elevate the upper lip. It leaves a scar under the nose that can be visible, can change the shape of the nostrils, and can leave the upper lip looking overdone or showing too much teeth, and the removed skin cannot be put back.
 
 Research suggests satisfaction rates for lip lift procedures are high when patient selection is appropriate and the procedure is performed by an experienced surgeon. Results are permanent, and the scar typically sits in the natural crease at the nose base where it becomes inconspicuous over time.
 
 A less invasive option is the **corner lip lift**, which addresses the lateral lip corners rather than philtrum length directly, and is sometimes combined with a subnasal lift.
 
-**Talk to a qualified medical professional before considering any surgical or injectable procedure.** Outcomes vary based on individual anatomy, and what works well for one person may not be appropriate for another.
+**A mustache, stubble and lip care change how the philtrum reads without any risk.** For appearance alone, we don't think injections or surgery are worth their risks.
 
 ![Comparison of short versus long philtrum proportions on stylized face profiles](/blog/philtrum-explained/3.webp)
 

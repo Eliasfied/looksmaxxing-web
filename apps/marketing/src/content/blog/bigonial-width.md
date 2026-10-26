@@ -110,13 +110,15 @@ While these do not alter bigonial width itself, improving skin quality and maint
 
 ### Surgical Options
 
-**Jaw angle implants**: Custom or standard silicone implants placed over the mandibular angle can increase both the lateral flare and vertical height of the gonial region, directly widening the apparent bigonial width.
+These are covered so you can judge what clinics offer. **We don't recommend any of them for appearance.**
 
-**Masseter Botox**: Counterintuitively, Botox injections into the masseter reduce muscle bulk, which narrows the apparent bigonial width. This is used therapeutically for teeth grinding and aesthetically for those seeking a slimmer lower face.
+**Jaw angle implants**: Custom or standard silicone implants placed over the mandibular angle widen the jaw corners. Risks include infection, implants shifting, nerve damage to the lower lip and chin, and further surgery.
 
-**Orthognathic surgery**: In cases of skeletal malocclusion, surgical repositioning of the jaws can alter bigonial width as a secondary effect, though this is not typically performed for cosmetic reasons alone.
+**Masseter Botox**: Counterintuitively, Botox injections into the masseter reduce muscle bulk, which narrows the apparent bigonial width. It has medical uses such as severe teeth grinding. Used for a slimmer face, it has to be repeated every few months and can cause weaker chewing and an uneven smile.
 
-Talk to a qualified maxillofacial surgeon or board-certified plastic surgeon before considering any surgical option. Individual anatomy, bone structure, and soft tissue characteristics vary significantly and must be assessed in person.
+**Orthognathic surgery**: In cases of skeletal malocclusion, surgical repositioning of the jaws can alter bigonial width as a secondary effect, and it is an operation for bite problems, not for appearance.
+
+If you have pain, a bite problem or teeth grinding, a dentist or maxillofacial surgeon can assess it. For jaw width as a matter of appearance, these procedures are not worth their risks.
 
 ![Comparison of wide versus narrow bigonial width and its effect on facial proportion](/blog/bigonial-width/3.webp)
 
@@ -127,7 +129,7 @@ If you want to work with your bigonial width intentionally, here is a grounded a
 1. **Get a baseline measurement.** Use a flexible tape or ask a clinician to measure your jaw width. Note the number and track it over time.
 2. **Photograph consistently.** Take frontal and 3/4-view photos in the same lighting and head position each month. Visual progress is easier to track than numbers alone.
 3. **Assess your proportions, not just the number.** A bigonial width of 100 mm means little without knowing your bizygomatic width. Aim to understand your full facial geometry. [Aura](https://app.aura-looksmaxxing.com) provides a structured proportional analysis that covers jawline alongside other key measurements.
-4. **Focus on controllable variables first.** Body fat, masseter volume, and skin quality are all modifiable without medical intervention. Start there before considering invasive options.
-5. **Be realistic about bone.** Post-puberty, bone remodeling is slow and limited through natural means. Meaningful skeletal change typically requires surgical intervention.
-6. **Consult before acting on surgical interest.** If you are considering implants or other procedures, see at least two board-certified surgeons for independent opinions.
+4. **Focus on controllable variables.** Body fat, masseter volume, skin quality and facial hair all change how the jaw reads, without medical intervention.
+5. **Be realistic about bone.** After puberty, bone structure is largely fixed, and that is fine. Changing it takes surgery, which we don't recommend for appearance.
+6. **Judge the whole face.** Jaw width only matters relative to the rest of the face, and small differences matter far less than they seem in the mirror.
 

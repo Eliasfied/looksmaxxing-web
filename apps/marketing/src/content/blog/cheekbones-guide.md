@@ -16,7 +16,7 @@ faq:
   - q: Does zygo pulling actually change the shape of your cheekbones?
     a: There is no peer-reviewed clinical evidence that manual zygo pulling or pushing produces measurable changes in malar bone position in skeletally mature adults. Bone remodeling requires sustained, precisely applied mechanical force over time, and hand pressure alone is unlikely to achieve this. Focus on evidence-backed approaches like body fat reduction and posture correction first.
   - q: Are high-set cheekbones always more attractive than low cheekbones?
-    a: Not universally. High-set cheekbones with a submalar hollow tend to rate well in Western attractiveness research, but aesthetic preferences vary significantly across cultures. In some East Asian beauty contexts, for example, a wide bizygomatic face is considered unflattering, and malar reduction surgery is commonly sought. Attractiveness is always relative to the full facial composition.
+    a: Not universally. High-set cheekbones with a submalar hollow tend to rate well in Western attractiveness research, but aesthetic preferences vary significantly across cultures. In some East Asian beauty contexts, for example, a wide face at the cheekbones is considered unflattering. Attractiveness is always relative to the full facial composition.
   - q: What is the fastest non-surgical way to make cheekbones look more prominent?
     a: Reducing body fat is typically the most impactful non-surgical approach, since the malar fat pad sits directly over the zygomatic bone and obscures definition at higher body fat levels. Beyond that, correcting forward head posture and using side lighting in photos can immediately improve how your cheekbone structure reads. These changes require no equipment and carry no risk.
 draft: false
@@ -87,7 +87,7 @@ Discussions of cheekbone aesthetics often treat a single Western standard as uni
 - Malar eminence that is sometimes positioned more anteriorly (forward-projecting) rather than laterally
 - Flatter orbital rims and a less pronounced infraorbital hollow
 
-In East Asian cosmetic surgery markets, **malar reduction** (shaving or repositioning the zygomatic bone to reduce facial width) is one of the most performed facial bone procedures, because a wide bizygomatic width is sometimes considered unflattering in certain cultural contexts. This is the opposite concern from Western markets, where many patients seek augmentation.
+In some East Asian beauty contexts, a wide face at the cheekbones is considered unflattering, the opposite of the Western ideal. That alone shows how much of cheekbone attractiveness is cultural rather than a fixed standard.
 
 The takeaway: there is no single "correct" malar bone structure. Evaluation should always be relative to the rest of your facial skeleton, your soft tissue coverage, and your own aesthetic goals.
 
@@ -135,11 +135,14 @@ Before investing time in any protocol, it helps to know your actual starting poi
 
 For those with genuinely recessed cheekbones who have already optimized non-surgical options, clinical interventions exist:
 
-- **Dermal fillers** (hyaluronic acid) injected into the malar region can add projection and volume. Results are temporary, typically lasting 12 to 18 months.
-- **Malar implants** are solid silicone implants placed over the zygomatic bone through small incisions inside the mouth or below the lower eyelid. Results are permanent.
-- **Fat grafting** transfers your own fat to the malar region for a more natural augmentation.
+Clinics sell the following for cheekbones. They are listed so you know what they involve. **We don't recommend any of them for appearance.**
 
-All of these carry real risks including asymmetry, nerve damage, infection, and implant displacement. **Consult a board-certified maxillofacial surgeon or plastic surgeon before pursuing any of these options.**
+- **Dermal fillers** injected into the cheekbone region add volume for 12 to 18 months. Risks include lumps, migration and, rarely, filler blocking a blood vessel, which close to the eye can affect vision.
+- **Malar implants** are silicone implants placed over the cheekbone through incisions inside the mouth or below the lower eyelid. Risks include infection, shifting, numbness of the cheek and upper lip, and further surgery.
+- **Fat grafting** transfers your own fat to the cheeks. How much survives is unpredictable, which can leave lumps or an uneven result.
+- **Malar reduction** cuts and moves the cheekbone to narrow the face, with risks including sagging cheeks, asymmetry and bone that does not heal properly.
+
+Lower body fat, a haircut and facial hair that frame the face, and good lighting change how cheekbones read without any of those risks.
 
 ## Recessed Cheekbones vs. Prominent Zygos: How to Tell the Difference
 

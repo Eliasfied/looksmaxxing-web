@@ -135,7 +135,7 @@ Clavicle width is determined by bone length, which is set during skeletal develo
 - **Clothing choices**, such as structured shoulder seams, horizontal stripes at shoulder level, or layering that adds visual mass at the shoulder
 - **Body fat levels**, since a leaner midsection improves the shoulder-to-waist ratio even without wider shoulders
 
-For those who have researched surgical options such as clavicle-lengthening procedures: these exist but are rare, carry significant risk, and require a long recovery. **Talk to a qualified orthopedic or plastic surgeon before considering any surgical intervention on bone structure.** This is not a decision to make based on aesthetic goals alone.
+For those who have researched surgical options such as clavicle-lengthening procedures: these exist but are rare, carry significant risks such as nerve damage, hardware failure and bone that does not heal, and require a long recovery. **We don't recommend them.** Shoulder and back training changes how wide the frame looks without those risks.
 
 ## Practical Tips for Working With Your Frame
 

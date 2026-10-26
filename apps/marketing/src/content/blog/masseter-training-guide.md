@@ -163,4 +163,4 @@ Masseter training is not a short-term project. The changes, when they occur, are
 
 After that point, you will have enough data from photos and objective measurements to decide whether to continue, increase intensity, or adjust your approach. Many people who stick with it for 16 to 24 weeks report meaningful changes in jaw definition and facial angularity. Consistency is the main variable.
 
-If you decide to explore other interventions beyond training (such as masseter Botox for asymmetry correction or other procedures), always consult a qualified medical professional before proceeding. Training-based approaches carry low risk when done with reasonable volume and rest, but clinical procedures carry different considerations entirely.
+Masseter Botox and other procedures are also sold for jaw shape. We don't recommend them for appearance: Botox can weaken chewing and cause an uneven smile. Training carries low risk when done with reasonable volume and rest. If you have jaw pain or clicking, see a dentist.

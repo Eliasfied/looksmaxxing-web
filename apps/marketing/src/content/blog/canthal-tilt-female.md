@@ -81,7 +81,7 @@ Most online claims about canthal tilt trace back to a small number of papers. Ea
 
 ### The edited-faces study behind the "93%" number
 
-Bashour and Geist published a study in *Ophthalmic Plastic and Reconstructive Surgery*. Judges made a forced choice between two versions of the same female face:
+Bashour and Geist published a study in an ophthalmology journal. Judges made a forced choice between two versions of the same female face:
 
 - an unmodified photo, and
 - a version with the medial canthal tilt accentuated in Photoshop.
@@ -195,7 +195,7 @@ It gives a subjective styling read, not a calibrated canthal tilt measurement. T
 
 ## A note on procedures
 
-Some surgical procedures reposition or tighten the outer corner of the eye, often under the name canthoplasty. The sources used for this article do not evaluate surgical outcomes, risks or recovery, so it makes no claims about them.
+Some surgical procedures reposition or tighten the outer corner of the eye, often under the name canthoplasty. **We don't recommend them for appearance.** They can leave the eye looking unnatural or uneven, the lower lid pulled down, and the eyes dry, and the changes can be permanent.
 
 **Talk to a qualified professional before considering this.** If you do book a consultation, a board-certified oculoplastic or facial plastic surgeon can explain:
 

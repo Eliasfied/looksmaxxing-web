@@ -50,7 +50,7 @@ Vertically, the face is divided into five equal segments, each approximately one
 
 ### The Phi Ratio and Neoclassical Canons
 
-You have likely heard of the golden ratio (approximately 1.618). While its application to faces is sometimes overstated in popular media, research does suggest that faces closer to certain proportional relationships are rated more attractive on average. The neoclassical canons, a set of proportional guidelines developed during the Renaissance, still influence both surgical planning and aesthetic analysis today.
+You have likely heard of the golden ratio (approximately 1.618). While its application to faces is sometimes overstated in popular media, research does suggest that faces closer to certain proportional relationships are rated more attractive on average. The neoclassical canons, a set of proportional guidelines developed during the Renaissance, still influence aesthetic analysis today.
 
 ### Gonial Angle and Mandibular Definition
 
@@ -133,9 +133,8 @@ Many facial aesthetic goals are achievable through lifestyle changes: body compo
 
 Areas where qualified professional consultation is relevant include:
 
-- **Orthodontics and orthognathic concerns:** Bite alignment, maxillary retrusion, and mandibular underdevelopment are structural issues that an orthodontist or oral surgeon can assess.
-- **Rhinoplasty or chin augmentation:** Nose and chin projection significantly affect facial balance. These are surgical procedures with real recovery times and risks.
-- **Dermal fillers and non-surgical options:** Qualified aesthetic practitioners can address specific concerns with fillers, neuromodulators, and other non-surgical tools.
+- **Orthodontics:** Bite problems and crooked teeth are medical and dental questions for an orthodontist.
+- **Surgery and injections:** Rhinoplasty, chin implants, fillers and Botox are sold to change facial balance. **We don't recommend them for appearance.** They carry risks such as nerve damage, blocked blood vessels, breathing problems and results that cannot be undone.
 
 **Always consult a qualified medical or dental professional before considering any invasive or semi-invasive procedure. No online assessment, AI tool, or guide should substitute for professional clinical evaluation.**
 

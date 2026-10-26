@@ -16,7 +16,7 @@ faq:
   - q: Is volufiline safe for daily lip use?
     a: Volufiline is generally considered well-tolerated in cosmetic formulations, and most products use concentrations between 3% and 5%. That said, the full ingredient list of any product matters, and you should patch-test before full application. Talk to a dermatologist if you have sensitive skin or underlying conditions.
   - q: Can volufiline replace lip filler?
-    a: "No. Volufiline may produce a mild, gradual increase in lip fullness for some users, but the effect is considerably more subtle than injectable hyaluronic acid filler. It's better viewed as a maintenance or enhancement tool rather than an alternative to clinical procedures."
+    a: "No. Volufiline may produce a mild, gradual increase in lip fullness for some users, but the effect is considerably more subtle than injectable filler. We don't recommend lip filler for appearance because of its risks, so a subtle topical effect is the realistic expectation."
   - q: What concentration of volufiline should I look for in a lip product?
     a: "The manufacturer's own studies used a 3% concentration. Many effective products on the market fall in the 3% to 5% range. Products that don't disclose their volufiline concentration may contain amounts too small to produce the mechanism the ingredient is known for."
 draft: false
@@ -38,7 +38,7 @@ Because volufiline works at a cellular level rather than through surface irritat
 
 ## The Science Behind Lip Volumizing
 
-The lips are composed of the orbicularis oris muscle, a thin layer of fat pads, and an outer layer of skin covered by the vermillion border. As we age, the fat compartments in and around the lips shrink, the vermillion border becomes less defined, and the Cupid's bow flattens. Volume loss is primarily structural, which is why surgical and injectable options remain the most effective interventions.
+The lips are composed of the orbicularis oris muscle, a thin layer of fat pads, and an outer layer of skin covered by the vermillion border. As we age, the fat compartments in and around the lips shrink, the vermillion border becomes less defined, and the Cupid's bow flattens. Volume loss is primarily structural, which is why clinics sell injectable and surgical lip enhancement. We don't recommend those for appearance: lip filler can block a blood vessel and damage the lip tissue, and it can form lumps or migrate above the lip line.
 
 Topical ingredients like volufiline are working at the margins of this process. *In vitro* studies (lab studies, not human clinical trials) show that sarsasapogenin can increase lipid accumulation in fat cells by up to 492% under controlled conditions. However, translating lab results to real skin, real lips, and real humans is always a significant step, and clinical evidence for topical volufiline remains limited.
 
@@ -119,7 +119,6 @@ Volufiline-based products tend to suit a specific type of user.
 - People who want mild, natural-looking enhancement without injectables
 - Those with naturally thin lips seeking subtle improvement
 - Users comfortable with a gradual timeline and modest results
-- People who have had filler and want to maintain volume between appointments
 
 **Less ideal fit:**
 - Anyone expecting results comparable to hyaluronic acid filler

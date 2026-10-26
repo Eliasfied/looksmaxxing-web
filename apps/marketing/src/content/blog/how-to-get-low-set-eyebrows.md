@@ -14,11 +14,11 @@ faq:
   - q: Can you naturally lower your eyebrows without surgery?
     a: You cannot permanently lower the position of your brow follicles without a procedure, but grooming and makeup techniques can create the illusion of lower-set brows. Flattening the arch, filling the brow on its lower edge, and reducing hair on the top border all shift the visual weight of the brow downward. For many people, this is sufficient to achieve the look they want.
   - q: How much can Botox lower your eyebrows?
-    a: "Botox injections targeting the frontalis muscle may lower the brow by approximately two to five millimeters, depending on your anatomy and the injector's technique. Results vary and are not guaranteed. The effect lasts roughly three to four months. Always consult a qualified medical professional before pursuing this option."
+    a: "Botox injections targeting the frontalis muscle may lower the brow by approximately two to five millimeters, depending on your anatomy and the injector's technique. Results vary and are not guaranteed. The effect lasts roughly three to four months, and side effects include drooping brows or eyelids. We don't recommend it for appearance."
   - q: Do low-set eyebrows make you look more attractive?
     a: Attractiveness is subjective and depends heavily on overall facial harmony rather than any single feature. Low-set brows can create a more intense or grounded expression, which some people find appealing. Whether they improve your look depends on your specific bone structure, face shape, and the overall balance of your features.
   - q: What is the difference between brow lowering and forehead reduction surgery?
-    a: Brow lowering surgery repositions the brow itself by adjusting underlying tissue and fixation points. Forehead reduction removes a strip of skin at the hairline, pulling the scalp and brows downward as a result. Both achieve a lower brow position but through different approaches, with different incision placements and recovery profiles. A board-certified surgeon can help determine which is appropriate for your anatomy.
+    a: Brow lowering surgery repositions the brow itself by adjusting underlying tissue and fixation points. Forehead reduction removes a strip of skin at the hairline, pulling the scalp and brows downward as a result. Both achieve a lower brow position but through different approaches, with different incision placements and recovery profiles. Both leave permanent scars and carry risks such as scalp numbness and uneven brows, and we don't recommend either for appearance.
 draft: false
 ---
 
@@ -105,19 +105,19 @@ For men, textured or forward-swept styles that bring hair over part of the foreh
 
 ## Cosmetic Procedures: More Permanent Options
 
-If grooming and makeup do not get you where you want to be, there are cosmetic options worth knowing about. These range from minimally invasive to surgical.
+Clinics also sell injections and surgery to lower the brows. They are covered here so you know what they involve, but **we don't recommend any of them for appearance.**
 
 **Important: Always consult a qualified, board-certified medical professional before considering any cosmetic procedure. The information below is educational only and does not constitute medical advice.**
 
 ### Botox Brow Depression
 
-Botox can be used to lower the brow position by relaxing the frontalis muscle, the broad muscle across the forehead that pulls the brows upward. When this muscle is partially relaxed, the brow descends slightly. Some practitioners target specific points to lower the lateral or medial brow depending on the look desired.
+Botox can be used to lower the brow position by relaxing the frontalis muscle, the broad muscle across the forehead that pulls the brows upward. When this muscle is partially relaxed, the brow descends slightly. Side effects include heavy, drooping brows, a drooping upper eyelid, uneven brows and headaches, and the effect has to be repeated every few months.
 
 This is a nuanced procedure. Poorly placed injections can cause brow asymmetry or a heavy, drooping appearance that looks unnatural. Results last approximately three to four months. Some users report a noticeable lowering of about three to five millimeters with well-placed injections.
 
 ### Brow Lowering Surgery (Forehead Reduction or Brow Descent)
 
-For a permanent change in brow position, brow descent or forehead reduction surgery is the most direct option. In forehead reduction, a surgeon removes a strip of skin at the hairline, which pulls the entire scalp, including the brows, downward. In a brow descent procedure, the brows themselves are repositioned surgically.
+Surgery changes brow position permanently, including when the result is not what you wanted. Risks include a scar along the hairline that can become visible as hair thins, numbness of the scalp, hair loss along the scar and uneven brows. In forehead reduction, a surgeon removes a strip of skin at the hairline, which pulls the entire scalp, including the brows, downward. In a brow descent procedure, the brows themselves are repositioned surgically.
 
 These are significant procedures with real recovery times, risks, and costs. They are generally reserved for people who have exhausted non-surgical options and have a clear, stable aesthetic goal. Recovery can take several weeks, and results are permanent.
 
@@ -133,9 +133,9 @@ Here is a practical sequence for approaching this goal:
 2. **Start with grooming changes.** Adjust your arch shape, let the lower edge grow, and clean up the top. Give it six to eight weeks before judging results.
 3. **Add makeup techniques if needed.** Fill the brow lower, flatten the arch with your pencil, and experiment with forehead contouring.
 4. **Consider hairline and hairstyle adjustments.** Sometimes this alone does more than any brow-specific change.
-5. **If you want more change than non-invasive methods allow, consult a professional.** Botox is the lowest commitment cosmetic option and is reversible. Surgery is permanent and should be considered carefully.
+5. **Stop there.** Grooming, makeup and hairstyle are where brow position can be changed safely. We don't recommend Botox or surgery for appearance.
 
-Results from grooming and makeup are immediate and reversible. Botox effects are visible within one to two weeks and fade. Surgical results are long-term and require thorough planning.
+Results from grooming and makeup are immediate and reversible. Botox fades after a few months and can cause drooping brows or eyelids, and surgery leaves permanent scars, which is why we don't recommend either for appearance.
 
 ## Managing Expectations
 

@@ -9,7 +9,7 @@ cluster: gloss-orbital
 pubDate: 2026-05-19
 short_definition: Recessed infras describes infraorbital rims that lack forward projection, resulting in hollow or sunken under-eye areas and a flatter midface appearance.
 related_terms: [mewing, midface-projection, hunter-eyes, orbital-depth, psl-scale]
-examples: [His recessed infras make the under-eye area look hollow even though he has low body fat., Fixing recessed infraorbitals is one reason some people look into orbital rim implants during a full midface workup., After getting his Aura score, he noticed the app flagged recessed infras as a key area dragging down his midface rating.]
+examples: [His recessed infras make the under-eye area look hollow even though he has low body fat., Lower body fat and better sleep made his recessed infras far less noticeable., After getting his Aura score, he noticed the app flagged recessed infras as a key area dragging down his midface rating.]
 draft: false
 ---
 
@@ -27,4 +27,4 @@ The term gained traction in online aesthetics communities that applied clinical 
 
 Infraorbital projection is considered one of the more significant midface traits in PSL-style facial assessment. Those working on looksmaxxing often flag recessed infras as a factor behind tired-looking eyes or weak midface scores. Non-surgical approaches such as mewing, face yoga, or targeted facial exercises may help with soft-tissue support over time, though their effect on bone structure in adults is debated and research is limited.
 
-For those considering structural correction, options like infraorbital rim implants or filler placed along the orbital rim exist, but results vary by individual anatomy. Some users report improvement in under-eye appearance with filler, while others pursue surgical consultation. If you want a baseline read on your midface structure, Aura's AI face-rating tool at app.aura-looksmaxxing.com can assess orbital area and midface projection as part of a full facial breakdown. Always talk to a qualified medical professional before considering any surgical or injectable procedure.
+Orbital rim implants and under-eye filler are also sold for this. We don't recommend them for appearance: filler under the eye can block blood vessels connected to the eye and has caused vision loss, and implants carry risks of infection, shifting and numbness. If you want a baseline read on your midface structure, Aura's AI face-rating tool at app.aura-looksmaxxing.com can assess orbital area and midface projection as part of a full facial breakdown.

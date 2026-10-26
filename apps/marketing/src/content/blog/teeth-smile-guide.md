@@ -18,7 +18,7 @@ faq:
   - q: What smile width looks most attractive?
     a: Research on smile aesthetics generally finds that an 8 to 10 tooth smile reads as the most balanced across different face types, because it shows enough teeth to look open and warm without the outer teeth appearing shadowed. However, the right width for any individual depends on their arch shape, lip mobility, and overall facial proportions.
   - q: Can a narrow palate be widened in adults?
-    a: In adults, the mid-palatal suture is typically fused, which means standard orthodontic expanders used in children are less effective. Surgically assisted rapid palatal expansion (SARPE) is an option some adults pursue, but it involves oral surgery and a recovery period. This is a decision that requires consultation with a board-certified orthodontist or oral and maxillofacial surgeon.
+    a: In adults, the mid-palatal suture is typically fused, which means standard orthodontic expanders used in children are less effective. Surgically assisted rapid palatal expansion (SARPE) can widen it, but it is oral surgery meant for bite problems. An orthodontist can tell you whether your bite needs it; we don't recommend it for appearance.
 draft: false
 ---
 
@@ -107,14 +107,14 @@ If you are considering cosmetic reshaping, *talk to a qualified cosmetic dentist
 
 ## How Palate Expansion Affects Canine Appearance
 
-For people with a narrow palate who want a wider smile, palatal expansion is an option that orthodontists and oral surgeons assess on a case-by-case basis. In growing patients, a *rapid palatal expander (RPE)* is a common appliance. In adults, surgically assisted rapid palatal expansion (SARPE) may be required because the mid-palatal suture has fused.
+For a narrow palate, palatal expansion is a treatment orthodontists use when the bite needs it. In growing patients, a *rapid palatal expander (RPE)* is a common appliance. In adults, surgically assisted rapid palatal expansion (SARPE) may be required because the mid-palatal suture has fused.
 
 Expansion changes the canine position in the arch. As the arch widens:
 - Canines move laterally and may become more forward-facing
 - Buccal corridors (those dark side gaps) reduce
 - A 6 tooth smile can naturally evolve toward an 8 or 10 tooth smile over treatment
 
-This is a significant orthodontic and potentially surgical process. Results vary depending on age, bone density, and the degree of narrowing. Consult a board-certified orthodontist or oral and maxillofacial surgeon before considering this route.
+SARPE is surgery, with risks such as numbness of the upper lip and teeth and a recovery of weeks. If your bite is affected, an orthodontist can tell you whether you need it; for a wider smile alone, we don't recommend surgery.
 
 ![Illustration comparing 6, 8, 10, and 12 teeth smile widths with canines highlighted](/blog/teeth-smile-guide/3.webp)
 

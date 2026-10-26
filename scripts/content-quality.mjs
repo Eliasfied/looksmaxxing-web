@@ -62,7 +62,7 @@ export const isClinicalTreatment = (...texts) => texts.some(t => CLINICAL_TREATM
 // appearance. Lasers, peels, skincare peptides and the body's own hormones are
 // left out on purpose, so a sleep article that says growth hormone is released
 // at night is not treated as advice to inject it.
-const PROCEDURE_MENTION = /\b(surgery|surgical|osteotomy|implants?|transplants?|botox|kybella|rhinoplasty|blepharoplasty|genioplasty|septoplasty|otoplasty|canthoplasty|canthopexy|bimax|trimax|le ?fort|sarpe|orthognathic|(?:leg|limb) lengthening|liposuction|lipo|face ?lift|facelift|brow lift|neck lift|thread lift|buccal fat removal|finasteride|minoxidil|dutasteride|isotretinoin|accutane|hgh|trt|testosterone (?:replacement|injections?)|anabolic steroids?|(?<!beard |brow |eyebrow )fillers?(?! (?:pencil|pen|powder|fibers?|spray|kit)))\b/i;
+const PROCEDURE_MENTION = /\b(surgery|surgical|osteotomy|implants?|transplants?|botox|kybella|rhinoplasty|blepharoplasty|genioplasty|septoplasty|otoplasty|canthoplasty|canthopexy|bimax|trimax|le ?fort|sarpe|orthognathic|(?:leg|limb) lengthening|liposuction|lipo|face ?lift|facelift|brow lift|neck lift|thread lift|buccal fat removal|finasteride|minoxidil|dutasteride|isotretinoin|accutane|hgh|trt|testosterone (?:replacement|injections?)|anabolic steroids?|(?<!beard |brow |eyebrow )fillers?(?! (?:pencil|pen|powder|fibers?|spray|kit|words?)))\b/i;
 // Phrases that name a procedure only to rule it out are not a recommendation.
 const RULED_OUT = /\b(non-?surgical(ly)?|without (?:any )?(?:surgery|fillers?|implants?)|no (?:surgery|fillers?|implants?)|instead of (?:surgery|fillers?)|short of surgery|avoid(?:ing)? (?:surgery|fillers?))\b/gi;
 const ADVISES_AGAINST = /\bwe (?:do not|don['’]t) recommend\b/i;

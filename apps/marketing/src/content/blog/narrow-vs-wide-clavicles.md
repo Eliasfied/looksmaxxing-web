@@ -18,7 +18,7 @@ faq:
   - q: Do wide clavicles make you look more attractive?
     a: Research suggests that a higher shoulder-to-waist ratio is consistently rated as attractive in men, and wide clavicles contribute structurally to that ratio. However, attractiveness is influenced by many factors beyond clavicle width, including muscle development, posture, body composition, and facial features.
   - q: Is clavicle widening surgery safe?
-    a: Clavicle widening procedures are rare, niche surgeries with real risks including nerve damage, hardware complications, and asymmetry. Long-term outcome data is limited. Always consult a qualified, board-certified surgeon before considering any bone structure procedure, and exhaust non-surgical options first.
+    a: It carries serious risks, including nerve damage, hardware complications, bone that does not heal and asymmetry, and long-term outcome data is limited. We don't recommend it. Shoulder training widens how the frame looks without those risks.
 draft: false
 ---
 
@@ -88,9 +88,9 @@ Structured jackets with shoulder padding, raglan sleeves, and horizontal chest s
 
 ## What About Surgical Options?
 
-Clavicle widening surgery exists as a cosmetic procedure. It typically involves either cutting the clavicle and inserting a spacer to increase length or using implants near the shoulder. This is a niche procedure, performed by very few surgeons, and carries real risks including nerve damage, hardware failure, asymmetry, and a lengthy recovery period.
+Clavicle widening surgery exists as a cosmetic procedure. It typically involves either cutting the clavicle and inserting a spacer to increase length or using implants near the shoulder. This is a niche procedure, performed by very few surgeons, and carries real risks including nerve damage, hardware failure, bone that does not heal, asymmetry, and a lengthy recovery period. **We don't recommend it.**
 
-If you are seriously considering any surgical intervention for bone structure, **talk to a qualified medical professional before making any decisions.** A board-certified orthopedic surgeon or plastic surgeon with experience in this area can walk you through realistic outcomes, risks, and whether you are a suitable candidate.
+Shoulder and back training changes how wide the frame looks without any of those risks. If one body feature takes up a lot of your thoughts, talking to a mental health professional often helps more than a surgeon.
 
 The procedure is not widely performed and the long-term data on outcomes is limited. It is worth exhausting non-surgical approaches first.
 

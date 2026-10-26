@@ -16,7 +16,7 @@ faq:
   - q: Does mewing fix HTN?
     a: Not directly. Mewing targets maxillary position and tilt, and if improved maxillary projection raises orbital rim support, there may be a secondary effect on apparent eye tilt. But mewing is not a direct treatment for HTN, especially in cases where soft tissue or canthus attachment is the primary factor.
   - q: Is canthoplasty the only surgical fix for HTN?
-    a: No. Lateral orbital rim recontouring can address skeletal HTN by raising the bony attachment point for the canthus. Canthoplasty and canthopexy work on the soft tissue. A surgeon may recommend one, the other, or a combination depending on your specific anatomy. Always consult a qualified oculoplastic or plastic surgeon before considering any procedure.
+    a: No. Lateral orbital rim recontouring changes the bone, while canthoplasty and canthopexy work on the soft tissue. All of them are surgery next to the eye, and we don't recommend any of them for appearance.
   - q: How do I know if my eye tilt issue is HTN or just naturally low-set eyes?
     a: The distinction often comes down to where the lateral canthus attaches relative to the orbital rim height. A true HTN involves the outer canthus sitting at or below the level of the medial canthus when viewed frontally. An objective facial analysis tool or an in-person consultation with a surgeon can give you a more precise answer than self-assessment alone.
 draft: false
@@ -58,8 +58,8 @@ It's worth noting that HTN is partly skeletal (driven by orbital bone shape and 
 | **Main visible effect** | Flat midface, hollow under-eyes, weak cheek support | Downward-slanting eyes, droopy eye corners |
 | **Soft tissue impact** | Nasolabial folds, under-eye hollowing | Lower eyelid position, lateral canthus position |
 | **Mewing relevance** | High, maxilla responds to tongue posture over time | Indirect, through orbital rim remodeling |
-| **Surgical correction** | Orthognathic surgery, Le Fort osteotomy, implants | Canthoplasty, lateral wall orbital recontouring |
-| **Non-surgical options** | Mewing, chewing, facial exercises, fillers | Eye exercises (limited evidence), fillers, tape techniques |
+| **Surgical correction** | Orthognathic surgery for bite or breathing problems; we don't recommend it for appearance | Canthoplasty, orbital rim surgery; we don't recommend either for appearance |
+| **Non-medical options** | Posture, chewing, lower body fat | Makeup, brow grooming, tape techniques |
 
 The two conditions frequently co-occur. A recessed maxilla often fails to provide adequate lateral orbital rim support, which contributes directly to HTN. This is why addressing MTN, whether through posture-based methods or structural ones, may also partially improve eye tilt appearance.
 
@@ -85,18 +85,19 @@ For a more calibrated read, tools like [Aura](https://app.aura-looksmaxxing.com)
 
 ## Practical Approaches to Addressing MTN
 
-Addressing maxillary tilt negative ranges from completely non-invasive lifestyle habits to major surgical intervention. The right level of intervention depends on the severity of the issue and your goals.
+Clinics offer injections, implants and jaw surgery for a flat midface. **We don't recommend any of them for appearance:** they carry medical risks that a change in how the midface looks does not justify. The everyday options below are where to start, and if a bite or breathing problem is involved, that is a question for a dentist or maxillofacial surgeon.
 
 ### Non-Surgical
 
 - **Mewing (correct tongue posture):** Placing the tongue flat against the roof of the mouth applies upward and forward pressure on the maxilla. Research into orthotropics, the field pioneered by John Mew, suggests this may support maxillary development when practiced consistently, particularly in younger individuals. Adults may see more modest effects.
 - **Chewing tougher foods:** Some evidence suggests that masticatory force (the mechanical stress from chewing) stimulates bone density and can influence facial structure over time. Switching to harder food textures may help maintain structural integrity.
-- **Dermal fillers:** Hyaluronic acid fillers placed at the infraorbital rim or cheeks can compensate for the visual effect of MTN without touching bone. Results are temporary, typically lasting 9 to 18 months.
-- **Custom implants:** Infraorbital rim and cheek implants are a semi-permanent way to add projection where the maxilla falls short.
+- **Lower body fat and sleep:** Less facial fat and less puffiness make the bone structure around the midface easier to see.
+
+Fillers under the eyes and in the cheeks, and implants along the eye socket rim, are also sold for this. Filler near the eye carries a risk of blocked blood vessels, which there can affect vision, and implants carry risks of infection and shifting. We don't recommend either for appearance.
 
 ### Surgical
 
-Orthognathic surgery, including Le Fort I or Le Fort III osteotomies, physically repositions the maxilla. These are major procedures with real recovery times and risks. Talk to a qualified maxillofacial surgeon before considering any surgical option.
+Orthognathic surgery, including Le Fort I or Le Fort III osteotomies, physically repositions the maxilla. These are major operations meant for bite and breathing problems, with risks including lasting numbness of the upper lip and cheeks and relapse. We don't recommend them for appearance.
 
 ## Practical Approaches to Addressing HTN
 
@@ -104,12 +105,12 @@ Orthognathic surgery, including Le Fort I or Le Fort III osteotomies, physically
 
 - **Lateral canthus tape:** Some people use specialized tape to mechanically lift the outer corner of the eye. This is purely cosmetic, temporary, and used mainly for photos or specific events.
 - **Makeup and grooming:** Upward-wing eyeliner, lifted eyebrow tails, and strategic contouring can create the visual impression of a more positive eye tilt.
-- **Fillers at the lateral orbital rim:** Placing filler along the upper outer orbital rim can add height and subtly lift the appearance of the eye's outer corner.
+- **Avoid filler near the eye:** Filler at the outer eye socket rim is sold to lift the eye corner, but it is a high-risk injection zone where filler entering a blood vessel has caused vision loss. We don't recommend it.
 
 ### Surgical
 
-- **Canthoplasty / canthopexy:** Canthoplasty surgically repositions the lateral canthus to a higher point on the orbital rim. Canthopexy is a less invasive version that tightens the existing attachment without detaching and reattaching it. Both are outpatient procedures but carry risks including scarring, asymmetry, and changes to tear drainage. Consult a board-certified oculoplastic or plastic surgeon before pursuing either.
-- **Lateral orbital rim recontouring:** In skeletal HTN cases, bone work at the lateral orbital rim can raise the attachment point for the canthus.
+- **Canthoplasty / canthopexy:** Canthoplasty surgically repositions the lateral canthus to a higher point on the orbital rim. Canthopexy is a less invasive version that tightens the existing attachment without detaching and reattaching it. Both carry risks including scarring, asymmetry, dry eye and changes to tear drainage, and the result can be hard to undo. We don't recommend either for appearance.
+- **Lateral orbital rim recontouring:** Bone surgery at the outer eye socket rim, next to the eye. It carries the risks of eye-area bone surgery, and we don't recommend it for appearance.
 
 ![Eye tilt comparison illustration showing HTN negative versus positive horizontal tilt](/blog/mtn-vs-htn/3.webp)
 
@@ -134,7 +135,7 @@ Yes, and they frequently occur together. Because the maxilla provides structural
 Not directly. Mewing targets maxillary position and tilt (MTN), and if improved maxillary projection raises orbital rim support, there may be a secondary effect on apparent eye tilt. But mewing is not a direct treatment for HTN, especially in cases where soft tissue or canthus attachment is the primary factor.
 
 **Q: Is canthoplasty the only surgical fix for HTN?**
-No. Lateral orbital rim recontouring can address skeletal HTN by raising the bony attachment point. Canthoplasty and canthopexy work on the soft tissue. A surgeon may recommend one, the other, or a combination depending on your anatomy. Always consult a qualified oculoplastic or plastic surgeon before considering any procedure.
+No. Lateral orbital rim recontouring changes the bone, while canthoplasty and canthopexy work on the soft tissue. All of them are surgery next to the eye, and we don't recommend any of them for appearance.
 
 **Q: How do I know if my eye tilt is HTN or just naturally low-set eyes?**
 The distinction often comes down to where the lateral canthus attaches relative to the orbital rim. A true HTN involves the outer canthus sitting at or below the level of the medial canthus when viewed frontally. An objective facial analysis tool or an in-person consultation with a surgeon can give you a more precise answer than self-assessment alone.

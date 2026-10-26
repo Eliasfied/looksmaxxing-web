@@ -56,7 +56,7 @@ A simple check: look at your side profile in a mirror or photo. Does your upper 
 
 ### Nose Appearance
 
-The base of the nose attaches directly to the maxilla. When the maxilla lacks forward projection, the nose can appear to droop, rotate downward at the tip, or look overly large relative to the face. Interestingly, some people who believe they need rhinoplasty are actually dealing with a flat mid-face making the nose appear prominent by contrast.
+The base of the nose attaches directly to the maxilla. When the maxilla lacks forward projection, the nose can appear to droop, rotate downward at the tip, or look overly large relative to the face. Interestingly, some people who dislike their nose are actually seeing a flat mid-face that makes the nose appear prominent by contrast.
 
 ### Cheekbone Appearance
 
@@ -138,10 +138,10 @@ This is why a self-assessment based on photos and functional clues is a starting
 If your self-assessment raises genuine concerns, the appropriate next steps are:
 
 - **Orthodontist consultation**: for bite analysis and a referral for cephalometric imaging if needed
-- **Oral and maxillofacial surgeon (OMFS)**: for surgical assessment if the structural issue is significant
+- **Oral and maxillofacial surgeon (OMFS)**: if there is a bite or breathing problem an orthodontist cannot treat alone
 - **Craniofacial orthodontist**: for cases involving palate width, airway, and skeletal development in younger patients
 
-Treatment options for a confirmed recessed maxilla range from orthodontic camouflage to palate expansion devices to surgical procedures like Le Fort I osteotomy. The appropriate option depends on the severity of the retrusion, your age, and whether the issue is primarily dental, skeletal, or both.
+Treatment options for a confirmed recessed maxilla range from orthodontic camouflage to palate expansion devices to surgical procedures like Le Fort I osteotomy. Jaw surgery is meant for bite and breathing problems, with risks including lasting numbness of the upper lip and cheeks and a recovery of months. We don't recommend it for appearance.
 
 **Always consult a qualified medical or dental professional before considering any intervention for jaw positioning.** Self-diagnosis from photos alone is not a substitute for clinical evaluation and imaging.
 

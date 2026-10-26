@@ -18,7 +18,7 @@ faq:
   - q: Can you make a big nose look smaller without surgery?
     a: Yes, to a meaningful degree. Improving jaw and chin definition, choosing wider hairstyles, managing body fat percentage to reduce facial puffiness, and using a slightly elevated camera angle in photos all reduce the visual dominance of the nose. These are not dramatic fixes, but they are real and cumulative.
   - q: Should I get a rhinoplasty if I am unhappy with my nose?
-    a: That is a decision that requires a consultation with a qualified plastic or facial surgeon, not an internet article. Before pursuing surgery, it is worth getting a clear picture of your overall facial proportions, because in many cases improving another feature such as the chin provides more visual improvement than nasal surgery alone. Always talk to a qualified professional before considering any procedure.
+    a: We don't recommend rhinoplasty for appearance. Its risks include breathing problems, an unnatural result and revision surgery. Most noses look larger in close-up selfies than in person, and grooming, a beard or a hairstyle that balances the face change how the nose reads without any risk. If your nose blocks your breathing, that is a medical question for an ENT doctor.
 draft: false
 ---
 
@@ -62,7 +62,7 @@ An **acute nasolabial angle** (the angle between the base of the nose and the up
 
 This is the part most articles skip. A nose that would look large on one face can look perfectly proportional on another. The surrounding structures either compensate or amplify the nose's visual impact.
 
-**Jawline and chin projection** are the most important compensating factors. A weak chin or a recessed jaw increases the relative visual dominance of the nose. When the lower third of the face lacks definition, the mid-face (where the nose lives) becomes the structural anchor of the face by default. This is why rhinoplasty surgeons often evaluate chin projection before recommending any nasal procedure.
+**Jawline and chin projection** are the most important compensating factors. A weak chin or a recessed jaw increases the relative visual dominance of the nose. When the lower third of the face lacks definition, the mid-face (where the nose lives) becomes the structural anchor of the face by default. This is why the whole face matters more than the nose on its own.
 
 **Cheekbone prominence** also plays a role. Strong zygomatic arches (cheekbones) draw the eye upward and outward, reducing the central dominance of the nose. A flat mid-face, by contrast, leaves the nose with no visual competition.
 
@@ -74,7 +74,7 @@ Before assuming your nose is "the problem," it is worth getting an objective rea
 
 ## Practical Non-Surgical Ways to Reduce the Visual Impact of a Large Nose
 
-Surgery is an option some people consider, but it is far from the only lever available. Several non-invasive strategies can meaningfully shift how your nose reads in person and in photos.
+Several strategies without any procedure can meaningfully shift how your nose reads in person and in photos.
 
 ### Improve Lower-Face Structure
 
@@ -102,13 +102,13 @@ Lean, well-defined skin with visible bone structure underlying it always makes f
 
 ## What About Cosmetic Procedures?
 
-For those who want a more direct solution, there are both non-surgical and surgical routes.
+Clinics also sell injections and surgery for the nose. They are covered here so you know what they involve, but **we don't recommend any of them for appearance.**
 
-**Non-surgical rhinoplasty** (using dermal fillers to camouflage a dorsal hump or refine the tip) is a temporary option with lower risk than surgery. It sounds counterintuitive to add volume to a large nose, but strategic filler placement can smooth the nasal profile and create the illusion of better projection ratios.
+**Non-surgical rhinoplasty** (using dermal fillers to camouflage a dorsal hump or refine the tip) is temporary, and the nose is one of the riskiest places to inject filler: its blood vessels connect to the vessels supplying the eye, and filler entering them has caused skin death on the nose and permanent vision loss.
 
-**Surgical rhinoplasty** remains the most definitive option for structural changes. Results, when performed by an experienced surgeon, can be significant and permanent.
+**Surgical rhinoplasty** changes the nose permanently. Risks include breathing problems, an uneven or unnatural result, months of swelling, and revision surgery, which is needed in a meaningful share of cases and is harder than the first operation.
 
-**Chin augmentation** (either via filler or implant) is often recommended alongside nasal procedures specifically because of the compensatory relationship discussed above.
+**Chin augmentation** with filler or an implant is often sold alongside nose procedures because of the balance described above. It carries its own risks, including infection, implants shifting and nerve damage to the lower lip. A beard that adds definition to the chin gets much of that balance without any procedure.
 
 Always talk to a qualified medical professional before considering any cosmetic procedure. The right approach depends entirely on your specific anatomy, health history, and goals.
 

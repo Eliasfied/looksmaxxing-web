@@ -107,7 +107,7 @@ Some traits carry more weight than others in PSL scoring. Here is a closer look 
 
 "Hunter eyes" is one of the most discussed traits in PSL communities. The term refers to eyes with a **positive canthal tilt, deep orbital sockets, and a slightly hooded or compact upper eyelid**. The look is associated with intensity and dominance. The opposite, "prey eyes," describes rounder, more wide-open eyes with a neutral or negative canthal tilt.
 
-Hunter eyes are largely genetic but can be partially influenced by body fat percentage (lower fat reduces puffiness around the orbital area) and, in more extreme cases, surgical options like canthoplasty.
+Hunter eyes are largely genetic but can be partially influenced by body fat percentage (lower fat reduces puffiness around the orbital area). Surgery such as canthoplasty is also discussed in PSL forums, but we don't recommend it: it can leave the eye looking unnatural, dry or harder to close.
 
 ### Jawline and Chin Projection
 
@@ -154,7 +154,7 @@ Many people who feel stuck at a 5 or 5.5 have not yet optimized the basics. The 
 
 ### When to Consider Professional Input
 
-For those interested in more significant changes, such as orthodontics, dermal fillers, or surgical procedures, always consult a qualified medical professional before making any decisions. The PSL community discusses these interventions extensively, but online opinion is not a substitute for professional evaluation. A maxillofacial surgeon, dermatologist, or board-certified plastic surgeon can assess your specific anatomy and advise on what is appropriate and realistic for you.
+The PSL community discusses fillers and surgery extensively. We don't recommend them for appearance: they carry real medical risks, and a number on a rating scale is not a reason to take them. Orthodontics, skin conditions or hair loss are medical questions for a dentist or dermatologist.
 
 If you want to understand exactly where your face sits before taking any steps, [Aura](https://app.aura-looksmaxxing.com) provides a detailed AI-based facial analysis including PSL scoring, hunter-eye detection, jawline assessment, and a personalized improvement plan based on your specific features.
 

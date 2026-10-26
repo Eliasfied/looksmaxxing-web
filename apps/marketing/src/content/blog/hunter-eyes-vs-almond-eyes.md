@@ -16,7 +16,7 @@ faq:
   - q: Are hunter eyes more attractive than almond eyes?
     a: Neither is universally more attractive. Hunter eyes are often rated highly in male facial aesthetics for their association with structural dominance and depth, while almond eyes are considered a balanced, widely flattering shape across genders and cultures. Attractiveness depends on how either shape fits the overall facial proportions.
   - q: Can you naturally develop hunter eyes without surgery?
-    a: The core bone structure of hunter eyes is largely genetic, but factors like body fat percentage, facial puffiness, and posture can affect how the orbital area presents. Reducing body fat and maintaining correct oral posture may improve the appearance of orbital depth, though results vary and significant structural change requires surgical intervention.
+    a: The core bone structure of hunter eyes is largely genetic, but factors like body fat percentage, facial puffiness, and posture can affect how the orbital area presents. Reducing body fat and maintaining correct oral posture may improve the appearance of orbital depth, though results vary. Changing the bone takes surgery, which we don't recommend for appearance.
   - q: What is canthal tilt and why does it matter?
     a: Canthal tilt refers to the angle between the inner corner (medial canthus) and the outer corner (lateral canthus) of the eye. A positive tilt means the outer corner sits higher, which is generally associated with a youthful and lifted appearance. A negative tilt means the outer corner sits lower, which can give a tired or drooping look. Canthal tilt is one of the key metrics in facial aesthetics analysis and is relevant to both hunter and almond eye assessment.
 draft: false
@@ -58,7 +58,7 @@ Almond eyes are defined by:
 - **A balanced upper and lower lid curve** with no dramatic hooding or excess skin
 - **Moderate visible eyelid (lid show)** that frames the iris cleanly
 
-The almond shape is widely considered a neutral, versatile standard in facial analysis. It appears across many ethnicities and is frequently cited in ophthalmology and cosmetic surgery literature as an aesthetically balanced form. The shape draws the eye inward toward the iris, creating a naturally framed look that works well with most facial structures.
+The almond shape is widely considered a neutral, versatile standard in facial analysis. It appears across many ethnicities and is frequently described in facial aesthetics literature as a balanced form. The shape draws the eye inward toward the iris, creating a naturally framed look that works well with most facial structures.
 
 ### What Almond Eyes Are Not
 
@@ -85,9 +85,9 @@ The last row is important. **These two descriptors are not mutually exclusive.**
 
 In practical facial analysis, the two terms serve different purposes.
 
-**Hunter eyes** are used when evaluating the **three-dimensional structure** of the midface and orbital area. They relate to bone structure: the depth of the eye socket, the projection of the supraorbital ridge, and the canthal tilt. These are features that change significantly with bone structure changes or, more dramatically, with surgical intervention.
+**Hunter eyes** are used when evaluating the **three-dimensional structure** of the midface and orbital area. They relate to bone structure: the depth of the eye socket, the projection of the supraorbital ridge, and the canthal tilt. Body fat and puffiness change how they present, while the bone itself is largely fixed in adults.
 
-**Almond eyes** are used when evaluating the **two-dimensional outline** of the eye as seen from the front. This is more relevant for makeup, cosmetic procedures like blepharoplasty (eyelid surgery), and assessing symmetry.
+**Almond eyes** are used when evaluating the **two-dimensional outline** of the eye as seen from the front. This is more relevant for makeup, brow grooming and assessing symmetry.
 
 If you're trying to understand your own eye structure accurately, it helps to evaluate both dimensions separately. Apps like [Aura](https://app.aura-looksmaxxing.com) use AI to assess facial features including canthal tilt and eye shape classification, which can give you a more objective read on where your eyes sit on both of these spectrums without relying on a mirror selfie.
 
@@ -134,7 +134,7 @@ Regardless of which eye shape you have, there are non-surgical ways to work with
 
 - **Reducing overall body fat** tends to improve eye shape appearance across the board by reducing facial puffiness and making bone structure more visible.
 - **Consistent sleep** (7 to 9 hours) reduces periorbital fluid retention, which affects how both eye shapes present.
-- If you're considering any cosmetic procedure related to your eyes, canthopexy, blepharoplasty, or orbital rim augmentation, talk to a qualified, board-certified surgeon before making any decisions. These are surgical interventions with real risks and variable outcomes.
+- **Leave eye surgery out of it.** Clinics sell canthopexy, eyelid surgery and orbital rim implants for eye shape. We don't recommend any of them for appearance: they can leave the eye looking unnatural or uneven, dry or harder to close, and some of the changes are permanent.
 
 Before committing to any protocol, it's worth getting an objective baseline assessment of your current eye structure. [Aura](https://app.aura-looksmaxxing.com) provides AI-based analysis of canthal tilt, eye shape, and other facial features, which can help you identify what you're actually working with before deciding what to focus on.
 
@@ -144,6 +144,6 @@ Before committing to any protocol, it's worth getting an objective baseline asse
 
 **"You can't have both."** You can. Many faces with high aesthetic ratings in clinical and community-based assessments show features of both. Almond shape plus deep-set positioning is a recognized combination.
 
-**"Hunter eyes require surgery to develop."** While orbital structure is largely genetic, factors like body composition, facial fat distribution, and even posture affect how the orbital area presents. Non-surgical optimization is worth exploring before considering anything invasive.
+**"Hunter eyes require surgery to develop."** While orbital structure is largely genetic, factors like body composition, facial fat distribution, and even posture affect how the orbital area presents. Those are the levers worth working on; we don't recommend surgery for eye shape.
 
 **"Almond eyes are weak or feminine."** Almond eyes appear on faces rated highly attractive across genders. The shape itself is not gender-coded. What creates a masculine or feminine impression is the surrounding structure, brow, bone, and overall proportions, not the aperture shape alone.

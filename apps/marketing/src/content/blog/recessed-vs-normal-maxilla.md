@@ -12,11 +12,11 @@ readingTime: 8
 related: [flat-vs-recessed-maxilla, good-vs-bad-maxilla, mandible-vs-maxilla]
 faq:
   - q: Can you fix a recessed maxilla without surgery?
-    a: Non-surgical options are limited in fully grown adults. Tongue posture practices and palate expanders may have some effect in younger individuals or adolescents, but for significant maxillary retrusion in adults, surgical options like Le Fort I osteotomy are the most reliable correction. Consult a qualified maxillofacial surgeon to understand what applies to your specific situation.
+    a: The bone itself, not in fully grown adults. Tongue posture and palate expanders may have some effect in adolescents. In adults, moving the maxilla takes jaw surgery, which is meant for bite and breathing problems, and we don't recommend it for appearance. Posture, breathing and lower body fat change how the midface reads without that risk.
   - q: How do I know if I have a recessed maxilla?
     a: Common signs include a negative orbital vector (eye appears to protrude past the cheekbone in profile), hollowing under the eyes, a flat or concave midface profile, and an upper lip that appears tucked or thin. A definitive assessment requires cephalometric X-ray analysis by an orthodontist or oral surgeon.
   - q: Does a recessed maxilla affect breathing or dental health?
-    a: Yes, it can. A narrow or recessed maxilla may contribute to nasal airway restriction, sleep-disordered breathing, and malocclusion (poor bite alignment). In some cases, palate expansion or surgical correction improves both function and appearance simultaneously.
+    a: Yes, it can. A narrow or recessed maxilla may contribute to nasal airway restriction, sleep-disordered breathing, and malocclusion (poor bite alignment). If you snore heavily, breathe through your mouth or have bite problems, see a dentist, orthodontist or sleep doctor, because those are medical questions.
   - q: Is maxillary retrusion the same as an underbite?
     a: Not exactly. An underbite (Class III malocclusion) can result from a recessed maxilla, but it can also come from an overdeveloped lower jaw, or a combination of both. The distinction matters because the treatment approach differs depending on which structure is contributing to the discrepancy.
 draft: false
@@ -52,7 +52,7 @@ A normally projected maxilla creates several visual landmarks that most people a
 
 In profile, a person with a well-projected maxilla will typically show a relatively straight or slightly convex facial line from the forehead down through the midface to the chin. The midface does not appear to "cave in" between the brow ridge and the mouth.
 
-Orthognathic (jaw and facial bone) surgeons often use cephalometric landmarks to assess maxillary position precisely. One common reference is the **Nasion-A point relationship**, where point A (the deepest point of the curve above the upper incisors) is measured against a vertical line dropped from Nasion (the bridge of the nose). In a normally projected maxilla, point A sits at or near that vertical line.
+Orthodontists use cephalometric landmarks on X-rays to assess maxillary position precisely. One common reference is the **Nasion-A point relationship**, where point A (the deepest point of the curve above the upper incisors) is measured against a vertical line dropped from Nasion (the bridge of the nose). In a normally projected maxilla, point A sits at or near that vertical line.
 
 ## What Is a Recessed Maxilla?
 
@@ -136,13 +136,15 @@ Options vary widely depending on the degree of retrusion and whether skeletal gr
 
 ### Surgical Approaches
 
-**Le Fort I osteotomy:** This is the primary surgical procedure for correcting maxillary retrusion. The maxilla is surgically repositioned forward (advanced) and fixed in the new position. It is a significant procedure performed by oral and maxillofacial surgeons, typically in combination with treatment of the lower jaw (bimaxillary surgery) when needed.
+These are covered so you know what they involve. **We don't recommend surgery or implants for appearance.** Jaw surgery exists for bite and breathing problems.
+
+**Le Fort I osteotomy:** This is the primary surgical procedure for correcting maxillary retrusion. The maxilla is surgically repositioned forward (advanced) and fixed in the new position. It is major surgery for functional problems, often combined with surgery on the lower jaw. Risks include lasting numbness of the upper lip, cheeks and teeth, relapse and further surgery, and recovery takes months.
 
 **Distraction osteogenesis:** Used in more severe cases, this technique gradually moves bone forward over weeks using a distraction device.
 
-**Facial implants:** Infraorbital and malar (cheekbone) implants do not move the bone but can restore volume and projection to areas made deficient by a recessed maxilla. They are less invasive than osteotomy but address appearance rather than skeletal position or bite.
+**Facial implants:** Infraorbital and malar (cheekbone) implants do not move the bone but can restore volume and projection to areas made deficient by a recessed maxilla. They only change appearance, with the risks of any implant: infection, shifting, visible edges and further surgery.
 
-**If you are considering any surgical procedure, consult with a board-certified oral and maxillofacial surgeon or craniofacial specialist. These are complex interventions with real risks, and only a qualified professional can evaluate whether you are a candidate.**
+**If you have a bite or breathing problem, an orthodontist or oral and maxillofacial surgeon can assess it. For appearance alone, we don't think these procedures are worth their risks.**
 
 ## Practical Takeaways
 

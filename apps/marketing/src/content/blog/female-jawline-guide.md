@@ -174,7 +174,7 @@ Some jaw concerns are not styling questions. See a dentist or orthodontist if yo
 - headaches or facial muscle tension you suspect is jaw-related
 - noticeable asymmetry that appeared or worsened recently
 
-Cosmetic procedures for the jawline also exist, including injectable fillers, botulinum toxin injections into the masseter, and surgery. This guide does not evaluate their effectiveness or safety, and results and risks vary from person to person. **Talk to a qualified professional before considering this.** Choose a board-certified provider, and ask directly about risks, recovery and what happens if you dislike the result.
+Cosmetic procedures for the jawline also exist, including injectable fillers, botulinum toxin injections into the masseter, and surgery. **We don't recommend them for appearance.** Jaw filler can migrate, form lumps or block a blood vessel; masseter Botox can weaken chewing and cause an uneven smile; and jaw surgery brings risks such as lasting numbness of the lip and chin.
 
 ## The Bottom Line
 

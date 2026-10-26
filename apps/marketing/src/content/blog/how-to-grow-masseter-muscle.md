@@ -160,7 +160,7 @@ If you want to measure progress objectively, periodic photos taken under consist
 
 If you experience persistent jaw pain, clicking, locking, or headaches that started after beginning a jaw training routine, consult a dentist or an oral and maxillofacial specialist before continuing. TMJ disorders are manageable but worsen if ignored.
 
-For those considering more significant interventions like masseter filler or implants to enhance jaw width, always consult a qualified medical professional before pursuing any such procedure. This article covers natural muscle development only.
+Jaw filler and jaw implants are also sold to widen the jaw. We don't recommend them for appearance: filler can migrate, form lumps or block a blood vessel, and implants carry risks of infection, shifting and nerve damage. This article covers natural muscle development only.
 
 ## Practical Tips to Get Started This Week
 

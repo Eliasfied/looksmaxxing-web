@@ -28,7 +28,7 @@ Looksmaxxing, often shortened to **looksmax**, refers to the systematic practice
 
 This is not about vanity for its own sake. Research in social psychology consistently shows that perceived attractiveness influences first impressions, confidence, and even how others respond to you in professional settings. Looksmaxxing takes those findings seriously and asks: if these things matter, why not be intentional about them?
 
-The practice spans a wide spectrum. At one end you have basic grooming, better sleep, and posture correction. At the other end you find people discussing jaw surgery, hormonal optimization, and facial bone structure. Most people engage somewhere in the middle, focusing on achievable, low-cost changes that compound over time.
+The practice spans a wide spectrum. At one end you have basic grooming, better sleep, and posture correction. At the other end you find people discussing jaw surgery, hormones, and facial bone structure, which we don't recommend for appearance. Most people engage somewhere in the middle, focusing on achievable, low-cost changes that compound over time.
 
 ## Where the Term Comes From
 
@@ -68,7 +68,7 @@ Softmaxxing covers everything that does not require medical intervention. It is 
 
 ### Hardmaxxing
 
-Hardmaxxing involves medical or surgical interventions. This includes rhinoplasty, jaw surgery (orthognathic surgery), chin implants, hair transplants, and various dermatological procedures. These carry real risks and costs.
+Hardmaxxing involves medical or surgical interventions. This includes rhinoplasty, jaw surgery (orthognathic surgery), chin implants, hair transplants, and various dermatological procedures. They carry real risks, including nerve damage, infection and results that cannot be undone, and we don't recommend them for appearance. Some of them exist for real medical problems, such as jaw surgery for a bite that does not work, and those are decisions for a doctor.
 
 *If you are considering any medical procedure, talk to a qualified, licensed professional before making any decisions. This article does not constitute medical advice.*
 
@@ -105,7 +105,7 @@ Understanding terms like *midface ratio*, *canthal tilt*, *gonial angle*, and *f
 
 ## Common Looksmaxxing Mistakes to Avoid
 
-**Fixating on unchangeable features.** Bone structure has limits, especially in adults. Spending significant mental energy on features you cannot change without major surgery, while ignoring skin, body composition, and grooming, is a poor use of attention.
+**Fixating on unchangeable features.** Bone structure has limits, especially in adults. Spending significant mental energy on features only surgery would change, while ignoring skin, body composition, and grooming, is a poor use of attention.
 
 **Neglecting overall health.** Looksmaxxing is not separate from health. Chronic poor sleep, high stress, nutritional deficiencies, and dehydration all show directly on the face. Addressing these is not optional groundwork, it is core to the practice.
 

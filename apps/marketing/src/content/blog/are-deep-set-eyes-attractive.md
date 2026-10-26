@@ -18,7 +18,7 @@ faq:
   - q: Do deep set eyes make you look tired?
     a: They can in certain lighting conditions, particularly under harsh overhead or fluorescent light, because the orbital shadow can deepen under-eye hollows. However, in natural or soft directional lighting, the same shadow effect tends to read as intensity and definition rather than fatigue.
   - q: Can you change deep set eyes without surgery?
-    a: The underlying bone structure cannot be changed without surgical intervention. However, the visual impact of deep set eyes can be significantly influenced through brow grooming, strategic makeup application, skincare targeting the under-eye area, and managing lifestyle factors like sleep and hydration. Dermal filler in the tear trough area is a non-surgical medical option some people pursue, but this should only be done after consulting a qualified provider.
+    a: The bone itself, no. But the visual impact of deep set eyes can be significantly influenced through brow grooming, strategic makeup application, skincare targeting the under-eye area, and managing lifestyle factors like sleep and hydration. We don't recommend under-eye filler, because of its risk to vision.
 draft: false
 ---
 
@@ -121,7 +121,7 @@ Because dark circles and tear trough hollowing are more visible with deep set ey
 
 ### Medical and Cosmetic Options
 
-For people whose deep set eyes are accompanied by significant tear trough hollowing, dermal filler in the tear trough area is a commonly sought procedure. Some individuals also consider brow bone reduction or orbital rim surgery for more structural changes.
+Under-eye filler and brow bone or orbital rim surgery are also sold for deep set eyes. **We don't recommend them for appearance.** The under-eye area is one of the riskiest places to inject filler, because filler entering a blood vessel there has caused permanent vision loss, and bone surgery around the eye carries risks such as numbness, scarring and asymmetry.
 
 These are not casual decisions. Results depend heavily on provider skill, and complications can occur. **Talk to a qualified medical professional before considering any cosmetic procedure involving the eye area.** A consultation with a board-certified plastic surgeon or oculoplastic specialist is the appropriate starting point.
 

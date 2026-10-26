@@ -16,7 +16,7 @@ faq:
   - q: Does the maxilla or mandible have a bigger impact on facial attractiveness?
     a: Neither dominates independently. Attractiveness research consistently points to the relationship between the two bones as the key driver of facial harmony. A well-projected maxilla combined with a defined mandible generally produces more balanced facial aesthetics than optimizing only one.
   - q: Can adults change their mandible or maxilla without surgery?
-    a: Significant skeletal changes in adults are very difficult without surgical intervention, since bone sutures fuse after growth is complete. Non-surgical approaches like mewing may influence soft tissue and muscle tone, but evidence for meaningful bone-level change in adults is limited.
+    a: Not the bone itself, since sutures fuse after growth is complete. Mewing may influence soft tissue and muscle tone, but evidence for bone-level change in adults is limited. Surgery can move the bone, but it is meant for bite and breathing problems, and we don't recommend it for appearance.
   - q: What is the gonial angle and why does it matter?
     a: The gonial angle is the angle formed at the corner of the mandible where the horizontal body meets the vertical ramus. Angles in the range of roughly 115 to 125 degrees are often associated with a sharper, more defined jaw appearance. Very obtuse angles tend to produce a softer, rounder lower face contour.
 draft: false
@@ -89,7 +89,7 @@ Maxillary development has a cascading effect on the whole face. Because the maxi
 - **Lip posture:** Lip fullness and positioning at rest partly depends on the underlying maxillary bone. A forward-positioned maxilla supports fuller-looking lips.
 - **Cheek projection:** The zygomatic process of the maxilla blends into the cheekbones, so strong maxillary growth contributes to prominent cheeks.
 
-In facial assessment frameworks like those used in orthognathic surgery planning, the maxilla is often evaluated first, because its position sets the reference for evaluating the mandible's relative position.
+In orthodontic assessment, the maxilla is often evaluated first, because its position sets the reference for evaluating the mandible's relative position.
 
 ## The Relationship Between the Two Bones
 
@@ -109,7 +109,7 @@ If you want a structured starting point for understanding how your own jaw propo
 
 ## Can These Bones Be Changed?
 
-This is where the conversation becomes more nuanced. Bone is living tissue and, during periods of growth, is responsive to environmental forces. After growth plates close, changes to bone structure generally require either surgical intervention or indirect approaches.
+This is where the conversation becomes more nuanced. Bone is living tissue and, during periods of growth, is responsive to environmental forces. After growth is complete, bone structure is largely fixed, and what changes is how it presents: body fat, muscle, posture and grooming.
 
 ### During Growth
 
@@ -121,12 +121,12 @@ During adolescence, both the mandible and maxilla are still developing. Orthodon
 
 ### After Growth
 
-For adults with fully fused sutures, skeletal changes require surgical approaches:
+For adults with fully fused sutures, skeletal changes take surgery. These procedures are listed so you know what they involve. **We don't recommend any of them for appearance.**
 
-- **Orthognathic surgery** involves moving the maxilla (Le Fort I osteotomy), mandible (BSSO), or both to correct skeletal discrepancies. It is a significant procedure with a real recovery period and genuine functional and aesthetic results.
-- **Genioplasty** specifically addresses chin projection by repositioning or reshaping the chin bone.
-- **Implants** (chin or jaw angle implants) can augment the apparent shape of the mandible without moving bone.
-- **MARPE (Miniscrew-Assisted Rapid Palatal Expansion)** is a newer technique that can expand the maxillary suture in adults using skeletal anchorage.
+- **Orthognathic surgery** involves moving the maxilla (Le Fort I osteotomy), mandible (BSSO), or both to correct skeletal discrepancies. It is major surgery for bite and breathing problems, with risks including lasting numbness of the lips and chin, relapse and a recovery of months.
+- **Genioplasty** cuts and moves the chin bone. Risks include numbness of the lower lip and chin, asymmetry and further surgery.
+- **Implants** (chin or jaw angle implants) add shape over the bone. Risks include infection, implants shifting, nerve damage and bone loss under the implant.
+- **MARPE (Miniscrew-Assisted Rapid Palatal Expansion)** is an orthodontic treatment that can widen a narrow upper jaw in adults. It is used for bite problems, not for looks.
 
 Talk to a qualified oral and maxillofacial surgeon or orthodontist before considering any of these procedures. What works for one skeletal pattern may be inappropriate or counterproductive for another.
 

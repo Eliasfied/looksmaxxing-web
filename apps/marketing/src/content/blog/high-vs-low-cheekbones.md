@@ -18,7 +18,7 @@ faq:
   - q: Can losing weight make my cheekbones more visible?
     a: Yes, reducing overall body fat percentage can make existing cheekbone structure significantly more visible. The fat pads overlying the zygomatic bone diminish as body fat decreases, allowing the underlying bone to create more visible contour and shadow.
   - q: Can fillers make low cheekbones appear higher?
-    a: Hyaluronic acid fillers injected at the malar (cheekbone) region can add projection and create the visual impression of higher cheekbone placement. Results are temporary and vary by individual anatomy. Always consult a qualified medical professional before pursuing any injectable treatment.
+    a: Filler in the cheekbone region can add projection and make cheekbones look higher for a while. We don't recommend it for appearance, because it has to be repeated and carries risks such as lumps, migration and blocked blood vessels. Lower body fat makes existing cheekbones more visible without those risks.
 draft: false
 ---
 
@@ -110,7 +110,7 @@ Research in facial attractiveness consistently points to **harmony and proportio
 
 ## Can You Change Your Cheekbone Appearance?
 
-You cannot change the underlying bone without a surgical procedure. However, several approaches can alter how prominent or positioned your cheekbones appear:
+The underlying bone only changes with surgery, which we don't recommend for appearance. Several approaches without any procedure can still alter how prominent your cheekbones appear:
 
 ### Non-Surgical Options
 
@@ -124,13 +124,15 @@ You cannot change the underlying bone without a surgical procedure. However, sev
 
 ### Surgical and Minimally Invasive Options
 
-**Dermal fillers (malar augmentation)**: Hyaluronic acid fillers injected at the zygomatic region can add projection and vertical height to the apparent cheekbone. Results are temporary, typically lasting several months to over a year depending on the product and individual metabolism.
+These are covered so you can judge what clinics offer. **We don't recommend any of them for appearance.**
 
-**Cheekbone implants**: Solid silicone or porous polyethylene implants placed over the zygomatic bone can permanently increase projection and apparent height. This is a surgical procedure with recovery time and real risks.
+**Dermal fillers (malar augmentation)**: Hyaluronic acid fillers injected at the zygomatic region can add projection and vertical height to the apparent cheekbone. Results are temporary, so the cost and the risk come back with every top-up. Risks include lumps, migration and, rarely, filler blocking a blood vessel, which can damage the skin and, close to the eye, affect vision.
 
-**Bichectomy (buccal fat removal)**: Removing the buccal fat pad from the lower cheek area can create a more defined hollow beneath the cheekbone, giving the visual effect of higher cheekbone placement without touching the bone itself.
+**Cheekbone implants**: Solid silicone or porous polyethylene implants placed over the zygomatic bone can permanently increase projection and apparent height. Risks include infection, implants shifting, numbness of the cheek and upper lip, asymmetry and further surgery.
 
-*If you are considering any surgical or injectable procedure, talk to a qualified medical professional before moving forward. Individual anatomy varies significantly, and procedures that suit one face may not suit another.*
+**Bichectomy (buccal fat removal)**: Removing the buccal fat pad from the lower cheek area can create a more defined hollow beneath the cheekbone, giving the visual effect of higher cheekbones. The removal is permanent, and because the face loses fat with age anyway, it can leave the cheeks looking gaunt years later. Nerve and salivary duct injuries are also possible.
+
+*Lower body fat, a hairstyle and facial hair that frame the face, and good lighting in photos change how cheekbones read without any medical risk. For appearance, we don't think these procedures are worth their risks.*
 
 ## Practical Steps to Work With Your Cheekbone Structure
 

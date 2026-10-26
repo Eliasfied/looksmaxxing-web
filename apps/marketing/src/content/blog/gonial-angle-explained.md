@@ -136,13 +136,15 @@ Strategic beard styling can visually reinforce jaw angularity. A beard that is k
 
 ## Surgical and Non-Surgical Interventions
 
+The procedures below are covered so you can judge what clinics offer. **We don't recommend any of them for appearance.** The bony gonial angle is fixed in adults, and what changes how the jaw corner looks without medical risk is body fat, posture, chewing muscle and facial hair.
+
 *If you are considering any medical procedure, talk to a qualified surgeon or specialist before making any decisions. The information below is educational only.*
 
 For those with significantly high gonial angles or very little jaw definition who want a more structural change, there are clinical options.
 
 ### Jaw Angle Implants
 
-Silicone implants placed at the gonion can add width and definition to a soft or high-angle jaw corner. This is a surgical procedure with the associated recovery, risks, and costs. Results can look natural when sized appropriately for the face.
+Silicone implants placed at the gonion can add width and definition to a soft or high-angle jaw corner. Risks include infection, implants shifting, nerve damage to the lower lip and chin, bone loss under the implant and further surgery.
 
 ### Masseter Botox (Reduction)
 
@@ -150,11 +152,11 @@ Counterintuitively, Botox injections into the masseter are used more often to *r
 
 ### Genioplasty and Orthognathic Surgery
 
-For skeletal corrections, procedures like sliding genioplasty (chin repositioning) or full orthognathic surgery can address significant jaw discrepancies. These are major surgical interventions used primarily for functional reasons, though they have aesthetic implications as well.
+For skeletal corrections, procedures like sliding genioplasty (chin repositioning) or full orthognathic surgery can address significant jaw discrepancies. These are major operations for functional problems such as a bite that does not work, with risks including lasting numbness of the lip and chin. We don't recommend them for appearance.
 
 ### Dermal Fillers
 
-Hyaluronic acid fillers placed at the jaw angle are a non-permanent option that some practitioners use to add definition. Effects last roughly 12 to 18 months. Results depend heavily on the injector's skill and the patient's baseline anatomy.
+Hyaluronic acid fillers placed at the jaw angle are a non-permanent option that some practitioners use to add definition. Effects last roughly 12 to 18 months. Filler near the jaw carries the risk of blocking a blood vessel, which can damage the skin, and it has to be repeated to keep the effect.
 
 Before considering any of these routes, use tools like [Aura](https://app.aura-looksmaxxing.com) to get a clear, data-driven picture of your current facial structure and where your jaw definition actually stands relative to common benchmarks. Having an objective baseline makes conversations with practitioners far more productive.
 

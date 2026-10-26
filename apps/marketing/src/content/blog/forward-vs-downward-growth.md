@@ -14,7 +14,7 @@ faq:
   - q: What is the difference between forward and downward facial growth?
     a: Forward growth means the face developed more horizontally, producing a compact structure with a projected chin, defined jaw angle, and strong midface. Downward growth means the face developed more vertically, resulting in a longer lower face, a more recessed chin, and a wider gonial angle. Both patterns affect aesthetics and function.
   - q: Can adults change their facial growth direction?
-    a: No, adults cannot meaningfully redirect bone growth once the skeleton has matured. What adults can do is optimize soft tissue, muscle development, and body composition within their existing structure, or explore surgical options like orthognathic surgery or genioplasty for more significant changes. Always consult a qualified specialist before considering surgery.
+    a: No, adults cannot meaningfully redirect bone growth once the skeleton has matured. What adults can do is optimize soft tissue, muscle development, and body composition within their existing structure. Jaw surgery and genioplasty change the bone, but we don't recommend them for appearance because of their risks.
   - q: Does mouth breathing cause downward facial growth?
     a: Research suggests a consistent link between chronic mouth breathing during childhood and more vertical facial growth patterns. Mouth breathing alters tongue posture and jaw position, which changes the mechanical forces acting on developing bone. Addressing airway issues early in development may help reduce the impact.
   - q: How do I know if I have forward or downward facial growth?
@@ -119,9 +119,9 @@ For adults, the underlying bone structure is not going to change from habit adju
 - **Mewing (proper tongue posture):** Some adults report subtle changes with consistent practice. The evidence in adults is limited and largely anecdotal. It will not restructure bone, but maintaining correct tongue posture supports posture and muscle tone around the jaw.
 - **Masseter hypertrophy:** Consistent chewing of harder foods or using chewing tools may increase masseter (jaw muscle) size, adding width and definition to the lower face.
 - **Body fat reduction:** A lower body fat percentage reveals existing jaw definition that may be obscured by subcutaneous fat.
-- **Surgical options:** Orthognathic surgery (jaw surgery) can physically reposition the maxilla and mandible. Chin implants and genioplasty (surgical chin advancement) address chin projection directly. These are significant procedures requiring specialist evaluation.
+- **Surgery is not on this list:** Jaw surgery, chin implants and genioplasty can change the bone, but they are meant for bite and breathing problems and carry risks such as lasting numbness of the lips and chin. We don't recommend them for appearance.
 
-If you are considering any surgical or clinical route, talk to a qualified maxillofacial surgeon or craniofacial specialist before making any decisions. Results depend heavily on your individual anatomy, and no outcome can be guaranteed.
+If you snore heavily, breathe through your mouth or have bite problems, see a dentist, orthodontist or sleep doctor, because those are medical questions.
 
 ![Diagram showing how to assess forward versus downward facial growth from a side profile](/blog/forward-vs-downward-growth/3.webp)
 
@@ -138,7 +138,7 @@ Here is a grounded approach depending on where you are:
 **If you are an adult:**
 1. Assess your baseline honestly using a clear side profile and three-quarter-view photo.
 2. Optimize what is within reach: body composition, masseter development, posture.
-3. Research surgical options only if the concern is significant and functional, not just aesthetic, and always consult a specialist.
+3. Leave surgery to medical problems. If your bite or breathing is affected, see a specialist; for appearance, we don't recommend it.
 4. Use objective tools to track changes. Running a periodic facial analysis through [Aura](https://app.aura-looksmaxxing.com) can give you measurable feedback on jawline definition and facial proportions over time, which is more reliable than subjective self-assessment.
 
 ## The Bigger Picture

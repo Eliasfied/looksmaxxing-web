@@ -12,11 +12,11 @@ readingTime: 8
 related: [mewing-complete-guide, mewing-vs-bonesmashing, how-to-grow-masseter-muscle]
 faq:
   - q: Does jawmaxxing actually work?
-    a: It depends on the method. Reducing body fat, training the masseter, and fixing posture can produce visible changes and are well-supported. Bone-level changes in adults through exercises alone are not realistic. Cosmetic procedures like jaw filler can produce significant results but come with their own considerations.
+    a: It depends on the method. Reducing body fat, training the masseter, and fixing posture can produce visible changes and are well-supported. Bone-level changes in adults through exercises alone are not realistic. Fillers and surgery change the jaw too, but we don't recommend them for appearance because of their medical risks.
   - q: When does your jaw stop growing?
     a: The mandible typically finishes primary growth around age 18 to 21, with minor changes possible into the mid-twenties. After that, bone structure is largely fixed, but the visible jawline can still be improved through fat loss, muscle development, and posture correction.
   - q: Does chin filler migrate?
-    a: Filler migration is a real but relatively uncommon risk when the procedure is performed by an experienced injector using appropriate technique and volume. Hyaluronic acid fillers are reversible with hyaluronidase if migration does occur. Choosing a qualified practitioner is the most important factor in reducing this risk.
+    a: Filler migration is a real but relatively uncommon risk when the procedure is performed by an experienced injector using appropriate technique and volume. Hyaluronic acid filler can be dissolved with hyaluronidase if it migrates. Filler also carries the more serious risk of blocking a blood vessel, which is one reason we don't recommend it for appearance.
   - q: Why does my chin stick out when I smile?
     a: This is often caused by overactivity of the mentalis muscle, which strains during lip closure and pushes the chin forward or causes dimpling. It can also relate to underlying chin projection. A qualified injector or maxillofacial specialist can assess whether muscle relaxant injections or a structural approach is appropriate for your situation.
 draft: false
@@ -91,37 +91,37 @@ Chronic poor sleep causes facial puffiness through fluid retention, which soften
 
 ## Cosmetic Procedures for Jaw Improvement
 
-For people who have maxed out lifestyle changes and want to go further, cosmetic procedures are an option. These range from minimally invasive to surgical.
+Clinics also sell injections and surgery for the jaw. We cover what they involve so you can judge the claims, but **we don't recommend any of them for appearance.** They carry medical risks, and most of the jaw definition people want comes from the steps above.
 
 > **Important: Consult a qualified, board-certified medical professional before considering any cosmetic procedure. The information below is educational only.**
 
 ### Jaw Filler
 
-Dermal filler injected along the mandibular border and jaw angle can add definition, width, and projection without surgery. **Jaw filler before and after** results in men can look substantial when done well, particularly for adding jaw angle definition or strengthening a weak chin.
+Dermal filler injected along the jaw adds volume to the soft tissue over the bone. **Jaw filler before and after** photos can look striking, but filler is temporary, has to be repeated every year or so, and carries real risks, most seriously filler entering a blood vessel and cutting off blood supply to the skin.
 
 Key things to understand about jaw filler:
 
 - Results last roughly 12 to 18 months for hyaluronic acid-based fillers (like Juvederm or Restylane), though individual variation is significant.
 - **Does chin filler migrate?** This is a legitimate concern. Filler can shift from its injection site if placed incorrectly, in high-movement areas, or in large volumes. Migration is more common with poor injection technique or when filler is placed too superficially. Choosing an experienced injector significantly reduces this risk. So-called "bum chin" (a two-lobed chin appearance) is sometimes caused by filler migration or poor placement.
-- Jaw filler is reversible if hyaluronic acid-based (dissolved with hyaluronidase), which makes it lower risk than surgical alternatives.
+- Hyaluronic acid filler can be dissolved with hyaluronidase, but that is another procedure, and it does not undo tissue damage that has already happened.
 - Swelling is normal for 1 to 2 weeks post-procedure.
 
 ### Chin Filler and Projection Issues
 
-Some people notice that **their chin sticks out when they smile**. This can be a functional issue related to mentalis muscle overactivity (the chin muscle strains to help the lips close), or a structural one where anterior chin projection creates an irregular profile in motion. Small amounts of Botox in the mentalis, or in some cases repositioning filler, may help. A qualified injector can assess which applies to your situation.
+Some people notice that **their chin sticks out when they smile**. This can be a functional issue related to mentalis muscle overactivity (the chin muscle strains to help the lips close), or a structural one where anterior chin projection creates an irregular profile in motion. Clinics sometimes offer Botox in the chin muscle or filler for this, but both are medical procedures with their own side effects, and we don't recommend them for appearance. If your lips strain to close, a dentist or orthodontist can check whether a bite problem is behind it.
 
 If you feel **my chin sticks out when I smile** is a concern for you, it is worth getting a proper assessment rather than self-diagnosing from photos alone.
 
 ### Surgical Options
 
-For people seeking permanent structural change, surgical routes exist:
+Surgery is the only way to change the bone, and we don't recommend it for appearance. For completeness, these are the operations people ask about:
 
-- **Chin implants (genioplasty)**: Silicone implants placed over the existing chin bone to increase projection or width. Results are permanent and can be dramatic.
+- **Chin implants**: Silicone implants placed over the chin bone. Risks include infection, shifting, nerve damage to the lower lip and chin, and bone loss under the implant.
 - **Jaw angle implants**: Implants placed at the mandibular angle to increase the width and definition of the back of the jaw.
 - **Sliding genioplasty**: The chin bone itself is cut and repositioned. More complex but allows three-dimensional movement and is done using your own bone, not a foreign implant.
 - **Bimaxillary surgery**: Repositions both upper and lower jaws. Reserved for significant skeletal discrepancies and is typically only considered after orthodontic workup.
 
-Surgical procedures carry real risks including nerve damage, infection, implant displacement, and scarring. They require extended recovery. They are not casual decisions.
+All of these carry real risks, including lasting numbness of the lip and chin, infection, implants shifting and further operations. Jaw surgery such as bimax exists for bite and breathing problems, not for appearance.
 
 ![Comparison of jaw improvement stages from natural methods to filler augmentation](/blog/jawline-improvement-guide/3.webp)
 
@@ -134,8 +134,8 @@ If you want a realistic, staged approach to jaw improvement, this is how to stru
 3. **Train the masseter.** Incorporate harder foods and consider a jaw trainer. Be consistent for at least three to six months before judging results.
 4. **Sleep well and stay hydrated.** These are not minor factors. Chronic puffiness from poor sleep can meaningfully reduce jaw definition.
 5. **Get an objective assessment.** Tools like [Aura](https://app.aura-looksmaxxing.com) can give you a scored breakdown of your jawline, chin, and facial harmony before you start, so you have a real baseline rather than relying on self-perception, which tends to be unreliable.
-6. **Consider non-surgical procedures if appropriate.** Jaw filler is a reasonable next step for people who have done the above and want more. Consult a specialist.
-7. **Surgical options last.** Only consider surgery after exhausting non-surgical options and after a thorough consultation with a board-certified maxillofacial or plastic surgeon.
+6. **Grow and shape facial hair.** A well-shaped beard and a sharp neckline add visual definition along the jaw.
+7. **Give it time.** Fat loss and muscle changes show over months. We don't recommend fillers or surgery for appearance; if a bite or breathing problem is involved, that is a question for a dentist or maxillofacial surgeon.
 
 ## Understanding Jaw Maxxing in Context
 

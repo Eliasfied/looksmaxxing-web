@@ -14,7 +14,7 @@ faq:
   - q: What exactly are Itachi lines on a real face?
     a: On a real person, Itachi lines refer to prominent tear troughs or infraorbital hollows, the grooves or shadows that run from the inner eye corner diagonally down the cheek. They are caused by a combination of bone structure, fat distribution, and skin quality.
   - q: Can you get rid of Itachi lines permanently without surgery?
-    a: Permanent elimination without surgery is unlikely for structural cases. Skincare and lifestyle changes can meaningfully reduce their appearance over time, and filler offers temporary volume correction lasting roughly 9 to 18 months. Lasting structural change typically requires surgical intervention.
+    a: Not completely, if they are structural. Skincare, sleep, lower salt and alcohol, and lower body fat can meaningfully reduce how they look. Filler and surgery change the area too, but we don't recommend either for appearance, because filler under the eye carries a risk of vision loss and surgery can affect how the eyelid sits.
   - q: Are Itachi lines attractive or unattractive?
     a: This is genuinely subjective and context-dependent. Some people find them striking and associate them with an angular, defined look. Others prefer a fuller, more rested under-eye. The goal should be aligning your appearance with your own preferences, not a fixed aesthetic standard.
   - q: How long does it take to see results from skincare for under-eye lines?
@@ -104,7 +104,7 @@ For people whose Itachi lines are primarily structural (deep tear troughs, signi
 
 ### Hyaluronic Acid Filler (Tear Trough Filler)
 
-This is the most common clinical approach. A hyaluronic acid gel is injected into the tear trough region to restore volume and reduce shadowing. Results typically last 9 to 18 months. The under-eye area is one of the more technique-sensitive injection sites on the face, so provider selection matters enormously. Risks include bruising, swelling, and the Tyndall effect (a bluish discoloration if filler is placed too superficially).
+A hyaluronic acid gel injected into the tear trough region adds volume under the eye. **We don't recommend it for appearance.** The under-eye area is one of the most dangerous places to inject filler: the blood vessels there connect to the vessels supplying the eye, and filler entering them has caused permanent vision loss. More common problems include lumps, puffiness that makes the area look worse, and a bluish tint under the skin. Results last 9 to 18 months, so the risk comes back with every top-up.
 
 ### Polynucleotide (PDRN) Injections
 
@@ -120,13 +120,13 @@ Microneedling creates controlled micro-injuries that trigger collagen remodeling
 
 ## Surgical Options (for Severe Cases)
 
-When volume loss is significant and non-surgical options are insufficient, surgical routes exist:
+Surgery for under-eye hollows exists, mainly for significant age-related changes. We don't recommend it for appearance. For completeness, these are the options people ask about:
 
 - **Lower blepharoplasty with fat repositioning:** A surgeon repositions or redistributes existing orbital fat to fill the tear trough from below. This is more permanent than filler.
 - **Fat grafting (fat transfer):** Fat is harvested from elsewhere on your body and injected into the midface or tear trough. Results vary depending on how much fat survives the transfer process.
 - **Midface lift or cheek implants:** These address the structural midface projection that underlies pronounced hollowing.
 
-Surgical outcomes depend heavily on the surgeon's skill and your baseline anatomy. *Consult with a board-certified plastic surgeon or oculoplastic surgeon before pursuing any surgical option.*
+Lower eyelid surgery can leave the lower lid pulled down, the eyes dry or harder to close, and an uneven or hollow result that is difficult to correct. Fat grafting is unpredictable, and implants bring risks of infection and shifting.
 
 ## Tracking Your Baseline and Progress
 
@@ -173,7 +173,7 @@ Give any topical routine at least 12 weeks before evaluating results. Collagen r
 On a real person, Itachi lines refer to prominent tear troughs or infraorbital hollows, the grooves or shadows that run from the inner eye corner diagonally down the cheek. They are caused by a combination of bone structure, fat distribution, and skin quality.
 
 **Can you get rid of Itachi lines permanently without surgery?**
-Permanent elimination without surgery is unlikely for structural cases. Skincare and lifestyle changes can meaningfully reduce their appearance over time, and filler offers temporary volume correction lasting roughly 9 to 18 months. Lasting structural change typically requires surgical intervention.
+Not completely, if they are structural. Skincare, sleep, lower salt and alcohol, and lower body fat can meaningfully reduce how they look. Filler and surgery change the area too, but we don't recommend either for appearance, because filler under the eye carries a risk of vision loss and surgery can affect how the eyelid sits.
 
 **Are Itachi lines attractive or unattractive?**
 This is genuinely subjective and context-dependent. Some people find them striking and associate them with an angular, defined look. Others prefer a fuller, more rested under-eye. The goal should be aligning your appearance with your own preferences, not a fixed aesthetic standard.

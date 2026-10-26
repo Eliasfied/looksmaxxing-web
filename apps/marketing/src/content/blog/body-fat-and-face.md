@@ -133,5 +133,5 @@ If you are serious about improving how your face looks and you want to go beyond
 
 ### A Note on Medical Options
 
-Some people researching facial debloating are also considering procedures such as buccal fat removal or masseter Botox. These are medical interventions with real risks and irreversible consequences in some cases. Talk to a qualified medical professional before considering any procedure. Supplements and lifestyle changes should always be the starting point.
+Some people researching facial debloating are also considering procedures such as buccal fat removal or masseter Botox. We don't recommend either for appearance. Buccal fat removal is permanent and can leave the cheeks gaunt as the face loses fat with age, and masseter Botox can weaken chewing and cause an uneven smile. Fat loss, sleep and lower salt and alcohol do the debloating safely.
 

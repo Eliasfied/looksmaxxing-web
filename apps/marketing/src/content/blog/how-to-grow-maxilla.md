@@ -12,11 +12,11 @@ readingTime: 8
 related: [how-to-fix-recessed-maxilla, how-to-raise-hyoid-bone, mewing-vs-bonesmashing]
 faq:
   - q: Can you grow your maxilla after 18?
-    a: The midpalatal suture begins fusing in the late teens but may remain partially open into the mid-twenties. After that, lifestyle changes like mewing may help maintain and optimize structure, but significant skeletal change typically requires orthodontic interventions like MARPE or surgical options. Talk to an orthodontist to understand where you stand based on your specific anatomy.
+    a: The midpalatal suture begins fusing in the late teens but may remain partially open into the mid-twenties. After that, the bone is largely set. Expansion and jaw surgery are treatments for bite and breathing problems, and we don't recommend surgery for appearance. An orthodontist can tell you whether your bite needs treatment.
   - q: How long does it take to see results from mewing?
     a: Most people who report visible changes from mewing describe a timeline of one to three years of consistent practice. Results vary significantly based on age, suture fusion status, and whether other factors like nasal breathing and chewing load are also being addressed. Younger individuals generally see faster and more pronounced changes.
   - q: What is the fastest way to improve maxillary projection?
-    a: For adults, orthognathic surgery (specifically Le Fort I osteotomy) offers the most direct and significant improvement in maxillary projection. MARPE is a less invasive option that may widen the palate in adults under certain conditions. Lifestyle approaches are slower and more modest in their effects on established adult bone structure.
+    a: There is no fast, safe way. Moving the bone takes jaw surgery, which is meant for bite and breathing problems and carries risks such as lasting numbness, so we don't recommend it for appearance. Posture, nasal breathing and lower body fat change how the midface reads without that risk.
   - q: Does chewing gum actually help with maxilla development?
     a: Chewing hard gum, particularly mastic gum, increases masticatory muscle engagement and applies repetitive mechanical load to the jaw and palate. Research suggests this kind of load supports bone maintenance and may contribute to development during growth years. In adults, the effects are likely more muscular than skeletal, though consistent chewing habits may support the overall mechanical environment of the mid-face.
 draft: false
@@ -49,12 +49,12 @@ In children and teenagers, the maxilla responds readily to functional forces. Or
 
 In adults, the sutures are largely fused, which limits orthopedic expansion through soft-tissue forces alone. However, several options still exist:
 
-- **Surgical expansion** (SARPE or maxillary osteotomy) can physically move or widen maxillary bone in adults
-- **MARPE** (Miniscrew-Assisted Rapid Palatal Expansion) uses implanted mini-screws to apply enough force to partially expand even a fused adult palate
+- **Surgical expansion** (SARPE or maxillary osteotomy) can physically move or widen maxillary bone in adults. It is meant for bite and breathing problems, and we don't recommend it for appearance.
+- **MARPE** (Miniscrew-Assisted Rapid Palatal Expansion) uses mini-screws placed in the palate to partially expand even a fused adult palate. It is an orthodontic treatment for a narrow bite, not a looks upgrade.
 - **Correct oral posture** may help maintain and optimize existing structure, particularly in younger adults
 - **Orthodontic treatment** can reposition teeth and alter the perceived shape of the mid-face
 
-If you are under 25, you have more biological options. If you are older, the realistic path involves orthodontic or surgical consultation rather than lifestyle changes alone.
+If you are under 25, you have more biological options. If you are older, the bone is largely set; posture, breathing and body fat are what change how the midface reads, and an orthodontist is the right person if your bite or breathing is affected.
 
 ## Mewing and Oral Posture: The Foundation
 
@@ -134,9 +134,9 @@ Talk to a qualified orthodontist or oral and maxillofacial surgeon before consid
 
 ### Orthognathic Surgery
 
-For significant maxillary retrusion or vertical excess, orthognathic (jaw) surgery offers the most direct path to structural change. A Le Fort I osteotomy, for example, physically repositions the entire maxilla forward, upward, or downward depending on what correction is needed.
+Orthognathic (jaw) surgery is the only way to move an adult maxilla. A Le Fort I osteotomy, for example, cuts the upper jaw free and repositions it forward, upward or downward. It exists for functional problems such as a bite that does not work or a restricted airway. **We don't recommend it for appearance.**
 
-This is major surgery requiring general anesthesia, a recovery period of several weeks, and typically a combined effort from an oral surgeon and an orthodontist. Results are permanent and can be dramatic, but so is the commitment involved.
+This is major surgery under general anesthesia, usually combined with a year or more of braces. Risks include lasting numbness of the upper lip, cheeks and teeth, relapse, changes to the nose and further surgery, and the recovery takes months.
 
 Again: consult a board-certified oral and maxillofacial surgeon if you are seriously considering this route. Do not make decisions based on online content alone.
 
@@ -164,7 +164,7 @@ None of these will move your maxilla forward on their own. But deficiencies acti
 
 ## Setting Realistic Expectations
 
-Maxillary development is a slow process, whether driven by posture, chewing habits, or even orthodontic appliances. Lifestyle changes like mewing and nasal breathing are measured in months to years, not weeks. Orthodontic treatment typically runs 12 to 24 months. Surgical changes are faster but carry the trade-offs of any surgery.
+Maxillary development is a slow process, whether driven by posture, chewing habits, or even orthodontic appliances. Lifestyle changes like mewing and nasal breathing are measured in months to years, not weeks. Orthodontic treatment typically runs 12 to 24 months. Surgery is faster but brings the risks above, which is why we don't recommend it for appearance.
 
 Age matters significantly. The younger you are, the more biological leverage you have. A 15-year-old who adopts correct oral posture and fixes chronic mouth breathing may see meaningful structural differences over two to three years. A 35-year-old doing the same will likely see modest soft-tissue and postural improvements, with more significant structural change requiring professional intervention.
 

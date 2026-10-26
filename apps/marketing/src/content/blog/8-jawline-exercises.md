@@ -176,7 +176,7 @@ Exercises only work if you do them regularly. Here is a practical structure:
 
 ## What Exercises Cannot Do
 
-It is worth being direct here. If your jawline concerns are primarily structural, such as a recessed chin, a weak mandible angle, or significant skeletal asymmetry, no amount of exercise will address the underlying bone. Those concerns fall under the domain of orthodontics, orthognathic surgery, or other medical interventions.
+It is worth being direct here. If your jawline concerns are primarily structural, such as a recessed chin, a weak mandible angle, or significant skeletal asymmetry, no amount of exercise will address the underlying bone. Bite problems and real skeletal asymmetry are medical questions for an orthodontist. Jaw surgery exists for those, but we don't recommend it for appearance: risks include lasting numbness of the lips and chin and a recovery of months.
 
 If you are unsure whether your goals are achievable through lifestyle changes or whether they require professional input, starting with an honest assessment of your facial structure is useful. Tools like [Aura](https://app.aura-looksmaxxing.com) can give you a data-driven look at your current facial proportions and identify which specific areas of your jawline are underperforming relative to ideal ratios, so you are not guessing.
 

@@ -119,13 +119,13 @@ High-fade and tapered haircuts draw the eye toward the face and, specifically, t
 
 Some men pursue procedural options to address structural limitations. These are worth understanding, but require careful consideration.
 
-**Always talk to a qualified medical professional before considering any of the following.**
+**We don't recommend any of the following for appearance.** They are listed so you know what clinics sell and what can go wrong.
 
-- **Jaw filler (hyaluronic acid):** Temporary dermal filler injected along the mandible and chin can sharpen the jawline without surgery. Results typically last 12 to 18 months. Results vary significantly by practitioner skill.
-- **Masseter botulinum toxin:** Injecting botulinum toxin into the masseter muscles (the jaw chewing muscles) reduces their bulk if they are overdeveloped, creating a slimmer lower face. Note that for men seeking a wider, more masculine jaw, this is generally not recommended.
-- **Chin and jaw implants:** Surgical implants can add projection to the chin and widen the jaw permanently. This is a significant procedure with real recovery time and risks. Candidate selection and surgical planning are critical.
-- **Bimaxillary surgery (orthognathic surgery):** For significant skeletal discrepancies like a severely recessed mandible, orthognathic surgery repositions the jaw bones. This is major surgery, but results are permanent and structural.
-- **Malar (cheek) implants:** Add projection to flat or underdeveloped cheekbones. Again, a permanent surgical option that requires thorough professional consultation.
+- **Jaw filler (hyaluronic acid):** Filler along the jaw and chin lasts 12 to 18 months. It can migrate, form lumps or block a blood vessel, which can damage the skin.
+- **Masseter botulinum toxin:** Injecting botulinum toxin into the masseter muscles (the jaw chewing muscles) reduces their bulk if they are overdeveloped, creating a slimmer lower face. Side effects include weaker chewing and an uneven smile.
+- **Chin and jaw implants:** Implants add projection to the chin and width to the jaw. Risks include infection, implants shifting, numbness of the lower lip and chin, and further surgery.
+- **Bimaxillary surgery (orthognathic surgery):** Jaw surgery repositions the jaw bones. It is major surgery for bite and breathing problems, with risks including lasting numbness of the lips and chin and a recovery of months.
+- **Malar (cheek) implants:** Add projection to flat cheekbones. Risks include infection, shifting and numbness of the cheek and upper lip.
 
 ## Getting an Objective Baseline
 

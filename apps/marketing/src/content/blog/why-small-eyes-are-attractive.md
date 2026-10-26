@@ -18,7 +18,7 @@ faq:
   - q: Can grooming actually improve how small eyes look?
     a: Yes, grooming makes a meaningful difference. Cleaning up the brow tail to slightly lift the outer corner, removing excess brow bulk without over-thinning, and managing puffiness through sleep and hydration can all sharpen the appearance of small eyes. The goal for men is definition and intensity, not making eyes look larger.
   - q: Do I need surgery to improve the appearance of small eyes?
-    a: Most men with small eyes do not need surgery. Lifestyle factors like body composition, sleep quality, and grooming habits account for a large portion of the impression your eyes make. Surgery such as blepharoplasty or canthopexy is relevant mainly in cases of functional ptosis or significant structural concerns. Always talk to a qualified professional before considering any procedure.
+    a: Most men with small eyes do not need surgery. Lifestyle factors like body composition, sleep quality, and grooming habits account for a large portion of the impression your eyes make. Surgery such as blepharoplasty or canthopexy is relevant when a drooping lid affects vision. For appearance, we don't recommend it.
 draft: false
 ---
 
@@ -117,11 +117,13 @@ If you want an objective read on how your eye shape, bone structure, and overall
 
 Some men with very hooded eyes or significant ptosis (drooping of the upper eyelid caused by a weak levator muscle) find that the condition genuinely impairs their vision or creates a look they find distressing. In those cases, options exist.
 
-- **Blepharoplasty** (eyelid surgery) can address excess upper eyelid skin.
-- **Canthoplasty** or **canthopexy** procedures adjust the canthal tilt of the outer eye corner.
+Clinics sell eye surgery for appearance. **We don't recommend it.** These are the procedures you will come across:
+
+- **Blepharoplasty** (eyelid surgery) removes upper eyelid skin.
+- **Canthoplasty** or **canthopexy** procedures change the outer eye corner.
 - **Ptosis correction** specifically addresses the levator muscle when the drooping has a functional cause.
 
-These are surgical procedures with real recovery times and risks. Talk to a qualified, board-certified oculoplastic or plastic surgeon before considering any of them. The bar for pursuing surgery should be high, and a thorough consultation should precede any decision.
+Risks include dry eyes, eyes that are harder to close, asymmetry, a lower lid that pulls away from the eye and scarring, and some of these changes are permanent. A drooping lid that blocks your vision is a medical question for an oculoplastic surgeon.
 
 ## Putting It Together
 

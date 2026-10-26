@@ -16,7 +16,7 @@ faq:
   - q: Can you get hunter eyes without surgery?
     a: "Fully replicating the look without surgery is not possible if the underlying bone structure isn't there, since the deep-set appearance is primarily skeletal. However, brow grooming, reducing body fat, improving sleep, and practicing a more relaxed eyelid position can all shift the appearance in a meaningful direction without any procedures."
   - q: What is hunter eye surgery?
-    a: Hunter eye surgery most commonly refers to a lateral canthoplasty or canthopexy, procedures that alter the angle of the outer eye corner to create a neutral or negative canthal tilt. Some people also pursue brow bone augmentation to enhance the supraorbital ridge. Always consult a qualified, board-certified oculoplastic or plastic surgeon before considering these options.
+    a: Hunter eye surgery most commonly refers to a lateral canthoplasty or canthopexy, procedures that alter the angle of the outer eye corner to create a neutral or negative canthal tilt. Some people also pursue brow bone augmentation to enhance the supraorbital ridge. We don't recommend either for appearance, because the risks to the shape and function of the eye can be permanent.
   - q: Are deep-set eyes attractive on men?
     a: Research suggests that deep-set eyes in men are broadly associated with facial masculinity, which is generally rated as attractive, particularly as a signal of dominance and physical fitness. However, attractiveness is multifactorial and culturally variable, so deep-set eyes are one contributing feature among many rather than a standalone determinant of facial appeal.
 draft: false
@@ -105,7 +105,7 @@ This matters practically: the path to achieving or enhancing a hunter eye appear
 
 ## What Can You Actually Change?
 
-This is where the conversation has to be grounded. Much of the hunter eye anatomy is **skeletal and genetic**, meaning it cannot be meaningfully altered without surgical procedures. But there are legitimate non-surgical and surgical options worth understanding.
+This is where the conversation has to be grounded. Much of the hunter eye anatomy is **skeletal and genetic**, meaning it cannot be meaningfully altered without surgical procedures. Everyday changes to brows, body fat and sleep make a real difference. Clinics also sell surgery and injections for the eye area. **We don't recommend any of them for appearance:** they can leave the eye looking unnatural or uneven, dry or harder to close, and some of the changes are permanent.
 
 ### Non-Surgical Approaches
 
@@ -132,13 +132,13 @@ Before making any decisions about changes to your face, it helps to get a clear,
 
 For those considering more significant changes, several procedures are discussed in this context. These are listed for informational purposes only.
 
-**Brow bone augmentation or reduction**: Implants or bone contouring can alter the supraorbital ridge profile. This is a significant craniofacial procedure.
+**Brow bone augmentation or reduction**: Implants or bone contouring above the eyes, often through an incision across the scalp. Risks include lasting numbness of the forehead and scalp, infection and further surgery.
 
-**Upper blepharoplasty**: Removes excess upper eyelid skin, which can reduce hooding. Paradoxically, for someone seeking *more* hunter eye appearance, this is generally the wrong direction. Surgeons can also create or deepen the eyelid crease, which affects lid exposure.
+**Upper blepharoplasty**: Removes excess upper eyelid skin, which can reduce hooding. Paradoxically, for someone seeking *more* hunter eye appearance, this is generally the wrong direction. Eyelid surgery can also leave eyes dry or harder to close.
 
-**Hunter eye surgery (canthoplasty or canthopexy)**: These procedures alter the canthal angle. A lateral canthoplasty can lower the outer corner of the eye to create a neutral or negative canthal tilt. This is the procedure most directly associated with achieving the hunter eye look surgically.
+**Hunter eye surgery (canthoplasty or canthopexy)**: These procedures alter the canthal angle. A lateral canthoplasty can lower the outer corner of the eye to create a neutral or negative canthal tilt. Risks include asymmetry, scarring, dry eye, a lower lid that pulls away from the eye, and an eye shape that is hard to undo.
 
-**Fat grafting or filler around the orbit**: Can be used to change the shadow and depth perception around the eye, though results vary considerably.
+**Fat grafting or filler around the orbit**: Sold to change shadow and depth around the eye. This is one of the riskiest places to inject: filler entering a blood vessel near the eye has caused permanent vision loss.
 
 **Talk to a qualified, board-certified plastic surgeon or oculoplastic specialist before considering any of these procedures.** Results depend heavily on your baseline anatomy, the surgeon's skill, and realistic expectations. No procedure guarantees a specific aesthetic outcome.
 
@@ -150,4 +150,4 @@ For those considering more significant changes, several procedures are discussed
 4. **Reduce body fat if applicable.** If you are carrying excess weight, fat loss will reveal more facial bone structure including around the orbits.
 5. **Improve sleep and manage inflammation.** Consistent sleep reduces periorbital puffiness.
 6. **Practice deliberate eye relaxation.** A habitually wide-open eye expression reads as prey-eye. Practicing a relaxed, slightly lowered upper lid position in the mirror can help retrain your default expression.
-7. **If considering surgery, consult multiple specialists.** Get at least two consultations from board-certified surgeons with demonstrated experience in periorbital work specifically.
+7. **Leave surgery out of it.** We don't recommend eye surgery or injections for appearance. If an eyelid droops enough to affect your vision, that is a medical question for an oculoplastic surgeon.

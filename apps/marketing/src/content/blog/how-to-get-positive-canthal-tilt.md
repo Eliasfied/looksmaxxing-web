@@ -14,11 +14,11 @@ faq:
   - q: Can you naturally change your canthal tilt without surgery?
     a: You cannot physically reposition the canthal tendon without a procedure, but you can meaningfully change how your canthal tilt appears. Reducing facial fat, using strategic eye makeup or grooming, and improving facial posture all influence the perceived tilt. For many people, these changes are enough to make a visible difference.
   - q: How much does lateral canthoplasty cost?
-    a: Pricing varies widely by surgeon, location, and the complexity of the procedure. In the United States, lateral canthoplasty typically ranges from $3,000 to $8,000 or more when performed by an experienced oculoplastic surgeon. Always prioritize surgeon experience and a specific portfolio of eye procedures over cost.
+    a: Pricing varies widely by surgeon, location, and the complexity of the procedure. In the United States, lateral canthoplasty typically ranges from $3,000 to $8,000 or more when performed by an experienced oculoplastic surgeon. We don't recommend it for appearance, at any price.
   - q: Does mewing actually improve canthal tilt?
     a: There is no controlled clinical evidence that mewing changes canthal tilt directly. The proposed mechanism involves gradual maxillary expansion influencing orbital floor position, which theoretically could affect lower eyelid position over years. Some individuals report subtle changes in overall facial structure, but attributing specific tilt changes to mewing alone is difficult to verify.
   - q: What is the difference between canthopexy and canthoplasty?
-    a: Canthoplasty involves detaching the lateral canthal tendon and reattaching it at a new, higher point, which allows for more significant repositioning. Canthopexy tightens and elevates the tendon without fully detaching it, producing subtler results with less surgical risk. Your surgeon will recommend the appropriate technique based on your anatomy and desired outcome.
+    a: Canthoplasty involves detaching the lateral canthal tendon and reattaching it at a new, higher point, which allows for more significant repositioning. Canthopexy tightens and elevates the tendon without fully detaching it, producing subtler results with less surgical risk. Both are surgery on the eye corner, and we don't recommend either for appearance.
 draft: false
 ---
 
@@ -84,27 +84,29 @@ These options go further and can create more permanent changes. They vary signif
 
 ### Canthoplasty and Canthopexy
 
+**We don't recommend any of the procedures in this section for appearance.** They are covered so you know what clinics are selling. The eye area is delicate, and these procedures can leave an eye that looks unnatural or uneven, a lower lid that pulls away from the eye, or eyes that are dry and hard to close, sometimes permanently.
+
 **Lateral canthoplasty** is a surgical procedure that repositions the lateral canthal tendon. A surgeon detaches or modifies the tendon attachment at the outer corner and reattaches it at a higher point on the orbital rim, physically tilting the outer corner upward.
 
 **Canthopexy** is a less invasive variation that tightens and repositions the tendon without fully detaching it. It tends to have less dramatic results but also fewer risks and a shorter recovery.
 
-These procedures are performed by oculoplastic surgeons or plastic surgeons with specific eye-area expertise. Results, when done well, are permanent. Revision is possible but complex. Finding a surgeon with a strong portfolio of canthoplasty work specifically is essential, as this is a technically demanding procedure.
+These procedures are performed by oculoplastic surgeons or plastic surgeons with specific eye-area expertise. The changes are usually permanent, including the unwanted ones. Risks include asymmetry, scarring, dry eye, a lower lid that pulls down and shows more white, and an overdone "cat eye" look. Revision surgery on the eye corner is difficult.
 
 ### Fox Eye Surgery (Thread Lift at the Canthus)
 
-A temporary option that uses dissolvable threads inserted near the outer corner to mechanically pull it upward. Results typically last six to twelve months before the threads dissolve. It is less invasive than canthoplasty but also less precise and less permanent.
+A temporary option that uses dissolvable threads inserted near the outer corner to mechanically pull it upward. Results typically last six to twelve months before the threads dissolve. It is temporary, less precise than surgery, and can cause dimpling, visible or palpable threads, asymmetry and infection.
 
-Some practitioners also offer a non-thread version using strategic filler placement near the lateral orbital rim to create the appearance of upward tilt, though results vary considerably.
+Some practitioners also inject filler near the outer eye corner instead. This is one of the riskiest places to inject filler: the blood vessels there connect to the vessels supplying the eye, and filler entering them has caused permanent vision loss.
 
 ### Botox for the Lower Eyelid
 
-A small injection of botulinum toxin into the **orbicularis oculi** muscle just below the outer lower lid can relax the muscle enough to let the lower lid drop slightly, which paradoxically creates the appearance of a more positive tilt. This is a subtle effect and requires a practitioner experienced with periorbital Botox specifically.
+A small injection of botulinum toxin into the **orbicularis oculi** muscle just below the outer lower lid can relax the muscle enough to let the lower lid drop slightly, which paradoxically creates the appearance of a more positive tilt. The effect is subtle, and weakening the muscle that closes the eye can leave the lower lid loose, the eye dry and irritated, or the eye harder to close properly.
 
 Results last roughly three to four months. The margin for error is narrow since too much relaxation of the lower lid can cause functional issues.
 
 ### Orbital Rim Implants
 
-For those whose negative tilt is primarily driven by a recessed lateral orbital rim, custom implants placed along the outer orbital rim can project the bone structure forward and subtly elevate the outer canthus. This is a more involved surgery with a longer recovery and is less commonly performed than canthoplasty alone.
+For those whose negative tilt is primarily driven by a recessed lateral orbital rim, custom implants placed along the outer orbital rim can project the bone structure forward and subtly elevate the outer canthus. This is more involved surgery with a longer recovery, and implants close to the eye bring risks of infection, shifting and visible edges.
 
 ![Anatomical diagram showing lateral canthal tendon and canthoplasty repositioning concept](/blog/how-to-get-positive-canthal-tilt/3.webp)
 
