@@ -123,10 +123,22 @@ Hak einfach ab (`- [x]`) wenn erledigt.
 - [ ] Core Web Vitals Report prüfen
 
 ### 10.2 Bing Webmaster Tools
-- [ ] Account anlegen: https://www.bing.com/webmasters
-- [ ] Site `aura-looksmaxxing.com` hinzufügen (DNS-Verifizierung oder GSC-Import)
-- [ ] Sitemap einreichen: `https://www.aura-looksmaxxing.com/sitemap-index.xml`
-- [ ] IndexNow Key generieren → `scripts/indexnow.mjs` ist schon da, nur Key fehlt
+- [ ] Account anlegen: https://www.bing.com/webmasters → „Import your sites from
+      Google Search Console" (zieht Property + Verifizierung + Sitemap mit, ~2 Min).
+      Fallback ohne Import: Site manuell hinzufügen, per DNS-TXT verifizieren,
+      Sitemap `https://www.aura-looksmaxxing.com/sitemap-index.xml` einreichen
+      (⚠️ NICHT `/sitemap.xml` — existiert nicht).
+- [x] IndexNow Key: `12aa09fb4abee29fdfc774d3fe6b4224`, ausgeliefert unter
+      `/12aa09fb4abee29fdfc774d3fe6b4224.txt` (Datei liegt in `apps/marketing/public/`).
+      `scripts/indexnow.mjs` zeigte vorher auf `getbanana.ai` — behoben.
+      Läuft automatisch im `daily-content` Workflow für neu veröffentlichte Seiten.
+      Einmalig alles anmelden: `node scripts/indexnow.mjs --all`
+- [ ] Nach dem Bing-Setup: in Webmaster Tools unter „IndexNow" prüfen, dass die
+      Pings ankommen (der Key wird dort erst nach dem ersten Submit sichtbar).
+
+> IndexNow bedient Bing, Yandex, Seznam und Naver — **nicht Google**. Der direkte
+> Traffic-Effekt ist klein; relevant ist, dass ChatGPT-Suche und Copilot auf dem
+> Bing-Index aufsetzen.
 
 ### 10.3 Content-Automation ✅ ERLEDIGT
 - [x] Keywords-CSV (`apps/marketing/src/data/keywords.csv`) — 126 Cluster
@@ -141,9 +153,11 @@ Hak einfach ab (`- [x]`) wenn erledigt.
 ## 11. Offene SEO-Baustellen (Audit 2026-09-21)
 
 ### 🔴 Sofort
-- [ ] **Anthropic API Guthaben aufladen** — Content-Generierung steht seit 2026-08-30.
-      Der Workflow lief 22 Tage lang „erfolgreich" ohne etwas zu produzieren.
-      (`generate-content.mjs` exitet jetzt mit Code 1, CI schlägt also künftig fehl.)
+- [x] ~~Anthropic API Guthaben aufladen~~ — überholt. Die Generierung läuft; der
+      Stillstand vom 15.–23.10. hatte eine andere Ursache: jede Seite landete als
+      `draft: true`, weil ein abgelehntes Bild den ganzen Artikel blockierte und
+      die Produktbehauptungs-Regel Negation ignorierte. Behoben, 9 Drafts
+      nachträglich freigegeben. Seit 24.10. sind die Runs grün.
 - [ ] **Vercel Apex-Redirect auf 308 umstellen** — Settings → Domains →
       `aura-looksmaxxing.com`. Liefert aktuell 307 (temporary), daher 94 Seiten
       in GSC als „Seite mit Weiterleitung / Validierung fehlgeschlagen".
