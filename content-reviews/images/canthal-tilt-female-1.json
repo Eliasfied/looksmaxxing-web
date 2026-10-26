@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "fingerprint": "acdd06032859976d543273493d7ecb6c7c0b7d5d533eaae12652a28ed9b0d63b",
+  "brief": {
+    "prompt": "Editorial close-up photograph of a woman's face from the nose bridge up, one eye in sharp focus with softly lit skin, natural lashes and a relaxed gaze directed slightly past the camera. Warm window light, shallow depth of field, a blurred neutral backdrop of muted terracotta tones, no makeup styling emphasis and no recognisable person.",
+    "alt": "Close-up of a woman's eye and brow lit by soft window light against a warm blurred background",
+    "purpose": "Hero image introducing the article's topic at a glance: the female eye area and the shape of the eye corners that canthal tilt describes, in a calm, non-judgmental editorial tone.",
+    "article": "canthal-tilt-female",
+    "position": 1
+  },
+  "sha256": "dda54ad3dce626ae418f10187bf870bf05af8bf7c15e8fa205209b0a76dc2a1a",
+  "reviewedAt": "2026-10-26T13:28:44.526Z",
+  "review": {
+    "pass": true,
+    "issues": [],
+    "alt": "Close-up of a woman's face from the nose upward, with one green-hazel eye in sharp focus, defined brow and natural lashes, softly lit against a blurred warm terracotta background"
+  }
+}

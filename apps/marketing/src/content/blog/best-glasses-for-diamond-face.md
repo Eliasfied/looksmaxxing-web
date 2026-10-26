@@ -199,6 +199,8 @@ Most frames print three measurements, in millimeters, on the inside of the templ
 
 [Warby Parker's fit guide](https://www.warbyparker.com/learn/eyeglass-frame-sizes-explained-simple-fit-guide-2) gives common ranges of about 40 to 60 mm for lens width, 14 to 24 mm for bridge width, and 120 to 150 mm for temple length. It also notes that the most suitable size varies by person. If you already own a pair that fits well, use its numbers as a reference when you shop, especially online.
 
+![A person in a white robe and soft headband, hair pulled back, holds a pair of tortoiseshell glasses away from their face while studying their calm reflection in a bathroom mirror by a sunlit window.](/blog/best-glasses-for-diamond-face/3.webp)
+
 ## Materials and Budget
 
 Shape gets most of the attention, but material decides how a frame feels at the end of a long day. The [American Academy of Ophthalmology](https://www.aao.org/eye-health/glasses-contacts/eyeglass-frame-materials) notes that most people focus on price and style, but weight, strength, flexibility and corrosion resistance matter too. It describes titanium frames as very strong, lightweight, corrosion-resistant and hypoallergenic. That is important if you are allergic to metals such as nickel.

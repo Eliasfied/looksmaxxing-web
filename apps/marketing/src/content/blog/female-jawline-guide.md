@@ -119,6 +119,8 @@ Stylists often sort jawlines into rough categories to guide haircut and makeup c
 
 None of these is better than the others. A common mistake online is applying masculine jaw standards, like maximum width and hard angles, to women's faces. Those standards come from a different set of preferences and do not transfer. The goal of styling is to work *with* the shape you have toward the look you want, whether that is softer, sharper or somewhere in between.
 
+![Side-view illustration of a pale grey human skull on a cream background with the lower jawbone (mandible) highlighted in coral, showing the ramus, angle, chin and teeth.](/blog/female-jawline-guide/2.webp)
+
 ## Mewing, Jaw Exercises and Other Quick Fixes
 
 Mewing means holding the tongue pressed to the roof of the mouth for long stretches in hopes of reshaping the jaw. It is the most popular DIY jawline trend, often alongside chewing gadgets and facial exercises. The evidence does not support it.
@@ -156,6 +158,8 @@ You cannot reshape adult bone with posture or exercises, but you have a lot of c
 4. **Contour with a light hand.** For more definition, blend a matte shade one or two tones deeper than your skin just under the jawbone, sweeping from below the ear toward the chin. Blend it down into the neck so there is no visible line. To soften corners, skip the contour there and keep blush higher on the cheeks.
 5. **Choose necklines and accessories deliberately.** V-necks and scoop necks create vertical lines that elongate the lower face. Drop or linear earrings do something similar. Large round earrings or chokers draw attention to jaw width, which can be great if that is the look you want.
 6. **Work the camera, not your bones.** Light from the front or slightly above defines the jaw. Light from below flattens it. Shooting from slightly above eye level, with your chin gently forward and down, avoids the soft line that low angles create. This is the same effect that inflates mewing before-and-afters, so you might as well use it on purpose.
+
+![Flat-lay on pale linen of two hands holding a soft makeup brush over an open bronzer compact, with a cream highlighter tube, a small gold hand mirror and a sprig of white flowers nearby](/blog/female-jawline-guide/3.webp)
 
 If you'd like a structured starting point for these choices, Aura's [Face Analysis for Women](https://app.aura-looksmaxxing.com/tools/face-analysis-for-women?source=%2Fblog%2Ffemale-jawline-guide) looks at a photo you upload. It returns notes on your facial profile, hair and brow ideas, and your personal priorities, shaped around the style goals you set. It does not apply masculine jaw ideals.
 

@@ -133,10 +133,31 @@ test('a rebrief is refused unless it returns three drawable briefs', async () =>
   const good = await rebriefImages(reply({ image_prompts: [brief(), brief({ prompt: brief().prompt + ' Two.' }), brief({ prompt: brief().prompt + ' Three.' })] }), page, data, () => {});
   assert.equal(good.length, 3);
 
-  await assert.rejects(() => rebriefImages(reply({ image_prompts: [brief(), brief()] }), page, data, () => {}), /three image briefs/);
+  await assert.rejects(() => rebriefImages(reply({ image_prompts: [brief(), brief()] }), page, data, () => {}), /3 image brief/);
   await assert.rejects(() => rebriefImages(reply({ image_prompts: [brief(), brief(), brief()] }), page, data, () => {}), /duplicate/);
   await assert.rejects(() => rebriefImages(reply({ image_prompts: [
     brief({ prompt: 'A row of seven face outlines, each with a small one-word label beneath it on a neutral background.' }),
     brief({ prompt: brief().prompt + ' Two.' }), brief({ prompt: brief().prompt + ' Three.' }),
   ] }), page, data, () => {}), /text inside the picture/);
+});
+
+test('a partial rebrief only replaces the gaps and must differ from the briefs it keeps', async () => {
+  const kept = 'Overhead flat lay of five eyeglass frames arranged in a loose arc on light linen, shot in soft daylight.';
+  const fresh = 'Realistic editorial photograph of an optician in a bright shop handing a customer a pair of frames across a counter.';
+  let sent;
+  const reply = body => ({ messages: { create: async params => { sent = params.messages[0].content; return { stop_reason: 'end_turn', usage: { input_tokens: 10, output_tokens: 5 }, content: [{ type: 'text', text: JSON.stringify(body) }] }; } } });
+  const data = { title: 'T', description: 'D', body_markdown: 'Body', image_prompts: [
+    { prompt: kept, alt: 'Frames', purpose: 'open' }, { prompt: kept + ' Two.', alt: 'More', purpose: 'mid' }, { prompt: 'old third', alt: 'Old', purpose: 'end' },
+  ] };
+
+  const out = await rebriefImages(reply({ image_prompts: [{ prompt: fresh, alt: 'An optician', purpose: 'show the fitting step' }] }), page, data, () => {}, [3]);
+  assert.equal(out.length, 1);
+  // The kept briefs travel with the request so the new one can be made distinct.
+  assert.match(sent, /positions 3/);
+  assert.match(sent, /staying exactly as they are/);
+  assert.ok(sent.includes(kept));
+
+  // A replacement that repeats a brief being kept is refused.
+  await assert.rejects(() => rebriefImages(reply({ image_prompts: [{ prompt: kept, alt: 'Frames', purpose: 'again' }] }), page, data, () => {}, [3]), /duplicate/);
+  await assert.rejects(() => rebriefImages(reply({ image_prompts: [] }), page, data, () => {}, [3]), /1 image brief/);
 });

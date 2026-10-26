@@ -1,25 +1,14 @@
 {
-  "key": "{\"brief\":{\"prompt\":\"Close three-quarter view of an optician gently adjusting the nose pads on a customer's thin metal oval glasses in a bright optical shop. The customer is smiling, and the lower rim of the frame sits clearly above her prominent cheekbones without touching her skin.\",\"alt\":\"Optician adjusting nose pads so the glasses frame clears high cheekbones\",\"purpose\":\"Illustrates the fit check from the article: frames should not touch the cheeks, which matters for diamond faces with prominent cheekbones, and nose-pad adjustment can change where a frame rests.\",\"article\":\"best-glasses-for-diamond-face\",\"position\":3},\"model\":\"openai/gpt-image-2.5/flare/text-to-image\"}",
+  "key": "{\"brief\":{\"prompt\":\"Close-up editorial photo of a person standing at a bathroom mirror, hair pulled fully back with a soft headband, glasses held in one hand away from the face, checking their own reflection with a calm neutral expression. Natural window light, shallow depth of field, the reflected face slightly out of focus so the focus stays on the careful, unhurried check.\",\"alt\":\"A person with their hair pulled back studies their face in a mirror while holding a pair of glasses in one hand\",\"purpose\":\"Illustrates the quick mirror check in the section on confirming your face shape: hair back, straight-on view, neutral expression, before choosing frames.\",\"article\":\"best-glasses-for-diamond-face\",\"position\":3},\"model\":\"openai/gpt-image-2.5/flare/text-to-image\"}",
   "attempts": [
     {
-      "status": "rejected",
-      "prompt": "Close three-quarter view of an optician gently adjusting the nose pads on a customer's thin metal oval glasses in a bright optical shop. The customer is smiling, and the lower rim of the frame sits clearly above her prominent cheekbones without touching her skin.",
-      "issues": [
-        "The optician's hands are anatomically implausible: one thumb/finger presses directly on the customer's nose and the other hand cups the side of the nose, which looks awkward and does not read as adjusting nose pads (no tool or pad contact is visible).",
-        "The customer's glasses are round/circular wire frames, not the 'oval' frames in the brief.",
-        "The lower rim of the frame is not clearly shown sitting above prominent cheekbones; the cheeks are bunched by the smile and the cheekbone clearance, which is the article's key point, is not legible.",
-        "The optician's finger overlaps/occludes the frame's bridge area, so the nose-pad adjustment cannot actually be seen, weakening the illustration of the fit check."
-      ]
-    },
-    {
-      "status": "rejected",
-      "prompt": "Close three-quarter view of an optician gently adjusting the nose pads on a customer's thin metal oval glasses in a bright optical shop. The customer is smiling, and the lower rim of the frame sits clearly above her prominent cheekbones without touching her skin.\nEDITORIAL CORRECTION: Regenerate a simpler, accurate illustration of the same purpose. Fix these defects from the rejected image: [\"The optician's hands are anatomically implausible: one thumb/finger presses directly on the customer's nose and the other hand cups the side of the nose, which looks awkward and does not read as adjusting nose pads (no tool or pad contact is visible).\",\"The customer's glasses are round/circular wire frames, not the 'oval' frames in the brief.\",\"The lower rim of the frame is not clearly shown sitting above prominent cheekbones; the cheeks are bunched by the smile and the cheekbone clearance, which is the article's key point, is not legible.\",\"The optician's finger overlaps/occludes the frame's bridge area, so the nose-pad adjustment cannot actually be seen, weakening the illustration of the fit check.\"]. Avoid text, labels and complex comparative diagrams if they caused the defect.",
-      "issues": [
-        "Anatomy error: the optician's hands are implausible. One hand pinches the nose pad area while the other hand/thumb appears to press over the customer's mouth and upper lip, with fingers merging awkwardly into her face, which looks unnatural and distracting.",
-        "Nose pads are unclear: clear pad pieces float at the nose, one appearing detached from the frame, so the nose-pad adjustment is not convincingly depicted.",
-        "Brief mismatch: the frame is thin round/circular metal glasses rather than oval, and the key visual cue (lower rim clearly above prominent cheekbones without touching skin) is not clearly shown, since the cheekbones are not prominent and the rim-to-cheek gap is not evident.",
-        "Framing is not a clean three-quarter view of the adjustment; the optician's body and hands dominate and block the view of the fit check."
-      ]
+      "status": "passed",
+      "prompt": "Close-up editorial photo of a person standing at a bathroom mirror, hair pulled fully back with a soft headband, glasses held in one hand away from the face, checking their own reflection with a calm neutral expression. Natural window light, shallow depth of field, the reflected face slightly out of focus so the focus stays on the careful, unhurried check.",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "A person in a white robe and soft headband, hair pulled back, holds a pair of tortoiseshell glasses away from their face while studying their calm reflection in a bathroom mirror by a sunlit window."
+      }
     }
   ]
 }

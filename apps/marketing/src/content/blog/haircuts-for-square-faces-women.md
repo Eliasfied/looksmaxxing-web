@@ -123,6 +123,8 @@ In [a stylist roundup on shoulder-length cuts](https://www.aol.com/best-shoulder
 
 This is the most low-commitment change on the list. You can often get it with a few face-framing layers added to your existing length.
 
+![A hairstylist's hands holding and sweeping a long, soft fringe to one side on a client with long chestnut-brown hair, seen from the side in a bright salon with a comb and clips on the station behind](/blog/haircuts-for-square-faces-women/2.webp)
+
 ## Match the Cut to Your Hair Texture
 
 Face shape gets most of the attention, but it's only part of the picture. A salon guide on [hairstyles for face shapes](https://ckstudiosalon.com/hairstyles-for-face-shapes/) points out that the right haircut also depends on your hair texture, daily lifestyle and maintenance commitment.
@@ -173,6 +175,8 @@ Whether you use a tool or not, these steps make the conversation easier (editori
 4. **Be honest about time.** Tell the stylist how many minutes you spend styling, and whether you own a blow dryer, round brush or curling iron.
 5. **Mention your texture history.** Share whether your hair frizzes, flattens or curls more in humidity, and how it behaves when air-dried.
 6. **Ask about the grow-out.** Find out what the cut will look like after it grows out a bit, and when you'll need a trim.
+
+![A stylist in black holds a section of hair between two fingers to check the length of a woman's wavy, layered brunette bob that falls just below the jaw, as she sits in a salon chair in a black cape facing a mirror in natural window light](/blog/haircuts-for-square-faces-women/3.webp)
 
 ## Upkeep and Styling at Home
 

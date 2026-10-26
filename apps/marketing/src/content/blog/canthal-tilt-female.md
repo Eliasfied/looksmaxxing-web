@@ -5,6 +5,8 @@ slug: "canthal-tilt-female"
 primary_keyword: "canthal tilt female"
 cluster: "canthal-tilt-female"
 pubDate: "2026-10-24"
+heroImage: "/blog/canthal-tilt-female/1.webp"
+heroImageAlt: "Close-up of a woman's face from the nose upward, with one green-hazel eye in sharp focus, defined brow and natural lashes, softly lit against a blurred warm terracotta background"
 tags: ["canthal tilt", "eye shape", "female facial features", "eye makeup", "brow styling"]
 readingTime: 8
 related: [positive-vs-negative-canthal-tilt, how-to-fix-negative-canthal-tilt, how-to-get-positive-canthal-tilt]

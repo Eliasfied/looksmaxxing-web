@@ -216,6 +216,8 @@ These can't all be universal rules, and none of them is backed by evidence that 
 
 Rim thickness is a related choice. Thicker rims make glasses a feature. Thinner rims let your face do the talking. Neither is correct for a square face. It depends on whether you want the glasses noticed.
 
+![An optician's gloved hand adjusts a pair of round black acetate glasses on a short-haired man with a strong jaw, seen in three-quarter profile in a bright optical shop with shelves of frames blurred behind him](/blog/best-glasses-for-square-face/3.webp)
+
 ## A Practical Way to Choose Your Frames
 
 Poudre Valley Eye Care describes face shape as a useful *tiebreaker* when deciding between frames you already like. That's the right mindset. Here's a step-by-step process (editorial suggestions):

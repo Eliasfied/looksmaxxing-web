@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "fingerprint": "8780cdeeef5568de53351a124246dc4e910b7a461c4c0487d661a2898e1d716e",
+  "brief": {
+    "prompt": "A realistic editorial flat-lay on a pale linen surface showing a woman's hands holding a soft makeup brush loaded with warm bronzer next to an open compact, a tube of cream highlighter and a small hand mirror, lit by soft daylight. The styling tools are the only subject, arranged neatly with no text visible on any packaging.",
+    "alt": "Flat-lay of makeup brush, bronzer compact, highlighter and hand mirror on linen",
+    "purpose": "Illustrates the article's practical point that makeup and styling choices, which you control, shape how a jawline looks in person and on camera more than bone structure alone.",
+    "article": "female-jawline-guide",
+    "position": 3
+  },
+  "sha256": "e1198a049189b8d27b11ab3f5c2223e6d94c9cc9f4cf8d28c31f97c17e087dfe",
+  "reviewedAt": "2026-10-26T13:25:51.359Z",
+  "review": {
+    "pass": true,
+    "issues": [],
+    "alt": "Flat-lay on pale linen of two hands holding a soft makeup brush over an open bronzer compact, with a cream highlighter tube, a small gold hand mirror and a sprig of white flowers nearby"
+  }
+}

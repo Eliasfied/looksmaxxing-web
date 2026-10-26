@@ -846,16 +846,28 @@ function makeBranchName() {
 
 // ─── Backfill images for pages that published without them ──────────────────
 
-// Strips placeholders the way a save without images does, so a checkpoint can be
-// compared against the file it produced.
-const bodyAsPublished = body => body.replace(/\r/g, '').replace(/\{\{IMAGE_\d+\}\}/g, '').replace(/\n{3,}/g, '\n\n').trim();
+// Compares prose only. A checkpoint holds {{IMAGE_n}} placeholders while the
+// published file holds either nothing (saved without images) or the Markdown
+// for the picture that filled the slot, so both forms have to come out before
+// the question "has anyone edited this article since?" can be answered.
+const bodyAsPublished = body => body
+  .replace(/\r/g, '')
+  .replace(/^!\[[^\]]*\]\([^)]*\)[ \t]*$/gm, '')
+  .replace(/\{\{IMAGE_\d+\}\}/g, '')
+  .replace(/\n{3,}/g, '\n\n')
+  .trim();
 
 function imageGaps(slug) {
   const file = path.join(CONTENT_DIRS.blog, slug + '.md');
   if (!fs.existsSync(file)) return null;
   const md = fs.readFileSync(file, 'utf8');
   if (isDraftContent(md)) return null;
-  return { hero: !/^heroImage:/m.test(md), inline: (md.match(/^!\[/gm) ?? []).length, md };
+  // A slot counts as filled only when its file is actually on disk; the review
+  // record can say "approved" for an image a later run never wrote.
+  const dir = path.join(PUBLIC_BASE, 'blog', slug);
+  const have = fs.existsSync(dir) ? fs.readdirSync(dir) : [];
+  const missing = [1, 2, 3].filter(n => !have.includes(n + '.webp'));
+  return { missing, md };
 }
 
 function backfillTargets() {
@@ -863,9 +875,8 @@ function backfillTargets() {
   // Emptiest pages first: an article with no illustration at all gains more
   // from a run than one that is only missing its third picture.
   return slugs.map(slug => ({ slug, gaps: imageGaps(slug) }))
-    .filter(({ slug, gaps }) => (!ONLY_SLUG || slug === ONLY_SLUG) && gaps && (gaps.hero || gaps.inline < 2))
-    .map(({ slug, gaps }) => ({ slug, missing: (gaps.hero ? 1 : 0) + (2 - gaps.inline) }))
-    .sort((a, b) => b.missing - a.missing || a.slug.localeCompare(b.slug))
+    .filter(({ slug, gaps }) => (!ONLY_SLUG || slug === ONLY_SLUG) && gaps && gaps.missing.length)
+    .sort((a, b) => b.gaps.missing.length - a.gaps.missing.length || a.slug.localeCompare(b.slug))
     .map(t => t.slug);
 }
 
@@ -883,10 +894,14 @@ async function backfillImages() {
       skipped.push({ slug, reason: 'Published text has diverged from the checkpoint; backfill would overwrite it.' });
       continue;
     }
-    console.log(`\n── ${slug}`);
+    console.log(`\n── ${slug} (missing ${gaps.missing.join(', ')})`);
     const client = await anthropic();
-    data.image_prompts = await rebriefImages(client, page, data, accountUsage);
-    console.log('   Rewrote 3 image briefs under the current rules.');
+    const replacements = await rebriefImages(client, page, data, accountUsage, gaps.missing);
+    // Only the gaps get a new brief. The others keep theirs, so their approved
+    // image is reused from cache instead of being generated and paid for again.
+    data.image_prompts = [0, 1, 2].map(i => data.image_prompts?.[i] ?? null);
+    gaps.missing.forEach((slot, i) => { data.image_prompts[slot - 1] = replacements[i]; });
+    console.log(`   Rewrote ${replacements.length} image brief(s) under the current rules; kept ${3 - replacements.length}.`);
     data._draft = false;
     data._review = { pass: true, issues: [] };
     const outPath = await SAVERS.blog(page, data);

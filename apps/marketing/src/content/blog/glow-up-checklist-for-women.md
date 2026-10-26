@@ -136,6 +136,8 @@ Before your next appointment, prepare a few things for your stylist:
 
 If you heat-style often, ask your stylist about heat protection and settings that suit your hair type.
 
+![A woman in a white linen robe smooths a line of white sunscreen across the back of her hand beside a sunny bathroom window, with an open tube, its cap, a small round mirror, a potted plant and a folded towel on the pale marble counter.](/blog/glow-up-checklist-for-women/2.webp)
+
 ### Grooming Details
 
 Small details add up, but there is no universal standard here. Choose the ones that matter to you:

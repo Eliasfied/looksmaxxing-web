@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "fingerprint": "3a2b3c52e13fade539a14fb522e6afe3dae50f970aca621f9d2b9e8205e739c2",
+  "brief": {
+    "prompt": "Close-up editorial photo of a stylist's hands gently sweeping a long, soft fringe to one side on a client seen from behind and slightly off-profile, with face-framing pieces falling past the cheekbone. Warm salon light, shallow depth of field, a comb and sectioning clips resting on the station in the background.",
+    "alt": "A hairstylist's hands sweeping a long fringe to one side on a client's chestnut hair in a bright salon",
+    "purpose": "Illustrates the side-swept bang recommendation: a longer, soft fringe swept diagonally breaks up the horizontal line at the forehead, versus a blunt straight-across cut.",
+    "article": "haircuts-for-square-faces-women",
+    "position": 2
+  },
+  "sha256": "510392fdf501fb3abd23fbc9c7ad99c9d8f6f0ef35cdcf2dfcd28b533795c407",
+  "reviewedAt": "2026-10-26T13:26:31.971Z",
+  "review": {
+    "pass": true,
+    "issues": [],
+    "alt": "A hairstylist's hands holding and sweeping a long, soft fringe to one side on a client with long chestnut-brown hair, seen from the side in a bright salon with a comb and clips on the station behind"
+  }
+}

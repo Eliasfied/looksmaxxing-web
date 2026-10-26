@@ -60,7 +60,32 @@
     }
   ],
   "imageModel": "openai/gpt-image-2.5/flare/text-to-image",
-  "imageReviews": [],
+  "imageReviews": [
+    {
+      "image": "/blog/female-jawline-guide/1.webp",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "Woman with dark hair swept back in a loose updo, shown in three-quarter view in soft window light against a warm beige wall, with her natural jawline and chin clearly visible and a calm expression"
+      }
+    },
+    {
+      "image": "/blog/female-jawline-guide/2.webp",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "Side-view illustration of a pale grey human skull on a cream background with the lower jawbone (mandible) highlighted in coral, showing the ramus, angle, chin and teeth."
+      }
+    },
+    {
+      "image": "/blog/female-jawline-guide/3.webp",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "Flat-lay on pale linen of two hands holding a soft makeup brush over an open bronzer compact, with a cream highlighter tube, a small gold hand mirror and a sprig of white flowers nearby"
+      }
+    }
+  ],
   "imageSettings": {
     "width": 1024,
     "height": 1024,
@@ -134,16 +159,7 @@
   ],
   "note": "Token estimates exclude web-search charges, images, tax and provider markups.",
   "releasedAt": "2026-10-23T19:32:13.024Z",
-  "imageFailures": [
-    {
-      "image": 2,
-      "error": "Image 2 was never approved"
-    },
-    {
-      "image": 3,
-      "error": "Image 3 was never approved"
-    }
-  ],
+  "imageFailures": [],
   "previousAttempts": [
     {
       "slug": "female-jawline-guide",
@@ -283,5 +299,6 @@
       ],
       "note": "Token estimates exclude web-search charges, images, tax and provider markups."
     }
-  ]
+  ],
+  "backfilledAt": "2026-10-26T13:25:51.362Z"
 }

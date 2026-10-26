@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "savedAt": "2026-10-26T13:10:49.358Z",
+  "savedAt": "2026-10-26T13:29:02.384Z",
   "page": {
     "slug": "glow-up-checklist-for-women",
     "cluster": "women-glow-up",
@@ -67,6 +67,14 @@
           "pass": true,
           "issues": [],
           "alt": "Flat-lay on a light wooden table in soft dappled morning light: a white sunscreen tube with a yellow cap, a folded grey linen shirt, a wooden hairbrush, a potted pothos plant, and a closed green notebook with a pen resting on top."
+        }
+      },
+      {
+        "image": "/blog/glow-up-checklist-for-women/2.webp",
+        "review": {
+          "pass": true,
+          "issues": [],
+          "alt": "A woman in a white linen robe smooths a line of white sunscreen across the back of her hand beside a sunny bathroom window, with an open tube, its cap, a small round mirror, a potted plant and a folded towel on the pale marble counter."
         }
       },
       {
@@ -243,9 +251,9 @@
         "purpose": "Hero image: conveys the article's central idea that a glow up is a handful of small, ordinary habits repeated over time, not a dramatic transformation."
       },
       {
-        "prompt": "Realistic close-up editorial photograph of a woman's hand squeezing a generous line of sunscreen from a tube onto her two extended fingers, held in front of a bathroom window with soft natural light. Her face is out of frame or softly blurred in the background, and no text is visible on the tube.",
-        "alt": "A woman's hand squeezing a line of sunscreen along her index and middle fingers in a bright bathroom.",
-        "purpose": "Illustrates the sunscreen application guidance: most people use too little, and the amount for the face is roughly the length of two fingers."
+        "prompt": "Realistic editorial photograph of a woman's hands smoothing a line of sunscreen along the back of her fingers beside a bright bathroom window, with an open tube and a small round mirror resting on a pale counter. Soft natural daylight, neutral tones, the face cropped out of frame so the focus stays on the application gesture.",
+        "alt": "A woman's hands applying a line of sunscreen to her fingers beside a sunlit window, with the sunscreen tube and a small mirror on the counter.",
+        "purpose": "Illustrates the sunscreen section: using enough product and applying it properly, such as the roughly one-teaspoon amount for the face, as the single most important glow up habit."
       },
       {
         "prompt": "Realistic editorial photograph of a calm, tidy bedroom at dusk: an unmade-looking but inviting bed with soft white linen, a bedside lamp glowing warm amber, a glass of water and a closed book on the nightstand. The window shows deep blue evening sky, and no people are present.",
@@ -305,11 +313,6 @@
         "url": "https://royalsocietypublishing.org/rsos/article/4/5/160918/66370/Negative-effects-of-restricted-sleep-on-facial"
       }
     ],
-    "_imageFailures": [
-      {
-        "image": 2,
-        "error": "Image 2 failed validation: Image failed editorial review: [\"Image does not match the brief: the brief calls for a close-up of a hand squeezing a line of sunscreen from a tube onto two extended fingers in a bathroom with soft window light. The actual image shows a woman's face outdoors at a beach, with sunscreen streaks already applied to her cheek.\",\"No tube is visible and no squeezing action is shown.\",\"Setting is wrong (seaside/rocky shore instead of bathroom window); face is prominently in focus rather than out of frame or softly blurred.\",\"Fails the stated purpose: it does not illustrate the 'two-finger length' dosing guidance, since the product is already on the cheek rather than measured along the fingers.\"]"
-      }
-    ]
+    "_imageFailures": []
   }
 }

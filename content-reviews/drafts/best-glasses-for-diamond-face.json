@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "savedAt": "2026-10-11T19:20:31.431Z",
+  "savedAt": "2026-10-26T13:28:10.687Z",
   "page": {
     "slug": "best-glasses-for-diamond-face",
     "cluster": "glasses-diamond",
@@ -42,9 +42,9 @@
         "purpose": "Shows how frames with a strong or upswept top line add visual width at the brow on diamond faces, for both feminine and masculine styling."
       },
       {
-        "prompt": "Close three-quarter view of an optician gently adjusting the nose pads on a customer's thin metal oval glasses in a bright optical shop. The customer is smiling, and the lower rim of the frame sits clearly above her prominent cheekbones without touching her skin.",
-        "alt": "Optician adjusting nose pads so the glasses frame clears high cheekbones",
-        "purpose": "Illustrates the fit check from the article: frames should not touch the cheeks, which matters for diamond faces with prominent cheekbones, and nose-pad adjustment can change where a frame rests."
+        "prompt": "Close-up editorial photo of a person standing at a bathroom mirror, hair pulled fully back with a soft headband, glasses held in one hand away from the face, checking their own reflection with a calm neutral expression. Natural window light, shallow depth of field, the reflected face slightly out of focus so the focus stays on the careful, unhurried check.",
+        "alt": "A person with their hair pulled back studies their face in a mirror while holding a pair of glasses in one hand",
+        "purpose": "Illustrates the quick mirror check in the section on confirming your face shape: hair back, straight-on view, neutral expression, before choosing frames."
       }
     ],
     "faq": [
@@ -206,13 +206,37 @@
         }
       ]
     },
-    "_draft": true,
+    "_draft": false,
     "_review": {
-      "pass": false,
-      "issues": [
-        "Image 3 failed validation: Image failed editorial review: [\"Anatomy error: the optician's hands are implausible. One hand pinches the nose pad area while the other hand/thumb appears to press over the customer's mouth and upper lip, with fingers merging awkwardly into her face, which looks unnatural and distracting.\",\"Nose pads are unclear: clear pad pieces float at the nose, one appearing detached from the frame, so the nose-pad adjustment is not convincingly depicted.\",\"Brief mismatch: the frame is thin round/circular metal glasses rather than oval, and the key visual cue (lower rim clearly above prominent cheekbones without touching skin) is not clearly shown, since the cheekbones are not prominent and the rim-to-cheek gap is not evident.\",\"Framing is not a clean three-quarter view of the adjustment; the optician's body and hands dominate and block the view of the fit check.\"]"
-      ]
+      "pass": true,
+      "issues": []
     },
-    "_imageReviews": []
+    "_imageReviews": [
+      {
+        "image": "/blog/best-glasses-for-diamond-face/1.webp",
+        "review": {
+          "pass": true,
+          "issues": [],
+          "alt": "Overhead flat lay of five eyeglass frames arranged in an arc around a simple line-drawn diamond-shaped face outline with a hair bun: a thin oval metal frame, a round tortoiseshell frame, a black cat-eye frame, a browline frame with metal lower rims, and a gray soft-square frame, on a light neutral background."
+        }
+      },
+      {
+        "image": "/blog/best-glasses-for-diamond-face/2.webp",
+        "review": {
+          "pass": true,
+          "issues": [],
+          "alt": "Side-by-side portrait of a woman with a dark updo wearing tortoiseshell cat-eye glasses and a man with short dark hair wearing browline glasses with a dark top bar and thin metal lower rims, both facing the camera with neutral expressions against a plain light gray background."
+        }
+      },
+      {
+        "image": "/blog/best-glasses-for-diamond-face/3.webp",
+        "review": {
+          "pass": true,
+          "issues": [],
+          "alt": "A person in a white robe and soft headband, hair pulled back, holds a pair of tortoiseshell glasses away from their face while studying their calm reflection in a bathroom mirror by a sunlit window."
+        }
+      }
+    ],
+    "_imageFailures": []
   }
 }

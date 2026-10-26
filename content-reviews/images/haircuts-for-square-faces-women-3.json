@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "fingerprint": "e5abf8eaad9eeeefb68072589c391f9302d88a484f3ed2436e4af4154ddce91a",
+  "brief": {
+    "prompt": "Over-the-shoulder editorial photo of a woman with wavy, softly layered hair falling just below the jaw, glancing toward a salon mirror while a stylist holds a section of her hair between two fingers to check the length. Natural window light, neutral tones, the back and side of her head in focus rather than a front-on face.",
+    "alt": "A stylist checking the length of a layered, wavy lob that falls just below the jaw on a woman at a salon mirror",
+    "purpose": "Shows the lob/bob end-point advice: letting the length and layers fall slightly below the jaw corners, with movement and texture, rather than ending in a hard line exactly at the jaw.",
+    "article": "haircuts-for-square-faces-women",
+    "position": 3
+  },
+  "sha256": "a6cbd69bee4a362cf461e3401cc10bfedb3f1d586a40cfecc9778a44879b42c3",
+  "reviewedAt": "2026-10-26T13:27:04.376Z",
+  "review": {
+    "pass": true,
+    "issues": [],
+    "alt": "A stylist in black holds a section of hair between two fingers to check the length of a woman's wavy, layered brunette bob that falls just below the jaw, as she sits in a salon chair in a black cape facing a mirror in natural window light"
+  }
+}

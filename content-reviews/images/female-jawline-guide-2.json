@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "fingerprint": "cf0181545e8d47e86d3f51e2655152d326a94265a88ffc4644def4e02f8304f2",
+  "brief": {
+    "prompt": "A clean, simple illustration of a human skull in side profile on a soft cream background, with the lower jawbone rendered in a distinct warm coral colour while the rest of the skull is pale grey. The scene shows only the skull, no lettering or markings of any kind.",
+    "alt": "Stylised side-view illustration of a human skull with the lower jawbone highlighted in coral",
+    "purpose": "Teaches the 'What the Jawline Is Made Of' section: the mandible is the movable lower jawbone whose shape underlies the visible jawline.",
+    "article": "female-jawline-guide",
+    "position": 2
+  },
+  "sha256": "771a7756abc45e5ef7d0fe3e7abb441ceeb0757b3fcc42ee052d38dea427d5ff",
+  "reviewedAt": "2026-10-26T13:25:36.253Z",
+  "review": {
+    "pass": true,
+    "issues": [],
+    "alt": "Side-view illustration of a pale grey human skull on a cream background with the lower jawbone (mandible) highlighted in coral, showing the ramus, angle, chin and teeth."
+  }
+}

@@ -59,6 +59,14 @@
       }
     },
     {
+      "image": "/blog/glow-up-checklist-for-women/2.webp",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "A woman in a white linen robe smooths a line of white sunscreen across the back of her hand beside a sunny bathroom window, with an open tube, its cap, a small round mirror, a potted plant and a folded towel on the pale marble counter."
+      }
+    },
+    {
       "image": "/blog/glow-up-checklist-for-women/3.webp",
       "review": {
         "pass": true,
@@ -108,12 +116,7 @@
   ],
   "note": "Token estimates exclude web-search charges, images, tax and provider markups.",
   "releasedAt": "2026-10-26T12:28:04.180Z",
-  "imageFailures": [
-    {
-      "image": 2,
-      "error": "Image 2 failed validation: Image failed editorial review: [\"Image does not match the brief: the brief calls for a close-up of a hand squeezing a line of sunscreen from a tube onto two extended fingers in a bathroom with soft window light. The actual image shows a woman's face outdoors at a beach, with sunscreen streaks already applied to her cheek.\",\"No tube is visible and no squeezing action is shown.\",\"Setting is wrong (seaside/rocky shore instead of bathroom window); face is prominently in focus rather than out of frame or softly blurred.\",\"Fails the stated purpose: it does not illustrate the 'two-finger length' dosing guidance, since the product is already on the cheek rather than measured along the fingers.\"]"
-    }
-  ],
+  "imageFailures": [],
   "previousAttempts": [
     {
       "slug": "glow-up-checklist-for-women",
@@ -211,5 +214,5 @@
       "note": "Token estimates exclude web-search charges, images, tax and provider markups."
     }
   ],
-  "backfilledAt": "2026-10-26T13:10:49.359Z"
+  "backfilledAt": "2026-10-26T13:29:02.385Z"
 }
