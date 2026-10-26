@@ -1,22 +1,13 @@
 {
-  "key": "{\"brief\":{\"prompt\":\"A close-up, eye-level shot of a woman in a bright bathroom mirror applying a matte contour shade just under her jawbone with a soft angled brush, blending toward her neck. Her hair falls in chin-length face-framing layers, and small drop earrings are visible.\",\"alt\":\"Woman blending soft contour along her jawline with an angled brush as a styling technique\",\"article\":\"female-jawline-guide\",\"position\":3},\"model\":\"openai/gpt-image-2.5/flare/text-to-image\"}",
+  "key": "{\"brief\":{\"prompt\":\"A realistic editorial flat-lay on a pale linen surface showing a woman's hands holding a soft makeup brush loaded with warm bronzer next to an open compact, a tube of cream highlighter and a small hand mirror, lit by soft daylight. The styling tools are the only subject, arranged neatly with no text visible on any packaging.\",\"alt\":\"Flat-lay of makeup brush, bronzer compact, highlighter and hand mirror on linen\",\"purpose\":\"Illustrates the article's practical point that makeup and styling choices, which you control, shape how a jawline looks in person and on camera more than bone structure alone.\",\"article\":\"female-jawline-guide\",\"position\":3},\"model\":\"openai/gpt-image-2.5/flare/text-to-image\"}",
   "attempts": [
     {
-      "status": "rejected",
-      "prompt": "A close-up, eye-level shot of a woman in a bright bathroom mirror applying a matte contour shade just under her jawbone with a soft angled brush, blending toward her neck. Her hair falls in chin-length face-framing layers, and small drop earrings are visible.",
-      "issues": [
-        "Anatomy/composition problem: the right foreground contains a second partial figure (hand, hair, face edge) that reads as an odd duplicate or reflection and creates confusing anatomy",
-        "The brush is positioned at/near the ear and neck side rather than clearly applying contour just under the jawbone, so the stated technique is not clearly illustrated",
-        "The hand holding the brush has slightly awkward finger positioning, weakening clarity for a how-to article image"
-      ]
-    },
-    {
       "status": "passed",
-      "prompt": "A close-up, eye-level shot of a woman in a bright bathroom mirror applying a matte contour shade just under her jawbone with a soft angled brush, blending toward her neck. Her hair falls in chin-length face-framing layers, and small drop earrings are visible.\nEDITORIAL CORRECTION: Regenerate a simpler, accurate illustration of the same purpose. Fix these defects from the rejected image: [\"Anatomy/composition problem: the right foreground contains a second partial figure (hand, hair, face edge) that reads as an odd duplicate or reflection and creates confusing anatomy\",\"The brush is positioned at/near the ear and neck side rather than clearly applying contour just under the jawbone, so the stated technique is not clearly illustrated\",\"The hand holding the brush has slightly awkward finger positioning, weakening clarity for a how-to article image\"]. Avoid text, labels and complex comparative diagrams if they caused the defect.",
+      "prompt": "A realistic editorial flat-lay on a pale linen surface showing a woman's hands holding a soft makeup brush loaded with warm bronzer next to an open compact, a tube of cream highlighter and a small hand mirror, lit by soft daylight. The styling tools are the only subject, arranged neatly with no text visible on any packaging.",
       "review": {
         "pass": true,
         "issues": [],
-        "alt": "Woman with chin-length wavy brown hair and small pearl drop earrings looks into a bathroom mirror while holding a black angled makeup brush against her jawline to blend contour toward her neck"
+        "alt": "Flat-lay on pale linen of two hands holding a soft makeup brush over an open bronzer compact, with a cream highlighter tube, a small gold hand mirror and a sprig of white flowers nearby"
       }
     }
   ]

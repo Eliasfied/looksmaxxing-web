@@ -1,13 +1,13 @@
 {
-  "key": "{\"brief\":{\"prompt\":\"A single pair of round tortoiseshell eyeglasses standing open and upright on a light wooden table, photographed straight on at eye level in soft daylight against a plain blurred background. No hands, faces or text.\",\"alt\":\"Round tortoiseshell frames, a shape that softens a square jaw\",\"article\":\"best-glasses-for-square-face\",\"position\":3},\"model\":\"openai/gpt-image-2.5/flare/text-to-image\"}",
+  "key": "{\"brief\":{\"prompt\":\"Close-up editorial photo of a man with a square face, strong jaw and short dark hair, seen in three-quarter profile while an optician's gloved hand adjusts a pair of black acetate round glasses on his nose in a bright optical shop. Shallow depth of field, soft daylight from a shop window, blurred shelves of frames in the background, no text.\",\"alt\":\"An optician adjusting round black acetate glasses on the face of a man with a square jaw in an optical shop\",\"purpose\":\"Illustrates the article's point that fit and comfort, such as bridge position and frame placement, matter as much as frame shape when choosing glasses for a square face.\",\"article\":\"best-glasses-for-square-face\",\"position\":3},\"model\":\"openai/gpt-image-2.5/flare/text-to-image\"}",
   "attempts": [
     {
       "status": "passed",
-      "prompt": "A single pair of round tortoiseshell eyeglasses standing open and upright on a light wooden table, photographed straight on at eye level in soft daylight against a plain blurred background. No hands, faces or text.",
+      "prompt": "Close-up editorial photo of a man with a square face, strong jaw and short dark hair, seen in three-quarter profile while an optician's gloved hand adjusts a pair of black acetate round glasses on his nose in a bright optical shop. Shallow depth of field, soft daylight from a shop window, blurred shelves of frames in the background, no text.",
       "review": {
         "pass": true,
         "issues": [],
-        "alt": "Round tortoiseshell eyeglasses with clear lenses standing open and upright on a light wooden table, photographed straight on against a plain blurred background."
+        "alt": "An optician's gloved hand adjusts a pair of round black acetate glasses on a short-haired man with a strong jaw, seen in three-quarter profile in a bright optical shop with shelves of frames blurred behind him"
       }
     }
   ]

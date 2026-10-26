@@ -1,13 +1,13 @@
 {
-  "key": "{\"brief\":{\"prompt\":\"A head-and-shoulders portrait of one young woman facing the camera straight on in soft, even daylight, neutral expression, hair pulled fully back from her face, plain pale grey background. The whole hairline, jaw and chin are clearly visible, like a reference photo taken to work out a face shape. No text, labels or lines.\",\"alt\":\"A straight-on reference photo with the hairline and jaw clearly visible, used to work out a face shape\",\"article\":\"7-face-shapes-explained\",\"position\":1},\"model\":\"openai/gpt-image-2.5/flare/text-to-image\"}",
+  "key": "{\"brief\":{\"prompt\":\"A realistic editorial photograph of a person seen from the shoulders up against a soft neutral backdrop, facing the camera at eye level with hair pulled back and a calm, relaxed expression. Soft natural window light falls evenly across the face, and the person is photographed from a slight distance so the proportions look undistorted.\",\"alt\":\"Person with hair pulled back facing the camera straight on in soft natural light, posed for a face shape photo.\",\"purpose\":\"Hero image introducing the topic at a glance: a face shape is read from the overall proportions of a real face in a straight-on, evenly lit photo.\",\"article\":\"7-face-shapes-explained\",\"position\":1},\"model\":\"openai/gpt-image-2.5/flare/text-to-image\"}",
   "attempts": [
     {
       "status": "passed",
-      "prompt": "A head-and-shoulders portrait of one young woman facing the camera straight on in soft, even daylight, neutral expression, hair pulled fully back from her face, plain pale grey background. The whole hairline, jaw and chin are clearly visible, like a reference photo taken to work out a face shape. No text, labels or lines.",
+      "prompt": "A realistic editorial photograph of a person seen from the shoulders up against a soft neutral backdrop, facing the camera at eye level with hair pulled back and a calm, relaxed expression. Soft natural window light falls evenly across the face, and the person is photographed from a slight distance so the proportions look undistorted.",
       "review": {
         "pass": true,
         "issues": [],
-        "alt": "A straight-on portrait of a young woman with dark hair pulled fully back, neutral expression, against a plain pale grey background, with her hairline, jaw and chin clearly visible for assessing face shape"
+        "alt": "Woman with dark hair pulled back in a bun facing the camera straight on, wearing a cream knit sweater against a soft neutral gray background in even natural light."
       }
     }
   ]

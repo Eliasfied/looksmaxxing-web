@@ -1,10 +1,18 @@
 {
-  "fingerprint": "91e0699a3cafc4589095225993d04cf74bc0dc1ec999734ff2de8487f5eefb42",
-  "sha256": "1c4ae6576b6441e96554f38050dd64bdae361cfaf8ee7a4bee22cfa1b73d93aa",
-  "reviewedAt": "2026-10-26T13:07:57.243Z",
+  "version": 2,
+  "fingerprint": "76babb8db10cab6c201304fe7609cc11e2780bf8011548dda307cf3a2d28c077",
+  "brief": {
+    "prompt": "Close-up editorial photo of a person standing at a bathroom mirror, hair pulled fully back with a soft headband, glasses held in one hand away from the face, checking their own reflection with a calm neutral expression. Natural window light, shallow depth of field, the reflected face slightly out of focus so the focus stays on the careful, unhurried check.",
+    "alt": "A person with their hair pulled back studies their face in a mirror while holding a pair of glasses in one hand",
+    "purpose": "Illustrates the quick mirror check in the section on confirming your face shape: hair back, straight-on view, neutral expression, before choosing frames.",
+    "article": "best-glasses-for-diamond-face",
+    "position": 3
+  },
+  "sha256": "19a847a6fa4c413ce6bf2404505a74dc23106229cd00806e4c2aaf2f94152094",
+  "reviewedAt": "2026-10-26T13:28:10.685Z",
   "review": {
     "pass": true,
     "issues": [],
-    "alt": "Thin silver metal oval eyeglasses resting open on a light grey-veined marble surface beside a folded grey microfiber cleaning cloth, in soft natural light."
+    "alt": "A person in a white robe and soft headband, hair pulled back, holds a pair of tortoiseshell glasses away from their face while studying their calm reflection in a bathroom mirror by a sunlit window."
   }
 }

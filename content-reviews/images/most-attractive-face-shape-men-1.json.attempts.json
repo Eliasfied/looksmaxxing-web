@@ -1,13 +1,13 @@
 {
-  "key": "{\"brief\":{\"prompt\":\"A head-and-shoulders portrait of one man facing the camera straight on in soft, even studio light, neutral expression, short dark hair, shoulders square, plain mid-grey background. Calm editorial style with no scores, ratings, text or lines.\",\"alt\":\"A straight-on portrait of a man, the view used to judge face shape\",\"article\":\"most-attractive-face-shape-men\",\"position\":1},\"model\":\"openai/gpt-image-2.5/flare/text-to-image\"}",
+  "key": "{\"brief\":{\"prompt\":\"Realistic editorial photograph of a diverse group of five men of different ages and ethnicities standing shoulder to shoulder against a plain warm-gray studio backdrop, each in a different colored crewneck, all looking calmly at the camera in soft natural light. Their faces are naturally varied, conveying that attractive faces come in many forms rather than one ideal.\",\"alt\":\"Five men of different ages and backgrounds standing side by side in a studio, each wearing a different colored shirt and looking at the camera.\",\"purpose\":\"Hero image: introduces the article's central message that no single face shape wins and that attractiveness spans natural variety.\",\"article\":\"most-attractive-face-shape-men\",\"position\":1},\"model\":\"openai/gpt-image-2.5/flare/text-to-image\"}",
   "attempts": [
     {
       "status": "passed",
-      "prompt": "A head-and-shoulders portrait of one man facing the camera straight on in soft, even studio light, neutral expression, short dark hair, shoulders square, plain mid-grey background. Calm editorial style with no scores, ratings, text or lines.",
+      "prompt": "Realistic editorial photograph of a diverse group of five men of different ages and ethnicities standing shoulder to shoulder against a plain warm-gray studio backdrop, each in a different colored crewneck, all looking calmly at the camera in soft natural light. Their faces are naturally varied, conveying that attractive faces come in many forms rather than one ideal.",
       "review": {
         "pass": true,
         "issues": [],
-        "alt": "A straight-on head-and-shoulders portrait of a man with short dark hair, light stubble and brown eyes, wearing a dark grey t-shirt against a plain mid-grey background."
+        "alt": "Five men of different ages and ethnicities standing side by side against a plain warm-gray studio backdrop, wearing green, maroon, blue, mustard and gray crewneck sweatshirts and looking calmly at the camera."
       }
     }
   ]

@@ -56,6 +56,14 @@
   "imageModel": "openai/gpt-image-2.5/flare/text-to-image",
   "imageReviews": [
     {
+      "image": "/blog/canthal-tilt-female/1.webp",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "Close-up of a woman's face from the nose upward, with one green-hazel eye in sharp focus, defined brow and natural lashes, softly lit against a blurred warm terracotta background"
+      }
+    },
+    {
       "image": "/blog/canthal-tilt-female/2.webp",
       "review": {
         "pass": true,
@@ -72,12 +80,7 @@
       }
     }
   ],
-  "imageFailures": [
-    {
-      "image": 1,
-      "error": "Image 1 failed validation: Image failed editorial review: [\"Brief asked for three pairs of eyes (upturned, level, downturned) in a soft editorial illustration; the image instead shows three near-identical full-face, photorealistic portraits of a woman, not an illustration focused on eyes.\",\"The canthal tilt differences are barely perceptible or absent: all three faces have essentially the same neutral-to-slightly-different eye angle, so the image fails to illustrate positive, neutral and negative tilt categories at a glance.\",\"The three panels appear to be the same face with minimal variation, which could mislead readers into thinking subtle or no differences define the categories; no clear upturned vs. downturned contrast is visible.\",\"Composition (full faces, hair, neck, shoulders) distracts from the eye shape focus and does not match the 'pairs of eyes side by side' brief.\"]"
-    }
-  ],
+  "imageFailures": [],
   "imageSettings": {
     "width": 1024,
     "height": 1024,
@@ -149,5 +152,6 @@
       "searches": 0
     }
   ],
-  "note": "Token estimates exclude web-search charges, images, tax and provider markups."
+  "note": "Token estimates exclude web-search charges, images, tax and provider markups.",
+  "backfilledAt": "2026-10-26T13:28:44.529Z"
 }

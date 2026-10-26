@@ -1,13 +1,13 @@
 {
-  "key": "{\"brief\":{\"prompt\":\"Illustrated side-by-side panel of three different women from shoulders up, each with a different natural hair texture and a low-maintenance style: a sleek straight shoulder-length cut, a defined curly shape with face-framing layers, and coily hair in a neat puff. Plain soft background, friendly editorial illustration style, no text labels.\",\"alt\":\"Illustration of three low-maintenance hairstyles for straight, curly and coily hair textures\",\"article\":\"glow-up-checklist-for-women\",\"position\":2},\"model\":\"openai/gpt-image-2.5/flare/text-to-image\"}",
+  "key": "{\"brief\":{\"prompt\":\"Realistic editorial photograph of a woman's hands smoothing a line of sunscreen along the back of her fingers beside a bright bathroom window, with an open tube and a small round mirror resting on a pale counter. Soft natural daylight, neutral tones, the face cropped out of frame so the focus stays on the application gesture.\",\"alt\":\"A woman's hands applying a line of sunscreen to her fingers beside a sunlit window, with the sunscreen tube and a small mirror on the counter.\",\"purpose\":\"Illustrates the sunscreen section: using enough product and applying it properly, such as the roughly one-teaspoon amount for the face, as the single most important glow up habit.\",\"article\":\"glow-up-checklist-for-women\",\"position\":2},\"model\":\"openai/gpt-image-2.5/flare/text-to-image\"}",
   "attempts": [
     {
       "status": "passed",
-      "prompt": "Illustrated side-by-side panel of three different women from shoulders up, each with a different natural hair texture and a low-maintenance style: a sleek straight shoulder-length cut, a defined curly shape with face-framing layers, and coily hair in a neat puff. Plain soft background, friendly editorial illustration style, no text labels.",
+      "prompt": "Realistic editorial photograph of a woman's hands smoothing a line of sunscreen along the back of her fingers beside a bright bathroom window, with an open tube and a small round mirror resting on a pale counter. Soft natural daylight, neutral tones, the face cropped out of frame so the focus stays on the application gesture.",
       "review": {
         "pass": true,
         "issues": [],
-        "alt": "Illustration of three women shown from the shoulders up side by side: one with sleek, straight shoulder-length dark hair, one with defined, voluminous curls and face-framing layers, and one with coily hair in a neat puff, against a plain soft cream background."
+        "alt": "A woman in a white linen robe smooths a line of white sunscreen across the back of her hand beside a sunny bathroom window, with an open tube, its cap, a small round mirror, a potted plant and a folded towel on the pale marble counter."
       }
     }
   ]

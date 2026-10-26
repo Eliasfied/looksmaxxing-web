@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "savedAt": "2026-10-10T12:38:46.463Z",
+  "savedAt": "2026-10-26T13:28:27.059Z",
   "page": {
     "slug": "best-glasses-for-square-face",
     "cluster": "glasses-square",
@@ -42,9 +42,9 @@
         "purpose": "Shows how a curved, upswept frame contrasts with an angular jawline, illustrating the frame-shape section."
       },
       {
-        "prompt": "Close-up of two hands holding three eyeglass frames side by side above a wooden table: a thick black acetate round frame, a tortoiseshell oval frame and a thin rose-gold metal round frame. Shallow depth of field with the frames in sharp focus, neutral background, no text.",
-        "alt": "Three glasses frames in black, tortoiseshell and rose gold compared for color and rim thickness",
-        "purpose": "Illustrates the color and rim-thickness choices discussed in the section where expert advice splits."
+        "prompt": "Close-up editorial photo of a man with a square face, strong jaw and short dark hair, seen in three-quarter profile while an optician's gloved hand adjusts a pair of black acetate round glasses on his nose in a bright optical shop. Shallow depth of field, soft daylight from a shop window, blurred shelves of frames in the background, no text.",
+        "alt": "An optician adjusting round black acetate glasses on the face of a man with a square jaw in an optical shop",
+        "purpose": "Illustrates the article's point that fit and comfort, such as bridge position and frame placement, matter as much as frame shape when choosing glasses for a square face."
       }
     ],
     "faq": [
@@ -193,13 +193,37 @@
         }
       ]
     },
-    "_draft": true,
+    "_draft": false,
     "_review": {
-      "pass": false,
-      "issues": [
-        "Image 3 failed validation: Image failed editorial review: [\"The frames are folded and viewed edge-on/in a stacked configuration, so each pair shows two lens openings (top and bottom) that read as a single odd double-ringed shape rather than a clear front-facing frame; the shapes are hard to interpret as eyeglasses.\",\"The temple arms pass through the lens openings in a confusing, visually ambiguous way, which undermines comparison of rim thickness and shape.\",\"The middle tortoiseshell frame is not held by either hand and appears to float in mid-air, contradicting the brief of two hands holding three frames.\",\"The black frame appears to have its bridge and lens arrangement stacked vertically, making it look like a figure-eight, so it does not clearly read as a thick round acetate frame.\",\"Because the frames are not shown open and front-facing, the image does not clearly illustrate the color and rim-thickness comparison needed for the section.\"]"
-      ]
+      "pass": true,
+      "issues": []
     },
-    "_imageReviews": []
+    "_imageReviews": [
+      {
+        "image": "/blog/best-glasses-for-square-face/1.webp",
+        "review": {
+          "pass": true,
+          "issues": [],
+          "alt": "Overhead flat lay of six eyeglass frames in a 2x3 grid on a light linen surface: round tortoiseshell, thin oval gold wire, black cat-eye, tortoiseshell browline with gold rims, gold aviator, and clear rimless frames."
+        }
+      },
+      {
+        "image": "/blog/best-glasses-for-square-face/2.webp",
+        "review": {
+          "pass": true,
+          "issues": [],
+          "alt": "Woman with dark hair pulled back wearing tortoiseshell cat-eye glasses, facing the camera against a plain warm gray background, with a slight smile and natural makeup"
+        }
+      },
+      {
+        "image": "/blog/best-glasses-for-square-face/3.webp",
+        "review": {
+          "pass": true,
+          "issues": [],
+          "alt": "An optician's gloved hand adjusts a pair of round black acetate glasses on a short-haired man with a strong jaw, seen in three-quarter profile in a bright optical shop with shelves of frames blurred behind him"
+        }
+      }
+    ],
+    "_imageFailures": []
   }
 }

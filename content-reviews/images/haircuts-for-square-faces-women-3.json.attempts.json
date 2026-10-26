@@ -1,13 +1,23 @@
 {
-  "key": "{\"brief\":{\"prompt\":\"A hairdresser's station in a bright salon: a comb, a round brush and a pair of scissors laid neatly on a white folded towel beside a mirror, soft daylight, no people in frame. No text or logos.\",\"alt\":\"A salon station set up before a haircut consultation\",\"article\":\"haircuts-for-square-faces-women\",\"position\":3},\"model\":\"openai/gpt-image-2.5/flare/text-to-image\"}",
+  "key": "{\"brief\":{\"prompt\":\"Over-the-shoulder editorial photo of a woman with wavy, softly layered hair falling just below the jaw, glancing toward a salon mirror while a stylist holds a section of her hair between two fingers to check the length. Natural window light, neutral tones, the back and side of her head in focus rather than a front-on face.\",\"alt\":\"A stylist checking the length of a layered, wavy lob that falls just below the jaw on a woman at a salon mirror\",\"purpose\":\"Shows the lob/bob end-point advice: letting the length and layers fall slightly below the jaw corners, with movement and texture, rather than ending in a hard line exactly at the jaw.\",\"article\":\"haircuts-for-square-faces-women\",\"position\":3},\"model\":\"openai/gpt-image-2.5/flare/text-to-image\"}",
   "attempts": [
     {
+      "status": "rejected",
+      "prompt": "Over-the-shoulder editorial photo of a woman with wavy, softly layered hair falling just below the jaw, glancing toward a salon mirror while a stylist holds a section of her hair between two fingers to check the length. Natural window light, neutral tones, the back and side of her head in focus rather than a front-on face.",
+      "issues": [
+        "The hair ends at roughly the jaw/nape line as a fairly blunt, short bob rather than falling visibly 'just below the jaw' as an extended lob; from the back view the length end-point relative to the jaw corners is not clearly shown, undermining the stated purpose of illustrating a slightly-below-jaw length.",
+        "The stylist holds the hair end with a flat hand/fingers at the bottom edge rather than pinching a section between two fingers to check length, so the length-check action is only loosely depicted.",
+        "The woman is not glancing toward the mirror; her face is turned in profile away from the mirror, and the mirror reflection shows a back-of-head view that doesn't clearly convey the glance.",
+        "Stylist's hand and forearm appear slightly elongated/awkward in proportion relative to the body, which is cropped oddly at the left edge."
+      ]
+    },
+    {
       "status": "passed",
-      "prompt": "A hairdresser's station in a bright salon: a comb, a round brush and a pair of scissors laid neatly on a white folded towel beside a mirror, soft daylight, no people in frame. No text or logos.",
+      "prompt": "Over-the-shoulder editorial photo of a woman with wavy, softly layered hair falling just below the jaw, glancing toward a salon mirror while a stylist holds a section of her hair between two fingers to check the length. Natural window light, neutral tones, the back and side of her head in focus rather than a front-on face.\nEDITORIAL CORRECTION: Regenerate a simpler, accurate illustration of the same purpose. Fix these defects from the rejected image: [\"The hair ends at roughly the jaw/nape line as a fairly blunt, short bob rather than falling visibly 'just below the jaw' as an extended lob; from the back view the length end-point relative to the jaw corners is not clearly shown, undermining the stated purpose of illustrating a slightly-below-jaw length.\",\"The stylist holds the hair end with a flat hand/fingers at the bottom edge rather than pinching a section between two fingers to check length, so the length-check action is only loosely depicted.\",\"The woman is not glancing toward the mirror; her face is turned in profile away from the mirror, and the mirror reflection shows a back-of-head view that doesn't clearly convey the glance.\",\"Stylist's hand and forearm appear slightly elongated/awkward in proportion relative to the body, which is cropped oddly at the left edge.\"]. Avoid text, labels and complex comparative diagrams if they caused the defect.",
       "review": {
         "pass": true,
         "issues": [],
-        "alt": "A salon station with a black comb, round brush and scissors laid on a folded white towel on a marble counter beside a mirror, with a black salon chair and a plant in the bright background"
+        "alt": "A stylist in black holds a section of hair between two fingers to check the length of a woman's wavy, layered brunette bob that falls just below the jaw, as she sits in a salon chair in a black cape facing a mirror in natural window light"
       }
     }
   ]

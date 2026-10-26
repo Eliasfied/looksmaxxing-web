@@ -25,6 +25,7 @@
  *   --retry-review      Retry one review topic with --slug; reuse its saved draft
  *   --release SLUGS     Publish stored drafts (comma-separated) without inference
  *   --release-reviewed  Publish every stored draft that has nothing editorial open
+ *   --backfill-images   Re-brief and generate images for published pages missing them
  *
  * Env vars (in scripts/.env.local or root .env.local):
  *   ANTHROPIC_API_KEY
@@ -39,7 +40,7 @@ import { execSync } from 'child_process';
 import { fileURLToPath } from 'url';
 import { relinkAll } from './relink-content.mjs';
 import { toolCatalog } from '../config/tool-routing.mjs';
-import { IMAGE_MODEL, imageInput, researchPage, reviewPage, reviewImage, productBrief, needsHumanReview, extractJson, validateContent, isDeterministicIssue } from './content-quality.mjs';
+import { IMAGE_MODEL, imageInput, researchPage, reviewPage, reviewImage, productBrief, needsHumanReview, extractJson, validateContent, isDeterministicIssue, rebriefImages } from './content-quality.mjs';
 import { runContentJob, recordContentJob, isDraftContent } from './content-job.mjs';
 import { readReviewedImage, saveReviewedImage } from './content-image-cache.mjs';
 
@@ -83,6 +84,8 @@ const RETRY_REVIEW = hasFlag('--retry-review');
 const RELEASE = (getArg('--release') ?? '').split(',').map(s => s.trim()).filter(Boolean);
 const RELEASE_ALL = hasFlag('--release-reviewed');
 const RELEASING = RELEASE.length > 0 || RELEASE_ALL;
+// Give published pages the illustrations they went live without.
+const BACKFILL_IMAGES = hasFlag('--backfill-images');
 
 // ─── Model ──────────────────────────────────────────────────────────────────
 // Opus 5.5 thinks on every request and cannot be told not to, so two things
@@ -315,11 +318,22 @@ IMAGE RULES:
   More content.
   \`\`\`
 - Provide exactly 3 image_prompts in the JSON.
-  * image_prompts[0] = HERO image: ONE clear subject, photographed simply. This is the card image in listings, so it has to read at thumbnail size. A single person, a single object or a single scene. NEVER a row, grid, panel set or side-by-side comparison, and never an outline chart of several shapes: the image model cannot keep such variants visually distinct, the visual review rejects them, and the article then publishes with no picture at all.
-  * image_prompts[1] and image_prompts[2] = INLINE supporting visuals: specific styling examples or technique demonstrations. No simulated outcome claims or fake before/after transformations. Prefer one subject here too; if you do ask for a comparison, keep it to two clearly different items, never four or seven.
+  * image_prompts[0] = HERO image: ONE concrete subject in ONE scene. It is the card image in listings, so it must read at thumbnail size. Never a row, grid or panel set.
+  * image_prompts[1] and image_prompts[2] = INLINE supporting visuals: concrete styling examples or technique demonstrations. No simulated outcome claims or fake before/after transformations.
+  * The image generator cannot write legible text and cannot render small geometric
+    differences reliably. A brief that needs either comes back wrong and is rejected,
+    so do not write one. Concretely:
+    - NEVER ask for text in the picture: no labels, captions, annotations, callouts,
+      arrows, legends, numbers, measurements or one-word tags under anything.
+    - NEVER ask for a taxonomy figure: no "one panel per face shape", no "three pairs
+      of eyes showing each tilt", no set of variants the reader must tell apart by
+      angle, degree, proportion or a few millimetres. The prose carries the taxonomy;
+      the picture shows ONE concrete instance of it.
+    - Anything shown together in one image must differ OBVIOUSLY at a glance — by
+      shape, colour, material or styling, never by a subtle anatomical difference.
   * Each prompt must:
     - Describe an EDUCATIONAL or ILLUSTRATIVE visual (no abstract concepts).
-    - Be specific and visual.
+    - Be specific and visual, and describe ONE subject in ONE scene.
     - Avoid celebrity faces, real-person likenesses, or copyrighted material.
     - Match the article topic precisely.
     - Be ~2 sentences, focused on what should be SHOWN.
@@ -336,7 +350,7 @@ Return ONLY valid JSON (no markdown fences, no preamble) matching this exact sch
   "tags": ["tag1", "tag2", "tag3"],
   "body_markdown": "## First H2\\n\\nFirst paragraph...\\n\\n## Second H2\\n\\nMore content...\\n\\n{{IMAGE_2}}\\n\\n## Third H2\\n\\n... {{IMAGE_3}} ...",
   "image_prompts": [
-    { "prompt": "Detailed visual description for the first image, e.g. clean educational diagram showing X.", "alt": "Alt text for image 1, with primary keyword if natural" },
+    { "prompt": "Detailed visual description for the first image: one concrete subject in one scene, no text or labels in the picture.", "alt": "Alt text for image 1, with primary keyword if natural" },
     { "prompt": "Visual description for image 2.", "alt": "Alt text for image 2" },
     { "prompt": "Visual description for image 3.", "alt": "Alt text for image 3" }
   ],
@@ -460,7 +474,7 @@ async function generatePage(page) {
   if (!builder) throw new Error(`Unknown page_type: ${page.page_type}`);
   const brief = productBrief(page);
   const prompt = builder(page) + '\n\nVERIFIED PRODUCT BRIEF (overrides any generic CTA examples above):\n' + JSON.stringify(brief) +
-    '\nRESEARCH: Use only supported claims from the preceding research. Add sources:[{title,url}] to your JSON with the exact source URLs. Add tool_slug and audience from the brief. Each image_prompts entry also needs purpose: the specific concept in its surrounding section that this picture teaches. Match women-focused articles with appropriate styling examples, without forcing the same colour palette on every image. Prefer clear, simple styling examples over diagrams needing exact ruler markings, subtle comparative changes or precisely aligned anatomical arrows. Keep text sparse and do not request unverifiable before/after results. Never invent app screenshots.';
+    '\nRESEARCH: Use only supported claims from the preceding research. Add sources:[{title,url}] to your JSON with the exact source URLs. Add tool_slug and audience from the brief. Each image_prompts entry also needs purpose: the specific concept in its surrounding section that this picture teaches. Match women-focused articles with appropriate styling examples, without forcing the same colour palette on every image. Image briefs must obey the visual constraints above: one concrete subject per picture, no text, labels, captions, arrows or numbers inside it, and no taxonomy or measurement figure the reader would have to decode. Do not request unverifiable before/after results. Never invent app screenshots.';
 
   const client = await anthropic();
   const research = await researchPage(client, page, accountUsage);
@@ -832,6 +846,97 @@ function makeBranchName() {
   return `content/batch-${stamp}`;
 }
 
+// ─── Backfill images for pages that published without them ──────────────────
+
+// Compares prose only. A checkpoint holds {{IMAGE_n}} placeholders while the
+// published file holds either nothing (saved without images) or the Markdown
+// for the picture that filled the slot, so both forms have to come out before
+// the question "has anyone edited this article since?" can be answered.
+const bodyAsPublished = body => body
+  .replace(/\r/g, '')
+  .replace(/^!\[[^\]]*\]\([^)]*\)[ \t]*$/gm, '')
+  .replace(/\{\{IMAGE_\d+\}\}/g, '')
+  .replace(/\n{3,}/g, '\n\n')
+  .trim();
+
+function imageGaps(slug) {
+  const file = path.join(CONTENT_DIRS.blog, slug + '.md');
+  if (!fs.existsSync(file)) return null;
+  const md = fs.readFileSync(file, 'utf8');
+  if (isDraftContent(md)) return null;
+  // A slot counts as filled only when its file is actually on disk; the review
+  // record can say "approved" for an image a later run never wrote.
+  const dir = path.join(PUBLIC_BASE, 'blog', slug);
+  const have = fs.existsSync(dir) ? fs.readdirSync(dir) : [];
+  const missing = [1, 2, 3].filter(n => !have.includes(n + '.webp'));
+  return { missing, md };
+}
+
+function backfillTargets() {
+  const slugs = fs.existsSync(CONTENT_DIRS.blog) ? fs.readdirSync(CONTENT_DIRS.blog).filter(f => f.endsWith('.md')).map(f => f.slice(0, -3)) : [];
+  // Emptiest pages first: an article with no illustration at all gains more
+  // from a run than one that is only missing its third picture.
+  return slugs.map(slug => ({ slug, gaps: imageGaps(slug) }))
+    .filter(({ slug, gaps }) => (!ONLY_SLUG || slug === ONLY_SLUG) && gaps && gaps.missing.length)
+    .sort((a, b) => b.gaps.missing.length - a.gaps.missing.length || a.slug.localeCompare(b.slug))
+    .map(t => t.slug);
+}
+
+async function backfillImages() {
+  const done = [], skipped = [];
+  for (const slug of backfillTargets().slice(0, COUNT)) {
+    const checkpoint = path.join(DRAFT_DIR, slug + '.json');
+    if (!fs.existsSync(checkpoint)) { skipped.push({ slug, reason: 'No checkpoint; the article text cannot be reproduced.' }); continue; }
+    const { page, data } = JSON.parse(fs.readFileSync(checkpoint, 'utf8'));
+    const gaps = imageGaps(slug);
+    const published = gaps.md.split(/^---\r?$/m).slice(2).join('---');
+    // Re-saving rewrites the whole file, so only do it where the checkpoint still
+    // reproduces exactly what is live. Anything hand-edited since is left alone.
+    if (bodyAsPublished(data.body_markdown) !== bodyAsPublished(published)) {
+      skipped.push({ slug, reason: 'Published text has diverged from the checkpoint; backfill would overwrite it.' });
+      continue;
+    }
+    console.log(`\n── ${slug} (missing ${gaps.missing.join(', ')})`);
+    const client = await anthropic();
+    const replacements = await rebriefImages(client, page, data, accountUsage, gaps.missing);
+    // Only the gaps get a new brief. The others keep theirs, so their approved
+    // image is reused from cache instead of being generated and paid for again.
+    data.image_prompts = [0, 1, 2].map(i => data.image_prompts?.[i] ?? null);
+    gaps.missing.forEach((slot, i) => { data.image_prompts[slot - 1] = replacements[i]; });
+    console.log(`   Rewrote ${replacements.length} image brief(s) under the current rules; kept ${3 - replacements.length}.`);
+    data._draft = false;
+    data._review = { pass: true, issues: [] };
+    const outPath = await SAVERS.blog(page, data);
+    fs.writeFileSync(checkpoint + '.tmp', JSON.stringify({ version: 1, savedAt: new Date().toISOString(), page, data }, null, 2) + '\n');
+    fs.renameSync(checkpoint + '.tmp', checkpoint);
+    const reportPath = path.join(ROOT, 'content-reviews', slug + '.json');
+    if (fs.existsSync(reportPath)) {
+      const report = JSON.parse(fs.readFileSync(reportPath, 'utf8'));
+      fs.writeFileSync(reportPath, JSON.stringify({
+        ...report, backfilledAt: new Date().toISOString(),
+        imageReviews: data._imageReviews ?? [], imageFailures: data._imageFailures ?? [],
+      }, null, 2) + '\n');
+    }
+    const missing = (data._imageFailures ?? []).map(f => f.image);
+    done.push({ slug, outPath, images: 3 - missing.length, missing });
+  }
+  console.log('\n' + JSON.stringify({ done: done.map(d => ({ slug: d.slug, images: d.images + '/3', missing: d.missing })), skipped }, null, 2));
+  return { done, skipped };
+}
+
+// ─── IndexNow hand-off ──────────────────────────────────────────────────────
+
+// IndexNow wants the URLs that changed, not the whole site, so the run records
+// what it actually published and the deploy step submits exactly that.
+function writeIndexNowUrls(pages) {
+  const site = (process.env.PUBLIC_SITE_URL ?? 'https://www.aura-looksmaxxing.com').replace(/\/$/, '');
+  const target = path.join(ROOT, '.indexnow-urls.txt');
+  if (!pages.length) { fs.rmSync(target, { force: true }); return; }
+  const urls = pages.map(page => `${site}/${page.page_type === 'tool' ? 'tools' : page.page_type}/${page.slug}`);
+  fs.writeFileSync(target, urls.join('\n') + '\n');
+  console.log('Wrote ' + urls.length + ' URL(s) to .indexnow-urls.txt for IndexNow.');
+}
+
 // ─── Release stored drafts ──────────────────────────────────────────────────
 
 // A draft may be released only when nothing editorial is still open against it.
@@ -880,7 +985,7 @@ async function releaseDrafts(rows) {
       imageFailures: data._imageFailures ?? [],
       previousAttempts: [...previousAttempts, lastAttempt],
     }, null, 2) + '\n');
-    released.push({ slug, outPath, missingImages: (data._imageFailures ?? []).map(f => f.image) });
+    released.push({ slug, page, outPath, missingImages: (data._imageFailures ?? []).map(f => f.image) });
   }
   console.log(JSON.stringify({ released, held }, null, 2));
   return { released, held };
@@ -888,6 +993,17 @@ async function releaseDrafts(rows) {
 
 // ─── Main ───────────────────────────────────────────────────────────────────
 async function main() {
+  if (BACKFILL_IMAGES) {
+    if (!process.env.ANTHROPIC_API_KEY) throw new Error('ANTHROPIC_API_KEY is required');
+    if (!process.env.FAL_API_KEY) throw new Error('FAL_API_KEY is required');
+    const { done, skipped } = await backfillImages();
+    console.log(JSON.stringify({ tokens: USAGE, costs }, null, 2));
+    if (!done.length) { if (skipped.length) process.exitCode = 1; return; }
+    relinkAll();
+    execSync('pnpm --filter marketing build', { cwd: ROOT, stdio: 'inherit' });
+    writeIndexNowUrls(done.map(d => ({ slug: d.slug, page_type: 'blog' })));
+    return;
+  }
   if (RELEASING) {
     if (!fs.existsSync(CSV_PATH)) throw new Error('keywords.csv not found');
     const rows = loadCsvAsObjects();
@@ -899,6 +1015,7 @@ async function main() {
     for (const { slug, missingImages } of released) {
       if (missingImages.length) console.warn('Released ' + slug + ' without image(s) ' + missingImages.join(', ') + '; backfill later.');
     }
+    writeIndexNowUrls(released.map(r => r.page));
     return;
   }
   if (RETRY_REVIEW && !ONLY_SLUG) throw new Error('--retry-review requires --slug; review topics are never retried automatically.');
@@ -963,13 +1080,7 @@ async function main() {
   finally { fs.unlinkSync(commitFile); }
   const { execFileSync } = await import('node:child_process');
   execFileSync('git', ['push', '-u', 'origin', branch], { cwd: ROOT, stdio: 'inherit' });
+  writeIndexNowUrls(generated.filter(g => !g.draft).map(g => g.page));
   if (needsReview) { console.error('Drafts need review: see content-reviews. Drafts were excluded from the public build.'); process.exitCode = 1; }
 }
-// Importing this module must not start a pipeline run: the image backfill reuses
-// generateReviewedImage and the frontmatter helpers without generating articles.
-const IS_ENTRYPOINT = process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url);
-if (IS_ENTRYPOINT) {
-  main().catch(error => { console.error('Content pipeline failed:', error.message); process.exitCode = 1; });
-}
-
-export { generateReviewedImage, buildFrontmatter, compressToWebp, downloadBuffer, generateOneImage, PUBLIC_BASE, CONTENT_DIRS, DRAFT_DIR, ROOT };
+main().catch(error => { console.error('Content pipeline failed:', error.message); process.exitCode = 1; });

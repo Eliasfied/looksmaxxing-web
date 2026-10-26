@@ -1,13 +1,13 @@
 {
-  "key": "{\"brief\":{\"prompt\":\"Overhead flat lay on a light linen surface showing everyday glow-up essentials arranged neatly: a sunscreen tube, a lip balm, a wide-tooth comb, a few hair clips, a folded soft blouse, a silk sleep mask and an open notebook with a few blank checkbox lines (no legible text). Soft natural daylight, warm neutral tones, clean and uncluttered composition.\",\"alt\":\"Flat lay of everyday items for a glow up checklist for women, including sunscreen, a comb and a notebook\",\"article\":\"glow-up-checklist-for-women\",\"position\":1},\"model\":\"openai/gpt-image-2.5/flare/text-to-image\"}",
+  "key": "{\"brief\":{\"prompt\":\"Realistic editorial flat-lay photograph on a light wooden surface in soft morning window light: a tube of sunscreen, a folded linen shirt, a hairbrush, a small potted plant and a closed notebook with a pen, arranged loosely and calmly. The mood is quiet, unhurried and everyday rather than glamorous.\",\"alt\":\"Flat-lay of everyday routine items including sunscreen, a folded shirt, a hairbrush, a small plant and a notebook on a wooden table.\",\"purpose\":\"Hero image: conveys the article's central idea that a glow up is a handful of small, ordinary habits repeated over time, not a dramatic transformation.\",\"article\":\"glow-up-checklist-for-women\",\"position\":1},\"model\":\"openai/gpt-image-2.5/flare/text-to-image\"}",
   "attempts": [
     {
       "status": "passed",
-      "prompt": "Overhead flat lay on a light linen surface showing everyday glow-up essentials arranged neatly: a sunscreen tube, a lip balm, a wide-tooth comb, a few hair clips, a folded soft blouse, a silk sleep mask and an open notebook with a few blank checkbox lines (no legible text). Soft natural daylight, warm neutral tones, clean and uncluttered composition.",
+      "prompt": "Realistic editorial flat-lay photograph on a light wooden surface in soft morning window light: a tube of sunscreen, a folded linen shirt, a hairbrush, a small potted plant and a closed notebook with a pen, arranged loosely and calmly. The mood is quiet, unhurried and everyday rather than glamorous.",
       "review": {
         "pass": true,
         "issues": [],
-        "alt": "Overhead flat lay on a linen surface of everyday glow-up essentials: a sunscreen tube with a sun icon, a pink lip balm, a tortoiseshell wide-tooth comb, three hair clips, a folded beige blouse, a satin sleep mask and an open notebook with blank checkbox lines, with a eucalyptus sprig in the corner."
+        "alt": "Flat-lay on a light wooden table in soft dappled morning light: a white sunscreen tube with a yellow cap, a folded grey linen shirt, a wooden hairbrush, a potted pothos plant, and a closed green notebook with a pen resting on top."
       }
     }
   ]

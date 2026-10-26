@@ -1,13 +1,13 @@
 {
-  "key": "{\"brief\":{\"prompt\":\"An overhead flat lay of five eyeglass frames laid out in one evenly spaced row on a light wooden table, shot straight down in soft daylight, with generous empty space around them. No text, logos or faces.\",\"alt\":\"Eyeglass frames laid out in a row while choosing a style\",\"article\":\"7-face-shapes-explained\",\"position\":3},\"model\":\"openai/gpt-image-2.5/flare/text-to-image\"}",
+  "key": "{\"brief\":{\"prompt\":\"A simple flat-lay editorial photograph of four pairs of glasses with clearly different looks arranged on a linen cloth: round gold wire frames, bold black rectangular frames, tortoiseshell cat-eye frames and clear oversized frames. Soft even light and a muted background make the colours and materials stand out.\",\"alt\":\"Four pairs of glasses in different styles and materials arranged side by side on a linen cloth.\",\"purpose\":\"Shows the practical use of the result: choosing frames by experimenting with contrasting styles, treating face shape as a starting point rather than a strict rule.\",\"article\":\"7-face-shapes-explained\",\"position\":3},\"model\":\"openai/gpt-image-2.5/flare/text-to-image\"}",
   "attempts": [
     {
       "status": "passed",
-      "prompt": "An overhead flat lay of five eyeglass frames laid out in one evenly spaced row on a light wooden table, shot straight down in soft daylight, with generous empty space around them. No text, logos or faces.",
+      "prompt": "A simple flat-lay editorial photograph of four pairs of glasses with clearly different looks arranged on a linen cloth: round gold wire frames, bold black rectangular frames, tortoiseshell cat-eye frames and clear oversized frames. Soft even light and a muted background make the colours and materials stand out.",
       "review": {
         "pass": true,
         "issues": [],
-        "alt": "Five folded eyeglass frames in a row on a light wooden surface, seen from above: tortoiseshell, thin gold metal, black, translucent pink and dark green."
+        "alt": "Flat-lay of four pairs of glasses on a beige linen cloth: round gold wire frames, bold black rectangular frames, tortoiseshell cat-eye frames and clear oversized frames, with eucalyptus leaves and dried baby's breath in the corners."
       }
     }
   ]

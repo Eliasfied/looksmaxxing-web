@@ -5,8 +5,8 @@ slug: "glow-up-checklist-for-women"
 primary_keyword: "glow up checklist for women"
 cluster: "women-glow-up"
 pubDate: "2026-10-18"
-heroImage: /blog/glow-up-checklist-for-women/1.webp
-heroImageAlt: "Overhead flat lay on a linen surface of everyday glow-up essentials: a sunscreen tube with a sun icon, a pink lip balm, a tortoiseshell wide-tooth comb, three hair clips, a folded beige blouse, a satin sleep mask and an open notebook with blank checkbox lines, with a eucalyptus sprig in the corner."
+heroImage: "/blog/glow-up-checklist-for-women/1.webp"
+heroImageAlt: "Flat-lay on a light wooden table in soft dappled morning light: a white sunscreen tube with a yellow cap, a folded grey linen shirt, a wooden hairbrush, a potted pothos plant, and a closed green notebook with a pen resting on top."
 tags: ["glow up", "women's self-care", "sun protection", "personal style", "grooming routine"]
 readingTime: 9
 related: [low-maintenance-hairstyles-for-women, haircuts-for-square-faces-women, haircuts-for-round-faces-women]
@@ -136,7 +136,7 @@ Before your next appointment, prepare a few things for your stylist:
 
 If you heat-style often, ask your stylist about heat protection and settings that suit your hair type.
 
-![Illustration of three women shown from the shoulders up side by side: one with sleek, straight shoulder-length dark hair, one with defined, voluminous curls and face-framing layers, and one with coily hair in a neat puff, against a plain soft cream background.](/blog/glow-up-checklist-for-women/2.webp)
+![A woman in a white linen robe smooths a line of white sunscreen across the back of her hand beside a sunny bathroom window, with an open tube, its cap, a small round mirror, a potted plant and a folded towel on the pale marble counter.](/blog/glow-up-checklist-for-women/2.webp)
 
 ### Grooming Details
 
@@ -165,7 +165,7 @@ Clothes are where many people see the fastest change, because you can address fi
 
 **Shop on a budget:** buy fewer pieces, focus on items you will wear weekly, check secondhand options and budget for tailoring.
 
-![Capsule wardrobe on a light wooden rack against a white wall: olive midi skirt, dark straight-leg jeans, cream knit sweater, navy blouse and camel trench coat, with brown horsebit loafers and black ankle boots on the floor below.](/blog/glow-up-checklist-for-women/3.webp)
+![A cozy bedroom at dusk with a rumpled white linen bed, a glowing warm table lamp on a wooden nightstand beside a glass of water, a closed book and a small potted plant, and a window showing a deep blue evening sky over distant rooftops.](/blog/glow-up-checklist-for-women/3.webp)
 
 ## Turn the Checklist Into a Four-Week Plan
 

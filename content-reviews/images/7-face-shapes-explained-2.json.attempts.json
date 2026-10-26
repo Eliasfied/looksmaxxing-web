@@ -1,13 +1,13 @@
 {
-  "key": "{\"brief\":{\"prompt\":\"A person with hair pulled back in a simple ponytail stands facing a bathroom mirror, holding a phone at eye level to take a straight-on photo of their face in even, soft daylight. The framing is from slightly behind and to the side, showing the phone held level and the face reflected in the mirror without distortion.\",\"alt\":\"Taking a straight-on photo with hair pulled back to identify face shape at home\",\"article\":\"7-face-shapes-explained\",\"position\":2},\"model\":\"openai/gpt-image-2.5/flare/text-to-image\"}",
+  "key": "{\"brief\":{\"prompt\":\"A realistic overhead photograph of a tidy tabletop where someone has just taken a photo, showing a phone propped upright on a stack of books beside a small round mirror, a hair tie and a hairbrush, all on a pale wooden surface. Warm daylight from a nearby window casts gentle shadows, and no screen content is visible.\",\"alt\":\"Phone propped on books next to a mirror, hair tie and brush on a wooden table, set up for taking a straight-on photo at home.\",\"purpose\":\"Illustrates the at-home method: set the camera at eye level, pull hair back and take a straight-on photo without special tools.\",\"article\":\"7-face-shapes-explained\",\"position\":2},\"model\":\"openai/gpt-image-2.5/flare/text-to-image\"}",
   "attempts": [
     {
       "status": "passed",
-      "prompt": "A person with hair pulled back in a simple ponytail stands facing a bathroom mirror, holding a phone at eye level to take a straight-on photo of their face in even, soft daylight. The framing is from slightly behind and to the side, showing the phone held level and the face reflected in the mirror without distortion.",
+      "prompt": "A realistic overhead photograph of a tidy tabletop where someone has just taken a photo, showing a phone propped upright on a stack of books beside a small round mirror, a hair tie and a hairbrush, all on a pale wooden surface. Warm daylight from a nearby window casts gentle shadows, and no screen content is visible.",
       "review": {
         "pass": true,
         "issues": [],
-        "alt": "Person with hair in a ponytail, seen from behind and slightly to the side, holds a phone at eye level in front of a bathroom mirror, their face reflected straight-on in soft daylight."
+        "alt": "Smartphone with a blank dark screen propped upright on a stack of three books on a pale wooden table, beside a round brass mirror, a black hair tie and a wooden hairbrush, lit by warm window light with a potted plant in the background."
       }
     }
   ]

@@ -49,7 +49,32 @@
     }
   ],
   "imageModel": "openai/gpt-image-2.5/flare/text-to-image",
-  "imageReviews": [],
+  "imageReviews": [
+    {
+      "image": "/blog/glow-up-checklist-for-women/1.webp",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "Flat-lay on a light wooden table in soft dappled morning light: a white sunscreen tube with a yellow cap, a folded grey linen shirt, a wooden hairbrush, a potted pothos plant, and a closed green notebook with a pen resting on top."
+      }
+    },
+    {
+      "image": "/blog/glow-up-checklist-for-women/2.webp",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "A woman in a white linen robe smooths a line of white sunscreen across the back of her hand beside a sunny bathroom window, with an open tube, its cap, a small round mirror, a potted plant and a folded towel on the pale marble counter."
+      }
+    },
+    {
+      "image": "/blog/glow-up-checklist-for-women/3.webp",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "A cozy bedroom at dusk with a rumpled white linen bed, a glowing warm table lamp on a wooden nightstand beside a glass of water, a closed book and a small potted plant, and a window showing a deep blue evening sky over distant rooftops."
+      }
+    }
+  ],
   "imageSettings": {
     "width": 1024,
     "height": 1024,
@@ -91,20 +116,7 @@
   ],
   "note": "Token estimates exclude web-search charges, images, tax and provider markups.",
   "releasedAt": "2026-10-26T12:28:04.180Z",
-  "imageFailures": [
-    {
-      "image": 1,
-      "error": "Image 1 was never approved"
-    },
-    {
-      "image": 2,
-      "error": "Image 2 was never approved"
-    },
-    {
-      "image": 3,
-      "error": "Image 3 was never approved"
-    }
-  ],
+  "imageFailures": [],
   "previousAttempts": [
     {
       "slug": "glow-up-checklist-for-women",
@@ -201,5 +213,6 @@
       ],
       "note": "Token estimates exclude web-search charges, images, tax and provider markups."
     }
-  ]
+  ],
+  "backfilledAt": "2026-10-26T13:29:02.385Z"
 }

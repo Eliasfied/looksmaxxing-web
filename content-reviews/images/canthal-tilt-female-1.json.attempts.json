@@ -1,13 +1,13 @@
 {
-  "key": "{\"brief\":{\"prompt\":\"A close-up photograph of one woman's face from the eyebrows to the top of the cheekbones, taken straight on at eye level in soft, even daylight. Neutral expression, no makeup, hair away from the face, both eyes open and clearly visible, plain soft background. No text, labels, arrows or measurement lines.\",\"alt\":\"A straight-on close-up of a woman's eye area, the view needed to judge canthal tilt\",\"article\":\"canthal-tilt-female\",\"position\":1},\"model\":\"openai/gpt-image-2.5/flare/text-to-image\"}",
+  "key": "{\"brief\":{\"prompt\":\"Editorial close-up photograph of a woman's face from the nose bridge up, one eye in sharp focus with softly lit skin, natural lashes and a relaxed gaze directed slightly past the camera. Warm window light, shallow depth of field, a blurred neutral backdrop of muted terracotta tones, no makeup styling emphasis and no recognisable person.\",\"alt\":\"Close-up of a woman's eye and brow lit by soft window light against a warm blurred background\",\"purpose\":\"Hero image introducing the article's topic at a glance: the female eye area and the shape of the eye corners that canthal tilt describes, in a calm, non-judgmental editorial tone.\",\"article\":\"canthal-tilt-female\",\"position\":1},\"model\":\"openai/gpt-image-2.5/flare/text-to-image\"}",
   "attempts": [
     {
       "status": "passed",
-      "prompt": "A close-up photograph of one woman's face from the eyebrows to the top of the cheekbones, taken straight on at eye level in soft, even daylight. Neutral expression, no makeup, hair away from the face, both eyes open and clearly visible, plain soft background. No text, labels, arrows or measurement lines.",
+      "prompt": "Editorial close-up photograph of a woman's face from the nose bridge up, one eye in sharp focus with softly lit skin, natural lashes and a relaxed gaze directed slightly past the camera. Warm window light, shallow depth of field, a blurred neutral backdrop of muted terracotta tones, no makeup styling emphasis and no recognisable person.",
       "review": {
         "pass": true,
         "issues": [],
-        "alt": "A straight-on close-up of a woman's face from the hairline to the upper cheeks, showing her dark eyebrows, open gray-green eyes, and bare skin, with her dark hair pulled back against a plain light background."
+        "alt": "Close-up of a woman's face from the nose upward, with one green-hazel eye in sharp focus, defined brow and natural lashes, softly lit against a blurred warm terracotta background"
       }
     }
   ]

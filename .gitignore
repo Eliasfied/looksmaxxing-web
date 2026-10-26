@@ -27,3 +27,6 @@ pnpm-debug.log*
 
 # vercel
 .vercel
+
+# written by generate-content.mjs, consumed by indexnow.mjs
+.indexnow-urls.txt

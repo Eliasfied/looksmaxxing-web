@@ -123,7 +123,7 @@ In [a stylist roundup on shoulder-length cuts](https://www.aol.com/best-shoulder
 
 This is the most low-commitment change on the list. You can often get it with a few face-framing layers added to your existing length.
 
-![Illustration of a woman with a curly textured pixie cut with volume at the crown, brown eyes, gold hoop earrings and a black scoop-neck top, shown head-and-shoulders on a plain light background](/blog/haircuts-for-square-faces-women/2.webp)
+![A hairstylist's hands holding and sweeping a long, soft fringe to one side on a client with long chestnut-brown hair, seen from the side in a bright salon with a comb and clips on the station behind](/blog/haircuts-for-square-faces-women/2.webp)
 
 ## Match the Cut to Your Hair Texture
 
@@ -176,7 +176,7 @@ Whether you use a tool or not, these steps make the conversation easier (editori
 5. **Mention your texture history.** Share whether your hair frizzes, flattens or curls more in humidity, and how it behaves when air-dried.
 6. **Ask about the grow-out.** Find out what the cut will look like after it grows out a bit, and when you'll need a trim.
 
-![A salon station with a black comb, round brush and scissors laid on a folded white towel on a marble counter beside a mirror, with a black salon chair and a plant in the bright background](/blog/haircuts-for-square-faces-women/3.webp)
+![A stylist in black holds a section of hair between two fingers to check the length of a woman's wavy, layered brunette bob that falls just below the jaw, as she sits in a salon chair in a black cape facing a mirror in natural window light](/blog/haircuts-for-square-faces-women/3.webp)
 
 ## Upkeep and Styling at Home
 

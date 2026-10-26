@@ -1,13 +1,13 @@
 {
-  "key": "{\"brief\":{\"prompt\":\"A side-by-side illustration of two different adult men in plain t-shirts, one with a broad, wide-cheeked face and a stern expression, the other with a longer, narrower jaw and a relaxed, friendly expression. Simple neutral studio backdrop, no text, no numbers, no arrows, no scores.\",\"alt\":\"Two illustrated men with different face widths showing that dominant-looking and attractive-looking faces are not the same\",\"article\":\"most-attractive-face-shape-men\",\"position\":2},\"model\":\"openai/gpt-image-2.5/flare/text-to-image\"}",
+  "key": "{\"brief\":{\"prompt\":\"Simple flat illustration of a researcher's desk seen from above, with a laptop showing an abstract scatter of dots joined by thin lines over a blank face-like outline, beside a coffee mug, a notebook and a pair of calipers. Muted blue and cream palette, no text or numbers anywhere.\",\"alt\":\"Illustration of a researcher's desk with a laptop showing a dot-and-line mesh over an abstract face outline, a notebook, calipers and a mug.\",\"purpose\":\"Illustrates the section on what researchers measure instead of face shape categories: continuous traits and facial landmarks analyzed statistically (geometric morphometrics).\",\"article\":\"most-attractive-face-shape-men\",\"position\":2},\"model\":\"openai/gpt-image-2.5/flare/text-to-image\"}",
   "attempts": [
     {
       "status": "passed",
-      "prompt": "A side-by-side illustration of two different adult men in plain t-shirts, one with a broad, wide-cheeked face and a stern expression, the other with a longer, narrower jaw and a relaxed, friendly expression. Simple neutral studio backdrop, no text, no numbers, no arrows, no scores.",
+      "prompt": "Simple flat illustration of a researcher's desk seen from above, with a laptop showing an abstract scatter of dots joined by thin lines over a blank face-like outline, beside a coffee mug, a notebook and a pair of calipers. Muted blue and cream palette, no text or numbers anywhere.",
       "review": {
         "pass": true,
         "issues": [],
-        "alt": "Side-by-side photo-style portraits of two different men in plain white t-shirts against a neutral gray backdrop: on the left, a man with a broad, wide-cheeked face, short dark hair and a stern expression; on the right, a man with a longer, narrower jaw, wavy brown hair, light stubble and a relaxed, friendly smile."
+        "alt": "Flat illustration of a desk seen from above with an open laptop showing a blue dot-and-line landmark mesh over a blank face outline, beside a blue coffee mug, a spiral notebook, calipers and a potted plant, in muted blue and cream tones."
       }
     }
   ]

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "savedAt": "2026-10-21T19:06:52.217Z",
+  "savedAt": "2026-10-26T13:25:51.361Z",
   "page": {
     "slug": "female-jawline-guide",
     "cluster": "female-jawline",
@@ -75,14 +75,37 @@
         }
       ]
     },
-    "_draft": true,
+    "_draft": false,
     "_review": {
-      "pass": false,
-      "issues": [
-        "Image 2 failed validation: Image failed editorial review: [\"Missing required labels: the brief specifies a single small word label beneath each figure (rounded, tapered, square, long), but no text appears anywhere in the image, so viewers cannot tell which jawline category each figure represents.\",\"Jawline shapes are not clearly differentiated: all four figures share nearly identical nose, lips and chin structure, and the jaws read as similar soft V/rounded shapes. There is no distinctly square angular jaw and no clearly long face, so the image fails to illustrate the purpose of showing several different common jawline categories.\",\"Figures are cropped as tall panels with unequal hair/edge treatment and large empty white space above and below, which weakens the clean row layout intended for the article.\"]"
-      ]
+      "pass": true,
+      "issues": []
     },
-    "_imageReviews": [],
+    "_imageReviews": [
+      {
+        "image": "/blog/female-jawline-guide/1.webp",
+        "review": {
+          "pass": true,
+          "issues": [],
+          "alt": "Woman with dark hair swept back in a loose updo, shown in three-quarter view in soft window light against a warm beige wall, with her natural jawline and chin clearly visible and a calm expression"
+        }
+      },
+      {
+        "image": "/blog/female-jawline-guide/2.webp",
+        "review": {
+          "pass": true,
+          "issues": [],
+          "alt": "Side-view illustration of a pale grey human skull on a cream background with the lower jawbone (mandible) highlighted in coral, showing the ramus, angle, chin and teeth."
+        }
+      },
+      {
+        "image": "/blog/female-jawline-guide/3.webp",
+        "review": {
+          "pass": true,
+          "issues": [],
+          "alt": "Flat-lay on pale linen of two hands holding a soft makeup brush over an open bronzer compact, with a cream highlighter tube, a small gold hand mirror and a sprig of white flowers nearby"
+        }
+      }
+    ],
     "_textRepair": {
       "original": {
         "title": "Female Jawline Guide: Anatomy, Myths and Styling",
@@ -285,14 +308,14 @@
         "purpose": "Introduces the topic at a glance: the female jawline as a natural feature shaped by bone, soft tissue and light."
       },
       {
-        "prompt": "A clean illustrated row of four women's lower faces, drawn from the cheekbones down in a simple flat style, each with a different jawline: soft rounded, tapered V-shaped, square angular, and long. Each figure has a different skin tone and hair colour, with a single small word label beneath it and no measurement lines.",
-        "alt": "Illustration of four female jawline shapes: rounded, tapered, square and long",
-        "purpose": "Shows that there are several common female jawline shapes used as styling categories, with no single ideal."
+        "prompt": "A clean, simple illustration of a human skull in side profile on a soft cream background, with the lower jawbone rendered in a distinct warm coral colour while the rest of the skull is pale grey. The scene shows only the skull, no lettering or markings of any kind.",
+        "alt": "Stylised side-view illustration of a human skull with the lower jawbone highlighted in coral",
+        "purpose": "Teaches the 'What the Jawline Is Made Of' section: the mandible is the movable lower jawbone whose shape underlies the visible jawline."
       },
       {
-        "prompt": "A close-up, eye-level shot of a woman in a bright bathroom mirror applying a matte contour shade just under her jawbone with a soft angled brush, blending toward her neck. Her hair falls in chin-length face-framing layers, and small drop earrings are visible.",
-        "alt": "Woman blending soft contour along her jawline with an angled brush as a styling technique",
-        "purpose": "Demonstrates the editorial styling tips on contouring and hair framing to change how the jawline reads without claiming a physical change."
+        "prompt": "A realistic editorial flat-lay on a pale linen surface showing a woman's hands holding a soft makeup brush loaded with warm bronzer next to an open compact, a tube of cream highlighter and a small hand mirror, lit by soft daylight. The styling tools are the only subject, arranged neatly with no text visible on any packaging.",
+        "alt": "Flat-lay of makeup brush, bronzer compact, highlighter and hand mirror on linen",
+        "purpose": "Illustrates the article's practical point that makeup and styling choices, which you control, shape how a jawline looks in person and on camera more than bone structure alone."
       }
     ],
     "faq": [
@@ -358,6 +381,7 @@
         "title": "Aging and menopause reprogram osteoclast precursors for aggressive bone resorption",
         "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7329827/"
       }
-    ]
+    ],
+    "_imageFailures": []
   }
 }

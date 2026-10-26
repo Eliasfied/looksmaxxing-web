@@ -1,10 +1,18 @@
 {
-  "fingerprint": "50db196719eb758fe3dd2e047c29f50eb48c58b684b0b1650c240cc284064f2e",
-  "sha256": "2abdea219698ce684a4c474fb5e7719ffbbeeb25cd4b4edd80c0e5db3e6481fa",
-  "reviewedAt": "2026-10-26T13:08:08.776Z",
+  "version": 2,
+  "fingerprint": "dccfdb6086f76929332fb155e0a4519e1513d51055b6ef38833226073bd01964",
+  "brief": {
+    "prompt": "Close-up editorial photo of a man with a square face, strong jaw and short dark hair, seen in three-quarter profile while an optician's gloved hand adjusts a pair of black acetate round glasses on his nose in a bright optical shop. Shallow depth of field, soft daylight from a shop window, blurred shelves of frames in the background, no text.",
+    "alt": "An optician adjusting round black acetate glasses on the face of a man with a square jaw in an optical shop",
+    "purpose": "Illustrates the article's point that fit and comfort, such as bridge position and frame placement, matter as much as frame shape when choosing glasses for a square face.",
+    "article": "best-glasses-for-square-face",
+    "position": 3
+  },
+  "sha256": "82b57f776c304a273468eab6e9b0003cd08dce9e55cd2ba2e9365dd1990b8194",
+  "reviewedAt": "2026-10-26T13:28:27.057Z",
   "review": {
     "pass": true,
     "issues": [],
-    "alt": "Round tortoiseshell eyeglasses with clear lenses standing open and upright on a light wooden table, photographed straight on against a plain blurred background."
+    "alt": "An optician's gloved hand adjusts a pair of round black acetate glasses on a short-haired man with a strong jaw, seen in three-quarter profile in a bright optical shop with shelves of frames blurred behind him"
   }
 }

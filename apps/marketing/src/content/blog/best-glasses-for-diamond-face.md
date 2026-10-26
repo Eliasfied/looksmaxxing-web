@@ -199,7 +199,7 @@ Most frames print three measurements, in millimeters, on the inside of the templ
 
 [Warby Parker's fit guide](https://www.warbyparker.com/learn/eyeglass-frame-sizes-explained-simple-fit-guide-2) gives common ranges of about 40 to 60 mm for lens width, 14 to 24 mm for bridge width, and 120 to 150 mm for temple length. It also notes that the most suitable size varies by person. If you already own a pair that fits well, use its numbers as a reference when you shop, especially online.
 
-![Thin silver metal oval eyeglasses resting open on a light grey-veined marble surface beside a folded grey microfiber cleaning cloth, in soft natural light.](/blog/best-glasses-for-diamond-face/3.webp)
+![A person in a white robe and soft headband, hair pulled back, holds a pair of tortoiseshell glasses away from their face while studying their calm reflection in a bathroom mirror by a sunlit window.](/blog/best-glasses-for-diamond-face/3.webp)
 
 ## Materials and Budget
 

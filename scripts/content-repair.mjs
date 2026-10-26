@@ -24,17 +24,37 @@ export async function reviewWithRepair(data, review, repair, checkpoint, eligibl
   return verdict;
 }
 
+const ATTEMPT_BUDGET = 3;
+
+// Last resort: when two attempts have failed, the brief itself is usually what
+// cannot be drawn — a taxonomy figure, a labelled set, a few degrees of
+// difference. Fall back to one plain subject that serves the same article
+// purpose, and judge it against THAT reduced brief. Reviewing a deliberately
+// simpler picture against the brief it was told to abandon always rejects it,
+// which is how articles ended up with no illustration at all.
+function reducedBrief(brief) {
+  const purpose = [brief.purpose, brief.alt].find(v => typeof v === 'string' && v.trim()) ?? '';
+  return {
+    ...brief,
+    prompt: 'A single clear, natural editorial photograph for this article point: ' + purpose +
+      '. One subject, one scene, realistic lighting and accurate anatomy. No text, letters, numbers or labels anywhere. No diagram, no panels, no side-by-side comparison.',
+    reducedFrom: brief.prompt,
+  };
+}
+
 export async function imageWithRepair(brief, state, persist, generate, inspect) {
-  while (state.attempts.length < 2) {
+  while (state.attempts.length < ATTEMPT_BUDGET) {
     const previous = state.attempts.at(-1);
     if (previous && previous.status !== 'rejected') throw new Error('Image attempt interrupted; manual review required');
-    const prompt = brief.prompt + (previous ? '\nEDITORIAL CORRECTION: Regenerate a simpler, accurate illustration of the same purpose. Fix these defects from the rejected image: ' + JSON.stringify(previous.issues) + '. Avoid text, labels and complex comparative diagrams if they caused the defect.' : '');
-    const attempt = { status: 'started', prompt };
+    const last = state.attempts.length === ATTEMPT_BUDGET - 1;
+    const effective = last ? reducedBrief(brief) : brief;
+    const prompt = effective.prompt + (previous && !last ? '\nEDITORIAL CORRECTION: Regenerate a simpler, accurate illustration of the same purpose. Fix these defects from the rejected image: ' + JSON.stringify(previous.issues) + '. Avoid text, labels and complex comparative diagrams if they caused the defect.' : '');
+    const attempt = { status: 'started', prompt, ...(last ? { reduced: true } : {}) };
     state.attempts.push(attempt);
     await persist();
     const image = await generate(prompt);
     try {
-      const review = await inspect(image, brief);
+      const review = await inspect(image, effective);
       attempt.status = 'passed';
       attempt.review = review;
       await persist();
@@ -44,7 +64,7 @@ export async function imageWithRepair(brief, state, persist, generate, inspect) 
       attempt.status = 'rejected';
       attempt.issues = error.issues;
       await persist();
-      if (state.attempts.length === 2) throw error;
+      if (state.attempts.length === ATTEMPT_BUDGET) throw error;
     }
   }
   throw new Error('Image correction budget exhausted; manual review required');

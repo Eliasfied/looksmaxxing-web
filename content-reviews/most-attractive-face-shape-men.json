@@ -88,7 +88,32 @@
     }
   ],
   "imageModel": "openai/gpt-image-2.5/flare/text-to-image",
-  "imageReviews": [],
+  "imageReviews": [
+    {
+      "image": "/blog/most-attractive-face-shape-men/1.webp",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "Five men of different ages and ethnicities standing side by side against a plain warm-gray studio backdrop, wearing green, maroon, blue, mustard and gray crewneck sweatshirts and looking calmly at the camera."
+      }
+    },
+    {
+      "image": "/blog/most-attractive-face-shape-men/2.webp",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "Flat illustration of a desk seen from above with an open laptop showing a blue dot-and-line landmark mesh over a blank face outline, beside a blue coffee mug, a spiral notebook, calipers and a potted plant, in muted blue and cream tones."
+      }
+    },
+    {
+      "image": "/blog/most-attractive-face-shape-men/3.webp",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "A barber in a black apron trims a seated, caped man's beard with an electric trimmer in a warm, modern barbershop with wooden shelves of grooming products, plants, pendant lights and a mirror."
+      }
+    }
+  ],
   "imageSettings": {
     "width": 1024,
     "height": 1024,
@@ -154,20 +179,7 @@
   ],
   "note": "Token estimates exclude web-search charges, images, tax and provider markups.",
   "releasedAt": "2026-10-23T19:32:13.039Z",
-  "imageFailures": [
-    {
-      "image": 1,
-      "error": "Image 1 was never approved"
-    },
-    {
-      "image": 2,
-      "error": "Image 2 was never approved"
-    },
-    {
-      "image": 3,
-      "error": "Image 3 was never approved"
-    }
-  ],
+  "imageFailures": [],
   "previousAttempts": [
     {
       "slug": "most-attractive-face-shape-men",
@@ -327,5 +339,6 @@
       ],
       "note": "Token estimates exclude web-search charges, images, tax and provider markups."
     }
-  ]
+  ],
+  "backfilledAt": "2026-10-26T13:12:38.735Z"
 }

@@ -42,7 +42,32 @@
     }
   ],
   "imageModel": "openai/gpt-image-2.5/flare/text-to-image",
-  "imageReviews": [],
+  "imageReviews": [
+    {
+      "image": "/blog/haircuts-for-square-faces-women/1.webp",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "Smiling woman with a square face and defined jaw wearing a soft, shoulder-length layered brunette haircut with side-swept bangs, seated in a bright salon with plants and a round mirror in the background"
+      }
+    },
+    {
+      "image": "/blog/haircuts-for-square-faces-women/2.webp",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "A hairstylist's hands holding and sweeping a long, soft fringe to one side on a client with long chestnut-brown hair, seen from the side in a bright salon with a comb and clips on the station behind"
+      }
+    },
+    {
+      "image": "/blog/haircuts-for-square-faces-women/3.webp",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "A stylist in black holds a section of hair between two fingers to check the length of a woman's wavy, layered brunette bob that falls just below the jaw, as she sits in a salon chair in a black cape facing a mirror in natural window light"
+      }
+    }
+  ],
   "imageSettings": {
     "width": 1024,
     "height": 1024,
@@ -100,16 +125,7 @@
   ],
   "note": "Token estimates exclude web-search charges, images, tax and provider markups.",
   "releasedAt": "2026-10-23T19:32:13.030Z",
-  "imageFailures": [
-    {
-      "image": 2,
-      "error": "Image 2 was never approved"
-    },
-    {
-      "image": 3,
-      "error": "Image 3 was never approved"
-    }
-  ],
+  "imageFailures": [],
   "previousAttempts": [
     {
       "slug": "haircuts-for-square-faces-women",
@@ -215,5 +231,6 @@
       ],
       "note": "Token estimates exclude web-search charges, images, tax and provider markups."
     }
-  ]
+  ],
+  "backfilledAt": "2026-10-26T13:27:04.378Z"
 }

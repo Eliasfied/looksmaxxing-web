@@ -1,13 +1,13 @@
 {
-  "key": "{\"brief\":{\"prompt\":\"A four-panel grid of close-up hair views from behind and slightly to the side, each showing a different texture with a well-matched cut: fine straight hair in a blunt lob, thick straight hair in a smooth layered cut, wavy hair in a shag, and coily hair in a rounded shaped cut. Soft studio lighting, plain backgrounds, a small one-word label for texture at the bottom of each panel.\",\"alt\":\"Four hair textures each paired with an easy-care haircut: fine straight, thick straight, wavy and coily\",\"article\":\"low-maintenance-hairstyles-for-women\",\"position\":2},\"model\":\"openai/gpt-image-2.5/flare/text-to-image\"}",
+  "key": "{\"brief\":{\"prompt\":\"Simple flat illustration of a bathroom counter seen from above with a wide-toothed comb, a small jar of styling cream, a hair towel and a hairdryer pushed off to one side, unused. Soft pastel palette with a muted teal and peach scheme.\",\"alt\":\"Illustration of a bathroom counter with a comb and a jar of styling cream in front, and a hairdryer set aside unused.\",\"purpose\":\"Illustrates the daily-styling side of low maintenance: short or textured cuts that need only a comb-through or a little product instead of a blow-dry.\",\"article\":\"low-maintenance-hairstyles-for-women\",\"position\":2},\"model\":\"openai/gpt-image-2.5/flare/text-to-image\"}",
   "attempts": [
     {
       "status": "passed",
-      "prompt": "A four-panel grid of close-up hair views from behind and slightly to the side, each showing a different texture with a well-matched cut: fine straight hair in a blunt lob, thick straight hair in a smooth layered cut, wavy hair in a shag, and coily hair in a rounded shaped cut. Soft studio lighting, plain backgrounds, a small one-word label for texture at the bottom of each panel.",
+      "prompt": "Simple flat illustration of a bathroom counter seen from above with a wide-toothed comb, a small jar of styling cream, a hair towel and a hairdryer pushed off to one side, unused. Soft pastel palette with a muted teal and peach scheme.",
       "review": {
         "pass": true,
         "issues": [],
-        "alt": "Four-panel grid showing hair from behind and slightly to the side, labeled Fine (straight blonde blunt lob), Thick (dark straight layered cut), Wavy (brown wavy shag with bangs) and Coily (rounded shaped natural cut)."
+        "alt": "Top-down view of a bathroom counter with a teal wide-toothed comb and an open jar of white styling cream in front, a peach hair-drying towel wrap, and a teal hairdryer set off to the right side, with a sink and pothos plant at the edges."
       }
     }
   ]

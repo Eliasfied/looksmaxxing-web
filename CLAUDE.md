@@ -97,12 +97,12 @@ Ohne das sieht niemand, wo der Funnel bricht. Der Code ist fertig instrumentiert
 
 - [x] Projekt in eigener Organisation, Region **EU**
 - [x] API Key in `.env.local` eingetragen
-- [ ] In Vercel (`apps/web`) eintragen, Production + Preview + Development:
+- [x] In Vercel (`apps/web`) eingetragen, Production + Preview + Development:
   ```
   NEXT_PUBLIC_POSTHOG_KEY=phc_...
   NEXT_PUBLIC_POSTHOG_HOST=https://eu.i.posthog.com
   ```
-- [ ] **Redeployen** — `NEXT_PUBLIC_*` wird zur Buildzeit eingebacken
+- [x] **Redeployt** — Key als Literal im ausgelieferten Bundle verifiziert
 - [ ] Funnel anlegen, aufgeschlüsselt nach `aura_source` (Herkunfts-Seite) und `tool`
 
 > Der Provider initialisiert nur bei `NODE_ENV === 'production'` — lokal kommen
@@ -138,10 +138,35 @@ Ohne das sieht niemand, wo der Funnel bricht. Der Code ist fertig instrumentiert
 - [ ] Core Web Vitals Report prüfen
 
 ### 10.2 Bing Webmaster Tools
-- [ ] Account anlegen: https://www.bing.com/webmasters
-- [ ] Site `aura-looksmaxxing.com` hinzufügen (DNS-Verifizierung oder GSC-Import)
-- [ ] Sitemap einreichen: `https://www.aura-looksmaxxing.com/sitemap-index.xml`
-- [ ] IndexNow Key generieren → `scripts/indexnow.mjs` ist schon da, nur Key fehlt
+- [x] Account + Property stehen, Search Performance liefert Daten
+      (Stand 2026-10-26: 265 Klicks / 27,6K Impressions, steigend).
+- [x] Sitemap eingereicht und erfolgreich gecrawlt (zuletzt 2026-10-24).
+      Bings „URLs discovered: 1" pro Zeile ist korrekt: die Zeile ist ein
+      *Sitemap Index*, und der enthält genau ein Kind (`sitemap-0.xml`) mit
+      aktuell 171 URLs. Kein Fehler.
+      Der zusätzliche Apex-Eintrag `aura-looksmaxxing.com/sitemap-index.xml`
+      kann weg — er leitet per 308 auf die www-Variante, die schon drin ist.
+- [x] IndexNow Key: `12aa09fb4abee29fdfc774d3fe6b4224`, ausgeliefert unter
+      `/12aa09fb4abee29fdfc774d3fe6b4224.txt` (Datei liegt in `apps/marketing/public/`).
+      `scripts/indexnow.mjs` zeigte vorher auf `getbanana.ai` — behoben.
+      Läuft automatisch im `daily-content` Workflow für neu veröffentlichte Seiten.
+      Bestand einmalig angemeldet (2026-10-26, 171 URLs, HTTP 200).
+      Nochmal alles anmelden — nur bei Bedarf, nicht routinemäßig:
+      `node scripts/indexnow.mjs --all`
+- [ ] In Webmaster Tools unter „IndexNow" prüfen, dass die Pings ankommen.
+      ⚠️ Dort **nicht** „Get Started" klicken — das erzeugt einen *neuen* Key.
+      Unserer liegt schon und funktioniert (Test-Submit 2026-10-26: HTTP 202).
+      Die Seite zeigt die Einstiegs-Werbung, bis Bing die ersten Pings verarbeitet
+      hat; das dauert bis zu einen Tag.
+
+> Bings Hinweis „Some URLs are not getting indexed due to robots NOINDEX meta tags"
+> ist **kein Fehler**: er betrifft `app.aura-looksmaxxing.com`, das in
+> `apps/web/app/layout.tsx` bewusst auf `index: false` steht. Die Marketing-Site
+> setzt nirgends `noindex` (geprüft 2026-10-26, live und im Code).
+
+> IndexNow bedient Bing, Yandex, Seznam und Naver — **nicht Google**. Der direkte
+> Traffic-Effekt ist klein; relevant ist, dass ChatGPT-Suche und Copilot auf dem
+> Bing-Index aufsetzen.
 
 ### 10.3 Content-Automation ✅ ERLEDIGT
 - [x] Keywords-CSV (`apps/marketing/src/data/keywords.csv`) — 126 Cluster
@@ -156,15 +181,22 @@ Ohne das sieht niemand, wo der Funnel bricht. Der Code ist fertig instrumentiert
 ## 11. Offene SEO-Baustellen (Audit 2026-09-21)
 
 ### 🔴 Sofort
-- [ ] **Anthropic API Guthaben aufladen** — Content-Generierung steht seit 2026-08-30.
-      Der Workflow lief 22 Tage lang „erfolgreich" ohne etwas zu produzieren.
-      (`generate-content.mjs` exitet jetzt mit Code 1, CI schlägt also künftig fehl.)
-- [ ] **Vercel Apex-Redirect auf 308 umstellen** — Settings → Domains →
-      `aura-looksmaxxing.com`. Liefert aktuell 307 (temporary), daher 94 Seiten
-      in GSC als „Seite mit Weiterleitung / Validierung fehlgeschlagen".
-      Die Regel in `vercel.json` greift nicht, der Domain-Level-Redirect kommt zuerst.
+- [x] ~~Anthropic API Guthaben aufladen~~ — überholt. Die Generierung läuft; der
+      Stillstand vom 15.–23.10. hatte eine andere Ursache: jede Seite landete als
+      `draft: true`, weil ein abgelehntes Bild den ganzen Artikel blockierte und
+      die Produktbehauptungs-Regel Negation ignorierte. Behoben, 9 Drafts
+      nachträglich freigegeben. Seit 24.10. sind die Runs grün.
+- [x] ~~Vercel Apex-Redirect auf 308 umstellen~~ — erledigt. Geprüft 2026-10-26:
+      `/`, `/blog` und `/pricing` auf dem Apex liefern alle 308 auf die
+      www-Variante. In GSC sollten die 94 „Seite mit Weiterleitung"-Fälle damit
+      bei der nächsten Validierung durchlaufen — dort einmal nachstoßen.
 
 ### 🟡 Danach
+- [x] ~~Bild-Backfill~~ — erledigt. Alle 119 veröffentlichten Blog-Seiten haben
+      ihre drei Bilder. Nachlauf bei Bedarf:
+      `node scripts/generate-content.mjs --backfill-images --count N`
+      Der Modus brieft nur die fehlenden Slots neu; bereits freigegebene Bilder
+      werden aus dem Cache wiederverwendet und kosten nichts.
 - [ ] Bilder ohne `width`/`height` (12 von 16 auf der Startseite) → CLS
 - [ ] Keywords nachfüllen: 45 Cluster offen (~32.000 Volumen, ~6 Wochen Vorlauf).
       `scripts/expand-clusters.mjs` braucht frische Ubersuggest-Exporte.

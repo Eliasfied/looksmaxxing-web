@@ -1,13 +1,13 @@
 {
-  "key": "{\"brief\":{\"prompt\":\"A single pair of thin metal oval eyeglasses resting open on a light marble surface next to a folded grey cleaning cloth, photographed from directly above in soft window light. No hands, faces or text.\",\"alt\":\"Thin metal oval frames, a shape that clears high cheekbones\",\"article\":\"best-glasses-for-diamond-face\",\"position\":3},\"model\":\"openai/gpt-image-2.5/flare/text-to-image\"}",
+  "key": "{\"brief\":{\"prompt\":\"Close-up editorial photo of a person standing at a bathroom mirror, hair pulled fully back with a soft headband, glasses held in one hand away from the face, checking their own reflection with a calm neutral expression. Natural window light, shallow depth of field, the reflected face slightly out of focus so the focus stays on the careful, unhurried check.\",\"alt\":\"A person with their hair pulled back studies their face in a mirror while holding a pair of glasses in one hand\",\"purpose\":\"Illustrates the quick mirror check in the section on confirming your face shape: hair back, straight-on view, neutral expression, before choosing frames.\",\"article\":\"best-glasses-for-diamond-face\",\"position\":3},\"model\":\"openai/gpt-image-2.5/flare/text-to-image\"}",
   "attempts": [
     {
       "status": "passed",
-      "prompt": "A single pair of thin metal oval eyeglasses resting open on a light marble surface next to a folded grey cleaning cloth, photographed from directly above in soft window light. No hands, faces or text.",
+      "prompt": "Close-up editorial photo of a person standing at a bathroom mirror, hair pulled fully back with a soft headband, glasses held in one hand away from the face, checking their own reflection with a calm neutral expression. Natural window light, shallow depth of field, the reflected face slightly out of focus so the focus stays on the careful, unhurried check.",
       "review": {
         "pass": true,
         "issues": [],
-        "alt": "Thin silver metal oval eyeglasses resting open on a light grey-veined marble surface beside a folded grey microfiber cleaning cloth, in soft natural light."
+        "alt": "A person in a white robe and soft headband, hair pulled back, holds a pair of tortoiseshell glasses away from their face while studying their calm reflection in a bathroom mirror by a sunlit window."
       }
     }
   ]

@@ -81,6 +81,31 @@ jobs:
           if [ "$RETRY_REVIEW" = 'true' ]; then ARGS+=(--retry-review); fi
           node scripts/generate-content.mjs "${ARGS[@]}"
 
+      - name: Submit published URLs to IndexNow
+        if: success()
+        env:
+          PUBLIC_SITE_URL: https://www.aura-looksmaxxing.com
+        run: |
+          if [ ! -s .indexnow-urls.txt ]; then
+            echo "Nothing published this run; skipping IndexNow."
+            exit 0
+          fi
+          # Vercel deploys on push, so the page may still be building. Submitting
+          # a URL that 404s teaches the crawler the wrong thing, so wait for the
+          # first one to go live before pinging, and skip rather than fail.
+          FIRST=$(head -1 .indexnow-urls.txt)
+          for i in $(seq 1 30); do
+            CODE=$(curl -s -o /dev/null -w '%{http_code}' "$FIRST")
+            if [ "$CODE" = "200" ]; then break; fi
+            echo "waiting for deploy ($CODE) ..."
+            sleep 20
+          done
+          if [ "$CODE" != "200" ]; then
+            echo "::warning::$FIRST still returns $CODE after 10 minutes; skipping IndexNow."
+            exit 0
+          fi
+          node scripts/indexnow.mjs --from-file .indexnow-urls.txt
+
       - name: Save editorial reports
         if: always()
         uses: actions/upload-artifact@v4
