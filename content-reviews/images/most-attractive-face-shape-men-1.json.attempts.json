@@ -1,27 +1,14 @@
 {
-  "key": "{\"brief\":{\"prompt\":\"A clean, modern illustration of six simple male head silhouettes in a row, each outlined in a different face shape: oval, square, round, rectangular, diamond and triangle, with short neutral hairstyles. Soft neutral background, minimal labels under each silhouette, calm editorial style with no ranking or scores shown.\",\"alt\":\"Six common face shapes for men shown side by side, illustrating that there is no single most attractive face shape\",\"purpose\":\"Introduces the common face shape categories as styling shorthand rather than a ranking of attractiveness.\",\"article\":\"most-attractive-face-shape-men\",\"position\":1},\"model\":\"openai/gpt-image-2.5/flare/text-to-image\"}",
+  "key": "{\"brief\":{\"prompt\":\"Realistic editorial photograph of a diverse group of five men of different ages and ethnicities standing shoulder to shoulder against a plain warm-gray studio backdrop, each in a different colored crewneck, all looking calmly at the camera in soft natural light. Their faces are naturally varied, conveying that attractive faces come in many forms rather than one ideal.\",\"alt\":\"Five men of different ages and backgrounds standing side by side in a studio, each wearing a different colored shirt and looking at the camera.\",\"purpose\":\"Hero image: introduces the article's central message that no single face shape wins and that attractiveness spans natural variety.\",\"article\":\"most-attractive-face-shape-men\",\"position\":1},\"model\":\"openai/gpt-image-2.5/flare/text-to-image\"}",
   "attempts": [
     {
-      "status": "rejected",
-      "prompt": "A clean, modern illustration of six simple male head silhouettes in a row, each outlined in a different face shape: oval, square, round, rectangular, diamond and triangle, with short neutral hairstyles. Soft neutral background, minimal labels under each silhouette, calm editorial style with no ranking or scores shown.",
-      "issues": [
-        "Brief asks for simple head silhouettes, but the image shows six detailed, semi-realistic faces with full facial features, necks and shoulders, so the output does not match the requested minimal silhouette style.",
-        "The shape outlines do not consistently match the faces they label. The diamond outline is a rhombus drawn over a face that looks essentially the same as the others, and the triangle outline is an inverted wedge that does not follow the actual jaw or face contour.",
-        "All six faces appear to be nearly identical (same features, hair and proportions) with only the overlay changing, so the image does not actually illustrate distinct face shapes. This is a misleading transformation of the underlying anatomy.",
-        "Overlay outlines are loosely placed. The oval, rectangle and square extend over the hair, ears and forehead inconsistently, which reads as sloppy rather than as a clear editorial diagram.",
-        "Large empty space occupies the bottom ~40% of the canvas, leaving the composition unbalanced."
-      ]
-    },
-    {
-      "status": "rejected",
-      "prompt": "A clean, modern illustration of six simple male head silhouettes in a row, each outlined in a different face shape: oval, square, round, rectangular, diamond and triangle, with short neutral hairstyles. Soft neutral background, minimal labels under each silhouette, calm editorial style with no ranking or scores shown.\nEDITORIAL CORRECTION: Regenerate a simpler, accurate illustration of the same purpose. Fix these defects from the rejected image: [\"Brief asks for simple head silhouettes, but the image shows six detailed, semi-realistic faces with full facial features, necks and shoulders, so the output does not match the requested minimal silhouette style.\",\"The shape outlines do not consistently match the faces they label. The diamond outline is a rhombus drawn over a face that looks essentially the same as the others, and the triangle outline is an inverted wedge that does not follow the actual jaw or face contour.\",\"All six faces appear to be nearly identical (same features, hair and proportions) with only the overlay changing, so the image does not actually illustrate distinct face shapes. This is a misleading transformation of the underlying anatomy.\",\"Overlay outlines are loosely placed. The oval, rectangle and square extend over the hair, ears and forehead inconsistently, which reads as sloppy rather than as a clear editorial diagram.\",\"Large empty space occupies the bottom ~40% of the canvas, leaving the composition unbalanced.\"]. Avoid text, labels and complex comparative diagrams if they caused the defect.",
-      "issues": [
-        "The brief calls for minimal labels under each silhouette, but no labels appear anywhere. The six shapes (oval, square, round, rectangular, diamond, triangle) are shown only as colored outlines, so viewers can't tell which face shape each one represents without prior knowledge.",
-        "The colored outline shapes are drawn over the faces and don't match the actual head contours. The oval, round, and rectangular outlines overlap the hair and ears, and the diamond and triangle extend beyond the face. This misrepresents the face shapes the image is meant to illustrate.",
-        "The six head illustrations are nearly identical, with the same face width and jawline. The face shape differences come only from the overlaid geometric outlines, not from the heads themselves, so the faces don't convincingly show distinct shapes.",
-        "The illustration is a small strip in the middle of a mostly empty canvas, leaving large blank areas above and below. The composition is weak for editorial use, and the heads are small.",
-        "The image doesn't clearly serve its stated purpose of introducing face shape categories as styling shorthand, because without labels the categories are not identified."
-      ]
+      "status": "passed",
+      "prompt": "Realistic editorial photograph of a diverse group of five men of different ages and ethnicities standing shoulder to shoulder against a plain warm-gray studio backdrop, each in a different colored crewneck, all looking calmly at the camera in soft natural light. Their faces are naturally varied, conveying that attractive faces come in many forms rather than one ideal.",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "Five men of different ages and ethnicities standing side by side against a plain warm-gray studio backdrop, wearing green, maroon, blue, mustard and gray crewneck sweatshirts and looking calmly at the camera."
+      }
     }
   ]
 }

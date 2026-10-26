@@ -1,0 +1,14 @@
+{
+  "key": "{\"brief\":{\"prompt\":\"Realistic editorial photograph of a calm, tidy bedroom at dusk: an unmade-looking but inviting bed with soft white linen, a bedside lamp glowing warm amber, a glass of water and a closed book on the nightstand. The window shows deep blue evening sky, and no people are present.\",\"alt\":\"A cozy bedroom at dusk with a warm bedside lamp, soft bedding, a glass of water and a book on the nightstand.\",\"purpose\":\"Illustrates the sleep section: consistent, sufficient sleep is the unglamorous foundation, and studies found sleep-deprived faces were rated as less healthy and more tired.\",\"article\":\"glow-up-checklist-for-women\",\"position\":3},\"model\":\"openai/gpt-image-2.5/flare/text-to-image\"}",
+  "attempts": [
+    {
+      "status": "passed",
+      "prompt": "Realistic editorial photograph of a calm, tidy bedroom at dusk: an unmade-looking but inviting bed with soft white linen, a bedside lamp glowing warm amber, a glass of water and a closed book on the nightstand. The window shows deep blue evening sky, and no people are present.",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "A cozy bedroom at dusk with a rumpled white linen bed, a glowing warm table lamp on a wooden nightstand beside a glass of water, a closed book and a small potted plant, and a window showing a deep blue evening sky over distant rooftops."
+      }
+    }
+  ]
+}

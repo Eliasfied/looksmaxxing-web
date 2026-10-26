@@ -1,0 +1,14 @@
+{
+  "key": "{\"brief\":{\"prompt\":\"Realistic editorial flat-lay photograph on a light wooden surface in soft morning window light: a tube of sunscreen, a folded linen shirt, a hairbrush, a small potted plant and a closed notebook with a pen, arranged loosely and calmly. The mood is quiet, unhurried and everyday rather than glamorous.\",\"alt\":\"Flat-lay of everyday routine items including sunscreen, a folded shirt, a hairbrush, a small plant and a notebook on a wooden table.\",\"purpose\":\"Hero image: conveys the article's central idea that a glow up is a handful of small, ordinary habits repeated over time, not a dramatic transformation.\",\"article\":\"glow-up-checklist-for-women\",\"position\":1},\"model\":\"openai/gpt-image-2.5/flare/text-to-image\"}",
+  "attempts": [
+    {
+      "status": "passed",
+      "prompt": "Realistic editorial flat-lay photograph on a light wooden surface in soft morning window light: a tube of sunscreen, a folded linen shirt, a hairbrush, a small potted plant and a closed notebook with a pen, arranged loosely and calmly. The mood is quiet, unhurried and everyday rather than glamorous.",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "Flat-lay on a light wooden table in soft dappled morning light: a white sunscreen tube with a yellow cap, a folded grey linen shirt, a wooden hairbrush, a potted pothos plant, and a closed green notebook with a pen resting on top."
+      }
+    }
+  ]
+}

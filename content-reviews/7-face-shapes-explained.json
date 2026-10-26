@@ -75,7 +75,32 @@
     }
   ],
   "imageModel": "openai/gpt-image-2.5/flare/text-to-image",
-  "imageReviews": [],
+  "imageReviews": [
+    {
+      "image": "/blog/7-face-shapes-explained/1.webp",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "Woman with dark hair pulled back in a bun facing the camera straight on, wearing a cream knit sweater against a soft neutral gray background in even natural light."
+      }
+    },
+    {
+      "image": "/blog/7-face-shapes-explained/2.webp",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "Smartphone with a blank dark screen propped upright on a stack of three books on a pale wooden table, beside a round brass mirror, a black hair tie and a wooden hairbrush, lit by warm window light with a potted plant in the background."
+      }
+    },
+    {
+      "image": "/blog/7-face-shapes-explained/3.webp",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "Flat-lay of four pairs of glasses on a beige linen cloth: round gold wire frames, bold black rectangular frames, tortoiseshell cat-eye frames and clear oversized frames, with eucalyptus leaves and dried baby's breath in the corners."
+      }
+    }
+  ],
   "imageSettings": {
     "width": 1024,
     "height": 1024,
@@ -141,20 +166,7 @@
   ],
   "note": "Token estimates exclude web-search charges, images, tax and provider markups.",
   "releasedAt": "2026-10-23T19:32:12.998Z",
-  "imageFailures": [
-    {
-      "image": 1,
-      "error": "Image 1 was never approved"
-    },
-    {
-      "image": 2,
-      "error": "Image 2 was never approved"
-    },
-    {
-      "image": 3,
-      "error": "Image 3 was never approved"
-    }
-  ],
+  "imageFailures": [],
   "previousAttempts": [
     {
       "slug": "7-face-shapes-explained",
@@ -301,5 +313,6 @@
       ],
       "note": "Token estimates exclude web-search charges, images, tax and provider markups."
     }
-  ]
+  ],
+  "backfilledAt": "2026-10-26T13:09:15.216Z"
 }

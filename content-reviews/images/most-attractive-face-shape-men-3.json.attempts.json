@@ -1,0 +1,14 @@
+{
+  "key": "{\"brief\":{\"prompt\":\"Realistic editorial photograph inside a modern barbershop: a barber in a black apron trims the beard of a seated man with an electric trimmer, with a mirror, wooden shelves of grooming products and warm pendant lighting in the background. The man's face is partly turned toward the mirror, clearly in a relaxed grooming moment.\",\"alt\":\"A barber trimming a seated man's beard in a warm, modern barbershop.\",\"purpose\":\"Illustrates the article's closing practical point: using your face shape where it matters, in haircuts, beards and styling, rather than as a cap on attractiveness.\",\"article\":\"most-attractive-face-shape-men\",\"position\":3},\"model\":\"openai/gpt-image-2.5/flare/text-to-image\"}",
+  "attempts": [
+    {
+      "status": "passed",
+      "prompt": "Realistic editorial photograph inside a modern barbershop: a barber in a black apron trims the beard of a seated man with an electric trimmer, with a mirror, wooden shelves of grooming products and warm pendant lighting in the background. The man's face is partly turned toward the mirror, clearly in a relaxed grooming moment.",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "A barber in a black apron trims a seated, caped man's beard with an electric trimmer in a warm, modern barbershop with wooden shelves of grooming products, plants, pendant lights and a mirror."
+      }
+    }
+  ]
+}

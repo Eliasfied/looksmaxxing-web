@@ -25,6 +25,7 @@
  *   --retry-review      Retry one review topic with --slug; reuse its saved draft
  *   --release SLUGS     Publish stored drafts (comma-separated) without inference
  *   --release-reviewed  Publish every stored draft that has nothing editorial open
+ *   --backfill-images   Re-brief and generate images for published pages missing them
  *
  * Env vars (in scripts/.env.local or root .env.local):
  *   ANTHROPIC_API_KEY
@@ -39,7 +40,7 @@ import { execSync } from 'child_process';
 import { fileURLToPath } from 'url';
 import { relinkAll } from './relink-content.mjs';
 import { toolCatalog } from '../config/tool-routing.mjs';
-import { IMAGE_MODEL, imageInput, researchPage, reviewPage, reviewImage, productBrief, needsHumanReview, extractJson, validateContent, isDeterministicIssue } from './content-quality.mjs';
+import { IMAGE_MODEL, imageInput, researchPage, reviewPage, reviewImage, productBrief, needsHumanReview, extractJson, validateContent, isDeterministicIssue, rebriefImages } from './content-quality.mjs';
 import { runContentJob, recordContentJob, isDraftContent } from './content-job.mjs';
 import { readReviewedImage, saveReviewedImage } from './content-image-cache.mjs';
 
@@ -83,6 +84,8 @@ const RETRY_REVIEW = hasFlag('--retry-review');
 const RELEASE = (getArg('--release') ?? '').split(',').map(s => s.trim()).filter(Boolean);
 const RELEASE_ALL = hasFlag('--release-reviewed');
 const RELEASING = RELEASE.length > 0 || RELEASE_ALL;
+// Give published pages the illustrations they went live without.
+const BACKFILL_IMAGES = hasFlag('--backfill-images');
 
 // ─── Model ──────────────────────────────────────────────────────────────────
 // Opus 5.5 thinks on every request and cannot be told not to, so two things
@@ -841,6 +844,69 @@ function makeBranchName() {
   return `content/batch-${stamp}`;
 }
 
+// ─── Backfill images for pages that published without them ──────────────────
+
+// Strips placeholders the way a save without images does, so a checkpoint can be
+// compared against the file it produced.
+const bodyAsPublished = body => body.replace(/\r/g, '').replace(/\{\{IMAGE_\d+\}\}/g, '').replace(/\n{3,}/g, '\n\n').trim();
+
+function imageGaps(slug) {
+  const file = path.join(CONTENT_DIRS.blog, slug + '.md');
+  if (!fs.existsSync(file)) return null;
+  const md = fs.readFileSync(file, 'utf8');
+  if (isDraftContent(md)) return null;
+  return { hero: !/^heroImage:/m.test(md), inline: (md.match(/^!\[/gm) ?? []).length, md };
+}
+
+function backfillTargets() {
+  const slugs = fs.existsSync(CONTENT_DIRS.blog) ? fs.readdirSync(CONTENT_DIRS.blog).filter(f => f.endsWith('.md')).map(f => f.slice(0, -3)) : [];
+  // Emptiest pages first: an article with no illustration at all gains more
+  // from a run than one that is only missing its third picture.
+  return slugs.map(slug => ({ slug, gaps: imageGaps(slug) }))
+    .filter(({ slug, gaps }) => (!ONLY_SLUG || slug === ONLY_SLUG) && gaps && (gaps.hero || gaps.inline < 2))
+    .map(({ slug, gaps }) => ({ slug, missing: (gaps.hero ? 1 : 0) + (2 - gaps.inline) }))
+    .sort((a, b) => b.missing - a.missing || a.slug.localeCompare(b.slug))
+    .map(t => t.slug);
+}
+
+async function backfillImages() {
+  const done = [], skipped = [];
+  for (const slug of backfillTargets().slice(0, COUNT)) {
+    const checkpoint = path.join(DRAFT_DIR, slug + '.json');
+    if (!fs.existsSync(checkpoint)) { skipped.push({ slug, reason: 'No checkpoint; the article text cannot be reproduced.' }); continue; }
+    const { page, data } = JSON.parse(fs.readFileSync(checkpoint, 'utf8'));
+    const gaps = imageGaps(slug);
+    const published = gaps.md.split(/^---\r?$/m).slice(2).join('---');
+    // Re-saving rewrites the whole file, so only do it where the checkpoint still
+    // reproduces exactly what is live. Anything hand-edited since is left alone.
+    if (bodyAsPublished(data.body_markdown) !== bodyAsPublished(published)) {
+      skipped.push({ slug, reason: 'Published text has diverged from the checkpoint; backfill would overwrite it.' });
+      continue;
+    }
+    console.log(`\n── ${slug}`);
+    const client = await anthropic();
+    data.image_prompts = await rebriefImages(client, page, data, accountUsage);
+    console.log('   Rewrote 3 image briefs under the current rules.');
+    data._draft = false;
+    data._review = { pass: true, issues: [] };
+    const outPath = await SAVERS.blog(page, data);
+    fs.writeFileSync(checkpoint + '.tmp', JSON.stringify({ version: 1, savedAt: new Date().toISOString(), page, data }, null, 2) + '\n');
+    fs.renameSync(checkpoint + '.tmp', checkpoint);
+    const reportPath = path.join(ROOT, 'content-reviews', slug + '.json');
+    if (fs.existsSync(reportPath)) {
+      const report = JSON.parse(fs.readFileSync(reportPath, 'utf8'));
+      fs.writeFileSync(reportPath, JSON.stringify({
+        ...report, backfilledAt: new Date().toISOString(),
+        imageReviews: data._imageReviews ?? [], imageFailures: data._imageFailures ?? [],
+      }, null, 2) + '\n');
+    }
+    const missing = (data._imageFailures ?? []).map(f => f.image);
+    done.push({ slug, outPath, images: 3 - missing.length, missing });
+  }
+  console.log('\n' + JSON.stringify({ done: done.map(d => ({ slug: d.slug, images: d.images + '/3', missing: d.missing })), skipped }, null, 2));
+  return { done, skipped };
+}
+
 // ─── IndexNow hand-off ──────────────────────────────────────────────────────
 
 // IndexNow wants the URLs that changed, not the whole site, so the run records
@@ -910,6 +976,17 @@ async function releaseDrafts(rows) {
 
 // ─── Main ───────────────────────────────────────────────────────────────────
 async function main() {
+  if (BACKFILL_IMAGES) {
+    if (!process.env.ANTHROPIC_API_KEY) throw new Error('ANTHROPIC_API_KEY is required');
+    if (!process.env.FAL_API_KEY) throw new Error('FAL_API_KEY is required');
+    const { done, skipped } = await backfillImages();
+    console.log(JSON.stringify({ tokens: USAGE, costs }, null, 2));
+    if (!done.length) { if (skipped.length) process.exitCode = 1; return; }
+    relinkAll();
+    execSync('pnpm --filter marketing build', { cwd: ROOT, stdio: 'inherit' });
+    writeIndexNowUrls(done.map(d => ({ slug: d.slug, page_type: 'blog' })));
+    return;
+  }
   if (RELEASING) {
     if (!fs.existsSync(CSV_PATH)) throw new Error('keywords.csv not found');
     const rows = loadCsvAsObjects();

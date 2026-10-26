@@ -1,0 +1,35 @@
+{
+  "key": "{\"brief\":{\"prompt\":\"Realistic close-up editorial photograph of a woman's hand squeezing a generous line of sunscreen from a tube onto her two extended fingers, held in front of a bathroom window with soft natural light. Her face is out of frame or softly blurred in the background, and no text is visible on the tube.\",\"alt\":\"A woman's hand squeezing a line of sunscreen along her index and middle fingers in a bright bathroom.\",\"purpose\":\"Illustrates the sunscreen application guidance: most people use too little, and the amount for the face is roughly the length of two fingers.\",\"article\":\"glow-up-checklist-for-women\",\"position\":2},\"model\":\"openai/gpt-image-2.5/flare/text-to-image\"}",
+  "attempts": [
+    {
+      "status": "rejected",
+      "prompt": "Realistic close-up editorial photograph of a woman's hand squeezing a generous line of sunscreen from a tube onto her two extended fingers, held in front of a bathroom window with soft natural light. Her face is out of frame or softly blurred in the background, and no text is visible on the tube.",
+      "issues": [
+        "The sunscreen is squeezed onto a single extended finger (the index finger) rather than along two extended fingers, so it does not illustrate the 'two-finger length' guidance the article section is meant to convey.",
+        "The bead of product is short and only partly rests on the fingertip, so it is not a clear, generous line spanning two finger lengths; the visual lesson about amount is not communicated.",
+        "The alt text in the brief ('along her index and middle fingers') does not match what is actually shown."
+      ]
+    },
+    {
+      "status": "rejected",
+      "prompt": "Realistic close-up editorial photograph of a woman's hand squeezing a generous line of sunscreen from a tube onto her two extended fingers, held in front of a bathroom window with soft natural light. Her face is out of frame or softly blurred in the background, and no text is visible on the tube.\nEDITORIAL CORRECTION: Regenerate a simpler, accurate illustration of the same purpose. Fix these defects from the rejected image: [\"The sunscreen is squeezed onto a single extended finger (the index finger) rather than along two extended fingers, so it does not illustrate the 'two-finger length' guidance the article section is meant to convey.\",\"The bead of product is short and only partly rests on the fingertip, so it is not a clear, generous line spanning two finger lengths; the visual lesson about amount is not communicated.\",\"The alt text in the brief ('along her index and middle fingers') does not match what is actually shown.\"]. Avoid text, labels and complex comparative diagrams if they caused the defect.",
+      "issues": [
+        "Anatomy error: the hand receiving the product has an implausible finger arrangement — the thumb and curled fingers merge awkwardly and the lower hand reads as distorted/extra-looking, so it is unclear whose hand is whose.",
+        "Two-hand ambiguity: the brief describes a single hand squeezing sunscreen onto her own extended fingers, but the image shows what appears to be one hand holding the tube and a second, oddly proportioned hand presenting the fingers, with the extended fingers looking unnaturally long and fused.",
+        "Product lines are oddly shaped (thick, uniform, glossy strands that look rendered rather than natural) and the line runs partly off the fingers, weakening the 'two-finger length' guidance purpose.",
+        "The tube's cap and neck geometry looks unnatural (flip cap detached and floating beside the nozzle)."
+      ]
+    },
+    {
+      "status": "rejected",
+      "prompt": "A single clear, natural editorial photograph for this article point: Illustrates the sunscreen application guidance: most people use too little, and the amount for the face is roughly the length of two fingers.. One subject, one scene, realistic lighting and accurate anatomy. No text, letters, numbers or labels anywhere. No diagram, no panels, no side-by-side comparison.",
+      "reduced": true,
+      "issues": [
+        "Image does not match the brief: the brief calls for a close-up of a hand squeezing a line of sunscreen from a tube onto two extended fingers in a bathroom with soft window light. The actual image shows a woman's face outdoors at a beach, with sunscreen streaks already applied to her cheek.",
+        "No tube is visible and no squeezing action is shown.",
+        "Setting is wrong (seaside/rocky shore instead of bathroom window); face is prominently in focus rather than out of frame or softly blurred.",
+        "Fails the stated purpose: it does not illustrate the 'two-finger length' dosing guidance, since the product is already on the cheek rather than measured along the fingers."
+      ]
+    }
+  ]
+}

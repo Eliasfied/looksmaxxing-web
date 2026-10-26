@@ -49,7 +49,24 @@
     }
   ],
   "imageModel": "openai/gpt-image-2.5/flare/text-to-image",
-  "imageReviews": [],
+  "imageReviews": [
+    {
+      "image": "/blog/glow-up-checklist-for-women/1.webp",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "Flat-lay on a light wooden table in soft dappled morning light: a white sunscreen tube with a yellow cap, a folded grey linen shirt, a wooden hairbrush, a potted pothos plant, and a closed green notebook with a pen resting on top."
+      }
+    },
+    {
+      "image": "/blog/glow-up-checklist-for-women/3.webp",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "A cozy bedroom at dusk with a rumpled white linen bed, a glowing warm table lamp on a wooden nightstand beside a glass of water, a closed book and a small potted plant, and a window showing a deep blue evening sky over distant rooftops."
+      }
+    }
+  ],
   "imageSettings": {
     "width": 1024,
     "height": 1024,
@@ -93,16 +110,8 @@
   "releasedAt": "2026-10-26T12:28:04.180Z",
   "imageFailures": [
     {
-      "image": 1,
-      "error": "Image 1 was never approved"
-    },
-    {
       "image": 2,
-      "error": "Image 2 was never approved"
-    },
-    {
-      "image": 3,
-      "error": "Image 3 was never approved"
+      "error": "Image 2 failed validation: Image failed editorial review: [\"Image does not match the brief: the brief calls for a close-up of a hand squeezing a line of sunscreen from a tube onto two extended fingers in a bathroom with soft window light. The actual image shows a woman's face outdoors at a beach, with sunscreen streaks already applied to her cheek.\",\"No tube is visible and no squeezing action is shown.\",\"Setting is wrong (seaside/rocky shore instead of bathroom window); face is prominently in focus rather than out of frame or softly blurred.\",\"Fails the stated purpose: it does not illustrate the 'two-finger length' dosing guidance, since the product is already on the cheek rather than measured along the fingers.\"]"
     }
   ],
   "previousAttempts": [
@@ -201,5 +210,6 @@
       ],
       "note": "Token estimates exclude web-search charges, images, tax and provider markups."
     }
-  ]
+  ],
+  "backfilledAt": "2026-10-26T13:10:49.359Z"
 }

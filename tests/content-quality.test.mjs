@@ -1,6 +1,6 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { imageInput, IMAGE_MODEL, validateContent, needsHumanReview, productBrief, extractSources, reviewImage, reviewPage, isDeterministicIssue, DETERMINISTIC_ISSUES } from '../scripts/content-quality.mjs';
+import { imageInput, IMAGE_MODEL, validateContent, needsHumanReview, productBrief, extractSources, reviewImage, reviewPage, isDeterministicIssue, DETERMINISTIC_ISSUES, rebriefImages } from '../scripts/content-quality.mjs';
 import { relevantTool, toolCatalog } from '../config/tool-routing.mjs';
 import remarkToolLinks from '../scripts/remark-tool-links.mjs';
 const page = { slug:'hairstyles-for-women', primary_keyword:'hairstyles for women', page_type:'blog' };
@@ -123,4 +123,20 @@ test('a brief asking for lettering is refused, naming it to rule it out is not',
     negated.image_prompts[0].prompt = prompt;
     assert.deepEqual(validateContent(page, negated, sources), [], prompt);
   }
+});
+
+test('a rebrief is refused unless it returns three drawable briefs', async () => {
+  const brief = (over = {}) => ({ prompt: 'A realistic editorial photograph of one person in a bright room, shot from the side with soft natural window light.', alt: 'A person', purpose: 'open the article', ...over });
+  const reply = body => ({ messages: { create: async () => ({ stop_reason: 'end_turn', usage: { input_tokens: 10, output_tokens: 5 }, content: [{ type: 'text', text: JSON.stringify(body) }] }) } });
+  const data = { title: 'T', description: 'D', body_markdown: 'Body' };
+
+  const good = await rebriefImages(reply({ image_prompts: [brief(), brief({ prompt: brief().prompt + ' Two.' }), brief({ prompt: brief().prompt + ' Three.' })] }), page, data, () => {});
+  assert.equal(good.length, 3);
+
+  await assert.rejects(() => rebriefImages(reply({ image_prompts: [brief(), brief()] }), page, data, () => {}), /three image briefs/);
+  await assert.rejects(() => rebriefImages(reply({ image_prompts: [brief(), brief(), brief()] }), page, data, () => {}), /duplicate/);
+  await assert.rejects(() => rebriefImages(reply({ image_prompts: [
+    brief({ prompt: 'A row of seven face outlines, each with a small one-word label beneath it on a neutral background.' }),
+    brief({ prompt: brief().prompt + ' Two.' }), brief({ prompt: brief().prompt + ' Three.' }),
+  ] }), page, data, () => {}), /text inside the picture/);
 });

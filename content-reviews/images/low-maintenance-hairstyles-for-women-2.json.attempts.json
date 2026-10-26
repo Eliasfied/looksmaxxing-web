@@ -1,0 +1,14 @@
+{
+  "key": "{\"brief\":{\"prompt\":\"Simple flat illustration of a bathroom counter seen from above with a wide-toothed comb, a small jar of styling cream, a hair towel and a hairdryer pushed off to one side, unused. Soft pastel palette with a muted teal and peach scheme.\",\"alt\":\"Illustration of a bathroom counter with a comb and a jar of styling cream in front, and a hairdryer set aside unused.\",\"purpose\":\"Illustrates the daily-styling side of low maintenance: short or textured cuts that need only a comb-through or a little product instead of a blow-dry.\",\"article\":\"low-maintenance-hairstyles-for-women\",\"position\":2},\"model\":\"openai/gpt-image-2.5/flare/text-to-image\"}",
+  "attempts": [
+    {
+      "status": "passed",
+      "prompt": "Simple flat illustration of a bathroom counter seen from above with a wide-toothed comb, a small jar of styling cream, a hair towel and a hairdryer pushed off to one side, unused. Soft pastel palette with a muted teal and peach scheme.",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "Top-down view of a bathroom counter with a teal wide-toothed comb and an open jar of white styling cream in front, a peach hair-drying towel wrap, and a teal hairdryer set off to the right side, with a sink and pothos plant at the edges."
+      }
+    }
+  ]
+}

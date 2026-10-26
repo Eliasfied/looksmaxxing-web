@@ -64,7 +64,32 @@
     }
   ],
   "imageModel": "openai/gpt-image-2.5/flare/text-to-image",
-  "imageReviews": [],
+  "imageReviews": [
+    {
+      "image": "/blog/low-maintenance-hairstyles-for-women/1.webp",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "A smiling woman with a softly textured, collarbone-length wavy haircut walks through a bright apartment doorway holding a takeaway coffee cup, a brown leather bag on her shoulder, with warm morning light behind her."
+      }
+    },
+    {
+      "image": "/blog/low-maintenance-hairstyles-for-women/2.webp",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "Top-down view of a bathroom counter with a teal wide-toothed comb and an open jar of white styling cream in front, a peach hair-drying towel wrap, and a teal hairdryer set off to the right side, with a sink and pothos plant at the edges."
+      }
+    },
+    {
+      "image": "/blog/low-maintenance-hairstyles-for-women/3.webp",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "A hairstylist's hands lift a section of long, layered brunette hair from behind a client seated in a black salon chair, with scissors and a comb on a tidy station in the softly lit background."
+      }
+    }
+  ],
   "imageSettings": {
     "width": 1024,
     "height": 1024,
@@ -114,20 +139,7 @@
   ],
   "note": "Token estimates exclude web-search charges, images, tax and provider markups.",
   "releasedAt": "2026-10-23T19:32:13.035Z",
-  "imageFailures": [
-    {
-      "image": 1,
-      "error": "Image 1 was never approved"
-    },
-    {
-      "image": 2,
-      "error": "Image 2 was never approved"
-    },
-    {
-      "image": 3,
-      "error": "Image 3 was never approved"
-    }
-  ],
+  "imageFailures": [],
   "previousAttempts": [
     {
       "slug": "low-maintenance-hairstyles-for-women",
@@ -247,5 +259,6 @@
       ],
       "note": "Token estimates exclude web-search charges, images, tax and provider markups."
     }
-  ]
+  ],
+  "backfilledAt": "2026-10-26T13:11:38.947Z"
 }
