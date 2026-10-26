@@ -187,9 +187,21 @@ Ohne das sieht niemand, wo der Funnel bricht. Der Code ist fertig instrumentiert
       die Produktbehauptungs-Regel Negation ignorierte. Behoben, 9 Drafts
       nachträglich freigegeben. Seit 24.10. sind die Runs grün.
 - [x] ~~Vercel Apex-Redirect auf 308 umstellen~~ — erledigt. Geprüft 2026-10-26:
-      `/`, `/blog` und `/pricing` auf dem Apex liefern alle 308 auf die
-      www-Variante. In GSC sollten die 94 „Seite mit Weiterleitung"-Fälle damit
-      bei der nächsten Validierung durchlaufen — dort einmal nachstoßen.
+      `/`, `/blog` und `/pricing` auf dem Apex liefern alle 308.
+- [x] ~~GSC „Seite mit Weiterleitung" validieren~~ — **nichts zu tun, Report ist
+      kosmetisch.** Die 75 fehlgeschlagenen URLs sind keine Apex-URLs, wie hier
+      vorher stand, sondern **www-URLs mit Trailing Slash**
+      (`…/blog/bimax-before-after/`). Geprüft 2026-10-26:
+      - der Slash-Redirect liefert 308 auf die kanonische Variante ✓
+      - `canonical` zeigt überall auf die Version ohne Slash ✓
+      - die Sitemap enthält keine einzige Slash-URL ✓
+      - im gebauten HTML gibt es keinen internen Link mit Slash ✓
+      - `astro.config.mjs` steht auf `trailingSlash: 'never'` ✓
+      Die Validierung **muss** fehlschlagen: sie prüft, ob die URLs noch
+      weiterleiten — und das tun sie, absichtlich und dauerhaft. „Seite mit
+      Weiterleitung" ist ein Hinweis, kein Fehler; indexiert wird das Ziel.
+      Google hat die Slash-Varianten aus einer früheren Konfiguration im
+      Gedächtnis und vergisst sie mit der Zeit. Erneutes Anstoßen ändert nichts.
 
 ### 🟡 Danach
 - [x] ~~Bild-Backfill~~ — erledigt. Alle 119 veröffentlichten Blog-Seiten haben
@@ -198,8 +210,37 @@ Ohne das sieht niemand, wo der Funnel bricht. Der Code ist fertig instrumentiert
       Der Modus brieft nur die fehlenden Slots neu; bereits freigegebene Bilder
       werden aus dem Cache wiederverwendet und kosten nichts.
 - [ ] Bilder ohne `width`/`height` (12 von 16 auf der Startseite) → CLS
-- [ ] Keywords nachfüllen: 45 Cluster offen (~32.000 Volumen, ~6 Wochen Vorlauf).
-      `scripts/expand-clusters.mjs` braucht frische Ubersuggest-Exporte.
+- [ ] **Keywords nachfüllen** — die Audit-Zahl („45 Cluster, ~6 Wochen") ist
+      überholt, seit 106 Gap-Keywords dazukamen. Stand 2026-10-26:
+
+      | | Seiten | Volumen | Schnitt |
+      |---|---|---|---|
+      | erledigt | 158 | 639.610 | 4.048 |
+      | offen | 126 | 9.690 | **77** |
+
+      Der Vorlauf ist also 126 Tage, nicht 6 Wochen — aber die Queue ist
+      ausgelutscht. `getPendingPages` sortiert bereits nach Volumen absteigend
+      (plus Boost für Produkt-Intent und Frauen-Content), es steht oben nur
+      nichts Großes mehr: die nächsten Picks liegen bei 400.
+      Priorisierung ist also **nicht** das Problem, neue Begriffe sind es.
+
+      Stärkste Lücke: **Produkt-Vergleiche und Kaufabsicht**. Von 285 Slugs sind
+      25 Vergleiche — aber alle konzeptuell (`hunter-eyes-vs-prey-eyes`), kein
+      einziger Produktvergleich. Genau dort ranken softmaxx.io,
+      realworldappeal.com, looksmaxxing.guide, qoves.com, selfmadenewbie.com
+      und fazly.app. Dazu dünn: Kosten (3 Seiten), Alter (1), Frauen (8).
+
+      Ablauf — **nur gemessene Volumen in die CSV**, weil die Queue danach
+      sortiert und eine geschätzte Zahl alles Echte überholt:
+      ```
+      node scripts/keyword-research.mjs --seeds scripts/keyword-gaps.txt --ideas
+      node scripts/keyword-research.mjs --seeds scripts/keyword-gaps.txt --emit-csv >> apps/marketing/src/data/keywords.csv
+      ```
+      `scripts/keyword-gaps.txt` enthält 60 Kandidaten aus der Lückenanalyse.
+      Braucht `DATAFORSEO_LOGIN` / `DATAFORSEO_PASSWORD` in `.env.local`
+      (API-Zugang von dataforseo.com, nicht der Dashboard-Login).
+      `scripts/expand-clusters.mjs` ist der Altweg und baut die CSV komplett neu
+      aus zwei fest verdrahteten Ubersuggest-Exporten in `~/Downloads`.
 - [ ] Themenlücken: Konkurrenz-Vergleiche („vs", „alternative"), Kosten-Cluster,
       Alters-Segmente, Frauen-Zielgruppe, Before/After-Hub
 - [ ] Gesichtsform-Matrizen (`haircut-*`, `glasses-*`, `beard-*` = 21 Seiten)
