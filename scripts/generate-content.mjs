@@ -40,6 +40,7 @@ import { execSync } from 'child_process';
 import { fileURLToPath } from 'url';
 import { relinkAll } from './relink-content.mjs';
 import { toolCatalog } from '../config/tool-routing.mjs';
+import { capSources, MAX_INLINE_LINKS, MAX_SOURCES } from '../config/outbound-links.mjs';
 import { IMAGE_MODEL, imageInput, researchPage, reviewPage, reviewImage, productBrief, needsHumanReview, extractJson, validateContent, isDeterministicIssue, rebriefImages, isClinicalTreatment } from './content-quality.mjs';
 import { runContentJob, recordContentJob, isDraftContent } from './content-job.mjs';
 import { readReviewedImage, saveReviewedImage } from './content-image-cache.mjs';
@@ -312,6 +313,11 @@ LENGTH:
 Structure: intro hook → main sections (h2/h3) → practical tips → FAQ.
 
 ${SHARED_RULES}
+
+LINK RULES:
+- At most ${MAX_INLINE_LINKS} links to other websites in the whole body. Use them only for the strongest evidence: studies, medical or professional bodies, established references. Write everything else as plain text.
+- Never link competitors (other looksmaxxing, face-rating, face-shape or try-on tools and sites) or shops and retailers.
+- The sources array holds at most ${MAX_SOURCES} entries, strongest first.
 
 CTA RULES:
 - Include ONE useful contextual link to the exact implemented tool URL in the product brief, when relevant to the topic.
@@ -636,7 +642,7 @@ async function saveBlogMarkdown(page, data) {
     related: [], // filled by relinkAll() once all pages in this run exist
 
     faq: data.faq ?? [],
-    tool_slug: data.tool_slug, audience: data.audience, sources: data.sources,
+    tool_slug: data.tool_slug, audience: data.audience, sources: capSources(data.sources).map(({ title, url }) => ({ title, url })),
     quality_reviewed: !data._draft, imageModel: IMAGE_MODEL,
     draft: data._draft,
   };
@@ -725,7 +731,7 @@ async function saveGlossaryMarkdown(page, data) {
     cluster: page.cluster,
     pubDate: today,
     short_definition: data.short_definition,
-    sources: data.sources, quality_reviewed: !data._draft,
+    sources: capSources(data.sources).map(({ title, url }) => ({ title, url })), quality_reviewed: !data._draft,
     related_terms: data.related_terms ?? [],
     examples: data.examples ?? [],
     draft: data._draft,

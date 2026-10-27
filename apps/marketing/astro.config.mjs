@@ -7,6 +7,7 @@ import sitemap from '@astrojs/sitemap';
 import tailwindcss from '@tailwindcss/vite';
 import remarkToolLinks from '../../scripts/remark-tool-links.mjs';
 import remarkArticleCta from '../../scripts/remark-article-cta.mjs';
+import remarkOutboundLinks from '../../scripts/remark-outbound-links.mjs';
 import rehypeImageSize from '../../scripts/rehype-image-size.mjs';
 
 // ─── Real lastmod dates for the sitemap ─────────────────────────────────────
@@ -60,7 +61,7 @@ const lastmodByPath = readContentDates();
 export default defineConfig({
   site: process.env.PUBLIC_SITE_URL ?? 'https://www.aura-looksmaxxing.com',
   output: 'static',
-  markdown: { remarkPlugins: [remarkToolLinks, remarkArticleCta], rehypePlugins: [rehypeImageSize] },
+  markdown: { remarkPlugins: [remarkToolLinks, remarkArticleCta, remarkOutboundLinks], rehypePlugins: [rehypeImageSize] },
   // Must match the vercel.json redirect that strips trailing slashes,
   // otherwise every sitemap URL 301s and never gets indexed.
   trailingSlash: 'never',
