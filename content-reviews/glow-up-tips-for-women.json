@@ -1,0 +1,157 @@
+{
+  "slug": "glow-up-tips-for-women",
+  "reviewedAt": "2026-10-27T19:49:46.846Z",
+  "draft": false,
+  "review": {
+    "pass": true,
+    "issues": []
+  },
+  "textRepair": {
+    "status": "passed",
+    "issues": [
+      "Sleep section: says the first BMJ study's attractiveness gap was \"a couple of points on a 100-point scale\" and that the study photographed people after 31 hours awake. The supplied evidence shows neither the attractiveness figures nor the 31-hour detail (only health scores 63 v 68), so these are unsupported specifics."
+    ],
+    "review": {
+      "pass": true,
+      "issues": []
+    }
+  },
+  "sources": [
+    {
+      "title": "Skin care tips dermatologists use",
+      "url": "https://www.aad.org/public/everyday-care/skin-care-basics/care/skin-care-tips-dermatologists-use"
+    },
+    {
+      "title": "Sunscreen FAQs",
+      "url": "https://www.aad.org/media/stats-sunscreen"
+    },
+    {
+      "title": "Negative effects of restricted sleep on facial appearance and social appeal",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5451790/"
+    },
+    {
+      "title": "Negative effects of restricted sleep on facial appearance and social appeal",
+      "url": "https://royalsocietypublishing.org/rsos/article/4/5/160918/66370/Negative-effects-of-restricted-sleep-on-facial"
+    },
+    {
+      "title": "[PDF] Beauty sleep: experimental study on the perceived health and attractiveness of sleep deprived people",
+      "url": "https://www.semanticscholar.org/paper/Beauty-sleep:-experimental-study-on-the-perceived-Axelsson-Sundelin/08508be726d8dc4288298fa55ae7050c70023422"
+    },
+    {
+      "title": "GLOW-UP Slang Meaning",
+      "url": "https://www.merriam-webster.com/slang/glow-up"
+    },
+    {
+      "title": "Glo Up / Glow Up",
+      "url": "https://knowyourmeme.com/memes/glo-up-glow-up"
+    },
+    {
+      "title": "What is a Glow-Up?",
+      "url": "https://later.com/social-media-glossary/glow-up/"
+    },
+    {
+      "title": "Dermatologist-recommended skin care: Tips and routine",
+      "url": "https://www.medicalnewstoday.com/articles/dermatologist-recommended-skin-care"
+    }
+  ],
+  "imageModel": "openai/gpt-image-2.5/flare/text-to-image",
+  "imageReviews": [
+    {
+      "image": "/blog/glow-up-tips-for-women/1.webp",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "Woman with shoulder-length wavy brown hair in a cream ribbed knit sweater smiling softly toward a sunlit window in a bright, minimal bedroom."
+      }
+    },
+    {
+      "image": "/blog/glow-up-tips-for-women/2.webp",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "White bathroom shelf with a pump cleanser bottle, a round moisturizer jar and a slim sunscreen tube beside a folded sage-green towel, against a white tiled wall with soft light and a leafy plant at left"
+      }
+    },
+    {
+      "image": "/blog/glow-up-tips-for-women/3.webp",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "Wooden clothing rail in a bright room holding camel trousers, a rust knit sweater, a navy midi dress, a denim jacket and a white shirt, with brown loafers on the floor below and a woven rug and basket nearby."
+      }
+    }
+  ],
+  "imageFailures": [],
+  "imageSettings": {
+    "width": 1024,
+    "height": 1024,
+    "quality": "low"
+  },
+  "usage": [
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "research",
+      "input": 31187,
+      "output": 3031,
+      "estimatedUsd": 0.092684,
+      "searches": 3
+    },
+    {
+      "model": "claude-opus-5-5",
+      "stage": "article",
+      "input": 33645,
+      "output": 9752,
+      "estimatedUsd": 0.32962,
+      "searches": 0
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "text-review",
+      "input": 8420,
+      "output": 125,
+      "estimatedUsd": 0.01809,
+      "searches": 0
+    },
+    {
+      "model": "claude-opus-5-5",
+      "stage": "article-repair",
+      "input": 8493,
+      "output": 7039,
+      "estimatedUsd": 0.174752,
+      "searches": 0
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "text-review",
+      "input": 9201,
+      "output": 16,
+      "estimatedUsd": 0.018562,
+      "searches": 0
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "image-review",
+      "input": 1738,
+      "output": 77,
+      "estimatedUsd": 0.004246,
+      "searches": 0
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "image-review",
+      "input": 1715,
+      "output": 95,
+      "estimatedUsd": 0.00438,
+      "searches": 0
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "image-review",
+      "input": 1748,
+      "output": 97,
+      "estimatedUsd": 0.004466,
+      "searches": 0
+    }
+  ],
+  "note": "Token estimates exclude web-search charges, images, tax and provider markups."
+}

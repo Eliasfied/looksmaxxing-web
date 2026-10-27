@@ -9,7 +9,7 @@ heroImage: "/blog/hairstyle-for-round-face/1.webp"
 heroImageAlt: "Smiling woman with a softly rounded face and a glossy, wavy long bob with subtle caramel highlights, seated in a bright salon with warm side lighting and blurred shelves and plants behind her"
 tags: ["hairstyles", "round face", "haircuts", "face shape", "hair styling"]
 readingTime: 9
-related: [best-haircut-for-round-face-men, 7-face-shapes-explained, best-beard-for-oval-face]
+related: [best-haircut-for-round-face-men, 7-face-shapes-explained, best-glasses-for-oval-face]
 faq:
   - q: "What is the most flattering hairstyle for a round face?"
     a: "There's no single best cut, but stylists most often recommend a long bob that falls below the chin and long layers that start around chin length. Both draw the eye downward and keep bulk away from the cheeks."

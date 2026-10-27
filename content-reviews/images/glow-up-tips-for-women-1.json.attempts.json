@@ -1,0 +1,14 @@
+{
+  "key": "{\"brief\":{\"prompt\":\"A woman in her late twenties with shoulder-length wavy brown hair stands beside a sunlit window in a bright, minimal bedroom, wearing a cream ribbed knit sweater and smiling softly toward the light. Natural daylight, fresh-looking skin with no heavy makeup, calm and relaxed mood, simple uncluttered background.\",\"alt\":\"Woman with wavy hair in natural window light illustrating glow up tips for women\",\"purpose\":\"Hero image setting the tone of a realistic, everyday glow-up built on simple habits rather than dramatic transformation.\",\"article\":\"glow-up-tips-for-women\",\"position\":1},\"model\":\"openai/gpt-image-2.5/flare/text-to-image\"}",
+  "attempts": [
+    {
+      "status": "passed",
+      "prompt": "A woman in her late twenties with shoulder-length wavy brown hair stands beside a sunlit window in a bright, minimal bedroom, wearing a cream ribbed knit sweater and smiling softly toward the light. Natural daylight, fresh-looking skin with no heavy makeup, calm and relaxed mood, simple uncluttered background.",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "Woman with shoulder-length wavy brown hair in a cream ribbed knit sweater smiling softly toward a sunlit window in a bright, minimal bedroom."
+      }
+    }
+  ]
+}

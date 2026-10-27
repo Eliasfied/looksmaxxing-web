@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "fingerprint": "0e7488d0a0edf7cddf4fe9595fa9cc8bfa377295d99604cc868f84e66aab3515",
+  "brief": {
+    "prompt": "A small white bathroom shelf holding just three plain unbranded skincare containers: a pump cleanser bottle, a round moisturizer jar and a slim sunscreen tube, next to a folded sage-green hand towel. Soft morning light, clean tiled wall behind, no text or labels on any product.",
+    "alt": "Minimal skincare shelf with cleanser, moisturizer and sunscreen",
+    "purpose": "Shows the short, three-product routine recommended in the skincare section, reinforcing that less is more.",
+    "article": "glow-up-tips-for-women",
+    "position": 2
+  },
+  "sha256": "6d491f21d0f84b50133dd9a547034d65534ecf6074b4f2936c8c07b1564fb320",
+  "reviewedAt": "2026-10-27T19:49:32.101Z",
+  "review": {
+    "pass": true,
+    "issues": [],
+    "alt": "White bathroom shelf with a pump cleanser bottle, a round moisturizer jar and a slim sunscreen tube beside a folded sage-green towel, against a white tiled wall with soft light and a leafy plant at left"
+  }
+}

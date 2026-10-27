@@ -1,0 +1,14 @@
+{
+  "key": "{\"brief\":{\"prompt\":\"A neatly organized wooden clothing rail in a bright room holding a small capsule wardrobe: tailored camel trousers, a rust-colored fitted knit, a navy midi dress, a denim jacket and a crisp white shirt, with a pair of clean brown loafers on the floor beneath. Even daylight, uncluttered white wall background.\",\"alt\":\"Small capsule wardrobe on a clothing rail with fitted pieces in a few coordinating colors\",\"purpose\":\"Illustrates the wardrobe-edit advice: a short color list, well-fitting pieces and an easy go-to outfit formula.\",\"article\":\"glow-up-tips-for-women\",\"position\":3},\"model\":\"openai/gpt-image-2.5/flare/text-to-image\"}",
+  "attempts": [
+    {
+      "status": "passed",
+      "prompt": "A neatly organized wooden clothing rail in a bright room holding a small capsule wardrobe: tailored camel trousers, a rust-colored fitted knit, a navy midi dress, a denim jacket and a crisp white shirt, with a pair of clean brown loafers on the floor beneath. Even daylight, uncluttered white wall background.",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "Wooden clothing rail in a bright room holding camel trousers, a rust knit sweater, a navy midi dress, a denim jacket and a white shirt, with brown loafers on the floor below and a woven rug and basket nearby."
+      }
+    }
+  ]
+}
