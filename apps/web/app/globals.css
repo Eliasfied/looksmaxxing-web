@@ -132,4 +132,54 @@
   .animate-gradient-pulse {
     animation: gradient-pulse 1.5s ease-in-out infinite;
   }
+
+  /* Scroll reveal for the Aura Pro sales sections. */
+  .reveal {
+    opacity: 0;
+    transform: translateY(28px);
+    transition: opacity 0.7s ease, transform 0.7s cubic-bezier(0.2, 0.7, 0.2, 1);
+    transition-delay: var(--reveal-delay, 0ms);
+  }
+  .reveal[data-shown] {
+    opacity: 1;
+    transform: none;
+  }
+
+  @keyframes float-y {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+  }
+  .animate-float { animation: float-y 6s ease-in-out infinite; }
+
+  @keyframes tryon-sweep {
+    0%, 15% { clip-path: inset(0 100% 0 0); }
+    45%, 65% { clip-path: inset(0 0 0 0); }
+    95%, 100% { clip-path: inset(0 100% 0 0); }
+  }
+  .animate-tryon { animation: tryon-sweep 6s ease-in-out infinite; }
+  @keyframes tryon-handle {
+    0%, 15% { left: 0%; }
+    45%, 65% { left: 100%; }
+    95%, 100% { left: 0%; }
+  }
+  .animate-tryon-handle { animation: tryon-handle 6s ease-in-out infinite; }
+
+  .draw-line { stroke-dasharray: 600; stroke-dashoffset: 600; transition: stroke-dashoffset 2.2s ease 0.3s; }
+  [data-shown] .draw-line { stroke-dashoffset: 0; }
+
+  .tick { transform: scale(0); transition: transform 0.35s cubic-bezier(0.3, 1.6, 0.5, 1); transition-delay: var(--tick-delay, 0ms); }
+  [data-shown] .tick { transform: scale(1); }
+
+  @keyframes marquee-glow {
+    0%, 100% { opacity: 0.55; }
+    50% { opacity: 1; }
+  }
+  .animate-glow { animation: marquee-glow 4s ease-in-out infinite; }
+
+  @media (prefers-reduced-motion: reduce) {
+    .reveal { opacity: 1; transform: none; transition: none; }
+    .animate-float, .animate-tryon, .animate-tryon-handle, .animate-glow { animation: none; }
+    .draw-line { stroke-dashoffset: 0; transition: none; }
+    .tick { transform: none; transition: none; }
+  }
 }

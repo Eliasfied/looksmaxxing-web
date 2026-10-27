@@ -8,7 +8,7 @@ import { Download, ImagePlus, Sparkles } from 'lucide-react'
 import { cn } from '@/lib/utils'
 import { FACE_SHAPES, TRYON_CATALOG, type FaceShape, type TryOnType } from '@/lib/tryon-catalog'
 import { dataUrlToBlob, preparePhoto } from '@/lib/prepare-photo'
-import { ProPaywall } from '@/components/pro-paywall'
+import { ProSales } from '@/components/pro-sales'
 
 type Result = { type: TryOnType; label: string; url: string }
 
@@ -130,12 +130,11 @@ export function StudioClient({
       </div>
 
       {!pro ? (
-        <ProPaywall
+        <ProSales
           signedIn
           returnTo="/studio"
           placement="studio"
-          headline="The try-on studio is part of Aura Pro"
-          subline="Haircuts, hair color, beards, glasses and a bald preview, on your own photo, before you commit."
+          intro="The try-on studio is part of Aura Pro."
         />
       ) : (
         <div className="grid gap-8 lg:grid-cols-[0.9fr_1.1fr]">

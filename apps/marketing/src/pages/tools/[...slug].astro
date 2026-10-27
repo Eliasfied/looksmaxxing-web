@@ -4,6 +4,7 @@ import { getCollection } from 'astro:content';
 import { toolCatalog, toolHref } from '../../../../../config/tool-routing.mjs';
 import ToolCTA from '../../components/ToolCTA.astro';
 import FaceScanner from '../../components/FaceScanner.astro';
+import ProShowcase from '../../components/ProShowcase.astro';
 const APP_URL = import.meta.env.PUBLIC_APP_URL ?? 'https://app.aura-looksmaxxing.com';
 export async function getStaticPaths() {
   const pages = await getCollection('tools', ({ data }) => !data.draft);
@@ -51,5 +52,6 @@ const schema = { '@context': 'https://schema.org', '@type': 'SoftwareApplication
     <p class="mt-4 text-[#888]">AI observations are subjective and sensitive to lighting, head position and image quality. They do not provide calibrated measurements, a diagnosis or guaranteed changes to your appearance.</p>
     <ToolCTA topic={tool.name} toolSlug={tool.slug} source={source} placement="tool-end" />
   </section>
+  <section class="max-w-6xl mx-auto px-6 py-16"><ProShowcase source={source} withProblem={false} heading="Go beyond the preview." /></section>
   <section class="max-w-6xl mx-auto px-6 pb-16"><h2 class="text-xl font-bold mb-5">Explore another goal</h2><div class="grid gap-4 sm:grid-cols-3">{toolCatalog.filter(t => t.slug !== tool.slug).slice(0, 6).map(t => <a href={`/tools/${t.slug}`} class="rounded-xl border border-white/10 p-5 hover:border-fuchsia-400/40"><h3 class="font-bold">{t.name}</h3><p class="mt-2 text-sm text-[#999]">{t.description}</p></a>)}</div></section>
 </BaseLayout>

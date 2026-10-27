@@ -18,7 +18,9 @@ export function ProPaywall({
   subline = 'Everything in one plan: analyze, try on, follow and track.',
   placement,
   onActivated,
-  compact = false
+  compact = false,
+  pillars = true,
+  id
 }: {
   signedIn: boolean
   /** Where to come back to after sign-up and checkout. */
@@ -28,6 +30,9 @@ export function ProPaywall({
   placement: string
   onActivated?: () => void | Promise<void>
   compact?: boolean
+  /** Hide the feature list when the surrounding page already explains it. */
+  pillars?: boolean
+  id?: string
 }) {
   const router = useRouter()
   const [interval, setBilling] = useState<'yearly' | 'monthly'>('yearly')
@@ -54,8 +59,9 @@ export function ProPaywall({
 
   return (
     <section
+      id={id}
       aria-label="Aura Pro"
-      className="relative overflow-hidden rounded-[2rem] border border-white/10 bg-[#0d0b14] p-6 shadow-[0_0_80px_-20px_rgba(192,38,211,0.45)] sm:p-9"
+      className="relative scroll-mt-24 overflow-hidden rounded-[2rem] border border-white/10 bg-[#0d0b14] p-6 shadow-[0_0_80px_-20px_rgba(192,38,211,0.45)] sm:p-9"
     >
       <div
         aria-hidden
@@ -70,7 +76,7 @@ export function ProPaywall({
         </h2>
         <p className="mt-2 text-white/60">{subline}</p>
 
-        <div className={cn('mt-7 grid gap-3', !compact && 'sm:grid-cols-2')}>
+        {pillars && <div className={cn('mt-7 grid gap-3', !compact && 'sm:grid-cols-2')}>
           {PRO_PILLARS.map((pillar) => {
             const Icon = ICONS[pillar.key]
             return (
@@ -85,7 +91,7 @@ export function ProPaywall({
               </div>
             )
           })}
-        </div>
+        </div>}
 
         <div className="mt-7 inline-flex rounded-full border border-white/10 bg-black/40 p-1" role="radiogroup" aria-label="Billing period">
           {(['yearly', 'monthly'] as const).map((value) => (

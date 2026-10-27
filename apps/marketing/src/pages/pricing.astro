@@ -1,11 +1,13 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import PricingSection from '../components/PricingSection.astro';
+import ProShowcase from '../components/ProShowcase.astro';
 const schema = { '@context': 'https://schema.org', '@type': 'SoftwareApplication', name: 'Aura: Looksmaxxing', applicationCategory: 'LifestyleApplication', operatingSystem: 'Web', offers: [{ '@type': 'Offer', name: 'Free on-device preview', price: '0', priceCurrency: 'USD' }, { '@type': 'Offer', name: 'Aura Pro monthly', price: '9.99', priceCurrency: 'USD' }, { '@type': 'Offer', name: 'Aura Pro yearly', price: '49.99', priceCurrency: 'USD' }] };
 ---
 <BaseLayout title="Aura Pro Pricing: $49.99 a Year or $9.99 a Month | Aura" description="Free face previews run in your browser. Aura Pro adds every AI analysis, a try-on studio, a personal plan, an AI coach and progress tracking for $49.99 a year or $9.99 a month.">
   <Fragment slot="head"><script type="application/ld+json" set:html={JSON.stringify(schema)} /></Fragment>
   <header class="max-w-3xl mx-auto px-6 pt-16 text-center"><h1 class="text-5xl font-black">Aura pricing</h1><p class="mt-5 text-[#aaa] text-lg">One plan for the whole glow-up. Try the free previews first.</p></header>
+  <div class="max-w-6xl mx-auto px-6 py-12"><ProShowcase source="/pricing" /></div>
   <PricingSection />
   <section class="max-w-3xl mx-auto px-6 pb-16"><h2 class="text-2xl font-bold">What is free?</h2><p class="mt-4 text-[#aaa] leading-relaxed">The previews on our tool pages measure your face shape, symmetry, canthal tilt and eye shape directly in your browser. The photo is not uploaded and you need no account. They are estimates from one photo, and we say so next to every number.</p>
     <h2 class="mt-10 text-2xl font-bold">What does Aura Pro include?</h2><ul class="list-disc pl-5 mt-4 space-y-2 text-[#aaa]"><li>Face scans with a PSL score and nine sub-scores, as often as you like within a fair-use limit of ten AI analyses a day.</li><li>All eleven AI reports, from face shape and jawline to haircut ideas, women’s styling and the 30-day planner.</li><li>The try-on studio with 50 looks a month: haircuts, hair color, beards, glasses and a bald preview. Looks refill every month and do not roll over.</li><li>Your plan: turn any report into a daily checklist that syncs across devices.</li><li>The AI coach, which knows your latest scan and your plan.</li><li>Progress tracking with monthly check-ins and score history.</li></ul>

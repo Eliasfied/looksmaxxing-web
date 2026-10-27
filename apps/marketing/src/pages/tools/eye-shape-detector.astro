@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import FaceScanner from '../../components/FaceScanner.astro';
+import ProShowcase from '../../components/ProShowcase.astro';
 const source = '/tools/eye-shape-detector';
 const faq = [
   ['What eye shapes can it detect?', 'It reads how open your eyes are (round, almond or narrow almond), which way the outer corners point (upturned, neutral or downturned) and how far apart the eyes sit (close-set, balanced or wide-set). Hooded and monolid eyes depend on the eyelid crease, which a single frontal photo cannot measure reliably, so we do not guess them.'],
@@ -45,4 +46,5 @@ const schema = {
     <h2>Questions</h2>
     {faq.map(([q, a]) => <><h3>{q}</h3><p>{a}</p></>)}
   </article>
+  <section class="max-w-6xl mx-auto px-6 pb-20"><ProShowcase source={source} withProblem={false} heading="Go beyond the preview." /></section>
 </BaseLayout>

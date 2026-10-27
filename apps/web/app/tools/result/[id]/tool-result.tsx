@@ -9,7 +9,7 @@ import {
 } from 'react'
 import Link from 'next/link'
 import posthog from 'posthog-js'
-import { ProPaywall } from '@/components/pro-paywall'
+import { ProSales } from '@/components/pro-sales'
 import type { ToolDefinition, ToolReport } from '@/lib/tool-report'
 
 function subscribeChecklist(callback: () => void) {
@@ -153,7 +153,7 @@ export function ToolResult({
     }
   }
   return (
-    <div className={`mx-auto max-w-3xl ${report ? '' : 'pb-20 sm:pb-0'}`}>
+    <div className={`mx-auto ${report ? 'max-w-3xl' : 'max-w-6xl pb-20 sm:pb-0'}`}>
       <p className="text-sm font-semibold uppercase tracking-widest text-fuchsia-300">
         {tool.name}
       </p>
@@ -277,12 +277,11 @@ export function ToolResult({
             {signedIn && !claimed ? (
               <p className="text-sm text-white/60">Saving your report to your account…</p>
             ) : (
-              <ProPaywall
+              <ProSales
                 signedIn={signedIn}
                 returnTo={returnPath}
                 placement={`tool-result:${tool.slug}`}
-                headline="Your full report is one step away"
-                subline="Aura Pro unlocks this report and every other analysis, try-on and plan."
+                intro="Your full report is one step away."
                 onActivated={() => unlock()}
               />
             )}

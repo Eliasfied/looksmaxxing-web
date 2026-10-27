@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import FaceScanner from '../../components/FaceScanner.astro';
+import ProShowcase from '../../components/ProShowcase.astro';
 const source = '/tools/golden-ratio-face-calculator';
 const faq = [
   ['Is the golden ratio the secret of an attractive face?', 'No. The idea that beautiful faces follow 1.618 is popular, but studies of facial attractiveness have not found that faces matching it are rated as more attractive. Averageness, symmetry, skin and grooming explain far more. We show the ratios because people search for them, and we say what they can and cannot tell you.'],
@@ -47,4 +48,5 @@ const schema = {
     <h2>Questions</h2>
     {faq.map(([q, a]) => <><h3>{q}</h3><p>{a}</p></>)}
   </article>
+  <section class="max-w-6xl mx-auto px-6 pb-20"><ProShowcase source={source} withProblem={false} heading="Go beyond the preview." /></section>
 </BaseLayout>

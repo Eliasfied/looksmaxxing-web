@@ -10,7 +10,7 @@ import { getCredits } from '@/lib/firebase/credits'
 import { appConfig } from '@/lib/config'
 import { ScanUploader } from '@/components/scan-uploader'
 import { ScoreChart } from '@/components/score-chart'
-import { ProPaywall } from '@/components/pro-paywall'
+import { ProSales, ProTeaser } from '@/components/pro-sales'
 import { ResultsClient } from './results-client'
 
 const RESCAN_DAYS = 30
@@ -123,12 +123,10 @@ export default async function DashboardPage() {
       </section>
 
       {!plan.pro && (
-        <ProPaywall
-          signedIn
-          returnTo="/dashboard"
-          placement="dashboard"
-          headline="Get the full glow-up with Aura Pro"
-          subline="Your scans, all 11 analyses, the try-on studio, a daily plan and a coach who knows your face."
+        <ProTeaser
+          targetId="aura-pro"
+          title="Get the full glow-up with Aura Pro"
+          text="Your scans, all 11 analyses, the try-on studio, a daily plan and a coach who knows your face."
         />
       )}
 
@@ -191,6 +189,12 @@ export default async function DashboardPage() {
       )}
 
       <ResultsClient initialScans={scans.map((s) => redactLockedScan(s, plan.pro))} />
+
+      {!plan.pro && (
+        <div id="aura-pro" className="scroll-mt-10 pt-16">
+          <ProSales signedIn returnTo="/dashboard" placement="dashboard" />
+        </div>
+      )}
     </div>
   )
 }

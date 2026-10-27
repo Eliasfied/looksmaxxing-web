@@ -1,0 +1,181 @@
+---
+// Long-form Aura Pro story for the marketing site: problem, solution, every
+// feature with an illustrated mockup, comparison and trust. Mockups are
+// illustrations with example numbers, never real users or invented results.
+interface Props {
+  source: string;
+  /** Show the full problem section; tool pages can start at the solution. */
+  withProblem?: boolean;
+  heading?: string;
+}
+import { tryonMock, scanMock, planMock, progressMock } from '../lib/pro-mocks';
+const { source, withProblem = true, heading = 'Stop guessing what to change.' } = Astro.props;
+const appUrl = import.meta.env.PUBLIC_APP_URL ?? 'https://app.aura-looksmaxxing.com';
+const cta = `${appUrl}/tools/ai-face-rating?source=${encodeURIComponent(source)}`;
+const problems = [
+  ['Advice written for someone else', 'Videos and threads tell everyone the same thing. A cut that suits an oval face can make a long face look longer.'],
+  ['Expensive guesses', 'A haircut you regret takes weeks to grow out. Frames, products and color jobs cost money before you know if they suit you.'],
+  ['No way to tell if it works', 'Without a baseline you cannot see progress, so motivation fades after two weeks.'],
+];
+const steps = [
+  ['Analyze', 'Know your face, not faces in general'],
+  ['Try on', 'See it on you before you commit'],
+  ['Follow', 'A daily plan and a coach that knows you'],
+  ['Track', 'Monthly check-ins that show what changed'],
+];
+const features = [
+  { tag: 'Analyze', title: 'Know your face, not faces in general', text: 'A full face scan with a PSL estimate and nine sub-scores, plus eleven focused AI reports: face shape, jawline, eyes, symmetry, haircut ideas, women’s styling, a 30-day planner and photo comparisons.', points: ['Your strengths and the one lever that matters most', 'Honest estimates, never a verdict on your worth', 'Up to 10 AI analyses a day'], mock: 'scan' },
+  { tag: 'Try on', title: 'See it on you before you commit', text: 'The try-on studio puts a haircut, hair color, beard, glasses or a shaved head on your own photo, with a before/after slider. Show your barber the real thing.', points: ['30 haircuts sorted for your face shape', '8 hair colors, 8 beard styles, 8 frame shapes', '50 looks every month'], mock: 'tryon' },
+  { tag: 'Follow', title: 'A plan you can actually stick to', text: 'Turn any report into a daily checklist that syncs across devices. Your AI coach knows your scan and what is still open, so its answers are about you.', points: ['Small weekly tasks for hair, skin, grooming and style', 'No surgery pitches or risky shortcuts', 'Pick up where you left off on any device'], mock: 'plan' },
+  { tag: 'Track', title: 'Proof that it is working', text: 'Check in once a month with the same light and angle. Aura shows how your scores moved since your first scan and compares two photos side by side.', points: ['Score history and per-metric changes', 'Before/after photo comparison', 'A dashboard reminder when the next check-in is due'], mock: 'progress' },
+];
+const compare = [
+  ['Face rating app', '$9.99–24.99 / month', 'Score, little guidance'],
+  ['Hairstyle try-on app', '$4.99–17.99 / month', 'Hair only'],
+  ['Skin or coaching app', '$4.95–9.99 / month', 'No face analysis'],
+];
+---
+<div class="pro-showcase space-y-28 sm:space-y-36">
+  <section class="relative overflow-hidden rounded-[2.5rem] border border-white/10 bg-[#0c0a12] px-6 py-14 sm:px-12 sm:py-20">
+    <div aria-hidden="true" class="ps-glow pointer-events-none absolute -top-40 left-1/2 h-96 w-[48rem] -translate-x-1/2 rounded-full bg-gradient-to-r from-fuchsia-600/35 via-violet-600/30 to-sky-500/20 blur-3xl"></div>
+    <div class="relative grid items-center gap-12 lg:grid-cols-[1.1fr_0.9fr]">
+      <div>
+        <p class="text-xs font-bold uppercase tracking-[0.22em] text-fuchsia-300">Aura Pro</p>
+        <h2 class="mt-4 text-4xl sm:text-6xl font-black leading-[1.05]">{heading}</h2>
+        <p class="mt-6 max-w-xl text-lg leading-relaxed text-[#bbb]">One app that tells you what suits your face, shows it on you before you commit, and keeps you on track until it shows.</p>
+        <div class="mt-8 flex flex-wrap items-center gap-4">
+          <a href={cta} data-placement="pro-showcase-hero" class="btn-gradient rounded-2xl px-7 py-4 text-lg font-bold text-white shadow-lg shadow-fuchsia-900/40">Start with a free preview →</a>
+          <p class="text-sm text-[#888]">Aura Pro from $4.17 a month<br />cancel anytime</p>
+        </div>
+      </div>
+      <div class="relative mx-auto w-full max-w-sm">
+        <div class="ps-float"><Fragment set:html={tryonMock()} /></div>
+      </div>
+    </div>
+  </section>
+
+  {withProblem && <section>
+    <div class="ps-reveal mx-auto max-w-2xl text-center">
+      <p class="text-xs font-bold uppercase tracking-[0.22em] text-fuchsia-300">The problem</p>
+      <h2 class="mt-4 text-3xl sm:text-5xl font-black">Looksmaxxing advice is loud, generic and expensive.</h2>
+      <p class="mt-5 text-lg text-[#999]">Most people try a few tips, spend money on the wrong cut or product, see no clear difference and give up.</p>
+    </div>
+    <div class="mt-12 grid gap-5 md:grid-cols-3">
+      {problems.map(([title, text], i) => (
+        <div class="ps-reveal h-full rounded-[1.75rem] border border-white/10 bg-white/[0.02] p-7" style={`--d:${i * 120}ms`}>
+          <span class="flex h-10 w-10 items-center justify-center rounded-xl bg-red-500/10 text-red-300"><svg viewBox="0 0 24 24" class="h-5 w-5" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></span>
+          <h3 class="mt-5 text-xl font-black">{title}</h3>
+          <p class="mt-3 leading-relaxed text-[#999]">{text}</p>
+        </div>
+      ))}
+    </div>
+  </section>}
+
+  <section>
+    <div class="ps-reveal mx-auto max-w-2xl text-center">
+      <p class="text-xs font-bold uppercase tracking-[0.22em] text-fuchsia-300">The solution</p>
+      <h2 class="mt-4 text-3xl sm:text-5xl font-black">One selfie in. A plan that fits you out.</h2>
+      <p class="mt-5 text-lg text-[#999]">Aura Pro connects the four steps that usually live in four different apps.</p>
+    </div>
+    <div class="relative mt-14 grid gap-8 md:grid-cols-4">
+      <div aria-hidden="true" class="absolute left-[12%] right-[12%] top-8 hidden h-px bg-gradient-to-r from-fuchsia-500/0 via-fuchsia-500/60 to-violet-500/0 md:block"></div>
+      {steps.map(([name, text], i) => (
+        <div class="ps-reveal relative text-center" style={`--d:${i * 140}ms`}>
+          <span class="relative mx-auto flex h-16 w-16 items-center justify-center rounded-2xl border border-fuchsia-400/30 bg-[#140f1d] text-2xl font-black text-fuchsia-200 shadow-[0_0_40px_-10px_rgba(217,70,239,0.7)]">{i + 1}</span>
+          <h3 class="mt-4 text-xl font-black">{name}</h3>
+          <p class="mx-auto mt-2 max-w-[16rem] text-sm text-[#999]">{text}</p>
+        </div>
+      ))}
+    </div>
+  </section>
+
+  {features.map((f, i) => (
+    <section class="grid items-center gap-10 lg:grid-cols-2 lg:gap-16">
+      <div class:list={['ps-reveal', i % 2 === 1 && 'lg:order-2']}>
+        <span class="inline-flex rounded-full border border-white/10 bg-white/[0.04] px-3 py-1 text-xs font-bold text-[#ccc]">{f.tag}</span>
+        <h2 class="mt-5 text-3xl sm:text-4xl font-black leading-tight">{f.title}</h2>
+        <p class="mt-4 text-lg leading-relaxed text-[#aaa]">{f.text}</p>
+        <ul class="mt-6 space-y-3">{f.points.map(p => <li class="flex items-start gap-3 text-[#ddd]"><span class="mt-0.5 flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-fuchsia-500/20 text-xs text-fuchsia-200">✓</span>{p}</li>)}</ul>
+      </div>
+      <div class:list={['ps-reveal mx-auto w-full max-w-md', i % 2 === 1 && 'lg:order-1']} style="--d:150ms">
+        <Fragment set:html={f.mock === 'scan' ? scanMock() : f.mock === 'tryon' ? tryonMock() : f.mock === 'plan' ? planMock() : progressMock()} />
+      </div>
+    </section>
+  ))}
+
+  <section>
+    <div class="ps-reveal mx-auto max-w-2xl text-center">
+      <p class="text-xs font-bold uppercase tracking-[0.22em] text-fuchsia-300">Everything in one place</p>
+      <h2 class="mt-4 text-3xl sm:text-5xl font-black">Three apps’ worth, for less than one.</h2>
+      <p class="mt-5 text-[#999]">Typical prices of single-purpose apps in the App Store, October 2026.</p>
+    </div>
+    <div class="ps-reveal mx-auto mt-10 max-w-3xl overflow-hidden rounded-[1.75rem] border border-white/10" style="--d:120ms">
+      {compare.map(([name, price, note]) => (
+        <div class="flex flex-wrap items-center justify-between gap-2 border-b border-white/[0.07] bg-white/[0.02] px-6 py-4">
+          <span><span class="block font-bold text-[#ccc]">{name}</span><span class="text-xs text-[#777]">{note}</span></span>
+          <span class="font-bold text-[#777] line-through">{price}</span>
+        </div>
+      ))}
+      <div class="flex flex-wrap items-center justify-between gap-2 bg-gradient-to-r from-fuchsia-600/25 to-violet-600/25 px-6 py-5">
+        <span><span class="block text-lg font-black">Aura Pro</span><span class="text-xs text-[#bbb]">Analysis, try-ons, plan, coach and progress</span></span>
+        <span class="text-2xl font-black">$4.17 / month</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="grid gap-5 md:grid-cols-3">
+    {[
+      ['Free previews stay on your device', 'Face shape, symmetry and eye geometry are measured in your browser. Nothing is uploaded.'],
+      ['Honest by design', 'Estimates come with their limits. No fake precision, no surgery pitches, no judgment of your worth.'],
+      ['Your photos are yours', 'We never sell or share photos. Cancel anytime in your account settings.'],
+    ].map(([title, text], i) => (
+      <div class="ps-reveal h-full rounded-[1.75rem] border border-white/10 bg-white/[0.02] p-7" style={`--d:${i * 120}ms`}>
+        <svg viewBox="0 0 24 24" class="h-6 w-6 text-emerald-300" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l7 3v6c0 4.5-3 7.5-7 9-4-1.5-7-4.5-7-9V6z"/><path d="M9 12l2 2 4-4"/></svg>
+        <h3 class="mt-3 text-lg font-black">{title}</h3>
+        <p class="mt-2 text-sm leading-relaxed text-[#999]">{text}</p>
+      </div>
+    ))}
+  </section>
+
+  <section class="ps-reveal relative overflow-hidden rounded-[2.5rem] border border-fuchsia-400/30 bg-gradient-to-br from-fuchsia-700/30 via-[#120d1c] to-violet-700/30 px-6 py-16 text-center">
+    <h2 class="mx-auto max-w-2xl text-3xl sm:text-5xl font-black">Your next look should not be a guess.</h2>
+    <p class="mx-auto mt-4 max-w-xl text-[#bbb]">Start with a free preview on your device. Go Pro when you want the full picture.</p>
+    <a href={cta} data-placement="pro-showcase-end" class="mt-8 inline-block rounded-2xl bg-white px-8 py-4 text-lg font-black text-black">Start free →</a>
+  </section>
+</div>
+
+<script>
+  // Reveal sections as they scroll into view; skipped entirely for reduced motion.
+  const items = document.querySelectorAll<HTMLElement>('.ps-reveal');
+  if (!('IntersectionObserver' in window) || matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    items.forEach((el) => el.setAttribute('data-shown', ''));
+  } else {
+    const io = new IntersectionObserver((entries) => {
+      for (const e of entries) if (e.isIntersecting) { e.target.setAttribute('data-shown', ''); io.unobserve(e.target); }
+    }, { rootMargin: '0px 0px -12% 0px' });
+    items.forEach((el) => io.observe(el));
+  }
+</script>
+
+<style is:global>
+  .ps-reveal { opacity: 0; transform: translateY(28px); transition: opacity .7s ease, transform .7s cubic-bezier(.2,.7,.2,1); transition-delay: var(--d, 0ms); }
+  .ps-reveal[data-shown] { opacity: 1; transform: none; }
+  @keyframes ps-float { 0%,100% { transform: translateY(0) } 50% { transform: translateY(-10px) } }
+  .ps-float { animation: ps-float 6s ease-in-out infinite; }
+  @keyframes ps-glow { 0%,100% { opacity: .55 } 50% { opacity: 1 } }
+  .ps-glow { animation: ps-glow 4s ease-in-out infinite; }
+  @keyframes ps-sweep { 0%,15% { clip-path: inset(0 100% 0 0) } 45%,65% { clip-path: inset(0 0 0 0) } 95%,100% { clip-path: inset(0 100% 0 0) } }
+  @keyframes ps-handle { 0%,15% { left: 0% } 45%,65% { left: 100% } 95%,100% { left: 0% } }
+  .ps-sweep { animation: ps-sweep 6s ease-in-out infinite; }
+  .ps-handle { animation: ps-handle 6s ease-in-out infinite; }
+  .ps-line { stroke-dasharray: 600; stroke-dashoffset: 600; transition: stroke-dashoffset 2.2s ease .3s; }
+  [data-shown] .ps-line { stroke-dashoffset: 0; }
+  .ps-tick { transform: scale(0); transition: transform .35s cubic-bezier(.3,1.6,.5,1); transition-delay: var(--t, 0ms); }
+  [data-shown] .ps-tick { transform: scale(1); }
+  @media (prefers-reduced-motion: reduce) {
+    .ps-reveal { opacity: 1; transform: none; transition: none; }
+    .ps-float, .ps-glow, .ps-sweep, .ps-handle { animation: none; }
+    .ps-line { stroke-dashoffset: 0; transition: none; }
+    .ps-tick { transform: none; transition: none; }
+  }
+</style>
