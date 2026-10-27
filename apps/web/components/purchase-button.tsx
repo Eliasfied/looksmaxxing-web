@@ -40,7 +40,7 @@ function SuccessModal({ productName, onClose }: { productName: string; onClose: 
         <p className="mb-1 text-[#888888]">
           Your <span className="font-semibold text-white">{productName}</span> purchase was successful.
         </p>
-        <p className="mb-8 text-sm text-[#666666]">Credits are being added to your account.</p>
+        <p className="mb-8 text-sm text-[#666666]">Aura Pro is being activated on your account.</p>
 
         <Link
           href="/dashboard"
@@ -48,11 +48,25 @@ function SuccessModal({ productName, onClose }: { productName: string; onClose: 
           className="btn-gradient inline-flex items-center gap-2 rounded-xl px-6 py-3 text-sm font-bold text-white transition-opacity hover:opacity-90"
         >
           <Sparkles className="h-4 w-4" />
-          Start Generating
+          Open my glow-up
         </Link>
       </div>
     </div>
   )
+}
+
+/** The webhook grants Pro asynchronously; wait until the server sees it. */
+export async function waitForPro(attempts = 20) {
+  for (let i = 0; i < attempts; i++) {
+    try {
+      const res = await fetch('/api/me', { cache: 'no-store' })
+      if (res.ok && (await res.json()).pro) return true
+    } catch {
+      /* retry */
+    }
+    await new Promise((resolve) => setTimeout(resolve, 1500))
+  }
+  return false
 }
 
 export function PurchaseButton({ productId, productName, children, className, successRedirect, onSuccess }: PurchaseButtonProps) {

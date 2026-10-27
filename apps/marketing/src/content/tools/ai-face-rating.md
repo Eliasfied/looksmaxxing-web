@@ -1,6 +1,6 @@
 ---
 title: "AI Face Rating: An Honest Score From One Photo"
-description: "Upload one photo for a PSL-style score and a feature-by-feature read of your face. No account needed for the estimate; the full report is $2.99 once."
+description: "Upload one photo for a PSL-style score and a feature-by-feature read of your face. The face preview is free and runs on your device; the full report is part of Aura Pro ($9.99 a month or $49.99 a year)."
 slug: ai-face-rating
 primary_keyword: face rating
 cluster: face-rating-ai
@@ -36,7 +36,7 @@ steps:
     description: Get your PSL score, a feature-by-feature breakdown, and a looksmax report with specific, actionable next steps.
 faq:
   - q: What does the face rating cost?
-    a: The potential estimate costs nothing and needs no account. The full report, with the feature-by-feature breakdown and your improvement plan, is $2.99 once after you create an account. Subscriptions are optional.
+    a: The potential estimate costs nothing and needs no account. The full report, with the feature-by-feature breakdown and your improvement plan, is part of Aura Pro ($9.99 a month or $49.99 a year). Subscriptions are optional.
   - q: How accurate is an AI attractiveness test?
     a: "Accuracy depends on photo quality and the model's training. Aura uses facial landmark detection to measure proportions against established benchmarks, which produces consistent results. It's most useful as a structured baseline, not an absolute verdict."
   - q: Do I need to upload my photo?

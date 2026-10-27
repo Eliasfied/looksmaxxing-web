@@ -80,7 +80,7 @@ export default function RegisterPage() {
       <div className="mb-8 text-center">
         <Image src="/logo.png" alt={appConfig.brand.name} width={72} height={72} className="mx-auto rounded-2xl shadow-lg shadow-purple-900/30" />
         <h1 className="mt-4 text-2xl font-black text-white tracking-tight">{appConfig.brand.name}</h1>
-        <p className="mt-1 text-sm text-[#999]">{returnTo ? 'Save your report, then unlock it for $2.99 once.' : 'Create your account to get started'}</p>
+        <p className="mt-1 text-sm text-[#999]">{returnTo ? 'Create your account to continue with Aura Pro.' : 'Create your account to get started'}</p>
       </div>
 
       <div className="rounded-2xl bg-[#111111] border border-[#222222] p-8">

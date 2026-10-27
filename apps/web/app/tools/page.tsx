@@ -11,8 +11,8 @@ export default function ToolsPage() {
         Find the look that feels like you.
       </h1>
       <p className="mt-5 max-w-2xl text-lg leading-relaxed text-white/65">
-        Choose a tool and upload your photo. See your estimated styling-potential score before
-        signing up. Unlock your full report for $2.99 once, or choose a subscription.
+        Choose a tool and a photo. Face shape, symmetry and eye geometry are measured free on your
+        device. Aura Pro writes the full AI report, for every tool.
       </p>
       <div className="mt-12 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
         {tools.map((tool) => (
@@ -27,7 +27,7 @@ export default function ToolsPage() {
             <h2 className="text-xl font-bold">{tool.name}</h2>
             <p className="mt-3 min-h-16 text-white/60">{tool.description}</p>
             <p className="mt-6 font-semibold">
-              Upload a photo <span aria-hidden>↗</span>
+              Start free preview <span aria-hidden>↗</span>
             </p>
           </Link>
         ))}

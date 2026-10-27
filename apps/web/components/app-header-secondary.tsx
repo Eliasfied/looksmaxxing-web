@@ -1,21 +1,32 @@
 'use client'
 
 import Link from 'next/link'
-import { Settings } from 'lucide-react'
-import { CreditsDisplay } from '@/components/credits-display'
+import { Settings, Sparkles } from 'lucide-react'
 import { SignOutButton } from '@/components/sign-out-button'
 
 type AppHeaderSecondaryProps = {
   email: string
-  totalCredits: number
+  pro: boolean
+  tryOnsLeft: number
 }
 
-export function AppHeaderSecondary({ email, totalCredits }: AppHeaderSecondaryProps) {
+export function AppHeaderSecondary({ email, pro, tryOnsLeft }: AppHeaderSecondaryProps) {
   return (
     <div className="flex shrink-0 items-center gap-2 sm:gap-3">
-      <Link href="/pricing" className="rounded-xl transition-opacity hover:opacity-90" title="Credits">
-        <CreditsDisplay total={totalCredits} />
-      </Link>
+      {pro ? (
+        <Link
+          href="/studio"
+          title="Try-on looks left this month"
+          className="inline-flex items-center gap-2 rounded-full border border-fuchsia-400/30 bg-fuchsia-500/10 px-3 py-1.5 text-xs font-bold text-fuchsia-100"
+        >
+          <Sparkles className="h-3.5 w-3.5" aria-hidden />
+          Pro · {tryOnsLeft}
+        </Link>
+      ) : (
+        <Link href="/pricing" className="btn-gradient rounded-full px-4 py-2 text-xs font-bold text-white transition hover:brightness-110">
+          Get Pro
+        </Link>
+      )}
 
       <Link
         href="/settings"

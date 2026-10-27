@@ -3,6 +3,7 @@
 import { useState, useRef, useEffect } from 'react'
 import { cn } from '@/lib/utils'
 import Link from 'next/link'
+import { UpgradeNudge } from '@/components/pro-paywall'
 
 interface Message {
   role: 'user' | 'assistant'
@@ -24,6 +25,7 @@ export function ChatClient({ hasScan }: Props) {
   const [messages, setMessages] = useState<Message[]>([])
   const [input, setInput] = useState('')
   const [loading, setLoading] = useState(false)
+  const [upgrade, setUpgrade] = useState(false)
   const bottomRef = useRef<HTMLDivElement>(null)
   const textareaRef = useRef<HTMLTextAreaElement>(null)
 
@@ -49,6 +51,7 @@ export function ChatClient({ hasScan }: Props) {
       })
       const data = await res.json()
       if (!res.ok) {
+        if (res.status === 402 && data.upgrade) setUpgrade(true)
         setMessages(prev => [
           ...prev,
           { role: 'assistant', content: data.error ?? 'Something went wrong. Please try again.' },
@@ -149,6 +152,12 @@ export function ChatClient({ hasScan }: Props) {
 
         <div ref={bottomRef} />
       </div>
+
+      {upgrade && (
+        <div className="mt-3">
+          <UpgradeNudge text="Unlimited coaching with your scan and plan is part of Aura Pro." />
+        </div>
+      )}
 
       {/* Input */}
       <div className="mt-3 flex gap-2 items-end">

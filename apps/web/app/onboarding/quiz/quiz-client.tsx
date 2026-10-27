@@ -1,9 +1,11 @@
 'use client'
 
-import { useState, useRef, useCallback } from 'react'
+import { useState, useRef, useCallback, useEffect } from 'react'
 import { useRouter } from 'next/navigation'
 import { Sparkles, Lock, ScanFace, MessageCircle, Wand2, ShieldCheck } from 'lucide-react'
-import type { FaceScan } from '@/lib/firebase/scans'
+import { FacePreview } from '@/components/face-preview'
+import type { FaceGeometry } from '../../../../../config/face-geometry'
+import { analyzePhoto, imageFrom, preloadFaceLandmarker } from '../../../../../config/face-landmarker'
 import posthog from 'posthog-js'
 
 interface Question {
@@ -101,10 +103,12 @@ export function QuizClient() {
   const [step, setStep] = useState(0)
   const [answers, setAnswers] = useState<Record<string, string>>({})
   const [image, setImage] = useState<string | null>(null)
-  const [scan, setScan] = useState<FaceScan | null>(null)
+  const [geometry, setGeometry] = useState<FaceGeometry | null>(null)
   const [loading, setLoading] = useState(false)
   const [error, setError] = useState<string | null>(null)
   const inputRef = useRef<HTMLInputElement>(null)
+
+  useEffect(() => preloadFaceLandmarker(), [])
 
   const handleFile = useCallback((file: File) => {
     if (!file.type.startsWith('image/')) {
@@ -131,26 +135,32 @@ export function QuizClient() {
     setStep(s => s + 1)
   }
 
+  // The free first look runs on this device. Pro members also get the full
+  // AI scan straight away; everyone else sees the paywall next.
   async function runScan() {
     if (!image) return
     setLoading(true)
     setError(null)
     try {
-      const res = await fetch('/api/analyze', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ imageBase64: image }),
-      })
-      const data = await res.json()
-      if (!res.ok) {
-        setError(data.error ?? 'Analysis failed. Please try again.')
-        return
+      const result = await analyzePhoto(await imageFrom(image))
+      posthog.capture('onboarding_preview_completed', { on_device: true })
+      const me = await fetch('/api/me', { cache: 'no-store' }).then(r => r.json()).catch(() => null)
+      if (me?.pro) {
+        const res = await fetch('/api/analyze', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ imageBase64: image }),
+        })
+        const data = await res.json()
+        if (res.ok) {
+          router.push(`/dashboard/${data.scan.id}`)
+          return
+        }
       }
-      posthog.capture('onboarding_scan_completed')
-      setScan(data.scan)
+      setGeometry(result)
       setStep(s => s + 1)
-    } catch {
-      setError('Network error. Please check your connection.')
+    } catch (e) {
+      setError(e instanceof Error ? e.message : 'We could not read this photo. Try another one.')
     } finally {
       setLoading(false)
     }
@@ -195,8 +205,8 @@ export function QuizClient() {
         />
       )}
 
-      {step === QUESTIONS.length + 3 && scan && (
-        <RevealStep scan={scan} onUnlock={() => router.push(`/dashboard/${scan.id}`)} />
+      {step === QUESTIONS.length + 3 && geometry && image && (
+        <RevealStep geometry={geometry} photo={image} onUnlock={() => router.push('/onboarding/pricing')} />
       )}
     </div>
   )
@@ -311,8 +321,8 @@ function FeaturesStep({ onNext }: { onNext: () => void }) {
             <p className="mt-0.5 text-[10px] uppercase tracking-widest text-[#666]">To results</p>
           </div>
           <div>
-            <p className="text-2xl font-black text-white">$0</p>
-            <p className="mt-0.5 text-[10px] uppercase tracking-widest text-[#666]">To start</p>
+            <p className="text-2xl font-black text-white">0</p>
+            <p className="mt-0.5 text-[10px] uppercase tracking-widest text-[#666]">Photos uploaded</p>
           </div>
         </div>
       </div>
@@ -321,7 +331,7 @@ function FeaturesStep({ onNext }: { onNext: () => void }) {
         onClick={onNext}
         className="btn-gradient mt-8 w-full rounded-full py-4 text-sm font-bold text-white transition-opacity hover:opacity-90"
       >
-        Start my first scan
+        Start my free preview
       </button>
     </div>
   )
@@ -398,46 +408,22 @@ function ScanStep({
         disabled={!image || loading}
         className="btn-gradient mt-8 w-full rounded-full py-4 text-sm font-bold text-white transition-opacity hover:opacity-90 disabled:cursor-not-allowed disabled:opacity-40"
       >
-        {loading ? 'Analyzing your face…' : 'Analyze my face'}
+        {loading ? 'Measuring your face…' : 'Show my free preview'}
       </button>
-      <p className="mt-3 text-center text-xs text-[#444]">Your first scan is included · No card required</p>
+      <p className="mt-3 text-center text-xs text-[#444]">The preview runs on your device · your photo is not uploaded</p>
     </div>
   )
 }
 
-function pslColor(score: number) {
-  if (score >= 7.5) return 'text-emerald-400'
-  if (score >= 6) return 'text-yellow-400'
-  if (score >= 4.5) return 'text-orange-400'
-  return 'text-red-400'
-}
+const TEASER_ROWS = ['Bone Structure', 'Eye Area', 'Skin & Hair', 'PSL score and potential']
 
-const TEASER_ROWS = ['Bone Structure', 'Eye Area', 'Skin & Hair', 'Symmetry']
-
-function RevealStep({ scan, onUnlock }: { scan: FaceScan; onUnlock: () => void }) {
-  const gain = (scan.potentialPslScore - scan.overallPslScore).toFixed(1)
-
+function RevealStep({ geometry, photo, onUnlock }: { geometry: FaceGeometry; photo: string; onUnlock: () => void }) {
   return (
     <div>
-      <p className="text-center text-xs font-bold uppercase tracking-widest text-purple-400">Your result</p>
-
-      <div className="mt-6 flex items-end justify-center gap-8">
-        <div className="text-center">
-          <span className={`text-7xl font-black ${pslColor(scan.overallPslScore)}`}>
-            {scan.overallPslScore.toFixed(1)}
-          </span>
-          <p className="mt-1 text-xs text-[#555]">Your PSL score</p>
-        </div>
-        <div className="pb-3 text-center">
-          <span className="text-4xl font-black text-fuchsia-400">{scan.potentialPslScore.toFixed(1)}</span>
-          <p className="mt-1 text-xs text-[#555]">Your potential</p>
-        </div>
+      <p className="text-center text-xs font-bold uppercase tracking-widest text-purple-400">Your free preview</p>
+      <div className="mt-6">
+        <FacePreview geometry={geometry} photo={photo} />
       </div>
-
-      <p className="mt-6 text-center text-sm leading-relaxed text-[#888]">
-        You have <span className="font-bold text-white">+{gain} points</span> of realistic upside. Your full
-        breakdown shows exactly which features are holding you back.
-      </p>
 
       <div className="relative mt-8">
         <div className="pointer-events-none select-none space-y-3 blur-md" aria-hidden="true">
@@ -460,7 +446,7 @@ function RevealStep({ scan, onUnlock }: { scan: FaceScan; onUnlock: () => void }
         <div className="absolute inset-0 flex items-center justify-center">
           <div className="flex items-center gap-2 rounded-full border border-purple-500/30 bg-black/80 px-4 py-2">
             <Lock className="h-3.5 w-3.5 text-purple-400" />
-            <span className="text-xs font-bold text-white">9 metrics locked</span>
+            <span className="text-xs font-bold text-white">Full AI scan with Aura Pro</span>
           </div>
         </div>
       </div>
@@ -469,9 +455,9 @@ function RevealStep({ scan, onUnlock }: { scan: FaceScan; onUnlock: () => void }
         onClick={onUnlock}
         className="btn-gradient mt-8 w-full rounded-full py-4 text-sm font-bold text-white transition-opacity hover:opacity-90"
       >
-        Unlock my full analysis
+        Get my full analysis
       </button>
-      <p className="mt-3 text-center text-xs text-[#444]">One-time from $2.99 · No subscription required</p>
+      <p className="mt-3 text-center text-xs text-[#444]">PSL score, 9 metrics, try-ons, plan and coach · cancel anytime</p>
     </div>
   )
 }

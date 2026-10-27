@@ -1,0 +1,48 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import FaceScanner from '../../components/FaceScanner.astro';
+const source = '/tools/eye-shape-detector';
+const faq = [
+  ['What eye shapes can it detect?', 'It reads how open your eyes are (round, almond or narrow almond), which way the outer corners point (upturned, neutral or downturned) and how far apart the eyes sit (close-set, balanced or wide-set). Hooded and monolid eyes depend on the eyelid crease, which a single frontal photo cannot measure reliably, so we do not guess them.'],
+  ['What is canthal tilt?', 'The angle of the line from the inner to the outer corner of your eye. A positive tilt means the outer corner sits higher. Most people fall within a few degrees of level, and both directions are common and normal.'],
+  ['Is my photo uploaded?', 'No. The detector runs in your browser with Google’s open-source MediaPipe face landmarker. Your photo stays on your device.'],
+  ['Why do my left and right eyes differ?', 'Almost everyone’s do, and a slight head turn or tilt adds to it. We correct for head tilt, but look straight at the camera for the steadiest result.'],
+  ['What can I do with my eye shape?', 'It is mainly useful for makeup, brows and glasses. Upturned eyes suit lifted liner; downturned eyes often look more open with liner kept to the upper outer third; wide-set eyes pair well with frames that have a lower bridge. Aura Pro lets you try frames on your own photo.'],
+];
+const schema = {
+  '@context': 'https://schema.org',
+  '@graph': [
+    { '@type': 'SoftwareApplication', name: 'Eye Shape Detector', applicationCategory: 'LifestyleApplication', operatingSystem: 'Web', offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD' } },
+    { '@type': 'FAQPage', mainEntity: faq.map(([q, a]) => ({ '@type': 'Question', name: q, acceptedAnswer: { '@type': 'Answer', text: a } })) },
+  ],
+};
+---
+<BaseLayout title="Eye Shape Detector: What Is My Eye Shape? Free Photo Tool | Aura" description="Find your eye shape from one selfie: almond, round or narrow, upturned or downturned, close-set or wide-set, plus your canthal tilt. Free, no signup, photo stays on your device.">
+  <Fragment slot="head"><script type="application/ld+json" set:html={JSON.stringify(schema)} /></Fragment>
+  <section class="max-w-4xl mx-auto px-6 pt-16 pb-6">
+    <a href="/tools" class="text-sm text-[#999]">← All tools</a>
+    <p class="mt-8 text-xs uppercase tracking-widest text-fuchsia-300 font-bold">Free tool</p>
+    <h1 class="mt-3 text-4xl sm:text-5xl font-black leading-tight">Eye shape detector</h1>
+    <p class="mt-5 text-lg text-[#aaa] leading-relaxed">What is my eye shape? Pick a selfie and find out in seconds: the shape of your eyes, the direction of the outer corners, your canthal tilt in degrees and your eye spacing. Free, no account, and your photo never leaves your device.</p>
+  </section>
+  <section class="max-w-4xl mx-auto px-6 py-6"><FaceScanner mode="eyes" toolSlug="canthal-tilt-checker" source={source} title="Detect your eye shape" /></section>
+  <article class="max-w-3xl mx-auto px-6 py-12 prose prose-invert prose-p:text-[#bbb] prose-li:text-[#bbb]">
+    <h2>The three things that make an eye shape</h2>
+    <ul>
+      <li><strong>Openness:</strong> eye height divided by eye width. Rounder eyes show more of the iris and white; almond eyes are longer than they are tall.</li>
+      <li><strong>Tilt:</strong> whether the outer corner sits above or below the inner one. Upturned and downturned eyes are both common; most people are close to level.</li>
+      <li><strong>Spacing:</strong> the gap between the inner corners compared with one eye width.</li>
+    </ul>
+    <p>Combined, these give the labels you see in makeup tutorials, such as “upturned almond” or “downturned round”.</p>
+    <h2>What a photo cannot tell you</h2>
+    <p>Hooded eyes, deep-set eyes and monolids are defined by the eyelid crease and the brow bone, which a flat frontal photo does not capture well. Rather than guess, we leave them out. Check them in a mirror: if the skin above your lash line folds down over the crease when your eyes are open, your eyes are hooded.</p>
+    <h2>Getting a steady result</h2>
+    <ul>
+      <li>Look straight into the camera with relaxed eyes; smiling narrows them.</li>
+      <li>Keep the phone at eye level. Shooting from below makes the outer corners look lower.</li>
+      <li>Remove glasses; the frame can hide the outer corners.</li>
+    </ul>
+    <h2>Questions</h2>
+    {faq.map(([q, a]) => <><h3>{q}</h3><p>{a}</p></>)}
+  </article>
+</BaseLayout>

@@ -163,7 +163,7 @@ You cannot reshape adult bone with posture or exercises, but you have a lot of c
 
 If you'd like a structured starting point for these choices, Aura's [Face Analysis for Women](https://app.aura-looksmaxxing.com/tools/face-analysis-for-women?source=%2Fblog%2Ffemale-jawline-guide) looks at a photo you upload. It returns notes on your facial profile, hair and brow ideas, and your personal priorities, shaped around the style goals you set. It does not apply masculine jaw ideals.
 
-The free result is a subjective styling-potential estimate. The full findings unlock with an account and a $2.99 one-time purchase. Treat it as a styling guide, not a measurement or a medical assessment.
+The free result is a subjective styling-potential estimate. The full findings are part of Aura Pro ($9.99 a month or $49.99 a year). Treat it as a styling guide, not a measurement or a medical assessment.
 
 ## When to See a Professional
 

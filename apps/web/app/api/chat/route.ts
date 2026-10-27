@@ -1,12 +1,15 @@
 import { NextResponse } from 'next/server'
 import { getSessionUser } from '@/lib/firebase/server'
 import { getLatestScan, redactLockedScan } from '@/lib/firebase/scans'
+import { getPlan, reserveFreeCoachMessage } from '@/lib/entitlement'
+import { getActivePlan } from '@/lib/routines'
 import { aiModelOptions, aiProxyUrl, completedAIText } from '@/lib/ai-model'
 
 export const maxDuration = 60
 
 function buildSystemMessage(
-  scan: Awaited<ReturnType<typeof getLatestScan>>
+  scan: Awaited<ReturnType<typeof getLatestScan>>,
+  activePlan: Awaited<ReturnType<typeof getActivePlan>>
 ): string {
   const lines: string[] = [
     'You are a friendly looksmaxxing expert. The user has face analysis data from this app. Use it to personalize answers.',
@@ -46,8 +49,14 @@ function buildSystemMessage(
     lines.push('')
   }
 
+  if (activePlan) {
+    lines.push(`USER'S CURRENT PLAN (${activePlan.title}), progress ${activePlan.done}/${activePlan.total} tasks:`)
+    for (const task of activePlan.open.slice(0, 8)) lines.push(`- open: ${task}`)
+    lines.push('')
+  }
   lines.push(
-    'Be concise, actionable, and helpful. Reference their specific scores when giving advice.'
+    'Be concise, actionable, and helpful. Reference their specific scores and plan when giving advice.',
+    'Never recommend surgery, medication, supplements, body-fat targets or bone-changing exercises such as mewing or bonesmashing; point to a professional instead.'
   )
   return lines.join('\n')
 }
@@ -66,14 +75,35 @@ export async function POST(request: Request) {
         { status: 400 }
       )
     }
+    // Only user/assistant turns from the client, bounded, so a request can
+    // neither rewrite the system prompt nor run up an unbounded bill.
     messages = body.messages
+      .filter(
+        (m: unknown): m is { role: string; content: string } =>
+          !!m &&
+          typeof m === 'object' &&
+          ['user', 'assistant'].includes((m as { role?: unknown }).role as string) &&
+          typeof (m as { content?: unknown }).content === 'string'
+      )
+      .slice(-20)
+      .map((m: { role: string; content: string }) => ({ role: m.role, content: m.content.slice(0, 2000) }))
+    if (!messages.length || messages[messages.length - 1].role !== 'user')
+      return NextResponse.json({ error: 'messages array required' }, { status: 400 })
   } catch {
     return NextResponse.json({ error: 'Invalid JSON' }, { status: 400 })
   }
 
-  const latestScan = await getLatestScan(user.id)
+  const plan = await getPlan(user.id)
+  if (!plan.pro && !(await reserveFreeCoachMessage(user.id)))
+    return NextResponse.json(
+      { error: 'Your free coach messages are used up. Aura Pro unlocks unlimited coaching.', upgrade: true },
+      { status: 402 }
+    )
+
+  const [latestScan, activePlan] = await Promise.all([getLatestScan(user.id), getActivePlan(user.id)])
   const systemMessage = buildSystemMessage(
-    latestScan && redactLockedScan(latestScan)
+    latestScan && redactLockedScan(latestScan, plan.pro),
+    activePlan
   )
 
   const openaiRes = await fetch(aiProxyUrl('chat'), {

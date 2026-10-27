@@ -1,6 +1,6 @@
 ---
 title: "PSL Scale Calculator: Get Your PSL Score"
-description: "Your PSL score from one photo, what the number actually describes, and the specific things worth changing first. The full report is $2.99 once."
+description: "Your PSL score from one photo, what the number actually describes, and the specific things worth changing first. The full report is part of Aura Pro ($9.99 a month or $49.99 a year)."
 slug: psl-score-calculator
 primary_keyword: psl scale
 cluster: psl-score-calculator

@@ -1,31 +1,24 @@
-import Link from 'next/link'
-import { StarterPackCard } from '@/components/starter-pack-card'
-import { SubscriptionPlans } from '@/components/subscription-plans'
+import { redirect } from 'next/navigation'
+import { getSessionUser } from '@/lib/firebase/server'
+import { getPlan } from '@/lib/entitlement'
+import { ProPaywall } from '@/components/pro-paywall'
 
-export default function OnboardingPricingPage() {
+export default async function OnboardingPricingPage() {
+  const user = await getSessionUser()
+  if (!user) redirect('/login?next=/onboarding/pricing')
+  if ((await getPlan(user.id)).pro) redirect('/dashboard')
+
   return (
     <div className="mx-auto w-full max-w-3xl px-4 py-12">
-      <div className="mb-10 text-center">
-        <p className="mb-4 text-xs font-bold uppercase tracking-widest text-fuchsia-300">
-          Preview first. Decide afterwards.
-        </p>
-        <h1 className="text-4xl font-black sm:text-5xl">
-          Start with one report.
-        </h1>
-        <p className="mt-5 text-white/60">
-          $2.99 once. An ongoing plan is there when you need it.
-        </p>
-        <Link
-          href="/tools"
-          className="mt-5 inline-block text-sm font-semibold text-fuchsia-300"
-        >
-          See a potential preview first →
-        </Link>
-      </div>
-      <StarterPackCard successRedirect="/tools" />
-      <SubscriptionPlans successRedirect="/tools" />
-      <p className="mt-8 text-center text-xs text-white/50">
-        Checkout shows the final price and any applicable taxes.
+      <ProPaywall
+        signedIn
+        returnTo="/dashboard?welcome=1"
+        placement="onboarding"
+        headline="Your preview is ready. Now get the full picture."
+        subline="Your scan, your plan and your try-ons, all in one place."
+      />
+      <p className="mt-6 text-center text-xs text-white/40">
+        Checkout shows the final price and any applicable taxes. Subscriptions renew until cancelled.
       </p>
     </div>
   )

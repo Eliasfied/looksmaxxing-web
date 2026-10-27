@@ -75,8 +75,14 @@ export function previewReport(id: string, tool: string, report: ToolReport): Too
   return { id, tool, potentialScore: report.potentialScore, unlocked: false }
 }
 
+// Only same-app paths we route back to after sign-up, never an open redirect.
 export function safeToolReturn(value: string | null | undefined) {
-  return value && /^\/tools\/result\/[a-f0-9]{40}(?:\?checkout=1)?$/.test(value) ? value : null
+  return value &&
+    (/^\/tools\/result\/[a-f0-9]{40}(?:\?checkout=1)?$/.test(value) ||
+      /^\/tools\/[a-z0-9-]+\?resume=1$/.test(value) ||
+      /^\/(?:onboarding\/pricing|pricing|dashboard|studio|progress|plan|chat)$/.test(value))
+    ? value
+    : null
 }
 
 export function isPhotoData(value: unknown): value is string {

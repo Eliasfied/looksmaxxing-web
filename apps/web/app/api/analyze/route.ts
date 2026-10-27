@@ -1,17 +1,11 @@
 import { NextResponse } from 'next/server'
 import { getSessionUser } from '@/lib/firebase/server'
-import { getCredits, deductCredits } from '@/lib/firebase/credits'
-import {
-  createFaceScan,
-  countUserScans,
-  redactLockedScan
-} from '@/lib/firebase/scans'
-import { appConfig } from '@/lib/config'
+import { createFaceScan } from '@/lib/firebase/scans'
+import { getPlan, QuotaExceededError, reserveAnalysis } from '@/lib/entitlement'
 import { aiModelOptions, aiProxyUrl, completedAIText } from '@/lib/ai-model'
 
 export const maxDuration = 120
 
-const ANALYZE_COST = appConfig.credits.scan
 
 const FACE_ANALYSIS_PROMPT = `You are a looksmaxxing face analysis AI. Analyze the face in the image and rate each metric objectively.
 
@@ -92,16 +86,15 @@ export async function POST(request: Request) {
   if (!user)
     return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
 
-  const isFirstScan = (await countUserScans(user.id)) === 0
-
-  if (!isFirstScan) {
-    const balance = await getCredits(user.id)
-    if (balance.total_credits < ANALYZE_COST) {
-      return NextResponse.json(
-        { error: 'Insufficient credits' },
-        { status: 402 }
-      )
-    }
+  // Every AI analysis is a Pro feature: free users get the on-device preview.
+  if (!(await getPlan(user.id)).pro)
+    return NextResponse.json({ error: 'Aura Pro required', upgrade: true }, { status: 402 })
+  try {
+    await reserveAnalysis(user.id)
+  } catch (error) {
+    if (error instanceof QuotaExceededError)
+      return NextResponse.json({ error: error.message }, { status: 429 })
+    throw error
   }
 
   let imageBase64: string
@@ -171,11 +164,8 @@ export async function POST(request: Request) {
     )
   }
 
-  if (!isFirstScan) {
-    await deductCredits(user.id, ANALYZE_COST, 'face_analysis', 'Face Analysis')
-  }
-
   const scan = await createFaceScan({
+    unlocked: true,
     userId: user.id,
     overallPslScore: Number(analysisData.overallPslScore) || 5.0,
     potentialPslScore: Number(analysisData.potentialPslScore) || 6.0,
@@ -197,5 +187,5 @@ export async function POST(request: Request) {
     details: (analysisData.details as Record<string, string>) || {}
   })
 
-  return NextResponse.json({ scan: redactLockedScan(scan) })
+  return NextResponse.json({ scan })
 }

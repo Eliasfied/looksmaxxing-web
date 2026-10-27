@@ -1,0 +1,118 @@
+---
+// Free on-device face measurement. The photo is read by MediaPipe in the
+// visitor's browser and never uploaded, so this tool costs nothing to run and
+// needs no cookie banner: no analytics, no server call with the image.
+interface Props {
+  mode?: 'all' | 'shape' | 'symmetry' | 'golden' | 'eyes';
+  /** App tool that writes the full AI report for this question. */
+  toolSlug: string;
+  source: string;
+  title?: string;
+}
+const { mode = 'all', toolSlug, source, title = 'Try it on your photo' } = Astro.props;
+const appUrl = import.meta.env.PUBLIC_APP_URL ?? 'https://app.aura-looksmaxxing.com';
+const proHref = `${appUrl}/tools/${toolSlug}?source=${encodeURIComponent(source)}`;
+---
+<div class="face-scanner not-prose rounded-[2rem] border border-white/10 bg-[#0f0c16] p-6 sm:p-8" data-mode={mode}>
+  <div class="flex flex-wrap items-center justify-between gap-3">
+    <h2 class="text-2xl font-black">{title}</h2>
+    <span class="rounded-full border border-emerald-400/25 bg-emerald-400/10 px-3 py-1 text-xs font-semibold text-emerald-200">Runs on your device · photo not uploaded</span>
+  </div>
+  <label class="fs-drop mt-6 flex cursor-pointer flex-col items-center justify-center gap-2 rounded-2xl border border-dashed border-white/20 bg-white/[0.02] p-8 text-center transition hover:border-fuchsia-400/50">
+    <img class="fs-photo hidden max-h-60 rounded-xl" alt="Your selected photo" />
+    <span class="fs-cta font-bold">Choose a front-facing photo</span>
+    <span class="fs-hint text-xs text-[#888]">JPG, PNG or WebP · good light · look straight at the camera</span>
+    <input class="fs-input sr-only" type="file" accept="image/jpeg,image/png,image/webp" />
+  </label>
+  <p class="fs-status mt-4 text-sm text-[#aaa]" aria-live="polite"></p>
+  <div class="fs-results mt-6 hidden space-y-4"></div>
+  <div class="fs-next mt-6 hidden rounded-2xl border border-fuchsia-400/25 bg-gradient-to-r from-fuchsia-500/10 to-violet-500/10 p-5">
+    <p class="font-bold">Want the full picture?</p>
+    <p class="mt-1 text-sm text-[#bbb]">Aura Pro writes a personal AI report from your photo and lets you try haircuts, beards and glasses on it, with a plan and a coach. From $4.17 a month.</p>
+    <a href={proHref} data-placement="free-tool" class="mt-4 inline-flex rounded-xl btn-gradient px-5 py-3 text-sm font-bold text-white">Get my full report →</a>
+  </div>
+  <p class="mt-5 text-xs leading-relaxed text-[#777]">Estimates from a single photo. Camera angle, lens and hair move these numbers. They describe this photo, not your worth or a fixed trait.</p>
+</div>
+
+<script>
+  import { analyzePhoto, imageFrom, preloadFaceLandmarker } from '../../../../config/face-landmarker';
+  import type { FaceGeometry } from '../../../../config/face-geometry';
+
+  const SHAPE_NOTE: Record<string, string> = {
+    Oval: 'Balanced length and width. Most haircuts and frames work; you can choose by style rather than to correct anything.',
+    Round: 'Length and width are similar with soft angles. Height on top and angular frames add structure.',
+    Square: 'A strong jaw almost as wide as the cheeks. Textured, softer cuts and round frames balance it.',
+    Oblong: 'Longer than it is wide. Volume at the sides, a fringe and wider frames balance the length.',
+    Heart: 'Wider forehead and a narrower jaw. Side-swept fringes and bottom-heavy frames balance it.',
+    Diamond: 'Cheekbones are the widest point. Fuller sides at the top and oval frames soften them.'
+  };
+
+  const esc = (s: string) => s.replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c]!);
+  const card = (label: string, value: string, note = '') =>
+    `<div class="rounded-2xl border border-white/10 bg-white/[0.03] p-5"><p class="text-xs uppercase tracking-wider text-[#888]">${esc(label)}</p><p class="mt-1 text-2xl font-black capitalize">${esc(value)}</p>${note ? `<p class="mt-1 text-sm text-[#aaa]">${esc(note)}</p>` : ''}</div>`;
+
+  function render(g: FaceGeometry, mode: string) {
+    const parts: string[] = [];
+    const shapes = Object.entries(g.faceShape.scores).sort((a, b) => b[1] - a[1]).slice(0, 3);
+    const topScore = shapes[0]?.[1] || 1;
+    if (mode === 'all' || mode === 'shape') {
+      parts.push(`<div class="rounded-2xl border border-fuchsia-400/25 bg-fuchsia-500/5 p-5"><p class="text-xs uppercase tracking-wider text-fuchsia-300">Likely face shape</p><p class="mt-1 text-3xl font-black">${esc(g.faceShape.shape)}</p><p class="mt-1 text-sm text-[#bbb]">${esc(SHAPE_NOTE[g.faceShape.shape] ?? '')}</p><div class="mt-4 space-y-2">${shapes
+        .map(([s, v]) => `<div class="flex items-center gap-3 text-xs"><span class="w-16 text-[#aaa]">${esc(s)}</span><span class="h-1.5 flex-1 overflow-hidden rounded-full bg-white/10"><span class="block h-full rounded-full bg-gradient-to-r from-fuchsia-500 to-violet-500" style="width:${Math.round((v / topScore) * 100)}%"></span></span></div>`)
+        .join('')}</div></div>`);
+    }
+    const grid: string[] = [];
+    if (mode === 'all' || mode === 'symmetry' || mode === 'golden')
+      grid.push(card('Symmetry', `${g.symmetry.score} / 100`, `Most balanced: ${g.symmetry.mostBalanced}. Least: ${g.symmetry.leastBalanced}.`));
+    if (mode === 'golden' || mode === 'all') {
+      const ratio = g.measurements.lengthToWidth;
+      grid.push(card('Length to width', ratio.toFixed(2), 'Upper forehead to chin vs. cheek width. Most faces land between about 1.2 and 1.4.'));
+      grid.push(card('Lower to middle third', g.thirds.lowerToMiddle.toFixed(2), 'Nose base to chin vs. brow to nose base. Around 1.0 reads as balanced.'));
+      grid.push(card('Eye spacing', g.eyes.spacingLabel, `Gap between the eyes is ${g.eyes.spacing.toFixed(2)}× one eye width (rule of fifths: about 1.0).`));
+    }
+    if (mode === 'eyes' || mode === 'all') {
+      grid.push(card('Eye shape', g.eyes.shape, `Openness ${g.eyes.openness.toFixed(2)} (height to width).`));
+      grid.push(card('Canthal tilt', g.canthalTilt.label, `About ${g.canthalTilt.mean > 0 ? '+' : ''}${g.canthalTilt.mean}° (left ${g.canthalTilt.left}°, right ${g.canthalTilt.right}°).`));
+      if (mode === 'eyes') grid.push(card('Eye spacing', g.eyes.spacingLabel, `Gap between the eyes is ${g.eyes.spacing.toFixed(2)}× one eye width.`));
+    }
+    if (mode === 'symmetry') grid.push(card('Head tilt corrected', `${Math.abs(g.rollDegrees)}°`, 'We rotate the face upright before comparing sides.'));
+    if (grid.length) parts.push(`<div class="grid gap-4 sm:grid-cols-2">${grid.join('')}</div>`);
+    if (g.warnings.length) parts.push(`<ul class="rounded-2xl bg-amber-500/10 p-4 text-sm text-amber-200">${g.warnings.map((w) => `<li>${esc(w)}</li>`).join('')}</ul>`);
+    return parts.join('');
+  }
+
+  for (const root of document.querySelectorAll<HTMLElement>('.face-scanner')) {
+    const input = root.querySelector<HTMLInputElement>('.fs-input')!;
+    const photo = root.querySelector<HTMLImageElement>('.fs-photo')!;
+    const status = root.querySelector<HTMLElement>('.fs-status')!;
+    const results = root.querySelector<HTMLElement>('.fs-results')!;
+    const next = root.querySelector<HTMLElement>('.fs-next')!;
+    const mode = root.dataset.mode ?? 'all';
+    let warmed = false;
+    const warm = () => {
+      if (!warmed) preloadFaceLandmarker();
+      warmed = true;
+    };
+    root.addEventListener('pointerenter', warm, { once: true });
+    root.addEventListener('focusin', warm, { once: true });
+    input.addEventListener('change', async () => {
+      const file = input.files?.[0];
+      if (!file) return;
+      results.classList.add('hidden');
+      next.classList.add('hidden');
+      status.textContent = 'Measuring your face on this device…';
+      try {
+        const image = await imageFrom(file);
+        photo.src = image.src;
+        photo.classList.remove('hidden');
+        root.querySelector('.fs-cta')!.textContent = 'Choose another photo';
+        const geometry = await analyzePhoto(image);
+        results.innerHTML = render(geometry, mode);
+        results.classList.remove('hidden');
+        next.classList.remove('hidden');
+        status.textContent = '';
+      } catch (error) {
+        status.textContent = error instanceof Error ? error.message : 'We could not read this photo. Try another one.';
+      }
+    });
+  }
+</script>

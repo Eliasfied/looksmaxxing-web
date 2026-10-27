@@ -189,7 +189,7 @@ You do not need to "correct" a shape you like.
 
 If you want a structured overview of how your features, brows and hair fit together, Aura's [Face Analysis for Women](https://app.aura-looksmaxxing.com/tools/face-analysis-for-women?source=%2Fblog%2Fcanthal-tilt-female) covers this. It is built around the style goals you set and returns three sections: a facial profile, hair and brow ideas, and your personal priorities.
 
-It gives a subjective styling read, not a calibrated canthal tilt measurement. The free output is a styling-potential estimate, and the full findings unlock after a one-time $2.99 purchase.
+It gives a subjective styling read, not a calibrated canthal tilt measurement. The free part is an on-device preview of your eye geometry; the full findings are part of Aura Pro ($9.99 a month or $49.99 a year).
 
 ![Illustrated close-up of a green eye with a thin black winged liner flicking up toward the tail of a softly lifted brow, with upper lashes fanned upward and outward; beside it on a light marble surface lie a black eyeliner pencil, a brown brow pencil with a spoolie end, and a separate spoolie brush.](/blog/canthal-tilt-female/3.webp)
 

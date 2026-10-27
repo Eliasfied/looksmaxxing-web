@@ -56,43 +56,14 @@ export function ResultsClient({ initialScans }: Props) {
     <div className="space-y-8">
       <div>
         <h2 className="text-2xl font-black text-white tracking-tight">
-          Earlier face scans
+          Scan history
         </h2>
-        <p className="text-[#666] text-sm mt-1">Your looksmaxxing history</p>
-        <Link
-          href="/tools/ai-face-rating"
-          className="mt-4 w-full flex items-center justify-center gap-2 rounded-full bg-gradient-to-r from-fuchsia-600 to-violet-600 px-5 py-3 text-sm font-bold text-white hover:opacity-90 transition-opacity"
-        >
-          <svg
-            className="h-4 w-4"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
-            strokeWidth={2.5}
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              d="M12 4v16m8-8H4"
-            />
-          </svg>
-          New Scan
-        </Link>
+        <p className="text-[#666] text-sm mt-1">Every check-in, newest first</p>
       </div>
 
       {scans.length === 0 ? (
-        <div className="flex flex-col items-center justify-center rounded-2xl border border-white/5 bg-white/[0.02] py-24 text-center">
-          <div className="mb-4 text-5xl">📸</div>
-          <h2 className="text-lg font-bold text-white mb-2">No scans yet</h2>
-          <p className="text-[#555] text-sm mb-6">
-            Start a new tool report. The potential estimate comes first.
-          </p>
-          <Link
-            href="/tools/ai-face-rating"
-            className="rounded-full bg-gradient-to-r from-fuchsia-600 to-violet-600 px-6 py-3 text-sm font-bold text-white hover:opacity-90 transition-opacity"
-          >
-            Start Face Scan
-          </Link>
+        <div className="rounded-2xl border border-dashed border-white/10 bg-white/[0.02] py-12 text-center text-sm text-white/45">
+          Your face scans will show up here.
         </div>
       ) : (
         <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">

@@ -13,7 +13,7 @@ export default function WelcomePage() {
 
         <h1 className="text-3xl font-black text-white mb-3">You&apos;re all set!</h1>
         <p className="text-[#888] text-base mb-10">
-          You are ready to create anything you can imagine.
+          Aura Pro is active. Start with your face scan; your plan, try-ons and coach build on it.
         </p>
 
         <Link
@@ -21,11 +21,11 @@ export default function WelcomePage() {
           className="btn-gradient inline-flex items-center gap-2 rounded-full px-8 py-4 text-base font-bold text-white hover:opacity-90 transition-opacity"
         >
           <Sparkles className="h-5 w-5" />
-          Start generating
+          Open my glow-up
         </Link>
 
         <p className="mt-6 text-xs text-[#444]">
-          Credits not showing up?{' '}
+          Pro not showing up yet?{' '}
           <span className="text-[#666]">They may take a few seconds. Try refreshing the page.</span>
         </p>
       </div>

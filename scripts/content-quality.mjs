@@ -83,9 +83,9 @@ export function productBrief(page) {
   return {
     tool, url: tool ? toolHref(tool.slug, source) : null,
     rules: [
-      'The only output that costs nothing is a subjective styling-potential estimate. Full findings are locked until account creation and a $2.99 one-time purchase (subscriptions are optional). Upload is before signup. Never describe the product itself as free.',
+      'The only part that costs nothing is an on-device preview (face shape, symmetry, canthal tilt, eye shape) measured in the browser without uploading the photo. Every AI report, the try-on studio, the plan, the coach and progress tracking are part of Aura Pro ($9.99 a month or $49.99 a year). There is no one-time purchase. Never describe Aura Pro or the AI report as free.',
       'Never claim calibrated measurements, scientific attractiveness, a predicted improvement, weight loss from a face photo, medical results, or that all photo processing avoids third parties.',
-      'Haircut tools produce recommendations and a stylist brief. Image try-on is a separate paid app feature. The planner provides four weeks of tasks and a daily checklist.',
+      'Haircut tools produce recommendations and a stylist brief. Image try-ons (haircut, hair color, beard, glasses, bald preview) happen in the Aura Pro studio. The planner provides four weeks of tasks and a daily checklist.',
       'If relevant, include one contextual Markdown link to the exact supplied tool URL after explaining a useful concept. Describe an output from this matched tool only: use its focus and resultLabels, not features from another tool. Additional template cards are limited to a pilot; do not assume a new article has them. Avoid repeating promotional cards in the text.',
       'For women, respect feminine styling preferences; do not assume masculine ideals or infer gender identity from photos.',
       'HTN means high-tier normie, MTN means mid-tier normie, LTN means low-tier normie. These are informal community labels, not anatomy or medical categories.',

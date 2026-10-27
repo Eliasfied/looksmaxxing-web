@@ -7,6 +7,7 @@ import { appConfig } from './config'
 import type { ToolReport } from './tool-report'
 import { findTool } from './tool-report'
 import { getCredits } from './firebase/credits'
+import { getPlan } from './entitlement'
 
 export const GUEST_COOKIE = 'aura_tool_guest'
 const DAY = 86_400_000
@@ -129,6 +130,39 @@ export async function saveToolReport(
   return id
 }
 
+// Pro reports are created for a signed-in owner and are unlocked from the
+// start, so they need no guest token, claim step or expiry.
+export async function saveOwnedToolReport(
+  userId: string,
+  tool: string,
+  report: ToolReport,
+  source: string,
+  audience: string
+) {
+  const id = randomBytes(20).toString('hex')
+  const payload: SealedReport = { report, tool, guestHash: '', createdAt: Date.now(), source, audience }
+  await adminDb.runTransaction(async (tx) => {
+    tx.set(adminDb.collection('private_tool_reports').doc(id), {
+      sealed: seal(payload, id),
+      userId,
+      claimProof: signature(`claim:${id}:${userId}`),
+      unlockProof: signature(`unlock:${id}:${userId}`),
+      unlockedAt: Timestamp.now()
+    })
+    // No photos, facial metrics or report text in funnel analytics.
+    tx.set(adminDb.collection('tool_funnel_events').doc(`unlock-${id}`), {
+      event: 'report_unlocked',
+      userId,
+      reportId: id,
+      tool,
+      source,
+      pro: true,
+      createdAt: new Date().toISOString()
+    })
+  })
+  return id
+}
+
 export async function accessReport(id: string) {
   if (!/^[a-f0-9]{40}$/.test(id)) return null
   const ref = adminDb.collection('private_tool_reports').doc(id)
@@ -224,23 +258,27 @@ export async function listToolReports(userId: string) {
 export async function unlockToolReport(id: string) {
   const access = await claimReport(id)
   const userId = access.user!.id
-  const cost = appConfig.credits.toolReport
+  const pro = (await getPlan(userId)).pro
+  const cost = pro ? 0 : appConfig.credits.toolReport
   await getCredits(userId)
   const creditRef = adminDb.collection('credits').doc(userId)
   const userRef = adminDb.collection('users').doc(userId)
   await adminDb.runTransaction(async (tx) => {
     const [reportDoc, balanceDoc, userDoc] = await tx.getAll(access.ref, creditRef, userRef)
     if (reportDoc.data()?.unlockProof === signature(`unlock:${id}:${userId}`)) return
-    if (userDoc.data()?.has_purchased !== true) throw new Error('PAYMENT_REQUIRED')
-    const balance = balanceDoc.data() ?? {}
-    const subscription = Math.max(0, Number(balance.subscription_credits) || 0)
-    const topup = Math.max(0, Number(balance.topup_credits) || 0)
-    if (subscription + topup < cost) throw new Error('PAYMENT_REQUIRED')
-    const fromSubscription = Math.min(subscription, cost)
-    tx.update(creditRef, {
-      subscription_credits: subscription - fromSubscription,
-      topup_credits: topup - (cost - fromSubscription)
-    })
+    // Pro covers every report; legacy top-up credits can still pay for one.
+    if (!pro) {
+      if (userDoc.data()?.has_purchased !== true) throw new Error('PAYMENT_REQUIRED')
+      const balance = balanceDoc.data() ?? {}
+      const subscription = Math.max(0, Number(balance.subscription_credits) || 0)
+      const topup = Math.max(0, Number(balance.topup_credits) || 0)
+      if (subscription + topup < cost) throw new Error('PAYMENT_REQUIRED')
+      const fromSubscription = Math.min(subscription, cost)
+      tx.update(creditRef, {
+        subscription_credits: subscription - fromSubscription,
+        topup_credits: topup - (cost - fromSubscription)
+      })
+    }
     tx.update(access.ref, {
       unlockProof: signature(`unlock:${id}:${userId}`),
       unlockedAt: Timestamp.now(),

@@ -176,13 +176,13 @@ Aura's [AI Face Analysis](https://app.aura-looksmaxxing.com/tools/ai-face-rating
 
 - You upload your photo before signing up.
 - The free output is a subjective styling-potential estimate.
-- The full findings unlock after you create an account and make a $2.99 one-time purchase. Subscriptions are optional.
+- The full findings are part of Aura Pro ($9.99 a month or $49.99 a year). Subscriptions are optional.
 - Any score is a subjective, photo-based estimate. It is not an objective measurement of attractiveness.
 
 | | Qoves membership | Aura AI Face Analysis |
 | --- | --- | --- |
 | Who prepares it | Human-reviewed analysis | AI tool |
-| Price | $150 per year, plus optional add-ons | Free styling-potential estimate; full findings for $2.99 one-time |
+| Price | $150 per year, plus optional add-ons | Free on-device face preview; full findings with Aura Pro, $49.99 per year or $9.99 per month |
 | Focus | Detailed facial assessment, protocol, optional surgical suggestions | Visible features, grooming and styling options |
 | Best use | Homework before a professional consultation | Exploring styling ideas |
 

@@ -9,9 +9,8 @@ import {
 } from 'react'
 import Link from 'next/link'
 import posthog from 'posthog-js'
-import { PurchaseButton } from '@/components/purchase-button'
+import { ProPaywall } from '@/components/pro-paywall'
 import type { ToolDefinition, ToolReport } from '@/lib/tool-report'
-import { appConfig } from '@/lib/config'
 
 function subscribeChecklist(callback: () => void) {
   window.addEventListener('storage', callback)
@@ -38,7 +37,6 @@ export function ToolResult({
   checkoutRequested?: boolean
 }) {
   const [report, setReport] = useState(initialReport),
-    [checkout, setCheckout] = useState(false),
     [error, setError] = useState(''),
     [waiting, setWaiting] = useState(false)
   const checklistJson = useSyncExternalStore(
@@ -60,69 +58,57 @@ export function ToolResult({
   } catch {
     /* unavailable local storage */
   }
-  const [claimed, setClaimed] = useState(Boolean(initialReport)),
-    [paymentSubmitted, setPaymentSubmitted] = useState(false)
+  const [claimed, setClaimed] = useState(Boolean(initialReport))
+  const [planSaved, setPlanSaved] = useState(false),
+    [savingPlan, setSavingPlan] = useState(false)
   const active = useRef(true)
   const returnPath = `/tools/result/${id}?checkout=1`
-  const unlock = useCallback(
-    async (waitForPayment = false) => {
-      if (waitForPayment) {
-        setPaymentSubmitted(true)
-        try {
-          localStorage.setItem(`aura-payment-${id}`, 'pending')
-        } catch {
-          /* optional persistence */
-        }
+  const hasTasks = Boolean(report?.sections.some((s) => s.tasks?.length))
+  const unlock = useCallback(async () => {
+    setWaiting(true)
+    setError('')
+    try {
+      const response = await fetch(`/api/tools/reports/${id}`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ action: 'unlock' })
+      })
+      if (!active.current) return
+      if (response.status === 402) {
+        setError('This report is part of Aura Pro.')
+        return
       }
-      setWaiting(true)
-      setError('')
-      try {
-        for (let attempt = 0; attempt < (waitForPayment ? 20 : 1); attempt++) {
-          const response = await fetch(`/api/tools/reports/${id}`, {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({ action: 'unlock' })
-          })
-          if (!active.current) return
-          if (response.ok) {
-            const full = await fetch(`/api/tools/reports/${id}`, {
-              cache: 'no-store'
-            })
-            const data = await full.json()
-            if (!full.ok || !data.unlocked || !data.report)
-              throw new Error(
-                'Your report is not ready yet. Please refresh this page.'
-              )
-            setReport(data.report)
-            setCheckout(false)
-            try {
-              localStorage.removeItem(`aura-payment-${id}`)
-            } catch {
-              /* optional persistence */
-            }
-            posthog.capture('tool_report_unlocked', { tool: tool.slug })
-            return
-          }
-          if (response.status !== 402)
-            throw new Error('Please sign in again to open this report.')
-          if (!waitForPayment) {
-            setCheckout(true)
-            return
-          }
-          await new Promise((resolve) => setTimeout(resolve, 1500))
-        }
-        throw new Error(
-          'Your payment is still being confirmed. Use “Check payment” below; please do not pay again.'
-        )
-      } catch (e) {
-        if (active.current)
-          setError(e instanceof Error ? e.message : 'Please try again.')
-      } finally {
-        if (active.current) setWaiting(false)
-      }
-    },
-    [id, tool.slug]
-  )
+      if (!response.ok) throw new Error('Please sign in again to open this report.')
+      const full = await fetch(`/api/tools/reports/${id}`, { cache: 'no-store' })
+      const data = await full.json()
+      if (!full.ok || !data.unlocked || !data.report)
+        throw new Error('Your report is not ready yet. Please refresh this page.')
+      setReport(data.report)
+      posthog.capture('tool_report_unlocked', { tool: tool.slug })
+    } catch (e) {
+      if (active.current) setError(e instanceof Error ? e.message : 'Please try again.')
+    } finally {
+      if (active.current) setWaiting(false)
+    }
+  }, [id, tool.slug])
+  async function makePlan() {
+    setSavingPlan(true)
+    setError('')
+    try {
+      const response = await fetch('/api/plan', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ reportId: id })
+      })
+      if (!response.ok) throw new Error((await response.json()).error ?? 'Could not save your plan.')
+      setPlanSaved(true)
+      posthog.capture('plan_created', { tool: tool.slug })
+    } catch (e) {
+      setError(e instanceof Error ? e.message : 'Could not save your plan.')
+    } finally {
+      setSavingPlan(false)
+    }
+  }
   useEffect(() => {
     active.current = true
     posthog.capture(
@@ -144,14 +130,8 @@ export function ToolResult({
             )
           if (active.current) {
             setClaimed(true)
-            let pending = false
-            try {
-              pending = localStorage.getItem(`aura-payment-${id}`) === 'pending'
-            } catch {
-              /* optional persistence */
-            }
-            // A normal preview visit must never spend an existing buyer's credits.
-            if (pending || checkoutRequested) void unlock(pending)
+            // Coming back from checkout: open the report for the new Pro member.
+            if (checkoutRequested) void unlock()
           }
         })
         .catch((e) => {
@@ -163,10 +143,6 @@ export function ToolResult({
     }
   }, [id, initialReport, signedIn, tool.slug, unlock, checkoutRequested])
 
-  async function beginCheckout() {
-    posthog.capture('tool_unlock_clicked', { tool: tool.slug })
-    await unlock()
-  }
   function toggleTask(key: string) {
     const next = { ...completed, [key]: !completed[key] }
     try {
@@ -217,7 +193,7 @@ export function ToolResult({
                             type="checkbox"
                             checked={Boolean(completed[`${i}-${j}`])}
                             onChange={() => toggleTask(`${i}-${j}`)}
-                            className="mt-1"
+                            className="mt-1 accent-fuchsia-500"
                           />
                           <span>{task}</span>
                         </label>
@@ -231,36 +207,48 @@ export function ToolResult({
           <p className="mt-6 text-sm leading-relaxed text-white/55">
             {report.limitations}
           </p>
-          <p className="mt-3 text-xs text-white/40">
-            Checklist progress is saved in this browser.
-          </p>
-          <div className="mt-8 flex flex-wrap gap-5">
+          {hasTasks && (
+            <div className="mt-8 flex flex-wrap items-center justify-between gap-4 rounded-2xl border border-fuchsia-400/25 bg-gradient-to-r from-fuchsia-500/10 to-violet-500/10 p-5 print:hidden">
+              <div>
+                <p className="font-bold">Turn this into your daily plan</p>
+                <p className="text-sm text-white/60">
+                  Your tasks move to “My plan”, sync across devices and your coach follows along.
+                </p>
+              </div>
+              {planSaved ? (
+                <Link href="/plan" className="rounded-full bg-white px-5 py-2.5 text-sm font-bold text-black">
+                  Open my plan →
+                </Link>
+              ) : (
+                <button
+                  onClick={() => void makePlan()}
+                  disabled={savingPlan}
+                  className="btn-gradient rounded-full px-5 py-2.5 text-sm font-bold text-white disabled:opacity-50"
+                >
+                  {savingPlan ? 'Saving…' : 'Make this my plan'}
+                </button>
+              )}
+            </div>
+          )}
+          <div className="mt-8 flex flex-wrap gap-5 print:hidden">
             <Link href="/tools" className="font-semibold text-fuchsia-300">
-              Explore another tool →
+              Run another analysis →
+            </Link>
+            <Link href="/studio" className="text-white/70">
+              Try a look in the studio
             </Link>
             <Link href="/dashboard" className="text-white/70">
-              Your account
+              My glow-up
             </Link>
             <button onClick={() => window.print()} className="text-white/70">
               Print / save PDF
             </button>
           </div>
-          <aside className="mt-8 rounded-2xl border border-white/10 p-6 print:hidden">
-            <h2 className="text-lg font-bold">Build on your report</h2>
-            <p className="mt-2 text-sm leading-relaxed text-white/65">
-              Explore hairstyles, a personal glow-up plan or progress
-              comparisons. An optional subscription starts at $9.99/month with
-              100 monthly credits for up to{' '}
-              {Math.floor(100 / appConfig.credits.toolReport)} reports or a mix
-              with try-ons.
+          {error && (
+            <p role="alert" className="mt-4 text-sm text-red-300">
+              {error}
             </p>
-            <Link
-              href="/pricing"
-              className="mt-4 inline-block text-sm font-semibold text-fuchsia-300"
-            >
-              Explore optional plans →
-            </Link>
-          </aside>
+          )}
         </>
       ) : (
         <>
@@ -280,137 +268,38 @@ export function ToolResult({
                   <div className="h-3 w-10/12 rounded bg-white/10" />
                 </div>
                 <span className="absolute right-5 top-5 text-xs text-white/50">
-                  Locked
+                  Pro
                 </span>
               </section>
             ))}
           </div>
-          <div
-            id="report-unlock"
-            className="mt-7 scroll-mt-6 rounded-2xl border border-fuchsia-300/25 bg-[#14101c] p-6 text-center"
-          >
-            <h2 className="text-2xl font-bold">Make the result useful.</h2>
-            <p className="mt-2 text-white/65">
-              Get the full explanation and personal suggestions for $2.99 once.
-              No subscription required.
-            </p>
-            {!signedIn ? (
-              <Link
-                onClick={() =>
-                  posthog.capture('tool_unlock_clicked', { tool: tool.slug })
-                }
-                href={`/register?next=${encodeURIComponent(returnPath)}`}
-                className="mt-6 block rounded-xl bg-gradient-to-r from-fuchsia-600 to-violet-600 px-5 py-4 font-bold"
-              >
-                Unlock my report — $2.99
-              </Link>
-            ) : !claimed ? (
-              <p className="mt-6 text-sm text-white/60">
-                Saving your report to your account…
-              </p>
-            ) : !checkout ? (
-              <>
-                <button
-                  onClick={() => void beginCheckout()}
-                  disabled={waiting}
-                  className="mt-6 w-full rounded-xl bg-violet-600 px-5 py-4 font-bold disabled:opacity-50"
-                >
-                  {waiting ? 'Checking your access…' : 'Unlock my report'}
-                </button>
-                <p className="mt-3 text-xs text-white/50">
-                  Uses {appConfig.credits.toolReport} credits if you already
-                  have a paid balance. Otherwise choose a purchase next.
-                </p>
-              </>
+          <div id="report-unlock" className="mt-7 scroll-mt-6">
+            {signedIn && !claimed ? (
+              <p className="text-sm text-white/60">Saving your report to your account…</p>
             ) : (
-              <div className="mt-6 space-y-4">
-                {!paymentSubmitted && (
-                  <>
-                    <PurchaseButton
-                      productId="aura_starter_pack"
-                      productName="Full report"
-                      onSuccess={() => unlock(true)}
-                      className="w-full rounded-xl bg-gradient-to-r from-fuchsia-600 to-violet-600 px-5 py-4 font-bold"
-                    >
-                      Unlock for $2.99 once
-                    </PurchaseButton>
-                    <details className="rounded-xl border border-white/10 p-4 text-left">
-                      <summary className="cursor-pointer text-sm text-white/70">
-                        Prefer a subscription?
-                      </summary>
-                      <p className="my-3 text-sm text-white/60">
-                        100 credits each month: up to{' '}
-                        {Math.floor(100 / appConfig.credits.toolReport)} tool
-                        reports, or a mix with try-ons. A report uses{' '}
-                        {appConfig.credits.toolReport} credits; a try-on uses{' '}
-                        {appConfig.credits.haircutTryOn}. Unused monthly credits
-                        do not roll over. Subscriptions renew until cancelled.
-                      </p>
-                      <div className="grid gap-3 sm:grid-cols-2">
-                        <PurchaseButton
-                          productId="aura_monthly"
-                          productName="Monthly plan"
-                          onSuccess={() => unlock(true)}
-                          className="w-full rounded-lg border border-white/20 p-3 text-sm"
-                        >
-                          $9.99 / month
-                        </PurchaseButton>
-                        <PurchaseButton
-                          productId="aura_yearly"
-                          productName="Yearly plan"
-                          onSuccess={() => unlock(true)}
-                          className="w-full rounded-lg border border-white/20 p-3 text-sm"
-                        >
-                          $49.99 / year
-                        </PurchaseButton>
-                      </div>
-                    </details>
-                  </>
-                )}
-                {paymentSubmitted && (
-                  <p className="text-sm text-white/70">
-                    Payment submitted. We are waiting for confirmation; you do
-                    not need to pay again.
-                  </p>
-                )}
-                <button
-                  onClick={() => void unlock(paymentSubmitted)}
-                  disabled={waiting}
-                  className="text-sm text-white/60 underline"
-                >
-                  {waiting
-                    ? 'Confirming payment…'
-                    : 'Check payment / use existing credits'}
-                </button>
-              </div>
+              <ProPaywall
+                signedIn={signedIn}
+                returnTo={returnPath}
+                placement={`tool-result:${tool.slug}`}
+                headline="Your full report is one step away"
+                subline="Aura Pro unlocks this report and every other analysis, try-on and plan."
+                onActivated={() => unlock()}
+              />
             )}
-            {!signedIn && (
-              <p className="mt-3 text-xs text-white/50">
-                Next: sign in or create your account, then pay. Your report
-                stays with you.
-              </p>
+            {signedIn && claimed && (
+              <button
+                onClick={() => void unlock()}
+                disabled={waiting}
+                className="mt-4 text-sm text-white/55 underline"
+              >
+                {waiting ? 'Checking your access…' : 'Already Pro, or have credits from an earlier purchase? Open the report'}
+              </button>
             )}
             {error && (
               <p role="alert" className="mt-4 text-sm text-red-300">
                 {error}
               </p>
             )}
-          </div>
-          <div className="fixed inset-x-0 bottom-0 z-30 flex items-center justify-between gap-4 border-t border-white/10 bg-[#14101c]/95 px-5 py-4 backdrop-blur sm:hidden print:hidden">
-            <div>
-              <p className="text-sm font-bold">Your full report</p>
-              <p className="text-xs text-white/60">$2.99 once</p>
-            </div>
-            <a
-              href={
-                signedIn
-                  ? '#report-unlock'
-                  : `/register?next=${encodeURIComponent(returnPath)}`
-              }
-              className="rounded-xl bg-violet-600 px-5 py-3 text-sm font-bold"
-            >
-              Unlock report →
-            </a>
           </div>
         </>
       )}

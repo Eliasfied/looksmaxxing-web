@@ -32,9 +32,9 @@ export const appConfig = {
       interval: "monthly" | "yearly";
       rcProductId: string;
     }>,
-    creditPacks: [
-      { id: "aura_starter_pack", name: "Starter Pack", credits: 5, price: 2.99, rcProductId: "aura_starter_pack" },
-    ] as Array<{
+    // Legacy one-off pack: no longer sold, but old purchases still arrive via
+    // the RevenueCat webhook and existing top-up credits stay spendable.
+    creditPacks: [] as Array<{
       id: string;
       name: string;
       credits: number;
@@ -43,12 +43,20 @@ export const appConfig = {
     }>,
   },
 
+  // Aura Pro: AI analyses are unlimited under a daily fair-use cap; only
+  // generated images draw on the monthly credit allowance (100 credits).
+  pro: {
+    dailyAnalyses: 10,
+    freeCoachMessages: 3,
+  },
+
   credits: {
-    signupBonus: 2,
+    signupBonus: 0,
     scan: 3,
     unlockScan: 3,
     toolReport: 5,
     haircutTryOn: 2,
+    tryOn: 2,
   },
 
   aiModels: [] as Array<{

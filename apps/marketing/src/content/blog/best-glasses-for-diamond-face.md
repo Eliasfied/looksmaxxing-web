@@ -97,7 +97,7 @@ This is the most useful distinction to check. According to [Oblong Face Shape](h
 
 If you keep going back and forth, a second opinion from a photo can be useful. Aura's [Face Shape Finder](https://app.aura-looksmaxxing.com/tools/face-shape-detector?source=%2Fblog%2Fbest-glasses-for-diamond-face) gives your likely face shape with its uncertainty. It also explains how your forehead, cheek and jaw proportions compare, and suggests styling options, including accessories such as frames. It does not produce exact physical measurements.
 
-You upload a photo before signing up. The free result is a subjective styling-potential estimate. The full breakdown requires an account and a one-time $2.99 purchase.
+You upload a photo before signing up. The free result is a subjective styling-potential estimate. The full breakdown is part of Aura Pro ($9.99 a month or $49.99 a year).
 
 ## The Styling Logic: Balance the Widest Point
 

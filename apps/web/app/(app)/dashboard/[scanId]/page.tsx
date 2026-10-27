@@ -2,6 +2,7 @@ import { notFound, redirect } from 'next/navigation'
 import { getSessionUser } from '@/lib/firebase/server'
 import { getScanById, redactLockedScan } from '@/lib/firebase/scans'
 import { getCredits } from '@/lib/firebase/credits'
+import { getPlan } from '@/lib/entitlement'
 import { ScanDetailClient } from './scan-detail-client'
 
 interface Props {
@@ -16,7 +17,7 @@ export default async function ScanDetailPage({ params }: Props) {
   const scan = await getScanById(scanId)
   if (!scan || scan.userId !== user.id) notFound()
 
-  const balance = await getCredits(user.id)
+  const [balance, plan] = await Promise.all([getCredits(user.id), getPlan(user.id)])
 
-  return <ScanDetailClient scan={redactLockedScan(scan)} availableCredits={balance.total_credits} />
+  return <ScanDetailClient scan={redactLockedScan(scan, plan.pro)} availableCredits={balance.total_credits} />
 }

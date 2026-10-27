@@ -3,6 +3,7 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
 import { toolCatalog, toolHref } from '../../../../../config/tool-routing.mjs';
 import ToolCTA from '../../components/ToolCTA.astro';
+import FaceScanner from '../../components/FaceScanner.astro';
 const APP_URL = import.meta.env.PUBLIC_APP_URL ?? 'https://app.aura-looksmaxxing.com';
 export async function getStaticPaths() {
   const pages = await getCollection('tools', ({ data }) => !data.draft);
@@ -11,17 +12,18 @@ export async function getStaticPaths() {
 const { page } = Astro.props;
 const tool = toolCatalog.find(t => t.slug === page.data.slug)!;
 const source = `/tools/${tool.slug}`;
+const scannerMode = ({ 'face-shape-detector': 'shape', 'symmetry-analyzer': 'symmetry', 'canthal-tilt-checker': 'eyes' } as const)[tool.slug as 'face-shape-detector'] ?? 'all';
 const steps = [
-  ['Upload', tool.requiresComparison ? 'Choose two photos with similar lighting and pose. No account is needed.' : 'Choose a clear selfie and tell us your styling preferences. No account is needed.'],
-  ['Preview', 'See your estimated styling potential. Your detailed observations and suggestions stay locked.'],
-  ['Unlock', 'Save the report to your account, then unlock it for $2.99 once. A subscription is optional.'],
+  ['Pick a photo', tool.requiresComparison ? 'Choose two photos with similar lighting and pose. No account is needed.' : 'Choose a clear selfie. No account is needed.'],
+  ['Free preview', 'Face shape, symmetry, canthal tilt and eye shape are measured in your browser. The photo is not uploaded.'],
+  ['Full report', 'Aura Pro writes your personal AI report, and adds the try-on studio, your plan and a coach.'],
 ];
-const schema = { '@context': 'https://schema.org', '@type': 'SoftwareApplication', name: tool.name, applicationCategory: 'LifestyleApplication', operatingSystem: 'Web', offers: { '@type': 'Offer', name: 'Full report unlock', price: '2.99', priceCurrency: 'USD' } };
+const schema = { '@context': 'https://schema.org', '@type': 'SoftwareApplication', name: tool.name, applicationCategory: 'LifestyleApplication', operatingSystem: 'Web', offers: [{ '@type': 'Offer', name: 'Free on-device preview', price: '0', priceCurrency: 'USD' }, { '@type': 'Offer', name: 'Aura Pro yearly', price: '49.99', priceCurrency: 'USD' }, { '@type': 'Offer', name: 'Aura Pro monthly', price: '9.99', priceCurrency: 'USD' }] };
 ---
 <!-- The catalog description is UI copy, reused on cards and in the article CTA.
      The search snippet is written for the result page, so it comes from the
      page's own frontmatter and falls back to the catalog only if it is missing. -->
-<BaseLayout title={page.data.title} description={page.data.description ?? tool.description + ' See your potential estimate without an account; unlock your full report for $2.99.'}>
+<BaseLayout title={page.data.title} description={page.data.description ?? tool.description + ' Free preview on your device, no account needed; the full AI report comes with Aura Pro.'}>
   <Fragment slot="head"><script type="application/ld+json" set:html={JSON.stringify(schema)} /></Fragment>
   <section class="max-w-6xl mx-auto px-6 pt-16 pb-12">
     <a href="/tools" class="text-sm text-[#999]">← All tools</a>
@@ -29,20 +31,21 @@ const schema = { '@context': 'https://schema.org', '@type': 'SoftwareApplication
       <div><p class="text-xs uppercase tracking-widest text-fuchsia-300 font-bold">{tool.audience === 'women' ? 'Styling for women' : 'Your personal styling toolkit'}</p>
         <h1 class="mt-4 text-4xl sm:text-5xl font-black leading-tight">{tool.name}</h1>
         <p class="mt-5 text-lg text-[#aaa] leading-relaxed">{tool.description}</p>
-        <a href={toolHref(tool.slug, source, APP_URL)} data-tool={tool.slug} data-placement="tool-hero" class="inline-block mt-7 btn-gradient rounded-xl px-7 py-4 font-bold">Upload photo & see my potential →</a>
-        <p class="mt-4 text-sm text-[#888]">Potential score without an account · Full report $2.99 once</p>
+        <a href={tool.requiresComparison ? toolHref(tool.slug, source, APP_URL) : '#free-preview'} data-tool={tool.slug} data-placement="tool-hero" class="inline-block mt-7 btn-gradient rounded-xl px-7 py-4 font-bold">Start my free preview →</a>
+        <p class="mt-4 text-sm text-[#888]">Free preview on your device · Full report with Aura Pro</p>
       </div>
       <div class="rounded-3xl border border-fuchsia-400/20 bg-gradient-to-br from-fuchsia-950/40 to-violet-950/20 p-7">
         <p class="text-xs uppercase tracking-widest text-[#999]">How your report is organised</p>
-        <div class="my-6 rounded-2xl border border-white/10 p-5"><p class="text-fuchsia-300 font-bold">Your potential estimate</p><p class="mt-2 text-sm text-[#aaa]">Visible in your preview</p></div>
-        <div class="space-y-3">{tool.resultLabels.map(label => <div class="rounded-xl border border-white/10 p-4"><span class="text-sm font-bold">{label}</span><span class="block mt-1 text-xs text-[#888]">Included in the full report</span></div>)}</div>
+        <div class="my-6 rounded-2xl border border-white/10 p-5"><p class="text-fuchsia-300 font-bold">Face shape, symmetry and eye geometry</p><p class="mt-2 text-sm text-[#aaa]">Free preview, measured on your device</p></div>
+        <div class="space-y-3">{tool.resultLabels.map(label => <div class="rounded-xl border border-white/10 p-4"><span class="text-sm font-bold">{label}</span><span class="block mt-1 text-xs text-[#888]">In the full AI report with Aura Pro</span></div>)}</div>
         <p class="mt-5 text-xs text-[#777]">Report outline — your personal result is created from your photo.</p>
       </div>
     </div>
   </section>
+  {!tool.requiresComparison && <section id="free-preview" class="max-w-4xl mx-auto px-6 py-8"><FaceScanner mode={scannerMode} toolSlug={tool.slug} source={source} title="Free preview, right here" /></section>}
   <section class="max-w-6xl mx-auto px-6 py-12"><h2 class="text-3xl font-bold">From photo to practical next steps</h2><ol class="grid gap-5 mt-7 md:grid-cols-3">{steps.map(([title, text], i) => <li class="rounded-2xl border border-white/10 bg-[#101010] p-6"><span class="text-fuchsia-300 text-sm">0{i + 1}</span><h3 class="mt-2 text-xl font-bold">{title}</h3><p class="mt-3 text-[#aaa] leading-relaxed">{text}</p></li>)}</ol></section>
   <section class="max-w-3xl mx-auto px-6 py-12"><h2 class="text-2xl font-bold">What to expect</h2><p class="mt-4 text-[#aaa] leading-relaxed">Your report focuses on {tool.resultLabels.map(s => s.toLowerCase()).join(', ')}. Tell us your preferences to make the suggestions more useful. You can reopen your unlocked report from your account.</p>
-    {tool.slug.includes('hair') && <p class="mt-4 text-[#aaa]">This tool creates a haircut shortlist and a stylist brief. A generated hairstyle try-on is a separate feature in the app and uses additional credits.</p>}
+    {tool.slug.includes('hair') && <p class="mt-4 text-[#aaa]">This tool creates a haircut shortlist and a stylist brief. Seeing a cut on your own photo happens in the Aura Pro try-on studio.</p>}
     {tool.slug === 'glow-up-planner' && <p class="mt-4 text-[#aaa]">Your plan includes four weeks of small tasks and a daily checklist. Check off tasks in your browser or print the report to PDF.</p>}
     {tool.requiresComparison && <p class="mt-4 text-[#aaa]">This page keeps its original mewing-tracker address. The tool compares photographs; it cannot establish whether mewing caused a change or whether your bones changed.</p>}
     <p class="mt-4 text-[#888]">AI observations are subjective and sensitive to lighting, head position and image quality. They do not provide calibrated measurements, a diagnosis or guaranteed changes to your appearance.</p>

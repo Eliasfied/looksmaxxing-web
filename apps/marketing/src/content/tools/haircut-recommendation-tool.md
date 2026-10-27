@@ -14,5 +14,5 @@ related: [glow-up-planner, face-analysis-for-women, hairstyle-finder-for-women, 
 
 Get three haircut suggestions and a brief for your stylist.
 
-Start with a photo and your preferences. The potential estimate costs nothing; the complete report can be unlocked for $2.99 after creating an account.
+Start with a photo and your preferences. The on-device preview costs nothing; the complete report is part of Aura Pro ($9.99 a month or $49.99 a year).
 

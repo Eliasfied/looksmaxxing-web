@@ -5,6 +5,7 @@ import { getCredits } from '@/lib/firebase/credits'
 import { adminDb } from '@/lib/firebase/admin'
 import { Zap, CreditCard, RotateCcw, Gift, RefreshCw, Sparkles } from 'lucide-react'
 import { CancelSubscriptionButton } from '@/components/cancel-subscription-button'
+import { planFromSubscription } from '@/lib/entitlement'
 import { appConfig } from '@/lib/config'
 
 const TRANSACTION_ICONS: Record<string, React.ReactNode> = {
@@ -20,7 +21,7 @@ const TRANSACTION_LABELS: Record<string, string> = {
   subscription_grant: 'Subscription grant',
   subscription_reset: 'Subscription reset',
   topup_purchase: 'Credit pack purchased',
-  generation_used: 'Generation used',
+  generation_used: 'Try-on used',
   bonus: 'Welcome bonus',
   refund: 'Refund',
 }
@@ -57,6 +58,7 @@ export default async function SettingsPage() {
       .get(),
     adminDb.collection('subscriptions').doc(user.id).get(),
   ])
+  const plan = planFromSubscription(subSnap.data())
 
   const transactions = txSnap.docs.map((d) => ({ id: d.id, ...d.data() })) as Array<{
     id: string
@@ -77,49 +79,28 @@ export default async function SettingsPage() {
         <p className="mt-1 text-sm text-[#888888]">{user.email}</p>
       </div>
 
-      {/* Credit stats */}
-      <div className="grid gap-4 sm:grid-cols-3">
-        <div className="rounded-xl border border-[#222222] bg-black p-5 flex flex-col gap-3">
-          <p className="text-xs uppercase tracking-wider text-[#666666]">Total Credits</p>
-          <p className="text-3xl font-bold text-white">{balance.total_credits.toLocaleString()}</p>
-          <Link
-            href="/pricing?tab=credits"
-            className="btn-gradient mt-auto flex items-center justify-center gap-1.5 rounded-lg py-2 text-xs font-bold text-white transition-opacity hover:opacity-90"
-          >
-            <Zap className="h-3 w-3" />
-            Buy Credits
-          </Link>
-        </div>
-        <div className="rounded-xl border border-[#222222] bg-black p-5">
-          <p className="mb-3 text-xs uppercase tracking-wider text-[#666666]">Subscription</p>
-          <p className="text-3xl font-bold text-white">{balance.subscription_credits.toLocaleString()}</p>
-          <p className="mt-2 text-xs text-[#666666]">Resets each billing period</p>
-        </div>
-        <div className="rounded-xl border border-[#222222] bg-black p-5">
-          <p className="mb-3 text-xs uppercase tracking-wider text-[#666666]">Top-up</p>
-          <p className="text-3xl font-bold text-white">{balance.topup_credits.toLocaleString()}</p>
-          <p className="mt-2 text-xs text-[#666666]">Never expire</p>
-        </div>
-      </div>
-
-      {/* Subscription info */}
-      <div className="rounded-xl border border-[#222222] bg-black p-6">
-        <div className="flex items-start justify-between gap-4">
+      {/* Plan */}
+      <div className="relative overflow-hidden rounded-[1.75rem] border border-white/10 bg-[#0d0b14] p-6">
+        <div aria-hidden className="pointer-events-none absolute -right-16 -top-16 h-48 w-48 rounded-full bg-fuchsia-600/20 blur-3xl" />
+        <div className="relative flex flex-wrap items-start justify-between gap-6">
           <div>
-            <p className="text-xs uppercase tracking-wider text-[#666666] mb-1">Current Plan</p>
-            <p className="text-xl font-bold text-white">
-              {subscription?.plan_name ?? 'No plan'}
+            <p className="mb-1 text-xs uppercase tracking-wider text-white/45">Current plan</p>
+            <p className="text-2xl font-black text-white">{plan.pro ? `Aura Pro · ${subscription?.plan_name ?? ''}` : 'Free'}</p>
+            <p className="mt-1 text-sm text-white/55">
+              {plan.pro
+                ? plan.cancelAtPeriodEnd
+                  ? `Cancelled · Pro stays active until ${formatRenewal(renewalDate)}`
+                  : `Renews on ${formatRenewal(renewalDate)}`
+                : 'Free previews on your device. Upgrade for AI analyses, try-ons, plan and coach.'}
             </p>
-            {subscription?.plan_monthly_credits && (
-              <p className="mt-1 text-sm text-[#888888]">
-                {Number(subscription.plan_monthly_credits).toLocaleString()} credits / month
-              </p>
-            )}
           </div>
-          <div className="text-right shrink-0">
-            <p className="text-xs uppercase tracking-wider text-[#666666] mb-1">Credits renew</p>
-            <p className="text-sm font-medium text-white">{formatRenewal(renewalDate)}</p>
-          </div>
+          {plan.pro && (
+            <div className="text-right">
+              <p className="mb-1 text-xs uppercase tracking-wider text-white/45">Try-on looks left</p>
+              <p className="text-3xl font-black text-white">{Math.floor(balance.total_credits / appConfig.credits.tryOn)}</p>
+              <p className="text-xs text-white/45">Refills each month</p>
+            </div>
+          )}
         </div>
       </div>
 
@@ -130,7 +111,7 @@ export default async function SettingsPage() {
           className="btn-gradient flex items-center justify-center gap-2 rounded-xl py-3 text-sm font-bold text-white transition-opacity hover:opacity-90"
         >
           <Zap className="h-4 w-4" />
-          Upgrade Plan
+          {plan.pro ? 'View plan' : 'Get Aura Pro'}
         </Link>
         <CancelSubscriptionButton />
         <a

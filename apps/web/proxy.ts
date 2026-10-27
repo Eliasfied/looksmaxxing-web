@@ -1,7 +1,7 @@
 import { NextResponse, type NextRequest } from 'next/server'
 
 
-const PROTECTED = ['/dashboard', '/settings', '/credits', '/pricing', '/onboarding']
+const PROTECTED = ['/dashboard', '/settings', '/credits', '/pricing', '/onboarding', '/studio', '/plan', '/progress', '/chat']
 
 
 export function proxy(request: NextRequest) {

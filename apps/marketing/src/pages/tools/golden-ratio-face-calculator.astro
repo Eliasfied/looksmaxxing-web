@@ -1,0 +1,50 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import FaceScanner from '../../components/FaceScanner.astro';
+const source = '/tools/golden-ratio-face-calculator';
+const faq = [
+  ['Is the golden ratio the secret of an attractive face?', 'No. The idea that beautiful faces follow 1.618 is popular, but studies of facial attractiveness have not found that faces matching it are rated as more attractive. Averageness, symmetry, skin and grooming explain far more. We show the ratios because people search for them, and we say what they can and cannot tell you.'],
+  ['Why is my length-to-width ratio not 1.618?', 'Hardly anyone measures 1.618 between hairline and chin over cheek width, and the face mesh we use starts at the upper forehead, not the hairline. That is why we compare against the range most faces fall in, about 1.2 to 1.4, instead of a single number.'],
+  ['Is my photo uploaded?', 'No. The calculator runs in your browser with Google’s open-source MediaPipe face landmarker. The model downloads once; your photo stays on your device.'],
+  ['How accurate is it?', 'The landmarks are precise to a few pixels on a sharp, frontal photo. The bigger error is the photo itself: a phone held close makes the middle of the face look larger, and a turned head skews every ratio. Take the photo from arm’s length or further, straight on, in even light.'],
+  ['What should I do with the result?', 'Use it to choose styling, not to judge your face. Length-to-width tells you whether volume on top or at the sides balances you; the thirds hint at beard and fringe choices. Aura Pro turns this into a personal report and lets you try the looks on your photo.'],
+];
+const schema = {
+  '@context': 'https://schema.org',
+  '@graph': [
+    { '@type': 'SoftwareApplication', name: 'Golden Ratio Face Calculator', applicationCategory: 'LifestyleApplication', operatingSystem: 'Web', offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD' } },
+    { '@type': 'FAQPage', mainEntity: faq.map(([q, a]) => ({ '@type': 'Question', name: q, acceptedAnswer: { '@type': 'Answer', text: a } })) },
+  ],
+};
+---
+<BaseLayout title="Golden Ratio Face Calculator: Free, Runs in Your Browser | Aura" description="Measure your face proportions from one photo: length to width, facial thirds, eye spacing and symmetry. Free, no signup, and your photo never leaves your device.">
+  <Fragment slot="head"><script type="application/ld+json" set:html={JSON.stringify(schema)} /></Fragment>
+  <section class="max-w-4xl mx-auto px-6 pt-16 pb-6">
+    <a href="/tools" class="text-sm text-[#999]">← All tools</a>
+    <p class="mt-8 text-xs uppercase tracking-widest text-fuchsia-300 font-bold">Free tool</p>
+    <h1 class="mt-3 text-4xl sm:text-5xl font-black leading-tight">Golden ratio face calculator</h1>
+    <p class="mt-5 text-lg text-[#aaa] leading-relaxed">Pick a selfie and see your face proportions in seconds: length to width, the balance of your lower and middle thirds, eye spacing and left-right symmetry. It is free, needs no account, and the photo is measured on your device.</p>
+  </section>
+  <section class="max-w-4xl mx-auto px-6 py-6"><FaceScanner mode="golden" toolSlug="ai-face-rating" source={source} title="Measure your proportions" /></section>
+  <article class="max-w-3xl mx-auto px-6 py-12 prose prose-invert prose-p:text-[#bbb] prose-li:text-[#bbb]">
+    <h2>What the calculator measures</h2>
+    <p>The tool finds 468 points on your face and works with the distances between a handful of them. Every number is a ratio, so it does not matter how large your face is in the photo.</p>
+    <ul>
+      <li><strong>Length to width:</strong> upper forehead to chin, divided by the width across the cheekbones. Below about 1.2 reads as a round or square face, above about 1.4 as long.</li>
+      <li><strong>Lower to middle third:</strong> nose base to chin compared with brow to nose base. Close to 1.0 looks balanced; a longer lower third is common in men and often framed with a beard.</li>
+      <li><strong>Eye spacing:</strong> the gap between your inner eye corners in eye widths. The old “rule of fifths” puts it at about one eye width.</li>
+      <li><strong>Symmetry:</strong> how evenly your eyes, brows, cheeks, jaw and mouth corners sit around the midline after we correct for head tilt.</li>
+    </ul>
+    <h2>The golden ratio, honestly</h2>
+    <p>The golden ratio, about 1.618, shows up in art history and on social media as the formula for a beautiful face. Research has not backed that up: when people rate faces, closeness to 1.618 does not predict who is rated more attractive. What does matter is closer to everyday: clear skin, a haircut that suits your proportions, grooming and expression.</p>
+    <p>So read your numbers as a description, not a grade. They are most useful for styling decisions: whether height or width in a haircut balances you, which frame shapes suit you, and whether a beard would even out a long lower third.</p>
+    <h2>How to take a photo that measures well</h2>
+    <ul>
+      <li>Hold the camera at eye level and at least arm’s length away; close-ups make the nose and midface look larger.</li>
+      <li>Look straight into the lens with a neutral expression, hair off the forehead if you can.</li>
+      <li>Use soft, even light from the front. Strong side light hides the jaw and cheek edges.</li>
+    </ul>
+    <h2>Questions</h2>
+    {faq.map(([q, a]) => <><h3>{q}</h3><p>{a}</p></>)}
+  </article>
+</BaseLayout>

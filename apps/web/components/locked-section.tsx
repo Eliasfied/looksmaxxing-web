@@ -69,7 +69,7 @@ export function LockedSection({ scanId, locked, availableCredits, children }: Pr
               disabled={loading}
               className="btn-gradient mt-6 w-full rounded-full py-3.5 text-sm font-bold text-white transition-opacity hover:opacity-90 disabled:opacity-50"
             >
-              {loading ? 'Unlocking…' : `Unlock for ${UNLOCK_COST} credits`}
+              {loading ? 'Unlocking…' : `Use ${UNLOCK_COST} credits from an earlier purchase`}
             </button>
           ) : (
             <>
@@ -78,10 +78,10 @@ export function LockedSection({ scanId, locked, availableCredits, children }: Pr
                 className="btn-gradient mt-6 inline-flex w-full items-center justify-center gap-2 rounded-full py-3.5 text-sm font-bold text-white transition-opacity hover:opacity-90"
               >
                 <Sparkles className="h-4 w-4" />
-                Unlock from $2.99
+                Unlock with Aura Pro
               </Link>
               <p className="mt-3 text-xs text-[#555]">
-                You have {availableCredits} of {UNLOCK_COST} credits needed
+                Pro opens every scan, analysis and try-on.
               </p>
             </>
           )}

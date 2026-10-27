@@ -87,7 +87,7 @@ If you'd rather not judge it by eye, Aura's [Face Shape Finder](https://app.aura
 
 - You can upload a photo before signing up.
 - The free result is a subjective styling estimate.
-- The full breakdown requires an account and a one-time $2.99 purchase.
+- The full breakdown is part of Aura Pro ($9.99 a month or $49.99 a year).
 
 It's a styling aid, not a measuring tool.
 

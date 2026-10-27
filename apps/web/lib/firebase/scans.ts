@@ -44,12 +44,12 @@ export interface FaceScan {
   unlocked: boolean
 }
 
-export type CreateFaceScanInput = Omit<FaceScan, 'id' | 'createdAt' | 'unlocked'>
+export type CreateFaceScanInput = Omit<FaceScan, 'id' | 'createdAt'>
 
 export async function createFaceScan(data: CreateFaceScanInput): Promise<FaceScan> {
   const ref = adminDb.collection('face_scans').doc()
   const createdAt = new Date().toISOString()
-  const scan = { ...data, createdAt, unlocked: false }
+  const scan = { ...data, createdAt }
   await ref.set(scan)
   return { ...scan, id: ref.id }
 }
@@ -71,8 +71,8 @@ export async function unlockScan(scanId: string): Promise<void> {
  * Replaces the paid detail metrics with placeholders. The locked UI only blurs
  * its children, so the real values must never reach the client.
  */
-export function redactLockedScan(scan: FaceScan): FaceScan {
-  if (scan.unlocked) return scan
+export function redactLockedScan(scan: FaceScan, pro = false): FaceScan {
+  if (scan.unlocked || pro) return { ...scan, unlocked: true }
 
   const placeholder = ['Unlock to see your breakdown', 'Unlock to see your breakdown', 'Unlock to see your breakdown']
 

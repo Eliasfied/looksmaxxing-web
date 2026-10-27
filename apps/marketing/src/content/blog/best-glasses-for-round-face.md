@@ -84,7 +84,7 @@ A quick self-check helps:
 
 If it mostly curves, you are probably in round territory.
 
-If you want a second opinion, Aura's [Face Shape Finder](https://app.aura-looksmaxxing.com/tools/face-shape-detector?source=%2Fblog%2Fbest-glasses-for-round-face) estimates your likely face shape and states how uncertain that call is. It also explains how your forehead, cheeks and jaw compare in proportion and suggests haircut and accessory options. It does not produce exact physical measurements. You upload a photo before signing up, and only a subjective styling-potential score is shown free; the face-shape findings remain locked. The full breakdown requires an account and a one-time $2.99 purchase.
+If you want a second opinion, Aura's [Face Shape Finder](https://app.aura-looksmaxxing.com/tools/face-shape-detector?source=%2Fblog%2Fbest-glasses-for-round-face) estimates your likely face shape and states how uncertain that call is. It also explains how your forehead, cheeks and jaw compare in proportion and suggests haircut and accessory options. It does not produce exact physical measurements. You upload a photo before signing up, and only a subjective styling-potential score is shown free; the face-shape findings remain locked. The full breakdown is part of Aura Pro ($9.99 a month or $49.99 a year).
 
 ## The Principle Behind Every Recommendation: Contrast
 

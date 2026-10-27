@@ -165,7 +165,7 @@ A few things to know before you use it:
 
 - It doesn't create a try-on image.
 - The free result is a subjective styling-potential estimate.
-- The full shortlist and brief need an account and a one-time $2.99 purchase.
+- The full shortlist and brief are part of Aura Pro ($9.99 a month or $49.99 a year).
 
 Whether you use a tool or not, these steps make the conversation easier (editorial suggestions):
 

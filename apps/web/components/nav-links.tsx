@@ -2,21 +2,22 @@
 
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
-import { ScanFace, Scissors, MessageCircle } from 'lucide-react'
+import { Home, ScanFace, Wand2, ListChecks, MessageCircle } from 'lucide-react'
 import { cn } from '@/lib/utils'
 
 const NAV_ITEMS = [
-  { href: '/dashboard', label: 'Results', Icon: ScanFace },
-  { href: '/tools', label: 'Tools', Icon: ScanFace },
-  { href: '/haircuts', label: 'Haircuts', Icon: Scissors },
-  { href: '/chat', label: 'AI Coach', Icon: MessageCircle },
+  { href: '/dashboard', label: 'Glow-up', Icon: Home },
+  { href: '/tools', label: 'Analyze', Icon: ScanFace },
+  { href: '/studio', label: 'Studio', Icon: Wand2 },
+  { href: '/plan', label: 'Plan', Icon: ListChecks },
+  { href: '/chat', label: 'Coach', Icon: MessageCircle },
 ] as const
 
 export function NavLinks() {
   const pathname = usePathname()
 
   return (
-    <nav className="flex min-w-0 flex-1 items-center justify-center gap-3 overflow-x-auto font-sans sm:gap-12 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
+    <nav className="flex min-w-0 flex-1 items-center justify-center gap-3 overflow-x-auto font-sans sm:gap-8 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
       {NAV_ITEMS.map(({ href, label, Icon }) => {
         const active = pathname === href || pathname.startsWith(href + '/')
         return (

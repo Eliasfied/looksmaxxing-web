@@ -3,6 +3,7 @@ import { getSessionUser } from '@/lib/firebase/server'
 import { deductCredits } from '@/lib/firebase/credits'
 import { getScanById, unlockScan } from '@/lib/firebase/scans'
 import { appConfig } from '@/lib/config'
+import { getPlan } from '@/lib/entitlement'
 
 const UNLOCK_COST = appConfig.credits.unlockScan
 
@@ -20,6 +21,13 @@ export async function POST(
   }
 
   if (scan.unlocked) return NextResponse.json({ ok: true })
+
+  if ((await getPlan(user.id)).pro) {
+    await unlockScan(scanId)
+    return NextResponse.json({ ok: true })
+  }
+
+  // Legacy path: credits bought before Pro still unlock older scans.
 
   const result = await deductCredits(user.id, UNLOCK_COST, `unlock:${scanId}`, 'Full analysis unlock')
   if (!result.success) {

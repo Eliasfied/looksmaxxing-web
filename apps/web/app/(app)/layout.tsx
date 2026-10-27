@@ -3,18 +3,17 @@ import Image from 'next/image'
 import { redirect } from 'next/navigation'
 import { getSessionUser } from '@/lib/firebase/server'
 import { getCredits } from '@/lib/firebase/credits'
-import { SignOutButton } from '@/components/sign-out-button'
-import { CreditsDisplay } from '@/components/credits-display'
 import { NavLinks } from '@/components/nav-links'
 import { AppHeaderSecondary } from '@/components/app-header-secondary'
 import { PostHogIdentify } from '@/components/posthog-identify'
 import { appConfig } from '@/lib/config'
+import { getPlan } from '@/lib/entitlement'
 
 export default async function AppLayout({ children }: { children: React.ReactNode }) {
   const user = await getSessionUser()
   if (!user) redirect('/login')
 
-  const balance = await getCredits(user.id)
+  const [balance, plan] = await Promise.all([getCredits(user.id), getPlan(user.id)])
 
   return (
     <>
@@ -23,12 +22,16 @@ export default async function AppLayout({ children }: { children: React.ReactNod
         <header className="flex min-h-16 shrink-0 items-center gap-4 border-b border-[#222222] bg-black py-2 px-4 sm:px-6 lg:px-8">
           <Link href="/dashboard" className="flex shrink-0 items-center gap-2">
             <Image src="/logo.png" alt={appConfig.brand.name} width={32} height={32} className="rounded-lg" />
-            <span className="text-lg font-bold tracking-tight text-white sm:text-xl">{appConfig.brand.name}</span>
+            <span className="hidden text-lg font-bold tracking-tight text-white sm:inline sm:text-xl">{appConfig.brand.shortName}</span>
           </Link>
 
           <NavLinks />
 
-          <AppHeaderSecondary email={user.email ?? ''} totalCredits={balance.total_credits} />
+          <AppHeaderSecondary
+            email={user.email ?? ''}
+            pro={plan.pro}
+            tryOnsLeft={Math.floor(balance.total_credits / appConfig.credits.tryOn)}
+          />
         </header>
 
         <main className="min-h-0 flex-1 overflow-auto px-4 py-8 sm:px-6 sm:py-10 lg:px-8">

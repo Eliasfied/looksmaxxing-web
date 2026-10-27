@@ -2,150 +2,185 @@
 
 /* eslint-disable @next/next/no-img-element -- Local data-URL previews must not be sent to an image-optimization service. */
 
-import { useState } from 'react'
-import { useRouter } from 'next/navigation'
+import { useEffect, useRef, useState } from 'react'
+import { useRouter, useSearchParams } from 'next/navigation'
 import posthog from 'posthog-js'
+import { Lock, Sparkles, Upload } from 'lucide-react'
 import type { ToolDefinition } from '@/lib/tool-report'
+import { FacePreview } from '@/components/face-preview'
+import { preparePhoto } from '@/lib/prepare-photo'
+import { ProPaywall } from '@/components/pro-paywall'
+import type { FaceGeometry } from '../../../../../config/face-geometry'
+import { analyzePhoto, imageFrom, preloadFaceLandmarker } from '../../../../../config/face-landmarker'
 
-async function preparePhoto(file: File): Promise<string> {
-  if (!['image/jpeg', 'image/png', 'image/webp'].includes(file.type) || file.size > 12_000_000)
-    throw new Error('Choose a JPG, PNG or WebP photo smaller than 12 MB.')
-  const url = URL.createObjectURL(file)
-  try {
-    const image = new Image()
-    image.src = url
-    await image.decode()
-    const scale = Math.min(1, 1280 / Math.max(image.naturalWidth, image.naturalHeight))
-    const canvas = document.createElement('canvas')
-    canvas.width = Math.round(image.naturalWidth * scale)
-    canvas.height = Math.round(image.naturalHeight * scale)
-    const context = canvas.getContext('2d')
-    if (!context) throw new Error('Your browser could not prepare this photo.')
-    context.drawImage(image, 0, 0, canvas.width, canvas.height)
-    return canvas.toDataURL('image/jpeg', 0.85)
-  } finally {
-    URL.revokeObjectURL(url)
-  }
-}
+type Me = { signedIn: boolean; pro: boolean }
+type Pending = { image: string; comparisonImage: string; preferences: string }
+
+const pendingKey = (slug: string) => `aura-pending-${slug}`
 
 export function ToolUpload({ tool }: { tool: ToolDefinition }) {
   const router = useRouter()
+  const params = useSearchParams()
+  const resume = params.get('resume') === '1'
+  const source = params.get('source') ?? '/tools'
+  const [me, setMe] = useState<Me | null>(null)
   const [image, setImage] = useState(''),
     [comparisonImage, setComparisonImage] = useState('')
+  const [geometry, setGeometry] = useState<FaceGeometry | null>(null)
   const [preferences, setPreferences] = useState(
     tool.audience === 'women' ? 'Feminine styling; practical, low-maintenance options.' : ''
   )
-  const [consent, setConsent] = useState(false),
-    [loading, setLoading] = useState(false),
-    [preparing, setPreparing] = useState(false)
-  const [error, setError] = useState(''),
-    [website, setWebsite] = useState('')
+  const [consent, setConsent] = useState(false)
+  const [busy, setBusy] = useState<'' | 'preparing' | 'measuring' | 'reporting'>('')
+  const [error, setError] = useState('')
+  const autoRan = useRef(false)
+
+  useEffect(() => {
+    preloadFaceLandmarker()
+    fetch('/api/me', { cache: 'no-store' })
+      .then((r) => r.json())
+      .then(setMe)
+      .catch(() => setMe({ signedIn: false, pro: false }))
+  }, [])
+
+  // Back from sign-up/checkout: restore the photo the visitor already chose.
+  useEffect(() => {
+    if (!resume) return
+    let saved: Pending | null = null
+    try {
+      saved = JSON.parse(sessionStorage.getItem(pendingKey(tool.slug)) ?? 'null')
+    } catch {
+      /* nothing to restore */
+    }
+    if (!saved?.image) return
+    const pending = saved
+    void Promise.resolve().then(() => {
+      setImage(pending.image)
+      setComparisonImage(pending.comparisonImage)
+      setPreferences(pending.preferences)
+      setConsent(true)
+      return measure(pending.image)
+    })
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [resume, tool.slug])
+
+  async function measure(photo: string) {
+    setBusy('measuring')
+    setGeometry(null)
+    try {
+      const result = await analyzePhoto(await imageFrom(photo))
+      setGeometry(result)
+      posthog.capture('tool_preview_created', { tool: tool.slug, source, on_device: true })
+    } catch (e) {
+      setError(e instanceof Error ? e.message : 'We could not read this photo.')
+    } finally {
+      setBusy('')
+    }
+  }
+
   async function choose(file: File | undefined, comparison: boolean) {
     if (!file) return
     setError('')
-    setPreparing(true)
+    setBusy('preparing')
     try {
       const photo = await preparePhoto(file)
-      if (comparison) setComparisonImage(photo)
-      else setImage(photo)
+      if (comparison) {
+        setComparisonImage(photo)
+        setBusy('')
+      } else {
+        setImage(photo)
+        posthog.capture('tool_upload_started', { tool: tool.slug, source })
+        await measure(photo)
+      }
     } catch (e) {
       setError(e instanceof Error ? e.message : 'Unable to open photo')
-    } finally {
-      setPreparing(false)
+      setBusy('')
     }
   }
-  async function submit(event: React.FormEvent) {
-    event.preventDefault()
-    setLoading(true)
+
+  function rememberForCheckout() {
+    try {
+      sessionStorage.setItem(
+        pendingKey(tool.slug),
+        JSON.stringify({ image, comparisonImage, preferences } satisfies Pending)
+      )
+    } catch {
+      /* the visitor can pick the photo again */
+    }
+  }
+
+  async function runReport() {
+    setBusy('reporting')
     setError('')
-    const source = new URLSearchParams(window.location.search).get('source') ?? '/tools'
-    posthog.capture('tool_upload_started', { tool: tool.slug, source })
     try {
       const response = await fetch('/api/tools/analyze', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          tool: tool.slug,
-          image,
-          comparisonImage,
-          preferences,
-          consent,
-          adult: consent,
-          source,
-          website
-        })
+        body: JSON.stringify({ tool: tool.slug, image, comparisonImage, preferences, consent, adult: consent, source })
       })
       const result = await response.json()
       if (!response.ok) throw new Error(result.error ?? 'Analysis failed. Please try again.')
-      posthog.capture('tool_preview_created', { tool: tool.slug, source })
+      try {
+        sessionStorage.removeItem(pendingKey(tool.slug))
+      } catch {
+        /* fine */
+      }
+      posthog.capture('tool_report_unlocked', { tool: tool.slug, source })
       router.push(`/tools/result/${result.id}`)
     } catch (e) {
       setError(e instanceof Error ? e.message : 'Something went wrong.')
-      setLoading(false)
+      setBusy('')
     }
   }
+
+  // A visitor who just bought Pro comes back here and gets the report at once.
+  useEffect(() => {
+    if (resume && me?.pro && image && geometry && consent && !autoRan.current) {
+      autoRan.current = true
+      void runReport()
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [resume, me?.pro, image, geometry, consent])
+
+  const ready = Boolean(image && (!tool.requiresComparison || comparisonImage))
+
   return (
     <div>
-      <header className="mb-8 max-w-3xl">
-        <p className="mb-4 text-xs font-semibold uppercase tracking-[0.2em] text-fuchsia-300">
-          {tool.audience === 'women' ? 'Made for your style goals' : 'Start with your photo'}
+      <header className="mb-10 max-w-3xl">
+        <p className="mb-4 inline-flex items-center gap-2 rounded-full border border-emerald-400/25 bg-emerald-400/10 px-3 py-1 text-xs font-semibold text-emerald-200">
+          Free preview runs on your device · your photo is not uploaded
         </p>
-        <h1 className="text-4xl font-bold leading-tight sm:text-5xl">{tool.name}</h1>
+        <h1 className="text-4xl font-black leading-tight sm:text-6xl">{tool.name}</h1>
         <p className="mt-5 text-lg leading-relaxed text-white/65">{tool.description}</p>
       </header>
-      <div className="grid items-start gap-8 lg:grid-cols-2">
-        <section className="order-last lg:order-first">
-          <ol className="space-y-5">
-            {[
-              'Upload your photo — no account needed.',
-              'See your styling-potential estimate and a locked report preview.',
-              'Create an account and unlock your report for $2.99 once.'
-            ].map((text, i) => (
-              <li key={text} className="flex gap-4">
-                <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full border border-fuchsia-300/30 text-fuchsia-300">
-                  {i + 1}
-                </span>
-                <span className="pt-1 text-white/80">{text}</span>
-              </li>
-            ))}
-          </ol>
-          <div className="mt-9 rounded-2xl border border-white/10 p-5">
-            <h2 className="font-bold">Inside your report</h2>
-            <ul className="mt-3 space-y-2 text-white/65">
-              {tool.resultLabels.map((label) => (
-                <li key={label}>✓ {label}</li>
-              ))}
-            </ul>
-          </div>
-          <p className="mt-5 text-sm leading-relaxed text-white/50">
-            A subjective AI perspective on styling, not a prediction of future attractiveness.
-            Photos, lighting and preferences affect the result.
-          </p>
-        </section>
-        <form
-          onSubmit={submit}
-          className="order-first lg:order-last rounded-3xl border border-white/10 bg-[#121019] p-6 sm:p-8"
-        >
+
+      <div className="grid items-start gap-8 lg:grid-cols-[1fr_1.1fr]">
+        <section className="rounded-[2rem] border border-white/10 bg-[#110e18] p-6 sm:p-8">
           <label className="block font-semibold" htmlFor="photo">
             {tool.requiresComparison ? 'Earlier photo' : 'Your photo'}
           </label>
-          <p className="mb-4 mt-1 text-sm text-white/55">
-            One face, even lighting, neutral expression. JPG, PNG or WebP.
-          </p>
-          {image && (
-            <img
-              src={image}
-              alt="Your selected photo"
-              className="mb-4 max-h-64 w-full rounded-xl object-contain"
-            />
-          )}
+          <p className="mb-4 mt-1 text-sm text-white/55">One face, even lighting, looking straight at the camera.</p>
+          <label
+            htmlFor="photo"
+            className="flex cursor-pointer flex-col items-center justify-center gap-2 rounded-2xl border border-dashed border-white/20 bg-white/[0.02] p-8 text-center transition hover:border-fuchsia-400/50 hover:bg-white/[0.04]"
+          >
+            {image ? (
+              <img src={image} alt="Your selected photo" className="max-h-52 rounded-xl object-contain" />
+            ) : (
+              <>
+                <Upload className="h-6 w-6 text-fuchsia-300" aria-hidden />
+                <span className="font-semibold">Choose a photo</span>
+                <span className="text-xs text-white/45">JPG, PNG or WebP</span>
+              </>
+            )}
+          </label>
           <input
             id="photo"
             type="file"
             accept="image/jpeg,image/png,image/webp"
             onChange={(e) => void choose(e.target.files?.[0], false)}
-            disabled={loading || preparing}
-            className="w-full rounded-xl border border-dashed border-white/25 p-4 text-sm file:mr-4 file:rounded-lg file:border-0 file:bg-violet-500/20 file:px-3 file:py-2 file:text-white"
+            disabled={Boolean(busy)}
+            className="sr-only"
           />
           {tool.requiresComparison && (
             <div className="mt-5">
@@ -153,28 +188,23 @@ export function ToolUpload({ tool }: { tool: ToolDefinition }) {
                 Recent photo
               </label>
               {comparisonImage && (
-                <img
-                  src={comparisonImage}
-                  alt="Your recent photo"
-                  className="mb-3 max-h-48 w-full rounded-xl object-contain"
-                />
+                <img src={comparisonImage} alt="Your recent photo" className="mb-3 max-h-40 rounded-xl object-contain" />
               )}
               <input
                 id="comparison"
                 type="file"
                 accept="image/jpeg,image/png,image/webp"
                 onChange={(e) => void choose(e.target.files?.[0], true)}
-                disabled={loading || preparing}
-                className="w-full text-sm"
+                disabled={Boolean(busy)}
+                className="w-full text-sm file:mr-3 file:rounded-lg file:border-0 file:bg-white/10 file:px-3 file:py-2 file:text-white"
               />
               <p className="mt-2 text-xs text-white/55">
-                Use similar lighting, angle and expression. This cannot establish whether mewing
-                caused a change.
+                Use similar lighting, angle and expression. This cannot establish whether mewing caused a change.
               </p>
             </div>
           )}
           <label htmlFor="preferences" className="mb-2 mt-6 block font-semibold">
-            Your preferences <span className="font-normal text-white/50">(optional)</span>
+            Your preferences <span className="font-normal text-white/50">(optional, for the AI report)</span>
           </label>
           <textarea
             id="preferences"
@@ -185,58 +215,82 @@ export function ToolUpload({ tool }: { tool: ToolDefinition }) {
             placeholder="Your preferred style, hair length, time or budget…"
             className="w-full rounded-xl border border-white/15 bg-black/20 p-3 text-white placeholder:text-white/35"
           />
-          <div className="hidden" aria-hidden="true">
-            <label>
-              Website
-              <input
-                value={website}
-                onChange={(e) => setWebsite(e.target.value)}
-                tabIndex={-1}
-                autoComplete="off"
-              />
-            </label>
-          </div>
           <label className="mt-5 flex items-start gap-3 text-sm leading-relaxed text-white/65">
             <input
               type="checkbox"
               checked={consent}
               onChange={(e) => setConsent(e.target.checked)}
-              required
-              className="mt-1"
+              className="mt-1 accent-fuchsia-500"
             />
-            <span>
-              I am 18 or older and these are my photos. I agree to AI processing to create this
-              report. The preview shows only the potential estimate; the full report is paid.
-            </span>
+            <span>I am 18 or older and these are my photos. For the AI report I agree to AI processing of them.</span>
           </label>
+          {busy && (
+            <p aria-live="polite" className="mt-4 text-sm text-white/60">
+              {busy === 'preparing'
+                ? 'Preparing photo…'
+                : busy === 'measuring'
+                  ? 'Measuring your face on this device…'
+                  : 'Writing your personal AI report, usually 20–60 seconds…'}
+            </p>
+          )}
           {error && (
             <p role="alert" className="mt-4 rounded-lg bg-red-500/10 p-3 text-sm text-red-300">
               {error}
             </p>
           )}
-          <button
-            type="submit"
-            disabled={
-              loading ||
-              preparing ||
-              !image ||
-              !consent ||
-              Boolean(tool.requiresComparison && !comparisonImage)
-            }
-            className="mt-6 w-full rounded-xl bg-gradient-to-r from-fuchsia-600 to-violet-600 px-5 py-4 text-lg font-bold transition hover:brightness-110 disabled:opacity-40"
-          >
-            {loading
-              ? 'Preparing your personal report…'
-              : preparing
-                ? 'Preparing photo…'
-                : 'See my potential →'}
-          </button>
-          <p aria-live="polite" className="mt-3 text-center text-xs text-white/50">
-            {loading
-              ? 'Usually around 20–60 seconds. Keep this page open.'
-              : 'No account or payment needed for the preview.'}
-          </p>
-        </form>
+        </section>
+
+        <section className="space-y-6">
+          {geometry ? (
+            <FacePreview geometry={geometry} photo={image} />
+          ) : (
+            <div className="rounded-[2rem] border border-white/10 bg-white/[0.02] p-8">
+              <p className="text-sm font-semibold uppercase tracking-[0.18em] text-white/40">Free preview</p>
+              <p className="mt-3 text-xl font-bold">Face shape, symmetry, canthal tilt and eye shape</p>
+              <p className="mt-2 text-white/55">Measured instantly in your browser when you choose a photo.</p>
+            </div>
+          )}
+
+          <div className="rounded-[2rem] border border-white/10 bg-white/[0.02] p-6">
+            <p className="flex items-center gap-2 text-sm font-bold">
+              <Lock className="h-4 w-4 text-fuchsia-300" aria-hidden /> AI report with Aura Pro
+            </p>
+            <ul className="mt-3 space-y-1.5 text-sm text-white/60">
+              {tool.resultLabels.map((label) => (
+                <li key={label}>✓ {label}</li>
+              ))}
+            </ul>
+          </div>
+
+          {me?.pro ? (
+            <button
+              onClick={() => void runReport()}
+              disabled={!ready || !consent || Boolean(busy)}
+              className="btn-gradient flex w-full items-center justify-center gap-2 rounded-2xl px-6 py-4 text-lg font-bold text-white transition hover:brightness-110 disabled:opacity-40"
+            >
+              <Sparkles className="h-5 w-5" aria-hidden />
+              {busy === 'reporting' ? 'Writing your report…' : 'Create my full AI report'}
+            </button>
+          ) : (
+            geometry &&
+            me && (
+              <div onClickCapture={rememberForCheckout}>
+                <ProPaywall
+                  signedIn={me.signedIn}
+                  returnTo={`/tools/${tool.slug}?resume=1`}
+                  placement={`tool:${tool.slug}`}
+                  compact
+                  headline="Want the full picture?"
+                  subline="Aura Pro writes your personal report from this photo, plus every other analysis, try-on and your plan."
+                  onActivated={() => {
+                    autoRan.current = false
+                    setMe({ signedIn: true, pro: true })
+                  }}
+                />
+              </div>
+            )
+          )}
+        </section>
       </div>
     </div>
   )

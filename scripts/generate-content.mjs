@@ -426,7 +426,7 @@ Return ONLY valid JSON matching this exact schema:
   ],
   "body_markdown": "## What is [topic]\\n\\n4-6 paragraphs of useful supporting content with H2/H3 structure...\\n\\n## How [tool] works\\n\\n...\\n\\n## Tips for accurate results\\n\\n...",
   "faq": [
-    { "q": "What does it cost?", "a": "The potential preview costs nothing and needs no account. The full report costs $2.99 once after account creation; subscriptions are optional." },
+    { "q": "What does it cost?", "a": "The on-device preview costs nothing and needs no account. The full AI report is part of Aura Pro, $9.99 a month or $49.99 a year." },
     { "q": "How accurate is it?", "a": "..." },
     { "q": "Do I need to upload my photo?", "a": "..." },
     { "q": "Is my data safe?", "a": "..." },

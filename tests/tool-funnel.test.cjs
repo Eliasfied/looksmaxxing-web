@@ -16,7 +16,8 @@ test('strict model parsing and unpaid preview never include private fields', () 
 test('only local report return paths are allowed', () => {
   const good = '/tools/result/' + 'a'.repeat(40) + '?checkout=1';
   assert.equal(pure.safeToolReturn(good), good);
-  for (const path of ['https://evil.test', '//evil.test', '/tools/result/' + 'a'.repeat(40) + '?next=https://evil.test', '/dashboard', '/tools/result/../login']) assert.equal(pure.safeToolReturn(path), null);
+  for (const path of ['/dashboard', '/studio', '/onboarding/pricing', '/tools/ai-face-rating?resume=1']) assert.equal(pure.safeToolReturn(path), path);
+  for (const path of ['https://evil.test', '//evil.test', '/tools/result/' + 'a'.repeat(40) + '?next=https://evil.test', '/dashboard?next=//evil.test', '/tools/result/../login', '/tools/x?resume=1&next=//evil.test']) assert.equal(pure.safeToolReturn(path), null);
 });
 function fixture() {
   process.env.TOOL_REPORT_SECRET = 'unit-test-only-not-a-real-key-1234567890';
@@ -85,23 +86,32 @@ test('an encrypted report cannot be swapped into another report ID', async () =>
   assert.equal(await store.accessReport(one), null);
 });
 const next = { NextResponse: { json: (body, init) => Response.json(body, init) } };
-test('anonymous analyze API emits only the preview and validates input before spending', async () => {
-  let calls = 0;
+test('analyze API runs the model only for signed-in Pro members with valid input', async () => {
+  let calls = 0, saved = 0;
+  const state = { user: null, pro: false };
   const api = loadTs('apps/web/app/api/tools/analyze/route.ts', {
     'next/server': next, '@/lib/tool-report': pure,
     '@/lib/tool-analysis': { analyzeTool: async () => { calls++; return report(); } },
-    '@/lib/tool-store': { sameOrigin: req => req.headers.get('origin') === 'http://localhost', guestToken: async () => 'guest', reservePreview: async () => {}, saveToolReport: async () => 'a'.repeat(40) },
+    '@/lib/tool-store': { sameOrigin: req => req.headers.get('origin') === 'http://localhost', saveOwnedToolReport: async () => { saved++; return 'a'.repeat(40); } },
+    '@/lib/firebase/server': { getSessionUser: async () => state.user },
+    '@/lib/entitlement': { getPlan: async () => ({ pro: state.pro }), reserveAnalysis: async () => {}, QuotaExceededError: class extends Error {} },
   });
   const request = body => new Request('http://localhost/api/tools/analyze', { method: 'POST', headers: { origin: 'http://localhost' }, body: typeof body === 'string' ? body : JSON.stringify(body) });
   const valid = { tool: 'ai-face-rating', image: 'data:image/jpeg;base64,YWJj', consent: true, adult: true };
+  assert.equal((await api.POST(request(valid))).status, 401);
+  state.user = { id: 'free' };
+  assert.equal((await api.POST(request(valid))).status, 402);
+  assert.equal(calls, 0);
+  state.pro = true;
   const response = await api.POST(request(valid));
   assert.equal(response.status, 200);
-  assert.deepEqual(Object.keys(await response.json()).sort(), ['id','potentialScore','tool','unlocked']);
+  assert.deepEqual(await response.json(), { id: 'a'.repeat(40) });
   assert.equal((await api.POST(request({ ...valid, tool: 'mewing-tracker' }))).status, 400);
   assert.equal((await api.POST(request({ ...valid, consent: false }))).status, 400);
   assert.equal((await api.POST(request('null'))).status, 400);
   assert.equal((await api.POST(request('{broken'))).status, 400);
   assert.equal(calls, 1);
+  assert.equal(saved, 1);
 });
 test('report GET serializes paid content only after server-side unlock', async () => {
   let unlocked = false;
