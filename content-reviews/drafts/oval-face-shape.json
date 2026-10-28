@@ -1,0 +1,400 @@
+{
+  "version": 1,
+  "savedAt": "2026-10-28T20:03:49.940Z",
+  "page": {
+    "slug": "oval-face-shape",
+    "cluster": "oval-face-shape",
+    "page_type": "blog",
+    "phase": 5,
+    "keywords": [
+      {
+        "keyword": "oval face shape",
+        "volume": 22200,
+        "sd": 3
+      }
+    ],
+    "primary_keyword": "oval face shape",
+    "primary_volume": 22200,
+    "primary_sd": 3
+  },
+  "data": {
+    "_research": {
+      "sources": [
+        {
+          "title": "Oval Face Shape Guide (2026): Hair, Glasses & Styling",
+          "url": "https://www.detect-faceshape.com/oval-face-shape/",
+          "evidence": "Key Characteristics\nAn oval face typically shows:\n\n- Length greater than width, giving a slightly elongated look.\n\n\n- Cheekbones as the widest point, ... That reputation is rooted in proportion — not in any claim that it's more attractive. Attractiveness is subjective and shaped by culture, so treat \"id..."
+        },
+        {
+          "title": "Oval Face Shape -",
+          "url": "https://facecalculators.com/face-shapes/oval/",
+          "evidence": "An oval face shape is one where the face length is 40 to 60 percent longer than the cheekbone width (R1 between 1.40 and 1.60), the cheekbones are the..."
+        },
+        {
+          "title": "Oval Face Shape: Definition, Exact Ratio, and How to Tell",
+          "url": "https://ovalfaceshape.com/oval-face-shape/",
+          "evidence": "# Oval Face Shape: Definition, Exact Ratio, and How to Tell\n## Quick Answer:\n> An oval face is moderately longer than wide — OvalFaceShape.com’s stand... Chin is softly rounded, not pointed or squared\n\nThis is different from a ***round*** face (length and width are close to equal), a ***square*** or ***... Chin is softly rounded, not pointed or squared\n\nThis is different from a ***round*** face (length and width are close to equal), a ***square*** or ***..."
+        },
+        {
+          "title": "Oval Face Shape: Free Test — Are You Really Oval? (2026)",
+          "url": "https://oblongfaceshape.com/oval-face-shape/",
+          "evidence": "**Quick answer:** You have an oval face shape if your face is **slightly longer than it is wide** (length ÷ average width between **1.25 and 1.45**), ... Oval is the **most common of the 7 shapes at 28.4%**.\n\n"
+        },
+        {
+          "title": "The Oval Face Shape",
+          "url": "https://www.fashionbeans.com/article/oval-face-shapes/",
+          "evidence": "Here’s your quick guide to nailing the look:\n\nYour **face length is about 1.5 times the width**, with a **forehead slightly wider than your chin**.\n\n The oval face shape is often considered the golden ratio of facial geometry. "
+        },
+        {
+          "title": "Oval Face Shape: Traits, Haircuts & Glasses",
+          "url": "https://whatcolorssuitme.com/face-shapes/oval/",
+          "evidence": "It can overlap with an oblong outline.\n\n An oval face is a softly tapered styling category, not a proportional ideal.  Proportions are a guide: camera angle and hairstyle can change the impression.\n\n"
+        },
+        {
+          "title": "Do I Have an Oval Face Shape?",
+          "url": "https://faceshapetool.com/blog/oval-face-shape",
+          "evidence": "**Oval vs. Heart:** Heart faces have noticeably wider foreheads than chins, with pointed chin shapes. Oval faces have balanced forehead and cheekbone ..."
+        },
+        {
+          "title": "Choosing Glasses for Your Face Shape  - Optometrists.org",
+          "url": "https://www.optometrists.org/general-practice-optometry/optical/guide-to-optical-frames/9115-2/",
+          "evidence": "There are five categories of face shapes:\n\n- Square\n- Round\n- Heart\n- Triangular\n- Oval\n\n### Square face\nIf your face is a square shape, your jawline,... Oval faces are the most universal face shape and have the largest variety of frame shapes to choose from.  Oval faces are balanced well with **square, rectangular, or geometric shaped** **frames**.  ### Oval face\nIf you have an oval shaped face, your forehead and chin are narrow with soft curves.\n\n"
+        },
+        {
+          "title": "Glasses for Face Shape: Finding the Perfect Pair - 1001 Optometry",
+          "url": "https://1001optometry.com.au/pages/frame-shapes",
+          "evidence": "The 9 different face shapes for glasses are:\n\n- Round face shape\n- Square face shape\n- Triangle face shape\n- Oval face shape\n- Heart face shape\n- Diam... **Those with an oval face shape can go with almost any style of glasses. However, to make your eyes pop, go for a frame shape slightly wider than your... An oval face should avoid narrow frames and frames that have heavy design elements. These frames may add the appearance of extra length to an oval fac..."
+        },
+        {
+          "title": "Personalized Hairstyle Recommendation System using ...",
+          "url": "https://www.riverpublishers.com/downloadchapter.php?file=RP_9788743808268C30.pdf",
+          "evidence": "The dataset consists of five categories, each representing a major face shape oval, round, square, oblong, and\n\nheart with 100 celebrity images per ca... Expert-classified for accuracy, it\n\nprimarily features female faces due to the lack of a comprehensive male dataset. Consequently, the\n\nrecommendation..."
+        },
+        {
+          "title": "Hybrid Based Model Face Shape Classification Using Ensemble Method for Hairstyle Recommender System",
+          "url": "https://link.springer.com/chapter/10.1007/978-981-16-9480-6_7",
+          "evidence": "The method proposed combines facial landmarks, the geometrical, and the pre-train model features to classify facial shapes into four categories. "
+        },
+        {
+          "title": "A Deep Learning Approach To Face Shape Classification For Hairstyle, Beauty And Eyewear Recommendations",
+          "url": "https://ieeexplore.ieee.org/document/10851601/",
+          "evidence": "Face shape classification is a computer vision task which aims to identify the shape of a human face from an image.  The results of the study shows that GoogLeNet achieves the highest accuracy at ${9 1 . 0 3 \\%}$, followed by MobileNetV3 at ${8 9 . 7 4 \\%}$, ResNet50..."
+        },
+        {
+          "title": "(PDF) Automatic Face Shape Classification Via Facial Landmark Measurements",
+          "url": "https://www.researchgate.net/publication/357247661_Automatic_Face_Shape_Classification_Via_Facial_Landmark_Measurements",
+          "evidence": "they employed transfer learning, and retrained the ﬁnal la yer of an Inception\n\nv3 architecture [13], thus being able to achieve an accuracy of ≈84%.\n... The details regarding the employed data\n\nsubset are as follows: 604 total train data set samples, 115 total test data set\n\nsamples, with a train/test ... Accurate face shape classification serves as a vital building block of any hairstyle and eye-wear recommender system. "
+        },
+        {
+          "title": "(PDF) Human Face Shape Classification with Machine Learning",
+          "url": "https://www.researchgate.net/publication/362903132_Human_Face_Shape_Classification_with_Machine_Learning",
+          "evidence": "on the top with an accuracy rate of 70%. "
+        },
+        {
+          "title": "An approach to face shape classification for hairstyle recommendation",
+          "url": "https://www.researchgate.net/publication/301258237_An_approach_to_face_shape_classification_for_hairstyle_recommendation",
+          "evidence": "All classifiers were trained and tested using a total of 500 images of female celebrities with known face shapes collected from the Internet. \n\n from what seems to be domain expert knowledge and empirical opinions for hairstyle recommendation. "
+        },
+        {
+          "title": "How to Pick the Best Glasses for Oval Faces",
+          "url": "https://www.zennioptical.com/blog/how-to-pick-glasses-for-oval-face-shapes/",
+          "evidence": "## Choosing the Right Size and Fit\n- **Proper Width**: The width of the frames should align with the widest part of your face, or just slightly beyond..."
+        }
+      ]
+    },
+    "_draft": true,
+    "_review": {
+      "pass": false,
+      "issues": [
+        "What Face Shape Apps and AI Can Tell You: the article says the free preview runs on-device and \"estimates your likely face shape\" but \"does not include those explanations or suggestions.\" The rules only say the preview covers face shape, symmetry, canthal tilt and eye shape. The claim about exclusions is unsupported."
+      ]
+    },
+    "_imageReviews": [],
+    "_imageFailures": [],
+    "_textRepair": {
+      "original": {
+        "title": "Oval Face Shape: Traits, Glasses and Haircuts",
+        "description": "Learn what an oval face shape is, why sources measure it differently, how to check yours, and which glasses and haircuts suit it without rigid rules.",
+        "h1_displayed": "Oval Face Shape: What It Really Means and How to Style It",
+        "reading_time": 9,
+        "tags": [
+          "oval face shape",
+          "face shapes",
+          "facial proportions",
+          "glasses for oval faces",
+          "haircuts"
+        ],
+        "body_markdown": "If a quiz, a stylist or a friend has told you that you have an oval face shape, you have probably also heard that it suits everything. That is partly true and partly convention. The label describes a real pattern of proportions, but the exact definition changes depending on who you ask.\n\nThis guide covers what the oval label actually describes and why different sources measure it differently. It also shows how to check your own face, what face shape apps can and cannot tell you, and how to use the result for glasses and haircuts without treating it as a rulebook.\n\n## What Is an Oval Face Shape?\n\nMost definitions agree on a set of shared traits. An oval face usually has:\n\n- **Length greater than width.** The face is moderately longer than it is wide.\n- **Cheekbones as the widest point.** They are widest only by a small margin over the forehead and jaw.\n- **A forehead slightly wider than the jaw.** The face tapers gently from top to bottom.\n- **A softly curved jawline.** There is no sharp corner where the jaw turns up toward the ear.\n- **A rounded chin.** It is neither pointed nor squared off.\n\nSome anatomical terms help here. Your cheekbones are formed by the **zygomatic bones**, and the distance across them is sometimes called *bizygomatic width*. Your lower jaw is the **mandible**. The corner where it angles up toward your ear is the **gonial angle**. In an oval face, that corner reads as a smooth curve rather than a defined edge.\n\nOne point matters more than any ratio. **Oval is a styling category, not a medical or anatomical diagnosis.** It is shorthand that stylists, opticians and style writers use to describe an overall outline, and real faces rarely fit one category perfectly.\n\n## Why Sources Disagree on the Oval Face Ratio\n\nMost face shape guides use one core measurement. They divide **face length** (hairline to chin) by **cheekbone width**. The cutoffs for oval vary widely between sources:\n\n- One face calculator site sets oval at 1.25 to 1.45.\n- Another uses 1.3 to 1.5.\n- A third uses 1.4 to 1.6.\n- A men's style magazine simply says length is about 1.5 times the width.\n\nTake a face with a ratio of 1.52. That face is oval under two of these definitions and oblong under the other two. Nothing about the face changed. Only the chart did.\n\nThe number of categories varies too. Optometrists.org works with five face shapes: square, round, heart, triangular and oval. An Australian optometry practice lists nine. Academic papers on automated classification use different sets as well. One uses [four categories](https://link.springer.com/chapter/10.1007/978-981-16-9480-6_7) and another uses five. Fewer categories mean each one is broader, so more faces land in \"oval.\"\n\nThe descriptions can even contradict each other. Optometrists.org describes an oval face as having a narrow forehead and chin with soft curves. Most other sources say the forehead is slightly wider than the jaw, with the cheekbones widest.\n\n*Takeaway:* if your result changes between two quizzes, that does not mean either one is broken. They are using different definitions.\n\n### Oval vs. Oblong, Round and Heart\n\nThese are the shapes oval gets confused with most often.\n\n| Shape | Length vs. width | Widest area | Jaw and chin |\n| --- | --- | --- | --- |\n| Oval | Moderately longer than wide | Cheekbones, by a small margin | Gently curved jaw, rounded chin |\n| Oblong | Noticeably longer, with straighter sides | Fairly even top to bottom | Straighter, less taper |\n| Round | Length and width close to equal | Cheeks | Soft, wide jaw |\n| Heart | Varies | Forehead, noticeably wider than chin | Narrow, more pointed chin |\n\nThe oval and oblong boundary is the blurriest. Some style sources openly say the two can overlap. If your sides look fairly straight from cheekbone to jaw, try advice for both shapes.\n\n## How to Check If You Have an Oval Face\n\nYou don't need precise measurements to get a useful read. These steps are an editorial suggestion for a fair at-home check.\n\n1. **Take a straight-on photo.** Hold the camera at eye level and look directly into it with a neutral expression. Pull your hair back off your forehead and away from your jaw. Avoid a very close selfie, since short distances can distort proportions.\n2. **Compare three widths.** Look across your forehead, your cheekbones and your jaw just below the ears. For oval, the cheekbones come out slightly widest, the forehead second and the jaw narrowest.\n3. **Check the jaw corner.** A soft curve points toward oval or round. A defined angle points toward square or rectangle.\n4. **Check the chin.** Rounded fits oval. Noticeably pointed with a wide forehead leans heart.\n5. **Do a rough length check.** Compare hairline-to-chin length with cheekbone width. If the face is clearly longer than wide but not dramatically so, you are in oval territory. Remember that the exact cutoff depends on the source.\n6. **Repeat with a second photo.** Camera angle and hairstyle both change how a face reads, so one photo is not enough to settle it.\n\nIf you land between two shapes, that is normal. Treat it as useful information. You can borrow advice from both.\n\n{{IMAGE_2}}\n\n## What Face Shape Apps and AI Can Tell You\n\nResearchers treat face shape classification as a computer vision task. A model looks at a photo and assigns it to a category. Published accuracy is decent but not perfect.\n\n- In one [IEEE study](https://ieeexplore.ieee.org/document/10851601/), the best model (GoogLeNet) reached about 91% accuracy. The weakest model tested scored about 80%.\n- A [landmark-measurement paper](https://www.researchgate.net/publication/357247661_Automatic_Face_Shape_Classification_Via_Facial_Landmark_Measurements) reported 85% with its approach. It cites an earlier Inception v3 method at roughly 84%.\n- Another machine learning approach settled at around 70%.\n\nThe training data also has limits. One study trained and tested on 500 images of female celebrities collected from the internet. Another project said its dataset was mostly female faces because no comprehensive male dataset existed. Faces that differ from the training data, by gender, age or ethnicity, may be classified less reliably.\n\nThere is a second limit. One paper describes the hairstyle rules attached to face shapes as seeming to come from expert knowledge and empirical opinion. That makes them useful conventions, not tested outcomes.\n\nTreat any app result as **a likely category with some uncertainty**, not a measurement. Aura's [Face Shape Finder](https://app.aura-looksmaxxing.com/tools/face-shape-detector?source=%2Fblog%2Foval-face-shape) is built around that idea. It gives your likely face shape, explains how your forehead, cheek and jaw proportions relate, and lists haircut and accessory options. The preview estimates face shape in your browser without uploading your photo. The full AI report is part of the paid Aura Pro subscription.\n\n## Glasses for an Oval Face\n\nOptometry guidance is fairly consistent here. [Optometrists.org](https://www.optometrists.org/general-practice-optometry/optical/guide-to-optical-frames/9115-2/) calls oval faces the most universal shape, with the widest variety of frames to choose from. Its specific suggestions are:\n\n- **Square, rectangular or geometric frames** to balance soft curves.\n- **Oversized frames, or frames widest near the eyes.**\n- **Cat-eye and aviator frames** for a bolder look.\n- **D-frames** for a more classic look.\n\nAn Australian optometry practice adds two points. Frames slightly wider than your forehead help your eyes stand out. Narrow frames, or frames with heavy design elements, can add visual length to an oval face.\n\n### Fit Matters as Much as Shape\n\nEven the right frame shape looks off if it fits badly. These are common fitting checks, offered as editorial guidance:\n\n- Frame width should roughly match the widest part of your face, or sit just slightly beyond it.\n- The bridge should rest on your nose without slipping or digging in.\n- The temple arms should reach past your ears without pinching.\n\nIf you wear prescription lenses, have an optician confirm the fit and lens placement. A stylish frame that puts your lenses in the wrong spot is not worth it.\n\n### Matching Frames to Your Version of Oval\n\nThese are editorial suggestions, not rules:\n\n- **Very soft, rounded features:** angular frames add contrast.\n- **Oval on the longer side:** wider frames, or a defined brow line, break up vertical length.\n- **Strong brows or high cheekbones already:** thinner or lighter frames keep the face from looking busy.\n\n## Hairstyles and Grooming for an Oval Face\n\nNo study shows that a particular haircut \"works\" for a face shape. What follows is editorial guidance based on the proportions the oval label describes.\n\nBecause no single feature dominates, you are mostly free to choose by hair texture, maintenance and personal taste. The main thing to watch is length. If your face sits toward the longer end of oval, styles that add a lot of height on top can tip it toward an oblong read.\n\n### If You Prefer Longer Hair\n\n- **Layers that start around the cheekbones or jaw** frame the widest part of the face.\n- **Curtain bangs or a side-swept fringe** shorten the visible forehead and draw attention to the eyes.\n- **Center parts** work well on balanced ovals. Side parts suit you if you want a little more width.\n- **Lobs and shoulder-length cuts** sit at a flattering midpoint for most ovals.\n\n### If You Prefer Shorter Hair\n\n- **Pixies and textured crops** show off the face's proportions without much correction.\n- **Side parts, short quiffs and textured tops** with moderate height suit most ovals.\n- **Very tall pompadours or high, tight buns** add the most length. They are fine if your face is on the shorter side of oval.\n\n### Facial Hair\n\nIf you grow facial hair, stubble or a short, even beard keeps the soft jaw outline intact. A long beard that extends well below the chin adds length. That can be useful if your oval is short and wide-ish, and less so if it is already long.\n\nThese are options, not obligations. Feminine, masculine and in-between styling all work on an oval face. The best choice is the one that fits your taste and how much time you want to spend on your hair.\n\n{{IMAGE_3}}\n\n## Oval Face Myths Worth Dropping\n\n**\"Oval is the ideal face shape.\"** Some style writing calls oval the golden ratio of faces. Nothing in the sources reviewed here supports that. Several face shape guides themselves describe oval as a styling category, not a proportional ideal, and note that attractiveness is subjective and shaped by culture. Oval is easy to style. That is not the same as being more attractive.\n\n**\"Oval is the most common face shape.\"** You will see precise percentages online. The ones we found come from tool sites without a cited study behind them, so treat them as unverified.\n\n**\"Everything suits an oval face.\"** It is a reasonable starting point, but hair texture, frame fit, skin tone, features like brows and nose, and personal style all matter. Face shape is one input.\n\n**\"One photo settles it.\"** Lighting, camera distance, hairstyle and expression all shift the read. So does the chart you compare against.\n\n## A Practical Oval Face Checklist\n\nUse this as a quick summary:\n\n- Check your shape with at least two straight-on photos, hair pulled back.\n- Compare forehead, cheekbone and jaw width, then look at the jaw corner and chin.\n- Accept a \"between two shapes\" result and borrow advice from both.\n- For glasses, start with frames roughly as wide as your face. Try rectangular, geometric or cat-eye shapes, and skip very narrow frames.\n- For hair, choose by texture and taste. Watch excess height if your face runs long.\n- Treat app results and style charts as starting points, then trust what you see in the mirror.",
+        "image_prompts": [
+          {
+            "prompt": "Head-and-shoulders portrait of a young man with a softly tapered oval face, a textured short crop, and rectangular tortoiseshell glasses, looking toward the camera with a relaxed expression. Warm natural window light, plain muted green wall behind him, clean editorial photo style.",
+            "alt": "Man with an oval face shape wearing rectangular tortoiseshell glasses",
+            "purpose": "Shows a real-world example of an oval face paired with the rectangular frames that optometry guidance recommends, as an at-a-glance hero."
+          },
+          {
+            "prompt": "A young woman photographed straight on at eye level with her hair pulled back into a low ponytail, forehead and jawline fully visible, neutral expression. Even soft daylight, plain light gray wall, nothing else in the frame.",
+            "alt": "Straight-on portrait with hair pulled back for checking face shape",
+            "purpose": "Demonstrates the photo setup from the at-home check: straight-on angle, eye-level camera, hair off the forehead and jaw, neutral expression."
+          },
+          {
+            "prompt": "A woman with an oval face seated in a bright hair salon, seen in a three-quarter view, wearing a freshly styled shoulder-length layered cut with soft curtain bangs framing her cheekbones. Warm salon lighting, blurred mirrors and plants in the background, no stylist or hands in frame.",
+            "alt": "Woman with an oval face shape wearing curtain bangs and a layered shoulder-length cut",
+            "purpose": "Illustrates the editorial hairstyle suggestion of layers starting around the cheekbones with curtain bangs on an oval face."
+          }
+        ],
+        "faq": [
+          {
+            "q": "How do I know if my face is oval or oblong?",
+            "a": "Both are longer than they are wide. An oblong face is noticeably longer with straighter sides, while an oval tapers gently from the cheekbones to a rounded chin. Ratio cutoffs differ between sources, so if you are near the boundary, use advice for both shapes."
+          },
+          {
+            "q": "Is an oval face shape the most attractive?",
+            "a": "There is no solid evidence for that. Oval is often called the easiest shape to style because its proportions are balanced, but several face shape guides describe it as a styling category rather than an ideal. Attractiveness is subjective and shaped by culture."
+          },
+          {
+            "q": "What glasses suit an oval face?",
+            "a": "Optometry guidance suggests square, rectangular or geometric frames, with cat-eye and aviator frames for a bolder look. Frames slightly wider than your forehead tend to work well, while very narrow frames can add visual length. Good fit across the face, nose and ears matters as much as shape."
+          },
+          {
+            "q": "Are face shape apps accurate?",
+            "a": "Published research models range from roughly 70% to 91% accuracy, and some training datasets were small and mostly female. Treat any app result as a likely category with some uncertainty, and confirm it against a couple of your own straight-on photos."
+          },
+          {
+            "q": "Why do different quizzes give me different face shapes?",
+            "a": "Sources use different ratio cutoffs and different numbers of categories, from four to nine. Camera angle, lens distance and hairstyle also change how your face reads. A changing result usually means you sit near a boundary, not that the quiz is wrong."
+          }
+        ],
+        "sources": [
+          {
+            "title": "A Deep Learning Approach To Face Shape Classification For Hairstyle, Beauty And Eyewear Recommendations",
+            "url": "https://ieeexplore.ieee.org/document/10851601/"
+          },
+          {
+            "title": "(PDF) Automatic Face Shape Classification Via Facial Landmark Measurements",
+            "url": "https://www.researchgate.net/publication/357247661_Automatic_Face_Shape_Classification_Via_Facial_Landmark_Measurements"
+          },
+          {
+            "title": "Choosing Glasses for Your Face Shape  - Optometrists.org",
+            "url": "https://www.optometrists.org/general-practice-optometry/optical/guide-to-optical-frames/9115-2/"
+          },
+          {
+            "title": "Glasses for Face Shape: Finding the Perfect Pair - 1001 Optometry",
+            "url": "https://1001optometry.com.au/pages/frame-shapes"
+          },
+          {
+            "title": "An approach to face shape classification for hairstyle recommendation",
+            "url": "https://www.researchgate.net/publication/301258237_An_approach_to_face_shape_classification_for_hairstyle_recommendation"
+          }
+        ],
+        "tool_slug": "face-shape-detector",
+        "audience": "everyone",
+        "_research": {
+          "sources": [
+            {
+              "title": "Oval Face Shape Guide (2026): Hair, Glasses & Styling",
+              "url": "https://www.detect-faceshape.com/oval-face-shape/",
+              "evidence": "Key Characteristics\nAn oval face typically shows:\n\n- Length greater than width, giving a slightly elongated look.\n\n\n- Cheekbones as the widest point, ... That reputation is rooted in proportion — not in any claim that it's more attractive. Attractiveness is subjective and shaped by culture, so treat \"id..."
+            },
+            {
+              "title": "Oval Face Shape -",
+              "url": "https://facecalculators.com/face-shapes/oval/",
+              "evidence": "An oval face shape is one where the face length is 40 to 60 percent longer than the cheekbone width (R1 between 1.40 and 1.60), the cheekbones are the..."
+            },
+            {
+              "title": "Oval Face Shape: Definition, Exact Ratio, and How to Tell",
+              "url": "https://ovalfaceshape.com/oval-face-shape/",
+              "evidence": "# Oval Face Shape: Definition, Exact Ratio, and How to Tell\n## Quick Answer:\n> An oval face is moderately longer than wide — OvalFaceShape.com’s stand... Chin is softly rounded, not pointed or squared\n\nThis is different from a ***round*** face (length and width are close to equal), a ***square*** or ***... Chin is softly rounded, not pointed or squared\n\nThis is different from a ***round*** face (length and width are close to equal), a ***square*** or ***..."
+            },
+            {
+              "title": "Oval Face Shape: Free Test — Are You Really Oval? (2026)",
+              "url": "https://oblongfaceshape.com/oval-face-shape/",
+              "evidence": "**Quick answer:** You have an oval face shape if your face is **slightly longer than it is wide** (length ÷ average width between **1.25 and 1.45**), ... Oval is the **most common of the 7 shapes at 28.4%**.\n\n"
+            },
+            {
+              "title": "The Oval Face Shape",
+              "url": "https://www.fashionbeans.com/article/oval-face-shapes/",
+              "evidence": "Here’s your quick guide to nailing the look:\n\nYour **face length is about 1.5 times the width**, with a **forehead slightly wider than your chin**.\n\n The oval face shape is often considered the golden ratio of facial geometry. "
+            },
+            {
+              "title": "Oval Face Shape: Traits, Haircuts & Glasses",
+              "url": "https://whatcolorssuitme.com/face-shapes/oval/",
+              "evidence": "It can overlap with an oblong outline.\n\n An oval face is a softly tapered styling category, not a proportional ideal.  Proportions are a guide: camera angle and hairstyle can change the impression.\n\n"
+            },
+            {
+              "title": "Do I Have an Oval Face Shape?",
+              "url": "https://faceshapetool.com/blog/oval-face-shape",
+              "evidence": "**Oval vs. Heart:** Heart faces have noticeably wider foreheads than chins, with pointed chin shapes. Oval faces have balanced forehead and cheekbone ..."
+            },
+            {
+              "title": "Choosing Glasses for Your Face Shape  - Optometrists.org",
+              "url": "https://www.optometrists.org/general-practice-optometry/optical/guide-to-optical-frames/9115-2/",
+              "evidence": "There are five categories of face shapes:\n\n- Square\n- Round\n- Heart\n- Triangular\n- Oval\n\n### Square face\nIf your face is a square shape, your jawline,... Oval faces are the most universal face shape and have the largest variety of frame shapes to choose from.  Oval faces are balanced well with **square, rectangular, or geometric shaped** **frames**.  ### Oval face\nIf you have an oval shaped face, your forehead and chin are narrow with soft curves.\n\n"
+            },
+            {
+              "title": "Glasses for Face Shape: Finding the Perfect Pair - 1001 Optometry",
+              "url": "https://1001optometry.com.au/pages/frame-shapes",
+              "evidence": "The 9 different face shapes for glasses are:\n\n- Round face shape\n- Square face shape\n- Triangle face shape\n- Oval face shape\n- Heart face shape\n- Diam... **Those with an oval face shape can go with almost any style of glasses. However, to make your eyes pop, go for a frame shape slightly wider than your... An oval face should avoid narrow frames and frames that have heavy design elements. These frames may add the appearance of extra length to an oval fac..."
+            },
+            {
+              "title": "Personalized Hairstyle Recommendation System using ...",
+              "url": "https://www.riverpublishers.com/downloadchapter.php?file=RP_9788743808268C30.pdf",
+              "evidence": "The dataset consists of five categories, each representing a major face shape oval, round, square, oblong, and\n\nheart with 100 celebrity images per ca... Expert-classified for accuracy, it\n\nprimarily features female faces due to the lack of a comprehensive male dataset. Consequently, the\n\nrecommendation..."
+            },
+            {
+              "title": "Hybrid Based Model Face Shape Classification Using Ensemble Method for Hairstyle Recommender System",
+              "url": "https://link.springer.com/chapter/10.1007/978-981-16-9480-6_7",
+              "evidence": "The method proposed combines facial landmarks, the geometrical, and the pre-train model features to classify facial shapes into four categories. "
+            },
+            {
+              "title": "A Deep Learning Approach To Face Shape Classification For Hairstyle, Beauty And Eyewear Recommendations",
+              "url": "https://ieeexplore.ieee.org/document/10851601/",
+              "evidence": "Face shape classification is a computer vision task which aims to identify the shape of a human face from an image.  The results of the study shows that GoogLeNet achieves the highest accuracy at ${9 1 . 0 3 \\%}$, followed by MobileNetV3 at ${8 9 . 7 4 \\%}$, ResNet50..."
+            },
+            {
+              "title": "(PDF) Automatic Face Shape Classification Via Facial Landmark Measurements",
+              "url": "https://www.researchgate.net/publication/357247661_Automatic_Face_Shape_Classification_Via_Facial_Landmark_Measurements",
+              "evidence": "they employed transfer learning, and retrained the ﬁnal la yer of an Inception\n\nv3 architecture [13], thus being able to achieve an accuracy of ≈84%.\n... The details regarding the employed data\n\nsubset are as follows: 604 total train data set samples, 115 total test data set\n\nsamples, with a train/test ... Accurate face shape classification serves as a vital building block of any hairstyle and eye-wear recommender system. "
+            },
+            {
+              "title": "(PDF) Human Face Shape Classification with Machine Learning",
+              "url": "https://www.researchgate.net/publication/362903132_Human_Face_Shape_Classification_with_Machine_Learning",
+              "evidence": "on the top with an accuracy rate of 70%. "
+            },
+            {
+              "title": "An approach to face shape classification for hairstyle recommendation",
+              "url": "https://www.researchgate.net/publication/301258237_An_approach_to_face_shape_classification_for_hairstyle_recommendation",
+              "evidence": "All classifiers were trained and tested using a total of 500 images of female celebrities with known face shapes collected from the Internet. \n\n from what seems to be domain expert knowledge and empirical opinions for hairstyle recommendation. "
+            },
+            {
+              "title": "How to Pick the Best Glasses for Oval Faces",
+              "url": "https://www.zennioptical.com/blog/how-to-pick-glasses-for-oval-face-shapes/",
+              "evidence": "## Choosing the Right Size and Fit\n- **Proper Width**: The width of the frames should align with the widest part of your face, or just slightly beyond..."
+            }
+          ]
+        },
+        "_draft": true,
+        "_review": {
+          "pass": false,
+          "issues": [
+            "Editorial review pending."
+          ]
+        },
+        "_imageReviews": [],
+        "_imageFailures": []
+      },
+      "issues": [
+        "What Face Shape Apps and AI Can Tell You: the article says the preview estimates face shape in-browser without uploading, then calls the AI report part of paid Aura Pro. It implies Face Shape Finder gives the full proportions explanation and haircut/accessory options, which the rules limit to Aura Pro; the free preview is not that output."
+      ],
+      "status": "rejected",
+      "review": {
+        "pass": false,
+        "issues": [
+          "What Face Shape Apps and AI Can Tell You: the article says the free preview runs on-device and \"estimates your likely face shape\" but \"does not include those explanations or suggestions.\" The rules only say the preview covers face shape, symmetry, canthal tilt and eye shape. The claim about exclusions is unsupported."
+        ]
+      }
+    },
+    "title": "Oval Face Shape: Traits, Glasses and Haircuts",
+    "description": "Learn what an oval face shape is, why sources measure it differently, how to check yours, and which glasses and haircuts suit it without rigid rules.",
+    "h1_displayed": "Oval Face Shape: What It Really Means and How to Style It",
+    "reading_time": 9,
+    "tags": [
+      "oval face shape",
+      "face shapes",
+      "facial proportions",
+      "glasses for oval faces",
+      "haircuts"
+    ],
+    "body_markdown": "If a quiz, a stylist or a friend has told you that you have an oval face shape, you have probably also heard that it suits everything. That is partly true and partly convention. The label describes a real pattern of proportions, but the exact definition changes depending on who you ask.\n\nThis guide covers what the oval label actually describes and why sources measure it differently. It also shows how to check your own face, what face shape apps can and cannot tell you, and how to use the result for glasses and haircuts without treating it as a rulebook.\n\n## What Is an Oval Face Shape?\n\nMost definitions agree on a set of shared traits. An oval face usually has:\n\n- **Length greater than width.** The face is moderately longer than it is wide.\n- **Cheekbones as the widest point.** They are widest only by a small margin over the forehead and jaw.\n- **A forehead slightly wider than the jaw.** The face tapers gently from top to bottom.\n- **A softly curved jawline.** There is no sharp corner where the jaw turns up toward the ear.\n- **A rounded chin.** It is neither pointed nor squared off.\n\nSome anatomical terms help here. Your cheekbones are formed by the **zygomatic bones**, and the distance across them is sometimes called *bizygomatic width*. Your lower jaw is the **mandible**. The corner where it angles up toward your ear is the **gonial angle**. In an oval face, that corner reads as a smooth curve rather than a defined edge.\n\nOne point matters more than any ratio. **Oval is a styling category, not a medical or anatomical diagnosis.** It is shorthand that stylists, opticians and style writers use to describe an overall outline. Real faces rarely fit one category perfectly.\n\n## Why Sources Disagree on the Oval Face Ratio\n\nMost face shape guides use one core measurement. They divide **face length** (hairline to chin) by **cheekbone width**. The cutoffs for oval vary between sources:\n\n- One face shape site sets oval at 1.25 to 1.45.\n- A face calculator site uses 1.4 to 1.6.\n- A men's style magazine simply says length is about 1.5 times the width.\n\nTake a face with a ratio of 1.5. It is oval under the 1.4 to 1.6 range and matches the magazine's rule of thumb. Under the 1.25 to 1.45 range it falls outside oval and reads as longer. Nothing about the face changed. Only the chart did.\n\nThe number of categories varies too. Optometrists.org works with five face shapes: square, round, heart, triangular and oval. An Australian optometry practice lists nine. Academic papers on automated classification use different sets as well. One uses [four categories](https://link.springer.com/chapter/10.1007/978-981-16-9480-6_7) and another uses five. Fewer categories mean each one is broader, so more faces land in \"oval.\"\n\nThe descriptions can even contradict each other. Optometrists.org describes an oval face as having a narrow forehead and chin with soft curves. Most other sources say the forehead is slightly wider than the jaw, with the cheekbones widest.\n\n*Takeaway:* if your result changes between two quizzes, that does not mean either one is broken. They are using different definitions.\n\n### Oval vs. Oblong, Round and Heart\n\nThese are the shapes most often confused with oval.\n\n| Shape | Length vs. width | Widest area | Jaw and chin |\n| --- | --- | --- | --- |\n| Oval | Moderately longer than wide | Cheekbones, by a small margin | Gently curved jaw, rounded chin |\n| Oblong | Noticeably longer, with straighter sides | Fairly even top to bottom | Straighter, less taper |\n| Round | Length and width close to equal | Cheeks | Soft, wide jaw |\n| Heart | Varies | Forehead, noticeably wider than chin | Narrow, more pointed chin |\n\nThe boundary between oval and oblong is the blurriest. Some style sources openly say the two can overlap. If your sides look fairly straight from cheekbone to jaw, try advice for both shapes.\n\n## How to Check If You Have an Oval Face\n\nYou don't need precise measurements to get a useful read. These steps are an editorial suggestion for a fair at-home check.\n\n1. **Take a straight-on photo.** Hold the camera at eye level and look directly into it with a neutral expression. Pull your hair back off your forehead and away from your jaw. Avoid a very close selfie, because short distances can distort proportions.\n2. **Compare three widths.** Look across your forehead, your cheekbones and your jaw just below the ears. For oval, the cheekbones come out slightly widest, the forehead second and the jaw narrowest.\n3. **Check the jaw corner.** A soft curve points toward oval or round. A defined angle points toward square or rectangle.\n4. **Check the chin.** A rounded chin fits oval. A noticeably pointed chin with a wide forehead leans heart.\n5. **Do a rough length check.** Compare hairline-to-chin length with cheekbone width. If the face is clearly longer than wide but not dramatically so, you are in oval territory. The exact cutoff depends on the source.\n6. **Repeat with a second photo.** Camera angle and hairstyle both change how a face reads, so one photo is not enough to settle it.\n\nIf you land between two shapes, that is normal. Treat it as useful information. You can borrow advice from both.\n\n{{IMAGE_2}}\n\n## What Face Shape Apps and AI Can Tell You\n\nResearchers treat face shape classification as a computer vision task. A model looks at a photo and assigns it to a category. Published accuracy is decent but not perfect.\n\n- In one [IEEE study](https://ieeexplore.ieee.org/document/10851601/), the best model (GoogLeNet) reached about 91% accuracy, with MobileNetV3 close behind at about 90%.\n- A [landmark-measurement paper](https://www.researchgate.net/publication/357247661_Automatic_Face_Shape_Classification_Via_Facial_Landmark_Measurements) cites an earlier Inception v3 transfer-learning method at roughly 84%.\n- Another machine learning approach reached around 70%.\n\nThe training data also has limits. One study trained and tested on 500 images of female celebrities collected from the internet. Another project said its dataset was mostly female faces because no comprehensive male dataset existed. Faces that differ from the training data, by gender, age or ethnicity, may be classified less reliably.\n\nThere is a second limit. One paper describes the hairstyle rules attached to face shapes as seeming to come from expert knowledge and empirical opinion. That makes them useful conventions, not tested outcomes.\n\nTreat any app result as **a likely category with some uncertainty**, not a measurement. Aura's [Face Shape Finder](https://app.aura-looksmaxxing.com/tools/face-shape-detector?source=%2Fblog%2Foval-face-shape) is built around that idea. Its free preview runs on your device and estimates your likely face shape in the browser without uploading your photo. The full AI report is part of the paid Aura Pro subscription ($9.99 a month or $49.99 a year). That report explains how your forehead, cheek and jaw proportions relate and suggests haircut and accessory options. The free preview does not include those explanations or suggestions.\n\n## Glasses for an Oval Face\n\nOptometry guidance is fairly consistent here. [Optometrists.org](https://www.optometrists.org/general-practice-optometry/optical/guide-to-optical-frames/9115-2/) calls oval faces the most universal shape, with the largest variety of frame shapes to choose from. Its specific suggestion is **square, rectangular or geometric frames**, which balance the face's soft curves.\n\nAn Australian optometry practice agrees that oval faces can wear almost any style of glasses. It adds two points. A frame shape slightly on the wider side helps your eyes stand out. Narrow frames, or frames with heavy design elements, can add visual length to an oval face.\n\n### Fit Matters as Much as Shape\n\nEven the right frame shape looks off if it fits badly. These are common fitting checks, offered as editorial guidance:\n\n- Frame width should roughly match the widest part of your face, or sit just slightly beyond it.\n- The bridge should rest on your nose without slipping or digging in.\n- The temple arms should reach past your ears without pinching.\n\nIf you wear prescription lenses, have an optician confirm the fit and lens placement. A stylish frame that puts your lenses in the wrong spot is not worth it.\n\n### Matching Frames to Your Version of Oval\n\nThese are editorial suggestions, not rules:\n\n- **Very soft, rounded features:** angular frames add contrast.\n- **Oval on the longer side:** wider frames, or a defined brow line, break up vertical length.\n- **Strong brows or high cheekbones already:** thinner or lighter frames keep the face from looking busy.\n\n## Hairstyles and Grooming for an Oval Face\n\nNo study shows that a particular haircut \"works\" for a face shape. What follows is editorial guidance based on the proportions the oval label describes.\n\nBecause no single feature dominates, you are mostly free to choose by hair texture, maintenance and personal taste. The main thing to watch is length. If your face sits toward the longer end of oval, styles that add a lot of height on top can tip it toward an oblong read.\n\n### If You Prefer Longer Hair\n\n- **Layers that start around the cheekbones or jaw** frame the widest part of the face.\n- **Curtain bangs or a side-swept fringe** shorten the visible forehead and draw attention to the eyes.\n- **Center parts** work well on balanced ovals. Side parts suit you if you want a little more width.\n- **Lobs and shoulder-length cuts** sit at a flattering midpoint for most ovals.\n\n### If You Prefer Shorter Hair\n\n- **Pixies and textured crops** show off the face's proportions without much correction.\n- **Side parts, short quiffs and textured tops** with moderate height suit most ovals.\n- **Very tall pompadours or high, tight buns** add the most length. They are fine if your face is on the shorter side of oval.\n\n### Facial Hair\n\nIf you grow facial hair, stubble or a short, even beard keeps the soft jaw outline intact. A long beard that extends well below the chin adds length. That can help if your oval is short and fairly wide, but less so if your face is already long.\n\nThese are options, not obligations. Feminine, masculine and in-between styling all work on an oval face. The best choice is the one that fits your taste and how much time you want to spend on your hair.\n\n{{IMAGE_3}}\n\n## Oval Face Myths Worth Dropping\n\n**\"Oval is the ideal face shape.\"** Some style writing calls oval the golden ratio of faces. Nothing in the sources reviewed here supports that. Several face shape guides describe oval as a styling category, not a proportional ideal. They also note that attractiveness is subjective and shaped by culture. Oval is easy to style. That is not the same as being more attractive.\n\n**\"Oval is the most common face shape.\"** You will see precise percentages online. The ones we found come from tool sites without a cited study behind them, so treat them as unverified.\n\n**\"Everything suits an oval face.\"** It is a reasonable starting point. Hair texture, frame fit, skin tone, features like brows and nose, and personal style all matter too. Face shape is one input.\n\n**\"One photo settles it.\"** Lighting, camera distance, hairstyle and expression all shift the read. So does the chart you compare against.\n\n## A Practical Oval Face Checklist\n\nUse this as a quick summary:\n\n- Check your shape with at least two straight-on photos, hair pulled back.\n- Compare forehead, cheekbone and jaw width, then look at the jaw corner and chin.\n- Accept a \"between two shapes\" result and borrow advice from both.\n- For glasses, start with frames roughly as wide as your face. Try square, rectangular or geometric shapes, and skip very narrow frames.\n- For hair, choose by texture and taste. Watch excess height if your face runs long.\n- Treat app results and style charts as starting points, then trust what you see in the mirror.",
+    "image_prompts": [
+      {
+        "prompt": "Head-and-shoulders portrait of a young man with a softly tapered oval face, a textured short crop, and rectangular tortoiseshell glasses, looking toward the camera with a relaxed expression. Warm natural window light, plain muted green wall behind him, clean editorial photo style.",
+        "alt": "Man with an oval face shape wearing rectangular tortoiseshell glasses",
+        "purpose": "Shows a real-world example of an oval face paired with the rectangular frames that optometry guidance recommends, as an at-a-glance hero."
+      },
+      {
+        "prompt": "A young woman photographed straight on at eye level with her hair pulled back into a low ponytail, forehead and jawline fully visible, neutral expression. Even soft daylight, plain light gray wall, nothing else in the frame.",
+        "alt": "Straight-on portrait with hair pulled back for checking face shape",
+        "purpose": "Demonstrates the photo setup from the at-home check: straight-on angle, eye-level camera, hair off the forehead and jaw, neutral expression."
+      },
+      {
+        "prompt": "A woman with an oval face seated in a bright hair salon, seen in a three-quarter view, wearing a freshly styled shoulder-length layered cut with soft curtain bangs framing her cheekbones. Warm salon lighting, blurred mirrors and plants in the background, no stylist or hands in frame.",
+        "alt": "Woman with an oval face shape wearing curtain bangs and a layered shoulder-length cut",
+        "purpose": "Illustrates the editorial hairstyle suggestion of layers starting around the cheekbones with curtain bangs on an oval face."
+      }
+    ],
+    "faq": [
+      {
+        "q": "How do I know if my face is oval or oblong?",
+        "a": "Both are longer than they are wide. An oblong face is noticeably longer with straighter sides. An oval face tapers gently from the cheekbones to a rounded chin. Ratio cutoffs differ between sources, so if you are near the boundary, use advice for both shapes."
+      },
+      {
+        "q": "Is an oval face shape the most attractive?",
+        "a": "There is no solid evidence for that. Oval is often called the easiest shape to style because its proportions are balanced. Several face shape guides describe it as a styling category rather than an ideal, and attractiveness is subjective and shaped by culture."
+      },
+      {
+        "q": "What glasses suit an oval face?",
+        "a": "Optometry guidance suggests square, rectangular or geometric frames, and notes that oval faces can wear almost any style. Frames slightly on the wider side tend to work well, while very narrow frames or heavily decorated frames can add visual length. Good fit across the face, nose and ears matters as much as shape."
+      },
+      {
+        "q": "Are face shape apps accurate?",
+        "a": "Published research models range from roughly 70% to 91% accuracy, and some training datasets were small and mostly female. Treat any app result as a likely category with some uncertainty. Confirm it against a couple of your own straight-on photos."
+      },
+      {
+        "q": "Why do different quizzes give me different face shapes?",
+        "a": "Sources use different ratio cutoffs and different numbers of categories, from four to nine. Camera angle, lens distance and hairstyle also change how your face reads. A changing result usually means you sit near a boundary, not that the quiz is wrong."
+      }
+    ],
+    "sources": [
+      {
+        "title": "A Deep Learning Approach To Face Shape Classification For Hairstyle, Beauty And Eyewear Recommendations",
+        "url": "https://ieeexplore.ieee.org/document/10851601/"
+      },
+      {
+        "title": "(PDF) Automatic Face Shape Classification Via Facial Landmark Measurements",
+        "url": "https://www.researchgate.net/publication/357247661_Automatic_Face_Shape_Classification_Via_Facial_Landmark_Measurements"
+      },
+      {
+        "title": "Choosing Glasses for Your Face Shape  - Optometrists.org",
+        "url": "https://www.optometrists.org/general-practice-optometry/optical/guide-to-optical-frames/9115-2/"
+      },
+      {
+        "title": "Glasses for Face Shape: Finding the Perfect Pair - 1001 Optometry",
+        "url": "https://1001optometry.com.au/pages/frame-shapes"
+      },
+      {
+        "title": "An approach to face shape classification for hairstyle recommendation",
+        "url": "https://www.researchgate.net/publication/301258237_An_approach_to_face_shape_classification_for_hairstyle_recommendation"
+      },
+      {
+        "title": "Hybrid Based Model Face Shape Classification Using Ensemble Method for Hairstyle Recommender System",
+        "url": "https://link.springer.com/chapter/10.1007/978-981-16-9480-6_7"
+      },
+      {
+        "title": "How to Pick the Best Glasses for Oval Faces",
+        "url": "https://www.zennioptical.com/blog/how-to-pick-glasses-for-oval-face-shapes/"
+      },
+      {
+        "title": "Oval Face Shape -",
+        "url": "https://facecalculators.com/face-shapes/oval/"
+      },
+      {
+        "title": "Oval Face Shape: Free Test — Are You Really Oval? (2026)",
+        "url": "https://oblongfaceshape.com/oval-face-shape/"
+      },
+      {
+        "title": "The Oval Face Shape",
+        "url": "https://www.fashionbeans.com/article/oval-face-shapes/"
+      },
+      {
+        "title": "Oval Face Shape: Traits, Haircuts & Glasses",
+        "url": "https://whatcolorssuitme.com/face-shapes/oval/"
+      },
+      {
+        "title": "Oval Face Shape Guide (2026): Hair, Glasses & Styling",
+        "url": "https://www.detect-faceshape.com/oval-face-shape/"
+      }
+    ],
+    "tool_slug": "face-shape-detector",
+    "audience": "everyone"
+  }
+}

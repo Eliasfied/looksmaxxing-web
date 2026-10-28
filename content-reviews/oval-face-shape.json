@@ -1,0 +1,124 @@
+{
+  "slug": "oval-face-shape",
+  "reviewedAt": "2026-10-28T20:03:49.941Z",
+  "draft": true,
+  "review": {
+    "pass": false,
+    "issues": [
+      "What Face Shape Apps and AI Can Tell You: the article says the free preview runs on-device and \"estimates your likely face shape\" but \"does not include those explanations or suggestions.\" The rules only say the preview covers face shape, symmetry, canthal tilt and eye shape. The claim about exclusions is unsupported."
+    ]
+  },
+  "textRepair": {
+    "status": "rejected",
+    "issues": [
+      "What Face Shape Apps and AI Can Tell You: the article says the preview estimates face shape in-browser without uploading, then calls the AI report part of paid Aura Pro. It implies Face Shape Finder gives the full proportions explanation and haircut/accessory options, which the rules limit to Aura Pro; the free preview is not that output."
+    ],
+    "review": {
+      "pass": false,
+      "issues": [
+        "What Face Shape Apps and AI Can Tell You: the article says the free preview runs on-device and \"estimates your likely face shape\" but \"does not include those explanations or suggestions.\" The rules only say the preview covers face shape, symmetry, canthal tilt and eye shape. The claim about exclusions is unsupported."
+      ]
+    }
+  },
+  "sources": [
+    {
+      "title": "A Deep Learning Approach To Face Shape Classification For Hairstyle, Beauty And Eyewear Recommendations",
+      "url": "https://ieeexplore.ieee.org/document/10851601/"
+    },
+    {
+      "title": "(PDF) Automatic Face Shape Classification Via Facial Landmark Measurements",
+      "url": "https://www.researchgate.net/publication/357247661_Automatic_Face_Shape_Classification_Via_Facial_Landmark_Measurements"
+    },
+    {
+      "title": "Choosing Glasses for Your Face Shape  - Optometrists.org",
+      "url": "https://www.optometrists.org/general-practice-optometry/optical/guide-to-optical-frames/9115-2/"
+    },
+    {
+      "title": "Glasses for Face Shape: Finding the Perfect Pair - 1001 Optometry",
+      "url": "https://1001optometry.com.au/pages/frame-shapes"
+    },
+    {
+      "title": "An approach to face shape classification for hairstyle recommendation",
+      "url": "https://www.researchgate.net/publication/301258237_An_approach_to_face_shape_classification_for_hairstyle_recommendation"
+    },
+    {
+      "title": "Hybrid Based Model Face Shape Classification Using Ensemble Method for Hairstyle Recommender System",
+      "url": "https://link.springer.com/chapter/10.1007/978-981-16-9480-6_7"
+    },
+    {
+      "title": "How to Pick the Best Glasses for Oval Faces",
+      "url": "https://www.zennioptical.com/blog/how-to-pick-glasses-for-oval-face-shapes/"
+    },
+    {
+      "title": "Oval Face Shape -",
+      "url": "https://facecalculators.com/face-shapes/oval/"
+    },
+    {
+      "title": "Oval Face Shape: Free Test — Are You Really Oval? (2026)",
+      "url": "https://oblongfaceshape.com/oval-face-shape/"
+    },
+    {
+      "title": "The Oval Face Shape",
+      "url": "https://www.fashionbeans.com/article/oval-face-shapes/"
+    },
+    {
+      "title": "Oval Face Shape: Traits, Haircuts & Glasses",
+      "url": "https://whatcolorssuitme.com/face-shapes/oval/"
+    },
+    {
+      "title": "Oval Face Shape Guide (2026): Hair, Glasses & Styling",
+      "url": "https://www.detect-faceshape.com/oval-face-shape/"
+    }
+  ],
+  "imageModel": "openai/gpt-image-2.5/flare/text-to-image",
+  "imageReviews": [],
+  "imageFailures": [],
+  "imageSettings": {
+    "width": 1024,
+    "height": 1024,
+    "quality": "low"
+  },
+  "usage": [
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "research",
+      "input": 30982,
+      "output": 4034,
+      "estimatedUsd": 0.102304,
+      "searches": 3
+    },
+    {
+      "model": "claude-opus-5-5",
+      "stage": "article",
+      "input": 35505,
+      "output": 10592,
+      "estimatedUsd": 0.35386,
+      "searches": 0
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "text-review",
+      "input": 8372,
+      "output": 128,
+      "estimatedUsd": 0.018024,
+      "searches": 0
+    },
+    {
+      "model": "claude-opus-5-5",
+      "stage": "article-repair",
+      "input": 9570,
+      "output": 7463,
+      "estimatedUsd": 0.18754,
+      "searches": 0
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "text-review",
+      "input": 9735,
+      "output": 124,
+      "estimatedUsd": 0.02071,
+      "searches": 0
+    }
+  ],
+  "note": "Token estimates exclude web-search charges, images, tax and provider markups."
+}
