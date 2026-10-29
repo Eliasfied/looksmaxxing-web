@@ -9,7 +9,7 @@ heroImage: /blog/best-haircut-for-round-face-men/1.webp
 heroImageAlt: Best haircut for round face men shown in four illustrated styles
 tags: ["men's haircuts", round face, face shape, hairstyles, looksmaxxing, grooming]
 readingTime: 9
-related: [best-haircut-for-heart-face-men, best-haircut-for-diamond-face-men, hairstyle-for-round-face]
+related: [best-haircut-for-heart-face-men, hairstyle-for-round-face, best-haircut-for-diamond-face-men]
 faq:
   - q: What is the best haircut for a round face for men?
     a: A high fade quiff is the most reliable choice for most round faces. It adds height on top and removes width from the sides, which makes the face look longer and slimmer. A pompadour with tapered sides is a close second.

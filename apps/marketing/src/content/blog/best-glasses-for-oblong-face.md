@@ -9,7 +9,7 @@ heroImage: "/blog/best-glasses-for-oblong-face/1.webp"
 heroImageAlt: "Four eyeglass frames arranged on a light linen surface: a tortoiseshell browline with gold lower rims, a bold black square acetate frame, a burgundy cat-eye frame and a gold aviator with tortoiseshell temple tips, with a sprig of eucalyptus in the corner."
 tags: ["glasses", "oblong face", "face shape", "eyewear", "styling"]
 readingTime: 9
-related: [best-glasses-for-heart-face, best-glasses-for-square-face, best-glasses-for-triangle-face]
+related: [best-glasses-for-heart-face, best-glasses-for-round-face, best-glasses-for-square-face]
 faq:
   - q: "What are the best glasses for an oblong face shape?"
     a: "Frames that add visual width and break the vertical line usually work best. Browline, tall square, wide rectangle, cat-eye and aviator styles are common recommendations, ideally reaching to or slightly past your cheekbones with enough lens depth."

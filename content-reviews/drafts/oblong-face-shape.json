@@ -1,0 +1,395 @@
+{
+  "version": 1,
+  "savedAt": "2026-10-29T20:03:27.059Z",
+  "page": {
+    "slug": "oblong-face-shape",
+    "cluster": "oblong-face-shape",
+    "page_type": "blog",
+    "phase": 5,
+    "keywords": [
+      {
+        "keyword": "oblong face shape",
+        "volume": 14800,
+        "sd": 0
+      }
+    ],
+    "primary_keyword": "oblong face shape",
+    "primary_volume": 14800,
+    "primary_sd": 0
+  },
+  "data": {
+    "_research": {
+      "sources": [
+        {
+          "title": "What Is an Oblong Face Shape?",
+          "url": "https://faceshapelab.com/blog/what-is-an-oblong-face-shape/",
+          "evidence": "An oblong face shape is one where your face is noticeably longer than it is wide, with your forehead, cheekbones, and jawline all measuring roughly th... The sides of the face run in relatively straight, parallel lines rather than curving inward, and the chin tends to be flat or softly squared rather th... ## Key Characteristics of an Oblong Face\n### Face Length vs. Width\nThe defining trait of an oblong face is a length that significantly exceeds its wid..."
+        },
+        {
+          "title": "Oblong Face Shape: Features & How to Identify",
+          "url": "https://knowmyface.com/oblong-face-shape",
+          "evidence": "Deciding difference: An oval face tapers noticeably below the cheekbones, narrowing toward the jaw.  An oblong face maintains nearly the same width from forehead through jaw, with straight, parallel sides instead of a taper.\n\n"
+        },
+        {
+          "title": "Oblong Face Shape: Hairstyles, Glasses & Makeup Guide",
+          "url": "https://myfaceshapedetector.com/blog/oblong-face-shape",
+          "evidence": "A square face is about as long as it is wide; an oblong is clearly longer.  Worth avoiding: very long, straight, flat hair with a centre part, which extends the vertical line all the way down; height and volume at the crown, w... - **Side parts,** which introduce a diagonal and break the vertical line.\n\n\n\n ## Best glasses for an oblong face\n- **Deep frames with a tall lens height. - **Wide frames,** which add horizontal emphasis across the middle of the face.\n Avoid small, narrow, or shallow frames — they leave large areas of face above and below, which emphasises the length.\n\n Yes, if they are large enough."
+        },
+        {
+          "title": "Oblong Face Shape: Traits, Haircuts & Glasses",
+          "url": "https://whatcolorssuitme.com/face-shapes/oblong/",
+          "evidence": "## Hairstyles that flatter\n- +Chin-length to shoulder-length cuts (add horizontal width)\n- +Curtain bangs or side-swept bangs (shorten the forehead)\n-... | Trait | Oblong | Rectangle |\n| --- | --- | --- |\n| Jawline | Softly rounded | Strong angular corners |\n| Hairline | Rounded | Squared |\n| Best cuts ... Proportions are a guide: camera angle and hairstyle can change the impression.  ## Hairstyles that flatter\n- +Chin-length to shoulder-length cuts (add horizontal width)\n- +Curtain bangs or side-swept bangs (shorten the forehead)\n-... When choosing glasses, also check that the bridge and temples fit comfortably.\n\n"
+        },
+        {
+          "title": "Do I Have Oblong Face Shape? Meaning, Features, Characteristics & Styling Guide",
+          "url": "https://faceshapetool.com/blog/oblong-face-shape",
+          "evidence": "Also known as a rectangle face shape, the oblong face is identified through facial proportions, anthropometric measurements, and overall silhouette ra... An oblong face shape has a length-to-width ratio of 1.6:1 or higher with uniform widths across forehead, cheekbones, and jaw.\n\n ## Key Features of Oblong Face Shape\n- **Face length exceeds width** at a ratio of 1.6:1 or higher\n- **Forehead, cheekbones, and jaw all measure at si..."
+        },
+        {
+          "title": "Oblong Face Shape — Free Detector, Hairstyles & Styling Tips",
+          "url": "https://oblongfaceshape.com/",
+          "evidence": "L W L/W Ratio 1.5:1 = Oblong All 7 Face Shapes Oblong Oval Round Square Heart Diamond Triangle\n\nOblong face: consistent widths from forehead to jaw — ... Research by Farkas (1994) established the standardised landmark positions this measurement system is built on.\n\n"
+        },
+        {
+          "title": "Oval vs Oblong Face Shape: How to Tell the Difference",
+          "url": "https://faceshapedetector.app/blog/oval-vs-oblong-face-shape",
+          "evidence": "They share one trait — both are longer than they are wide — but oval has a soft inward curve at the cheeks and a moderate length-to-width ratio (aroun... They share one trait — both are longer than they are wide — but oval has a soft inward curve at the cheeks and a moderate length-to-width ratio (aroun..."
+        },
+        {
+          "title": "Oblong Face Shape: Characteristics, Hairstyles, Glasses & Styling Guide",
+          "url": "https://faceshapefinder.com/face-shapes/oblong-face-shape",
+          "evidence": "## Celebrities with an oblong face\n\n## Often confused with: Oval\n\nOvals taper visibly from cheekbones to chin and sit near a 1.45× length ratio; oblon..."
+        },
+        {
+          "title": "(PDF) Human Face Shape Classification with Machine Learning",
+          "url": "https://www.researchgate.net/publication/362903132_Human_Face_Shape_Classification_with_Machine_Learning",
+          "evidence": "The proposed method has used only 13\n\nfacial landmarks to calculate a total of 14 features\n\n(5 normalized distances, 7 ratios, and 2 angles).\n\n The paper has used a different method to classify\n\nfront face images into ﬁve face shapes i.e. heart,\n\noblong, oval, round and square.  On the other hand, the ”3D Face data and SVM”\n\nmethod uses 91 landmarks (Accuracy 73.68%),\n\nThe accuracy of the model is 70% and\n\nsize of testing dete..."
+        },
+        {
+          "title": "(PDF) FACE SHAPE CLASSIFIER USING DEEP LEARNING",
+          "url": "https://www.academia.edu/93530492/FACE_SHAPE_CLASSIFIER_USING_DEEP_LEARNING",
+          "evidence": "This algorithm classifies and predicts outcomes based on face shape across five shapes: heart, oval, square, oblong, and circle, and provides results ..."
+        },
+        {
+          "title": "Face Shape Classification Using Swin Transformer Model - ScienceDirect",
+          "url": "https://www.sciencedirect.com/science/article/pii/S1877050923017258",
+          "evidence": "The proposed model has an accuracy of 99.61485%, f1-score of 99.0162%, 98.7% of specificity, 98.99% of sensitivity, and a precision of 99.50758% for t..."
+        },
+        {
+          "title": "(PDF) Face shape classification using Inception v3",
+          "url": "https://www.researchgate.net/publication/337386649_Face_shape_classification_using_Inception_v3",
+          "evidence": "All classifiers were trained and tested using a total of 500 images of female celebrities with known face shapes collected from the Internet."
+        },
+        {
+          "title": "Geometric Feature Enhancement for Robust Facial Landmark Detection in Makeup Paper Templates",
+          "url": "https://www.mdpi.com/2076-3417/16/2/977",
+          "evidence": "While the algorithm performs best in Circle classification, it exhibits higher error rates in distinguishing Rectangle and Square face shapes, undersc... Dlib demonstrates high accuracy in identifying face shape templates, but shows confusion between structurally similar categories.\n\n"
+        },
+        {
+          "title": "Oblong Face Shape: Hairstyles, Glasses & Styling Guide (2026)",
+          "url": "https://www.detect-face-shape.com/face-shapes/oblong",
+          "evidence": "Oblong face shape illustration\n\n# Oblong Face Shape\n## Best Hairstyles for Oblong Face Shape\n### Women's Hairstyles\n- **Side-swept bangs** — Bangs tha... - **Layered cuts that add width** — Layers that begin at the cheekbone or jaw level create movement and volume in exactly the areas where an oblong fa... - **Soft waves and curls** — Any texture that adds horizontal dimension is beneficial. "
+        },
+        {
+          "title": "How to Tell + Best Hairstyles & Glasses - Oblong Face Shape",
+          "url": "https://ovalfaceshape.com/oblong-face-shape/",
+          "evidence": "### Best Glasses for an Oblong Face\nFrame width is the deciding factor: the frame should be at least as wide as your face’s widest point. \n\n"
+        },
+        {
+          "title": "Oblong Face Shape: Traits, Celebrities & What Suits It",
+          "url": "https://faceshapedetector.app/face-shapes/oblong",
+          "evidence": "No face shape is inherently more or less attractive than any other; the proportions of an oblong face simply call for specific styling choices — wide ... > Stylist's note: Oblong is the most commonly misidentified face shape overall: the majority of oblong-faced people believe they have an oval face, be..."
+        }
+      ]
+    },
+    "_draft": false,
+    "_review": {
+      "pass": true,
+      "issues": []
+    },
+    "_imageReviews": [
+      {
+        "image": "/blog/oblong-face-shape/1.webp",
+        "review": {
+          "pass": true,
+          "issues": [],
+          "alt": "Person with hair pulled back under a white headband looking straight at their face in a round bathroom mirror, lit by soft window daylight, with a plant and towel in the background"
+        }
+      },
+      {
+        "image": "/blog/oblong-face-shape/2.webp",
+        "review": {
+          "pass": true,
+          "issues": [],
+          "alt": "Smiling woman with a long face shape wearing a chin-length wavy brown bob with wispy curtain bangs, sitting in a bright hair salon in a cream knit sweater"
+        }
+      },
+      {
+        "image": "/blog/oblong-face-shape/3.webp",
+        "review": {
+          "pass": true,
+          "issues": [],
+          "alt": "Man with a long face wearing wide, bold dark acetate glasses, a textured crop with a short fringe, and a neatly trimmed short beard, photographed from the chest up at a three-quarter angle in a warmly lit café with a blurred background"
+        }
+      }
+    ],
+    "_imageFailures": [],
+    "_textRepair": {
+      "original": {
+        "title": "Oblong Face Shape: How to Tell and What Suits It",
+        "description": "Learn how to tell if you have an oblong face shape, how it differs from oval and square, and which haircuts and glasses add width without adding height.",
+        "h1_displayed": "Oblong Face Shape: How to Identify It and Style It Well",
+        "reading_time": 8,
+        "tags": [
+          "face shape",
+          "oblong face",
+          "haircuts",
+          "glasses",
+          "facial proportions",
+          "styling"
+        ],
+        "tool_slug": "face-shape-detector",
+        "audience": "everyone",
+        "body_markdown": "Maybe your face looks long in photos, and the advice in every oval-face guide feels slightly off. If so, you may be following advice written for a different shape. The **oblong face shape** is one of the standard categories in hair and eyewear advice, and it is the one most easily mixed up with oval.\n\nThis guide covers:\n\n- what defines an oblong face\n- how to check yours honestly\n- why the label is less precise than many sites suggest\n- which haircuts and glasses tend to work, and why\n\nOnce you understand the reasoning, you can adapt the advice instead of copying a list.\n\n## What an Oblong Face Shape Is\n\nAn oblong face has two traits at the same time:\n\n1. **It is clearly longer than it is wide.**\n2. **Its width stays fairly even from top to bottom.** The forehead, cheekbones and jaw are all roughly the same width.\n\nBecause the width holds steady, the sides of the face tend to run in fairly straight, near-parallel lines instead of curving inward. The chin is usually softly rounded or lightly squared rather than pointed.\n\nThree measurements come up in face shape discussions:\n\n- **Face length:** from the hairline to the bottom of the chin. Anatomists call the lowest point of the chin the *menton*.\n- **Cheekbone width:** the distance across the widest part of the cheekbones. Anatomists call this *bizygomatic width*, after the zygomatic (cheek) bones.\n- **Jaw width:** the distance between the two angles of the jaw, called *bigonial width*. The *gonion* is the corner where the jaw turns upward toward the ear.\n\nIn an oblong face, the forehead, cheekbone and jaw widths sit close together, while the length clearly exceeds them.\n\nThis is a **styling shorthand, not a medical category.** Nothing is wrong with an oblong face, and no face shape is more attractive than another. The label is useful only because it helps you predict which haircuts and frames will balance your proportions in the way you prefer.\n\n### The Ratio Problem\n\nMany face shape guides give a length-to-width cutoff for oblong. The trouble is that they disagree. Published cutoffs on face shape sites range from about 1.5:1 to about 1.75:1. Some of the same sites put oval at about 1.45:1 or 1.5:1, which overlaps with the lower oblong cutoffs.\n\nWe did not find a clinical or professional standard behind any of these numbers. Treat any single ratio as a rough guide, not a definition. If your face sits near a boundary, you are not misreading yourself. The boundary is fuzzy.\n\n## Oblong vs Oval, Square and Rectangle\n\nOblong overlaps with three neighboring shapes. Here is how they compare.\n\n| Shape | Length vs width | Width pattern | Sides | Jaw and chin |\n|---|---|---|---|---|\n| **Oblong** | Clearly longer than wide | Forehead, cheeks and jaw similar | Fairly straight, near-parallel | Soft jaw, rounded or lightly squared chin |\n| **Oval** | Longer than wide, less so | Widest at cheekbones, tapering above and below | Gently curved | Narrower, rounded chin |\n| **Square** | About as long as wide | Forehead, cheeks and jaw similar | Straight | Angular jaw corners |\n| **Rectangle** | Clearly longer than wide | Forehead, cheeks and jaw similar | Straight | Stronger, angular jaw corners |\n\n**Oblong vs oval.** Look for taper below the cheekbones. An oval face narrows noticeably toward the jaw and chin. An oblong face keeps nearly the same width all the way down. If you trace your outline and see a soft curve from cheekbone to chin, oval is the better fit. If you see fairly straight lines, oblong fits better.\n\n**Oblong vs square.** Both have even widths. A square face is about as long as it is wide, while an oblong face is clearly longer.\n\n**Oblong vs rectangle.** Guides don't agree here:\n\n- Some separate the two by jaw shape: oblong has a softer jaw, and rectangle has strong angular corners.\n- Others treat \"rectangle\" as another name for oblong.\n\nIn practice, the styling advice for both is nearly identical. If your jaw is very angular, you can add a few softening choices, which are covered below.\n\n## How to Check If Your Face Is Oblong\n\nYou need a mirror or a phone camera and a few minutes.\n\n1. **Pull all your hair back.** Use a headband or tie it tightly so your hairline, temples and jaw are fully visible. Hair framing the face changes how its shape reads.\n2. **Set the camera at eye level, a bit more than arm's length away.** Face it straight on with a neutral expression. Close-up selfies taken with the camera tilted up or down distort how long the face looks.\n3. **Trace the outline from temple to jaw.** Note whether the sides curve inward below the cheekbones or run fairly straight.\n4. **Compare three widths:** forehead, cheekbones and jaw. Note whether one zone clearly dominates or whether all three are close.\n5. **Judge the length.** Ask whether the face reads as clearly longer than wide, or only moderately longer.\n6. **Repeat with two or three photos on different days.** If your answer flips between oval and oblong, you are probably borderline. The good news is that advice for borderline faces overlaps heavily.\n\nA soft tape measure can help with steps 4 and 5, but don't over-trust the numbers. As noted above, nobody agrees on where oval ends and oblong begins.\n\n## Why Face Shape Labels Are Fuzzier Than They Look\n\nIf face shapes were clear-cut categories, software would sort them perfectly. Research on automated face shape classification shows it does not.\n\nThese studies place *facial landmarks* on a photo. Landmarks are named reference points such as the chin tip, the jaw corners and the cheekbone edges. From these points the software calculates distances, ratios and angles, then assigns a shape. Some examples:\n\n- **A small landmark study.** [One machine learning study](https://www.researchgate.net/publication/362903132_Human_Face_Shape_Classification_with_Machine_Learning) used 13 landmarks to calculate 14 features. It sorted faces into five shapes, including oblong and oval, and reported 70% accuracy on a test set of 20 images.\n- **A deep learning classifier.** It reported around 82% accuracy across five shapes.\n- **A transformer-based model.** It [reports over 99% accuracy](https://www.sciencedirect.com/science/article/pii/S1877050923017258) on its own dataset. Numbers from different datasets are not directly comparable.\n- **Shaky ground-truth labels.** One earlier study trained its models on 500 internet photos of female celebrities whose face shapes were \"known.\" Those labels come from informal sources, not measurement.\n- **Confusion between neighbors.** A recent study on makeup face templates found that its [algorithms confused structurally similar categories](https://www.mdpi.com/2076-3417/16/2/977), especially rectangle and square.\n\nThe takeaway is practical. If trained software confuses neighboring shapes, a single selfie judged by eye can confuse them too. Camera angle, lens distance and hairstyle all shift the impression.\n\nTreat your result as **a likely shape, not a verdict**. Choose styling that works across the shapes you might be.\n\nIf you want a second read alongside your mirror check, you can use the [Aura Face Shape Finder](https://app.aura-looksmaxxing.com/tools/face-shape-detector?source=%2Fblog%2Foblong-face-shape). It works in two parts:\n\n- **The free part** is an on-device preview that estimates face shape in your browser without uploading your photo.\n- **The fuller AI report** is part of Aura Pro, a paid subscription. It gives your likely face shape with its uncertainty, explains your forehead, cheek and jaw proportions, and suggests haircut and accessory options. It does not claim exact physical measurements.\n\n## Haircuts for an Oblong Face Shape\n\nNearly every style guide gives oblong faces the same principle: **add width at the sides and avoid adding height on top.** This is a styling convention based on how lines and volume draw the eye. It is not a tested, measured outcome.\n\nBefore you choose a cut, decide whether you want to balance your length at all. Some people like an elongated look and choose to lean into it. That is a valid choice.\n\n### Longer and Feminine Styles\n\n- **Chin-length to shoulder-length cuts.** Bobs and lobs end in a horizontal line near the jaw, which interrupts the face's vertical length.\n- **Curtain bangs or side-swept bangs.** These cover part of the forehead, so less vertical length shows. Wispy, layered bangs look softer than a heavy blunt line, though a blunt fringe also works if you like the look.\n- **Layers that start at the cheekbone or jaw.** They put movement and volume exactly where width helps. Layers that start too high can add height at the crown instead.\n- **Waves and curls.** Texture expands outward and adds horizontal fullness that straight hair cannot.\n- **A side part.** It adds a diagonal line that breaks up the face's vertical symmetry.\n\nIf your hair is long and you want to keep it, ask for face-framing layers that begin around cheek level. That keeps your length while adding width where it counts.\n\n{{IMAGE_2}}\n\n### Shorter and Masculine Styles\n\n- **A fringe.** French crops and textured crops bring hair forward over the forehead. The aim is texture rather than height.\n- **Side-swept styles and side parts.** These serve the same purpose as for longer hair, adding a diagonal instead of a straight vertical line.\n- **Some length and volume at the sides.** Guides consistently favor fuller sides over a tall top. As an editorial suggestion, a very tight fade under a tall top tends to stretch the silhouette further.\n- **Beards (editorial suggestion).** Fuller sides with moderate length at the chin keep the line horizontal. A long or pointed beard extends the face downward.\n\n### What Usually Works Against Length\n\nThese choices tend to emphasize length. They are only worth avoiding if your goal is balance:\n\n- very long, flat, straight hair with a center part\n- height at the crown: high updos, top knots, tall pompadours and quiffs\n- tightly pulled-back or slicked-back styles with no fringe, which show the full height of the forehead\n\n## Glasses and Accessories for an Oblong Face\n\nFrames follow the same logic as haircuts. Look for frames that add a horizontal band across the middle of the face and cover some vertical space.\n\n- **Width.** One common rule of thumb is that the frame should be at least as wide as the widest part of your face.\n- **Depth.** Taller lenses cover more of the face's vertical length.\n- **Strong upper lines.** Browline frames, bold acetate and wide wayfarer-style shapes add a clear horizontal line.\n- **Frames to avoid.** Small, narrow or shallow frames leave large areas of face visible above and below them, which emphasizes length.\n\nGuides disagree about round frames:\n\n- Some recommend large round or oval frames because the curves add width.\n- Others list oversized frames as something to skip.\n\nThe honest answer is that it depends on your features and taste, so try both.\n\nAbove all, check fit. The bridge should sit comfortably on your nose, and the temple arms shouldn't pinch. A well-fitting frame in a so-so shape usually beats a \"correct\" shape that slides down your nose all day.\n\nIf your jaw is angular, as with rectangle faces, rounder frames and softer hairstyles soften those corners. This is an editorial suggestion. For accessories, wider earrings and a horizontal neckline follow the same width-over-length idea, also as an editorial suggestion.\n\n{{IMAGE_3}}\n\n## A Practical Plan for Your Next Haircut\n\nMost people get poor results because they arrive at the salon or barber with a vague request. Use these steps instead.\n\n1. **Take two or three clear front-facing photos** with your hair pulled back, as described in the checking steps above.\n2. **Pick one main horizontal element** rather than changing everything at once. Choose a fringe, side volume at cheek level, or a side part. One clear change is easier to judge than three.\n3. **Collect reference photos** of the cut on people whose hair texture is similar to yours. Hair texture matters more than face shape for whether a cut will hold its form.\n4. **Brief your stylist in plain terms.** For example: \"I'd like more width around cheek level and less height at the crown. Can we add a fringe or a side part?\" Stylists can work with a clear goal far more easily than with a face shape label.\n5. **Give it two to three weeks.** Cuts settle as they grow slightly, and you'll learn how to style them.\n6. **Adjust at the next appointment.** Keep what worked, and change one thing that didn't.\n\nFor glasses, try frames in person and take a straight-on photo of each pair. Photos remove the mirror bias that comes from seeing yourself up close.\n\n## The Bottom Line\n\nAn oblong face is clearly longer than it is wide, with fairly even width from forehead to jaw and straight-ish sides. It is easily mixed up with oval. The main difference is the taper below the cheekbones, which oval faces have and oblong faces lack.\n\nThe label is fuzzier than face shape sites admit. Ratio cutoffs vary between guides, and even classification software confuses neighboring shapes. Use the label as a starting point, not a verdict.\n\nThe styling principle is simple and flexible: **add width, go easy on height.** Pick one change, brief your stylist clearly, and judge the result in real photos.",
+        "image_prompts": [
+          {
+            "prompt": "A young adult with a long face and even width from forehead to jaw stands facing a round bathroom mirror, hair tied tightly back with a plain headband so the hairline, temples and jawline are fully visible. Soft natural daylight from a window, neutral expression, front-facing, clean uncluttered background.",
+            "alt": "Person with an oblong face shape checking their face outline in a bathroom mirror with hair pulled back",
+            "purpose": "Shows the self-check setup from the identification section: hair fully back, front-facing and evenly lit, so the face outline can be judged."
+          },
+          {
+            "prompt": "A woman with a long face wears a chin-length layered bob with soft waves that add volume at cheek level and wispy curtain bangs covering part of her forehead. She sits in a bright hair salon, seen from the front at eye level, in a relaxed and natural pose.",
+            "alt": "Woman with an oblong face shape wearing a chin-length wavy bob with curtain bangs",
+            "purpose": "Illustrates the haircut principle for longer and feminine styles: horizontal volume at cheek level and a fringe that reduces visible forehead length."
+          },
+          {
+            "prompt": "A man with a long face wears wide, bold dark acetate glasses with a strong top line and a textured crop with a short fringe falling forward, plus a neatly trimmed short beard kept fuller at the sides. He is photographed from the chest up at a slight three-quarter angle in a warmly lit café with a blurred background.",
+            "alt": "Man with an oblong face shape wearing wide bold glasses and a textured fringe haircut",
+            "purpose": "Demonstrates the glasses and shorter-hair guidance: wide, deep frames that add a horizontal band, a fringe instead of crown height, and a beard kept fuller at the sides."
+          }
+        ],
+        "faq": [
+          {
+            "q": "How do I know if I have an oblong face shape?",
+            "a": "Pull your hair back and take a straight-on photo at eye level. If your face is clearly longer than it is wide and your forehead, cheekbones and jaw are all about the same width, with fairly straight sides, oblong is a likely fit. Check two or three photos, because angle and lighting change how the shape reads."
+          },
+          {
+            "q": "What is the difference between an oblong and an oval face?",
+            "a": "Both are longer than they are wide. An oval face tapers below the cheekbones toward a narrower chin. An oblong face keeps nearly the same width from forehead to jaw, with straighter sides."
+          },
+          {
+            "q": "Is there an exact ratio that defines an oblong face?",
+            "a": "No widely accepted one. Face shape guides give length-to-width cutoffs anywhere from about 1.5:1 to about 1.75:1, and we found no clinical standard behind them. Treat any ratio as a rough guide."
+          },
+          {
+            "q": "What hairstyles suit an oblong face shape?",
+            "a": "Styles that add width at the sides and avoid height on top are the usual recommendation. Examples include chin-length to shoulder-length cuts, curtain or side-swept bangs, layers starting at the cheekbones, waves, side parts and textured crops with a fringe. This is styling convention rather than a tested outcome, so choose based on your hair texture and preference."
+          },
+          {
+            "q": "What glasses work best for an oblong face?",
+            "a": "Frames that are wide and fairly deep, with a strong horizontal line such as browline or bold acetate styles, are commonly recommended. Small, narrow or shallow frames tend to emphasize length. Guides disagree about round frames, so try them on, and prioritize a comfortable fit at the bridge and temples."
+          }
+        ],
+        "sources": [
+          {
+            "title": "Geometric Feature Enhancement for Robust Facial Landmark Detection in Makeup Paper Templates",
+            "url": "https://www.mdpi.com/2076-3417/16/2/977"
+          },
+          {
+            "title": "(PDF) Human Face Shape Classification with Machine Learning",
+            "url": "https://www.researchgate.net/publication/362903132_Human_Face_Shape_Classification_with_Machine_Learning"
+          },
+          {
+            "title": "Face Shape Classification Using Swin Transformer Model - ScienceDirect",
+            "url": "https://www.sciencedirect.com/science/article/pii/S1877050923017258"
+          },
+          {
+            "title": "(PDF) FACE SHAPE CLASSIFIER USING DEEP LEARNING",
+            "url": "https://www.academia.edu/93530492/FACE_SHAPE_CLASSIFIER_USING_DEEP_LEARNING"
+          },
+          {
+            "title": "(PDF) Face shape classification using Inception v3",
+            "url": "https://www.researchgate.net/publication/337386649_Face_shape_classification_using_Inception_v3"
+          }
+        ],
+        "_research": {
+          "sources": [
+            {
+              "title": "What Is an Oblong Face Shape?",
+              "url": "https://faceshapelab.com/blog/what-is-an-oblong-face-shape/",
+              "evidence": "An oblong face shape is one where your face is noticeably longer than it is wide, with your forehead, cheekbones, and jawline all measuring roughly th... The sides of the face run in relatively straight, parallel lines rather than curving inward, and the chin tends to be flat or softly squared rather th... ## Key Characteristics of an Oblong Face\n### Face Length vs. Width\nThe defining trait of an oblong face is a length that significantly exceeds its wid..."
+            },
+            {
+              "title": "Oblong Face Shape: Features & How to Identify",
+              "url": "https://knowmyface.com/oblong-face-shape",
+              "evidence": "Deciding difference: An oval face tapers noticeably below the cheekbones, narrowing toward the jaw.  An oblong face maintains nearly the same width from forehead through jaw, with straight, parallel sides instead of a taper.\n\n"
+            },
+            {
+              "title": "Oblong Face Shape: Hairstyles, Glasses & Makeup Guide",
+              "url": "https://myfaceshapedetector.com/blog/oblong-face-shape",
+              "evidence": "A square face is about as long as it is wide; an oblong is clearly longer.  Worth avoiding: very long, straight, flat hair with a centre part, which extends the vertical line all the way down; height and volume at the crown, w... - **Side parts,** which introduce a diagonal and break the vertical line.\n\n\n\n ## Best glasses for an oblong face\n- **Deep frames with a tall lens height. - **Wide frames,** which add horizontal emphasis across the middle of the face.\n Avoid small, narrow, or shallow frames — they leave large areas of face above and below, which emphasises the length.\n\n Yes, if they are large enough."
+            },
+            {
+              "title": "Oblong Face Shape: Traits, Haircuts & Glasses",
+              "url": "https://whatcolorssuitme.com/face-shapes/oblong/",
+              "evidence": "## Hairstyles that flatter\n- +Chin-length to shoulder-length cuts (add horizontal width)\n- +Curtain bangs or side-swept bangs (shorten the forehead)\n-... | Trait | Oblong | Rectangle |\n| --- | --- | --- |\n| Jawline | Softly rounded | Strong angular corners |\n| Hairline | Rounded | Squared |\n| Best cuts ... Proportions are a guide: camera angle and hairstyle can change the impression.  ## Hairstyles that flatter\n- +Chin-length to shoulder-length cuts (add horizontal width)\n- +Curtain bangs or side-swept bangs (shorten the forehead)\n-... When choosing glasses, also check that the bridge and temples fit comfortably.\n\n"
+            },
+            {
+              "title": "Do I Have Oblong Face Shape? Meaning, Features, Characteristics & Styling Guide",
+              "url": "https://faceshapetool.com/blog/oblong-face-shape",
+              "evidence": "Also known as a rectangle face shape, the oblong face is identified through facial proportions, anthropometric measurements, and overall silhouette ra... An oblong face shape has a length-to-width ratio of 1.6:1 or higher with uniform widths across forehead, cheekbones, and jaw.\n\n ## Key Features of Oblong Face Shape\n- **Face length exceeds width** at a ratio of 1.6:1 or higher\n- **Forehead, cheekbones, and jaw all measure at si..."
+            },
+            {
+              "title": "Oblong Face Shape — Free Detector, Hairstyles & Styling Tips",
+              "url": "https://oblongfaceshape.com/",
+              "evidence": "L W L/W Ratio 1.5:1 = Oblong All 7 Face Shapes Oblong Oval Round Square Heart Diamond Triangle\n\nOblong face: consistent widths from forehead to jaw — ... Research by Farkas (1994) established the standardised landmark positions this measurement system is built on.\n\n"
+            },
+            {
+              "title": "Oval vs Oblong Face Shape: How to Tell the Difference",
+              "url": "https://faceshapedetector.app/blog/oval-vs-oblong-face-shape",
+              "evidence": "They share one trait — both are longer than they are wide — but oval has a soft inward curve at the cheeks and a moderate length-to-width ratio (aroun... They share one trait — both are longer than they are wide — but oval has a soft inward curve at the cheeks and a moderate length-to-width ratio (aroun..."
+            },
+            {
+              "title": "Oblong Face Shape: Characteristics, Hairstyles, Glasses & Styling Guide",
+              "url": "https://faceshapefinder.com/face-shapes/oblong-face-shape",
+              "evidence": "## Celebrities with an oblong face\n\n## Often confused with: Oval\n\nOvals taper visibly from cheekbones to chin and sit near a 1.45× length ratio; oblon..."
+            },
+            {
+              "title": "(PDF) Human Face Shape Classification with Machine Learning",
+              "url": "https://www.researchgate.net/publication/362903132_Human_Face_Shape_Classification_with_Machine_Learning",
+              "evidence": "The proposed method has used only 13\n\nfacial landmarks to calculate a total of 14 features\n\n(5 normalized distances, 7 ratios, and 2 angles).\n\n The paper has used a different method to classify\n\nfront face images into ﬁve face shapes i.e. heart,\n\noblong, oval, round and square.  On the other hand, the ”3D Face data and SVM”\n\nmethod uses 91 landmarks (Accuracy 73.68%),\n\nThe accuracy of the model is 70% and\n\nsize of testing dete..."
+            },
+            {
+              "title": "(PDF) FACE SHAPE CLASSIFIER USING DEEP LEARNING",
+              "url": "https://www.academia.edu/93530492/FACE_SHAPE_CLASSIFIER_USING_DEEP_LEARNING",
+              "evidence": "This algorithm classifies and predicts outcomes based on face shape across five shapes: heart, oval, square, oblong, and circle, and provides results ..."
+            },
+            {
+              "title": "Face Shape Classification Using Swin Transformer Model - ScienceDirect",
+              "url": "https://www.sciencedirect.com/science/article/pii/S1877050923017258",
+              "evidence": "The proposed model has an accuracy of 99.61485%, f1-score of 99.0162%, 98.7% of specificity, 98.99% of sensitivity, and a precision of 99.50758% for t..."
+            },
+            {
+              "title": "(PDF) Face shape classification using Inception v3",
+              "url": "https://www.researchgate.net/publication/337386649_Face_shape_classification_using_Inception_v3",
+              "evidence": "All classifiers were trained and tested using a total of 500 images of female celebrities with known face shapes collected from the Internet."
+            },
+            {
+              "title": "Geometric Feature Enhancement for Robust Facial Landmark Detection in Makeup Paper Templates",
+              "url": "https://www.mdpi.com/2076-3417/16/2/977",
+              "evidence": "While the algorithm performs best in Circle classification, it exhibits higher error rates in distinguishing Rectangle and Square face shapes, undersc... Dlib demonstrates high accuracy in identifying face shape templates, but shows confusion between structurally similar categories.\n\n"
+            },
+            {
+              "title": "Oblong Face Shape: Hairstyles, Glasses & Styling Guide (2026)",
+              "url": "https://www.detect-face-shape.com/face-shapes/oblong",
+              "evidence": "Oblong face shape illustration\n\n# Oblong Face Shape\n## Best Hairstyles for Oblong Face Shape\n### Women's Hairstyles\n- **Side-swept bangs** — Bangs tha... - **Layered cuts that add width** — Layers that begin at the cheekbone or jaw level create movement and volume in exactly the areas where an oblong fa... - **Soft waves and curls** — Any texture that adds horizontal dimension is beneficial. "
+            },
+            {
+              "title": "How to Tell + Best Hairstyles & Glasses - Oblong Face Shape",
+              "url": "https://ovalfaceshape.com/oblong-face-shape/",
+              "evidence": "### Best Glasses for an Oblong Face\nFrame width is the deciding factor: the frame should be at least as wide as your face’s widest point. \n\n"
+            },
+            {
+              "title": "Oblong Face Shape: Traits, Celebrities & What Suits It",
+              "url": "https://faceshapedetector.app/face-shapes/oblong",
+              "evidence": "No face shape is inherently more or less attractive than any other; the proportions of an oblong face simply call for specific styling choices — wide ... > Stylist's note: Oblong is the most commonly misidentified face shape overall: the majority of oblong-faced people believe they have an oval face, be..."
+            }
+          ]
+        },
+        "_draft": true,
+        "_review": {
+          "pass": false,
+          "issues": [
+            "Editorial review pending."
+          ]
+        },
+        "_imageReviews": [],
+        "_imageFailures": []
+      },
+      "issues": [
+        "Why Face Shape Labels Are Fuzzier: the deep learning classifier is said to report 'around 82% accuracy across five shapes'. The supplied evidence for that source only says it classifies five shapes and gives no accuracy figure, so the 82% is unsupported."
+      ],
+      "status": "passed",
+      "review": {
+        "pass": true,
+        "issues": []
+      }
+    },
+    "title": "Oblong Face Shape: How to Tell and What Suits It",
+    "description": "Learn how to tell if you have an oblong face shape, how it differs from oval and square, and which haircuts and glasses add width without adding height.",
+    "h1_displayed": "Oblong Face Shape: How to Identify It and Style It Well",
+    "reading_time": 8,
+    "tags": [
+      "face shape",
+      "oblong face",
+      "haircuts",
+      "glasses",
+      "facial proportions",
+      "styling"
+    ],
+    "tool_slug": "face-shape-detector",
+    "audience": "everyone",
+    "body_markdown": "Maybe your face looks long in photos, and the advice in every oval-face guide feels slightly off. If so, you may be following advice written for a different shape. The **oblong face shape** is one of the standard categories in hair and eyewear advice, and it is the one most easily mixed up with oval.\n\nThis guide covers:\n\n- what defines an oblong face\n- how to check yours honestly\n- why the label is less precise than many sites suggest\n- which haircuts and glasses tend to work, and why\n\nOnce you understand the reasoning, you can adapt the advice instead of copying a list.\n\n## What an Oblong Face Shape Is\n\nAn oblong face has two traits at the same time:\n\n1. **It is clearly longer than it is wide.**\n2. **Its width stays fairly even from top to bottom.** The forehead, cheekbones and jaw are all roughly the same width.\n\nBecause the width holds steady, the sides of the face tend to run in fairly straight, near-parallel lines instead of curving inward. The chin is usually softly rounded or lightly squared rather than pointed.\n\nThree measurements come up in face shape discussions:\n\n- **Face length:** from the hairline to the bottom of the chin. Anatomists call the lowest point of the chin the *menton*.\n- **Cheekbone width:** the distance across the widest part of the cheekbones. Anatomists call this *bizygomatic width*, after the zygomatic (cheek) bones.\n- **Jaw width:** the distance between the two angles of the jaw, called *bigonial width*. The *gonion* is the corner where the jaw turns upward toward the ear.\n\nIn an oblong face, the forehead, cheekbone and jaw widths sit close together, while the length clearly exceeds them.\n\nThis is a **styling shorthand, not a medical category.** Nothing is wrong with an oblong face, and no face shape is more attractive than another. The label is useful only because it helps you predict which haircuts and frames will balance your proportions in the way you prefer.\n\n### The Ratio Problem\n\nMany face shape guides give a length-to-width cutoff for oblong. The trouble is that they disagree. Cutoffs published on face shape sites include about 1.5:1 and 1.6:1 or higher. Some of the same sites put oval at about 1.45:1, very close to the lower oblong cutoff.\n\nWe did not find a clinical or professional standard behind any of these numbers. Treat any single ratio as a rough guide, not a definition. If your face sits near a boundary, you are not misreading yourself. The boundary is fuzzy.\n\n## Oblong vs Oval, Square and Rectangle\n\nOblong overlaps with three neighboring shapes. Here is how they compare.\n\n| Shape | Length vs width | Width pattern | Sides | Jaw and chin |\n|---|---|---|---|---|\n| **Oblong** | Clearly longer than wide | Forehead, cheeks and jaw similar | Fairly straight, near-parallel | Soft jaw, rounded or lightly squared chin |\n| **Oval** | Longer than wide, less so | Widest at cheekbones, tapering above and below | Gently curved | Narrower, rounded chin |\n| **Square** | About as long as wide | Forehead, cheeks and jaw similar | Straight | Angular jaw corners |\n| **Rectangle** | Clearly longer than wide | Forehead, cheeks and jaw similar | Straight | Stronger, angular jaw corners |\n\n**Oblong vs oval.** Look for taper below the cheekbones. An oval face narrows noticeably toward the jaw and chin. An oblong face keeps nearly the same width all the way down. If you trace your outline and see a soft curve from cheekbone to chin, oval is the better fit. If you see fairly straight lines, oblong fits better.\n\n**Oblong vs square.** Both have even widths. A square face is about as long as it is wide, while an oblong face is clearly longer.\n\n**Oblong vs rectangle.** Guides don't agree here:\n\n- Some separate the two by jaw shape: oblong has a softer jaw, and rectangle has strong angular corners.\n- Others treat \"rectangle\" as another name for oblong.\n\nIn practice, the styling advice for both is nearly identical. If your jaw is very angular, you can add a few softening choices, which are covered below.\n\n## How to Check If Your Face Is Oblong\n\nYou need a mirror or a phone camera and a few minutes.\n\n1. **Pull all your hair back.** Use a headband or tie it tightly so your hairline, temples and jaw are fully visible. Hair framing the face changes how its shape reads.\n2. **Set the camera at eye level, a bit more than arm's length away.** Face it straight on with a neutral expression. Close-up selfies taken with the camera tilted up or down distort how long the face looks.\n3. **Trace the outline from temple to jaw.** Note whether the sides curve inward below the cheekbones or run fairly straight.\n4. **Compare three widths:** forehead, cheekbones and jaw. Note whether one zone clearly dominates or whether all three are close.\n5. **Judge the length.** Ask whether the face reads as clearly longer than wide, or only moderately longer.\n6. **Repeat with two or three photos on different days.** If your answer flips between oval and oblong, you are probably borderline. The good news is that advice for borderline faces overlaps heavily.\n\nA soft tape measure can help with steps 4 and 5, but don't over-trust the numbers. As noted above, nobody agrees on where oval ends and oblong begins.\n\n## Why Face Shape Labels Are Fuzzier Than They Look\n\nIf face shapes were clear-cut categories, software would sort them perfectly. Research on automated face shape classification shows it does not.\n\nThese studies place *facial landmarks* on a photo. Landmarks are named reference points such as the chin tip, the jaw corners and the cheekbone edges. From these points the software calculates distances, ratios and angles, then assigns a shape. Some examples:\n\n- **A small landmark study.** [One machine learning study](https://www.researchgate.net/publication/362903132_Human_Face_Shape_Classification_with_Machine_Learning) used 13 landmarks to calculate 14 features. It sorted faces into five shapes, including oblong and oval, and reported 70% accuracy.\n- **A deep learning classifier.** [Another project](https://www.academia.edu/93530492/FACE_SHAPE_CLASSIFIER_USING_DEEP_LEARNING) sorts faces into five shapes: heart, oval, square, oblong and circle.\n- **A transformer-based model.** It [reports over 99% accuracy](https://www.sciencedirect.com/science/article/pii/S1877050923017258) on its own dataset. Numbers from different datasets are not directly comparable.\n- **Shaky ground-truth labels.** One earlier study trained its models on 500 internet photos of female celebrities whose face shapes were \"known.\" Those labels come from informal sources, not measurement.\n- **Confusion between neighbors.** A recent study on makeup face templates found that its [algorithms confused structurally similar categories](https://www.mdpi.com/2076-3417/16/2/977), especially rectangle and square.\n\nThe takeaway is practical. If trained software confuses neighboring shapes, a single selfie judged by eye can confuse them too. Camera angle, lens distance and hairstyle all shift the impression.\n\nTreat your result as **a likely shape, not a verdict**. Choose styling that works across the shapes you might be.\n\nIf you want a second read alongside your mirror check, you can use the [Aura Face Shape Finder](https://app.aura-looksmaxxing.com/tools/face-shape-detector?source=%2Fblog%2Foblong-face-shape). It works in two parts:\n\n- **The free part** is an on-device preview that estimates face shape in your browser without uploading your photo.\n- **The fuller AI report** is part of Aura Pro, a paid subscription. It gives your likely face shape with its uncertainty, explains your forehead, cheek and jaw proportions, and suggests haircut and accessory options. It does not claim exact physical measurements.\n\n## Haircuts for an Oblong Face Shape\n\nNearly every style guide gives oblong faces the same principle: **add width at the sides and avoid adding height on top.** This is a styling convention based on how lines and volume draw the eye. It is not a tested, measured outcome.\n\nBefore you choose a cut, decide whether you want to balance your length at all. Some people like an elongated look and choose to lean into it. That is a valid choice.\n\n### Longer and Feminine Styles\n\n- **Chin-length to shoulder-length cuts.** Bobs and lobs end in a horizontal line near the jaw, which interrupts the face's vertical length.\n- **Curtain bangs or side-swept bangs.** These cover part of the forehead, so less vertical length shows. Wispy, layered bangs look softer than a heavy blunt line, though a blunt fringe also works if you like the look.\n- **Layers that start at the cheekbone or jaw.** They put movement and volume exactly where width helps. Layers that start too high can add height at the crown instead.\n- **Waves and curls.** Texture expands outward and adds horizontal fullness that straight hair cannot.\n- **A side part.** It adds a diagonal line that breaks up the face's vertical symmetry.\n\nIf your hair is long and you want to keep it, ask for face-framing layers that begin around cheek level. That keeps your length while adding width where it counts.\n\n{{IMAGE_2}}\n\n### Shorter and Masculine Styles\n\n- **A fringe.** French crops and textured crops bring hair forward over the forehead. The aim is texture rather than height.\n- **Side-swept styles and side parts.** These serve the same purpose as for longer hair, adding a diagonal instead of a straight vertical line.\n- **Some length and volume at the sides.** Guides consistently favor fuller sides over a tall top. As an editorial suggestion, a very tight fade under a tall top tends to stretch the silhouette further.\n- **Beards (editorial suggestion).** Fuller sides with moderate length at the chin keep the line horizontal. A long or pointed beard extends the face downward.\n\n### What Usually Works Against Length\n\nThese choices tend to emphasize length. They are only worth avoiding if your goal is balance:\n\n- very long, flat, straight hair with a center part\n- height at the crown: high updos, top knots, tall pompadours and quiffs\n- tightly pulled-back or slicked-back styles with no fringe, which show the full height of the forehead\n\n## Glasses and Accessories for an Oblong Face\n\nFrames follow the same logic as haircuts. Look for frames that add a horizontal band across the middle of the face and cover some vertical space.\n\n- **Width.** One common rule of thumb is that the frame should be at least as wide as the widest part of your face.\n- **Depth.** Taller lenses cover more of the face's vertical length.\n- **Strong upper lines.** Browline frames, bold acetate and wide wayfarer-style shapes add a clear horizontal line.\n- **Frames to avoid.** Small, narrow or shallow frames leave large areas of face visible above and below them, which emphasizes length.\n\nGuides disagree about round frames:\n\n- Some recommend large round or oval frames because the curves add width.\n- Others list oversized frames as something to skip.\n\nThe honest answer is that it depends on your features and taste, so try both.\n\nAbove all, check fit. The bridge should sit comfortably on your nose, and the temple arms shouldn't pinch. A well-fitting frame in a so-so shape usually beats a \"correct\" shape that slides down your nose all day.\n\nIf your jaw is angular, as with rectangle faces, rounder frames and softer hairstyles soften those corners. This is an editorial suggestion. For accessories, wider earrings and a horizontal neckline follow the same width-over-length idea, also as an editorial suggestion.\n\n{{IMAGE_3}}\n\n## A Practical Plan for Your Next Haircut\n\nMost people get poor results because they arrive at the salon or barber with a vague request. Use these steps instead.\n\n1. **Take two or three clear front-facing photos** with your hair pulled back, as described in the checking steps above.\n2. **Pick one main horizontal element** rather than changing everything at once. Choose a fringe, side volume at cheek level, or a side part. One clear change is easier to judge than three.\n3. **Collect reference photos** of the cut on people whose hair texture is similar to yours. Hair texture matters more than face shape for whether a cut will hold its form.\n4. **Brief your stylist in plain terms.** For example: \"I'd like more width around cheek level and less height at the crown. Can we add a fringe or a side part?\" Stylists can work with a clear goal far more easily than with a face shape label.\n5. **Give it two to three weeks.** Cuts settle as they grow slightly, and you'll learn how to style them.\n6. **Adjust at the next appointment.** Keep what worked, and change one thing that didn't.\n\nFor glasses, try frames in person and take a straight-on photo of each pair. Photos remove the mirror bias that comes from seeing yourself up close.\n\n## The Bottom Line\n\nAn oblong face is clearly longer than it is wide, with fairly even width from forehead to jaw and straight-ish sides. It is easily mixed up with oval. The main difference is the taper below the cheekbones, which oval faces have and oblong faces lack.\n\nThe label is fuzzier than face shape sites admit. Ratio cutoffs vary between guides, and even classification software confuses neighboring shapes. Use the label as a starting point, not a verdict.\n\nThe styling principle is simple and flexible: **add width, go easy on height.** Pick one change, brief your stylist clearly, and judge the result in real photos.",
+    "image_prompts": [
+      {
+        "prompt": "A young adult with a long face and even width from forehead to jaw stands facing a round bathroom mirror, hair tied tightly back with a plain headband so the hairline, temples and jawline are fully visible. Soft natural daylight from a window, neutral expression, front-facing, clean uncluttered background.",
+        "alt": "Person with an oblong face shape checking their face outline in a bathroom mirror with hair pulled back",
+        "purpose": "Shows the self-check setup from the identification section: hair fully back, front-facing and evenly lit, so the face outline can be judged."
+      },
+      {
+        "prompt": "A woman with a long face wears a chin-length layered bob with soft waves that add volume at cheek level and wispy curtain bangs covering part of her forehead. She sits in a bright hair salon, seen from the front at eye level, in a relaxed and natural pose.",
+        "alt": "Woman with an oblong face shape wearing a chin-length wavy bob with curtain bangs",
+        "purpose": "Illustrates the haircut principle for longer and feminine styles: horizontal volume at cheek level and a fringe that reduces visible forehead length."
+      },
+      {
+        "prompt": "A man with a long face wears wide, bold dark acetate glasses with a strong top line and a textured crop with a short fringe falling forward, plus a neatly trimmed short beard kept fuller at the sides. He is photographed from the chest up at a slight three-quarter angle in a warmly lit café with a blurred background.",
+        "alt": "Man with an oblong face shape wearing wide bold glasses and a textured fringe haircut",
+        "purpose": "Demonstrates the glasses and shorter-hair guidance: wide, deep frames that add a horizontal band, a fringe instead of crown height, and a beard kept fuller at the sides."
+      }
+    ],
+    "faq": [
+      {
+        "q": "How do I know if I have an oblong face shape?",
+        "a": "Pull your hair back and take a straight-on photo at eye level. If your face is clearly longer than it is wide and your forehead, cheekbones and jaw are all about the same width, with fairly straight sides, oblong is a likely fit. Check two or three photos, because angle and lighting change how the shape reads."
+      },
+      {
+        "q": "What is the difference between an oblong and an oval face?",
+        "a": "Both are longer than they are wide. An oval face tapers below the cheekbones toward a narrower chin. An oblong face keeps nearly the same width from forehead to jaw, with straighter sides."
+      },
+      {
+        "q": "Is there an exact ratio that defines an oblong face?",
+        "a": "No widely accepted one. Face shape guides give different length-to-width cutoffs, such as about 1.5:1 or 1.6:1 and higher, and we found no clinical standard behind them. Treat any ratio as a rough guide."
+      },
+      {
+        "q": "What hairstyles suit an oblong face shape?",
+        "a": "Styles that add width at the sides and avoid height on top are the usual recommendation. Examples include chin-length to shoulder-length cuts, curtain or side-swept bangs, layers starting at the cheekbones, waves, side parts and textured crops with a fringe. This is styling convention rather than a tested outcome, so choose based on your hair texture and preference."
+      },
+      {
+        "q": "What glasses work best for an oblong face?",
+        "a": "Frames that are wide and fairly deep, with a strong horizontal line such as browline or bold acetate styles, are commonly recommended. Small, narrow or shallow frames tend to emphasize length. Guides disagree about round frames, so try them on, and prioritize a comfortable fit at the bridge and temples."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Geometric Feature Enhancement for Robust Facial Landmark Detection in Makeup Paper Templates",
+        "url": "https://www.mdpi.com/2076-3417/16/2/977"
+      },
+      {
+        "title": "(PDF) Human Face Shape Classification with Machine Learning",
+        "url": "https://www.researchgate.net/publication/362903132_Human_Face_Shape_Classification_with_Machine_Learning"
+      },
+      {
+        "title": "Face Shape Classification Using Swin Transformer Model - ScienceDirect",
+        "url": "https://www.sciencedirect.com/science/article/pii/S1877050923017258"
+      },
+      {
+        "title": "(PDF) FACE SHAPE CLASSIFIER USING DEEP LEARNING",
+        "url": "https://www.academia.edu/93530492/FACE_SHAPE_CLASSIFIER_USING_DEEP_LEARNING"
+      },
+      {
+        "title": "(PDF) Face shape classification using Inception v3",
+        "url": "https://www.researchgate.net/publication/337386649_Face_shape_classification_using_Inception_v3"
+      }
+    ]
+  }
+}

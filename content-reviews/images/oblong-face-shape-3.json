@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "fingerprint": "639d8b53cb08051b3bbff4580f805721225fec46621fc7e8cb30976d473e3a69",
+  "brief": {
+    "prompt": "A man with a long face wears wide, bold dark acetate glasses with a strong top line and a textured crop with a short fringe falling forward, plus a neatly trimmed short beard kept fuller at the sides. He is photographed from the chest up at a slight three-quarter angle in a warmly lit café with a blurred background.",
+    "alt": "Man with an oblong face shape wearing wide bold glasses and a textured fringe haircut",
+    "purpose": "Demonstrates the glasses and shorter-hair guidance: wide, deep frames that add a horizontal band, a fringe instead of crown height, and a beard kept fuller at the sides.",
+    "article": "oblong-face-shape",
+    "position": 3
+  },
+  "sha256": "c6c6bc8d795598153ab3428725dcaef64132d13f64656ddbd764733d5e970aa4",
+  "reviewedAt": "2026-10-29T20:03:27.058Z",
+  "review": {
+    "pass": true,
+    "issues": [],
+    "alt": "Man with a long face wearing wide, bold dark acetate glasses, a textured crop with a short fringe, and a neatly trimmed short beard, photographed from the chest up at a three-quarter angle in a warmly lit café with a blurred background"
+  }
+}

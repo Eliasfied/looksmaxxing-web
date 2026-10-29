@@ -1,0 +1,14 @@
+{
+  "key": "{\"brief\":{\"prompt\":\"A young adult with a long face and even width from forehead to jaw stands facing a round bathroom mirror, hair tied tightly back with a plain headband so the hairline, temples and jawline are fully visible. Soft natural daylight from a window, neutral expression, front-facing, clean uncluttered background.\",\"alt\":\"Person with an oblong face shape checking their face outline in a bathroom mirror with hair pulled back\",\"purpose\":\"Shows the self-check setup from the identification section: hair fully back, front-facing and evenly lit, so the face outline can be judged.\",\"article\":\"oblong-face-shape\",\"position\":1},\"model\":\"openai/gpt-image-2.5/flare/text-to-image\"}",
+  "attempts": [
+    {
+      "status": "passed",
+      "prompt": "A young adult with a long face and even width from forehead to jaw stands facing a round bathroom mirror, hair tied tightly back with a plain headband so the hairline, temples and jawline are fully visible. Soft natural daylight from a window, neutral expression, front-facing, clean uncluttered background.",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "Person with hair pulled back under a white headband looking straight at their face in a round bathroom mirror, lit by soft window daylight, with a plant and towel in the background"
+      }
+    }
+  ]
+}

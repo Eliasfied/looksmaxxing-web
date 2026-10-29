@@ -1,0 +1,14 @@
+{
+  "key": "{\"brief\":{\"prompt\":\"A woman with a long face wears a chin-length layered bob with soft waves that add volume at cheek level and wispy curtain bangs covering part of her forehead. She sits in a bright hair salon, seen from the front at eye level, in a relaxed and natural pose.\",\"alt\":\"Woman with an oblong face shape wearing a chin-length wavy bob with curtain bangs\",\"purpose\":\"Illustrates the haircut principle for longer and feminine styles: horizontal volume at cheek level and a fringe that reduces visible forehead length.\",\"article\":\"oblong-face-shape\",\"position\":2},\"model\":\"openai/gpt-image-2.5/flare/text-to-image\"}",
+  "attempts": [
+    {
+      "status": "passed",
+      "prompt": "A woman with a long face wears a chin-length layered bob with soft waves that add volume at cheek level and wispy curtain bangs covering part of her forehead. She sits in a bright hair salon, seen from the front at eye level, in a relaxed and natural pose.",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "Smiling woman with a long face shape wearing a chin-length wavy brown bob with wispy curtain bangs, sitting in a bright hair salon in a cream knit sweater"
+      }
+    }
+  ]
+}

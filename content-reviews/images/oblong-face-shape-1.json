@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "fingerprint": "c0f0082ee998c4abfb6de4b5717fdf511197d73d50af84e405ff2bb51081f35f",
+  "brief": {
+    "prompt": "A young adult with a long face and even width from forehead to jaw stands facing a round bathroom mirror, hair tied tightly back with a plain headband so the hairline, temples and jawline are fully visible. Soft natural daylight from a window, neutral expression, front-facing, clean uncluttered background.",
+    "alt": "Person with an oblong face shape checking their face outline in a bathroom mirror with hair pulled back",
+    "purpose": "Shows the self-check setup from the identification section: hair fully back, front-facing and evenly lit, so the face outline can be judged.",
+    "article": "oblong-face-shape",
+    "position": 1
+  },
+  "sha256": "a25c0592db8d5b43214a83509aa143ee12c907da569c9f4fa04bf8220ee68da7",
+  "reviewedAt": "2026-10-29T20:02:52.152Z",
+  "review": {
+    "pass": true,
+    "issues": [],
+    "alt": "Person with hair pulled back under a white headband looking straight at their face in a round bathroom mirror, lit by soft window daylight, with a plant and towel in the background"
+  }
+}

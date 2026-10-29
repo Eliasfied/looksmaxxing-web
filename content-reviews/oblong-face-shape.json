@@ -1,0 +1,141 @@
+{
+  "slug": "oblong-face-shape",
+  "reviewedAt": "2026-10-29T20:03:27.059Z",
+  "draft": false,
+  "review": {
+    "pass": true,
+    "issues": []
+  },
+  "textRepair": {
+    "status": "passed",
+    "issues": [
+      "Why Face Shape Labels Are Fuzzier: the deep learning classifier is said to report 'around 82% accuracy across five shapes'. The supplied evidence for that source only says it classifies five shapes and gives no accuracy figure, so the 82% is unsupported."
+    ],
+    "review": {
+      "pass": true,
+      "issues": []
+    }
+  },
+  "sources": [
+    {
+      "title": "Geometric Feature Enhancement for Robust Facial Landmark Detection in Makeup Paper Templates",
+      "url": "https://www.mdpi.com/2076-3417/16/2/977"
+    },
+    {
+      "title": "(PDF) Human Face Shape Classification with Machine Learning",
+      "url": "https://www.researchgate.net/publication/362903132_Human_Face_Shape_Classification_with_Machine_Learning"
+    },
+    {
+      "title": "Face Shape Classification Using Swin Transformer Model - ScienceDirect",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1877050923017258"
+    },
+    {
+      "title": "(PDF) FACE SHAPE CLASSIFIER USING DEEP LEARNING",
+      "url": "https://www.academia.edu/93530492/FACE_SHAPE_CLASSIFIER_USING_DEEP_LEARNING"
+    },
+    {
+      "title": "(PDF) Face shape classification using Inception v3",
+      "url": "https://www.researchgate.net/publication/337386649_Face_shape_classification_using_Inception_v3"
+    }
+  ],
+  "imageModel": "openai/gpt-image-2.5/flare/text-to-image",
+  "imageReviews": [
+    {
+      "image": "/blog/oblong-face-shape/1.webp",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "Person with hair pulled back under a white headband looking straight at their face in a round bathroom mirror, lit by soft window daylight, with a plant and towel in the background"
+      }
+    },
+    {
+      "image": "/blog/oblong-face-shape/2.webp",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "Smiling woman with a long face shape wearing a chin-length wavy brown bob with wispy curtain bangs, sitting in a bright hair salon in a cream knit sweater"
+      }
+    },
+    {
+      "image": "/blog/oblong-face-shape/3.webp",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "Man with a long face wearing wide, bold dark acetate glasses, a textured crop with a short fringe, and a neatly trimmed short beard, photographed from the chest up at a three-quarter angle in a warmly lit café with a blurred background"
+      }
+    }
+  ],
+  "imageFailures": [],
+  "imageSettings": {
+    "width": 1024,
+    "height": 1024,
+    "quality": "low"
+  },
+  "usage": [
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "research",
+      "input": 28820,
+      "output": 3737,
+      "estimatedUsd": 0.09501,
+      "searches": 3
+    },
+    {
+      "model": "claude-opus-5-5",
+      "stage": "article",
+      "input": 33520,
+      "output": 10223,
+      "estimatedUsd": 0.33854,
+      "searches": 0
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "text-review",
+      "input": 8739,
+      "output": 106,
+      "estimatedUsd": 0.018538,
+      "searches": 0
+    },
+    {
+      "model": "claude-opus-5-5",
+      "stage": "article-repair",
+      "input": 10550,
+      "output": 7118,
+      "estimatedUsd": 0.18456,
+      "searches": 0
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "text-review",
+      "input": 8783,
+      "output": 16,
+      "estimatedUsd": 0.017726,
+      "searches": 0
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "image-review",
+      "input": 1727,
+      "output": 74,
+      "estimatedUsd": 0.004194,
+      "searches": 0
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "image-review",
+      "input": 1720,
+      "output": 80,
+      "estimatedUsd": 0.00424,
+      "searches": 0
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "image-review",
+      "input": 1751,
+      "output": 101,
+      "estimatedUsd": 0.004512,
+      "searches": 0
+    }
+  ],
+  "note": "Token estimates exclude web-search charges, images, tax and provider markups."
+}
