@@ -9,7 +9,7 @@ heroImage: /blog/8-jawline-exercises/1.webp
 heroImageAlt: Defined male jawline profile illustrating the goal of the best jawline exercises
 tags: [jawline, facial exercises, looksmaxxing, jaw definition, face fitness]
 readingTime: 8
-related: [5-hunter-eyes-tips, 6-haircuts-for-receding-hairline, mandible-vs-maxilla]
+related: [5-hunter-eyes-tips, jawline-exercises-for-women, 6-haircuts-for-receding-hairline]
 faq:
   - q: How long does it take to see results from jawline exercises?
     a: Most people who train consistently report noticeable changes in muscle tone and jaw definition after 8 to 12 weeks. Results depend heavily on your starting body fat percentage, genetics, and how consistently you train. Progress is gradual, so tracking with monthly photos is recommended.

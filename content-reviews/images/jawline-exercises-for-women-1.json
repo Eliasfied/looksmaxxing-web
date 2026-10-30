@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "fingerprint": "2dd391681c6ff336799593027ff41c08dde371987631505517aad1dff469b950",
+  "brief": {
+    "prompt": "A woman in her early thirties with shoulder-length dark hair stands at a bathroom mirror in soft morning daylight, seen in a three-quarter view, calmly studying her reflection with a relaxed, neutral expression. The scene is clean and minimal with white tiles and a small green plant, and the lighting gently defines her face and neck.",
+    "alt": "Woman calmly looking in a bathroom mirror while thinking about jawline exercises for women",
+    "purpose": "Sets up the article's honest, self-assessment framing before any routine or styling advice.",
+    "article": "jawline-exercises-for-women",
+    "position": 1
+  },
+  "sha256": "9e732d645284894beabcda62fa59cdcbf4a22958aede1234324716829563841e",
+  "reviewedAt": "2026-10-30T19:50:52.876Z",
+  "review": {
+    "pass": true,
+    "issues": [],
+    "alt": "Woman with shoulder-length dark hair, seen from behind in three-quarter view, calmly studying her reflection in a bathroom mirror beside a window, with white tiles, a small green plant, and a soap dispenser."
+  }
+}

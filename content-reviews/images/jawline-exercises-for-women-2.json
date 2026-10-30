@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "fingerprint": "c999d4992f474d644a24c39ed4299aa4ca7629baaa7cf1a5a49612051dae856e",
+  "brief": {
+    "prompt": "A woman in a loose grey t-shirt sits upright on a wooden chair beside a bright window, shown in full profile, doing a gentle seated chin tuck with relaxed shoulders and a calm face. The room is simple and airy with light walls, and her posture is clearly visible from head to waist.",
+    "alt": "Woman doing a gentle seated chin tuck as part of a low-risk jaw and neck routine",
+    "purpose": "Demonstrates the gentle, low-load seated chin tuck from the routine section, showing relaxed posture rather than strain.",
+    "article": "jawline-exercises-for-women",
+    "position": 2
+  },
+  "sha256": "f193b96d460168a2bab3619ed962378d41e652c7d81b6213b2cfb9ce6e88926f",
+  "reviewedAt": "2026-10-30T19:51:09.758Z",
+  "review": {
+    "pass": true,
+    "issues": [],
+    "alt": "Woman in a grey t-shirt and black leggings sitting upright on a wooden chair in profile beside a bright window, head level and shoulders relaxed, demonstrating a gentle seated chin tuck"
+  }
+}

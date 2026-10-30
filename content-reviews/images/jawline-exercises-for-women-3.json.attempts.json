@@ -1,0 +1,14 @@
+{
+  "key": "{\"brief\":{\"prompt\":\"A woman with wavy chestnut hair cut in face-framing layers that fall just below her jaw wears a rust-coloured V-neck top and slim gold drop earrings, photographed in a three-quarter view against a warm cream wall. The camera sits slightly above her eye level, and soft natural light falls across her face and neckline.\",\"alt\":\"Woman with face-framing layers, a V-neck top and drop earrings showing how styling shapes the jawline\",\"purpose\":\"Shows one concrete styling example combining hair framing, neckline and earrings that changes how the jawline reads without exercise.\",\"article\":\"jawline-exercises-for-women\",\"position\":3},\"model\":\"openai/gpt-image-2.5/flare/text-to-image\"}",
+  "attempts": [
+    {
+      "status": "passed",
+      "prompt": "A woman with wavy chestnut hair cut in face-framing layers that fall just below her jaw wears a rust-coloured V-neck top and slim gold drop earrings, photographed in a three-quarter view against a warm cream wall. The camera sits slightly above her eye level, and soft natural light falls across her face and neckline.",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "Woman with wavy chestnut hair in face-framing layers just below the jaw, wearing a rust V-neck top and a gold drop earring, shown in three-quarter view against a warm cream wall in soft natural light"
+      }
+    }
+  ]
+}

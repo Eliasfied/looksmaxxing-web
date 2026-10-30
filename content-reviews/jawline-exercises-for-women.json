@@ -1,0 +1,161 @@
+{
+  "slug": "jawline-exercises-for-women",
+  "reviewedAt": "2026-10-30T19:51:22.435Z",
+  "draft": false,
+  "review": {
+    "pass": true,
+    "issues": []
+  },
+  "textRepair": {
+    "status": "passed",
+    "issues": [
+      "What the Research Actually Shows: the Northwestern study details (32 exercises, 30 minutes daily, ages 40–65, apparent age 50.8 to 48.1, cheek fullness, JAMA Dermatology) are not in the supplied evidence. The evidence only supports 27 recruited, 16 completed, small sample, middle-aged women."
+    ],
+    "review": {
+      "pass": true,
+      "issues": []
+    }
+  },
+  "sources": [
+    {
+      "title": "Facial Contouring Through Jaw Exercises: A Report of Two Cases Examining Efficacy and Consumer Expectations",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11681191/"
+    },
+    {
+      "title": "Effectiveness of exercise therapy on pain relief and jaw mobility in patients with pain-related temporomandibular disorders: a systematic review",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10382173/"
+    },
+    {
+      "title": "Effectiveness of an 8-week neck exercise training on pain, jaw function, and oral health-related quality of life in women with chronic temporomandibular disorders: a randomized controlled trial",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11773986/"
+    },
+    {
+      "title": "Facial exercises help middle-aged women appear more youthful",
+      "url": "https://www.sciencedaily.com/releases/2018/01/180103160142.htm"
+    },
+    {
+      "title": "Does Face Yoga Work to Make You Look Younger? Dermatology Studies Reveal the Surprising Answer.",
+      "url": "https://www.realself.com/news/face-yoga-for-anti-aging"
+    },
+    {
+      "title": "Facial Exercises Help Middle-aged Women Appear More Youthful",
+      "url": "https://www.aau.edu/research-scholarship/featured-research-topics/facial-exercises-help-middle-aged-women-appear-more"
+    },
+    {
+      "title": "Facial exercises improved appearance in small study of middle-aged women",
+      "url": "https://www.mdedge.com/edermatologynews/article/155854/aesthetic-dermatology/facial-exercises-improved-appearance-small"
+    },
+    {
+      "title": "Face Yoga and Face Taping: Do Wrinkle Hacks Work?",
+      "url": "https://acibademinternational.com/blog/face-taping-and-face-yoga-do-the-viral-wrinkle-hacks-work/"
+    },
+    {
+      "title": "Mewing: What It Is, How To Do It and Results",
+      "url": "https://health.clevelandclinic.org/what-is-mewing"
+    },
+    {
+      "title": "Jaw Exercises: What An Orthodontist Thinks",
+      "url": "https://thewell.northwell.edu/healthy-living-fitness/jaw-exercises"
+    }
+  ],
+  "imageModel": "openai/gpt-image-2.5/flare/text-to-image",
+  "imageReviews": [
+    {
+      "image": "/blog/jawline-exercises-for-women/1.webp",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "Woman with shoulder-length dark hair, seen from behind in three-quarter view, calmly studying her reflection in a bathroom mirror beside a window, with white tiles, a small green plant, and a soap dispenser."
+      }
+    },
+    {
+      "image": "/blog/jawline-exercises-for-women/2.webp",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "Woman in a grey t-shirt and black leggings sitting upright on a wooden chair in profile beside a bright window, head level and shoulders relaxed, demonstrating a gentle seated chin tuck"
+      }
+    },
+    {
+      "image": "/blog/jawline-exercises-for-women/3.webp",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "Woman with wavy chestnut hair in face-framing layers just below the jaw, wearing a rust V-neck top and a gold drop earring, shown in three-quarter view against a warm cream wall in soft natural light"
+      }
+    }
+  ],
+  "imageFailures": [],
+  "imageSettings": {
+    "width": 1024,
+    "height": 1024,
+    "quality": "low"
+  },
+  "usage": [
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "research",
+      "input": 29810,
+      "output": 3557,
+      "estimatedUsd": 0.09519,
+      "searches": 3
+    },
+    {
+      "model": "claude-opus-5-5",
+      "stage": "article",
+      "input": 33285,
+      "output": 10202,
+      "estimatedUsd": 0.33718,
+      "searches": 0
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "text-review",
+      "input": 8330,
+      "output": 132,
+      "estimatedUsd": 0.01798,
+      "searches": 0
+    },
+    {
+      "model": "claude-opus-5-5",
+      "stage": "article-repair",
+      "input": 9082,
+      "output": 7575,
+      "estimatedUsd": 0.187828,
+      "searches": 0
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "text-review",
+      "input": 9875,
+      "output": 16,
+      "estimatedUsd": 0.01991,
+      "searches": 0
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "image-review",
+      "input": 1726,
+      "output": 93,
+      "estimatedUsd": 0.004382,
+      "searches": 0
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "image-review",
+      "input": 1728,
+      "output": 89,
+      "estimatedUsd": 0.004346,
+      "searches": 0
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "image-review",
+      "input": 1739,
+      "output": 92,
+      "estimatedUsd": 0.004398,
+      "searches": 0
+    }
+  ],
+  "note": "Token estimates exclude web-search charges, images, tax and provider markups."
+}
