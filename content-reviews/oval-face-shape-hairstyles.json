@@ -1,0 +1,169 @@
+{
+  "slug": "oval-face-shape-hairstyles",
+  "reviewedAt": "2026-10-31T19:01:08.800Z",
+  "draft": false,
+  "review": {
+    "pass": true,
+    "issues": []
+  },
+  "textRepair": {
+    "status": "passed",
+    "issues": [
+      "Oval Faces Flexible: The article attributes a quote to stylist Jordanna Cobella speaking to Cosmopolitan, and later a preference for 'invisible' layers. No supplied evidence or source list includes Cobella or Cosmopolitan, so these attributions are unsupported and appear fabricated."
+    ],
+    "review": {
+      "pass": true,
+      "issues": []
+    }
+  },
+  "sources": [
+    {
+      "title": "(PDF) Human Face Shape Classification with Machine Learning",
+      "url": "https://www.researchgate.net/publication/362903132_Human_Face_Shape_Classification_with_Machine_Learning"
+    },
+    {
+      "title": "(PDF) Automatic Face Shape Classification Via Facial Landmark Measurements",
+      "url": "https://www.researchgate.net/publication/357247661_Automatic_Face_Shape_Classification_Via_Facial_Landmark_Measurements"
+    },
+    {
+      "title": "Face Shapes: The Complete Guide to All 6 Face Shape Types",
+      "url": "https://www.detect-face-shape.com/face-shapes"
+    },
+    {
+      "title": "Face Shape Detector",
+      "url": "https://facecalculators.com/"
+    },
+    {
+      "title": "Best Hairstyles for Oval Faces: Ideas for Men & Women",
+      "url": "https://ovalfaceshape.com/oval-face-hairstyles/"
+    },
+    {
+      "title": "These Are the Most Flattering Hairstyles & Cuts for Oval Faces, According to a Hairstylist",
+      "url": "https://www.eonline.com/news/1436916/the-best-haircuts-for-oval-faces-according-to-a-celebrity-hairstylist"
+    },
+    {
+      "title": "6 Expert-Approved Hairstyles for an Oval Face Shape",
+      "url": "https://www.whowhatwear.com/beauty/hair/hairstyles-for-an-oval-face-shape"
+    },
+    {
+      "title": "Best Haircuts for Oval Face Shapes—6 Flattering Looks That'll Enhance Your Natural Features",
+      "url": "https://www.aol.com/best-haircuts-oval-face-shapes-141248172.html"
+    },
+    {
+      "title": "Top Haircuts and Styles for Oval Faces",
+      "url": "https://www.beautycon.com/article/top-haircuts-and-styles-for-oval-faces"
+    },
+    {
+      "title": "Haircuts For Oval Face Men: Styles For Every Personality — Vinings Barber",
+      "url": "https://www.viningsbarber.com/blog/haircuts-for-men-with-oval-faces"
+    },
+    {
+      "title": "Best hairstyle for my face shape: a shape-first haircut guide",
+      "url": "https://solvi.club/blog/skin-concern-guides/best-hairstyle-for-my-face-shape"
+    },
+    {
+      "title": "Your Face Shape, Your Best Haircut: The Ultimate Hair Style Guide - Luxy® Hair",
+      "url": "https://www.luxyhair.com/blogs/hair-blog/hairstyles-for-different-face-shapes"
+    }
+  ],
+  "imageModel": "openai/gpt-image-2.5/flare/text-to-image",
+  "imageReviews": [
+    {
+      "image": "/blog/oval-face-shape-hairstyles/1.webp",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "Woman with an oval face and a collarbone-length layered lob with face-framing pieces and caramel highlights, seated in a bright modern chair and looking to the side in natural window light"
+      }
+    },
+    {
+      "image": "/blog/oval-face-shape-hairstyles/2.webp",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "Front view of a woman with long, dark brown straight hair styled with face-framing layers starting near the cheekbones and soft middle-parted curtain bangs, wearing a cream knit top against a plain light-grey background."
+      }
+    },
+    {
+      "image": "/blog/oval-face-shape-hairstyles/3.webp",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "Woman with shoulder-length curly brown hair in rounded layers and a soft curly fringe, smiling slightly in a sunlit leafy park, wearing a cream knit sweater and small gold hoop earrings."
+      }
+    }
+  ],
+  "imageFailures": [],
+  "imageSettings": {
+    "width": 1024,
+    "height": 1024,
+    "quality": "low"
+  },
+  "usage": [
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "research",
+      "input": 31418,
+      "output": 3734,
+      "estimatedUsd": 0.100176,
+      "searches": 3
+    },
+    {
+      "model": "claude-opus-5-5",
+      "stage": "article",
+      "input": 35555,
+      "output": 12007,
+      "estimatedUsd": 0.38236,
+      "searches": 0
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "text-review",
+      "input": 8950,
+      "output": 120,
+      "estimatedUsd": 0.0191,
+      "searches": 0
+    },
+    {
+      "model": "claude-opus-5-5",
+      "stage": "article-repair",
+      "input": 9984,
+      "output": 7850,
+      "estimatedUsd": 0.196936,
+      "searches": 0
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "text-review",
+      "input": 10767,
+      "output": 16,
+      "estimatedUsd": 0.021694,
+      "searches": 0
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "image-review",
+      "input": 1729,
+      "output": 79,
+      "estimatedUsd": 0.004248,
+      "searches": 0
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "image-review",
+      "input": 1726,
+      "output": 91,
+      "estimatedUsd": 0.004362,
+      "searches": 0
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "image-review",
+      "input": 1712,
+      "output": 92,
+      "estimatedUsd": 0.004344,
+      "searches": 0
+    }
+  ],
+  "note": "Token estimates exclude web-search charges, images, tax and provider markups."
+}

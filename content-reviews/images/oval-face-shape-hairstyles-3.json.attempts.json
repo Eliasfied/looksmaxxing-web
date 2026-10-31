@@ -1,0 +1,14 @@
+{
+  "key": "{\"brief\":{\"prompt\":\"A woman with natural, shoulder-length curly hair cut in rounded layers with a soft curly fringe, standing outdoors in a leafy park in late-afternoon light, shown from the chest up. The curls are defined and voluminous, so the rounded overall shape of the cut is easy to see.\",\"alt\":\"Shoulder-length curly hair cut in rounded layers on an oval face\",\"purpose\":\"Illustrates the texture section's point that curl pattern shapes how a cut sits on an oval face.\",\"article\":\"oval-face-shape-hairstyles\",\"position\":3},\"model\":\"openai/gpt-image-2.5/flare/text-to-image\"}",
+  "attempts": [
+    {
+      "status": "passed",
+      "prompt": "A woman with natural, shoulder-length curly hair cut in rounded layers with a soft curly fringe, standing outdoors in a leafy park in late-afternoon light, shown from the chest up. The curls are defined and voluminous, so the rounded overall shape of the cut is easy to see.",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "Woman with shoulder-length curly brown hair in rounded layers and a soft curly fringe, smiling slightly in a sunlit leafy park, wearing a cream knit sweater and small gold hoop earrings."
+      }
+    }
+  ]
+}

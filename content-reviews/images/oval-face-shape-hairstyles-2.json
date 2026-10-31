@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "fingerprint": "820d37c158d8ad526922f33622146234cc247c113a6b4901eee7f63bd2fe279d",
+  "brief": {
+    "prompt": "A woman with long, dark brown straight hair cut with face-framing layers that begin around the cheekbones and soft curtain bangs parted in the middle, shown from the front against a plain light-grey wall. Soft, even studio lighting shows how the layers fall around the face and into the length.",
+    "alt": "Long hair with cheekbone-length face-framing layers and curtain bangs on an oval face",
+    "purpose": "Shows what face-framing layers starting at the cheekbones look like on long hair, as described in the medium and long cuts and bangs sections.",
+    "article": "oval-face-shape-hairstyles",
+    "position": 2
+  },
+  "sha256": "c3799041986f1c0d714c89c283dc8970e451b929871999d4008016156101b7fa",
+  "reviewedAt": "2026-10-31T19:00:57.597Z",
+  "review": {
+    "pass": true,
+    "issues": [],
+    "alt": "Front view of a woman with long, dark brown straight hair styled with face-framing layers starting near the cheekbones and soft middle-parted curtain bangs, wearing a cream knit top against a plain light-grey background."
+  }
+}

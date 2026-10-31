@@ -1,0 +1,14 @@
+{
+  "key": "{\"brief\":{\"prompt\":\"A woman in her late twenties with an oval face and a collarbone-length layered lob with soft face-framing pieces, seated in a bright, modern salon chair, photographed from a three-quarter angle. Warm natural daylight comes from a large window, with a plain neutral background so the haircut reads clearly at thumbnail size.\",\"alt\":\"Woman with an oval face wearing a layered lob, one of the most requested oval face shape hairstyles\",\"purpose\":\"Introduces the lob and face-framing layers as a typical, versatile cut for an oval face.\",\"article\":\"oval-face-shape-hairstyles\",\"position\":1},\"model\":\"openai/gpt-image-2.5/flare/text-to-image\"}",
+  "attempts": [
+    {
+      "status": "passed",
+      "prompt": "A woman in her late twenties with an oval face and a collarbone-length layered lob with soft face-framing pieces, seated in a bright, modern salon chair, photographed from a three-quarter angle. Warm natural daylight comes from a large window, with a plain neutral background so the haircut reads clearly at thumbnail size.",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "Woman with an oval face and a collarbone-length layered lob with face-framing pieces and caramel highlights, seated in a bright modern chair and looking to the side in natural window light"
+      }
+    }
+  ]
+}
