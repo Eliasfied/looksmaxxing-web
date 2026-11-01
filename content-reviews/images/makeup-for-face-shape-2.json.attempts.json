@@ -1,0 +1,14 @@
+{
+  "key": "{\"brief\":{\"prompt\":\"A woman with fair, freckled skin wears a fabric headband holding all her hair back from her face and stands facing a mirror in soft daylight with a bare face, chin level, studying the outline of her jaw and cheeks. The background is a simple, uncluttered bathroom with a plain wall.\",\"alt\":\"Woman with hair pulled back checking her face proportions in a mirror before applying makeup\",\"purpose\":\"Shows the self-check from the proportions section: hair back, even daylight and a level chin, so the reader can see where their face is widest.\",\"article\":\"makeup-for-face-shape\",\"position\":2},\"model\":\"openai/gpt-image-2.5/flare/text-to-image\"}",
+  "attempts": [
+    {
+      "status": "passed",
+      "prompt": "A woman with fair, freckled skin wears a fabric headband holding all her hair back from her face and stands facing a mirror in soft daylight with a bare face, chin level, studying the outline of her jaw and cheeks. The background is a simple, uncluttered bathroom with a plain wall.",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "Woman with freckled skin and a fabric headband holding her hair back looks at her bare face in a bathroom mirror in soft daylight, hands touching her jawline as she checks her face proportions."
+      }
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "key": "{\"brief\":{\"prompt\":\"A three-quarter profile portrait of a woman with olive skin and a short dark bob, sitting by a window, wearing berry-toned blush blended softly along the underside of her cheekbone and fading upward with no visible edges. The light is diffuse and natural, and the background is a softly blurred living room.\",\"alt\":\"Three-quarter view of softly blended blush along the cheekbone, a shape-independent makeup technique\",\"purpose\":\"Illustrates the practitioner technique of blending blush along the underside of the cheekbone and fading upward, checked from a three-quarter angle.\",\"article\":\"makeup-for-face-shape\",\"position\":3},\"model\":\"openai/gpt-image-2.5/flare/text-to-image\"}",
+  "attempts": [
+    {
+      "status": "rejected",
+      "prompt": "A three-quarter profile portrait of a woman with olive skin and a short dark bob, sitting by a window, wearing berry-toned blush blended softly along the underside of her cheekbone and fading upward with no visible edges. The light is diffuse and natural, and the background is a softly blurred living room.",
+      "issues": [
+        "Blush placement does not match the brief: the berry-toned pink sits as a concentrated patch on the apple/mid-cheek rather than along the underside of the cheekbone fading upward, so the image fails to illustrate the stated technique.",
+        "The blush looks like a rounded, fairly distinct blob with a visible shape, not the 'no visible edges' seamless blend the brief requires.",
+        "Because the placement is apple-focused and not a clear underside-of-cheekbone sweep, it does not credibly demonstrate the shape-independent technique for the makeup-for-face-shape article.",
+        "The color reads as a rosy pink rather than a clearly berry-toned blush."
+      ]
+    },
+    {
+      "status": "passed",
+      "prompt": "A three-quarter profile portrait of a woman with olive skin and a short dark bob, sitting by a window, wearing berry-toned blush blended softly along the underside of her cheekbone and fading upward with no visible edges. The light is diffuse and natural, and the background is a softly blurred living room.\nEDITORIAL CORRECTION: Regenerate a simpler, accurate illustration of the same purpose. Fix these defects from the rejected image: [\"Blush placement does not match the brief: the berry-toned pink sits as a concentrated patch on the apple/mid-cheek rather than along the underside of the cheekbone fading upward, so the image fails to illustrate the stated technique.\",\"The blush looks like a rounded, fairly distinct blob with a visible shape, not the 'no visible edges' seamless blend the brief requires.\",\"Because the placement is apple-focused and not a clear underside-of-cheekbone sweep, it does not credibly demonstrate the shape-independent technique for the makeup-for-face-shape article.\",\"The color reads as a rosy pink rather than a clearly berry-toned blush.\"]. Avoid text, labels and complex comparative diagrams if they caused the defect.",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "Three-quarter profile of a woman with olive skin and a short dark bob, seated by a bright window in a softly blurred living room, with berry-toned blush softly blended along the cheekbone and a cream knit sweater."
+      }
+    }
+  ]
+}

@@ -9,7 +9,7 @@ heroImage: "/blog/oblong-face-shape/1.webp"
 heroImageAlt: "Person with hair pulled back under a white headband looking straight at their face in a round bathroom mirror, lit by soft window daylight, with a plant and towel in the background"
 tags: ["face shape", "oblong face", "haircuts", "glasses", "facial proportions", "styling"]
 readingTime: 8
-related: [7-face-shapes-explained, best-glasses-for-oblong-face, best-glasses-for-oval-face]
+related: [7-face-shapes-explained, best-glasses-for-oblong-face, makeup-for-face-shape]
 faq:
   - q: "How do I know if I have an oblong face shape?"
     a: "Pull your hair back and take a straight-on photo at eye level. If your face is clearly longer than it is wide and your forehead, cheekbones and jaw are all about the same width, with fairly straight sides, oblong is a likely fit. Check two or three photos, because angle and lighting change how the shape reads."

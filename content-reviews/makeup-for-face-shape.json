@@ -1,0 +1,149 @@
+{
+  "slug": "makeup-for-face-shape",
+  "reviewedAt": "2026-11-01T19:21:36.234Z",
+  "draft": false,
+  "review": {
+    "pass": true,
+    "issues": []
+  },
+  "textRepair": {
+    "status": "passed",
+    "issues": [
+      "Face shape categories list: The article lists six shapes, including diamond, yet cites the arXiv paper for category confusion. The evidence supports only five shapes (heart, oblong, oval, round, square), and the IdentiFace source doesn't support its claim that adding categories caused confusion between similar shapes. Needs correction."
+    ],
+    "review": {
+      "pass": true,
+      "issues": []
+    }
+  },
+  "sources": [
+    {
+      "title": "Makeup Changes the Apparent Size of Facial Features",
+      "url": "https://www.researchgate.net/publication/321510151_Makeup_Changes_the_Apparent_Size_of_Facial_Features"
+    },
+    {
+      "title": "Makeup Changes the Apparent Size of Facial Features",
+      "url": "https://cupola.gettysburg.edu/cgi/viewcontent.cgi?article=1087&context=psyfac"
+    },
+    {
+      "title": "Face shape classification using Inception v3",
+      "url": "https://arxiv.org/pdf/1911.07916"
+    },
+    {
+      "title": "IdentiFace : A VGG Based Multimodal Facial Biometric System",
+      "url": "https://arxiv.org/pdf/2401.01227"
+    },
+    {
+      "title": "(PDF) Human Face Shape Classification with Machine Learning",
+      "url": "https://www.researchgate.net/publication/362903132_Human_Face_Shape_Classification_with_Machine_Learning"
+    }
+  ],
+  "imageModel": "openai/gpt-image-2.5/flare/text-to-image",
+  "imageReviews": [
+    {
+      "image": "/blog/makeup-for-face-shape/1.webp",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "Woman with dark curly hair pulled back touches her cheek while checking her makeup in a bathroom mirror beside a bright window, with soft peach blush on her cheekbones and makeup brushes in a marble cup on the vanity."
+      }
+    },
+    {
+      "image": "/blog/makeup-for-face-shape/2.webp",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "Woman with freckled skin and a fabric headband holding her hair back looks at her bare face in a bathroom mirror in soft daylight, hands touching her jawline as she checks her face proportions."
+      }
+    },
+    {
+      "image": "/blog/makeup-for-face-shape/3.webp",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "Three-quarter profile of a woman with olive skin and a short dark bob, seated by a bright window in a softly blurred living room, with berry-toned blush softly blended along the cheekbone and a cream knit sweater."
+      }
+    }
+  ],
+  "imageFailures": [],
+  "imageSettings": {
+    "width": 1024,
+    "height": 1024,
+    "quality": "low"
+  },
+  "usage": [
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "research",
+      "input": 30072,
+      "output": 3577,
+      "estimatedUsd": 0.095914,
+      "searches": 3
+    },
+    {
+      "model": "claude-opus-5-5",
+      "stage": "article",
+      "input": 33675,
+      "output": 10987,
+      "estimatedUsd": 0.35444,
+      "searches": 0
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "text-review",
+      "input": 7783,
+      "output": 121,
+      "estimatedUsd": 0.016776,
+      "searches": 0
+    },
+    {
+      "model": "claude-opus-5-5",
+      "stage": "article-repair",
+      "input": 8827,
+      "output": 6527,
+      "estimatedUsd": 0.165848,
+      "searches": 0
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "text-review",
+      "input": 7784,
+      "output": 16,
+      "estimatedUsd": 0.015728,
+      "searches": 0
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "image-review",
+      "input": 1725,
+      "output": 97,
+      "estimatedUsd": 0.00442,
+      "searches": 0
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "image-review",
+      "input": 1721,
+      "output": 84,
+      "estimatedUsd": 0.004282,
+      "searches": 0
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "image-review",
+      "input": 1733,
+      "output": 306,
+      "estimatedUsd": 0.006526,
+      "searches": 0
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "image-review",
+      "input": 1733,
+      "output": 92,
+      "estimatedUsd": 0.004386,
+      "searches": 0
+    }
+  ],
+  "note": "Token estimates exclude web-search charges, images, tax and provider markups."
+}

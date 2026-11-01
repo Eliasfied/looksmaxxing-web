@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "fingerprint": "c69a0003cbbf109e206433a06794b0b2b040cd683f898ee77b374126b426ad65",
+  "brief": {
+    "prompt": "A woman with medium-deep skin and dark curly hair pulled back stands at a bathroom mirror beside a bright window, wearing soft peach blush placed high on her cheekbones and well-defined natural brows. A few makeup brushes rest in a cup on the vanity, and the scene is calm, warm and evenly lit.",
+    "alt": "Woman checking her blush placement in a mirror in daylight, showing makeup for face shape",
+    "purpose": "Introduces the core idea that placement is judged in the mirror under good light, not chosen from a chart.",
+    "article": "makeup-for-face-shape",
+    "position": 1
+  },
+  "sha256": "0d55f238b584f525174b4832fb770fd21e0a19c8d0237617d12ce3a08610cd04",
+  "reviewedAt": "2026-11-01T19:20:57.493Z",
+  "review": {
+    "pass": true,
+    "issues": [],
+    "alt": "Woman with dark curly hair pulled back touches her cheek while checking her makeup in a bathroom mirror beside a bright window, with soft peach blush on her cheekbones and makeup brushes in a marble cup on the vanity."
+  }
+}

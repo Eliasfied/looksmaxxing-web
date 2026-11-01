@@ -1,0 +1,363 @@
+{
+  "version": 1,
+  "savedAt": "2026-11-01T19:21:36.233Z",
+  "page": {
+    "slug": "makeup-for-face-shape",
+    "cluster": "makeup-for-face-shape",
+    "page_type": "blog",
+    "phase": 5,
+    "keywords": [
+      {
+        "keyword": "makeup for face shape",
+        "volume": 390,
+        "sd": 1
+      }
+    ],
+    "primary_keyword": "makeup for face shape",
+    "primary_volume": 390,
+    "primary_sd": 1
+  },
+  "data": {
+    "_research": {
+      "sources": [
+        {
+          "title": "Makeup Changes the Apparent Size of Facial Features",
+          "url": "https://www.researchgate.net/publication/321510151_Makeup_Changes_the_Apparent_Size_of_Facial_Features",
+          "evidence": "Eyebrows and Eyes were perceived as significantly larger with cosmetics than without. In contrast, the nose appeared smaller with cosmetics than witho..."
+        },
+        {
+          "title": "Makeup Changes the Apparent Size of Facial Features",
+          "url": "https://cupola.gettysburg.edu/cgi/viewcontent.cgi?article=1087&context=psyfac",
+          "evidence": "MAKEUP CHANGES FACIAL FEATURE SIZE 1\n\nMakeup changes the apparent size of facial features\n\nappeared *smaller* with makeup than without, but in a study... We had no strong hypothesis regarding the effect of makeup on perceived\n\nMAKEUP CHANGES FACIAL FEATURE SIZE 14\n\nwere perceived as larger with makeup t..."
+        },
+        {
+          "title": "Face shape classification using Inception v3",
+          "url": "https://arxiv.org/pdf/1911.07916",
+          "evidence": "For this reason, we only focus on five basic face shapes that is often cited in online materials namely the heart, oblong, oval, round, and square fac... In fact, a total of 62 out of 117 female celebrity names with at least two cited face shapes have conflicting face shape classifications in 21 online ..."
+        },
+        {
+          "title": "IdentiFace : A VGG Based Multimodal Facial Biometric System",
+          "url": "https://arxiv.org/pdf/2401.01227",
+          "evidence": "| Model | oblong | square | round | heart | oval |\n| 3 classes | 0 | 1 | 2 | - | - |\n| All classes | 0 | 1 | 2 | 3 | 4 |\n\nFigure (10) Face-shape label... One thing we tried was to compare the prediction of our model with famous websites and the results were very subjective. Each website produced a diffe..."
+        },
+        {
+          "title": "(PDF) Human Face Shape Classification with Machine Learning",
+          "url": "https://www.researchgate.net/publication/362903132_Human_Face_Shape_Classification_with_Machine_Learning",
+          "evidence": "to address problems related to face shape classiﬁ-\n\naccuracy percentage of related work discussed in\n\nwell to predict round and square faces while on ..."
+        },
+        {
+          "title": "Face Shape Detector: What Is My Face Shape? Free AI Test",
+          "url": "https://www.detect-face-shape.com/",
+          "evidence": "Because many people are a mix of two types, results often include confidence percentages.\n\n Oval and round are the ones most often called common, but no large, reliable study settles it. "
+        },
+        {
+          "title": "How to Contour With Blush, the Hidden Gem in Your Makeup Bag",
+          "url": "https://allure.ph/makeup/face/how-to-contour-with-blush-the-hidden-gem-in-your-makeup-bag/",
+          "evidence": "# How to Contour With Blush, the Hidden Gem in Your Makeup Bag\n\n“[Blush] is a great way to lift cheekbones,” says Figueroa.To do this, Los Angeles-bas... Makeup artist Nick Lujan, who is also the director of artistry and education at Kevyn Aucoin Beauty, says that the blush should be “blended along the ... He also notes that this placement is great for those with longer, thinner face shapes.\n\n Nick Lujan notes this placement works especially well for round, square, or oval face shapes."
+        },
+        {
+          "title": "Blush Application Guide by Face Shape and Technique",
+          "url": "https://www.lauramercier.com/blogs/art-of-living-flawlessly/blush-application-placement-guide",
+          "evidence": "### Round face blush placement\nTo elongate and sculpt a rounder face, sweep blush diagonally from the temples toward the top of the cheekbones. Keep m... ### Heart-shaped face blush placement\nFor heart-shaped faces, use the “C-shape” technique—starting from the cheekbone and curving up to the temple.  ### Long or oblong face blush placement\nApply blush horizontally across the apples of the cheeks to visually widen the face.\n\n"
+        },
+        {
+          "title": "Face Shape Makeup: Where to Place Contour and Blush",
+          "url": "https://beautyspark.me/blog/face-shape-makeup-guide",
+          "evidence": "# Face Shape Makeup Guide: Contour, Blush & Brow Techniques\n## Contour, Blush & Brow Placement by Face Shape\n### Round Face\n**Blush placement:** Place... ### Heart Face\n**Blush placement:** Apply blush to the apples of the cheeks and blend outward toward the ears, keeping the color in the mid-face zone.... Avoid placing blush in a vertical stripe or blending it upward, which adds more length to an already long face.\n\n Contour is a tool for adding dimension and structure, but it is not a daily requirement.\n\n"
+        },
+        {
+          "title": "How To Apply Blush and Flatter Your Face Shape",
+          "url": "https://www.nyxcosmetics.com/blog/where-how-to-apply-blush-for-your-face-shape.html",
+          "evidence": "We suggest applying your blush in a straight line from your ear toward the center of your face, following the natural line of your cheekbones.\n\n ### Where to apply blush for a rectangle face shape\nBlush for long face shapes, like oval and rectangular faces, can help provide balance.\n\n"
+        },
+        {
+          "title": "Makeup Tips for Different Face Shapes: Contouring, Blush & Highlight Guide",
+          "url": "https://ibacosmetics.com/blogs/iba-blogs/makeup-tips-for-different-face-shapes-contouring-blush-highlight-guide",
+          "evidence": "Blush Placement for Round Faces Keep your blush two fingers away from your nose and sweep it upward toward your ears.\n\n"
+        },
+        {
+          "title": "Blush Placement Guide: Apply Blush for Your Face Shape",
+          "url": "https://charmacyworld.com/blogs/news/blush-placement-guide-face-shape",
+          "evidence": "# Makeup Blush Placement Guide: How to Apply Blush According to Your Face Shape\n## Why Blush Placement Matters\n\nWhen considering Blush placement for f..."
+        },
+        {
+          "title": "How to Contour for Your Face Shape",
+          "url": "https://janeiredale.com/blogs/makeup-blog/contour-for-your-face-shape",
+          "evidence": "When highlighting and contouring, the goal is to work toward a more oval-looking face; this is thought to be the ideal face shape. "
+        }
+      ]
+    },
+    "_draft": false,
+    "_review": {
+      "pass": true,
+      "issues": []
+    },
+    "_imageReviews": [
+      {
+        "image": "/blog/makeup-for-face-shape/1.webp",
+        "review": {
+          "pass": true,
+          "issues": [],
+          "alt": "Woman with dark curly hair pulled back touches her cheek while checking her makeup in a bathroom mirror beside a bright window, with soft peach blush on her cheekbones and makeup brushes in a marble cup on the vanity."
+        }
+      },
+      {
+        "image": "/blog/makeup-for-face-shape/2.webp",
+        "review": {
+          "pass": true,
+          "issues": [],
+          "alt": "Woman with freckled skin and a fabric headband holding her hair back looks at her bare face in a bathroom mirror in soft daylight, hands touching her jawline as she checks her face proportions."
+        }
+      },
+      {
+        "image": "/blog/makeup-for-face-shape/3.webp",
+        "review": {
+          "pass": true,
+          "issues": [],
+          "alt": "Three-quarter profile of a woman with olive skin and a short dark bob, seated by a bright window in a softly blurred living room, with berry-toned blush softly blended along the cheekbone and a cream knit sweater."
+        }
+      }
+    ],
+    "_imageFailures": [],
+    "_textRepair": {
+      "original": {
+        "title": "Makeup for Face Shape: A Flexible Placement Guide",
+        "description": "Makeup for face shape, without the rigid rules: where blush and contour usually go, where guides disagree, and a simple way to find placement that suits you.",
+        "h1_displayed": "Makeup for Face Shape: Use the Chart as a Starting Point, Not a Rulebook",
+        "reading_time": 8,
+        "tags": [
+          "makeup",
+          "face shape",
+          "blush placement",
+          "contouring",
+          "facial proportions"
+        ],
+        "tool_slug": "face-shape-detector",
+        "audience": "everyone",
+        "body_markdown": "Most guides to makeup for face shape start with a chart. You find your shape, then follow the map. The idea is useful, but its foundation is weaker than the charts suggest. Face shape categories are fuzzy, and brand guides contradict each other on basic placement. Nobody has published a study showing that shape-specific contour maps work better than placing makeup where it looks good on you.\n\nThat doesn't make face shape useless. It gives you a decent first read on two things:\n\n- Where your width sits: forehead, cheekbones or jaw.\n- How long your face is compared with its width.\n\nUse that read as a starting point, then let the mirror decide. This guide covers:\n\n- What makeup can and can't change.\n- The common placement advice for each shape, including where it disagrees.\n- A method that works whichever label you land on.\n\n## What makeup can and can't change about your face\n\nMakeup works on light and attention. It can't move bone.\n\n- A deeper shade reads as shadow.\n- A lighter or shinier one reads as a surface catching light.\n- Color pulls the eye toward wherever it sits.\n\nThere is real research on one part of this: how big features look. One study appeared in the peer-reviewed journal *Psychology of Aesthetics, Creativity, and the Arts*. In it, [researchers compared how large facial features looked with and without cosmetics](https://www.researchgate.net/publication/321510151_Makeup_Changes_the_Apparent_Size_of_Facial_Features). With makeup:\n\n- Eyebrows and eyes were judged significantly larger.\n- The nose was judged smaller.\n- The mouth's apparent size didn't change.\n\nThe full paper is open about earlier results being mixed. In some past work, features looked smaller with makeup, and other studies found different effects. So read it as \"makeup changes how big features look,\" not as a precise formula.\n\nTwo practical takeaways:\n\n- **Brows and eyes showed the clearest size effect in that study.** If you want visible impact for little effort, define your brows before you reach for contour.\n- **The study measured individual features, not overall face shape.** None of the sources behind this article measured whether contour makes a face look slimmer, shorter or more oval. Those are styling goals, not tested outcomes.\n\n## Why face shape categories are fuzzier than charts suggest\n\nMost guides use five or six labels:\n\n- **Oval:** longer than wide, with no strong angles.\n- **Round:** length and width are similar.\n- **Square:** an angular jaw, with similar widths at forehead, cheeks and jaw.\n- **Heart:** a wider forehead and a narrower chin.\n- **Oblong** (sometimes called rectangle): noticeably longer than wide.\n- **Diamond:** cheekbones are the widest point.\n\nReal faces don't sort that neatly, and research on face shape classification shows it.\n\n- A paper on [automatic face shape classification](https://arxiv.org/pdf/1911.07916) reviewed 21 websites. Of 117 female celebrities given at least two face shapes, 62 had conflicting labels. Same faces, different answers.\n- Another team built a [face shape prediction model](https://arxiv.org/pdf/2401.01227) and compared it with popular websites. They described the results as very subjective, because each site predicted differently. They also found that adding more categories made the model confuse similar shapes.\n- A separate machine learning study found round and square faces were easier to tell apart. Oval and oblong were often mixed up, and heart shapes were confused with other shapes.\n\nIf you're torn between two labels, you aren't doing it wrong. Many faces sit between categories, and you can borrow advice from both.\n\n### A quick way to read your own proportions\n\nThe label matters less than the proportions behind it, because those are what placement decisions depend on. Here's a simple self-check (an editorial suggestion, not a clinical method):\n\n1. Pull your hair fully back. Face a mirror in even daylight and keep your chin level.\n2. Find your widest zone: forehead, cheekbones or jaw.\n3. Decide whether your face is clearly longer than it is wide, or close to even.\n4. Look at the jawline. Is it more angular or more curved?\n5. Look at the chin. Is it pointed, rounded or flat?\n\nYou might want a second read alongside the mirror check. Aura's [Face Shape Finder](https://app.aura-looksmaxxing.com/tools/face-shape-detector?source=%2Fblog%2Fmakeup-for-face-shape) gives your *likely* face shape with uncertainty rather than one fixed verdict. It explains your forehead, cheek and jaw proportions and suggests haircut and accessory options. For makeup, the proportions explanation is the useful part, because that's what you'll place blush and contour around.\n\n{{IMAGE_2}}\n\n## Blush and contour placement by face shape\n\nBelow is the common advice from makeup artists and cosmetics brand guides. It is practitioner opinion, not tested science, and where guides disagree, this section says so.\n\nOne more caveat. Some contour guides say the goal is to make every face look more oval, and call oval the ideal. That is a beauty convention, not a fact. You can use placement to bring out features you like, not just to \"correct\" ones you don't.\n\n### Round\n\nThe shared idea is to keep color *on and above* the cheekbone rather than on the soft center of the cheek. The details vary:\n\n- One brand guide suggests sweeping blush diagonally from the temples toward the top of the cheekbones, keeping it away from the center of the cheeks.\n- Another recommends a straight line from the ear toward the center of the face, following the cheekbone.\n- A third says to keep blush about two fingers' width from the nose and sweep it upward toward the ears.\n\n### Oval\n\nThere is less specific advice worth repeating here. Our editorial suggestion is to treat oval as a good shape for experimenting. Try blush on the apples, the fullest part of your cheeks when you smile. Then try it higher on the cheekbone, and keep whichever you prefer.\n\n### Square\n\nOur editorial suggestion is to use soft, rounded blending on the apples rather than sharp horizontal stripes if you want a softer look. Many people with an angular jaw like that structure and skip jaw contour entirely, and that's a valid choice.\n\n### Heart\n\nThis is where guides disagree most. Published advice includes:\n\n- A C-shape that starts on the cheekbone and curves up toward the temple.\n- Blush on the apples, blended outward toward the ears so color stays in the mid-face.\n- More horizontal blending.\n\nNo one approach is proven better. Try two of them on different days and compare.\n\n### Oblong\n\nThis is the most consistent advice across guides:\n\n- Blend blush *horizontally* across the apples, out toward the ears, to add a sense of width.\n- Avoid vertical stripes or blending straight upward, which guides say adds length.\n\n### Diamond\n\nWhen cheekbones are already the widest point, our editorial suggestion is a lighter hand. Use sheer blush on the cheekbones and minimal contour beneath them. Let your brows and eyes carry more of the definition.\n\n### Using blush as contour\n\nTwo artists quoted by Allure Philippines describe a technique that isn't tied to a specific shape:\n\n- Jillian Dempsey suggests sucking in your cheeks into a \"fish face\" to find your cheekbones.\n- Nick Lujan says blush should be blended along the underside of the cheekbone and fade upward.\n\nThe same article says this placement suits longer, thinner faces in one passage, and round, square and oval faces in another. That inconsistency is telling. Good placement is mostly about your cheekbone, not your category.\n\n## A step-by-step method that works on any face\n\nThis routine is an editorial suggestion. It replaces the chart with a quick test you can repeat.\n\n1. **Find your structure.** Make the fish face to locate the cheekbone, then relax your face. Note where the bone sits and where the hollow under it begins.\n2. **Do your brows first.** Brows were among the features that looked most different with makeup in the study above. They frame everything else, so set them before judging blush or contour.\n3. **Test two blush placements, one on each cheek.** For example, put a high, angled sweep on the left and apples blended outward on the right. Keep the amount the same on both sides.\n4. **Compare from three views.** Look straight on, at a three-quarter angle, and through your phone's front camera. Pick the side that looks more like the face you want to show.\n5. **Match the other side.** Remove the version you didn't choose and repeat the one you did.\n6. **Add contour only if you want more definition.** Contour is optional, not a daily requirement. Use a sheer shade slightly deeper than your skin, just under the cheekbone, and blend until no edge remains.\n7. **Highlight sparingly.** Put it on the high points where light already hits, such as the top of the cheekbone. Leave textured areas bare.\n8. **Check at conversation distance in daylight.** People see you from across a table, not from inches away. If any line reads as a stripe from there, blend more.\n\n## Practical tips that matter more than your label\n\nThese are editorial suggestions from common makeup practice, not measured findings.\n\n- **Light first.** Overhead bathroom light casts shadows that hide or exaggerate contour. Apply facing a window or in even, diffuse light.\n- **Blend past where you think you're done.** A visible edge reads as makeup. A soft gradient reads as shadow.\n- **Choose texture for your skin.** Creams tend to melt into skin and suit drier or more mature skin. Powders tend to sit better on oily skin and last longer.\n- **Keep contour shades believable.** A real shadow is only slightly deeper than your skin. A shade much darker or very warm can look like a stripe in daylight.\n- **Watch the distance from your nose and eyes.** Blush crowded toward the nose or bunched under the eye can look heavy. Leave some space.\n- **Remember your hair.** Bangs, volume at the sides and where your hair falls all change which proportions people see first. Your hairstyle frames your face just as much as your makeup does.\n- **Change one thing at a time.** If you switch blush placement, contour and highlight all at once, you won't know which change you liked.\n\n{{IMAGE_3}}\n\n## Common mistakes with face shape makeup\n\n- **Trusting the chart over the mirror.** If chart-perfect placement looks off on you, the chart is wrong for your face, not the other way around.\n- **Forcing a single label.** Most people mix two shapes. Borrow advice from both and keep what works.\n- **Treating oval as the target.** Contour can play up your cheekbones or jaw just as easily as it can soften them. Decide what you want first.\n- **Harsh contour lines.** Heavy jaw or nose contour can look sharp in photos but show as stripes in person.\n- **Copying tutorials blindly.** A creator with different proportions and lighting may get very different results from the same placement.\n- **Skipping brows.** Brows are the easiest place to start, and they shape how your whole face reads.\n\n## The short version\n\nFace shape is a reasonable first guess, not a verdict. Start with your proportions:\n\n- Where you're widest.\n- How long your face is.\n- Whether your jaw and chin are angular or soft.\n\nThen use the common advice as options to test. Do brows first, test blush two ways on one face, add contour only if you want it, and judge in daylight from a normal distance. Your mirror is better evidence about your own face than any chart.",
+        "image_prompts": [
+          {
+            "prompt": "A woman with medium-deep skin and dark curly hair pulled back stands at a bathroom mirror beside a bright window, wearing soft peach blush placed high on her cheekbones and well-defined natural brows. A few makeup brushes rest in a cup on the vanity, and the scene is calm, warm and evenly lit.",
+            "alt": "Woman checking her blush placement in a mirror in daylight, showing makeup for face shape",
+            "purpose": "Introduces the core idea that placement is judged in the mirror under good light, not chosen from a chart."
+          },
+          {
+            "prompt": "A woman with fair, freckled skin wears a fabric headband holding all her hair back from her face and stands facing a mirror in soft daylight with a bare face, chin level, studying the outline of her jaw and cheeks. The background is a simple, uncluttered bathroom with a plain wall.",
+            "alt": "Woman with hair pulled back checking her face proportions in a mirror before applying makeup",
+            "purpose": "Shows the self-check from the proportions section: hair back, even daylight and a level chin, so the reader can see where their face is widest."
+          },
+          {
+            "prompt": "A three-quarter profile portrait of a woman with olive skin and a short dark bob, sitting by a window, wearing berry-toned blush blended softly along the underside of her cheekbone and fading upward with no visible edges. The light is diffuse and natural, and the background is a softly blurred living room.",
+            "alt": "Three-quarter view of softly blended blush along the cheekbone, a shape-independent makeup technique",
+            "purpose": "Illustrates the practitioner technique of blending blush along the underside of the cheekbone and fading upward, checked from a three-quarter angle."
+          }
+        ],
+        "faq": [
+          {
+            "q": "What is the best makeup for my face shape?",
+            "a": "There isn't one proven best layout. Brand guides even disagree on placement for round and heart-shaped faces. Use the common advice for your shape as a starting point, then test two placements side by side and keep the one you prefer in daylight."
+          },
+          {
+            "q": "How do I figure out my face shape for makeup?",
+            "a": "Pull your hair back and face a mirror in even light. Note where your face is widest, whether it is clearly longer than wide, and whether your jaw is angular or curved. Many faces fall between two categories, so those proportions are more useful than any single label."
+          },
+          {
+            "q": "Can makeup make my face look slimmer?",
+            "a": "Makeup changes how light and attention fall on your face, but it can't change bone structure. One study found cosmetics changed how large features like the eyes, brows and nose looked. Whether contour changes how slim a whole face looks wasn't tested in the sources behind this article."
+          },
+          {
+            "q": "Do I need contour for my face shape?",
+            "a": "No. Contour is optional, and blush placed along the underside of the cheekbone can add definition on its own. If you do contour, use a sheer shade only slightly deeper than your skin and blend until no edge is visible."
+          },
+          {
+            "q": "Should blush go on the apples or the cheekbones?",
+            "a": "Both are common, and the right choice depends on the look you want. Apples tend to read softer, while placement on or just under the cheekbone reads more defined. Try one on each cheek and compare from the front and a three-quarter angle."
+          }
+        ],
+        "sources": [
+          {
+            "title": "Makeup Changes the Apparent Size of Facial Features",
+            "url": "https://www.researchgate.net/publication/321510151_Makeup_Changes_the_Apparent_Size_of_Facial_Features"
+          },
+          {
+            "title": "Makeup Changes the Apparent Size of Facial Features",
+            "url": "https://cupola.gettysburg.edu/cgi/viewcontent.cgi?article=1087&context=psyfac"
+          },
+          {
+            "title": "Face shape classification using Inception v3",
+            "url": "https://arxiv.org/pdf/1911.07916"
+          },
+          {
+            "title": "IdentiFace : A VGG Based Multimodal Facial Biometric System",
+            "url": "https://arxiv.org/pdf/2401.01227"
+          },
+          {
+            "title": "(PDF) Human Face Shape Classification with Machine Learning",
+            "url": "https://www.researchgate.net/publication/362903132_Human_Face_Shape_Classification_with_Machine_Learning"
+          }
+        ],
+        "_research": {
+          "sources": [
+            {
+              "title": "Makeup Changes the Apparent Size of Facial Features",
+              "url": "https://www.researchgate.net/publication/321510151_Makeup_Changes_the_Apparent_Size_of_Facial_Features",
+              "evidence": "Eyebrows and Eyes were perceived as significantly larger with cosmetics than without. In contrast, the nose appeared smaller with cosmetics than witho..."
+            },
+            {
+              "title": "Makeup Changes the Apparent Size of Facial Features",
+              "url": "https://cupola.gettysburg.edu/cgi/viewcontent.cgi?article=1087&context=psyfac",
+              "evidence": "MAKEUP CHANGES FACIAL FEATURE SIZE 1\n\nMakeup changes the apparent size of facial features\n\nappeared *smaller* with makeup than without, but in a study... We had no strong hypothesis regarding the effect of makeup on perceived\n\nMAKEUP CHANGES FACIAL FEATURE SIZE 14\n\nwere perceived as larger with makeup t..."
+            },
+            {
+              "title": "Face shape classification using Inception v3",
+              "url": "https://arxiv.org/pdf/1911.07916",
+              "evidence": "For this reason, we only focus on five basic face shapes that is often cited in online materials namely the heart, oblong, oval, round, and square fac... In fact, a total of 62 out of 117 female celebrity names with at least two cited face shapes have conflicting face shape classifications in 21 online ..."
+            },
+            {
+              "title": "IdentiFace : A VGG Based Multimodal Facial Biometric System",
+              "url": "https://arxiv.org/pdf/2401.01227",
+              "evidence": "| Model | oblong | square | round | heart | oval |\n| 3 classes | 0 | 1 | 2 | - | - |\n| All classes | 0 | 1 | 2 | 3 | 4 |\n\nFigure (10) Face-shape label... One thing we tried was to compare the prediction of our model with famous websites and the results were very subjective. Each website produced a diffe..."
+            },
+            {
+              "title": "(PDF) Human Face Shape Classification with Machine Learning",
+              "url": "https://www.researchgate.net/publication/362903132_Human_Face_Shape_Classification_with_Machine_Learning",
+              "evidence": "to address problems related to face shape classiﬁ-\n\naccuracy percentage of related work discussed in\n\nwell to predict round and square faces while on ..."
+            },
+            {
+              "title": "Face Shape Detector: What Is My Face Shape? Free AI Test",
+              "url": "https://www.detect-face-shape.com/",
+              "evidence": "Because many people are a mix of two types, results often include confidence percentages.\n\n Oval and round are the ones most often called common, but no large, reliable study settles it. "
+            },
+            {
+              "title": "How to Contour With Blush, the Hidden Gem in Your Makeup Bag",
+              "url": "https://allure.ph/makeup/face/how-to-contour-with-blush-the-hidden-gem-in-your-makeup-bag/",
+              "evidence": "# How to Contour With Blush, the Hidden Gem in Your Makeup Bag\n\n“[Blush] is a great way to lift cheekbones,” says Figueroa.To do this, Los Angeles-bas... Makeup artist Nick Lujan, who is also the director of artistry and education at Kevyn Aucoin Beauty, says that the blush should be “blended along the ... He also notes that this placement is great for those with longer, thinner face shapes.\n\n Nick Lujan notes this placement works especially well for round, square, or oval face shapes."
+            },
+            {
+              "title": "Blush Application Guide by Face Shape and Technique",
+              "url": "https://www.lauramercier.com/blogs/art-of-living-flawlessly/blush-application-placement-guide",
+              "evidence": "### Round face blush placement\nTo elongate and sculpt a rounder face, sweep blush diagonally from the temples toward the top of the cheekbones. Keep m... ### Heart-shaped face blush placement\nFor heart-shaped faces, use the “C-shape” technique—starting from the cheekbone and curving up to the temple.  ### Long or oblong face blush placement\nApply blush horizontally across the apples of the cheeks to visually widen the face.\n\n"
+            },
+            {
+              "title": "Face Shape Makeup: Where to Place Contour and Blush",
+              "url": "https://beautyspark.me/blog/face-shape-makeup-guide",
+              "evidence": "# Face Shape Makeup Guide: Contour, Blush & Brow Techniques\n## Contour, Blush & Brow Placement by Face Shape\n### Round Face\n**Blush placement:** Place... ### Heart Face\n**Blush placement:** Apply blush to the apples of the cheeks and blend outward toward the ears, keeping the color in the mid-face zone.... Avoid placing blush in a vertical stripe or blending it upward, which adds more length to an already long face.\n\n Contour is a tool for adding dimension and structure, but it is not a daily requirement.\n\n"
+            },
+            {
+              "title": "How To Apply Blush and Flatter Your Face Shape",
+              "url": "https://www.nyxcosmetics.com/blog/where-how-to-apply-blush-for-your-face-shape.html",
+              "evidence": "We suggest applying your blush in a straight line from your ear toward the center of your face, following the natural line of your cheekbones.\n\n ### Where to apply blush for a rectangle face shape\nBlush for long face shapes, like oval and rectangular faces, can help provide balance.\n\n"
+            },
+            {
+              "title": "Makeup Tips for Different Face Shapes: Contouring, Blush & Highlight Guide",
+              "url": "https://ibacosmetics.com/blogs/iba-blogs/makeup-tips-for-different-face-shapes-contouring-blush-highlight-guide",
+              "evidence": "Blush Placement for Round Faces Keep your blush two fingers away from your nose and sweep it upward toward your ears.\n\n"
+            },
+            {
+              "title": "Blush Placement Guide: Apply Blush for Your Face Shape",
+              "url": "https://charmacyworld.com/blogs/news/blush-placement-guide-face-shape",
+              "evidence": "# Makeup Blush Placement Guide: How to Apply Blush According to Your Face Shape\n## Why Blush Placement Matters\n\nWhen considering Blush placement for f..."
+            },
+            {
+              "title": "How to Contour for Your Face Shape",
+              "url": "https://janeiredale.com/blogs/makeup-blog/contour-for-your-face-shape",
+              "evidence": "When highlighting and contouring, the goal is to work toward a more oval-looking face; this is thought to be the ideal face shape. "
+            }
+          ]
+        },
+        "_draft": true,
+        "_review": {
+          "pass": false,
+          "issues": [
+            "Editorial review pending."
+          ]
+        },
+        "_imageReviews": [],
+        "_imageFailures": []
+      },
+      "issues": [
+        "Face shape categories list: The article lists six shapes, including diamond, yet cites the arXiv paper for category confusion. The evidence supports only five shapes (heart, oblong, oval, round, square), and the IdentiFace source doesn't support its claim that adding categories caused confusion between similar shapes. Needs correction."
+      ],
+      "status": "passed",
+      "review": {
+        "pass": true,
+        "issues": []
+      }
+    },
+    "title": "Makeup for Face Shape: A Flexible Placement Guide",
+    "description": "Makeup for face shape, without the rigid rules: where blush and contour usually go, where guides disagree, and a simple way to find placement that suits you.",
+    "h1_displayed": "Makeup for Face Shape: Use the Chart as a Starting Point, Not a Rulebook",
+    "reading_time": 8,
+    "tags": [
+      "makeup",
+      "face shape",
+      "blush placement",
+      "contouring",
+      "facial proportions"
+    ],
+    "tool_slug": "face-shape-detector",
+    "audience": "everyone",
+    "body_markdown": "Most guides to makeup for face shape start with a chart. You find your shape, then follow the map. The idea is useful, but its foundation is weaker than the charts suggest. Face shape categories are fuzzy, and brand guides contradict each other on basic placement. Nobody has published a study showing that shape-specific contour maps work better than placing makeup where it looks good on you.\n\nThat doesn't make face shape useless. It gives you a decent first read on two things:\n\n- Where your width sits: forehead, cheekbones or jaw.\n- How long your face is compared with its width.\n\nUse that read as a starting point, then let the mirror decide. This guide covers:\n\n- What makeup can and can't change.\n- The common placement advice for each shape, including where it disagrees.\n- A method that works whichever label you land on.\n\n## What makeup can and can't change about your face\n\nMakeup works on light and attention. It can't move bone.\n\n- A deeper shade reads as shadow.\n- A lighter or shinier one reads as a surface catching light.\n- Color pulls the eye toward wherever it sits.\n\nThere is real research on one part of this: how big features look. One study appeared in the peer-reviewed journal *Psychology of Aesthetics, Creativity, and the Arts*. In it, [researchers compared how large facial features looked with and without cosmetics](https://www.researchgate.net/publication/321510151_Makeup_Changes_the_Apparent_Size_of_Facial_Features). With makeup:\n\n- Eyebrows and eyes were judged significantly larger.\n- The nose was judged smaller.\n- The mouth's apparent size didn't change.\n\nThe full paper is open about earlier results being mixed. In some past work, features looked smaller with makeup, and other studies found different effects. So read it as \"makeup changes how big features look,\" not as a precise formula.\n\nTwo practical takeaways:\n\n- **Brows and eyes showed the clearest size effect in that study.** If you want visible impact for little effort, define your brows before you reach for contour.\n- **The study measured individual features, not overall face shape.** None of the sources behind this article measured whether contour makes a face look slimmer, shorter or more oval. Those are styling goals, not tested outcomes.\n\n## Why face shape categories are fuzzier than charts suggest\n\nMany guides work with five basic labels, the same five that face shape classification research often uses because they are the ones most commonly cited online:\n\n- **Oval:** longer than wide, with no strong angles.\n- **Round:** length and width are similar.\n- **Square:** an angular jaw, with similar widths at forehead, cheeks and jaw.\n- **Heart:** a wider forehead and a narrower chin.\n- **Oblong** (sometimes called rectangle): noticeably longer than wide.\n\nReal faces don't sort that neatly, and research on face shape classification shows it.\n\n- A paper on [automatic face shape classification](https://arxiv.org/pdf/1911.07916) reviewed 21 websites. Of 117 female celebrities given at least two face shapes, 62 had conflicting labels. Same faces, different answers.\n- Another team built a [face shape prediction model](https://arxiv.org/pdf/2401.01227) and compared it with popular websites. They described the results as very subjective, because each site predicted differently.\n- A separate machine learning study reported that its approach predicted round and square faces well, while other shapes were harder to classify.\n\nIf you're torn between two labels, you aren't doing it wrong. Many faces sit between categories, and you can borrow advice from both.\n\n### A quick way to read your own proportions\n\nThe label matters less than the proportions behind it, because those are what placement decisions depend on. Here's a simple self-check (an editorial suggestion, not a clinical method):\n\n1. Pull your hair fully back. Face a mirror in even daylight and keep your chin level.\n2. Find your widest zone: forehead, cheekbones or jaw.\n3. Decide whether your face is clearly longer than it is wide, or close to even.\n4. Look at the jawline. Is it more angular or more curved?\n5. Look at the chin. Is it pointed, rounded or flat?\n\nYou might want a second read alongside the mirror check. Aura's [Face Shape Finder](https://app.aura-looksmaxxing.com/tools/face-shape-detector?source=%2Fblog%2Fmakeup-for-face-shape) gives your *likely* face shape with uncertainty rather than one fixed verdict. It explains your forehead, cheek and jaw proportions and suggests haircut and accessory options. For makeup, the proportions explanation is the useful part, because that's what you'll place blush and contour around.\n\n{{IMAGE_2}}\n\n## Blush and contour placement by face shape\n\nBelow is the common advice from makeup artists and cosmetics brand guides. It is practitioner opinion, not tested science, and where guides disagree, this section says so.\n\nOne more caveat. Some contour guides say the goal is to make every face look more oval, and call oval the ideal. That is a beauty convention, not a fact. You can use placement to bring out features you like, not just to \"correct\" ones you don't.\n\n### Round\n\nThe shared idea is to keep color *on and above* the cheekbone rather than on the soft center of the cheek. The details vary:\n\n- One brand guide suggests sweeping blush diagonally from the temples toward the top of the cheekbones, keeping it away from the center of the cheeks.\n- Another recommends a straight line from the ear toward the center of the face, following the cheekbone.\n- A third says to keep blush about two fingers' width from the nose and sweep it upward toward the ears.\n\n### Oval\n\nThere is less specific advice worth repeating here. Our editorial suggestion is to treat oval as a good shape for experimenting. Try blush on the apples, the fullest part of your cheeks when you smile. Then try it higher on the cheekbone, and keep whichever you prefer.\n\n### Square\n\nOur editorial suggestion is to use soft, rounded blending on the apples rather than sharp horizontal stripes if you want a softer look. Many people with an angular jaw like that structure and skip jaw contour entirely, and that's a valid choice.\n\n### Heart\n\nThis is where guides disagree most. Published advice includes:\n\n- A C-shape that starts on the cheekbone and curves up toward the temple.\n- Blush on the apples, blended outward toward the ears so color stays in the mid-face.\n- More horizontal blending.\n\nNo one approach is proven better. Try two of them on different days and compare.\n\n### Oblong\n\nThis is the most consistent advice across guides:\n\n- Blend blush *horizontally* across the apples, out toward the ears, to add a sense of width.\n- Avoid vertical stripes or blending straight upward, which guides say adds length.\n\n### When your cheekbones are the widest point\n\nSome faces don't fit the five labels neatly, with cheekbones clearly wider than both forehead and jaw. Our editorial suggestion is a lighter hand. Use sheer blush on the cheekbones and minimal contour beneath them. Let your brows and eyes carry more of the definition.\n\n### Using blush as contour\n\nTwo artists quoted by Allure Philippines describe a technique that isn't tied to a specific shape:\n\n- Jillian Dempsey suggests sucking in your cheeks into a \"fish face\" to find your cheekbones.\n- Nick Lujan says blush should be blended along the underside of the cheekbone and fade upward.\n\nThe same article says this placement suits longer, thinner faces in one passage, and round, square and oval faces in another. That inconsistency is telling. Good placement is mostly about your cheekbone, not your category.\n\n## A step-by-step method that works on any face\n\nThis routine is an editorial suggestion. It replaces the chart with a quick test you can repeat.\n\n1. **Find your structure.** Make the fish face to locate the cheekbone, then relax your face. Note where the bone sits and where the hollow under it begins.\n2. **Do your brows first.** Brows were among the features that looked most different with makeup in the study above. They frame everything else, so set them before judging blush or contour.\n3. **Test two blush placements, one on each cheek.** For example, put a high, angled sweep on the left and apples blended outward on the right. Keep the amount the same on both sides.\n4. **Compare from three views.** Look straight on, at a three-quarter angle, and through your phone's front camera. Pick the side that looks more like the face you want to show.\n5. **Match the other side.** Remove the version you didn't choose and repeat the one you did.\n6. **Add contour only if you want more definition.** Contour is optional, not a daily requirement. Use a sheer shade slightly deeper than your skin, just under the cheekbone, and blend until no edge remains.\n7. **Highlight sparingly.** Put it on the high points where light already hits, such as the top of the cheekbone. Leave textured areas bare.\n8. **Check at conversation distance in daylight.** People see you from across a table, not from inches away. If any line reads as a stripe from there, blend more.\n\n## Practical tips that matter more than your label\n\nThese are editorial suggestions from common makeup practice, not measured findings.\n\n- **Light first.** Overhead bathroom light casts shadows that hide or exaggerate contour. Apply facing a window or in even, diffuse light.\n- **Blend past where you think you're done.** A visible edge reads as makeup. A soft gradient reads as shadow.\n- **Choose texture for your skin.** Creams tend to melt into skin and suit drier or more mature skin. Powders tend to sit better on oily skin and last longer.\n- **Keep contour shades believable.** A real shadow is only slightly deeper than your skin. A shade much darker or very warm can look like a stripe in daylight.\n- **Watch the distance from your nose and eyes.** Blush crowded toward the nose or bunched under the eye can look heavy. Leave some space.\n- **Remember your hair.** Bangs, volume at the sides and where your hair falls all change which proportions people see first. Your hairstyle frames your face just as much as your makeup does.\n- **Change one thing at a time.** If you switch blush placement, contour and highlight all at once, you won't know which change you liked.\n\n{{IMAGE_3}}\n\n## Common mistakes with face shape makeup\n\n- **Trusting the chart over the mirror.** If chart-perfect placement looks off on you, the chart is wrong for your face, not the other way around.\n- **Forcing a single label.** Most people mix two shapes. Borrow advice from both and keep what works.\n- **Treating oval as the target.** Contour can play up your cheekbones or jaw just as easily as it can soften them. Decide what you want first.\n- **Harsh contour lines.** Heavy jaw or nose contour can look sharp in photos but show as stripes in person.\n- **Copying tutorials blindly.** A creator with different proportions and lighting may get very different results from the same placement.\n- **Skipping brows.** Brows are the easiest place to start, and they shape how your whole face reads.\n\n## The short version\n\nFace shape is a reasonable first guess, not a verdict. Start with your proportions:\n\n- Where you're widest.\n- How long your face is.\n- Whether your jaw and chin are angular or soft.\n\nThen use the common advice as options to test. Do brows first, test blush two ways on one face, add contour only if you want it, and judge in daylight from a normal distance. Your mirror is better evidence about your own face than any chart.",
+    "image_prompts": [
+      {
+        "prompt": "A woman with medium-deep skin and dark curly hair pulled back stands at a bathroom mirror beside a bright window, wearing soft peach blush placed high on her cheekbones and well-defined natural brows. A few makeup brushes rest in a cup on the vanity, and the scene is calm, warm and evenly lit.",
+        "alt": "Woman checking her blush placement in a mirror in daylight, showing makeup for face shape",
+        "purpose": "Introduces the core idea that placement is judged in the mirror under good light, not chosen from a chart."
+      },
+      {
+        "prompt": "A woman with fair, freckled skin wears a fabric headband holding all her hair back from her face and stands facing a mirror in soft daylight with a bare face, chin level, studying the outline of her jaw and cheeks. The background is a simple, uncluttered bathroom with a plain wall.",
+        "alt": "Woman with hair pulled back checking her face proportions in a mirror before applying makeup",
+        "purpose": "Shows the self-check from the proportions section: hair back, even daylight and a level chin, so the reader can see where their face is widest."
+      },
+      {
+        "prompt": "A three-quarter profile portrait of a woman with olive skin and a short dark bob, sitting by a window, wearing berry-toned blush blended softly along the underside of her cheekbone and fading upward with no visible edges. The light is diffuse and natural, and the background is a softly blurred living room.",
+        "alt": "Three-quarter view of softly blended blush along the cheekbone, a shape-independent makeup technique",
+        "purpose": "Illustrates the practitioner technique of blending blush along the underside of the cheekbone and fading upward, checked from a three-quarter angle."
+      }
+    ],
+    "faq": [
+      {
+        "q": "What is the best makeup for my face shape?",
+        "a": "There isn't one proven best layout. Brand guides even disagree on placement for round and heart-shaped faces. Use the common advice for your shape as a starting point, then test two placements side by side and keep the one you prefer in daylight."
+      },
+      {
+        "q": "How do I figure out my face shape for makeup?",
+        "a": "Pull your hair back and face a mirror in even light. Note where your face is widest, whether it is clearly longer than wide, and whether your jaw is angular or curved. Many faces fall between two categories, so those proportions are more useful than any single label."
+      },
+      {
+        "q": "Can makeup make my face look slimmer?",
+        "a": "Makeup changes how light and attention fall on your face, but it can't change bone structure. One study found cosmetics changed how large features like the eyes, brows and nose looked. Whether contour changes how slim a whole face looks wasn't tested in the sources behind this article."
+      },
+      {
+        "q": "Do I need contour for my face shape?",
+        "a": "No. Contour is optional, and blush placed along the underside of the cheekbone can add definition on its own. If you do contour, use a sheer shade only slightly deeper than your skin and blend until no edge is visible."
+      },
+      {
+        "q": "Should blush go on the apples or the cheekbones?",
+        "a": "Both are common, and the right choice depends on the look you want. Apples tend to read softer, while placement on or just under the cheekbone reads more defined. Try one on each cheek and compare from the front and a three-quarter angle."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Makeup Changes the Apparent Size of Facial Features",
+        "url": "https://www.researchgate.net/publication/321510151_Makeup_Changes_the_Apparent_Size_of_Facial_Features"
+      },
+      {
+        "title": "Makeup Changes the Apparent Size of Facial Features",
+        "url": "https://cupola.gettysburg.edu/cgi/viewcontent.cgi?article=1087&context=psyfac"
+      },
+      {
+        "title": "Face shape classification using Inception v3",
+        "url": "https://arxiv.org/pdf/1911.07916"
+      },
+      {
+        "title": "IdentiFace : A VGG Based Multimodal Facial Biometric System",
+        "url": "https://arxiv.org/pdf/2401.01227"
+      },
+      {
+        "title": "(PDF) Human Face Shape Classification with Machine Learning",
+        "url": "https://www.researchgate.net/publication/362903132_Human_Face_Shape_Classification_with_Machine_Learning"
+      }
+    ]
+  }
+}

@@ -9,7 +9,7 @@ heroImage: /blog/why-small-eyes-are-attractive/1.webp
 heroImageAlt: Man with small eyes and strong bone structure showing attractive masculine facial features
 tags: [eye aesthetics, male attractiveness, looksmaxxing, facial features, grooming]
 readingTime: 8
-related: [are-hooded-eyes-attractive, are-deep-set-eyes-attractive, most-attractive-face-shape-men]
+related: [are-hooded-eyes-attractive, are-deep-set-eyes-attractive, masculine-face-shape]
 faq:
   - q: Are small eyes attractive on men?
     a: Yes, small eyes can be attractive on men, particularly when they are paired with a strong brow ridge, prominent cheekbones, and defined bone structure. Research on facial masculinity suggests that narrower eyes with less visible sclera often read as more dominant and mature, both of which are considered attractive traits in male faces.

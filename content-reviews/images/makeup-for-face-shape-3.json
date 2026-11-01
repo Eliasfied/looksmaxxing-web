@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "fingerprint": "10c92e991cbf0c1a15e1817e814edb1ad531509eea0aae431cc432859effd9ac",
+  "brief": {
+    "prompt": "A three-quarter profile portrait of a woman with olive skin and a short dark bob, sitting by a window, wearing berry-toned blush blended softly along the underside of her cheekbone and fading upward with no visible edges. The light is diffuse and natural, and the background is a softly blurred living room.",
+    "alt": "Three-quarter view of softly blended blush along the cheekbone, a shape-independent makeup technique",
+    "purpose": "Illustrates the practitioner technique of blending blush along the underside of the cheekbone and fading upward, checked from a three-quarter angle.",
+    "article": "makeup-for-face-shape",
+    "position": 3
+  },
+  "sha256": "e4e25ab6c3c4f8a86f885ee26c8b5c9f27ad0447e666dc1e7fe1e4b6e5c231a6",
+  "reviewedAt": "2026-11-01T19:21:36.232Z",
+  "review": {
+    "pass": true,
+    "issues": [],
+    "alt": "Three-quarter profile of a woman with olive skin and a short dark bob, seated by a bright window in a softly blurred living room, with berry-toned blush softly blended along the cheekbone and a cream knit sweater."
+  }
+}
