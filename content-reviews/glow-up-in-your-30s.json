@@ -1,0 +1,108 @@
+{
+  "slug": "glow-up-in-your-30s",
+  "reviewedAt": "2026-11-02T23:00:22.208Z",
+  "draft": true,
+  "review": {
+    "pass": false,
+    "issues": [
+      "Skin section: The draft recommends adding an over-the-counter retinol and says prescription retinoids and acne medications are 'a decision for a doctor'. Retinoids are appearance drugs, so the draft must advise against them for appearance, list their main risks and put non-medical options first. It does none of that."
+    ]
+  },
+  "textRepair": {
+    "status": "rejected",
+    "issues": [
+      "Skin: the article attributes statements to Healthline and Dermatology Times, but neither appears in the supplied evidence or the sources list. These are unsupported source attributions: fine lines and sun damage in the 30s, hormonal acne in the 30s and 40s, and the Dermatology Times summary of AAD guidance."
+    ],
+    "review": {
+      "pass": false,
+      "issues": [
+        "Skin section: The draft recommends adding an over-the-counter retinol and says prescription retinoids and acne medications are 'a decision for a doctor'. Retinoids are appearance drugs, so the draft must advise against them for appearance, list their main risks and put non-medical options first. It does none of that."
+      ]
+    }
+  },
+  "sources": [
+    {
+      "title": "Act your age when it comes to skin care",
+      "url": "https://www.aad.org/news/age-and-skin-care"
+    },
+    {
+      "title": "Anti-Aging Skin Care Tips from AAD",
+      "url": "https://www.dermatologytimes.com/view/anti-aging-skin-care-tips-from-aad"
+    },
+    {
+      "title": "keep your skin healthy at any age",
+      "url": "https://www.healthline.com/health/keep-your-skin-healthy-at-any-age"
+    },
+    {
+      "title": "Muscle tissue changes with aging - PMC - NIH",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2804956/"
+    },
+    {
+      "title": "Can We Really Slow Age-Related Decline?",
+      "url": "https://scientificdiscoveries.ars.usda.gov/tellus/stories/articles/can-we-really-slow-age-related-decline"
+    },
+    {
+      "title": "A 47-year study reveals the age when your body starts losing strength",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261014000912.htm"
+    },
+    {
+      "title": "GLOW-UP Slang Meaning",
+      "url": "https://www.merriam-webster.com/slang/glow-up"
+    },
+    {
+      "title": "glow up",
+      "url": "https://www.dictionary.com/culture/pop-culture/glow-up"
+    }
+  ],
+  "imageModel": "openai/gpt-image-2.5/flare/text-to-image",
+  "imageReviews": [],
+  "imageFailures": [],
+  "imageSettings": {
+    "width": 1024,
+    "height": 1024,
+    "quality": "low"
+  },
+  "usage": [
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "research",
+      "input": 29862,
+      "output": 3468,
+      "estimatedUsd": 0.094404,
+      "searches": 3
+    },
+    {
+      "model": "claude-opus-5-5",
+      "stage": "article",
+      "input": 32998,
+      "output": 10782,
+      "estimatedUsd": 0.347632,
+      "searches": 0
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "text-review",
+      "input": 7962,
+      "output": 121,
+      "estimatedUsd": 0.017134,
+      "searches": 0
+    },
+    {
+      "model": "claude-opus-5-5",
+      "stage": "article-repair",
+      "input": 8463,
+      "output": 6716,
+      "estimatedUsd": 0.168172,
+      "searches": 0
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "text-review",
+      "input": 8730,
+      "output": 113,
+      "estimatedUsd": 0.01859,
+      "searches": 0
+    }
+  ],
+  "note": "Token estimates exclude web-search charges, images, tax and provider markups."
+}
