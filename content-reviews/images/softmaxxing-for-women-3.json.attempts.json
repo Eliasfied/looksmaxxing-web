@@ -1,0 +1,14 @@
+{
+  "key": "{\"brief\":{\"prompt\":\"Overhead flat lay on a light wooden surface showing a simple routine: one plain unlabeled sunscreen tube, a plain unlabeled moisturiser jar, a wide-tooth comb and a neatly folded olive-green knit sweater. Soft morning light, minimal and uncluttered composition, no text, logos or writing on any object.\",\"alt\":\"Minimal flat lay of a simple skincare and grooming routine with a folded sweater\",\"purpose\":\"Illustrates the simple, consistent routine of skin basics and well-chosen clothing recommended in the four-week plan.\",\"article\":\"softmaxxing-for-women\",\"position\":3},\"model\":\"openai/gpt-image-2.5/flare/text-to-image\"}",
+  "attempts": [
+    {
+      "status": "passed",
+      "prompt": "Overhead flat lay on a light wooden surface showing a simple routine: one plain unlabeled sunscreen tube, a plain unlabeled moisturiser jar, a wide-tooth comb and a neatly folded olive-green knit sweater. Soft morning light, minimal and uncluttered composition, no text, logos or writing on any object.",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "Overhead flat lay on a light wooden surface with a plain white tube, a white cream jar, a wooden wide-tooth comb and a neatly folded olive-green knit sweater, with a trailing green plant leaf and soft sunlight shadows in the corner"
+      }
+    }
+  ]
+}

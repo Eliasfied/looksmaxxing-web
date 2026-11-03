@@ -1,0 +1,14 @@
+{
+  "key": "{\"brief\":{\"prompt\":\"A woman in her late twenties standing by a large sunlit window in a softly furnished apartment, wearing a well-tailored cream blazer over a simple top, with a fresh shoulder-length layered haircut and natural brows. Calm, confident expression, warm natural daylight, editorial lifestyle photography, no text anywhere in the frame.\",\"alt\":\"Woman by a window with a polished, natural look illustrating softmaxxing for women\",\"purpose\":\"Hero image showing the everyday, non-surgical grooming and styling that softmaxxing refers to.\",\"article\":\"softmaxxing-for-women\",\"position\":1},\"model\":\"openai/gpt-image-2.5/flare/text-to-image\"}",
+  "attempts": [
+    {
+      "status": "passed",
+      "prompt": "A woman in her late twenties standing by a large sunlit window in a softly furnished apartment, wearing a well-tailored cream blazer over a simple top, with a fresh shoulder-length layered haircut and natural brows. Calm, confident expression, warm natural daylight, editorial lifestyle photography, no text anywhere in the frame.",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "Woman with shoulder-length layered brown hair and gold hoop earrings stands smiling softly by a sunlit window in a bright apartment, wearing a cream blazer over a white top with matching cream trousers, hands in pockets, with a sofa, plants and city view behind her."
+      }
+    }
+  ]
+}

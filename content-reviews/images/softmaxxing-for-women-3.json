@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "fingerprint": "5fa9a4d048815386645f023a3561be548706f38d71c0cc601fa11e8e869c2330",
+  "brief": {
+    "prompt": "Overhead flat lay on a light wooden surface showing a simple routine: one plain unlabeled sunscreen tube, a plain unlabeled moisturiser jar, a wide-tooth comb and a neatly folded olive-green knit sweater. Soft morning light, minimal and uncluttered composition, no text, logos or writing on any object.",
+    "alt": "Minimal flat lay of a simple skincare and grooming routine with a folded sweater",
+    "purpose": "Illustrates the simple, consistent routine of skin basics and well-chosen clothing recommended in the four-week plan.",
+    "article": "softmaxxing-for-women",
+    "position": 3
+  },
+  "sha256": "e627f7488ae0caef54d5e0d9a157ad4a0b54ac248e70c2ec3642e20654ae1f1f",
+  "reviewedAt": "2026-11-03T20:46:47.273Z",
+  "review": {
+    "pass": true,
+    "issues": [],
+    "alt": "Overhead flat lay on a light wooden surface with a plain white tube, a white cream jar, a wooden wide-tooth comb and a neatly folded olive-green knit sweater, with a trailing green plant leaf and soft sunlight shadows in the corner"
+  }
+}

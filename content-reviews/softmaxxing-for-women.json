@@ -1,0 +1,154 @@
+{
+  "slug": "softmaxxing-for-women",
+  "reviewedAt": "2026-11-03T20:46:47.274Z",
+  "draft": false,
+  "review": {
+    "pass": true,
+    "issues": []
+  },
+  "textRepair": {
+    "status": "passed",
+    "issues": [
+      "Where to be skeptical / sources: the CASTAC anthropology blog essay is attributed with specific claims (Reddit threads, forum logs, TikTok gurus with borrowed clinical confidence), but no CASTAC source appears in the supplied evidence or sources list. This is an unsupported source attribution.",
+      "Where to be skeptical / sources: the Dazed claims (vindictapoc subreddit with about 34,000 members; women's looksmaxxing means traditional femininity and looking thin) are not in the supplied Dazed evidence. The Guardian interview with a young man is also attributed with no Guardian source supplied."
+    ],
+    "review": {
+      "pass": true,
+      "issues": []
+    }
+  },
+  "sources": [
+    {
+      "title": "LOOKSMAXXING Slang Meaning",
+      "url": "https://www.merriam-webster.com/slang/looksmaxxing"
+    },
+    {
+      "title": "‘Looksmaxxing’ is the disturbing TikTok trend turning young men into incels",
+      "url": "https://theconversation.com/looksmaxxing-is-the-disturbing-tiktok-trend-turning-young-men-into-incels-221724"
+    },
+    {
+      "title": "Want to Look Good? Check the Rulebook: Unraveling the Beautystandards of Looksmaxxing Communities",
+      "url": "https://www.diggitmagazine.com/want-look-good-check-rulebook-unraveling-beautystandards-looksmaxxing-communities"
+    },
+    {
+      "title": "The year of maxxing: Has our obsession with self-optimisation hit its peak?",
+      "url": "https://www.dazeddigital.com/beauty/article/65341/1/the-year-of-maxxing-how-self-optimisation-obsession-came-to-a-peak-in-2024"
+    },
+    {
+      "title": "Why are women now talking like looksmaxxers?",
+      "url": "https://www.dazeddigital.com/beauty/article/70651/1/women-adopt-language-looksmaxxing-clavicular-beauty"
+    },
+    {
+      "title": "Chilling truth behind 'looksmaxxing' TikTok trend Gen Z are obsessed with",
+      "url": "https://www.tyla.com/life/tiktok-gen-z-looksmaxxing-trend-dangerous-052543-20240924"
+    },
+    {
+      "title": "From bone smashing to chin extensions: how ‘looksmaxxing’ is reshaping young men’s faces",
+      "url": "https://www.pressreader.com/usa/the-guardian-usa/20240216/282071986821288"
+    },
+    {
+      "title": "Softmaxxing Skepticism: How Looksmaxxing Culture Recruits the Mainstream",
+      "url": "https://blog.castac.org/2026/10/softmaxxing-skepticism-how-looksmaxxing-culture-recruits-the-mainstream/"
+    }
+  ],
+  "imageModel": "openai/gpt-image-2.5/flare/text-to-image",
+  "imageReviews": [
+    {
+      "image": "/blog/softmaxxing-for-women/1.webp",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "Woman with shoulder-length layered brown hair and gold hoop earrings stands smiling softly by a sunlit window in a bright apartment, wearing a cream blazer over a white top with matching cream trousers, hands in pockets, with a sofa, plants and city view behind her."
+      }
+    },
+    {
+      "image": "/blog/softmaxxing-for-women/2.webp",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "Woman with long dark wavy layered hair and curtain bangs, shown in three-quarter side view seated in a white chair in a bright, blurred salon"
+      }
+    },
+    {
+      "image": "/blog/softmaxxing-for-women/3.webp",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "Overhead flat lay on a light wooden surface with a plain white tube, a white cream jar, a wooden wide-tooth comb and a neatly folded olive-green knit sweater, with a trailing green plant leaf and soft sunlight shadows in the corner"
+      }
+    }
+  ],
+  "imageFailures": [],
+  "imageSettings": {
+    "width": 1024,
+    "height": 1024,
+    "quality": "low"
+  },
+  "usage": [
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "research",
+      "input": 29525,
+      "output": 3270,
+      "estimatedUsd": 0.09175,
+      "searches": 3
+    },
+    {
+      "model": "claude-opus-5-5",
+      "stage": "article",
+      "input": 32474,
+      "output": 7618,
+      "estimatedUsd": 0.282256,
+      "searches": 0
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "text-review",
+      "input": 7944,
+      "output": 222,
+      "estimatedUsd": 0.018108,
+      "searches": 0
+    },
+    {
+      "model": "claude-opus-5-5",
+      "stage": "article-repair",
+      "input": 8413,
+      "output": 6838,
+      "estimatedUsd": 0.170412,
+      "searches": 0
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "text-review",
+      "input": 8863,
+      "output": 16,
+      "estimatedUsd": 0.017886,
+      "searches": 0
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "image-review",
+      "input": 1728,
+      "output": 112,
+      "estimatedUsd": 0.004576,
+      "searches": 0
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "image-review",
+      "input": 1714,
+      "output": 71,
+      "estimatedUsd": 0.004138,
+      "searches": 0
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "image-review",
+      "input": 1738,
+      "output": 107,
+      "estimatedUsd": 0.004546,
+      "searches": 0
+    }
+  ],
+  "note": "Token estimates exclude web-search charges, images, tax and provider markups."
+}

@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "fingerprint": "51f0e4e13bc31537a1a262483bfc8688cd409f30d84f8bf91259094d7bac801c",
+  "brief": {
+    "prompt": "Three-quarter side view of a woman with long dark wavy hair cut in long layers, with curtain bangs framing her cheekbones, seated in a bright salon chair with a blurred salon background. Soft studio lighting focuses on how the face-framing layers fall around her face, with no text or labels in the image.",
+    "alt": "Woman with curtain bangs and long face-framing layers in a salon",
+    "purpose": "Demonstrates hair framing, the first and most changeable softmaxxing lever discussed in the hair section.",
+    "article": "softmaxxing-for-women",
+    "position": 2
+  },
+  "sha256": "857e5a12606f8ae9b5a42f3577e4a7e59191edf61689bb8bdb0e166a83431f52",
+  "reviewedAt": "2026-11-03T20:46:34.103Z",
+  "review": {
+    "pass": true,
+    "issues": [],
+    "alt": "Woman with long dark wavy layered hair and curtain bangs, shown in three-quarter side view seated in a white chair in a bright, blurred salon"
+  }
+}
