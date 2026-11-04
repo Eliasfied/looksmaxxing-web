@@ -1,0 +1,116 @@
+{
+  "slug": "glow-up-at-30",
+  "reviewedAt": "2026-11-04T21:02:40.533Z",
+  "draft": false,
+  "review": {
+    "pass": true,
+    "issues": []
+  },
+  "textRepair": null,
+  "sources": [
+    {
+      "title": "Skin care tips dermatologists use",
+      "url": "https://www.aad.org/public/everyday-care/skin-care-basics/care/skin-care-tips-dermatologists-use"
+    },
+    {
+      "title": "Muscle tissue changes with aging - PMC - NIH",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2804956/"
+    },
+    {
+      "title": "Act your age when it comes to skin care",
+      "url": "https://www.aad.org/news/age-and-skin-care"
+    },
+    {
+      "title": "Frontiers",
+      "url": "https://www.frontiersin.org/journals/public-health/articles/10.3389/fpubh.2025.1735899/full"
+    },
+    {
+      "title": "GLOW-UP Slang Meaning",
+      "url": "https://www.merriam-webster.com/slang/glow-up"
+    }
+  ],
+  "imageModel": "openai/gpt-image-2.5/flare/text-to-image",
+  "imageReviews": [
+    {
+      "image": "/blog/glow-up-at-30/1.webp",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "Man in his early thirties with styled dark hair and light stubble, wearing a light blue button-up shirt with rolled sleeves and navy trousers, standing with hands in pockets beside a sunny apartment window, with a tidy, softly lit living room behind him."
+      }
+    },
+    {
+      "image": "/blog/glow-up-at-30/2.webp",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "Three plain, unlabeled white skincare containers — a pump-bottle cleanser, a frosted moisturizer jar and a sunscreen tube — on a light stone shelf beside a folded white towel and a small green plant in soft daylight."
+      }
+    },
+    {
+      "image": "/blog/glow-up-at-30/3.webp",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "Woman in a blue athletic top and navy leggings performs a kettlebell goblet squat on a gray mat in a bright living room, shown in side view holding the kettlebell at her chest with an upright torso."
+      }
+    }
+  ],
+  "imageFailures": [],
+  "imageSettings": {
+    "width": 1024,
+    "height": 1024,
+    "quality": "low"
+  },
+  "usage": [
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "research",
+      "input": 30151,
+      "output": 3295,
+      "estimatedUsd": 0.093252,
+      "searches": 3
+    },
+    {
+      "model": "claude-opus-5-5",
+      "stage": "article",
+      "input": 32608,
+      "output": 8570,
+      "estimatedUsd": 0.301832,
+      "searches": 0
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "text-review",
+      "input": 8006,
+      "output": 16,
+      "estimatedUsd": 0.016172,
+      "searches": 0
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "image-review",
+      "input": 1717,
+      "output": 106,
+      "estimatedUsd": 0.004494,
+      "searches": 0
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "image-review",
+      "input": 1727,
+      "output": 100,
+      "estimatedUsd": 0.004454,
+      "searches": 0
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "image-review",
+      "input": 1709,
+      "output": 88,
+      "estimatedUsd": 0.004298,
+      "searches": 0
+    }
+  ],
+  "note": "Token estimates exclude web-search charges, images, tax and provider markups."
+}

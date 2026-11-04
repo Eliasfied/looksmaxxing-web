@@ -10,7 +10,7 @@ heroImage: /blog/trimax-surgery-explained/1.webp
 heroImageAlt: Side-profile skull illustration highlighting the upper jaw, lower jaw, and chin involved in trimax surgery
 tags: [trimax, jaw surgery, orthognathic surgery, genioplasty, looksmaxxing]
 readingTime: 10
-related: [height-and-frame-guide, mens-skincare-routine, beard-growth-guide]
+related: [height-and-frame-guide, beard-growth-guide, bimax-before-after]
 faq:
   - q: Is trimax surgery worth it for aesthetics alone?
     a: We don't think so. Trimax makes three separate bone cuts, two of them near nerves that supply feeling to the lower lip and chin, and some of its risks are permanent. It was developed for functional problems such as a severe bite problem or sleep apnea. If your jaw works fine, start with non-surgical changes.

@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "fingerprint": "9284015bed5e0c798ee7e87e4ca8748bba9414555e1903f899d2774227d1d3ae",
+  "brief": {
+    "prompt": "A person in their early thirties stands beside a bright, sunlit apartment window, wearing a crisp, well-fitted button-up shirt, with neatly styled hair and a calm, confident expression. The background is a softly blurred, tidy living room with warm natural morning light.",
+    "alt": "Person in their early thirties in a well-fitted shirt by a sunny window, illustrating a glow up at 30",
+    "purpose": "Sets the article's framing that a glow up at 30 comes from maintenance and presentation, not dramatic transformation.",
+    "article": "glow-up-at-30",
+    "position": 1
+  },
+  "sha256": "8a7d78bddfa8298c426e8109e05db3cdccda02a92ffbe7e03accd219957cc4b6",
+  "reviewedAt": "2026-11-04T21:02:10.591Z",
+  "review": {
+    "pass": true,
+    "issues": [],
+    "alt": "Man in his early thirties with styled dark hair and light stubble, wearing a light blue button-up shirt with rolled sleeves and navy trousers, standing with hands in pockets beside a sunny apartment window, with a tidy, softly lit living room behind him."
+  }
+}

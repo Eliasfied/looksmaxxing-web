@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "fingerprint": "095a2a5bf7edb14ea5198a0d0240633db3e6f3cef600bd3cae350270b617a63e",
+  "brief": {
+    "prompt": "A clean, minimal bathroom shelf in soft daylight holds just three plain, unlabeled skincare containers: a pump-bottle cleanser, a small moisturizer jar and a sunscreen tube. A folded white towel and a small green plant sit beside them on a light stone surface.",
+    "alt": "Minimal skincare shelf with cleanser, moisturizer and sunscreen for a simple routine in your 30s",
+    "purpose": "Shows the simple three-step skin routine of cleanser, moisturizer and daily sunscreen described in the skin section.",
+    "article": "glow-up-at-30",
+    "position": 2
+  },
+  "sha256": "0689e6291c6229055f660f59cf87bf2c6b43aacb88efb5ec7b1c0ff8bc3c1305",
+  "reviewedAt": "2026-11-04T21:02:23.486Z",
+  "review": {
+    "pass": true,
+    "issues": [],
+    "alt": "Three plain, unlabeled white skincare containers — a pump-bottle cleanser, a frosted moisturizer jar and a sunscreen tube — on a light stone shelf beside a folded white towel and a small green plant in soft daylight."
+  }
+}

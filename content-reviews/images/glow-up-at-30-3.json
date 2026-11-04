@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "fingerprint": "c5308cd039aa1bcb3d7c1228b44bbe40e6f863143e0954ddd79aff9ecdc5601a",
+  "brief": {
+    "prompt": "A woman in her early thirties wearing athletic leggings and a fitted top performs a goblet squat holding a single kettlebell at her chest in a bright, uncluttered home living room. She is shown in full-body side view with an upright torso and good form, with a yoga mat on a wooden floor.",
+    "alt": "Woman doing a kettlebell goblet squat at home as part of strength training in her 30s",
+    "purpose": "Demonstrates a basic compound strength movement recommended as a starting point in the strength training section.",
+    "article": "glow-up-at-30",
+    "position": 3
+  },
+  "sha256": "883bd9c624bda1dc3798d694ab9fc55104dfffeb3fca7e55bc43b2ea8978fe2e",
+  "reviewedAt": "2026-11-04T21:02:40.531Z",
+  "review": {
+    "pass": true,
+    "issues": [],
+    "alt": "Woman in a blue athletic top and navy leggings performs a kettlebell goblet squat on a gray mat in a bright living room, shown in side view holding the kettlebell at her chest with an upright torso."
+  }
+}
