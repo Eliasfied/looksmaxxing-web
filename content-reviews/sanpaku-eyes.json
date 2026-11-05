@@ -1,0 +1,87 @@
+{
+  "slug": "sanpaku-eyes",
+  "reviewedAt": "2026-11-05T21:18:19.009Z",
+  "draft": false,
+  "review": {
+    "pass": true,
+    "issues": []
+  },
+  "textRepair": null,
+  "sources": [
+    {
+      "title": "What Are Sanpaku Eyes?",
+      "url": "https://www.allaboutvision.com/eye-care/cosmetic/sanpaku-eyes/"
+    },
+    {
+      "title": "Can This Superstition Determine Your Fate? Probably Not! - Kotaku",
+      "url": "https://kotaku.com/can-this-superstition-determine-your-fate-probably-not-5935597"
+    },
+    {
+      "title": "What Are Sanpaku Eyes? Meaning, Types & Causes",
+      "url": "https://www.lens.com/eyestyle/tips-advice/what-are-sanpaku-eyes/"
+    },
+    {
+      "title": "Sanpaku Eyes: The Japanese Superstition Explained - Grunge",
+      "url": "https://www.grunge.com/1226405/sanpaku-eyes-the-japanese-superstition-explained/"
+    },
+    {
+      "title": "George Ohsawa",
+      "url": "https://en.wikipedia.org/wiki/George_Ohsawa"
+    },
+    {
+      "title": "Sanpaku Eyes: The \"Three-White\" Look, Explained",
+      "url": "https://www.visioncenter.org/blog/sanpaku-eyes/"
+    },
+    {
+      "title": "Sanpaku",
+      "url": "https://en.wikipedia.org/wiki/Sanpaku"
+    },
+    {
+      "title": "Sanpaku Eyes",
+      "url": "https://knowyourmeme.com/memes/sanpaku-eyes"
+    },
+    {
+      "title": "Scleral Show: Causes, Treatment & AI Eye Lift Simulator (2026 Guide)",
+      "url": "https://www.perfectcorp.com/business/blog/general/scleral-show-ultimate-guide-2026"
+    },
+    {
+      "title": "Thyroid-Associated Orbitopathy: Overview, Etiology, Pathophysiology",
+      "url": "https://emedicine.medscape.com/article/1218444-overview"
+    }
+  ],
+  "imageModel": "openai/gpt-image-2.5/flare/text-to-image",
+  "imageReviews": [],
+  "imageFailures": [],
+  "imageSettings": {
+    "width": 1024,
+    "height": 1024,
+    "quality": "low"
+  },
+  "usage": [
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "research",
+      "input": 30888,
+      "output": 3524,
+      "estimatedUsd": 0.097016,
+      "searches": 3
+    },
+    {
+      "model": "claude-opus-5-5",
+      "stage": "article",
+      "input": 33163,
+      "output": 4776,
+      "estimatedUsd": 0.228172,
+      "searches": 0
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "text-review",
+      "input": 6043,
+      "output": 16,
+      "estimatedUsd": 0.012246,
+      "searches": 0
+    }
+  ],
+  "note": "Token estimates exclude web-search charges, images, tax and provider markups."
+}
