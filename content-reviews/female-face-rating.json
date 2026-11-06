@@ -1,0 +1,116 @@
+{
+  "slug": "female-face-rating",
+  "reviewedAt": "2026-11-06T20:42:22.326Z",
+  "draft": false,
+  "review": {
+    "pass": true,
+    "issues": []
+  },
+  "textRepair": null,
+  "sources": [
+    {
+      "title": "The psychometrics of rating facial attractiveness using different response scales - Robin S.S. Kramer, Kay L. Ritchie, Tessa R. Flack, Michael O. Mireku, Alex L. Jones, 2024",
+      "url": "https://journals.sagepub.com/doi/10.1177/03010066241256221"
+    },
+    {
+      "title": "Inter-rater agreement in trait judgements from faces",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6097668/"
+    },
+    {
+      "title": "The golden ratio—dispelling the myth",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10792139/"
+    },
+    {
+      "title": "Facial Attractiveness Ratings from Video-Clips and Static Images Tell the Same Story",
+      "url": "https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0026653"
+    },
+    {
+      "title": "Cultural and Gender Influences on Facial Attractiveness: A Comparative Study of Japanese and American Raters Using Geometric Morphometrics - PMC",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12856234/"
+    }
+  ],
+  "imageModel": "openai/gpt-image-2.5/flare/text-to-image",
+  "imageReviews": [
+    {
+      "image": "/blog/female-face-rating/1.webp",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "Young woman with shoulder-length wavy brown hair, wearing a cream knit sweater and jeans, sits on a sofa by a large sunlit window holding a black smartphone at arm's length and looking at it with a calm, slight smile, in a softly blurred warm living room."
+      }
+    },
+    {
+      "image": "/blog/female-face-rating/2.webp",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "Woman with long curly black hair seen from behind her shoulder, looking at her calm reflection in a bathroom mirror lit by soft, even daylight, with a plant, framed art and a soap dispenser nearby."
+      }
+    },
+    {
+      "image": "/blog/female-face-rating/3.webp",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "Smiling woman with long straight auburn hair and soft curtain bangs framing her face, seated in a salon chair wearing a black cape, with a warm wooden salon interior softly blurred behind her."
+      }
+    }
+  ],
+  "imageFailures": [],
+  "imageSettings": {
+    "width": 1024,
+    "height": 1024,
+    "quality": "low"
+  },
+  "usage": [
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "research",
+      "input": 31110,
+      "output": 3572,
+      "estimatedUsd": 0.09794,
+      "searches": 3
+    },
+    {
+      "model": "claude-opus-5-5",
+      "stage": "article",
+      "input": 34304,
+      "output": 8564,
+      "estimatedUsd": 0.308496,
+      "searches": 0
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "text-review",
+      "input": 7715,
+      "output": 16,
+      "estimatedUsd": 0.01559,
+      "searches": 0
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "image-review",
+      "input": 1701,
+      "output": 111,
+      "estimatedUsd": 0.004512,
+      "searches": 0
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "image-review",
+      "input": 1725,
+      "output": 91,
+      "estimatedUsd": 0.00436,
+      "searches": 0
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "image-review",
+      "input": 1698,
+      "output": 86,
+      "estimatedUsd": 0.004256,
+      "searches": 0
+    }
+  ],
+  "note": "Token estimates exclude web-search charges, images, tax and provider markups."
+}

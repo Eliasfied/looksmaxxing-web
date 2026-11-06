@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "fingerprint": "6a91b4604499afb9ca8da9d9cc1ea1082179ca1ab5632dfc7e264540cd1d35b5",
+  "brief": {
+    "prompt": "A woman with long straight auburn hair and soft curtain bangs sits in a salon chair, seen from the front at eye level. Her hair falls naturally around her cheekbones, and the softly blurred salon background has warm wooden tones.",
+    "alt": "Woman with curtain bangs framing her face in a salon chair, an example of styling choices beyond a face score",
+    "purpose": "Shows a concrete styling choice, hair framing, as the practical alternative to chasing a face rating number.",
+    "article": "female-face-rating",
+    "position": 3
+  },
+  "sha256": "8841925ec8e7d9973d94b5ae8777ceaed028cc3ce1d179e3d7ff9e41cb644a2b",
+  "reviewedAt": "2026-11-06T20:42:22.325Z",
+  "review": {
+    "pass": true,
+    "issues": [],
+    "alt": "Smiling woman with long straight auburn hair and soft curtain bangs framing her face, seated in a salon chair wearing a black cape, with a warm wooden salon interior softly blurred behind her."
+  }
+}

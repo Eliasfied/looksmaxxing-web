@@ -1,0 +1,14 @@
+{
+  "key": "{\"brief\":{\"prompt\":\"A young woman with shoulder-length wavy brown hair sits by a large window in soft daylight, holding a phone at arm's length and looking calmly at its screen. The background is a softly blurred, warm-toned living room, and the composition is simple and uncluttered so it reads clearly as a thumbnail.\",\"alt\":\"Woman checking a selfie in window light while thinking about a female face rating\",\"purpose\":\"Sets up the article's subject: a woman about to have her face rated from a single selfie.\",\"article\":\"female-face-rating\",\"position\":1},\"model\":\"openai/gpt-image-2.5/flare/text-to-image\"}",
+  "attempts": [
+    {
+      "status": "passed",
+      "prompt": "A young woman with shoulder-length wavy brown hair sits by a large window in soft daylight, holding a phone at arm's length and looking calmly at its screen. The background is a softly blurred, warm-toned living room, and the composition is simple and uncluttered so it reads clearly as a thumbnail.",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "Young woman with shoulder-length wavy brown hair, wearing a cream knit sweater and jeans, sits on a sofa by a large sunlit window holding a black smartphone at arm's length and looking at it with a calm, slight smile, in a softly blurred warm living room."
+      }
+    }
+  ]
+}

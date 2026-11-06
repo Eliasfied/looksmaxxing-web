@@ -9,7 +9,7 @@ heroImage: /blog/what-is-looksmaxxing/1.webp
 heroImageAlt: Three-angle looksmaxxing facial analysis diagram showing key features
 tags: [looksmaxxing, looksmax, appearance, self-improvement, grooming]
 readingTime: 8
-related: [how-to-ascend-looksmaxxing, softmaxxing-vs-hardmaxxing-explained, best-haircut-for-heart-face-men]
+related: [looksmaxxing-for-women, how-to-ascend-looksmaxxing, softmaxxing-vs-hardmaxxing-explained]
 faq:
   - q: What does looksmax mean?
     a: Looksmax is shorthand for looksmaxxing, the practice of systematically improving your physical appearance through evidence-informed techniques. These range from grooming and skincare to body composition changes and, at the more advanced end, medical procedures.

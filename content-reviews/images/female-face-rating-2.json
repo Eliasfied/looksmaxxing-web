@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "fingerprint": "2b2147601ac56e41b26aa0731aeb50877455b6474d53d420ebe7d186fcb2c25f",
+  "brief": {
+    "prompt": "A woman with curly black hair stands facing a softly lit bathroom mirror, with diffused daylight falling evenly on her face from the front and no harsh overhead shadows. She has a relaxed, neutral expression, and the scene is shown from slightly behind her shoulder so her reflection is the focus.",
+    "alt": "Woman in even, soft front lighting at a mirror, showing a consistent setup for face photos",
+    "purpose": "Illustrates how lighting and photo conditions affect how a face reads, supporting the advice to standardize photos before comparing ratings.",
+    "article": "female-face-rating",
+    "position": 2
+  },
+  "sha256": "dd940b9a07b42f9efed069602d019e2f277d56b0e4948f062398683c571fef20",
+  "reviewedAt": "2026-11-06T20:42:05.909Z",
+  "review": {
+    "pass": true,
+    "issues": [],
+    "alt": "Woman with long curly black hair seen from behind her shoulder, looking at her calm reflection in a bathroom mirror lit by soft, even daylight, with a plant, framed art and a soap dispenser nearby."
+  }
+}
