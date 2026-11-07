@@ -1,0 +1,129 @@
+{
+  "slug": "how-to-lose-face-fat",
+  "reviewedAt": "2026-11-07T19:16:30.828Z",
+  "draft": false,
+  "review": {
+    "pass": true,
+    "issues": []
+  },
+  "textRepair": null,
+  "sources": [
+    {
+      "title": "Spot reduction: why targeting weight loss to a specific area is a myth - The University of Sydney",
+      "url": "https://www.sydney.edu.au/news-opinion/news/2023/11/07/spot-reduction--why-targeting-weight-loss-to-a-specific-area-is-.html"
+    },
+    {
+      "title": "RESEARCH ARTICLE BMI and WHR Are Reflected in Female Facial",
+      "url": "https://journals.plos.org/plosone/article/file?type=printable&id=10.1371/journal.pone.0169336"
+    },
+    {
+      "title": "Facial exercises help middle-aged women appear more youthful",
+      "url": "https://www.sciencedaily.com/releases/2018/01/180103160142.htm"
+    },
+    {
+      "title": "Targeted Fat Loss: Myth or Reality?",
+      "url": "https://www.yalescientific.org/2011/04/targeted-fat-loss-myth-or-reality/"
+    },
+    {
+      "title": "Study pinpoints weight loss needed to look more attractive",
+      "url": "https://www.today.com/health/study-shows-how-much-weight-you-need-lose-look-more-t60261"
+    }
+  ],
+  "imageModel": "openai/gpt-image-2.5/flare/text-to-image",
+  "imageReviews": [
+    {
+      "image": "/blog/how-to-lose-face-fat/1.webp",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "Young man in a grey hoodie walking briskly along a tree-lined park path at sunrise, shown from the chest up in three-quarter view with a calm, focused expression, with warm low sun and a lake softly blurred in the background."
+      }
+    },
+    {
+      "image": "/blog/how-to-lose-face-fat/2.webp",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "Grilled seasoned chicken breast, roasted broccoli, carrots, zucchini and peppers, and a modest portion of rice with herbs on a plain white plate on a wooden table, beside a glass of water in natural window light."
+      }
+    }
+  ],
+  "imageFailures": [
+    {
+      "image": 3,
+      "error": "Image 3 failed validation: Image failed editorial review: [\"Subject is looking directly at the camera, not slightly off camera as the brief specifies\",\"Not seated by a bright window; the setting is a plain wall with a plant, dresser and mirror, and no window is visible\",\"Framing is wider than shoulders-up, showing the torso and upper chest instead\",\"Layers are long and extend well past the chest rather than falling just below the cheekbones; the face-framing effect is minimal, so the image weakly illustrates how layers lengthen a round face\",\"Subject's face does not read as round, so the 'lengthens the look of a round face' purpose is not demonstrated\"]"
+    }
+  ],
+  "imageSettings": {
+    "width": 1024,
+    "height": 1024,
+    "quality": "low"
+  },
+  "usage": [
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "research",
+      "input": 30421,
+      "output": 3556,
+      "estimatedUsd": 0.096402,
+      "searches": 3
+    },
+    {
+      "model": "claude-opus-5-5",
+      "stage": "article",
+      "input": 33149,
+      "output": 9007,
+      "estimatedUsd": 0.312736,
+      "searches": 0
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "text-review",
+      "input": 7432,
+      "output": 16,
+      "estimatedUsd": 0.015024,
+      "searches": 0
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "image-review",
+      "input": 1721,
+      "output": 95,
+      "estimatedUsd": 0.004392,
+      "searches": 0
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "image-review",
+      "input": 1717,
+      "output": 96,
+      "estimatedUsd": 0.004394,
+      "searches": 0
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "image-review",
+      "input": 1698,
+      "output": 292,
+      "estimatedUsd": 0.006316,
+      "searches": 0
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "image-review",
+      "input": 1698,
+      "output": 243,
+      "estimatedUsd": 0.005826,
+      "searches": 0
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "image-review",
+      "input": 1698,
+      "output": 269,
+      "estimatedUsd": 0.006086,
+      "searches": 0
+    }
+  ],
+  "note": "Token estimates exclude web-search charges, images, tax and provider markups."
+}

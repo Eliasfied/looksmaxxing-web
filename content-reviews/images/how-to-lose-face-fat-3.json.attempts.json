@@ -1,0 +1,36 @@
+{
+  "key": "{\"brief\":{\"prompt\":\"A woman with long dark hair cut in soft face-framing layers that fall just below the cheekbones, seated by a bright window and looking slightly off camera. Shot from the shoulders up in natural daylight, with a calm, neutral background.\",\"alt\":\"Woman with face-framing layered haircut that lengthens the look of a round face\",\"purpose\":\"Shows one concrete styling example from the section on making your face look leaner, where face-framing layers lengthen the facial outline.\",\"article\":\"how-to-lose-face-fat\",\"position\":3},\"model\":\"openai/gpt-image-2.5/flare/text-to-image\"}",
+  "attempts": [
+    {
+      "status": "rejected",
+      "prompt": "A woman with long dark hair cut in soft face-framing layers that fall just below the cheekbones, seated by a bright window and looking slightly off camera. Shot from the shoulders up in natural daylight, with a calm, neutral background.",
+      "issues": [
+        "Brief specifies face-framing layers falling just below the cheekbones, but the visible layers are long and fall well past the chin to the chest/shoulders, so the specific styling example is not accurately depicted.",
+        "The face-framing layers are not clearly distinct or pronounced, so the image does not effectively illustrate how layers lengthen the facial outline.",
+        "The model's face does not clearly read as round, so the 'lengthens the look of a round face' claim in the original alt text is not supported by the image.",
+        "Framing extends below the shoulders to include the sweater and arms rather than a tight shoulders-up shot (minor)."
+      ]
+    },
+    {
+      "status": "rejected",
+      "prompt": "A woman with long dark hair cut in soft face-framing layers that fall just below the cheekbones, seated by a bright window and looking slightly off camera. Shot from the shoulders up in natural daylight, with a calm, neutral background.\nEDITORIAL CORRECTION: Regenerate a simpler, accurate illustration of the same purpose. Fix these defects from the rejected image: [\"Brief specifies face-framing layers falling just below the cheekbones, but the visible layers are long and fall well past the chin to the chest/shoulders, so the specific styling example is not accurately depicted.\",\"The face-framing layers are not clearly distinct or pronounced, so the image does not effectively illustrate how layers lengthen the facial outline.\",\"The model's face does not clearly read as round, so the 'lengthens the look of a round face' claim in the original alt text is not supported by the image.\",\"Framing extends below the shoulders to include the sweater and arms rather than a tight shoulders-up shot (minor).\"]. Avoid text, labels and complex comparative diagrams if they caused the defect.",
+      "issues": [
+        "Brief specifies layers that fall just below the cheekbones, but the visible layers extend well past the chin to chest length, so the face-framing cut does not match the described styling.",
+        "Does not clearly illustrate the stated purpose: the layers are long and fairly voluminous rather than demonstrating a distinct face-framing cut that visibly lengthens the facial outline of a round face.",
+        "Subject's face does not read as a clearly round face, so the 'lengthens the look of a round face' claim in the intended alt text is not demonstrated or supported by the image."
+      ]
+    },
+    {
+      "status": "rejected",
+      "prompt": "A single clear, natural editorial photograph for this article point: Shows one concrete styling example from the section on making your face look leaner, where face-framing layers lengthen the facial outline.. One subject, one scene, realistic lighting and accurate anatomy. No text, letters, numbers or labels anywhere. No diagram, no panels, no side-by-side comparison.",
+      "reduced": true,
+      "issues": [
+        "Subject is looking directly at the camera, not slightly off camera as the brief specifies",
+        "Not seated by a bright window; the setting is a plain wall with a plant, dresser and mirror, and no window is visible",
+        "Framing is wider than shoulders-up, showing the torso and upper chest instead",
+        "Layers are long and extend well past the chest rather than falling just below the cheekbones; the face-framing effect is minimal, so the image weakly illustrates how layers lengthen a round face",
+        "Subject's face does not read as round, so the 'lengthens the look of a round face' purpose is not demonstrated"
+      ]
+    }
+  ]
+}

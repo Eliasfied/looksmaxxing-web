@@ -1,0 +1,14 @@
+{
+  "key": "{\"brief\":{\"prompt\":\"A young adult in a grey hoodie walking briskly along a tree-lined park path at sunrise, shown from the chest up in three-quarter view with a relaxed, focused expression. Warm low sunlight and a softly blurred background keep the single figure clear and readable at thumbnail size.\",\"alt\":\"Person walking outdoors at sunrise as part of a plan for how to lose face fat through overall fat loss\",\"purpose\":\"Introduces the article's core message that face fat changes through overall activity and body fat loss, not targeted tricks.\",\"article\":\"how-to-lose-face-fat\",\"position\":1},\"model\":\"openai/gpt-image-2.5/flare/text-to-image\"}",
+  "attempts": [
+    {
+      "status": "passed",
+      "prompt": "A young adult in a grey hoodie walking briskly along a tree-lined park path at sunrise, shown from the chest up in three-quarter view with a relaxed, focused expression. Warm low sunlight and a softly blurred background keep the single figure clear and readable at thumbnail size.",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "Young man in a grey hoodie walking briskly along a tree-lined park path at sunrise, shown from the chest up in three-quarter view with a calm, focused expression, with warm low sun and a lake softly blurred in the background."
+      }
+    }
+  ]
+}

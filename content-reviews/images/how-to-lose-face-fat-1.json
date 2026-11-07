@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "fingerprint": "92de0ae6805ce4a39bc756c99024e3ad2c3e2317aabcd9d6ee9797391bff0576",
+  "brief": {
+    "prompt": "A young adult in a grey hoodie walking briskly along a tree-lined park path at sunrise, shown from the chest up in three-quarter view with a relaxed, focused expression. Warm low sunlight and a softly blurred background keep the single figure clear and readable at thumbnail size.",
+    "alt": "Person walking outdoors at sunrise as part of a plan for how to lose face fat through overall fat loss",
+    "purpose": "Introduces the article's core message that face fat changes through overall activity and body fat loss, not targeted tricks.",
+    "article": "how-to-lose-face-fat",
+    "position": 1
+  },
+  "sha256": "57fce4f172292c75123a7502b93b60ec8ef989c9779461e72fcc5a8823b93998",
+  "reviewedAt": "2026-11-07T19:15:30.803Z",
+  "review": {
+    "pass": true,
+    "issues": [],
+    "alt": "Young man in a grey hoodie walking briskly along a tree-lined park path at sunrise, shown from the chest up in three-quarter view with a calm, focused expression, with warm low sun and a lake softly blurred in the background."
+  }
+}

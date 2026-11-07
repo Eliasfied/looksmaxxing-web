@@ -1,0 +1,14 @@
+{
+  "key": "{\"brief\":{\"prompt\":\"A single home-cooked meal on a wooden kitchen table, with grilled chicken, roasted vegetables and a modest portion of rice on a plain white plate beside a glass of water. Natural window light from the side, photographed from a slight overhead angle with no people in the frame.\",\"alt\":\"Simple balanced meal with protein, vegetables and rice for sustainable fat loss\",\"purpose\":\"Illustrates the step-by-step plan's advice to build repeatable, protein-based meals within a sustainable calorie deficit.\",\"article\":\"how-to-lose-face-fat\",\"position\":2},\"model\":\"openai/gpt-image-2.5/flare/text-to-image\"}",
+  "attempts": [
+    {
+      "status": "passed",
+      "prompt": "A single home-cooked meal on a wooden kitchen table, with grilled chicken, roasted vegetables and a modest portion of rice on a plain white plate beside a glass of water. Natural window light from the side, photographed from a slight overhead angle with no people in the frame.",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "Grilled seasoned chicken breast, roasted broccoli, carrots, zucchini and peppers, and a modest portion of rice with herbs on a plain white plate on a wooden table, beside a glass of water in natural window light."
+      }
+    }
+  ]
+}
