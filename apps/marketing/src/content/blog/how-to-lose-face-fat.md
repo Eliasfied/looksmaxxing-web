@@ -9,7 +9,7 @@ heroImage: "/blog/how-to-lose-face-fat/1.webp"
 heroImageAlt: "Young man in a grey hoodie walking briskly along a tree-lined park path at sunrise, shown from the chest up in three-quarter view with a calm, focused expression, with warm low sun and a lake softly blurred in the background."
 tags: ["face fat", "fat loss", "facial exercises", "looksmaxxing", "grooming"]
 readingTime: 8
-related: [how-to-get-low-set-eyebrows, looksmaxxing-tips-and-checklist, what-is-looksmaxxing]
+related: [clean-shaven-vs-stubble, how-to-get-low-set-eyebrows, looksmaxxing-tips-and-checklist]
 faq:
   - q: "Can you lose fat only from your face?"
     a: "No. Fat loss happens across the whole body, and you can't choose which area loses fat first. Your face gets leaner as your overall body fat goes down."

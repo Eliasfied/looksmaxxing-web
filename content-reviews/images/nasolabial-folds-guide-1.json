@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "fingerprint": "0d2c003caba24d12f6bdbf958361a09f02c9cf407a235b31fb50fe3a48539438",
+  "brief": {
+    "prompt": "A woman in her late thirties laughing naturally in soft daylight from a large window beside her, photographed from the chest up at eye level against a plain warm-toned wall. Her relaxed, genuine smile shows natural smile lines between nose and mouth, rendered realistically with healthy skin texture and no retouched smoothness.",
+    "alt": "Woman laughing in soft window light with natural nasolabial folds visible",
+    "purpose": "Shows that nasolabial folds are a normal, expressive feature of a smiling adult face rather than a defect.",
+    "article": "nasolabial-folds-guide",
+    "position": 1
+  },
+  "sha256": "d210523e8d57ec09d85f59011d44961486a37646e5c8b8f1268bbde5ec34f147",
+  "reviewedAt": "2026-11-08T19:17:31.710Z",
+  "review": {
+    "pass": true,
+    "issues": [],
+    "alt": "Smiling woman with hair loosely pinned up, wearing a cream knit sweater, laughing and looking off to the side in soft window light, with natural smile lines and skin texture visible"
+  }
+}

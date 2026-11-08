@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "fingerprint": "c199ecdf87bd018d23ccffcd8e5bcc738366a145acf7d2c8b3039b785c8992a0",
+  "brief": {
+    "prompt": "A three-quarter view portrait of a man in his thirties with a neatly trimmed short beard, clean cheek line and tidy mustache edge, sitting in a barbershop chair with a dark cape around his shoulders. Warm, even studio-style lighting at eye level, blurred barbershop background.",
+    "alt": "Man with a neatly groomed short beard and clean cheek line in a barbershop",
+    "purpose": "Demonstrates the grooming suggestion of a tidy beard and mustache line that shifts visual focus toward the jaw and away from the midface.",
+    "article": "nasolabial-folds-guide",
+    "position": 3
+  },
+  "sha256": "a718e46109e50886e1a659a391b12a5fd1ab140ab89fb8afa02ad07fd134ac3f",
+  "reviewedAt": "2026-11-08T19:18:04.260Z",
+  "review": {
+    "pass": true,
+    "issues": [],
+    "alt": "Man in his thirties with a short, neatly trimmed beard, tidy mustache and clean cheek line, seen in three-quarter view wearing a black cape in a barbershop chair, with a blurred barbershop background."
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "key": "{\"brief\":{\"prompt\":\"A man in his forties standing outdoors in the shade of a leafy tree on a bright day, wearing a wide-brimmed canvas hat and sunglasses, shown from the waist up with a calm expression. The scene has strong sunlight on the grass behind him while his face stays fully shaded.\",\"alt\":\"Man wearing a wide-brimmed hat in tree shade as daily sun protection\",\"purpose\":\"Illustrates the everyday sun-protection habits (shade, hat) that address one of the main controllable causes of deeper folds.\",\"article\":\"nasolabial-folds-guide\",\"position\":2},\"model\":\"openai/gpt-image-2.5/flare/text-to-image\"}",
+  "attempts": [
+    {
+      "status": "passed",
+      "prompt": "A man in his forties standing outdoors in the shade of a leafy tree on a bright day, wearing a wide-brimmed canvas hat and sunglasses, shown from the waist up with a calm expression. The scene has strong sunlight on the grass behind him while his face stays fully shaded.",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "Middle-aged man with a graying beard wearing a wide-brimmed olive hat and sunglasses, standing in the shade of a leafy tree with a sunlit green field behind him"
+      }
+    }
+  ]
+}

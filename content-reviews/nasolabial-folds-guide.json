@@ -1,0 +1,116 @@
+{
+  "slug": "nasolabial-folds-guide",
+  "reviewedAt": "2026-11-08T19:18:04.262Z",
+  "draft": false,
+  "review": {
+    "pass": true,
+    "issues": []
+  },
+  "textRepair": null,
+  "sources": [
+    {
+      "title": "The nasolabial fold: a photogrammetric analysis - PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/8278486/"
+    },
+    {
+      "title": "Why Do Nasolabial Folds Appear? Exploring the Anatomical Perspectives and the Role of Thread-Based Interventions - PMC",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11011544/"
+    },
+    {
+      "title": "Nasolabial Folds (Smile Lines): Causes & Treatment, Prevention",
+      "url": "https://my.clevelandclinic.org/health/diseases/23027-nasolabial-folds"
+    },
+    {
+      "title": "A Prospective Study Comparing the Efficacy of Hyaluronic Acid and Collagen in the Treatment of Nasolabial Folds - PMC",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12743174/"
+    },
+    {
+      "title": "High-dose pulsed hyaluronidase for managing nasal skin necrosis following hyaluronic acid treatment in nasolabial folds: A case report",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11063503/"
+    }
+  ],
+  "imageModel": "openai/gpt-image-2.5/flare/text-to-image",
+  "imageReviews": [
+    {
+      "image": "/blog/nasolabial-folds-guide/1.webp",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "Smiling woman with hair loosely pinned up, wearing a cream knit sweater, laughing and looking off to the side in soft window light, with natural smile lines and skin texture visible"
+      }
+    },
+    {
+      "image": "/blog/nasolabial-folds-guide/2.webp",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "Middle-aged man with a graying beard wearing a wide-brimmed olive hat and sunglasses, standing in the shade of a leafy tree with a sunlit green field behind him"
+      }
+    },
+    {
+      "image": "/blog/nasolabial-folds-guide/3.webp",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "Man in his thirties with a short, neatly trimmed beard, tidy mustache and clean cheek line, seen in three-quarter view wearing a black cape in a barbershop chair, with a blurred barbershop background."
+      }
+    }
+  ],
+  "imageFailures": [],
+  "imageSettings": {
+    "width": 1024,
+    "height": 1024,
+    "quality": "low"
+  },
+  "usage": [
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "research",
+      "input": 31338,
+      "output": 2971,
+      "estimatedUsd": 0.092386,
+      "searches": 3
+    },
+    {
+      "model": "claude-opus-5-5",
+      "stage": "article",
+      "input": 33979,
+      "output": 8584,
+      "estimatedUsd": 0.307596,
+      "searches": 0
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "text-review",
+      "input": 8394,
+      "output": 16,
+      "estimatedUsd": 0.016948,
+      "searches": 0
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "image-review",
+      "input": 1723,
+      "output": 81,
+      "estimatedUsd": 0.004256,
+      "searches": 0
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "image-review",
+      "input": 1721,
+      "output": 81,
+      "estimatedUsd": 0.004252,
+      "searches": 0
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "image-review",
+      "input": 1729,
+      "output": 92,
+      "estimatedUsd": 0.004378,
+      "searches": 0
+    }
+  ],
+  "note": "Token estimates exclude web-search charges, images, tax and provider markups."
+}
