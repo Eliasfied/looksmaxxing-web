@@ -1,0 +1,394 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { appConfig } from '../lib/config';
+
+// Sales page for the one-time 30-Day Glow-Up Plan: problem, solution, what is
+// inside, a day in the plan, honest outcome, price and FAQ. Before/after images
+// are an AI-generated model and are labelled as such next to the slider.
+const appUrl = import.meta.env.PUBLIC_APP_URL ?? 'https://app.aura-looksmaxxing.com';
+const siteUrl = import.meta.env.PUBLIC_SITE_URL ?? 'https://www.aura-looksmaxxing.com';
+const glow = appConfig.pricing.glowPlan;
+const price = `$${glow.price.toFixed(2)}`;
+const compare = glow.compareAtPrice && glow.compareAtPrice > glow.price ? `$${glow.compareAtPrice.toFixed(2)}` : null;
+const discount = compare ? Math.round((1 - glow.price / glow.compareAtPrice!) * 100) : 0;
+const looks = Math.floor(glow.credits / appConfig.credits.tryOn);
+// The real source is filled in on the client from ?source=, see the script below.
+// `checkout=1` opens the checkout right after sign-up instead of showing the
+// sales page a second time; `entry` tells the app this path came through here.
+const cta = `${appUrl}/register?next=${encodeURIComponent('/glow-up?checkout=1')}&source=%2Fglow-up-plan&entry=%2Fglow-up-plan`;
+
+const problems = [
+  ['Random advice', 'One video says mewing, the next says retinol, the third sells a jawline gadget. Nothing adds up to a plan you can follow.'],
+  ['Not made for your face', 'Advice for oily skin does not help dry skin. A cut for a round face looks off on a long one. Generic tips miss you.'],
+  ['Monday to Thursday', 'You start strong, then life happens. Without a list for today you forget what you meant to do, and quit.'],
+];
+const steps = [
+  ['01', 'Big start scan', 'One selfie for your PSL score and 9 sub-scores, plus 2 minutes of questions: skin, hair, body, diet, sleep, time and budget.'],
+  ['02', 'Your plan, written for you', 'Aura turns scan and answers into 30 days of tasks, a morning and evening routine, product types and looks that suit your face.'],
+  ['03', 'Tick it off every day', 'Open the app, see today, tick it off. About 20 minutes. Progress photos on days 7, 14 and 21.'],
+  ['04', 'Day-30 re-scan', 'Scan again in the same light and compare day 1 with day 30, side by side.'],
+];
+const areas = [
+  ['💧', 'Skin', 'Morning and evening routine for your skin type, with the active ingredients that fit your concerns.'],
+  ['✂️', 'Hair', 'A cut that suits your face shape, a ready-to-read barber or salon brief, styling and care.'],
+  ['🗿', 'Face & jawline', 'What actually sharpens a jawline in 30 days: grooming, beard or hair framing, posture, less bloating.'],
+  ['🥗', 'Nutrition', 'Protein and water targets sized to you, simple meals for your diet. No crash diets.'],
+  ['🏋️', 'Training', 'Short workouts for gym, home or none, two to five times a week.'],
+  ['👕', 'Style & grooming', 'Brows, beard line, nails, fit and colors: the quick wins people notice first.'],
+];
+const included = [
+  ['Big start scan', 'PSL score, 9 sub-scores, face shape and skin read.'],
+  ['Your personal 30-day plan', 'Daily tasks across the areas you pick.'],
+  ['Morning & evening routine', 'Step by step, with what to buy and what to look for.'],
+  [`${looks} try-ons incl. Future Me`, 'Haircuts, beard, glasses, hair color and your day-30 goal picture.'],
+  ['AI coach', 'Knows your scan and your plan. Ask anything, any time.'],
+  ['Day-30 re-scan & PDF', 'Compare day 1 and day 30. Keep the plan as a PDF.'],
+];
+const demo = {
+  men: [
+    ['Morning routine', 'Salicylic acid 2% cleanser · niacinamide · SPF 50'],
+    ['Book the barber', '“Mid fade, textured top, scissor-cut, keep the length on top.”'],
+    ['120 g protein', 'Eggs at breakfast, chicken or tofu at lunch and dinner'],
+    ['Workout A · 35 min', 'Squats 3×10 · push-ups 3×12 · rows 3×10 · plank 3×40 s'],
+    ['Posture check × 3', 'Shoulders back, chin level, phone at eye height'],
+    ['Evening routine', 'Cleanser · retinal 2× a week · moisturizer'],
+  ],
+  women: [
+    ['Morning routine', 'Gentle cleanser · vitamin C · SPF 50'],
+    ['Salon brief', '“Face-framing layers from the cheekbone, keep the length.”'],
+    ['Brows', 'Brush up, trim the longest hairs, fill only the gaps'],
+    ['8,000 steps', 'A 20-minute walk after lunch covers half of it'],
+    ['Low-tension night hair', 'Loose braid or scrunchie, silk pillowcase'],
+    ['Evening routine', 'Double cleanse · moisturizer · eye cream'],
+  ],
+};
+const faq = [
+  ['Is this a subscription?', `No. You pay ${price} once. There is no renewal and nothing to cancel.`],
+  ['How much time does it take?', 'You choose 10, 20 or 40 minutes a day in the questionnaire, and the plan is built around that.'],
+  ['What exactly do I get?', `The big start scan, your personal 30-day plan with daily checklist, routines and product list, ${looks} try-ons including Future Me, the AI coach, the day-30 re-scan and a PDF of the plan. Every Aura feature is unlocked for ${glow.accessDays} days, so you can start a few days late and still do the re-scan. The plan and PDF stay yours afterwards.`],
+  ['Is it for women too?', 'Yes. The first question is who the plan is for. Routines, hairstyles, salon briefs and tasks change with it.'],
+  ['Will my PSL score go up by 2 points?', 'Probably not, and nobody honest can promise that. In 30 days the visible changes are skin, hair, grooming, posture and how rested you look. Those are also the things people notice first.'],
+  ['Does it include surgery, fillers or pills?', 'No. The plan never recommends procedures or medication. If something needs medical help, it tells you to see a dermatologist or doctor.'],
+  ['What happens with my photo?', 'It is used for your scan and your try-ons. We never sell or share photos.'],
+];
+const schema = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'Product',
+    name: glow.name,
+    description: 'A personal 30-day glow-up plan built from an AI face scan and a short questionnaire: daily checklist for skin, hair, face, nutrition, training and style.',
+    brand: { '@type': 'Brand', name: 'Aura' },
+    image: `${siteUrl}/images/glow-up/men-after.webp`,
+    offers: { '@type': 'Offer', price: glow.price.toFixed(2), priceCurrency: 'USD', availability: 'https://schema.org/InStock', url: `${siteUrl}/glow-up-plan` },
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: faq.map(([q, a]) => ({ '@type': 'Question', name: q, acceptedAnswer: { '@type': 'Answer', text: a } })),
+  },
+];
+---
+<BaseLayout
+  title={`30-Day Glow-Up Plan: Personal, From Your Face Scan | Aura`}
+  description={`A personal 30-day glow-up plan built from your face scan: daily tasks for skin, hair, jawline, nutrition, training and style. For men and women. ${price} once, no subscription.`}
+  ogImage={`${siteUrl}/images/glow-up/men-after.webp`}
+>
+  <Fragment slot="head"><script type="application/ld+json" set:html={JSON.stringify(schema)} /></Fragment>
+
+  <!-- Hero -->
+  <section class="relative overflow-hidden">
+    <div aria-hidden="true" class="glow-blob pointer-events-none absolute -top-40 left-1/2 h-[520px] w-[900px] -translate-x-1/2 rounded-full bg-gradient-to-r from-fuchsia-700/35 via-violet-700/30 to-sky-600/15 blur-[120px]"></div>
+    <div class="relative mx-auto grid max-w-6xl items-center gap-14 px-6 pb-16 pt-16 sm:pt-20 lg:grid-cols-[1.1fr_0.9fr]">
+      <div>
+        <p class="inline-flex items-center gap-2 rounded-full border border-fuchsia-400/30 bg-fuchsia-500/10 px-3 py-1 text-xs font-bold uppercase tracking-[0.18em] text-fuchsia-200">The 30-Day Glow-Up Plan</p>
+        <h1 class="mt-6 text-5xl font-black leading-[1.02] sm:text-7xl">30 days.<br />One plan.<br /><span class="bg-gradient-to-r from-fuchsia-400 to-violet-400 bg-clip-text text-transparent">Built from your face.</span></h1>
+        <p class="mt-6 max-w-xl text-lg leading-relaxed text-[#bbb]">One big face scan and a few questions about your skin, hair, body and time. Aura turns them into a daily checklist for skin, hair, jawline, nutrition, training and style, in about 20 minutes a day.</p>
+        <div class="mt-8 flex flex-wrap items-center gap-5">
+          <a href={cta} data-glow-cta data-placement="glow-hero" class="btn-gradient rounded-2xl px-8 py-4 text-lg font-bold shadow-lg shadow-fuchsia-900/40">Start my 30-day plan →</a>
+          <p class="flex items-baseline gap-2">
+            {compare && <span class="text-lg font-bold text-[#777] line-through">{compare}</span>}
+            <span class="text-3xl font-black">{price}</span>
+            {discount > 0 && <span class="rounded-full bg-fuchsia-600 px-2 py-0.5 text-xs font-black">−{discount}%</span>}
+          </p>
+        </div>
+        <p class="mt-4 text-sm text-[#888]">One payment · no subscription · for men and women</p>
+      </div>
+      <div class="relative mx-auto w-full max-w-[22rem]">
+        <div class="float mx-auto rounded-[2.5rem] border border-white/15 bg-[#0c0a12] p-3 shadow-[0_40px_120px_-30px_rgba(192,38,211,0.6)]">
+          <div class="rounded-[2rem] bg-gradient-to-b from-[#1a1424] to-[#0d0b14] p-5">
+            <div class="flex items-center justify-between text-xs text-[#888]"><span class="font-bold text-white">Aura</span><span>Day 12 of 30</span></div>
+            <div class="mt-4 h-2 overflow-hidden rounded-full bg-white/10"><div class="h-full w-[40%] rounded-full bg-gradient-to-r from-fuchsia-500 to-violet-500"></div></div>
+            <p class="mt-5 text-lg font-black">Today</p>
+            <ul class="mt-3 space-y-2" id="phone-list">
+              {['Morning routine', 'Book the barber', '120 g protein', 'Workout A', '8,000 steps', 'Evening routine'].map((t) => (
+                <li class="phone-item flex items-center gap-2.5 rounded-xl border border-white/10 px-3 py-2.5 text-sm"><span class="box flex h-4 w-4 shrink-0 items-center justify-center rounded border border-white/30 text-[10px]"></span><span class="label">{t}</span></li>
+              ))}
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Problem -->
+  <section class="mx-auto max-w-6xl px-6 py-20">
+    <div class="reveal mx-auto max-w-2xl text-center">
+      <p class="text-xs font-bold uppercase tracking-[0.22em] text-fuchsia-300">The problem</p>
+      <h2 class="mt-4 text-4xl font-black sm:text-5xl">You have seen 200 glow-up tips. None of them were about you.</h2>
+    </div>
+    <div class="mt-12 grid gap-5 md:grid-cols-3">
+      {problems.map(([title, text], i) => (
+        <div class="reveal rounded-[1.75rem] border border-red-400/15 bg-gradient-to-b from-red-500/[0.07] to-transparent p-7" style={`--d:${i * 120}ms`}>
+          <span class="flex h-9 w-9 items-center justify-center rounded-full bg-red-500/15 text-lg text-red-300">✕</span>
+          <h3 class="mt-4 text-2xl font-black">{title}</h3>
+          <p class="mt-2 leading-relaxed text-[#aaa]">{text}</p>
+        </div>
+      ))}
+    </div>
+    <p class="reveal mx-auto mt-10 max-w-2xl text-center text-lg text-[#bbb]">The result: you change a little, nothing sticks, and you are back where you started a month later.</p>
+  </section>
+
+  <!-- Solution -->
+  <section class="mx-auto max-w-6xl px-6 py-20">
+    <div class="reveal mx-auto max-w-2xl text-center">
+      <p class="text-xs font-bold uppercase tracking-[0.22em] text-fuchsia-300">The solution</p>
+      <h2 class="mt-4 text-4xl font-black sm:text-5xl">One plan that knows your face, your time and your budget.</h2>
+    </div>
+    <ol class="relative mt-14 grid gap-5 md:grid-cols-4">
+      <div aria-hidden="true" class="absolute left-0 right-0 top-[3.2rem] hidden h-px bg-gradient-to-r from-transparent via-fuchsia-500/50 to-transparent md:block"></div>
+      {steps.map(([n, title, text], i) => (
+        <li class="reveal relative rounded-[1.75rem] border border-white/10 bg-[#0d0b14] p-6" style={`--d:${i * 140}ms`}>
+          <span class="flex h-12 w-12 items-center justify-center rounded-2xl bg-gradient-to-br from-fuchsia-500 to-violet-600 text-lg font-black">{n}</span>
+          <h3 class="mt-5 text-xl font-black">{title}</h3>
+          <p class="mt-2 text-sm leading-relaxed text-[#aaa]">{text}</p>
+        </li>
+      ))}
+    </ol>
+  </section>
+
+  <!-- Inside -->
+  <section class="mx-auto max-w-6xl px-6 py-20">
+    <div class="reveal mx-auto max-w-2xl text-center">
+      <p class="text-xs font-bold uppercase tracking-[0.22em] text-fuchsia-300">What is inside</p>
+      <h2 class="mt-4 text-4xl font-black sm:text-5xl">Six areas. One daily checklist.</h2>
+      <p class="mt-4 text-lg text-[#aaa]">You pick what matters to you. The plan only covers what you chose.</p>
+    </div>
+    <div class="mt-12 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+      {areas.map(([icon, title, text], i) => (
+        <div class="reveal rounded-[1.5rem] border border-white/10 bg-[#0d0d0d] p-6 transition hover:-translate-y-1 hover:border-fuchsia-400/40" style={`--d:${i * 80}ms`}>
+          <span class="text-3xl" aria-hidden="true">{icon}</span>
+          <h3 class="mt-3 text-xl font-black">{title}</h3>
+          <p class="mt-1.5 leading-relaxed text-[#aaa]">{text}</p>
+        </div>
+      ))}
+    </div>
+  </section>
+
+  <!-- A day in the plan -->
+  <section class="mx-auto grid max-w-6xl items-center gap-12 px-6 py-20 lg:grid-cols-2">
+    <div class="reveal">
+      <p class="text-xs font-bold uppercase tracking-[0.22em] text-fuchsia-300">Easy to follow</p>
+      <h2 class="mt-4 text-4xl font-black sm:text-5xl">This is what a day looks like.</h2>
+      <p class="mt-4 text-lg leading-relaxed text-[#aaa]">No 40-page PDF you never open again. Every morning you see today’s list: your routine, one or two new tasks, your habits. Tap to tick off. Try it.</p>
+      <div class="mt-6 inline-flex rounded-full border border-white/10 bg-black/40 p-1" role="radiogroup" aria-label="Example plan for">
+        <button type="button" role="radio" aria-checked="true" data-aud="men" class="aud rounded-full px-5 py-2 text-sm font-bold">For him</button>
+        <button type="button" role="radio" aria-checked="false" data-aud="women" class="aud rounded-full px-5 py-2 text-sm font-bold">For her</button>
+      </div>
+    </div>
+    <div class="reveal rounded-[1.75rem] border border-white/10 bg-[#0d0b14] p-6" style="--d:120ms">
+      <div class="flex items-baseline justify-between"><p class="font-black">Day 4 · Example</p><p class="text-sm text-[#888]"><span id="demo-count">0</span> / 6</p></div>
+      <div class="mt-3 h-2 overflow-hidden rounded-full bg-white/10"><div id="demo-bar" class="h-full w-0 rounded-full bg-gradient-to-r from-fuchsia-500 to-violet-500 transition-all duration-500"></div></div>
+      {(['men', 'women'] as const).map((aud) => (
+        <ul class:list={['demo mt-4 space-y-2', aud === 'women' && 'hidden']} data-demo={aud}>
+          {demo[aud].map(([t, d]) => (
+            <li><button type="button" aria-pressed="false" class="demo-item flex w-full items-start gap-3 rounded-2xl border border-white/10 px-4 py-3 text-left transition hover:border-white/25"><span class="box mt-0.5 flex h-5 w-5 shrink-0 items-center justify-center rounded-md border border-white/30 text-xs"></span><span><span class="t block font-bold">{t}</span><span class="block text-sm text-[#888]">{d}</span></span></button></li>
+          ))}
+        </ul>
+      ))}
+      <p id="demo-done" class="mt-4 hidden text-center font-bold text-fuchsia-200">Day done. That is all it takes.</p>
+    </div>
+  </section>
+
+  <!-- Outcome -->
+  <section class="mx-auto grid max-w-6xl items-center gap-12 px-6 py-20 lg:grid-cols-[0.9fr_1.1fr]">
+    <figure class="reveal mx-auto w-full max-w-sm">
+      <div id="ba" class="relative aspect-[4/5] select-none overflow-hidden rounded-[1.75rem] border border-white/10 bg-black" style="--pos:50%">
+        <img id="ba-after" src="/images/glow-up/men-after.webp" alt="Illustration: AI-generated model on day 30" width="800" height="1000" loading="lazy" class="absolute inset-0 h-full w-full object-cover" />
+        <div class="absolute inset-0" style="clip-path: inset(0 calc(100% - var(--pos)) 0 0)">
+          <img id="ba-before" src="/images/glow-up/men-before.webp" alt="Illustration: the same AI-generated model on day 1" width="800" height="1000" loading="lazy" class="h-full w-full object-cover" />
+        </div>
+        <div class="pointer-events-none absolute inset-y-0 w-0.5 -translate-x-1/2 bg-white/90" style="left: var(--pos)"><span class="absolute top-1/2 left-1/2 flex h-9 w-9 -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full bg-white text-sm font-black text-black">⇆</span></div>
+        <span class="absolute left-3 top-3 rounded-full bg-black/60 px-2.5 py-1 text-xs font-bold backdrop-blur">Day 1</span>
+        <span class="absolute right-3 top-3 rounded-full bg-fuchsia-600/80 px-2.5 py-1 text-xs font-bold backdrop-blur">Day 30</span>
+        <input id="ba-range" type="range" min="0" max="100" value="50" aria-label="Compare day 1 and day 30" class="absolute inset-0 h-full w-full cursor-ew-resize opacity-0" />
+      </div>
+      <div class="mt-3 flex justify-center gap-2">
+        <button type="button" data-ba="men" class="ba-btn rounded-full border border-white/15 px-4 py-1.5 text-sm font-bold">Him</button>
+        <button type="button" data-ba="women" class="ba-btn rounded-full border border-white/15 px-4 py-1.5 text-sm font-bold">Her</button>
+      </div>
+      <figcaption class="mt-3 text-xs leading-relaxed text-[#888]">Illustration with an AI-generated model, not a customer result. It shows the kind of change 30 days can bring: skin, haircut, grooming and rest. Face structure stays the same.</figcaption>
+    </figure>
+    <div class="reveal" style="--d:120ms">
+      <p class="text-xs font-bold uppercase tracking-[0.22em] text-fuchsia-300">Honest outcome</p>
+      <h2 class="mt-4 text-4xl font-black sm:text-5xl">What 30 days can change. And what not.</h2>
+      <p class="mt-4 text-lg text-[#aaa]">We would rather tell you up front than sell you a fantasy.</p>
+      <div class="mt-8 grid gap-4 sm:grid-cols-2">
+        <div class="rounded-2xl border border-emerald-400/20 bg-emerald-500/[0.06] p-5">
+          <p class="text-lg font-black text-emerald-200">Likely after 30 days</p>
+          <ul class="mt-3 space-y-2 text-[#ddd]">
+            {['Calmer, more even skin', 'A haircut that fits your face', 'Groomed brows and beard line', 'A more rested, less puffy look', 'Better posture in photos', 'A routine you actually keep'].map((t) => <li class="flex gap-2"><span class="text-emerald-300">✓</span>{t}</li>)}
+          </ul>
+        </div>
+        <div class="rounded-2xl border border-white/10 bg-white/[0.02] p-5">
+          <p class="text-lg font-black text-[#bbb]">Not in 30 days</p>
+          <ul class="mt-3 space-y-2 text-[#999]">
+            {['Bone structure or jaw width', 'Eye shape or canthal tilt', 'Height', 'Big fat loss (1–2 kg is realistic)', 'Medical skin conditions'].map((t) => <li class="flex gap-2"><span>✕</span>{t}</li>)}
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Offer -->
+  <section id="offer" class="mx-auto max-w-4xl scroll-mt-20 px-6 py-20">
+    <div class="reveal text-center">
+      <p class="text-xs font-bold uppercase tracking-[0.22em] text-fuchsia-300">Your plan</p>
+      <h2 class="mt-4 text-4xl font-black sm:text-5xl">Everything for 30 days. Paid once.</h2>
+    </div>
+    <div class="reveal relative mt-10 overflow-hidden rounded-[2rem] border border-fuchsia-400/40 bg-gradient-to-br from-fuchsia-950/50 via-[#120d1c] to-violet-950/40 p-7 shadow-[0_0_80px_-20px_rgba(192,38,211,0.5)] sm:p-10" style="--d:100ms">
+      <div class="flex flex-wrap items-start justify-between gap-6">
+        <div>
+          <p class="inline-flex rounded-full border border-fuchsia-400/30 bg-fuchsia-500/10 px-3 py-1 text-xs font-bold uppercase tracking-[0.18em] text-fuchsia-200">One-time · no subscription</p>
+          <h3 class="mt-4 text-3xl font-black">{glow.name}</h3>
+        </div>
+        <p class="flex items-baseline gap-3">
+          {compare && <span class="text-2xl font-bold text-[#777] line-through">{compare}</span>}
+          <span class="text-6xl font-black">{price}</span>
+          {discount > 0 && <span class="rounded-full bg-fuchsia-600 px-2.5 py-1 text-xs font-black uppercase">−{discount}%</span>}
+        </p>
+      </div>
+      <ul class="mt-8 grid gap-3 sm:grid-cols-2">
+        {included.map(([t, d]) => <li class="flex gap-3 rounded-2xl border border-white/10 bg-white/[0.03] p-4"><span class="text-fuchsia-300">✓</span><span><span class="block font-bold">{t}</span><span class="text-sm text-[#aaa]">{d}</span></span></li>)}
+      </ul>
+      <a href={cta} data-glow-cta data-placement="glow-offer" class="btn-gradient mt-8 block rounded-2xl px-6 py-5 text-center text-xl font-bold shadow-lg shadow-fuchsia-900/40">Start my 30-day plan →</a>
+      <p class="mt-4 text-center text-sm text-[#999]">Pay once · {glow.accessDays} days of full access · plan &amp; PDF are yours to keep · Secure checkout by Stripe</p>
+    </div>
+    <p class="mt-6 text-center text-sm text-[#888]">Prefer ongoing access? <a href="/pricing" class="text-fuchsia-300">Aura Pro is also available as a subscription →</a></p>
+  </section>
+
+  <!-- FAQ -->
+  <section class="mx-auto max-w-3xl px-6 py-16">
+    <h2 class="reveal text-center text-3xl font-black sm:text-4xl">Before you start</h2>
+    <div class="mt-10 space-y-3">
+      {faq.map(([q, a]) => (
+        <details class="group rounded-2xl border border-white/10 bg-white/[0.02]">
+          <summary class="flex cursor-pointer list-none items-center justify-between gap-4 px-5 py-4 text-lg font-bold">{q}<span class="transition group-open:rotate-180">⌄</span></summary>
+          <p class="px-5 pb-5 leading-relaxed text-[#aaa]">{a}</p>
+        </details>
+      ))}
+    </div>
+  </section>
+
+  <!-- Final CTA -->
+  <section class="mx-auto max-w-6xl px-6 pb-24">
+    <div class="reveal relative overflow-hidden rounded-[2.5rem] border border-fuchsia-400/30 bg-gradient-to-br from-fuchsia-700/30 via-[#120d1c] to-violet-700/30 px-6 py-16 text-center">
+      <h2 class="mx-auto max-w-2xl text-4xl font-black sm:text-5xl">Day 1 can be today.</h2>
+      <p class="mx-auto mt-4 max-w-xl text-lg text-[#bbb]">Your scan takes a minute. Your plan is ready a minute later.</p>
+      <a href={cta} data-glow-cta data-placement="glow-final" class="mt-8 inline-flex rounded-2xl bg-white px-8 py-4 text-lg font-black text-black">Start my 30-day plan · {price}</a>
+    </div>
+  </section>
+
+  <div id="sticky" class="fixed inset-x-0 bottom-0 z-40 translate-y-full border-t border-white/10 bg-[#0c0a12]/90 px-4 py-3 backdrop-blur-xl transition-transform duration-300" aria-hidden="true">
+    <div class="mx-auto flex max-w-5xl items-center justify-between gap-4">
+      <p class="text-sm"><span class="font-black">30-Day Glow-Up Plan</span><span class="text-[#999]"> · {price} once</span></p>
+      <a href={cta} data-glow-cta data-placement="glow-sticky" tabindex="-1" class="btn-gradient shrink-0 rounded-xl px-5 py-2.5 text-sm font-bold">Get my plan</a>
+    </div>
+  </div>
+</BaseLayout>
+
+<style>
+  .reveal { opacity: 0; transform: translateY(24px); transition: opacity .7s ease, transform .7s ease; transition-delay: var(--d, 0ms); }
+  .reveal.shown { opacity: 1; transform: none; }
+  .float { animation: float 6s ease-in-out infinite; }
+  @keyframes float { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-12px); } }
+  .glow-blob { animation: pulse 5s ease-in-out infinite; }
+  @keyframes pulse { 0%, 100% { opacity: .75; } 50% { opacity: 1; } }
+  .phone-item, .demo-item { transition: all .4s ease; }
+  .phone-item.on, .demo-item.on { border-color: rgb(232 121 249 / .35); background: rgb(217 70 239 / .12); }
+  .phone-item.on .label, .demo-item.on .t { color: rgb(255 255 255 / .5); text-decoration: line-through; }
+  .phone-item.on .box, .demo-item.on .box { background: #d946ef; border-color: #e879f9; }
+  .aud[aria-checked="true"], .ba-btn.active { background: white; color: black; }
+  @media (prefers-reduced-motion: reduce) {
+    .reveal { opacity: 1; transform: none; transition: none; }
+    .float, .glow-blob { animation: none; }
+  }
+</style>
+
+<script>
+  // Keep where the visitor came from, so the app can attribute the sale.
+  const params = new URLSearchParams(location.search);
+  const source = params.get('source');
+  if (source && source.startsWith('/') && !source.startsWith('//')) {
+    document.querySelectorAll<HTMLAnchorElement>('a[data-glow-cta]').forEach((a) => {
+      const url = new URL(a.href);
+      url.searchParams.set('source', source);
+      a.href = url.toString();
+    });
+  }
+
+  const io = new IntersectionObserver((entries) => {
+    for (const e of entries) if (e.isIntersecting) { e.target.classList.add('shown'); io.unobserve(e.target); }
+  }, { rootMargin: '0px 0px -10% 0px' });
+  document.querySelectorAll('.reveal').forEach((el) => io.observe(el));
+
+  // Phone mockup ticks itself off.
+  const phone = [...document.querySelectorAll<HTMLElement>('.phone-item')];
+  let tick = 0;
+  const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
+  const paint = () => phone.forEach((li, i) => { li.classList.toggle('on', i < tick); li.querySelector('.box')!.textContent = i < tick ? '✓' : ''; });
+  if (reduce) { tick = 3; paint(); } else setInterval(() => { tick = (tick + 1) % (phone.length + 2); paint(); }, 900);
+
+  // Interactive example day.
+  const count = document.getElementById('demo-count')!, bar = document.getElementById('demo-bar')!, done = document.getElementById('demo-done')!;
+  const refresh = () => {
+    const list = document.querySelector('.demo:not(.hidden)')!;
+    const n = list.querySelectorAll('.demo-item.on').length, total = list.querySelectorAll('.demo-item').length;
+    count.textContent = String(n); bar.style.width = `${(n / total) * 100}%`; done.classList.toggle('hidden', n !== total);
+  };
+  document.querySelectorAll<HTMLButtonElement>('.demo-item').forEach((b) => b.addEventListener('click', () => {
+    const on = !b.classList.contains('on'); b.classList.toggle('on', on); b.setAttribute('aria-pressed', String(on));
+    b.querySelector('.box')!.textContent = on ? '✓' : ''; refresh();
+  }));
+  document.querySelectorAll<HTMLButtonElement>('.aud').forEach((b) => b.addEventListener('click', () => {
+    document.querySelectorAll('.aud').forEach((x) => x.setAttribute('aria-checked', String(x === b)));
+    document.querySelectorAll<HTMLElement>('.demo').forEach((l) => l.classList.toggle('hidden', l.dataset.demo !== b.dataset.aud));
+    setBa(b.dataset.aud as 'men' | 'women');
+    refresh();
+  }));
+
+  // Before/after slider.
+  const ba = document.getElementById('ba')!, range = document.getElementById('ba-range') as HTMLInputElement;
+  range.addEventListener('input', () => ba.style.setProperty('--pos', `${range.value}%`));
+  function setBa(who: 'men' | 'women') {
+    (document.getElementById('ba-before') as HTMLImageElement).src = `/images/glow-up/${who}-before.webp`;
+    (document.getElementById('ba-after') as HTMLImageElement).src = `/images/glow-up/${who}-after.webp`;
+    document.querySelectorAll('.ba-btn').forEach((x) => x.classList.toggle('active', (x as HTMLElement).dataset.ba === who));
+  }
+  document.querySelectorAll<HTMLButtonElement>('.ba-btn').forEach((b) => b.addEventListener('click', () => setBa(b.dataset.ba as 'men' | 'women')));
+  setBa('men');
+  // Nudge the slider once when it comes into view, so people see it moves.
+  if (!reduce) {
+    const nudge = new IntersectionObserver(([e]) => {
+      if (!e.isIntersecting) return; nudge.disconnect();
+      let t = 0; const id = setInterval(() => { t += 1; const v = 50 + Math.sin(t / 8) * 30; ba.style.setProperty('--pos', `${v}%`); range.value = String(v); if (t > 50) { clearInterval(id); ba.style.setProperty('--pos', '50%'); range.value = '50'; } }, 30);
+    }, { threshold: 0.6 });
+    nudge.observe(ba);
+  }
+
+  // Sticky CTA once the hero is gone and until the offer shows.
+  const sticky = document.getElementById('sticky')!, hero = document.querySelector('section')!, offer = document.getElementById('offer')!;
+  let heroOut = false, offerIn = false;
+  const upd = () => { const show = heroOut && !offerIn; sticky.classList.toggle('translate-y-full', !show); sticky.setAttribute('aria-hidden', String(!show)); sticky.querySelector('a')!.tabIndex = show ? 0 : -1; };
+  new IntersectionObserver(([e]) => { heroOut = !e.isIntersecting && e.boundingClientRect.top < 0; upd(); }).observe(hero);
+  new IntersectionObserver(([e]) => { offerIn = e.isIntersecting || e.boundingClientRect.top < 0; upd(); }).observe(offer);
+</script>

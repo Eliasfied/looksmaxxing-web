@@ -165,7 +165,7 @@ A few things to know before you use it:
 
 - It doesn't create a try-on image.
 - The free result is a subjective styling-potential estimate.
-- The full shortlist and brief are part of Aura Pro ($9.99 a month or $49.99 a year).
+- The full shortlist and brief are part of the 30-Day Glow-Up Plan ($14.99 once, no subscription).
 
 Whether you use a tool or not, these steps make the conversation easier (editorial suggestions):
 

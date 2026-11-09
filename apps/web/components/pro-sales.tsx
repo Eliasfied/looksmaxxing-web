@@ -48,7 +48,7 @@ function useShown<T extends HTMLElement>() {
   return [ref, shown] as const
 }
 
-function Reveal({ children, delay = 0, className }: { children: ReactNode; delay?: number; className?: string }) {
+export function Reveal({ children, delay = 0, className }: { children: ReactNode; delay?: number; className?: string }) {
   const [ref, shown] = useShown<HTMLDivElement>()
   return (
     <div
@@ -606,11 +606,23 @@ export function ProSales({
 }
 
 /** Short teaser card that links into the long page on the same screen. */
-export function ProTeaser({ targetId, title, text }: { targetId: string; title: string; text: string }) {
+export function ProTeaser({
+  targetId,
+  title,
+  text,
+  label = '30-Day Glow-Up Plan',
+  cta = 'See your 30-day plan ↓'
+}: {
+  targetId: string
+  title: string
+  text: string
+  label?: string
+  cta?: string
+}) {
   return (
     <div className="relative overflow-hidden rounded-[2rem] border border-fuchsia-400/30 bg-gradient-to-br from-fuchsia-600/20 via-[#120d1c] to-violet-600/20 p-6">
       <div className="flex items-center gap-2 text-xs font-bold uppercase tracking-[0.18em] text-fuchsia-200">
-        <Sparkles className="h-3.5 w-3.5" aria-hidden /> Aura Pro
+        <Sparkles className="h-3.5 w-3.5" aria-hidden /> {label}
       </div>
       <p className="mt-3 text-2xl font-black">{title}</p>
       <p className="mt-2 text-sm text-white/60">{text}</p>
@@ -635,7 +647,7 @@ export function ProTeaser({ targetId, title, text }: { targetId: string; title: 
         onClick={() => document.getElementById(targetId)?.scrollIntoView({ behavior: 'smooth' })}
         className="btn-gradient mt-5 w-full rounded-2xl px-5 py-3.5 font-bold text-white"
       >
-        See what Pro does for you ↓
+        {cta}
       </button>
     </div>
   )

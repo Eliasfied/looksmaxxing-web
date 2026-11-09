@@ -163,7 +163,7 @@ The reason most glow-up attempts fade is scope. People try to change skincare, h
 
 At the end of each week, spend five minutes on reflection. What felt easy? What did you skip, and why? That review is what turns a one-month push into lasting habits.
 
-If you'd rather not build the plan from scratch, Aura's [30-Day Glow-Up Planner](https://app.aura-looksmaxxing.com/tools/glow-up-planner?source=%2Fblog%2Fglow-up-tips-for-women) takes your goals, time budget and style preferences and turns them into a four-week plan. You get three small tasks per week, a daily checklist, budget-friendly options and a weekly reflection prompt. It sticks to hair, grooming, clothing and ordinary self-care, and it's part of Aura Pro ($9.99 a month or $49.99 a year).
+If you'd rather not build the plan from scratch, Aura's [30-Day Glow-Up Planner](https://app.aura-looksmaxxing.com/tools/glow-up-planner?source=%2Fblog%2Fglow-up-tips-for-women) takes your goals, time budget and style preferences and turns them into a four-week plan. You get three small tasks per week, a daily checklist, budget-friendly options and a weekly reflection prompt. It sticks to hair, grooming, clothing and ordinary self-care, and it's part of the 30-Day Glow-Up Plan ($14.99 once, no subscription).
 
 ## What to Skip
 

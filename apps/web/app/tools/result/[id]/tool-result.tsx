@@ -9,7 +9,7 @@ import {
 } from 'react'
 import Link from 'next/link'
 import posthog from 'posthog-js'
-import { ProSales } from '@/components/pro-sales'
+import { GlowSales } from '@/components/glow-sales'
 import type { ToolDefinition, ToolReport } from '@/lib/tool-report'
 
 function subscribeChecklist(callback: () => void) {
@@ -61,6 +61,10 @@ export function ToolResult({
   const [claimed, setClaimed] = useState(Boolean(initialReport))
   const [planSaved, setPlanSaved] = useState(false),
     [savingPlan, setSavingPlan] = useState(false)
+  // Back from sign-up after clicking buy, but not paid yet: open the checkout.
+  const [autoCheckout, setAutoCheckout] = useState(false)
+  // Just bought the 30-day plan here: its questionnaire is the next step.
+  const [boughtPlan, setBoughtPlan] = useState(false)
   const active = useRef(true)
   const returnPath = `/tools/result/${id}?checkout=1`
   const hasTasks = Boolean(report?.sections.some((s) => s.tasks?.length))
@@ -75,7 +79,8 @@ export function ToolResult({
       })
       if (!active.current) return
       if (response.status === 402) {
-        setError('This report is part of Aura Pro.')
+        if (checkoutRequested) setAutoCheckout(true)
+        else setError('This report is part of the 30-day plan.')
         return
       }
       if (!response.ok) throw new Error('Please sign in again to open this report.')
@@ -90,7 +95,7 @@ export function ToolResult({
     } finally {
       if (active.current) setWaiting(false)
     }
-  }, [id, tool.slug])
+  }, [id, tool.slug, checkoutRequested])
   async function makePlan() {
     setSavingPlan(true)
     setError('')
@@ -173,6 +178,21 @@ export function ToolResult({
       </div>
       {report ? (
         <>
+          {boughtPlan && (
+            <div className="mb-8 flex flex-wrap items-center justify-between gap-4 rounded-2xl border border-fuchsia-400/30 bg-gradient-to-r from-fuchsia-500/15 to-violet-500/10 p-5 print:hidden">
+              <div>
+                <p className="font-bold">Your 30-day plan is unlocked</p>
+                <p className="text-sm text-white/60">Next: 2 minutes of questions and your start scan. Your report stays here.</p>
+              </div>
+              <Link
+                href="/glow-up"
+                onClick={() => posthog.capture('glow_setup_clicked', { placement: `tool-result:${tool.slug}` })}
+                className="btn-gradient rounded-full px-5 py-2.5 text-sm font-bold text-white"
+              >
+                Set up my plan →
+              </Link>
+            </div>
+          )}
           <h2 className="mb-6 text-2xl font-bold">{report.headline}</h2>
           <div className="space-y-5">
             {report.sections.map((section, i) => (
@@ -277,12 +297,17 @@ export function ToolResult({
             {signedIn && !claimed ? (
               <p className="text-sm text-white/60">Saving your report to your account…</p>
             ) : (
-              <ProSales
+              <GlowSales
+                embedded
                 signedIn={signedIn}
                 returnTo={returnPath}
                 placement={`tool-result:${tool.slug}`}
-                intro="Your full report is one step away."
-                onActivated={() => unlock()}
+                intro="Your full report is included in the 30-day plan."
+                autoCheckout={autoCheckout}
+                onActivated={() => {
+                  setBoughtPlan(true)
+                  return unlock()
+                }}
               />
             )}
             {signedIn && claimed && (

@@ -162,6 +162,6 @@ A score answers *where do I rank?* A more useful question is *what works with my
 That's the angle Aura's [Face Analysis for Women](https://app.aura-looksmaxxing.com/tools/face-analysis-for-women?source=%2Fblog%2Ffemale-face-rating) takes. It doesn't hand you an attractiveness score.
 
 - **Free preview:** an on-device preview measures face shape, symmetry, canthal tilt (the angle between the inner and outer corners of the eye) and eye shape. It runs in your browser, without uploading the photo.
-- **Full AI report:** part of Aura Pro, at $9.99 a month or $49.99 a year. It covers your facial profile, hair and brow ideas, and your personal priorities. Makeup suggestions are optional and shaped around the style goals you set. The report doesn't apply masculine ideals to your face.
+- **Full AI report:** part of the 30-Day Glow-Up Plan, $14.99 once with no subscription. It covers your facial profile, hair and brow ideas, and your personal priorities. Makeup suggestions are optional and shaped around the style goals you set. The report doesn't apply masculine ideals to your face.
 
 Whatever tool you use, the research points the same way. A face rating is a snapshot of other people's impressions under particular conditions. It can be interesting, but it isn't a measurement of you.

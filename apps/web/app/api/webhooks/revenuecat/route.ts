@@ -1,7 +1,8 @@
 import { timingSafeEqual } from 'node:crypto'
 import { NextResponse } from 'next/server'
 import { adminDb } from '@/lib/firebase/admin'
-import { applyRevenueCatEvent } from '@/lib/revenuecat-events'
+import { applyRevenueCatEvent, analyticsForRevenueCatEvent } from '@/lib/revenuecat-events'
+import { captureServerEvent } from '@/lib/posthog-server'
 
 export async function POST(request: Request) {
   const secret = process.env.REVENUECAT_WEBHOOK_SECRET
@@ -13,10 +14,17 @@ export async function POST(request: Request) {
   if (event?.type === 'TEST') return NextResponse.json({ ok: true })
   if (!event || !['id', 'type', 'app_user_id', 'product_id'].every(k => typeof event[k] === 'string' && event[k].length > 0 && event[k].length < 256 && !event[k].includes('/'))) return NextResponse.json({ error: 'Invalid event' }, { status: 400 })
   if (process.env.NODE_ENV === 'production' && event.environment !== 'PRODUCTION' && process.env.ALLOW_SANDBOX_PAYMENTS !== 'true') return NextResponse.json({ ignored: true })
-  try { return NextResponse.json(await applyRevenueCatEvent(adminDb, event)) }
+  let result
+  try { result = await applyRevenueCatEvent(adminDb, event) }
   catch {
     // Let RevenueCat retry a failed grant; acknowledging it would lose payment.
     console.error('[RC Webhook] Failed to process event', event.id, event.type)
     return NextResponse.json({ error: 'Please retry' }, { status: 500 })
   }
+  // The sale is booked; now tell analytics. A failure here must not trigger a retry.
+  if ('ok' in result && result.ok) {
+    const analytics = analyticsForRevenueCatEvent(event)
+    if (analytics) await captureServerEvent(event.app_user_id, analytics.event, analytics.properties, analytics.options)
+  }
+  return NextResponse.json(result)
 }

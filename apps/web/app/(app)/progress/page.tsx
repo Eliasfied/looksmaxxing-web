@@ -41,7 +41,7 @@ export default async function ProgressPage() {
         {plan.pro && <ScanUploader label="Check in now" />}
       </header>
 
-      {!plan.pro && <UpgradeNudge text="Progress tracking and monthly check-ins are part of Aura Pro." />}
+      {!plan.pro && <UpgradeNudge text="Progress tracking and the day-30 re-scan are included in the 30-day plan." />}
 
       <section className="rounded-[2rem] border border-white/10 bg-white/[0.03] p-6">
         <h2 className="text-sm font-bold uppercase tracking-wider text-white/50">PSL score over time</h2>

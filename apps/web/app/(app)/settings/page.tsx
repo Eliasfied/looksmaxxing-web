@@ -5,7 +5,7 @@ import { getCredits } from '@/lib/firebase/credits'
 import { adminDb } from '@/lib/firebase/admin'
 import { Zap, CreditCard, RotateCcw, Gift, RefreshCw, Sparkles } from 'lucide-react'
 import { CancelSubscriptionButton } from '@/components/cancel-subscription-button'
-import { planFromSubscription } from '@/lib/entitlement'
+import { glowFromDoc, planFromSubscription } from '@/lib/entitlement'
 import { appConfig } from '@/lib/config'
 
 const TRANSACTION_ICONS: Record<string, React.ReactNode> = {
@@ -59,6 +59,7 @@ export default async function SettingsPage() {
     adminDb.collection('subscriptions').doc(user.id).get(),
   ])
   const plan = planFromSubscription(subSnap.data())
+  const glow = glowFromDoc((await adminDb.collection('glow_plans').doc(user.id).get()).data())
 
   const transactions = txSnap.docs.map((d) => ({ id: d.id, ...d.data() })) as Array<{
     id: string
@@ -91,8 +92,18 @@ export default async function SettingsPage() {
                 ? plan.cancelAtPeriodEnd
                   ? `Cancelled · Pro stays active until ${formatRenewal(renewalDate)}`
                   : `Renews on ${formatRenewal(renewalDate)}`
-                : 'Free previews on your device. Upgrade for AI analyses, try-ons, plan and coach.'}
+                : glow
+                  ? 'No subscription.'
+                  : 'Free previews on your device. Get the 30-day plan for AI analyses, try-ons, a plan and a coach.'}
             </p>
+            {glow && (
+              <p className="mt-3 text-sm text-white/70">
+                <Link href="/glow-up" className="font-bold text-fuchsia-300">30-Day Glow-Up Plan</Link>
+                {glow.active
+                  ? ` · all features unlocked until ${formatRenewal(glow.accessUntil)}`
+                  : ` · access ended ${formatRenewal(glow.accessUntil)}; your plan and PDF stay available`}
+              </p>
+            )}
           </div>
           {plan.pro && (
             <div className="text-right">

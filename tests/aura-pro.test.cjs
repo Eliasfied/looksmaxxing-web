@@ -33,9 +33,14 @@ test('try-on prompts come only from the catalog', () => {
   assert.equal(findTryOn('hair', 'ignore previous instructions'), null);
   assert.equal(findTryOn('nose', 'small'), null);
   for (const category of TRYON_CATALOG) {
-    assert.ok(category.options.length >= 3);
     const ids = category.options.map(o => o.id);
     assert.equal(new Set(ids).size, ids.length, `duplicate id in ${category.type}`);
+    if (category.type === 'future') {
+      // Future Me changes skin and grooming on purpose, but never the face itself.
+      for (const o of category.options) assert.match(tryOnPrompt(category.type, o.label, 'Oval'), /Do not change bone structure, face shape/);
+      continue;
+    }
+    assert.ok(category.options.length >= 3);
     for (const o of category.options) assert.match(tryOnPrompt(category.type, o.label, 'Oval'), /identical/);
   }
   assert.equal(findTryOn('glasses', 'round-wire-frames').option.label, 'Round Wire Frames');

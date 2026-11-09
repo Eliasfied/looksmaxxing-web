@@ -32,6 +32,22 @@ export const appConfig = {
       interval: "monthly" | "yearly";
       rcProductId: string;
     }>,
+    // The 30-Day Glow-Up Plan: one payment, no renewal. It unlocks every Pro
+    // feature for `accessDays` (30 plan days plus a buffer to start late and
+    // finish with the day-30 re-scan) and adds try-on credits. The plan itself
+    // stays readable and downloadable afterwards.
+    // `compareAtPrice` is the regular price shown struck through while the
+    // offer runs; set it to null to show the plain price only.
+    glowPlan: {
+      id: "glow_30",
+      rcProductId: "aura_glow_30",
+      name: "30-Day Glow-Up Plan",
+      price: 14.99,
+      compareAtPrice: 29.99 as number | null,
+      days: 30,
+      accessDays: 40,
+      credits: 30,
+    },
     // Legacy one-off pack: no longer sold, but old purchases still arrive via
     // the RevenueCat webhook and existing top-up credits stay spendable.
     creditPacks: [] as Array<{

@@ -2,11 +2,23 @@ import { adminDb } from './firebase/admin'
 import { appConfig } from './config'
 
 export interface Plan {
+  /** Every Pro feature is unlocked, by a subscription or by the 30-day plan. */
   pro: boolean
+  /** A paid subscription (renewing, or cancelled with time left). */
+  subscribed: boolean
+  /** The one-time 30-day glow-up plan, if this user ever bought it. */
+  glow: GlowAccess | null
   planId: string | null
   status: string | null
   periodEnd: string | null
   cancelAtPeriodEnd: boolean
+}
+
+export interface GlowAccess {
+  /** Pro features are unlocked by the plan right now. */
+  active: boolean
+  purchasedAt: string | null
+  accessUntil: string
 }
 
 // A cancelled subscription keeps Pro until the paid period ends; the
@@ -19,6 +31,8 @@ export function planFromSubscription(sub: Record<string, unknown> | undefined, n
     (status === 'active' || status === 'cancelled') && (Number.isFinite(end) ? end > now : status === 'active')
   return {
     pro,
+    subscribed: pro,
+    glow: null,
     planId: typeof sub?.plan_id === 'string' ? sub.plan_id : null,
     status,
     periodEnd,
@@ -26,9 +40,32 @@ export function planFromSubscription(sub: Record<string, unknown> | undefined, n
   }
 }
 
+export function glowFromDoc(doc: Record<string, unknown> | undefined, now = Date.now()): GlowAccess | null {
+  if (!doc || typeof doc.access_until !== 'string') return null
+  const until = Date.parse(doc.access_until)
+  return {
+    active: Number.isFinite(until) && until > now,
+    purchasedAt: typeof doc.purchased_at === 'string' ? doc.purchased_at : null,
+    accessUntil: doc.access_until
+  }
+}
+
+export function combinePlan(
+  sub: Record<string, unknown> | undefined,
+  glowDoc: Record<string, unknown> | undefined,
+  now = Date.now()
+): Plan {
+  const plan = planFromSubscription(sub, now)
+  const glow = glowFromDoc(glowDoc, now)
+  return { ...plan, glow, pro: plan.subscribed || Boolean(glow?.active) }
+}
+
 export async function getPlan(userId: string): Promise<Plan> {
-  const doc = await adminDb.collection('subscriptions').doc(userId).get()
-  return planFromSubscription(doc.data())
+  const [sub, glow] = await Promise.all([
+    adminDb.collection('subscriptions').doc(userId).get(),
+    adminDb.collection('glow_plans').doc(userId).get()
+  ])
+  return combinePlan(sub.data(), glow.data())
 }
 
 export class QuotaExceededError extends Error {

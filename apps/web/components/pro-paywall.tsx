@@ -130,6 +130,8 @@ export function ProPaywall({
                 productId={plan.rcProductId}
                 productName={`Aura Pro ${plan.name}`}
                 onSuccess={activated}
+                placement={placement}
+                offer="pro"
                 className="btn-gradient w-full rounded-2xl px-8 py-4 text-lg font-bold text-white shadow-lg shadow-fuchsia-900/40 transition hover:brightness-110 disabled:opacity-60"
               >
                 {activating ? 'Activating Pro…' : 'Get Aura Pro'}
@@ -164,12 +166,12 @@ export function ProPaywall({
 }
 
 /** Small inline nudge for places where a full paywall would be too much. */
-export function UpgradeNudge({ text = 'This is part of Aura Pro.' }: { text?: string }) {
+export function UpgradeNudge({ text = 'This is part of the 30-day plan and Aura Pro.' }: { text?: string }) {
   return (
     <div className="flex flex-wrap items-center justify-between gap-3 rounded-2xl border border-fuchsia-400/25 bg-gradient-to-r from-fuchsia-500/10 to-violet-500/10 p-4">
       <p className="text-sm font-semibold text-white">{text}</p>
-      <Link href="/pricing" className="btn-gradient rounded-full px-5 py-2 text-sm font-bold text-white">
-        See Aura Pro
+      <Link href="/glow-up" className="btn-gradient rounded-full px-5 py-2 text-sm font-bold text-white">
+        See the 30-day plan
       </Link>
     </div>
   )

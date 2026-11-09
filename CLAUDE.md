@@ -250,6 +250,35 @@ Ohne das sieht niemand, wo der Funnel bricht. Der Code ist fertig instrumentiert
 
 ---
 
+## 12. 30-Day Glow-Up Plan (Einmalkauf) ← **JETZT DRAN**
+
+Code steht auf Branch `feat/glow-up-plan`. Das Hauptangebot ist ein Einmalkauf
+($14.99, durchgestrichen $29.99). Er schaltet 40 Tage lang alle Pro-Funktionen frei
+und gibt 30 Credits (15 Try-ons). Danach bleiben Plan und PDF erhalten. Aura Pro
+(Abo) bleibt als Alternative kaufbar. Preise und Laufzeit stehen in
+`config/app.config.ts` → `pricing.glowPlan`.
+
+- [x] RevenueCat Web Billing: Produkt `aura_glow_30` (Consumable, $14.99) angelegt
+      und als Package im Default Offering (2026-11-09). Ohne Package findet der
+      Checkout-Button das Produkt nicht („Product not found").
+- [x] Firestore-Dokument angelegt (2026-11-09): `node apps/web/scripts/seed-glow-plan.mjs`
+- [ ] PR mergen → Vercel deployt App und Marketing
+      (`credit_packs/glow_30` mit `glow_plan_days: 40`, `credits: 30`)
+- [ ] Testkauf im Stripe-Test-Modus → `glow_plans/{uid}.access_until` gesetzt,
+      30 Credits gutgeschrieben, `/glow-up` zeigt den Fragebogen
+- [ ] Einmal komplett durchspielen: Fragebogen → Scan → Plan (~40–50 s) →
+      Haken setzen → PDF → Future Me im Studio
+- [ ] PostHog-Funnel um `glow_sales_viewed` → `checkout_started` →
+      `glow_plan_activated` → `glow_plan_created` → `glow_day_completed` ergänzen
+
+> Vorher/Nachher-Bilder (`public/images/glow-up/*`) sind ein KI-generiertes Modell
+> und überall als Illustration gekennzeichnet. Nicht als Kundenergebnis ausgeben.
+> Der Streichpreis ist als Einführungsangebot gedacht. Ein dauerhaft gezeigter
+> Streichpreis, zu dem nie verkauft wurde, ist in der EU abmahnfähig. Zum Abschalten
+> `compareAtPrice: null` setzen.
+
+---
+
 ## Empfohlene Reihenfolge als nächstes
 
 1. **GSC** → Property anlegen + Sitemap einreichen

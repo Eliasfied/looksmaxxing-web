@@ -183,7 +183,7 @@ Here is a simple plan that combines everything above. Each week has three small 
 2. Write down which habits felt easy and which didn't.
 3. Adjust next month's plan around what you'll realistically keep doing.
 
-If you'd rather have this tailored to your own time budget and style preferences, Aura's [30-Day Glow-Up Planner](https://app.aura-looksmaxxing.com/tools/glow-up-planner?source=%2Fblog%2Fglow-up-at-30) turns your goals into a four-week plan with three small tasks per week, a daily checklist, budget-friendly options and a weekly reflection. It's part of Aura Pro, and it sticks to hair, grooming, clothing and ordinary self-care rather than medical treatments.
+If you'd rather have this tailored to your own time budget and style preferences, Aura's [30-Day Glow-Up Planner](https://app.aura-looksmaxxing.com/tools/glow-up-planner?source=%2Fblog%2Fglow-up-at-30) turns your goals into a four-week plan with three small tasks per week, a daily checklist, budget-friendly options and a weekly reflection. It's part of the 30-Day Glow-Up Plan, and it sticks to hair, grooming, clothing and ordinary self-care rather than medical treatments.
 
 ## What to skip at 30
 

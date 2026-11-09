@@ -1,14 +1,14 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import FaceScanner from '../../components/FaceScanner.astro';
-import ProShowcase from '../../components/ProShowcase.astro';
+import GlowPlanTeaser from '../../components/GlowPlanTeaser.astro';
 const source = '/tools/eye-shape-detector';
 const faq = [
   ['What eye shapes can it detect?', 'It reads how open your eyes are (round, almond or narrow almond), which way the outer corners point (upturned, neutral or downturned) and how far apart the eyes sit (close-set, balanced or wide-set). Hooded and monolid eyes depend on the eyelid crease, which a single frontal photo cannot measure reliably, so we do not guess them.'],
   ['What is canthal tilt?', 'The angle of the line from the inner to the outer corner of your eye. A positive tilt means the outer corner sits higher. Most people fall within a few degrees of level, and both directions are common and normal.'],
   ['Is my photo uploaded?', 'No. The detector runs in your browser with Google’s open-source MediaPipe face landmarker. Your photo stays on your device.'],
   ['Why do my left and right eyes differ?', 'Almost everyone’s do, and a slight head turn or tilt adds to it. We correct for head tilt, but look straight at the camera for the steadiest result.'],
-  ['What can I do with my eye shape?', 'It is mainly useful for makeup, brows and glasses. Upturned eyes suit lifted liner; downturned eyes often look more open with liner kept to the upper outer third; wide-set eyes pair well with frames that have a lower bridge. Aura Pro lets you try frames on your own photo.'],
+  ['What can I do with my eye shape?', 'It is mainly useful for makeup, brows and glasses. Upturned eyes suit lifted liner; downturned eyes often look more open with liner kept to the upper outer third; wide-set eyes pair well with frames that have a lower bridge. The try-on studio in the 30-day plan lets you try frames on your own photo.'],
 ];
 const schema = {
   '@context': 'https://schema.org',
@@ -46,5 +46,5 @@ const schema = {
     <h2>Questions</h2>
     {faq.map(([q, a]) => <><h3>{q}</h3><p>{a}</p></>)}
   </article>
-  <section class="max-w-6xl mx-auto px-6 pb-20"><ProShowcase source={source} withProblem={false} heading="Go beyond the preview." /></section>
+  <section class="max-w-6xl mx-auto px-6 pb-20"><GlowPlanTeaser source={source} heading="Go beyond the preview." /></section>
 </BaseLayout>

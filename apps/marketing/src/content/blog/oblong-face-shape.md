@@ -129,7 +129,7 @@ Treat your result as **a likely shape, not a verdict**. Choose styling that work
 If you want a second read alongside your mirror check, you can use the [Aura Face Shape Finder](https://app.aura-looksmaxxing.com/tools/face-shape-detector?source=%2Fblog%2Foblong-face-shape). It works in two parts:
 
 - **The free part** is an on-device preview that estimates face shape in your browser without uploading your photo.
-- **The fuller AI report** is part of Aura Pro, a paid subscription. It gives your likely face shape with its uncertainty, explains your forehead, cheek and jaw proportions, and suggests haircut and accessory options. It does not claim exact physical measurements.
+- **The fuller AI report** is part of the 30-Day Glow-Up Plan, a one-time purchase of $14.99. It gives your likely face shape with its uncertainty, explains your forehead, cheek and jaw proportions, and suggests haircut and accessory options. It does not claim exact physical measurements.
 
 ## Haircuts for an Oblong Face Shape
 

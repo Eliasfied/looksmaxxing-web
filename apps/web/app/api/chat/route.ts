@@ -3,13 +3,16 @@ import { getSessionUser } from '@/lib/firebase/server'
 import { getLatestScan, redactLockedScan } from '@/lib/firebase/scans'
 import { getPlan, reserveFreeCoachMessage } from '@/lib/entitlement'
 import { getActivePlan } from '@/lib/routines'
+import { getGlowState } from '@/lib/glow-store'
+import { AREA_LABELS, checklistForDay, planDay } from '@/lib/glow-plan'
 import { aiModelOptions, aiProxyUrl, completedAIText } from '@/lib/ai-model'
 
 export const maxDuration = 60
 
 function buildSystemMessage(
   scan: Awaited<ReturnType<typeof getLatestScan>>,
-  activePlan: Awaited<ReturnType<typeof getActivePlan>>
+  activePlan: Awaited<ReturnType<typeof getActivePlan>>,
+  glow: Awaited<ReturnType<typeof getGlowState>> | null = null
 ): string {
   const lines: string[] = [
     'You are a friendly looksmaxxing expert. The user has face analysis data from this app. Use it to personalize answers.',
@@ -47,6 +50,18 @@ function buildSystemMessage(
       }
     }
     lines.push('')
+  }
+
+  if (glow?.plan && glow.startedAt) {
+    const day = planDay(glow.startedAt)
+    const open = checklistForDay(glow.plan, day).filter((i) => !glow.done[i.key])
+    lines.push(`USER IS ON DAY ${day} OF THEIR 30-DAY GLOW-UP PLAN: ${glow.plan.headline}`)
+    for (const f of glow.plan.focus) lines.push(`- focus ${AREA_LABELS[f.area]}: ${f.title}. Goal: ${f.goal}`)
+    lines.push(`- morning routine: ${glow.plan.morning.map((s) => s.step).join(", ")}`)
+    lines.push(`- evening routine: ${glow.plan.evening.map((s) => s.step).join(", ")}`)
+    for (const item of open.slice(0, 10)) lines.push(`- open today: ${item.text}`)
+    lines.push("Help them follow this plan. Keep advice consistent with it unless they ask to change something.")
+    lines.push("")
   }
 
   if (activePlan) {
@@ -96,14 +111,19 @@ export async function POST(request: Request) {
   const plan = await getPlan(user.id)
   if (!plan.pro && !(await reserveFreeCoachMessage(user.id)))
     return NextResponse.json(
-      { error: 'Your free coach messages are used up. Aura Pro unlocks unlimited coaching.', upgrade: true },
+      { error: 'Your free coach messages are used up. The 30-day plan or Aura Pro unlock unlimited coaching.', upgrade: true },
       { status: 402 }
     )
 
-  const [latestScan, activePlan] = await Promise.all([getLatestScan(user.id), getActivePlan(user.id)])
+  const [latestScan, activePlan, glow] = await Promise.all([
+    getLatestScan(user.id),
+    getActivePlan(user.id),
+    getGlowState(user.id)
+  ])
   const systemMessage = buildSystemMessage(
     latestScan && redactLockedScan(latestScan, plan.pro),
-    activePlan
+    activePlan,
+    glow
   )
 
   const openaiRes = await fetch(aiProxyUrl('chat'), {

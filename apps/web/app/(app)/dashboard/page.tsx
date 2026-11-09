@@ -10,7 +10,8 @@ import { getCredits } from '@/lib/firebase/credits'
 import { appConfig } from '@/lib/config'
 import { ScanUploader } from '@/components/scan-uploader'
 import { ScoreChart } from '@/components/score-chart'
-import { ProSales, ProTeaser } from '@/components/pro-sales'
+import { ProTeaser } from '@/components/pro-sales'
+import { GlowSales } from '@/components/glow-sales'
 import { ResultsClient } from './results-client'
 
 const RESCAN_DAYS = 30
@@ -79,7 +80,7 @@ export default async function DashboardPage() {
         <div className="relative flex flex-wrap items-end justify-between gap-8">
           <div>
             <p className="text-xs font-bold uppercase tracking-[0.2em] text-fuchsia-300">
-              {plan.pro ? 'Aura Pro' : 'Your glow-up'}
+              {plan.subscribed ? 'Aura Pro' : plan.glow?.active ? '30-Day Glow-Up Plan' : 'Your glow-up'}
             </p>
             <h1 className="mt-3 text-4xl font-black leading-tight sm:text-5xl">
               {latest ? 'Your glow-up, at a glance.' : 'Let’s find your starting point.'}
@@ -122,11 +123,25 @@ export default async function DashboardPage() {
         </div>
       </section>
 
+      {plan.glow && (
+        <Link
+          href="/glow-up"
+          className="flex flex-wrap items-center justify-between gap-4 rounded-[2rem] border border-fuchsia-400/30 bg-gradient-to-r from-fuchsia-600/20 via-[#120d1c] to-violet-600/20 p-6 transition hover:border-fuchsia-400/60"
+        >
+          <span>
+            <span className="block text-xs font-bold uppercase tracking-[0.18em] text-fuchsia-200">30-Day Glow-Up Plan</span>
+            <span className="mt-2 block text-2xl font-black">Open today’s checklist</span>
+            <span className="mt-1 block text-sm text-white/60">Your routine, today’s tasks and your progress.</span>
+          </span>
+          <span className="btn-gradient rounded-full px-6 py-3 text-sm font-bold text-white">Go to my plan →</span>
+        </Link>
+      )}
+
       {!plan.pro && (
         <ProTeaser
           targetId="aura-pro"
-          title="Get the full glow-up with Aura Pro"
-          text="Your scans, all 11 analyses, the try-on studio, a daily plan and a coach who knows your face."
+          title="Your 30-day glow-up, planned for you"
+          text="A big scan, a daily checklist for skin, hair, jawline, nutrition, training and style, try-ons and a coach. Paid once."
         />
       )}
 
@@ -134,8 +149,10 @@ export default async function DashboardPage() {
         <Tile href="/progress" icon={LineChart} title="Progress" className="md:col-span-4">
           <ScoreChart points={history} />
         </Tile>
-        <Tile href="/plan" icon={ListChecks} title="My plan" className="md:col-span-2">
-          {activePlan ? (
+        <Tile href={plan.glow || !activePlan ? '/glow-up' : '/plan'} icon={ListChecks} title="My plan" className="md:col-span-2">
+          {plan.glow ? (
+            <span className="text-sm text-white/55">Your 30-day plan: today’s routine, tasks and habits.</span>
+          ) : activePlan ? (
             <>
               <span className="block text-3xl font-black">{planPct}%</span>
               <span className="mt-1 block text-sm text-white/55">
@@ -147,13 +164,13 @@ export default async function DashboardPage() {
               {activePlan.open[0] && <span className="mt-4 block text-sm text-white/70">Next: {activePlan.open[0]}</span>}
             </>
           ) : (
-            <span className="text-sm text-white/55">Turn a report into a daily checklist your coach follows.</span>
+            <span className="text-sm text-white/55">Get a personal 30-day plan built from a big face scan.</span>
           )}
         </Tile>
         <Tile href="/studio" icon={Wand2} title="Try-on studio" className="md:col-span-2">
-          <span className="block text-3xl font-black">{plan.pro ? tryOnsLeft : 'Pro'}</span>
+          <span className="block text-3xl font-black">{plan.pro ? tryOnsLeft : 'Plan'}</span>
           <span className="mt-1 block text-sm text-white/55">
-            {plan.pro ? 'looks left this month' : 'Haircuts, color, beard, glasses, bald preview'}
+            {plan.pro ? 'looks left' : 'Haircuts, color, beard, glasses, Future Me'}
           </span>
         </Tile>
         <Tile href="/tools" icon={ScanFace} title="Analyses" className="md:col-span-2">
@@ -192,7 +209,7 @@ export default async function DashboardPage() {
 
       {!plan.pro && (
         <div id="aura-pro" className="scroll-mt-10 pt-16">
-          <ProSales signedIn returnTo="/dashboard" placement="dashboard" />
+          <GlowSales embedded signedIn placement="dashboard" />
         </div>
       )}
     </div>

@@ -5,9 +5,10 @@ import { safeToolReturn } from '@/lib/tool-report'
 import Image from 'next/image'
 import Link from 'next/link'
 import { useRouter, useSearchParams } from 'next/navigation'
-import { signInWithEmailAndPassword, signInWithPopup, GoogleAuthProvider } from 'firebase/auth'
+import { getAdditionalUserInfo, signInWithEmailAndPassword, signInWithPopup, GoogleAuthProvider } from 'firebase/auth'
 import { auth } from '@/lib/firebase/client'
 import { appConfig } from '@/lib/config'
+import { trackAuth } from '@/lib/track-auth'
 
 async function createSession(idToken: string) {
   const res = await fetch('/api/auth/session', {
@@ -35,6 +36,7 @@ export default function LoginPage() {
       const credential = await signInWithEmailAndPassword(auth, email, password)
       const idToken = await credential.user.getIdToken()
       await createSession(idToken)
+      trackAuth('login', 'email', credential.user.uid, 'login')
       router.push(returnTo ?? '/dashboard')
       router.refresh()
     } catch (err: unknown) {
@@ -52,6 +54,9 @@ export default function LoginPage() {
       const credential = await signInWithPopup(auth, provider)
       const idToken = await credential.user.getIdToken()
       await createSession(idToken)
+      // Google creates the account on first sign-in, even from this page.
+      const isNew = getAdditionalUserInfo(credential)?.isNewUser === true
+      trackAuth(isNew ? 'signup' : 'login', 'google', credential.user.uid, 'login')
       router.push(returnTo ?? '/dashboard')
       router.refresh()
     } catch (err: unknown) {
