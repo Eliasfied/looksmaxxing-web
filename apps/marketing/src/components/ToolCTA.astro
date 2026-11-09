@@ -51,7 +51,7 @@ const variant = nonSurgical ? 'non-surgical' : planFirst ? 'plan-first' : 'tool-
   {!compact && <ul class="my-5 grid gap-2 text-sm text-[#ddd] sm:grid-cols-3">{['Face shape, symmetry and eyes', 'Day 1 of your glow-up plan', 'No account needed'].map(label => <li class="rounded-xl border border-white/10 p-3">{label}</li>)}</ul>}
   <div class="mt-5 flex flex-wrap items-center gap-4">
     <a href={href} data-tool={tool!.slug} data-placement={placement} data-cta-rollout={CONTENT_CTA_ROLLOUT} data-variant={variant} class="inline-flex rounded-xl btn-gradient px-6 py-3 text-sm font-bold text-white">Start my free preview →</a>
-    <a href={planHref} data-placement={placement} data-variant={variant} class="text-sm text-[#aaa] underline-offset-4 hover:underline">or see the 30-day plan ({price} once)</a>
+    <a href={planHref} data-placement={placement} data-variant={variant} class="text-sm text-[#aaa] underline-offset-4 hover:underline">or see the 30-day plan</a>
   </div>
   <p class="mt-3 text-xs text-[#888]">Free, on your device, your photo is not uploaded. Includes day 1 of your 30-day plan.</p>
 </aside>
