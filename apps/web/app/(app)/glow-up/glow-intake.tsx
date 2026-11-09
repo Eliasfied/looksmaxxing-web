@@ -6,6 +6,7 @@ import posthog from 'posthog-js'
 import { ArrowLeft, Camera, Check, ScanFace, Sparkles } from 'lucide-react'
 import { preparePhoto } from '@/lib/prepare-photo'
 import { AREA_LABELS, AREAS, type Area, type GlowIntake } from '@/lib/glow-plan'
+import { clearGlowPhoto, readGlowPhoto } from '@/lib/glow-handoff'
 import { cn } from '@/lib/utils'
 
 type Draft = Partial<GlowIntake> & { goals: Area[]; skinConcerns: string[]; hairConcerns: string[] }
@@ -96,9 +97,13 @@ export function GlowIntake({ initial, recentScanId }: { initial?: GlowIntake | n
   const [error, setError] = useState('')
   const [tick, setTick] = useState(0)
   const [useRecent, setUseRecent] = useState(Boolean(initial && recentScanId))
+  // The selfie from the tool page the plan was bought on, if any.
+  const [handoff, setHandoff] = useState<string | null>(() => readGlowPhoto())
 
   useEffect(() => {
-    posthog.capture('glow_intake_started')
+    posthog.capture('glow_intake_started', { photo_handoff: Boolean(readGlowPhoto()), rebuild: Boolean(initial) })
+    // Once per visit to the questionnaire.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
   useEffect(() => {
     if (phase !== 'generating') return
@@ -139,6 +144,7 @@ export function GlowIntake({ initial, recentScanId }: { initial?: GlowIntake | n
       return
     }
     posthog.capture('glow_plan_created', { audience: d.audience, goals: d.goals.length })
+    clearGlowPhoto()
     router.refresh()
   }
 
@@ -147,21 +153,40 @@ export function GlowIntake({ initial, recentScanId }: { initial?: GlowIntake | n
     setError('')
     setPhase('scanning')
     try {
-      const imageBase64 = await preparePhoto(file)
-      const res = await fetch('/api/analyze', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ imageBase64 })
-      })
-      const data = await res.json()
-      if (!res.ok) throw new Error(data.error ?? 'Analysis failed. Please try again.')
-      if ((data.scan?.confidence ?? 1) < 0.4) throw new Error('We could not see a face clearly. Use a front-facing photo in good light.')
-      posthog.capture('face_scan_completed', { placement: 'glow-intake' })
-      await generate(data.scan.id)
+      await scanImage(await preparePhoto(file), 'upload')
     } catch (e) {
       setPhase('form')
       setError(e instanceof Error ? e.message : 'Analysis failed.')
     }
+  }
+
+  async function scanHandoff() {
+    if (!handoff) return
+    setError('')
+    setPhase('scanning')
+    try {
+      await scanImage(handoff, 'tool-photo')
+    } catch (e) {
+      // A photo that fails here will fail again: ask for a new selfie instead.
+      clearGlowPhoto()
+      setHandoff(null)
+      setPhase('form')
+      setError(e instanceof Error ? e.message : 'Analysis failed.')
+    }
+  }
+
+  /** Scans the selfie, then builds the plan. Throws when the scan fails. */
+  async function scanImage(imageBase64: string, photo: 'upload' | 'tool-photo') {
+    const res = await fetch('/api/analyze', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ imageBase64 })
+    })
+    const data = await res.json()
+    if (!res.ok) throw new Error(data.error ?? 'Analysis failed. Please try again.')
+    if ((data.scan?.confidence ?? 1) < 0.4) throw new Error('We could not see a face clearly. Use a front-facing photo in good light.')
+    posthog.capture('face_scan_completed', { placement: 'glow-intake', photo })
+    await generate(data.scan.id)
   }
 
   if (phase !== 'form') {
@@ -295,6 +320,22 @@ export function GlowIntake({ initial, recentScanId }: { initial?: GlowIntake | n
               <button type="button" onClick={() => void generate(recentScanId)} className="btn-gradient mt-6 inline-flex items-center gap-2 rounded-2xl px-8 py-4 text-lg font-bold text-white">
                 <Sparkles className="h-5 w-5" aria-hidden /> Build my plan
               </button>
+            ) : handoff ? (
+              <div className="mt-6">
+                {/* eslint-disable-next-line @next/next/no-img-element -- local data URL, never sent to an image service */}
+                <img src={handoff} alt="The photo you just used for the free preview" className="mx-auto max-h-40 rounded-2xl object-contain" />
+                <button
+                  type="button"
+                  onClick={() => void scanHandoff()}
+                  className="btn-gradient mt-5 inline-flex items-center gap-2 rounded-2xl px-8 py-4 text-lg font-bold text-white"
+                >
+                  <Sparkles className="h-5 w-5" aria-hidden /> Use this photo
+                </button>
+                <label className="mt-4 block cursor-pointer text-sm font-semibold text-white/60 hover:text-white">
+                  or upload a different selfie
+                  <input type="file" accept="image/jpeg,image/png,image/webp" className="sr-only" onChange={(e) => void scan(e.target.files?.[0])} />
+                </label>
+              </div>
             ) : (
               <label className="btn-gradient mt-6 inline-flex cursor-pointer items-center gap-2 rounded-2xl px-8 py-4 text-lg font-bold text-white">
                 <Camera className="h-5 w-5" aria-hidden /> Upload my selfie

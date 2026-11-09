@@ -7,11 +7,13 @@ import Link from 'next/link'
 import { useRouter, useSearchParams } from 'next/navigation'
 import {
   createUserWithEmailAndPassword,
+  getAdditionalUserInfo,
   signInWithPopup,
   GoogleAuthProvider,
 } from 'firebase/auth'
 import { auth } from '@/lib/firebase/client'
 import { appConfig } from '@/lib/config'
+import { trackAuth } from '@/lib/track-auth'
 import posthog from 'posthog-js'
 
 async function createSession(idToken: string) {
@@ -36,11 +38,15 @@ export default function RegisterPage() {
     setError(null)
     setLoading(true)
     try {
-      posthog.capture('signup', { method: 'google' })
+      // The click alone is not a sign-up: many close the Google popup.
+      posthog.capture('signup_started', { method: 'google' })
       const provider = new GoogleAuthProvider()
       const credential = await signInWithPopup(auth, provider)
       const idToken = await credential.user.getIdToken()
       await createSession(idToken)
+      // An existing Google account on the sign-up page is a sign-in.
+      const isNew = getAdditionalUserInfo(credential)?.isNewUser !== false
+      trackAuth(isNew ? 'signup' : 'login', 'google', credential.user.uid, 'register')
       router.push(returnTo ?? '/onboarding/quiz')
       router.refresh()
     } catch (err: unknown) {
@@ -61,10 +67,11 @@ export default function RegisterPage() {
 
     setLoading(true)
     try {
+      posthog.capture('signup_started', { method: 'email' })
       const credential = await createUserWithEmailAndPassword(auth, email, password)
-      posthog.capture('signup', { method: 'email' })
       const idToken = await credential.user.getIdToken()
       await createSession(idToken)
+      trackAuth('signup', 'email', credential.user.uid, 'register')
       router.push(returnTo ?? '/onboarding/quiz')
       router.refresh()
     } catch (err: unknown) {

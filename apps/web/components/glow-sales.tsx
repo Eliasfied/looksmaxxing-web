@@ -161,6 +161,7 @@ export function GlowSales({
   intro,
   onActivated,
   beforeCheckout,
+  autoCheckout = false,
   embedded = false
 }: {
   signedIn: boolean
@@ -171,6 +172,8 @@ export function GlowSales({
   onActivated?: () => void | Promise<void>
   /** Called right before sign-up or checkout, e.g. to keep a chosen photo. */
   beforeCheckout?: () => void
+  /** The visitor clicked buy, signed up and came back: open the checkout at once. */
+  autoCheckout?: boolean
   /** Inside another page: the hero title becomes an h2. */
   embedded?: boolean
 }) {
@@ -202,6 +205,11 @@ export function GlowSales({
       b.disconnect()
     }
   }, [placement])
+
+  // Back from sign-up: show the offer the checkout opens over.
+  useEffect(() => {
+    if (autoCheckout) document.getElementById(offerId)?.scrollIntoView({ block: 'start' })
+  }, [autoCheckout])
 
   const toOffer = () => {
     posthog.capture('glow_sales_cta', { placement })
@@ -407,7 +415,14 @@ export function GlowSales({
           <h2 className="mt-4 text-3xl font-black sm:text-5xl">Everything for 30 days. Paid once.</h2>
         </Reveal>
         <Reveal delay={100} className="mx-auto max-w-3xl">
-          <GlowOffer id={offerId} signedIn={signedIn} placement={placement} returnTo={returnTo} onActivated={onActivated} />
+          <GlowOffer
+            id={offerId}
+            signedIn={signedIn}
+            placement={placement}
+            returnTo={returnTo}
+            onActivated={onActivated}
+            autoCheckout={autoCheckout}
+          />
         </Reveal>
       </section>
 

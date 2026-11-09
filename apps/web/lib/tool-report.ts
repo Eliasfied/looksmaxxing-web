@@ -76,13 +76,22 @@ export function previewReport(id: string, tool: string, report: ToolReport): Too
 }
 
 // Only same-app paths we route back to after sign-up, never an open redirect.
+// `checkout=1` means "the visitor already clicked buy": the page opens the
+// checkout by itself instead of making them find the button a second time.
 export function safeToolReturn(value: string | null | undefined) {
   return value &&
     (/^\/tools\/result\/[a-f0-9]{40}(?:\?checkout=1)?$/.test(value) ||
-      /^\/tools\/[a-z0-9-]+\?resume=1$/.test(value) ||
-      /^\/(?:onboarding\/pricing|pricing|dashboard|studio|progress|plan|chat|glow-up)$/.test(value))
+      /^\/tools\/[a-z0-9-]+\?resume=1(?:&checkout=1)?$/.test(value) ||
+      /^\/glow-up(?:\?checkout=1)?$/.test(value) ||
+      /^\/(?:onboarding\/pricing|pricing|dashboard|studio|progress|plan|chat)$/.test(value))
     ? value
     : null
+}
+
+/** The same return path, marked so the page continues straight to checkout. */
+export function withCheckout(path: string) {
+  if (/[?&]checkout=1(?:&|$)/.test(path)) return path
+  return `${path}${path.includes('?') ? '&' : '?'}checkout=1`
 }
 
 export function isPhotoData(value: unknown): value is string {

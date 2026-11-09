@@ -16,12 +16,18 @@ function isRecent(iso: string) {
   return Date.now() - Date.parse(iso) < 7 * 86_400_000
 }
 
-export default async function GlowUpPage({ searchParams }: { searchParams: Promise<{ rebuild?: string }> }) {
+export default async function GlowUpPage({
+  searchParams
+}: {
+  searchParams: Promise<{ rebuild?: string; checkout?: string }>
+}) {
   const user = await getSessionUser()
   if (!user) redirect('/login?next=/glow-up')
-  const [state, latest, { rebuild }] = await Promise.all([getGlowState(user.id), getLatestScan(user.id), searchParams])
+  const [state, latest, { rebuild, checkout }] = await Promise.all([getGlowState(user.id), getLatestScan(user.id), searchParams])
 
-  if (!state.access) return <GlowSales signedIn placement="glow-up" />
+  // `checkout=1`: the visitor clicked "Start my plan" on the sales page, then
+  // signed up. Open the checkout instead of showing the same page again.
+  if (!state.access) return <GlowSales signedIn placement="glow-up" autoCheckout={checkout === '1'} />
 
   const canRebuild = state.generations < MAX_GENERATIONS
   const recent = latest && isRecent(latest.createdAt) ? latest.id : null

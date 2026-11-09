@@ -16,6 +16,67 @@ const purchases = new Set([
 const lifecycle = new Set(['CANCELLATION', 'EXPIRATION', 'UNCANCELLATION', 'SUBSCRIPTION_EXTENDED'])
 const key = (s: string) => createHash('sha256').update(s).digest('hex')
 
+/** Same 8-4-4-4-12 shape PostHog expects; equal keys give equal ids, so a retry is deduplicated. */
+function uuidFor(s: string) {
+  const h = key(s)
+  const variant = ((parseInt(h[16], 16) & 0x3) | 0x8).toString(16)
+  return `${h.slice(0, 8)}-${h.slice(8, 12)}-5${h.slice(13, 16)}-${variant}${h.slice(17, 20)}-${h.slice(20, 32)}`
+}
+
+/**
+ * The analytics event for a processed RevenueCat event, or null when there is
+ * none. The sale is keyed by the store transaction, like `billing_purchases`,
+ * so one payment is one event however often RevenueCat delivers it.
+ */
+export function analyticsForRevenueCatEvent(event: Event): {
+  event: string
+  properties: Record<string, unknown>
+  options: { uuid: string; timestamp?: string }
+} | null {
+  const occurred = Number(event.event_timestamp_ms)
+  const timestamp = Number.isFinite(occurred) && occurred > 0 ? new Date(occurred).toISOString() : undefined
+  const offer = /glow/i.test(event.product_id)
+    ? 'glow_plan'
+    : event.type === 'NON_RENEWING_PURCHASE' || event.type === 'NON_SUBSCRIPTION_PURCHASE'
+      ? 'one_time'
+      : 'pro'
+  const base = {
+    product_id: event.product_id,
+    event_type: event.type,
+    offer,
+    store: typeof event.store === 'string' ? event.store : null,
+    environment: typeof event.environment === 'string' ? event.environment : null
+  }
+  if (purchases.has(event.type)) {
+    const usd = typeof event.price === 'number' && Number.isFinite(event.price) ? event.price : null
+    const transaction =
+      typeof event.transaction_id === 'string'
+        ? `${event.store}:${event.app_user_id}:${event.product_id}:${event.transaction_id}`
+        : event.id
+    return {
+      event: 'purchase_verified',
+      properties: {
+        ...base,
+        renewal: event.type === 'RENEWAL',
+        trial: event.period_type === 'TRIAL',
+        revenue: usd,
+        currency: typeof event.currency === 'string' ? event.currency : null,
+        price_in_purchased_currency:
+          typeof event.price_in_purchased_currency === 'number' ? event.price_in_purchased_currency : null
+      },
+      options: { uuid: uuidFor(`purchase:${transaction}`), timestamp }
+    }
+  }
+  if (event.type === 'CANCELLATION' || event.type === 'EXPIRATION') {
+    return {
+      event: event.type === 'CANCELLATION' ? 'subscription_cancelled' : 'subscription_expired',
+      properties: { ...base, reason: typeof event.cancel_reason === 'string' ? event.cancel_reason : null },
+      options: { uuid: uuidFor(`lifecycle:${event.id}`), timestamp }
+    }
+  }
+  return null
+}
+
 // Receipt, credits and ledger commit together; concurrent retries cannot double-grant.
 export async function applyRevenueCatEvent(db: Firestore, event: Event) {
   if (!purchases.has(event.type) && !lifecycle.has(event.type)) return { ignored: true }

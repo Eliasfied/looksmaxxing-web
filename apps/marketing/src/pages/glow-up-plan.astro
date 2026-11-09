@@ -13,7 +13,9 @@ const compare = glow.compareAtPrice && glow.compareAtPrice > glow.price ? `$${gl
 const discount = compare ? Math.round((1 - glow.price / glow.compareAtPrice!) * 100) : 0;
 const looks = Math.floor(glow.credits / appConfig.credits.tryOn);
 // The real source is filled in on the client from ?source=, see the script below.
-const cta = `${appUrl}/register?next=%2Fglow-up&source=%2Fglow-up-plan`;
+// `checkout=1` opens the checkout right after sign-up instead of showing the
+// sales page a second time; `entry` tells the app this path came through here.
+const cta = `${appUrl}/register?next=${encodeURIComponent('/glow-up?checkout=1')}&source=%2Fglow-up-plan&entry=%2Fglow-up-plan`;
 
 const problems = [
   ['Random advice', 'One video says mewing, the next says retinol, the third sells a jawline gadget. Nothing adds up to a plan you can follow.'],

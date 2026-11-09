@@ -40,6 +40,13 @@ function PageViewTracker({ children }: { children: React.ReactNode }) {
     if (source && source.startsWith('/') && !source.startsWith('//')) {
       posthog.register({ aura_source: source })
     }
+    // Which marketing page sent them into the app, when it is not the article
+    // itself: the plan's sales page passes `entry=/glow-up-plan` and keeps the
+    // article in `source`, so both the path and the origin stay visible.
+    const entry = searchParams.get('entry')
+    if (entry && /^\/[a-z0-9/-]{1,80}$/.test(entry)) {
+      posthog.register({ aura_entry: entry })
+    }
     posthog.capture('$pageview', { $current_url: window.location.href })
   }, [pathname, searchParams])
 

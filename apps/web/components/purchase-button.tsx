@@ -1,6 +1,6 @@
 'use client'
 
-import { useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import { useRouter } from 'next/navigation'
 import Link from 'next/link'
 import { Purchases, PurchasesError, ErrorCode } from '@revenuecat/purchases-js'
@@ -15,6 +15,12 @@ interface PurchaseButtonProps {
   className?: string
   successRedirect?: string
   onSuccess?: () => void | Promise<void>
+  /** Where the offer was shown, e.g. `tool:ai-face-rating`. Sent with every checkout event. */
+  placement?: string
+  /** Which offer this is, e.g. `glow_plan` or `pro`. */
+  offer?: string
+  /** Open the checkout once on mount: the visitor already clicked buy before signing up. */
+  autoStart?: boolean
 }
 
 function SuccessModal({ productName, onClose }: { productName: string; onClose: () => void }) {
@@ -69,21 +75,36 @@ export async function waitForPro(attempts = 20) {
   return false
 }
 
-export function PurchaseButton({ productId, productName, children, className, successRedirect, onSuccess }: PurchaseButtonProps) {
+export function PurchaseButton({
+  productId,
+  productName,
+  children,
+  className,
+  successRedirect,
+  onSuccess,
+  placement,
+  offer,
+  autoStart = false
+}: PurchaseButtonProps) {
   const [loading, setLoading] = useState(false)
   const [error, setError] = useState<string | null>(null)
   const [showSuccess, setShowSuccess] = useState(false)
   const [purchasedName, setPurchasedName] = useState('')
   const router = useRouter()
+  const autoStarted = useRef(false)
 
-  async function handlePurchase() {
+  async function handlePurchase(auto = false) {
     setLoading(true)
     setError(null)
+    const props = { product_id: productId, placement: placement ?? null, offer: offer ?? null }
 
     try {
       await auth.authStateReady()
       const user = auth.currentUser
       if (!user) throw new Error('Not logged in')
+      // The RevenueCat webhook reports the verified sale under this id, so the
+      // browser's anonymous visitor must be linked to it before paying.
+      if (posthog.get_distinct_id() !== user.uid) posthog.identify(user.uid)
 
       const purchases = Purchases.configure(
         process.env.NEXT_PUBLIC_REVENUECAT_API_KEY!,
@@ -96,14 +117,15 @@ export function PurchaseButton({ productId, productName, children, className, su
 
       if (!pkg) {
         setError('Product not found. Please try again later.')
+        posthog.capture('checkout_failed', { ...props, reason: 'product_not_found' })
         return
       }
 
-      posthog.capture('checkout_started', { product_id: productId })
+      posthog.capture('checkout_started', { ...props, auto })
       await purchases.purchase({ rcPackage: pkg })
 
       const name = productName ?? pkg.rcBillingProduct.displayName ?? productId
-      posthog.capture('purchase_completed', { product_id: productId, product_name: name })
+      posthog.capture('purchase_completed', { ...props, product_name: name })
 
       if (onSuccess) {
         await onSuccess()
@@ -124,16 +146,27 @@ export function PurchaseButton({ productId, productName, children, className, su
       setTimeout(() => router.refresh(), 7000)
     } catch (err) {
       if (err instanceof PurchasesError && err.errorCode === ErrorCode.UserCancelledError) {
-        posthog.capture('checkout_cancelled', { product_id: productId })
+        posthog.capture('checkout_cancelled', props)
         return
       }
       setError('Something went wrong. Please try again.')
-      posthog.capture('checkout_failed', { product_id: productId })
+      posthog.capture('checkout_failed', {
+        ...props,
+        reason: err instanceof PurchasesError ? String(err.errorCode) : err instanceof Error ? err.message.slice(0, 120) : 'unknown'
+      })
       console.error('[PurchaseButton]', err)
     } finally {
       setLoading(false)
     }
   }
+
+  useEffect(() => {
+    if (!autoStart || autoStarted.current) return
+    autoStarted.current = true
+    void handlePurchase(true)
+    // Runs once, when the page decides the visitor is ready to pay.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [autoStart])
 
   return (
     <>
@@ -146,7 +179,7 @@ export function PurchaseButton({ productId, productName, children, className, su
       <div className="w-full">
         <button
           type="button"
-          onClick={handlePurchase}
+          onClick={() => void handlePurchase()}
           disabled={loading}
           className={className}
         >

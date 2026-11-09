@@ -130,6 +130,8 @@ export function ProPaywall({
                 productId={plan.rcProductId}
                 productName={`Aura Pro ${plan.name}`}
                 onSuccess={activated}
+                placement={placement}
+                offer="pro"
                 className="btn-gradient w-full rounded-2xl px-8 py-4 text-lg font-bold text-white shadow-lg shadow-fuchsia-900/40 transition hover:brightness-110 disabled:opacity-60"
               >
                 {activating ? 'Activating Pro…' : 'Get Aura Pro'}
