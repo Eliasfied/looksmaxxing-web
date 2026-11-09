@@ -9,7 +9,8 @@ import { Lock, Sparkles, Upload } from 'lucide-react'
 import type { ToolDefinition } from '@/lib/tool-report'
 import { FacePreview } from '@/components/face-preview'
 import { preparePhoto } from '@/lib/prepare-photo'
-import { ProSales, ProTeaser } from '@/components/pro-sales'
+import { ProTeaser } from '@/components/pro-sales'
+import { GlowSales } from '@/components/glow-sales'
 import type { FaceGeometry } from '../../../../../config/face-geometry'
 import { analyzePhoto, imageFrom, preloadFaceLandmarker } from '../../../../../config/face-landmarker'
 
@@ -278,8 +279,8 @@ export function ToolUpload({ tool }: { tool: ToolDefinition }) {
                 title={geometry ? 'Want the full picture?' : 'The free preview is just the start'}
                 text={
                   geometry
-                    ? 'Aura Pro writes your personal report from this photo and shows the looks that suit you on your own face.'
-                    : 'Aura Pro turns your photo into a personal report, try-ons, a plan and a coach.'
+                    ? 'The 30-day plan writes your full report from this photo, then turns it into daily steps and try-ons on your own face.'
+                    : 'The 30-day plan turns your photo into a full report, a daily checklist, try-ons and a coach.'
                 }
               />
             )
@@ -289,11 +290,12 @@ export function ToolUpload({ tool }: { tool: ToolDefinition }) {
 
       {me && !me.pro && (
         <div id="aura-pro" className="mt-28 scroll-mt-10">
-          <ProSales
+          <GlowSales
+            embedded
             signedIn={me.signedIn}
             returnTo={`/tools/${tool.slug}?resume=1`}
             placement={`tool:${tool.slug}`}
-            intro={geometry ? `Your free preview says ${geometry.faceShape.shape.toLowerCase()} face. Here is what Pro does with that.` : undefined}
+            intro={geometry ? `Your free preview says ${geometry.faceShape.shape.toLowerCase()} face. Here is what your 30-day plan does with that.` : undefined}
             beforeCheckout={rememberForCheckout}
             onActivated={() => {
               autoRan.current = false

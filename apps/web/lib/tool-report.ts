@@ -80,7 +80,7 @@ export function safeToolReturn(value: string | null | undefined) {
   return value &&
     (/^\/tools\/result\/[a-f0-9]{40}(?:\?checkout=1)?$/.test(value) ||
       /^\/tools\/[a-z0-9-]+\?resume=1$/.test(value) ||
-      /^\/(?:onboarding\/pricing|pricing|dashboard|studio|progress|plan|chat)$/.test(value))
+      /^\/(?:onboarding\/pricing|pricing|dashboard|studio|progress|plan|chat|glow-up)$/.test(value))
     ? value
     : null
 }

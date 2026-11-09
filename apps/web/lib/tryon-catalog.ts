@@ -4,7 +4,7 @@
 export const FACE_SHAPES = ['Oval', 'Square', 'Round', 'Oblong', 'Heart', 'Diamond'] as const
 export type FaceShape = (typeof FACE_SHAPES)[number]
 
-export type TryOnType = 'hair' | 'color' | 'beard' | 'glasses' | 'bald'
+export type TryOnType = 'hair' | 'color' | 'beard' | 'glasses' | 'bald' | 'future'
 
 export interface TryOnOption {
   id: string
@@ -121,6 +121,15 @@ export const TRYON_CATALOG: TryOnCategory[] = [
     label: 'Bald preview',
     blurb: 'Curious how a shaved head would look? Check before you commit.',
     options: ['Clean Shaved Head', 'Skin Fade Buzz', 'Bald with Stubble'].map(plain)
+  },
+  {
+    type: 'future',
+    label: 'Future Me',
+    blurb: 'A goal picture of what 30 days of routine can realistically change: skin, grooming, rest. Not a prediction.',
+    options: [
+      { id: 'day-30', label: 'Day 30, same hair' },
+      { id: 'day-30-fresh-cut', label: 'Day 30, fresh cut' }
+    ]
   }
 ]
 
@@ -148,5 +157,23 @@ export function tryOnPrompt(type: TryOnType, label: string, faceShape?: FaceShap
       return `Add ${label} to this person, sized and positioned naturally on their face. ${KEEP}`
     case 'bald':
       return `Show this person with a ${label}, as if their head were shaved today. ${KEEP}`
+    case 'future':
+      return futurePrompt(label.includes('fresh cut'), faceShape)
   }
+}
+
+// Only what a month of routine can change. Bone structure, features, age and
+// body type stay, so the picture never promises what the plan cannot deliver.
+function futurePrompt(freshCut: boolean, faceShape?: FaceShape | null) {
+  const cut = freshCut
+    ? ` Give them a clearly new, professionally cut and styled haircut that suits ${faceShape ? `a ${faceShape.toLowerCase()} face` : 'their face'}: shaped, defined and freshly styled, keeping their hair color and natural hair texture.`
+    : ' Keep the same haircut length, but freshly trimmed, shaped and styled, with healthy shine and no frizz.'
+  return (
+    'Show this exact same person after 30 days of a consistent skincare, sleep and grooming routine. ' +
+    'The changes must be clearly visible but realistic for one month: visibly clearer, even, healthy-looking skin with ' +
+    'the blemishes healed, less under-eye darkness, neatly shaped and groomed eyebrows, facial hair trimmed to an even, tidy line ' +
+    'or cleanly shaved if it was patchy, a fresh and rested look, upright posture with shoulders back.' +
+    cut +
+    " Do not change bone structure, face shape, jaw, nose, eyes, lips, age, ethnicity, skin tone, body size or expression. Same pose, background and lighting. Photorealistic portrait, not retouched or filtered."
+  )
 }

@@ -1,18 +1,30 @@
 ---
+import { appConfig } from '../lib/config';
 const APP_URL = import.meta.env.PUBLIC_APP_URL ?? 'https://app.aura-looksmaxxing.com';
-const pillars = [
-  ['Analyze', 'Full face scan with PSL score and 9 sub-scores, plus all 11 AI analyses.'],
-  ['Try on', '50 looks a month: haircuts, hair color, beards, glasses, bald preview.'],
-  ['Follow', 'A personal plan with a daily checklist, and an AI coach that knows your face.'],
-  ['Track', 'Monthly check-ins, score history and before/after comparisons.'],
+interface Props { source?: string }
+const { source = '/pricing' } = Astro.props;
+const glow = appConfig.pricing.glowPlan;
+const price = `$${glow.price.toFixed(2)}`;
+const compare = glow.compareAtPrice && glow.compareAtPrice > glow.price ? `$${glow.compareAtPrice.toFixed(2)}` : null;
+const discount = compare ? Math.round((1 - glow.price / glow.compareAtPrice!) * 100) : 0;
+const looks = Math.floor(glow.credits / appConfig.credits.tryOn);
+const monthly = appConfig.pricing.plans.find((p) => p.interval === 'monthly');
+const yearly = appConfig.pricing.plans.find((p) => p.interval === 'yearly');
+const included = [
+  'Big face scan with PSL score and 9 sub-scores',
+  'Personal 30-day plan with a daily checklist',
+  'Morning & evening routine and product list',
+  `${looks} try-ons incl. Future Me`,
+  'AI coach that knows your scan and plan',
+  'Day-30 re-scan and a PDF to keep',
 ];
 const free = ['Face shape, symmetry, canthal tilt and eye shape', 'Measured in your browser, photo not uploaded', 'No account needed'];
 ---
 <section class="px-6 py-16"><div class="max-w-6xl mx-auto">
   <div class="text-center mb-12">
-    <p class="text-sm font-bold uppercase tracking-[0.2em] text-fuchsia-300 mb-3">One app for your whole glow-up</p>
-    <h2 class="text-4xl sm:text-5xl font-black">Free to explore. Pro to change things.</h2>
-    <p class="mt-4 text-[#999] max-w-2xl mx-auto">Start with free previews on your own device. Aura Pro brings analysis, try-ons, your plan, a coach and progress tracking together.</p>
+    <p class="text-sm font-bold uppercase tracking-[0.2em] text-fuchsia-300 mb-3">Pricing</p>
+    <h2 class="text-4xl sm:text-5xl font-black">Free to explore. One plan to change things.</h2>
+    <p class="mt-4 text-[#999] max-w-2xl mx-auto">Start with free previews on your own device. The 30-day plan turns them into daily steps, paid once.</p>
   </div>
   <div class="grid gap-5 lg:grid-cols-[0.8fr_1.2fr]">
     <div class="rounded-[2rem] border border-white/10 bg-[#101010] p-8 flex flex-col">
@@ -22,15 +34,23 @@ const free = ['Face shape, symmetry, canthal tilt and eye shape', 'Measured in y
       <a href="/tools" class="rounded-xl border border-white/15 px-5 py-3 text-center font-bold hover:bg-white/5">Try a free tool</a>
     </div>
     <div class="relative overflow-hidden rounded-[2rem] border border-fuchsia-400/40 bg-gradient-to-br from-fuchsia-950/50 via-[#120d1c] to-violet-950/40 p-8 shadow-[0_0_80px_-20px_rgba(192,38,211,0.5)]">
-      <div class="flex flex-wrap items-start justify-between gap-4">
-        <div><p class="inline-flex rounded-full border border-fuchsia-400/30 bg-fuchsia-500/10 px-3 py-1 text-xs font-bold uppercase tracking-[0.18em] text-fuchsia-200">Aura Pro</p>
-          <p class="mt-5"><span class="text-6xl font-black">$4.17</span><span class="ml-2 text-[#aaa]">/ month</span></p>
-          <p class="mt-1 text-sm text-[#aaa]">$49.99 billed yearly · save 58% · or $9.99 monthly</p></div>
-      </div>
-      <ul class="mt-7 grid gap-3 sm:grid-cols-2">{pillars.map(([title, text]) => <li class="rounded-2xl border border-white/10 bg-white/[0.03] p-4"><p class="font-bold">{title}</p><p class="mt-1 text-sm text-[#aaa] leading-relaxed">{text}</p></li>)}</ul>
-      <a href={`${APP_URL}/tools/ai-face-rating?source=%2Fpricing`} class="mt-7 block btn-gradient rounded-xl px-5 py-4 text-center text-lg font-bold">Start with a free face preview →</a>
-      <p class="mt-3 text-center text-xs text-[#999]">Cancel anytime in your account · Secure checkout by Stripe</p>
+      <p class="inline-flex rounded-full border border-fuchsia-400/30 bg-fuchsia-500/10 px-3 py-1 text-xs font-bold uppercase tracking-[0.18em] text-fuchsia-200">{glow.name}</p>
+      <p class="mt-5 flex flex-wrap items-baseline gap-3">
+        {compare && <span class="text-2xl font-bold text-[#777] line-through">{compare}</span>}
+        <span class="text-6xl font-black">{price}</span>
+        {discount > 0 && <span class="rounded-full bg-fuchsia-600 px-2.5 py-1 text-xs font-black uppercase">−{discount}%</span>}
+      </p>
+      <p class="mt-1 text-sm text-[#aaa]">Paid once · no subscription · {glow.accessDays} days of full access</p>
+      <ul class="mt-7 grid gap-3 sm:grid-cols-2">{included.map((t) => <li class="rounded-2xl border border-white/10 bg-white/[0.03] p-4 text-sm"><span class="text-fuchsia-300">✓</span> {t}</li>)}</ul>
+      <a href={`/glow-up-plan?source=${encodeURIComponent(source)}`} data-placement="pricing-card" class="mt-7 block btn-gradient rounded-xl px-5 py-4 text-center text-lg font-bold">See the 30-day plan →</a>
+      <p class="mt-3 text-center text-xs text-[#999]">Secure checkout by Stripe · For men and women</p>
     </div>
   </div>
-  <p class="mt-6 text-center text-xs text-[#888]">Checkout shows the final price and any applicable taxes. Subscriptions renew until cancelled; access continues until the paid period ends.</p>
+  {monthly && yearly && (
+    <div class="mt-5 flex flex-wrap items-center justify-between gap-4 rounded-[1.5rem] border border-white/10 bg-[#0d0d0d] px-7 py-5">
+      <p><span class="font-bold">Aura Pro subscription</span> <span class="text-[#999]">· everything, ongoing · ${yearly.price.toFixed(2)} a year or ${monthly.price.toFixed(2)} a month · cancel anytime</span></p>
+      <a href={`${APP_URL}/pricing?source=${encodeURIComponent(source)}`} class="text-sm font-bold text-fuchsia-300">Aura Pro →</a>
+    </div>
+  )}
+  <p class="mt-6 text-center text-xs text-[#888]">Checkout shows the final price and any applicable taxes. The 30-day plan does not renew. Subscriptions renew until cancelled; access continues until the paid period ends.</p>
 </div></section>

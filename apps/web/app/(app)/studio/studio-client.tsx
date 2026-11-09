@@ -8,7 +8,7 @@ import { Download, ImagePlus, Sparkles } from 'lucide-react'
 import { cn } from '@/lib/utils'
 import { FACE_SHAPES, TRYON_CATALOG, type FaceShape, type TryOnType } from '@/lib/tryon-catalog'
 import { dataUrlToBlob, preparePhoto } from '@/lib/prepare-photo'
-import { ProSales } from '@/components/pro-sales'
+import { GlowOffer } from '@/components/glow-offer'
 
 type Result = { type: TryOnType; label: string; url: string }
 
@@ -41,14 +41,19 @@ function BeforeAfter({ before, after, label }: { before: string; after: string; 
 export function StudioClient({
   pro,
   faceShape,
-  tryOnsLeft
+  tryOnsLeft,
+  initialType,
+  highlight
 }: {
   pro: boolean
   faceShape: string | null
   tryOnsLeft: number
+  initialType?: TryOnType
+  /** An option the plan picked for this user; shown first and marked. */
+  highlight?: string
 }) {
   const detected = FACE_SHAPES.find((s) => s.toLowerCase() === faceShape?.toLowerCase()) ?? null
-  const [type, setType] = useState<TryOnType>('hair')
+  const [type, setType] = useState<TryOnType>(initialType ?? 'hair')
   const [shape, setShape] = useState<FaceShape | null>(detected)
   const [photo, setPhoto] = useState('')
   const [busy, setBusy] = useState<string | null>(null)
@@ -56,8 +61,9 @@ export function StudioClient({
   const [left, setLeft] = useState(tryOnsLeft)
   const [results, setResults] = useState<Result[]>([])
   const category = TRYON_CATALOG.find((c) => c.type === type)!
-  const options =
+  const sorted =
     type === 'hair' && shape ? [...category.options].sort((a, b) => Number(!!b.shapes?.includes(shape)) - Number(!!a.shapes?.includes(shape))) : category.options
+  const options = highlight ? [...sorted].sort((a, b) => Number(b.id === highlight) - Number(a.id === highlight)) : sorted
   const current = results[0]
 
   async function pick(file: File | undefined) {
@@ -107,7 +113,7 @@ export function StudioClient({
         </div>
         {pro && (
           <p className="rounded-full border border-white/10 bg-white/[0.04] px-4 py-2 text-sm">
-            <span className="font-black">{left}</span> <span className="text-white/55">looks left this month</span>
+            <span className="font-black">{left}</span> <span className="text-white/55">looks left</span>
           </p>
         )}
       </header>
@@ -130,11 +136,11 @@ export function StudioClient({
       </div>
 
       {!pro ? (
-        <ProSales
+        <GlowOffer
           signedIn
-          returnTo="/studio"
+          returnTo="/glow-up"
           placement="studio"
-          intro="The try-on studio is part of Aura Pro."
+          intro="The try-on studio, including Future Me, is part of the 30-day plan and Aura Pro."
         />
       ) : (
         <div className="grid gap-8 lg:grid-cols-[0.9fr_1.1fr]">
@@ -186,7 +192,7 @@ export function StudioClient({
                     disabled={Boolean(busy) || left < 1}
                     className={cn(
                       'group relative overflow-hidden rounded-2xl border text-left transition disabled:cursor-not-allowed',
-                      busy === o.id ? 'border-fuchsia-400' : 'border-white/10 hover:border-fuchsia-400/40',
+                      busy === o.id || o.id === highlight ? 'border-fuchsia-400' : 'border-white/10 hover:border-fuchsia-400/40',
                       busy && busy !== o.id && 'opacity-50'
                     )}
                   >
@@ -199,14 +205,14 @@ export function StudioClient({
                     )}
                     <span className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/90 to-transparent p-3">
                       <span className="block text-sm font-bold leading-tight">{o.label}</span>
-                      {fits && <span className="text-[11px] font-semibold text-fuchsia-300">Suits your face</span>}
+                      {o.id === highlight ? <span className="text-[11px] font-semibold text-fuchsia-300">Picked in your plan</span> : fits && <span className="text-[11px] font-semibold text-fuchsia-300">Suits your face</span>}
                       {busy === o.id && <span className="text-[11px] text-white/70">Generating…</span>}
                     </span>
                   </button>
                 )
               })}
             </div>
-            {left < 1 && <p className="text-sm text-amber-200">Your looks for this month are used up. They refill on your next billing date.</p>}
+            {left < 1 && <p className="text-sm text-amber-200">Your looks are used up. With Aura Pro they refill every month.</p>}
             {error && (
               <p role="alert" className="rounded-xl bg-red-500/10 p-3 text-sm text-red-300">
                 {error}

@@ -21,10 +21,11 @@ const APP_URL = import.meta.env.PUBLIC_APP_URL ?? 'https://app.aura-looksmaxxing
       <a href="/pricing" class="text-[#888] hover:text-white transition-colors text-sm font-medium">Pricing</a>
       <a href={`${APP_URL}/login`} class="text-[#888] hover:text-white transition-colors text-sm font-medium">Login</a>
       <a
-        href={`${APP_URL}/tools/ai-face-rating`}
+        href="/glow-up-plan?source=%2Fnav"
+        data-placement="nav"
         class="btn-gradient text-white font-bold px-5 py-2 rounded-full text-sm hover:opacity-90 transition-opacity"
       >
-        Upload photo →
+        30-Day Plan →
       </a>
     </div>
 
@@ -62,8 +63,11 @@ const APP_URL = import.meta.env.PUBLIC_APP_URL ?? 'https://app.aura-looksmaxxing
     </div>
 
     <div class="flex flex-col gap-3 pb-8">
-      <a href={`${APP_URL}/tools/ai-face-rating`} class="btn-gradient text-white font-bold px-6 py-4 rounded-full text-center text-base hover:opacity-90 transition-opacity">
-        See my potential →
+      <a href="/glow-up-plan?source=%2Fnav" class="btn-gradient text-white font-bold px-6 py-4 rounded-full text-center text-base hover:opacity-90 transition-opacity">
+        Get my 30-day plan →
+      </a>
+      <a href={`${APP_URL}/tools/ai-face-rating`} class="rounded-full border border-white/15 px-6 py-3 text-center text-sm font-bold text-white">
+        Free face preview
       </a>
       <a href={`${APP_URL}/login`} class="text-center text-[#666] text-sm py-2 hover:text-white transition-colors">
         Already have an account? Login

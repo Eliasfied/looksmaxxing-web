@@ -19,7 +19,7 @@ export async function POST(request: Request) {
   const balance = await getCredits(user.id)
   if (balance.total_credits < COST)
     return NextResponse.json(
-      { error: 'Your try-ons for this month are used up. They refill on your next billing date.' },
+      { error: 'Your try-ons are used up. With Aura Pro they refill every month.' },
       { status: 429 }
     )
 

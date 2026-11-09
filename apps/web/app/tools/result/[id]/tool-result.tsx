@@ -9,7 +9,7 @@ import {
 } from 'react'
 import Link from 'next/link'
 import posthog from 'posthog-js'
-import { ProSales } from '@/components/pro-sales'
+import { GlowSales } from '@/components/glow-sales'
 import type { ToolDefinition, ToolReport } from '@/lib/tool-report'
 
 function subscribeChecklist(callback: () => void) {
@@ -277,11 +277,12 @@ export function ToolResult({
             {signedIn && !claimed ? (
               <p className="text-sm text-white/60">Saving your report to your account…</p>
             ) : (
-              <ProSales
+              <GlowSales
+                embedded
                 signedIn={signedIn}
                 returnTo={returnPath}
                 placement={`tool-result:${tool.slug}`}
-                intro="Your full report is one step away."
+                intro="Your full report is included in the 30-day plan."
                 onActivated={() => unlock()}
               />
             )}

@@ -27,7 +27,7 @@ export default async function PlanPage() {
         </p>
       </header>
 
-      {!plan.pro && <UpgradeNudge text="Personal plans are part of Aura Pro." />}
+      {!plan.pro && <UpgradeNudge text="Your personal 30-day plan is built from a big face scan." />}
 
       {stored ? (
         <PlanChecklist plan={stored} />

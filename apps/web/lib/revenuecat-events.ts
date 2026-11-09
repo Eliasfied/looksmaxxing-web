@@ -44,13 +44,18 @@ export async function applyRevenueCatEvent(db: Firestore, event: Event) {
       ? key(`${event.store}:${event.app_user_id}:${event.product_id}:${event.transaction_id}`)
       : key(event.id)
   const purchaseRef = db.collection('billing_purchases').doc(transactionKey)
+  // A one-time product can carry the 30-day glow-up plan: it unlocks Pro for a
+  // fixed window instead of until the next renewal.
+  const glowDays = isPack ? Number(productData?.glow_plan_days) || 0 : 0
+  const glowRef = db.collection('glow_plans').doc(event.app_user_id)
   return db.runTransaction(async (tx) => {
-    const [seen, userDoc, balanceDoc, subscriptionDoc, paidReceipt] = await tx.getAll(
+    const [seen, userDoc, balanceDoc, subscriptionDoc, paidReceipt, glowDoc] = await tx.getAll(
       receipt,
       userRef,
       balanceRef,
       subRef,
-      purchaseRef
+      purchaseRef,
+      glowRef
     )
     if (seen.exists) return { duplicate: true }
     if (!userDoc.exists) throw new Error('Billing user not found')
@@ -63,8 +68,23 @@ export async function applyRevenueCatEvent(db: Firestore, event: Event) {
       nextTopup = topup
     const purchase = purchases.has(event.type) && !paidReceipt.exists
     if (purchase) {
-      if (isPack) nextTopup += amount
-      else if (!stale) {
+      if (isPack) {
+        nextTopup += amount
+        if (glowDays > 0) {
+          // Buying again extends from whichever is later: now or the old end.
+          const previous = Date.parse(String(glowDoc.data()?.access_until ?? ''))
+          const from = Math.max(purchasedAt, Number.isFinite(previous) ? previous : 0)
+          tx.set(
+            glowRef,
+            {
+              product_id: event.product_id,
+              purchased_at: new Date(purchasedAt).toISOString(),
+              access_until: new Date(from + glowDays * 86_400_000).toISOString()
+            },
+            { merge: true }
+          )
+        }
+      } else if (!stale) {
         nextSub = amount
         tx.set(
           subRef,

@@ -155,7 +155,7 @@ export function ChatClient({ hasScan }: Props) {
 
       {upgrade && (
         <div className="mt-3">
-          <UpgradeNudge text="Unlimited coaching with your scan and plan is part of Aura Pro." />
+          <UpgradeNudge text="Unlimited coaching with your scan and plan is included in the 30-day plan." />
         </div>
       )}
 

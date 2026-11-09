@@ -5,7 +5,8 @@
 ## Product
 
 - [Aura: Looksmaxxing](https://www.aura-looksmaxxing.com): Marketing site and product overview.
-- [Pricing](https://www.aura-looksmaxxing.com/pricing): One plan, $9.99/month or $49.99/year. 100 credits per month, everything included.
+- [30-Day Glow-Up Plan](https://www.aura-looksmaxxing.com/glow-up-plan): A personal 30-day plan built from a face scan and a short questionnaire. $14.99 once, no subscription.
+- [Pricing](https://www.aura-looksmaxxing.com/pricing): Free on-device previews, the one-time 30-Day Glow-Up Plan, or Aura Pro at $9.99/month or $49.99/year.
 - [FAQ](https://www.aura-looksmaxxing.com/faq): Common questions about credits, billing, AI models, and image quality.
 - [About](https://www.aura-looksmaxxing.com/about): Mission and what the product does.
 - [Privacy](https://www.aura-looksmaxxing.com/privacy): How we handle personal data.
@@ -15,11 +16,12 @@
 
 - AI Face Analysis (1 credit per scan): Upload a selfie, receive a PSL score with a detailed breakdown of facial proportions and harmony.
 - Hairstyle Try-On (3 credits): Preview different cuts on your face shape using image generation.
-- Glow-Up Plan: A personalized daily routine generated from your scan.
+- 30-Day Glow-Up Plan: A big face scan plus questionnaire, turned into a daily checklist for skin, hair, face and jawline, nutrition, training and style, with a morning and evening routine, product list, try-ons incl. Future Me, AI coach, day-30 re-scan and a PDF.
 - AI Coach: 24/7 chat that has the context of your scan and goals.
 
 ## Pricing
 
+- 30-Day Glow-Up Plan: $14.99 one-time, no subscription; every feature unlocked for 40 days.
 - Aura Monthly: $9.99 / month, includes 100 credits per month.
 - Aura Yearly: $49.99 / year, includes 100 credits per month (best value).
 - Scans cost 1 credit; hairstyle try-ons cost 3 credits.

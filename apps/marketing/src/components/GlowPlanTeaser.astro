@@ -1,0 +1,50 @@
+---
+// Compact pitch for the 30-Day Glow-Up Plan, linking to its own sales page.
+// The before/after picture is an AI-generated model and is labelled as such.
+import { appConfig } from '../lib/config';
+interface Props {
+  source: string;
+  heading?: string;
+  intro?: string;
+  audience?: 'men' | 'women';
+}
+const { source, heading = 'Turn this into a 30-day plan.', intro, audience = 'men' } = Astro.props;
+const glow = appConfig.pricing.glowPlan;
+const price = `$${glow.price.toFixed(2)}`;
+const compare = glow.compareAtPrice && glow.compareAtPrice > glow.price ? `$${glow.compareAtPrice.toFixed(2)}` : null;
+const discount = compare ? Math.round((1 - glow.price / glow.compareAtPrice!) * 100) : 0;
+const href = `/glow-up-plan?source=${encodeURIComponent(source)}`;
+const points = [
+  'Big face scan + 2-minute questionnaire',
+  'Daily checklist: skin, hair, jawline, nutrition, training, style',
+  'Morning & evening routine and what to buy',
+  'Try-ons incl. Future Me, AI coach, day-30 re-scan',
+];
+---
+<section class="relative overflow-hidden rounded-[2rem] border border-fuchsia-400/30 bg-gradient-to-br from-fuchsia-950/50 via-[#120d1c] to-violet-950/40 p-7 shadow-[0_0_80px_-25px_rgba(192,38,211,0.5)] sm:p-10" aria-label={glow.name}>
+  <div class="grid items-center gap-8 md:grid-cols-[1.3fr_0.7fr]">
+    <div>
+      <p class="inline-flex rounded-full border border-fuchsia-400/30 bg-fuchsia-500/10 px-3 py-1 text-xs font-bold uppercase tracking-[0.18em] text-fuchsia-200">{glow.name}</p>
+      <h2 class="mt-4 text-3xl font-black sm:text-4xl">{heading}</h2>
+      <p class="mt-3 text-lg leading-relaxed text-[#bbb]">{intro ?? 'Tips are everywhere. A plan made for your face, your time and your budget is not. Scan once, then just tick off today’s list for 30 days.'}</p>
+      <ul class="mt-5 space-y-2 text-[#ddd]">{points.map((p) => <li class="flex gap-2"><span class="text-fuchsia-300">✓</span>{p}</li>)}</ul>
+      <div class="mt-7 flex flex-wrap items-center gap-5">
+        <a href={href} data-placement="glow-teaser" class="btn-gradient rounded-xl px-7 py-4 font-bold">See the 30-day plan →</a>
+        <p class="flex items-baseline gap-2">
+          {compare && <span class="font-bold text-[#777] line-through">{compare}</span>}
+          <span class="text-2xl font-black">{price}</span>
+          {discount > 0 && <span class="rounded-full bg-fuchsia-600 px-2 py-0.5 text-xs font-black">−{discount}%</span>}
+          <span class="text-sm text-[#999]">once · no subscription</span>
+        </p>
+      </div>
+    </div>
+    <a href={href} class="group relative mx-auto block w-full max-w-[16rem]" aria-label="See the 30-day plan">
+      <div class="grid grid-cols-2 overflow-hidden rounded-2xl border border-white/10">
+        <img src={`/images/glow-up/${audience}-before.webp`} alt="Illustration: AI-generated model on day 1" width="400" height="500" loading="lazy" class="aspect-[4/5] h-full w-full object-cover" />
+        <img src={`/images/glow-up/${audience}-after.webp`} alt="Illustration: the same model on day 30" width="400" height="500" loading="lazy" class="aspect-[4/5] h-full w-full object-cover" />
+      </div>
+      <div class="mt-2 flex justify-between text-xs font-bold"><span>Day 1</span><span class="text-fuchsia-300">Day 30</span></div>
+      <p class="mt-1 text-[11px] leading-snug text-[#777]">Illustration, AI-generated model. Not a customer result.</p>
+    </a>
+  </div>
+</section>
