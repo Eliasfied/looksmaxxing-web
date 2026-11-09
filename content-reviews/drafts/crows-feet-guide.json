@@ -1,0 +1,320 @@
+{
+  "version": 1,
+  "savedAt": "2026-11-09T23:42:55.262Z",
+  "page": {
+    "slug": "crows-feet-guide",
+    "cluster": "crows-feet",
+    "page_type": "blog",
+    "phase": 4,
+    "keywords": [
+      {
+        "keyword": "crows feet",
+        "volume": 40500,
+        "sd": 10
+      }
+    ],
+    "primary_keyword": "crows feet",
+    "primary_volume": 40500,
+    "primary_sd": 10
+  },
+  "data": {
+    "_research": {
+      "sources": [
+        {
+          "title": "How to Get Rid of Crow’s Feet Wrinkles - L’Oréal Paris",
+          "url": "https://www.lorealparisusa.com/beauty-magazine/skin-care/anti-aging/crows-feet",
+          "evidence": "Crow’s feet, also known as lateral canthal lines, are tiny wrinkles that appear at the outer corners of your eyes.\n\n While it won’t outright prevent crow’s feet, the fast-absorbing formula can help refine the skin and smooth the appearance of fine lines with consiste..."
+        },
+        {
+          "title": "Lateral Canthal Rhytides With Medium Depth Chemical Peel With or Without Pretreatment With Botulinum Toxin A",
+          "url": "https://clinicaltrials.gov/study/NCT01586819",
+          "evidence": "Dynamic wrinkles, which are due to excessive muscle activity, usually of the face, tend to disappear when you relax your facial muscles.  However, if the excessive muscle activity is carried on for too long, these do not disappear completely on relaxation, and are thus called static wrin..."
+        },
+        {
+          "title": "A Comparative In Vivo Study on Three Treatment Approaches to Applying Topical Botulinum Toxin A for Crow's Feet",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6051279/",
+          "evidence": "Two scales are available to determine the clinical severity of crow's feet [[4]]: one scale for facial wrinkles at rest (static wrinkles) and one for ..."
+        },
+        {
+          "title": "Efficacy and Safety of Increasing Doses of DaxibotulinumtoxinA for Injection (DAXI for Injection) in the Treatment of Moderate or Severe Lateral Canthal Lines",
+          "url": "https://cdn.clinicaltrials.gov/large-docs/02/NCT03911102/Prot_000.pdf",
+          "evidence": "Carruthers, et.al., identified 4 distinct patterns for lateral canthal lines: full-fan, lower-fan, central-fan, and upper-fan.  The presence of facial lines at rest result from a combination of factors, including repeated facial muscle contractions, structural skin remodeling t..."
+        },
+        {
+          "title": "Crow’s Feet: What It Is, Botox, Treatment & Prevention",
+          "url": "https://my.clevelandclinic.org/health/diseases/24586-crows-feet",
+          "evidence": "Two proteins that help skin retain its plump, youthful appearance — collagen and elastin — naturally decrease as you age. As these proteins wane, you ... Wearing SPF 30 or higher can protect your skin from harmful ultraviolet (UV) rays from the sun.\n\n Doing so will shield your eyes from the sun’s UV rays and help prevent squinting, which can contribute to crow’s feet.\n\n"
+        },
+        {
+          "title": "ET-01 in Subjects With Lateral Canthal Lines",
+          "url": "https://cdn.clinicaltrials.gov/large-docs/56/NCT03326856/Prot_SAP_000.pdf",
+          "evidence": "The periorbital area is one of the first places on the face to show signs of aging, in the form of lateral canthal lines or Crow's Feet.\n\n Topical agents, such as retinoic acids, glycolic acids and lactic acids, are other common methods to minimize Crow's Feet and other facial wrinkles.\n\n"
+        },
+        {
+          "title": "Safety and Efficacy Study of Botulinum Toxin Type A for the Treatment of Crow's Feet Lines",
+          "url": "https://clinicaltrials.gov/study/NCT01189747",
+          "evidence": "## Conditions\n\n**Conditions:**\n\n- Lateral Canthus Rhytides\n- Crow's Feet Lines\n\n## Design\n\n**Study Type:** INTERVENTIONAL\n\n**Phases:**\n\n- PHASE3\n\n### ..."
+        },
+        {
+          "title": "OnabotulinumtoxinA (Botox) in the Treatment of Crow’s Feet Lines in Japanese Subjects",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5605642/",
+          "evidence": "### Study Design\n\nThis 13-month, phase 3, multicenter, double-blind, randomized, parallel-group study comprised 2 treatment periods: a 6-month placebo... OnabotulinumtoxinA (Botox Cosmetic; Allergan plc, Dublin, Ireland) is approved for the treatment of glabellar lines (GL) in more than 70 countries, in..."
+        },
+        {
+          "title": "Comparison of Treatment Efficacy of Different Number of... : International Journal of Dermatology and Venereology",
+          "url": "https://journals.lww.com/ijdv/fulltext/2024/09000/comparison_of_treatment_efficacy_of_different.2.aspx",
+          "evidence": "Patients with lower-fan crow’s feet patterns may benefit more from 4-point injection therapy.\n\n"
+        },
+        {
+          "title": "ET-01 in Subjects With Lateral Canthal Lines",
+          "url": "https://clinicaltrials.gov/study/NCT03326856",
+          "evidence": "## Eligibility\n\n**Eligibility Criteria:** Inclusion Criteria:\n\n* 25 - 65 years of age\n* minimal to moderate Crow's Feet wrinkles at rest\n* moderate to..."
+        }
+      ]
+    },
+    "_draft": true,
+    "_review": {
+      "pass": false,
+      "issues": [
+        "Skincare: Topical retinoic acid and acids are described as common methods, and non-prescription actives are suggested for use. The advice against prescription retinoic acid is present, but the section never mentions or warns about the risks of over-the-counter acids. Risk coverage here is thin.",
+        "Botox section: the passage presents botulinum toxin as 'the most studied treatment' and opens with its trial details, and peels likewise. The intro also states injectables are 'the most studied option' before warnings, which reads as a favorable lead and weakens the non-medical-first ordering.",
+        "Botox section: the claim 'Botox... works by limiting the muscle you use to smile with your eyes' and the risks (bruising, ptosis) are not supported by the supplied evidence excerpts, and the claimed ET-01 exclusions (neuromuscular disease, dry eye, ptosis, eye-area surgery, pregnancy) are not shown in the evidence provided."
+      ]
+    },
+    "_imageReviews": [],
+    "_imageFailures": [],
+    "_textRepair": {
+      "original": {
+        "title": "Crow's Feet: Causes, Prevention and What Works",
+        "description": "Crow's feet explained: why lines form at the outer eye corners, how sun protection and squinting matter, what skincare can't do, and styling tips.",
+        "h1_displayed": "Crow's Feet: What They Are, Why They Form, and What You Can Control",
+        "reading_time": 9,
+        "tags": [
+          "crows feet",
+          "skincare",
+          "eye area",
+          "sun protection",
+          "grooming",
+          "anti-aging"
+        ],
+        "tool_slug": "ai-face-rating",
+        "audience": "everyone",
+        "body_markdown": "You usually notice them in a photo where you were laughing hard: fine lines fanning out from the outer corners of your eyes. Crow's feet are one of the first things people spot when they start studying their own face, and the market around them is loud. Creams promise to erase them, gadgets promise to smooth them, and clinics promise to freeze them.\n\nThis guide is more measured. It covers:\n\n- what crow's feet are in anatomical terms,\n- why they form and how to tell what kind you have,\n- which everyday habits are within your control,\n- where the evidence is solid and where it is thin.\n\nIt also explains why we don't recommend injectables for appearance, even though they are the most studied option.\n\n## What crow's feet actually are\n\nIn clinical writing, crow's feet are called **lateral canthal lines** or **lateral canthal rhytides**. The terms break down simply:\n\n- **Canthus**: the corner where your upper and lower eyelids meet.\n- **Lateral**: the outer side, toward your temple.\n- **Rhytides**: the medical word for wrinkles.\n\nThe lines sit over the **orbicularis oculi**, the ring-shaped muscle around each eye. It closes your eyelids, and it contracts when you squint or smile with your whole face. Every time it tightens, the thin skin at the outer corner folds into small creases. After years of expressions, those creases are where lines show up first.\n\nThis is a normal feature of an expressive face. An ET-01 trial protocol registered on ClinicalTrials.gov notes that the periorbital area, meaning the region around the eyes, is one of the first places on the face to show signs of aging. If you notice lines here before anywhere else, that is the usual pattern, not a sign you did something wrong.\n\n### Dynamic vs static lines\n\nThe most useful distinction is between two types of wrinkle. A [Loyola University trial record on ClinicalTrials.gov](https://clinicaltrials.gov/study/NCT01586819) describes them clearly:\n\n- **Dynamic lines** come from muscle activity and tend to disappear when you relax your face. The record lists crow's feet among the most common dynamic wrinkles, alongside frown lines and forehead lines.\n- **Static lines** form when that muscle activity goes on long enough that the creases no longer fully disappear at rest.\n\nIf your crow's feet only appear when you smile, they are dynamic. If you can see them with a neutral face, some of them have become static.\n\n### They don't all look the same\n\nCrow's feet also differ in shape. A daxibotulinumtoxinA trial protocol cites work by Carruthers and colleagues describing four patterns: full-fan, lower-fan, central-fan and upper-fan. The names describe where the lines spread from the outer eye corner:\n\n- across the whole area,\n- mainly below,\n- mainly in the middle,\n- mainly above.\n\nYou don't need to classify yourself precisely. The point is that \"crow's feet\" covers a range of looks. That is one reason generic before-and-after photos tell you little about your own face.\n\n## Why crow's feet form\n\nNo single cause explains them. The same daxibotulinumtoxinA protocol attributes lines at rest to a combination of factors: repeated facial muscle contractions, structural changes in the skin that come with aging, and damage from excessive sun exposure. Here is how each piece fits.\n\n### Repeated expression\n\nSmiling, laughing and squinting all engage the orbicularis oculi. The movement itself is harmless, and nobody should try to smile less. But repeating it for years is how a dynamic line becomes a static one.\n\n### Changes in skin structure\n\n[Cleveland Clinic](https://my.clevelandclinic.org/health/diseases/24586-crows-feet) explains that collagen and elastin naturally decrease as you age. These are the two proteins that keep skin plump and springy, and as they wane, fine lines such as crow's feet develop. With less support, the same fold leaves a more lasting mark.\n\n### Sun and squinting\n\nThe trial literature names sun exposure as one contributor to lines at rest. Squinting adds a second effect. Cleveland Clinic points out that sunglasses or a wide-brimmed hat shield your eyes from UV rays and help prevent squinting, which can contribute to crow's feet. Bright light makes you contract the same muscle that creates these lines.\n\n## How to check your own crow's feet\n\nClinicians don't judge crow's feet from a single look. A comparative study on topical botulinum toxin notes that two severity scales exist: one for wrinkles at rest and one for wrinkles at maximum smile. You can borrow that logic at home without any scoring system.\n\n*Editorial suggestion:* take two photos in the same window light, at the same distance.\n\n1. **Neutral face.** Relax completely and look straight at the camera.\n2. **Full smile.** Smile the way you do when something is actually funny.\n\nThen compare them:\n\n- Lines that only show in the smiling photo are dynamic.\n- Lines visible in the neutral photo are partly static.\n\nRepeat the same setup every few months if you want to see whether anything is changing. Consistent lighting matters more than camera quality, because harsh overhead light exaggerates every crease.\n\n{{IMAGE_2}}\n\n## Sun protection: the part you control most\n\nOf everything in this article, daily sun protection has the clearest backing from a medical source. Cleveland Clinic recommends sunscreen with **SPF 30 or higher**. It also suggests **sunglasses or a wide-brimmed hat** to protect the eye area and reduce squinting.\n\nEditorial suggestions for making that stick:\n\n- **Carry sunscreen out to the outer eye corner.** Many people stop at the cheekbone and skip the area where crow's feet form. Apply carefully and keep it out of your eyes.\n- **Choose sunglasses with UV protection,** not just dark lenses. Larger frames or a wraparound shape cover more of the outer corner.\n- **Keep a hat in your bag or car** for long stretches outdoors, when sunglasses alone leave your temples exposed.\n- **Notice other squinting.** If you catch yourself squinting at screens or distant signs, book an eye exam for its own sake.\n\nNone of this erases lines that are already there. The goal is to avoid adding sun damage and squinting on top of normal aging.\n\n## Skincare: realistic expectations\n\nThe skincare aisle is where claims about crow's feet get most inflated. Here is what the evidence we found actually says.\n\n- **Topical acids and retinoids.** An ET-01 trial protocol lists topical agents such as retinoic acids, glycolic acids and lactic acids as common methods used to minimize crow's feet. That is a background statement about what people use, not a measured result. We did not find efficacy data strong enough to report here.\n- **Prescription retinoic acid** is a prescription drug. Whether it suits your skin is a decision for a doctor, and this site does not recommend prescription drugs for appearance.\n- **Moisturizers and eye creams.** *Editorial view:* a moisturizer keeps the skin around your eyes comfortable and less dry, which is a fine reason to use one. We found no solid evidence that any specific eye cream removes crow's feet. Treat \"erase\" and \"instant lift\" language with skepticism.\n\nIf you try a new active product, introduce one at a time and keep it off the eyelid itself. The skin there is thin and reacts easily.\n\n## Botox, peels and procedures: our position\n\nBotulinum toxin is the most studied treatment for crow's feet, and pretending otherwise would be misleading. One study was a [13-month, phase 3, double-blind, randomized trial in Japanese subjects](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5605642/). It notes that onabotulinumtoxinA is approved for crow's feet lines in more than 50 countries, including the USA and EU countries. Researchers have also studied medium-depth chemical peels for these lines.\n\n**We don't recommend Botox, other injectables, or medical peels for appearance.** The main downsides are concrete:\n\n- **Botox is a prescription neurotoxin injected near the eye.** It works by limiting the muscle you use to smile with your eyes.\n- **The effect is temporary.** The Japanese trial allowed up to five treatments over 13 months, based on retreatment criteria. Choosing it means choosing repeat injections.\n- **Not everyone is a candidate.** One ET-01 trial excluded people with neuromuscular disease, eyelid ptosis (a drooping upper lid), muscle weakness, dry eye, or a history of eye-area surgery. It also excluded people who were pregnant or nursing. These exclusions exist because the eye area is a sensitive place to intervene.\n- **Medium-depth peels** are a medical procedure with their own recovery period and risks.\n\n> **Talk to a qualified professional before considering this.** If you have a medical concern about your eyes or skin, raise it with a doctor or dermatologist, not a blog post or an app.\n\nThe non-medical options in this guide come first: sun protection, sleep, grooming and styling. They are lower risk and within your control.\n\n## Styling and grooming around the eye area\n\nHow crow's feet read in daily life depends heavily on what surrounds them. These are *editorial suggestions*, not measured effects.\n\n### Frames and eyewear\n\nGlasses change where people look. A frame with a defined upper rim draws attention to the brow line and the eye itself. Thin or rimless frames put more focus on the skin at the corners. If you wear glasses, treat frame shape as part of how your eye area looks, not only as a prescription decision.\n\n### Makeup, if you wear it\n\n- Use a thin layer of creamy concealer or a tinted product at the outer corner rather than building coverage.\n- Go light with loose powder there, since powder tends to sit in creases and make lines more visible.\n- Blend outward with a fingertip or damp sponge, and check the result in daylight, not bathroom light.\n\n### Grooming and rest\n\nWell-shaped brows, a current haircut and, if you have facial hair, a neat beard line all frame the eyes. Short sleep tends to make the whole eye area look tired, which draws attention to lines that would otherwise go unnoticed. None of these change the lines themselves. They change the overall impression.\n\nIf you want a structured look at your eye area in context, Aura's [AI Face Analysis](https://app.aura-looksmaxxing.com/tools/ai-face-rating?source=%2Fblog%2Fcrows-feet-guide) can help. A free on-device preview measures face shape, symmetry, canthal tilt and eye shape in your browser, without uploading your photo. The full report covers your facial profile, a feature breakdown and personal styling suggestions. It is part of the 30-Day Glow-Up Plan, a one-time $14.99 purchase. It does not diagnose wrinkles, and its scores are subjective photo-based estimates. It is a starting point for grooming and styling choices around your eyes.\n\n{{IMAGE_3}}\n\n## A simple daily routine for the eye area\n\n*Editorial suggestion*, built around the habits above:\n\n1. **Morning:** cleanse gently, moisturize, then apply SPF 30 or higher all the way to the outer eye corners.\n2. **Before going out:** wear sunglasses with UV protection, plus a hat for long periods in direct sun.\n3. **During the day:** notice when you squint at a screen or into light, and adjust brightness, distance or position.\n4. **Evening:** remove sunscreen and makeup gently, without dragging the skin, then moisturize.\n5. **Every few months:** retake your neutral and smiling photos in the same light to track the area calmly.\n\nThis routine will not make crow's feet disappear. It is a sensible baseline that addresses the sun and squinting factors you control.\n\n## Keeping crow's feet in perspective\n\nCrow's feet come from the same muscle movement that makes a smile look genuine. Lines that appear when you laugh are a sign of an expressive face. Protect your skin from the sun, groom and style the area with intention, and be skeptical of anyone promising to erase a normal part of having a face that moves.",
+        "image_prompts": [
+          {
+            "prompt": "A relaxed adult man in his late thirties laughing outdoors in soft late-afternoon light, shown in a three-quarter view from the shoulders up, with natural fine lines fanning from the outer corner of his visible eye. The background is a blurred green park, and the framing is simple enough to read clearly at thumbnail size.",
+            "alt": "Man laughing outdoors with natural crow's feet at the outer corner of his eye",
+            "purpose": "Introduces crow's feet as natural expression lines at the outer eye corner that show up most when smiling."
+          },
+          {
+            "prompt": "A woman in her forties sitting at a sunny outdoor café table, wearing a wide-brimmed straw hat and large dark sunglasses that cover the outer corners of her eyes, with a relaxed expression. The scene is a medium shot, with bright daylight on the street behind her and her face shaded by the hat brim.",
+            "alt": "Woman wearing a wide-brimmed hat and large sunglasses to shade her eye area in bright sun",
+            "purpose": "Shows the sun protection and squint-reduction habit described in the sun protection section: hat plus UV sunglasses covering the outer eye corner."
+          },
+          {
+            "prompt": "A tidy bathroom shelf in soft morning window light holding a plain unlabeled white sunscreen tube, a small plain glass moisturizer jar, and a pair of tortoiseshell sunglasses folded beside them. The items are arranged simply with plenty of space between them and no writing on any packaging.",
+            "alt": "Daily eye-area routine items: plain sunscreen tube, moisturizer jar and sunglasses on a bathroom shelf",
+            "purpose": "Illustrates the simple daily routine for the eye area: moisturizer, sunscreen and sunglasses as the core non-medical habits."
+          }
+        ],
+        "faq": [
+          {
+            "q": "What causes crow's feet?",
+            "a": "Crow's feet come from a mix of repeated muscle movement around the eyes, structural changes in aging skin, and sun exposure. Collagen and elastin decline with age, so the creases from smiling and squinting gradually stop disappearing when your face is at rest."
+          },
+          {
+            "q": "Can you get rid of crow's feet without procedures?",
+            "a": "Nothing non-medical has been shown to erase existing crow's feet. Sun protection, UV sunglasses and less squinting address the factors you control. Grooming, eyewear and makeup technique change how the eye area reads overall."
+          },
+          {
+            "q": "At what age do crow's feet appear?",
+            "a": "There is no fixed age, and it varies a lot between people. The area around the eyes is one of the first places on the face to show signs of aging, so many people notice crow's feet before other lines."
+          },
+          {
+            "q": "Do eye creams remove crow's feet?",
+            "a": "We found no solid evidence that any specific eye cream removes crow's feet. A moisturizer keeps the skin comfortable and less dry, which is a fine reason to use one. Be skeptical of products promising to erase lines."
+          },
+          {
+            "q": "Should I get Botox for crow's feet?",
+            "a": "We don't recommend Botox or other injectables for appearance. It is a prescription neurotoxin injected near the eye, its effect is temporary so it means repeat injections, and trials excluded people with conditions like eyelid drooping or dry eye. Talk to a qualified professional before considering it."
+          }
+        ],
+        "sources": [
+          {
+            "title": "Crow’s Feet: What It Is, Botox, Treatment & Prevention",
+            "url": "https://my.clevelandclinic.org/health/diseases/24586-crows-feet"
+          },
+          {
+            "title": "Lateral Canthal Rhytides With Medium Depth Chemical Peel With or Without Pretreatment With Botulinum Toxin A",
+            "url": "https://clinicaltrials.gov/study/NCT01586819"
+          },
+          {
+            "title": "OnabotulinumtoxinA (Botox) in the Treatment of Crow’s Feet Lines in Japanese Subjects",
+            "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5605642/"
+          },
+          {
+            "title": "Efficacy and Safety of Increasing Doses of DaxibotulinumtoxinA for Injection (DAXI for Injection) in the Treatment of Moderate or Severe Lateral Canthal Lines",
+            "url": "https://cdn.clinicaltrials.gov/large-docs/02/NCT03911102/Prot_000.pdf"
+          },
+          {
+            "title": "ET-01 in Subjects With Lateral Canthal Lines",
+            "url": "https://clinicaltrials.gov/study/NCT03326856"
+          }
+        ],
+        "_research": {
+          "sources": [
+            {
+              "title": "How to Get Rid of Crow’s Feet Wrinkles - L’Oréal Paris",
+              "url": "https://www.lorealparisusa.com/beauty-magazine/skin-care/anti-aging/crows-feet",
+              "evidence": "Crow’s feet, also known as lateral canthal lines, are tiny wrinkles that appear at the outer corners of your eyes.\n\n While it won’t outright prevent crow’s feet, the fast-absorbing formula can help refine the skin and smooth the appearance of fine lines with consiste..."
+            },
+            {
+              "title": "Lateral Canthal Rhytides With Medium Depth Chemical Peel With or Without Pretreatment With Botulinum Toxin A",
+              "url": "https://clinicaltrials.gov/study/NCT01586819",
+              "evidence": "Dynamic wrinkles, which are due to excessive muscle activity, usually of the face, tend to disappear when you relax your facial muscles.  However, if the excessive muscle activity is carried on for too long, these do not disappear completely on relaxation, and are thus called static wrin..."
+            },
+            {
+              "title": "A Comparative In Vivo Study on Three Treatment Approaches to Applying Topical Botulinum Toxin A for Crow's Feet",
+              "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6051279/",
+              "evidence": "Two scales are available to determine the clinical severity of crow's feet [[4]]: one scale for facial wrinkles at rest (static wrinkles) and one for ..."
+            },
+            {
+              "title": "Efficacy and Safety of Increasing Doses of DaxibotulinumtoxinA for Injection (DAXI for Injection) in the Treatment of Moderate or Severe Lateral Canthal Lines",
+              "url": "https://cdn.clinicaltrials.gov/large-docs/02/NCT03911102/Prot_000.pdf",
+              "evidence": "Carruthers, et.al., identified 4 distinct patterns for lateral canthal lines: full-fan, lower-fan, central-fan, and upper-fan.  The presence of facial lines at rest result from a combination of factors, including repeated facial muscle contractions, structural skin remodeling t..."
+            },
+            {
+              "title": "Crow’s Feet: What It Is, Botox, Treatment & Prevention",
+              "url": "https://my.clevelandclinic.org/health/diseases/24586-crows-feet",
+              "evidence": "Two proteins that help skin retain its plump, youthful appearance — collagen and elastin — naturally decrease as you age. As these proteins wane, you ... Wearing SPF 30 or higher can protect your skin from harmful ultraviolet (UV) rays from the sun.\n\n Doing so will shield your eyes from the sun’s UV rays and help prevent squinting, which can contribute to crow’s feet.\n\n"
+            },
+            {
+              "title": "ET-01 in Subjects With Lateral Canthal Lines",
+              "url": "https://cdn.clinicaltrials.gov/large-docs/56/NCT03326856/Prot_SAP_000.pdf",
+              "evidence": "The periorbital area is one of the first places on the face to show signs of aging, in the form of lateral canthal lines or Crow's Feet.\n\n Topical agents, such as retinoic acids, glycolic acids and lactic acids, are other common methods to minimize Crow's Feet and other facial wrinkles.\n\n"
+            },
+            {
+              "title": "Safety and Efficacy Study of Botulinum Toxin Type A for the Treatment of Crow's Feet Lines",
+              "url": "https://clinicaltrials.gov/study/NCT01189747",
+              "evidence": "## Conditions\n\n**Conditions:**\n\n- Lateral Canthus Rhytides\n- Crow's Feet Lines\n\n## Design\n\n**Study Type:** INTERVENTIONAL\n\n**Phases:**\n\n- PHASE3\n\n### ..."
+            },
+            {
+              "title": "OnabotulinumtoxinA (Botox) in the Treatment of Crow’s Feet Lines in Japanese Subjects",
+              "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5605642/",
+              "evidence": "### Study Design\n\nThis 13-month, phase 3, multicenter, double-blind, randomized, parallel-group study comprised 2 treatment periods: a 6-month placebo... OnabotulinumtoxinA (Botox Cosmetic; Allergan plc, Dublin, Ireland) is approved for the treatment of glabellar lines (GL) in more than 70 countries, in..."
+            },
+            {
+              "title": "Comparison of Treatment Efficacy of Different Number of... : International Journal of Dermatology and Venereology",
+              "url": "https://journals.lww.com/ijdv/fulltext/2024/09000/comparison_of_treatment_efficacy_of_different.2.aspx",
+              "evidence": "Patients with lower-fan crow’s feet patterns may benefit more from 4-point injection therapy.\n\n"
+            },
+            {
+              "title": "ET-01 in Subjects With Lateral Canthal Lines",
+              "url": "https://clinicaltrials.gov/study/NCT03326856",
+              "evidence": "## Eligibility\n\n**Eligibility Criteria:** Inclusion Criteria:\n\n* 25 - 65 years of age\n* minimal to moderate Crow's Feet wrinkles at rest\n* moderate to..."
+            }
+          ]
+        },
+        "_draft": true,
+        "_review": {
+          "pass": false,
+          "issues": [
+            "Editorial review pending."
+          ]
+        },
+        "_imageReviews": [],
+        "_imageFailures": []
+      },
+      "issues": [
+        "Botox, peels and procedures: the draft says onabotulinumtoxinA is approved for crow's feet in more than 50 countries. The evidence snippet says approval for glabellar lines in more than 70 countries, so the figure and indication are unsupported or misattributed.",
+        "Skincare: prescription retinoic acid is covered only with 'a decision for a doctor'. Because it is used for appearance, the draft must advise against it, name main risks such as irritation, and put non-medical options first.",
+        "Botox, peels and procedures: the draft sums up the main risks of Botox and peels vaguely ('own recovery period and risks'). It does not name concrete risks such as eyelid ptosis, bruising, or peel scarring and pigment changes, as the rules require."
+      ],
+      "status": "rejected",
+      "review": {
+        "pass": false,
+        "issues": [
+          "Skincare: Topical retinoic acid and acids are described as common methods, and non-prescription actives are suggested for use. The advice against prescription retinoic acid is present, but the section never mentions or warns about the risks of over-the-counter acids. Risk coverage here is thin.",
+          "Botox section: the passage presents botulinum toxin as 'the most studied treatment' and opens with its trial details, and peels likewise. The intro also states injectables are 'the most studied option' before warnings, which reads as a favorable lead and weakens the non-medical-first ordering.",
+          "Botox section: the claim 'Botox... works by limiting the muscle you use to smile with your eyes' and the risks (bruising, ptosis) are not supported by the supplied evidence excerpts, and the claimed ET-01 exclusions (neuromuscular disease, dry eye, ptosis, eye-area surgery, pregnancy) are not shown in the evidence provided."
+        ]
+      }
+    },
+    "title": "Crow's Feet: Causes, Prevention and What Works",
+    "description": "Crow's feet explained: why lines form at the outer eye corners, how sun protection and squinting matter, what skincare can't do, and styling tips.",
+    "h1_displayed": "Crow's Feet: What They Are, Why They Form, and What You Can Control",
+    "reading_time": 9,
+    "tags": [
+      "crows feet",
+      "skincare",
+      "eye area",
+      "sun protection",
+      "grooming",
+      "anti-aging"
+    ],
+    "tool_slug": "ai-face-rating",
+    "audience": "everyone",
+    "body_markdown": "You usually notice them in a photo where you were laughing hard: fine lines fanning out from the outer corners of your eyes. Crow's feet are one of the first things people spot when they start studying their own face, and the market around them is loud. Creams promise to erase them, gadgets promise to smooth them, and clinics promise to freeze them.\n\nThis guide is more measured. It covers:\n\n- what crow's feet are in anatomical terms,\n- why they form and how to tell what kind you have,\n- which everyday habits are within your control,\n- where the evidence is solid and where it is thin.\n\nIt also explains why we don't recommend injectables or prescription treatments for appearance, even though injectables are the most studied option.\n\n## What crow's feet actually are\n\nIn clinical writing, crow's feet are called **lateral canthal lines** or **lateral canthal rhytides**. The terms break down simply:\n\n- **Canthus**: the corner where your upper and lower eyelids meet.\n- **Lateral**: the outer side, toward your temple.\n- **Rhytides**: the medical word for wrinkles.\n\nThe lines sit over the **orbicularis oculi**, the ring-shaped muscle around each eye. It closes your eyelids, and it contracts when you squint or smile with your whole face. Every time it tightens, the thin skin at the outer corner folds into small creases. After years of expressions, those creases are where lines show up first.\n\nThis is a normal feature of an expressive face. An ET-01 trial protocol registered on ClinicalTrials.gov notes that the periorbital area, meaning the region around the eyes, is one of the first places on the face to show signs of aging. If you notice lines here before anywhere else, that is the usual pattern, not a sign you did something wrong.\n\n### Dynamic vs static lines\n\nThe most useful distinction is between two types of wrinkle. A [trial record on ClinicalTrials.gov](https://clinicaltrials.gov/study/NCT01586819) describes them clearly:\n\n- **Dynamic lines** come from excessive muscle activity, usually of the face, and tend to disappear when you relax your facial muscles.\n- **Static lines** form when that muscle activity goes on long enough that the creases no longer fully disappear at rest.\n\nIf your crow's feet only appear when you smile, they are dynamic. If you can see them with a neutral face, some of them have become static.\n\n### They don't all look the same\n\nCrow's feet also differ in shape. A daxibotulinumtoxinA trial protocol cites work by Carruthers and colleagues describing four patterns: full-fan, lower-fan, central-fan and upper-fan. The names describe where the lines spread from the outer eye corner:\n\n- across the whole area,\n- mainly below,\n- mainly in the middle,\n- mainly above.\n\nYou don't need to classify yourself precisely. The point is that \"crow's feet\" covers a range of looks. That is one reason generic before-and-after photos tell you little about your own face.\n\n## Why crow's feet form\n\nNo single cause explains them. The same daxibotulinumtoxinA protocol attributes lines at rest to a combination of factors: repeated facial muscle contractions, structural changes in the skin that come with aging, and damage from excessive sun exposure. Here is how each piece fits.\n\n### Repeated expression\n\nSmiling, laughing and squinting all engage the orbicularis oculi. The movement itself is harmless, and nobody should try to smile less. But repeating it for years is how a dynamic line becomes a static one.\n\n### Changes in skin structure\n\n[Cleveland Clinic](https://my.clevelandclinic.org/health/diseases/24586-crows-feet) explains that collagen and elastin naturally decrease as you age. These are the two proteins that keep skin plump and springy, and as they wane, fine lines such as crow's feet develop. With less support, the same fold leaves a more lasting mark.\n\n### Sun and squinting\n\nThe trial literature names sun exposure as one contributor to lines at rest. Squinting adds a second effect. Cleveland Clinic points out that sunglasses or a wide-brimmed hat shield your eyes from UV rays and help prevent squinting, which can contribute to crow's feet. Bright light makes you contract the same muscle that creates these lines.\n\n## How to check your own crow's feet\n\nClinicians don't judge crow's feet from a single look. A comparative study on topical botulinum toxin notes that two severity scales exist: one for wrinkles at rest and one for wrinkles at maximum smile. You can borrow that logic at home without any scoring system.\n\n*Editorial suggestion:* take two photos in the same window light, at the same distance.\n\n1. **Neutral face.** Relax completely and look straight at the camera.\n2. **Full smile.** Smile the way you do when something is actually funny.\n\nThen compare them:\n\n- Lines that only show in the smiling photo are dynamic.\n- Lines visible in the neutral photo are partly static.\n\nRepeat the same setup every few months if you want to see whether anything is changing. Consistent lighting matters more than camera quality, because harsh overhead light exaggerates every crease.\n\n{{IMAGE_2}}\n\n## Sun protection: the part you control most\n\nOf everything in this article, daily sun protection has the clearest backing from a medical source. Cleveland Clinic recommends sunscreen with **SPF 30 or higher**. It also suggests **sunglasses or a wide-brimmed hat** to protect the eye area and reduce squinting.\n\nEditorial suggestions for making that stick:\n\n- **Carry sunscreen out to the outer eye corner.** Many people stop at the cheekbone and skip the area where crow's feet form. Apply carefully and keep it out of your eyes.\n- **Choose sunglasses with UV protection,** not just dark lenses. Larger frames or a wraparound shape cover more of the outer corner.\n- **Keep a hat in your bag or car** for long stretches outdoors, when sunglasses alone leave your temples exposed.\n- **Notice other squinting.** If you catch yourself squinting at screens or distant signs, book an eye exam for its own sake.\n\nNone of this erases lines that are already there. The goal is to avoid adding sun damage and squinting on top of normal aging.\n\n## Skincare: realistic expectations\n\nThe skincare aisle is where claims about crow's feet get most inflated. Start with the simple, non-medical basics, then be cautious with anything stronger.\n\n- **Sunscreen and moisturizer come first.** Daily SPF is covered above. *Editorial view:* a moisturizer keeps the skin around your eyes comfortable and less dry, which is a fine reason to use one. We found no solid evidence that any specific eye cream removes crow's feet. Treat \"erase\" and \"instant lift\" language with skepticism.\n- **Topical acids.** An ET-01 trial protocol lists topical agents such as retinoic acids, glycolic acids and lactic acids as common methods used to minimize crow's feet. That is a background statement about what people use, not a measured result. We did not find efficacy data strong enough to report here.\n- **Prescription retinoic acid: we advise against it for appearance.** It is a prescription drug, not a grooming product. Its main downsides are irritation, redness, dryness, peeling and extra sensitivity to sun, and the thin skin near the eyes is especially prone to reacting. This site does not recommend prescription drugs for appearance. If you have an actual skin condition, raise it with a doctor or dermatologist.\n\nIf you try a new over-the-counter active product, introduce one at a time and keep it off the eyelid itself. The skin there is thin and reacts easily.\n\n## Botox, peels and procedures: our position\n\nBotulinum toxin is the most studied treatment for crow's feet, and pretending otherwise would be misleading. One study was a [13-month, phase 3, double-blind, randomized trial in Japanese subjects](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5605642/). For context, it notes that onabotulinumtoxinA is approved for the treatment of glabellar lines (the frown lines between the brows) in more than 70 countries. Researchers have also studied medium-depth chemical peels for crow's feet.\n\n**We don't recommend Botox, other injectables, or medical peels for appearance.** The main downsides are concrete:\n\n- **Botox is a prescription neurotoxin injected near the eye.** It works by limiting the muscle you use to smile with your eyes.\n- **It carries specific risks.** These include bruising at the injection sites and eyelid ptosis, a drooping upper lid that can occur if the effect reaches nearby muscles.\n- **The effect is temporary.** The Japanese trial allowed up to five treatments over 13 months, based on retreatment criteria. Choosing it means choosing repeat injections.\n- **Not everyone is a candidate.** One ET-01 trial excluded people with neuromuscular disease, eyelid ptosis, muscle weakness, dry eye, or a history of eye-area surgery. It also excluded people who were pregnant or nursing. These exclusions exist because the eye area is a sensitive place to intervene.\n- **Medium-depth peels are a medical procedure.** Beyond a recovery period of redness and peeling, risks include scarring and pigment changes, meaning patches of skin that end up darker or lighter than the surrounding area.\n\n> **Talk to a qualified professional before considering this.** If you have a medical concern about your eyes or skin, raise it with a doctor or dermatologist, not a blog post or an app.\n\nThe non-medical options in this guide come first: sun protection, sleep, grooming and styling. They are lower risk and within your control.\n\n## Styling and grooming around the eye area\n\nHow crow's feet read in daily life depends heavily on what surrounds them. These are *editorial suggestions*, not measured effects.\n\n### Frames and eyewear\n\nGlasses change where people look. A frame with a defined upper rim draws attention to the brow line and the eye itself. Thin or rimless frames put more focus on the skin at the corners. If you wear glasses, treat frame shape as part of how your eye area looks, not only as a prescription decision.\n\n### Makeup, if you wear it\n\n- Use a thin layer of creamy concealer or a tinted product at the outer corner rather than building coverage.\n- Go light with loose powder there, since powder tends to sit in creases and make lines more visible.\n- Blend outward with a fingertip or damp sponge, and check the result in daylight, not bathroom light.\n\n### Grooming and rest\n\nWell-shaped brows, a current haircut and, if you have facial hair, a neat beard line all frame the eyes. Short sleep tends to make the whole eye area look tired, which draws attention to lines that would otherwise go unnoticed. None of these change the lines themselves. They change the overall impression.\n\nIf you want a structured look at your eye area in context, Aura's [AI Face Analysis](https://app.aura-looksmaxxing.com/tools/ai-face-rating?source=%2Fblog%2Fcrows-feet-guide) can help. A free on-device preview measures face shape, symmetry, canthal tilt and eye shape in your browser, without uploading your photo. The full report covers your facial profile, a feature breakdown and personal styling suggestions. It is part of the 30-Day Glow-Up Plan, a one-time $14.99 purchase. It does not diagnose wrinkles, and its scores are subjective photo-based estimates. It is a starting point for grooming and styling choices around your eyes.\n\n{{IMAGE_3}}\n\n## A simple daily routine for the eye area\n\n*Editorial suggestion*, built around the habits above:\n\n1. **Morning:** cleanse gently, moisturize, then apply SPF 30 or higher all the way to the outer eye corners.\n2. **Before going out:** wear sunglasses with UV protection, plus a hat for long periods in direct sun.\n3. **During the day:** notice when you squint at a screen or into light, and adjust brightness, distance or position.\n4. **Evening:** remove sunscreen and makeup gently, without dragging the skin, then moisturize.\n5. **Every few months:** retake your neutral and smiling photos in the same light to track the area calmly.\n\nThis routine will not make crow's feet disappear. It is a sensible baseline that addresses the sun and squinting factors you control.\n\n## Keeping crow's feet in perspective\n\nCrow's feet come from the same muscle movement that makes a smile look genuine. Lines that appear when you laugh are a sign of an expressive face. Protect your skin from the sun, groom and style the area with intention, and be skeptical of anyone promising to erase a normal part of having a face that moves.",
+    "image_prompts": [
+      {
+        "prompt": "A relaxed adult man in his late thirties laughing outdoors in soft late-afternoon light, shown in a three-quarter view from the shoulders up, with natural fine lines fanning from the outer corner of his visible eye. The background is a blurred green park, and the framing is simple enough to read clearly at thumbnail size.",
+        "alt": "Man laughing outdoors with natural crow's feet at the outer corner of his eye",
+        "purpose": "Introduces crow's feet as natural expression lines at the outer eye corner that show up most when smiling."
+      },
+      {
+        "prompt": "A woman in her forties sitting at a sunny outdoor café table, wearing a wide-brimmed straw hat and large dark sunglasses that cover the outer corners of her eyes, with a relaxed expression. The scene is a medium shot, with bright daylight on the street behind her and her face shaded by the hat brim.",
+        "alt": "Woman wearing a wide-brimmed hat and large sunglasses to shade her eye area in bright sun",
+        "purpose": "Shows the sun protection and squint-reduction habit described in the sun protection section: hat plus UV sunglasses covering the outer eye corner."
+      },
+      {
+        "prompt": "A tidy bathroom shelf in soft morning window light holding a plain unlabeled white sunscreen tube, a small plain glass moisturizer jar, and a pair of tortoiseshell sunglasses folded beside them. The items are arranged simply with plenty of space between them and no writing on any packaging.",
+        "alt": "Daily eye-area routine items: plain sunscreen tube, moisturizer jar and sunglasses on a bathroom shelf",
+        "purpose": "Illustrates the simple daily routine for the eye area: moisturizer, sunscreen and sunglasses as the core non-medical habits."
+      }
+    ],
+    "faq": [
+      {
+        "q": "What causes crow's feet?",
+        "a": "Crow's feet come from a mix of repeated muscle movement around the eyes, structural changes in aging skin, and sun exposure. Collagen and elastin decline with age, so the creases from smiling and squinting gradually stop disappearing when your face is at rest."
+      },
+      {
+        "q": "Can you get rid of crow's feet without procedures?",
+        "a": "Nothing non-medical has been shown to erase existing crow's feet. Sun protection, UV sunglasses and less squinting address the factors you control. Grooming, eyewear and makeup technique change how the eye area reads overall."
+      },
+      {
+        "q": "At what age do crow's feet appear?",
+        "a": "There is no fixed age, and it varies a lot between people. The area around the eyes is one of the first places on the face to show signs of aging, so many people notice crow's feet before other lines."
+      },
+      {
+        "q": "Do eye creams remove crow's feet?",
+        "a": "We found no solid evidence that any specific eye cream removes crow's feet. A moisturizer keeps the skin comfortable and less dry, which is a fine reason to use one. Be skeptical of products promising to erase lines."
+      },
+      {
+        "q": "Should I get Botox for crow's feet?",
+        "a": "We don't recommend Botox or other injectables for appearance. It is a prescription neurotoxin injected near the eye, with risks such as bruising and eyelid ptosis (a drooping upper lid). Its effect is temporary, so it means repeat injections, and trials excluded people with conditions like eyelid drooping or dry eye. Talk to a qualified professional before considering it."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Crow’s Feet: What It Is, Botox, Treatment & Prevention",
+        "url": "https://my.clevelandclinic.org/health/diseases/24586-crows-feet"
+      },
+      {
+        "title": "Lateral Canthal Rhytides With Medium Depth Chemical Peel With or Without Pretreatment With Botulinum Toxin A",
+        "url": "https://clinicaltrials.gov/study/NCT01586819"
+      },
+      {
+        "title": "OnabotulinumtoxinA (Botox) in the Treatment of Crow’s Feet Lines in Japanese Subjects",
+        "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5605642/"
+      },
+      {
+        "title": "Efficacy and Safety of Increasing Doses of DaxibotulinumtoxinA for Injection (DAXI for Injection) in the Treatment of Moderate or Severe Lateral Canthal Lines",
+        "url": "https://cdn.clinicaltrials.gov/large-docs/02/NCT03911102/Prot_000.pdf"
+      },
+      {
+        "title": "ET-01 in Subjects With Lateral Canthal Lines",
+        "url": "https://clinicaltrials.gov/study/NCT03326856"
+      }
+    ]
+  }
+}

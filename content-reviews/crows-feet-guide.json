@@ -1,0 +1,102 @@
+{
+  "slug": "crows-feet-guide",
+  "reviewedAt": "2026-11-09T23:42:55.262Z",
+  "draft": true,
+  "review": {
+    "pass": false,
+    "issues": [
+      "Skincare: Topical retinoic acid and acids are described as common methods, and non-prescription actives are suggested for use. The advice against prescription retinoic acid is present, but the section never mentions or warns about the risks of over-the-counter acids. Risk coverage here is thin.",
+      "Botox section: the passage presents botulinum toxin as 'the most studied treatment' and opens with its trial details, and peels likewise. The intro also states injectables are 'the most studied option' before warnings, which reads as a favorable lead and weakens the non-medical-first ordering.",
+      "Botox section: the claim 'Botox... works by limiting the muscle you use to smile with your eyes' and the risks (bruising, ptosis) are not supported by the supplied evidence excerpts, and the claimed ET-01 exclusions (neuromuscular disease, dry eye, ptosis, eye-area surgery, pregnancy) are not shown in the evidence provided."
+    ]
+  },
+  "textRepair": {
+    "status": "rejected",
+    "issues": [
+      "Botox, peels and procedures: the draft says onabotulinumtoxinA is approved for crow's feet in more than 50 countries. The evidence snippet says approval for glabellar lines in more than 70 countries, so the figure and indication are unsupported or misattributed.",
+      "Skincare: prescription retinoic acid is covered only with 'a decision for a doctor'. Because it is used for appearance, the draft must advise against it, name main risks such as irritation, and put non-medical options first.",
+      "Botox, peels and procedures: the draft sums up the main risks of Botox and peels vaguely ('own recovery period and risks'). It does not name concrete risks such as eyelid ptosis, bruising, or peel scarring and pigment changes, as the rules require."
+    ],
+    "review": {
+      "pass": false,
+      "issues": [
+        "Skincare: Topical retinoic acid and acids are described as common methods, and non-prescription actives are suggested for use. The advice against prescription retinoic acid is present, but the section never mentions or warns about the risks of over-the-counter acids. Risk coverage here is thin.",
+        "Botox section: the passage presents botulinum toxin as 'the most studied treatment' and opens with its trial details, and peels likewise. The intro also states injectables are 'the most studied option' before warnings, which reads as a favorable lead and weakens the non-medical-first ordering.",
+        "Botox section: the claim 'Botox... works by limiting the muscle you use to smile with your eyes' and the risks (bruising, ptosis) are not supported by the supplied evidence excerpts, and the claimed ET-01 exclusions (neuromuscular disease, dry eye, ptosis, eye-area surgery, pregnancy) are not shown in the evidence provided."
+      ]
+    }
+  },
+  "sources": [
+    {
+      "title": "Crow’s Feet: What It Is, Botox, Treatment & Prevention",
+      "url": "https://my.clevelandclinic.org/health/diseases/24586-crows-feet"
+    },
+    {
+      "title": "Lateral Canthal Rhytides With Medium Depth Chemical Peel With or Without Pretreatment With Botulinum Toxin A",
+      "url": "https://clinicaltrials.gov/study/NCT01586819"
+    },
+    {
+      "title": "OnabotulinumtoxinA (Botox) in the Treatment of Crow’s Feet Lines in Japanese Subjects",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5605642/"
+    },
+    {
+      "title": "Efficacy and Safety of Increasing Doses of DaxibotulinumtoxinA for Injection (DAXI for Injection) in the Treatment of Moderate or Severe Lateral Canthal Lines",
+      "url": "https://cdn.clinicaltrials.gov/large-docs/02/NCT03911102/Prot_000.pdf"
+    },
+    {
+      "title": "ET-01 in Subjects With Lateral Canthal Lines",
+      "url": "https://clinicaltrials.gov/study/NCT03326856"
+    }
+  ],
+  "imageModel": "openai/gpt-image-2.5/flare/text-to-image",
+  "imageReviews": [],
+  "imageFailures": [],
+  "imageSettings": {
+    "width": 1024,
+    "height": 1024,
+    "quality": "low"
+  },
+  "usage": [
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "research",
+      "input": 32048,
+      "output": 3194,
+      "estimatedUsd": 0.096036,
+      "searches": 3
+    },
+    {
+      "model": "claude-opus-5-5",
+      "stage": "article",
+      "input": 35054,
+      "output": 15657,
+      "estimatedUsd": 0.453356,
+      "searches": 0
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "text-review",
+      "input": 8430,
+      "output": 262,
+      "estimatedUsd": 0.01948,
+      "searches": 0
+    },
+    {
+      "model": "claude-opus-5-5",
+      "stage": "article-repair",
+      "input": 9035,
+      "output": 7271,
+      "estimatedUsd": 0.18156,
+      "searches": 0
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "text-review",
+      "input": 8652,
+      "output": 324,
+      "estimatedUsd": 0.020544,
+      "searches": 0
+    }
+  ],
+  "note": "Token estimates exclude web-search charges, images, tax and provider markups."
+}
