@@ -219,7 +219,7 @@ A clear brief matters more than choosing the "right" cut for your face shape. He
 4. **Ask what they see that you can't.** That includes cowlicks, density at the crown, hairline shape and growth direction.
 5. **Agree on where to start.** If you're unsure, ask for a slightly longer version first. Taking more off later is easy.
 
-If you'd like a written starting point before your appointment, Aura's [Haircut Finder](https://app.aura-looksmaxxing.com/tools/haircut-recommendation-tool?source=%2Fblog%2Foval-face-shape-hairstyles) is one option. It looks at your visible face shape, apparent hair texture and current length, plus any preferences you give it. It then suggests three named haircuts, with an explanation of why each might suit you and a stylist brief covering upkeep and what to ask for. It's a recommendation report, not a try-on image, and it's part of Aura Pro. The report also lists what a photo can't show, such as scalp density and how your hair grows, which your stylist should check in person.
+If you'd like a written starting point before your appointment, Aura's [Haircut Finder](https://app.aura-looksmaxxing.com/tools/haircut-recommendation-tool?source=%2Fblog%2Foval-face-shape-hairstyles) is one option. It looks at your visible face shape, apparent hair texture and current length, plus any preferences you give it. It then suggests three named haircuts, with an explanation of why each might suit you and a stylist brief covering upkeep and what to ask for. It's a recommendation report, not a try-on image, and it's part of the 30-Day Glow-Up Plan. The report also lists what a photo can't show, such as scalp density and how your hair grows, which your stylist should check in person.
 
 ## Common Mistakes to Avoid
 

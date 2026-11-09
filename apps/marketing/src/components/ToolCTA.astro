@@ -9,25 +9,50 @@ const appUrl = import.meta.env.PUBLIC_APP_URL ?? 'https://app.aura-looksmaxxing.
 // Topics with no matching tool (height, surgery, supplements) still get a way in:
 // the tool index, where the reader picks the question that actually fits them.
 const href = tool ? toolHref(tool.slug, source, appUrl) : `${appUrl}/tools?source=${encodeURIComponent(source)}`;
-// The main offer: the 30-day plan, on its own sales page. The free tool stays as the second step.
 const planHref = `/glow-up-plan?source=${encodeURIComponent(source)}`;
 const glow = appConfig.pricing.glowPlan;
+const price = `$${glow.price.toFixed(2)}`;
+// Readers arrive with a question about their face, so the free tool comes
+// first: it answers it for their own photo without an account, and the tool
+// page then shows their day 1 and the plan's price right under the result.
+// Only readers who came for a plan or routine (the planner's topics), or whose
+// topic has no tool at all, see the plan first.
+const planFirst = !nonSurgical && (!tool || tool.slug === 'glow-up-planner');
+const variant = nonSurgical ? 'non-surgical' : planFirst ? 'plan-first' : 'tool-first';
 ---
 {nonSurgical ? (
 <aside class="not-prose my-8 rounded-2xl border border-white/10 bg-[#111111] p-7 sm:p-9" aria-label="Non-surgical options">
   <p class="mb-2 text-xs font-bold uppercase tracking-widest text-[#888]">Before any medical treatment</p>
   <h2 class="text-2xl font-bold text-white">See what changes without one</h2>
   <p class="mt-2 leading-relaxed text-[#bbb]">A lot of what people hope a procedure or a drug will fix starts somewhere less drastic: body fat, grooming, hairstyle, posture, sleep. Upload one photo to see where your face stands and which of those levers are likely to matter most for you.</p>
-  <div class="mt-5 flex flex-wrap items-center gap-4"><a href={planHref} data-placement={placement} data-variant="non-surgical" class="inline-flex rounded-xl border border-white/20 px-6 py-3 text-sm font-bold text-white hover:bg-white/5">See the 30-day plan without treatment →</a><a href={href} data-tool={tool?.slug} data-placement={placement} data-cta-rollout={CONTENT_CTA_ROLLOUT} class="text-sm text-[#aaa] underline-offset-4 hover:underline">or start a free preview</a></div>
-  <p class="mt-3 text-xs text-[#888]">The plan covers skin, hair, grooming, posture, nutrition and training. No procedures, no medication.</p>
+  <div class="mt-5 flex flex-wrap items-center gap-4">
+    <a href={href} data-tool={tool?.slug} data-placement={placement} data-cta-rollout={CONTENT_CTA_ROLLOUT} data-variant={variant} class="inline-flex rounded-xl border border-white/20 px-6 py-3 text-sm font-bold text-white hover:bg-white/5">See my options without treatment →</a>
+    <a href={planHref} data-placement={placement} data-variant={variant} class="text-sm text-[#aaa] underline-offset-4 hover:underline">or see the 30-day plan without treatment</a>
+  </div>
+  <p class="mt-3 text-xs text-[#888]">Free preview on your device, no account needed. The plan covers skin, hair, grooming, posture, nutrition and training: no procedures, no medication.</p>
 </aside>
-) : (
-<aside class:list={['not-prose my-8 rounded-2xl border border-fuchsia-400/20 bg-gradient-to-br from-fuchsia-950/40 to-violet-950/25', compact ? 'p-5' : 'p-7 sm:p-9']} aria-label={tool ? tool.name : 'Aura photo tools'}>
+) : planFirst ? (
+<aside class:list={['not-prose my-8 rounded-2xl border border-fuchsia-400/20 bg-gradient-to-br from-fuchsia-950/40 to-violet-950/25', compact ? 'p-5' : 'p-7 sm:p-9']} aria-label={glow.name}>
   <p class="mb-2 text-xs font-bold uppercase tracking-widest text-fuchsia-300">{glow.name}</p>
   <h2 class:list={['font-bold text-white', compact ? 'text-xl' : 'text-2xl']}>Stop collecting tips. Follow a plan made for your face.</h2>
   <p class="mt-2 leading-relaxed text-[#bbb]">One face scan and a few questions, then a daily checklist for 30 days: skin, hair, jawline, nutrition, training and style{tool?.audience === 'women' ? ', written for women' : ', for men and women'}.</p>
   {!compact && <ul class="my-5 grid gap-2 text-sm text-[#ddd] sm:grid-cols-3">{['Your scan and routine', 'Today’s checklist', 'Day-30 re-scan'].map(label => <li class="rounded-xl border border-white/10 p-3">{label}</li>)}</ul>}
-  <div class="mt-5 flex flex-wrap items-center gap-4"><a href={planHref} data-placement={placement} data-cta-rollout={CONTENT_CTA_ROLLOUT} class="inline-flex rounded-xl btn-gradient px-6 py-3 text-sm font-bold text-white">See my 30-day plan →</a><a href={href} data-tool={tool?.slug} data-placement={placement} data-cta-rollout={CONTENT_CTA_ROLLOUT} class="text-sm text-[#aaa] underline-offset-4 hover:underline">{tool ? `or try the free ${tool.name.toLowerCase()} preview` : 'or start a free preview'}</a></div>
-  <p class="mt-3 text-xs text-[#888]">${glow.price.toFixed(2)} once, no subscription. The free preview runs on your device, no account needed.</p>
+  <div class="mt-5 flex flex-wrap items-center gap-4">
+    <a href={planHref} data-placement={placement} data-cta-rollout={CONTENT_CTA_ROLLOUT} data-variant={variant} class="inline-flex rounded-xl btn-gradient px-6 py-3 text-sm font-bold text-white">See my 30-day plan →</a>
+    <a href={href} data-tool={tool?.slug} data-placement={placement} data-cta-rollout={CONTENT_CTA_ROLLOUT} data-variant={variant} class="text-sm text-[#aaa] underline-offset-4 hover:underline">{tool ? `or try the free ${tool.name.toLowerCase()} preview` : 'or start a free preview'}</a>
+  </div>
+  <p class="mt-3 text-xs text-[#888]">{price} once, no subscription. The free preview runs on your device, no account needed.</p>
+</aside>
+) : (
+<aside class:list={['not-prose my-8 rounded-2xl border border-fuchsia-400/20 bg-gradient-to-br from-fuchsia-950/40 to-violet-950/25', compact ? 'p-5' : 'p-7 sm:p-9']} aria-label={tool!.name}>
+  <p class="mb-2 text-xs font-bold uppercase tracking-widest text-fuchsia-300">{tool!.audience === 'women' ? 'Your style. Your preferences.' : 'Try this with your own photo'}</p>
+  <h2 class:list={['font-bold text-white', compact ? 'text-xl' : 'text-2xl']}>{tool!.name}</h2>
+  <p class="mt-2 leading-relaxed text-[#bbb]">{tool!.description}</p>
+  {!compact && <ul class="my-5 grid gap-2 text-sm text-[#ddd] sm:grid-cols-3">{['Face shape, symmetry and eyes', 'Day 1 of your glow-up plan', 'No account needed'].map(label => <li class="rounded-xl border border-white/10 p-3">{label}</li>)}</ul>}
+  <div class="mt-5 flex flex-wrap items-center gap-4">
+    <a href={href} data-tool={tool!.slug} data-placement={placement} data-cta-rollout={CONTENT_CTA_ROLLOUT} data-variant={variant} class="inline-flex rounded-xl btn-gradient px-6 py-3 text-sm font-bold text-white">Start my free preview →</a>
+    <a href={planHref} data-placement={placement} data-variant={variant} class="text-sm text-[#aaa] underline-offset-4 hover:underline">or see the 30-day plan ({price} once)</a>
+  </div>
+  <p class="mt-3 text-xs text-[#888]">Free, on your device, your photo is not uploaded. Includes day 1 of your 30-day plan.</p>
 </aside>
 )}

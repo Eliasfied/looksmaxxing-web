@@ -169,7 +169,7 @@ The hard part is knowing which of these choices fits *your* face shape and goals
 - Hair and brow ideas, plus optional makeup ideas
 - A summary of your personal priorities, based on the style goals you set
 
-A basic preview (face shape, symmetry, canthal tilt and eye shape) runs in your browser without uploading your photo, and it costs nothing. The full AI report is part of Aura Pro. It is a styling aid, not a measure of attractiveness, and it won't recommend weight loss from a photo.
+A basic preview (face shape, symmetry, canthal tilt and eye shape) runs in your browser without uploading your photo, and it costs nothing. The full AI report is part of the 30-Day Glow-Up Plan. It is a styling aid, not a measure of attractiveness, and it won't recommend weight loss from a photo.
 
 ![Woman with wavy chestnut hair in face-framing layers just below the jaw, wearing a rust V-neck top and a gold drop earring, shown in three-quarter view against a warm cream wall in soft natural light](/blog/jawline-exercises-for-women/3.webp)
 

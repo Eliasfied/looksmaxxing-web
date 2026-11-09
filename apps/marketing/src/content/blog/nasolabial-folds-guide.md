@@ -162,7 +162,7 @@ A gentle cleanser, a moisturizer suited to your skin type and sunscreen cover th
 
 It's easy to fixate on one line once you've noticed it. Most people don't read faces feature by feature. They notice overall grooming, skin condition, hair and expression.
 
-If you want a structured overview instead of zooming in on one spot, the [AI Face Analysis tool](https://app.aura-looksmaxxing.com/tools/ai-face-rating?source=%2Fblog%2Fnasolabial-folds-guide) gives you a facial profile, a feature breakdown and personal styling suggestions covering grooming and styling options. Any scores are subjective estimates based on your photo, not objective attractiveness measurements, and the tool doesn't measure or treat nasolabial folds. The only part that costs nothing is an on-device preview of face shape, symmetry, canthal tilt and eye shape, processed in your browser without uploading the photo. The full AI report is part of Aura Pro.
+If you want a structured overview instead of zooming in on one spot, the [AI Face Analysis tool](https://app.aura-looksmaxxing.com/tools/ai-face-rating?source=%2Fblog%2Fnasolabial-folds-guide) gives you a facial profile, a feature breakdown and personal styling suggestions covering grooming and styling options. Any scores are subjective estimates based on your photo, not objective attractiveness measurements, and the tool doesn't measure or treat nasolabial folds. The only part that costs nothing is an on-device preview of face shape, symmetry, canthal tilt and eye shape, processed in your browser without uploading the photo. The full AI report is part of the 30-Day Glow-Up Plan.
 
 ## A quick reality check
 

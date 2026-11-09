@@ -147,7 +147,7 @@ Most glow-ups fail because they're too big rather than wrong. Ten new habits on 
 4. **Reflect once a week.** Write two lines: what stuck and what didn't. Adjust the next week based on that, not on willpower.
 5. **Review at day 28.** Keep what became automatic, drop what didn't fit, and add one new area.
 
-If you'd rather not build this from scratch, Aura's [30-Day Glow-Up Planner](https://app.aura-looksmaxxing.com/tools/glow-up-planner?source=%2Fblog%2Fglow-up-in-your-30s) turns your goals, time budget and style preferences into a four-week grooming and style plan. You get three small tasks per week, a daily checklist, budget-friendly options and a weekly reflection. It focuses on hair, grooming, clothing and ordinary self-care, and doesn't prescribe medical treatments or supplements. It's part of Aura Pro, not a free feature.
+If you'd rather not build this from scratch, Aura's [30-Day Glow-Up Planner](https://app.aura-looksmaxxing.com/tools/glow-up-planner?source=%2Fblog%2Fglow-up-in-your-30s) turns your goals, time budget and style preferences into a four-week grooming and style plan. You get three small tasks per week, a daily checklist, budget-friendly options and a weekly reflection. It focuses on hair, grooming, clothing and ordinary self-care, and doesn't prescribe medical treatments or supplements. It's part of the 30-Day Glow-Up Plan, not a free feature.
 
 ## What a 30s Glow-Up Can't Promise
 

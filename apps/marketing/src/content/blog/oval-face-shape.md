@@ -110,7 +110,7 @@ The training data also has limits. One study trained and tested on 500 images of
 
 There is a second limit. One paper describes the hairstyle rules attached to face shapes as seeming to come from expert knowledge and empirical opinion. That makes them useful conventions, not tested outcomes.
 
-Treat any app result as **a likely category with some uncertainty**, not a measurement. Aura's [Face Shape Finder](https://app.aura-looksmaxxing.com/tools/face-shape-detector?source=%2Fblog%2Foval-face-shape) is built around that idea. It gives your likely face shape, explains how your forehead, cheek and jaw proportions relate, and lists haircut and accessory options. The preview estimates face shape in your browser without uploading your photo. The full AI report is part of the paid Aura Pro subscription.
+Treat any app result as **a likely category with some uncertainty**, not a measurement. Aura's [Face Shape Finder](https://app.aura-looksmaxxing.com/tools/face-shape-detector?source=%2Fblog%2Foval-face-shape) is built around that idea. It gives your likely face shape, explains how your forehead, cheek and jaw proportions relate, and lists haircut and accessory options. The preview estimates face shape in your browser without uploading your photo. The full AI report is part of the paid 30-Day Glow-Up Plan ($14.99 once).
 
 ## Glasses for an Oval Face
 

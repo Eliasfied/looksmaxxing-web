@@ -106,7 +106,7 @@ Here's a quick check (our editorial suggestion):
 
 If you're still unsure, Aura's [Face Shape Finder](https://app.aura-looksmaxxing.com/tools/face-shape-detector?source=%2Fblog%2Fbest-glasses-for-square-face) estimates your *likely* face shape from a photo. It explains how your forehead, cheek and jaw proportions compare and lists styling options, including accessories like glasses.
 
-It doesn't take calibrated measurements. The result is a likely shape, not a definitive label. The free output is a subjective styling estimate. The full breakdown is part of Aura Pro ($9.99 a month or $49.99 a year).
+It doesn't take calibrated measurements. The result is a likely shape, not a definitive label. The free output is a subjective styling estimate. The full breakdown is part of the 30-Day Glow-Up Plan ($14.99 once, no subscription).
 
 ## Why Contrast Is the Core Rule
 

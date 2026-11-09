@@ -130,7 +130,7 @@ Fat loss is slow. Styling choices work on day one. Everything in this section is
 - **Frames with some angle** can balance a round face better than very round frames.
 - **Stand and sit tall.** *Editorial note:* a forward-jutting head bunches the area under the chin in photos, which can read as extra fullness.
 
-If you want a structured view of your features before choosing styles, [Aura's AI face analysis](https://app.aura-looksmaxxing.com/tools/ai-face-rating?source=%2Fblog%2Fhow-to-lose-face-fat) gives you a facial profile, a feature breakdown and personal styling suggestions based on a photo. Its scores are subjective, photo-based estimates rather than objective measurements. It cannot measure face fat or predict how weight loss will change your face. A basic preview (face shape, symmetry, canthal tilt, eye shape) runs on your device at no cost, and the full AI report is part of the paid Aura Pro subscription.
+If you want a structured view of your features before choosing styles, [Aura's AI face analysis](https://app.aura-looksmaxxing.com/tools/ai-face-rating?source=%2Fblog%2Fhow-to-lose-face-fat) gives you a facial profile, a feature breakdown and personal styling suggestions based on a photo. Its scores are subjective, photo-based estimates rather than objective measurements. It cannot measure face fat or predict how weight loss will change your face. A basic preview (face shape, symmetry, canthal tilt, eye shape) runs on your device at no cost, and the full AI report is part of the paid 30-Day Glow-Up Plan ($14.99 once).
 
 ## When It Isn't Fat
 
