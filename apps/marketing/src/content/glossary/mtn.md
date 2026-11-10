@@ -1,6 +1,6 @@
 ---
-title: "MTN: Mid Tier Normie, Explained Plainly"
-description: "MTN stands for Mid-Tier Normie in looksmaxxing slang: average attractiveness, neither notably attractive nor unattractive. Where the band sits."
+title: "MTN Meaning: Mid-Tier Normie and Where It Sits on the Scale"
+description: "MTN means Mid-Tier Normie: plain average looks, neither striking nor unattractive. How it differs from LTN and HTN, and what usually moves someone up a tier."
 slug: mtn
 term: MTN
 abbreviation: Mid-Tier Normie

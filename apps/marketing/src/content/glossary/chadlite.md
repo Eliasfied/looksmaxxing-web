@@ -1,6 +1,6 @@
 ---
-title: "Chadlite: The Tier Just Below Chad, Explained"
-description: A chadlite is someone rated above average in looks but falling short of full Chad status. Learn what separates a chadlite from a Chad on the PSL scale.
+title: "Chadlite Meaning: Between HTN and Chad, Explained"
+description: "A chadlite is clearly attractive but a feature or two short of Chad, usually put around 7 to 7.9 on the PSL scale. What separates the two tiers, explained."
 slug: chadlite
 term: Chadlite
 primary_keyword: chadlite
