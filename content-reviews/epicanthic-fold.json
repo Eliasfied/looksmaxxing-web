@@ -1,0 +1,87 @@
+{
+  "slug": "epicanthic-fold",
+  "reviewedAt": "2026-11-10T21:08:45.331Z",
+  "draft": false,
+  "review": {
+    "pass": true,
+    "issues": []
+  },
+  "textRepair": null,
+  "sources": [
+    {
+      "title": "EPICANTHIC FOLD Definition & Meaning",
+      "url": "https://www.dictionary.com/browse/epicanthic-fold"
+    },
+    {
+      "title": "Minimizing Postoperative Scars in Epicanthoplasty: A Concise Review",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12690353/"
+    },
+    {
+      "title": "epicanthic fold",
+      "url": "https://www.encyclopedia.com/medicine/encyclopedias-almanacs-transcripts-and-maps/epicanthic-fold"
+    },
+    {
+      "title": "Relationship between lower eyelid epiblepharon and epicanthus in Korean children",
+      "url": "https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0187690"
+    },
+    {
+      "title": "Epicanthal folds - HIE Multimedia - ADAM",
+      "url": "https://sales-demo.adam.com/content.aspx?productid=117&pid=1&gid=003030"
+    },
+    {
+      "title": "Monolid Eyes: Epicanthal Folds & Causes",
+      "url": "https://my.clevelandclinic.org/health/symptoms/22413-monolid-eyes"
+    },
+    {
+      "title": "Epicanthal Folds: Meaning, Causes and When They Matter",
+      "url": "https://isymptom.com/symptom/epicanthal-folds/"
+    },
+    {
+      "title": "Epicanthic Fold",
+      "url": "https://www.findzebra.com/details/kL63P4V-epicanthic-fold"
+    },
+    {
+      "title": "Epicanthic fold",
+      "url": "https://en.wikipedia.org/wiki/Epicanthic_fold"
+    },
+    {
+      "title": "Biology:Epicanthic fold - HandWiki",
+      "url": "https://handwiki.org/wiki/Biology:Epicanthic_fold"
+    }
+  ],
+  "imageModel": "openai/gpt-image-2.5/flare/text-to-image",
+  "imageReviews": [],
+  "imageFailures": [],
+  "imageSettings": {
+    "width": 1024,
+    "height": 1024,
+    "quality": "low"
+  },
+  "usage": [
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "research",
+      "input": 29538,
+      "output": 4097,
+      "estimatedUsd": 0.100046,
+      "searches": 3
+    },
+    {
+      "model": "claude-opus-5-5",
+      "stage": "article",
+      "input": 32306,
+      "output": 5577,
+      "estimatedUsd": 0.240764,
+      "searches": 0
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "text-review",
+      "input": 5897,
+      "output": 16,
+      "estimatedUsd": 0.011954,
+      "searches": 0
+    }
+  ],
+  "note": "Token estimates exclude web-search charges, images, tax and provider markups."
+}
