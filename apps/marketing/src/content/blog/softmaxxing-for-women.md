@@ -9,7 +9,7 @@ heroImage: "/blog/softmaxxing-for-women/1.webp"
 heroImageAlt: "Woman with shoulder-length layered brown hair and gold hoop earrings stands smiling softly by a sunlit window in a bright apartment, wearing a cream blazer over a white top with matching cream trousers, hands in pockets, with a sofa, plants and city view behind her."
 tags: ["softmaxxing", "looksmaxxing for women", "grooming", "hair and brows", "style"]
 readingTime: 9
-related: [glow-up-at-30, jawline-exercises-for-women, how-to-lose-face-fat]
+related: [glow-up-at-30, jawline-exercises-for-women, norwood-scale-explained]
 faq:
   - q: "What is softmaxxing for women?"
     a: "Softmaxxing is the non-surgical side of looksmaxxing: grooming, skincare, hair, brows, clothing and everyday habits. For women it usually means ordinary beauty and styling routines described in systems language. The useful core is consistency, not a new set of rules."

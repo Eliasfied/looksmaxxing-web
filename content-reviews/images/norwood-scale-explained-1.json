@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "fingerprint": "4a8d1d5bac9dd59be3e4fb89f566692fc5d3cc565e3d493ad6a2081beee1eed8",
+  "brief": {
+    "prompt": "A man in his late twenties stands at a bathroom mirror in soft morning window light, viewed from a three-quarter angle, gently pushing his hair back with one hand to look at his temples. Calm, neutral expression, clean white tiles, realistic photographic style, no text anywhere.",
+    "alt": "Man checking his receding temples in a bathroom mirror to place himself on the Norwood scale",
+    "purpose": "Introduces the article's core scenario: noticing hairline change and wanting to understand the Norwood scale calmly.",
+    "article": "norwood-scale-explained",
+    "position": 1
+  },
+  "sha256": "dc71dbf748ba75e112c00fefb2f84c5f3e90051567b9d672e1e862ebaef4f76d",
+  "reviewedAt": "2026-11-11T21:43:30.801Z",
+  "review": {
+    "pass": true,
+    "issues": [],
+    "alt": "Man in his late twenties in a navy t-shirt stands at a bathroom mirror in soft window light, pushing his hair back with one hand to examine his temples, with white tiles and a small plant in the background."
+  }
+}

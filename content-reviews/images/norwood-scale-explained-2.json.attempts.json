@@ -1,0 +1,14 @@
+{
+  "key": "{\"brief\":{\"prompt\":\"A smartphone mounted on a small tabletop tripod faces an empty wooden chair beside a bright window with sheer curtains, in a tidy, minimal room. Even, soft daylight falls across the chair, photographic style, no people and no text.\",\"alt\":\"Consistent photo setup with a phone on a tripod facing a chair by a window for tracking hairline changes\",\"purpose\":\"Shows the consistent lighting and fixed-position setup recommended for honest, repeatable hairline self-checks instead of judging from one bad photo.\",\"article\":\"norwood-scale-explained\",\"position\":2},\"model\":\"openai/gpt-image-2.5/flare/text-to-image\"}",
+  "attempts": [
+    {
+      "status": "passed",
+      "prompt": "A smartphone mounted on a small tabletop tripod faces an empty wooden chair beside a bright window with sheer curtains, in a tidy, minimal room. Even, soft daylight falls across the chair, photographic style, no people and no text.",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "A smartphone on a small black tabletop tripod faces an empty wooden chair beside a bright window with sheer white curtains, in a tidy minimal room with soft daylight, a rug, plants and a shelf."
+      }
+    }
+  ]
+}

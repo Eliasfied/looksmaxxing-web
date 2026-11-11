@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "fingerprint": "b26ec37e1baf3303edc6d5c256d42b0cb5f41bee0544cf69cd47172a0204e98e",
+  "brief": {
+    "prompt": "A man in his thirties with a clean, very short buzz cut and neatly trimmed short beard sits relaxed on a park bench in natural afternoon light, smiling slightly, shown from the chest up. Realistic photographic style, simple casual clothing, no text.",
+    "alt": "Man with a close buzz cut and trimmed beard, a common styling choice for advanced hair loss",
+    "purpose": "Illustrates the non-medical styling option of a buzz cut with a beard for balance, discussed for later Norwood stages.",
+    "article": "norwood-scale-explained",
+    "position": 3
+  },
+  "sha256": "f2d1d891557585ca64f338c4b5aba555fd2af56f03f393b5b94172a2a662cbe4",
+  "reviewedAt": "2026-11-11T21:43:57.066Z",
+  "review": {
+    "pass": true,
+    "issues": [],
+    "alt": "Smiling man in his thirties with a close buzz cut and trimmed short beard, wearing a blue-gray t-shirt and sitting on a park bench in soft afternoon light, shown from the chest up."
+  }
+}

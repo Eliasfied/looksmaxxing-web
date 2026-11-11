@@ -1,0 +1,141 @@
+{
+  "slug": "norwood-scale-explained",
+  "reviewedAt": "2026-11-11T21:43:57.067Z",
+  "draft": false,
+  "review": {
+    "pass": true,
+    "issues": []
+  },
+  "textRepair": {
+    "status": "passed",
+    "issues": [
+      "A Note on Hair Loss Medications: Minoxidil and finasteride are described only as long-term commitments with side effects, without main risks such as sexual side effects. 'Whether to treat it is a decision for a doctor' and 'The same applies to surgical options' present drugs and surgery as a neutral next step for appearance."
+    ],
+    "review": {
+      "pass": true,
+      "issues": []
+    }
+  },
+  "sources": [
+    {
+      "title": "Study of TDM-105795 Following Topical Administration in Male Subjects With Androgenetic Alopecia",
+      "url": "https://cdn.clinicaltrials.gov/large-docs/73/NCT05802173/SAP_001.pdf"
+    },
+    {
+      "title": "Hamilton%E2%80%93Norwood scale",
+      "url": "https://en.wikipedia.org/wiki/Hamilton%E2%80%93Norwood_scale"
+    },
+    {
+      "title": "Comparing minoxidil-finasteride mixed solution with minoxidil solution alone for male androgenetic alopecia: a systematic review and meta-analysis of randomized controlled trials",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12537375/"
+    },
+    {
+      "title": "Modulated Light Therapy in Participants With Pattern Hair Loss",
+      "url": "https://clinicaltrials.gov/study/NCT04019795"
+    },
+    {
+      "title": "Norwood Scale (Hamilton-Norwood Scale): All Stages of Male Hair Loss Explained",
+      "url": "https://cosmedica.com/norwood-hamilton-scale/"
+    }
+  ],
+  "imageModel": "openai/gpt-image-2.5/flare/text-to-image",
+  "imageReviews": [
+    {
+      "image": "/blog/norwood-scale-explained/1.webp",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "Man in his late twenties in a navy t-shirt stands at a bathroom mirror in soft window light, pushing his hair back with one hand to examine his temples, with white tiles and a small plant in the background."
+      }
+    },
+    {
+      "image": "/blog/norwood-scale-explained/2.webp",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "A smartphone on a small black tabletop tripod faces an empty wooden chair beside a bright window with sheer white curtains, in a tidy minimal room with soft daylight, a rug, plants and a shelf."
+      }
+    },
+    {
+      "image": "/blog/norwood-scale-explained/3.webp",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "Smiling man in his thirties with a close buzz cut and trimmed short beard, wearing a blue-gray t-shirt and sitting on a park bench in soft afternoon light, shown from the chest up."
+      }
+    }
+  ],
+  "imageFailures": [],
+  "imageSettings": {
+    "width": 1024,
+    "height": 1024,
+    "quality": "low"
+  },
+  "usage": [
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "research",
+      "input": 30634,
+      "output": 4452,
+      "estimatedUsd": 0.105788,
+      "searches": 3
+    },
+    {
+      "model": "claude-opus-5-5",
+      "stage": "article",
+      "input": 35915,
+      "output": 8019,
+      "estimatedUsd": 0.30404,
+      "searches": 0
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "text-review",
+      "input": 8686,
+      "output": 121,
+      "estimatedUsd": 0.018582,
+      "searches": 0
+    },
+    {
+      "model": "claude-opus-5-5",
+      "stage": "article-repair",
+      "input": 9856,
+      "output": 7342,
+      "estimatedUsd": 0.186264,
+      "searches": 0
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "text-review",
+      "input": 8906,
+      "output": 16,
+      "estimatedUsd": 0.017972,
+      "searches": 0
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "image-review",
+      "input": 1716,
+      "output": 87,
+      "estimatedUsd": 0.004302,
+      "searches": 0
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "image-review",
+      "input": 1718,
+      "output": 90,
+      "estimatedUsd": 0.004336,
+      "searches": 0
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "image-review",
+      "input": 1714,
+      "output": 88,
+      "estimatedUsd": 0.004308,
+      "searches": 0
+    }
+  ],
+  "note": "Token estimates exclude web-search charges, images, tax and provider markups."
+}

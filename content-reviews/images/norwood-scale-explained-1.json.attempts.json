@@ -1,0 +1,14 @@
+{
+  "key": "{\"brief\":{\"prompt\":\"A man in his late twenties stands at a bathroom mirror in soft morning window light, viewed from a three-quarter angle, gently pushing his hair back with one hand to look at his temples. Calm, neutral expression, clean white tiles, realistic photographic style, no text anywhere.\",\"alt\":\"Man checking his receding temples in a bathroom mirror to place himself on the Norwood scale\",\"purpose\":\"Introduces the article's core scenario: noticing hairline change and wanting to understand the Norwood scale calmly.\",\"article\":\"norwood-scale-explained\",\"position\":1},\"model\":\"openai/gpt-image-2.5/flare/text-to-image\"}",
+  "attempts": [
+    {
+      "status": "passed",
+      "prompt": "A man in his late twenties stands at a bathroom mirror in soft morning window light, viewed from a three-quarter angle, gently pushing his hair back with one hand to look at his temples. Calm, neutral expression, clean white tiles, realistic photographic style, no text anywhere.",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "Man in his late twenties in a navy t-shirt stands at a bathroom mirror in soft window light, pushing his hair back with one hand to examine his temples, with white tiles and a small plant in the background."
+      }
+    }
+  ]
+}

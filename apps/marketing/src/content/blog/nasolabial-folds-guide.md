@@ -9,7 +9,7 @@ heroImage: "/blog/nasolabial-folds-guide/1.webp"
 heroImageAlt: "Smiling woman with hair loosely pinned up, wearing a cream knit sweater, laughing and looking off to the side in soft window light, with natural smile lines and skin texture visible"
 tags: ["nasolabial folds", "smile lines", "facial aging", "skincare", "grooming"]
 readingTime: 8
-related: [mens-skincare-routine, how-to-get-clean-shave, how-to-shave-without-cream]
+related: [mens-skincare-routine, how-to-get-clean-shave, eyebrow-maxxing-guide]
 faq:
   - q: "What causes nasolabial folds?"
     a: "Nasolabial folds form at the boundary between the cheek and the upper lip. They deepen mainly because the cheek mass shifts forward and downward and fat above the line enlarges while fat below it shrinks. Loss of collagen and elastin, sun damage and smoking add to the effect, and in some people muscle anatomy plays a role."
