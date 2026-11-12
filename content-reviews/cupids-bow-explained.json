@@ -1,0 +1,95 @@
+{
+  "slug": "cupids-bow-explained",
+  "reviewedAt": "2026-11-12T21:42:21.548Z",
+  "draft": true,
+  "review": {
+    "pass": false,
+    "issues": [
+      "Editorial review pending.",
+      "Unexpected non-whitespace character after JSON at position 349 (line 3 column 1)"
+    ]
+  },
+  "textRepair": {
+    "status": "started",
+    "issues": [
+      "Trend section: the draft says 62.7% of patients preferred Modified Cupid's bow lips and 73.9% in the 31–40 group, plus 31 patients. The supplied evidence is truncated and confirms only 67 patients and an age correlation. The figures, age range and 31-person group are unverified and may be fabricated."
+    ]
+  },
+  "sources": [
+    {
+      "title": "Lip Anatomy",
+      "url": "https://my.clevelandclinic.org/health/body/lip-anatomy"
+    },
+    {
+      "title": "The Modified Cupid's Bow Lips: A Dominant Aesthetic Trend in Lip Augmentation-A Clinical and Statistical Analysis - PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41947347/"
+    },
+    {
+      "title": "The Lips",
+      "url": "https://plasticsurgerykey.com/the-lips-2/"
+    },
+    {
+      "title": "Cupid - Etymology, Origin & Meaning",
+      "url": "https://www.etymonline.com/word/Cupid"
+    },
+    {
+      "title": "Secondary Bilateral Cleft Lip Deformity Correction With Modified Double Z-Plasty to Reconstruct Cupid’s Bow",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12223883/"
+    },
+    {
+      "title": "Cupid's Bow Leveling and Preservation of Lip Height and Width: A Modified Rotation-Advancement Technique - PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36727813/"
+    }
+  ],
+  "imageModel": "openai/gpt-image-2.5/flare/text-to-image",
+  "imageReviews": [],
+  "imageFailures": [],
+  "imageSettings": {
+    "width": 1024,
+    "height": 1024,
+    "quality": "low"
+  },
+  "usage": [
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "research",
+      "input": 30897,
+      "output": 3006,
+      "estimatedUsd": 0.091854,
+      "searches": 3
+    },
+    {
+      "model": "claude-opus-5-5",
+      "stage": "article",
+      "input": 33545,
+      "output": 7084,
+      "estimatedUsd": 0.27586,
+      "searches": 0
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "text-review",
+      "input": 7595,
+      "output": 123,
+      "estimatedUsd": 0.01642,
+      "searches": 0
+    },
+    {
+      "model": "claude-opus-5-5",
+      "stage": "article-repair",
+      "input": 8229,
+      "output": 6244,
+      "estimatedUsd": 0.157796,
+      "searches": 0
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "text-review",
+      "input": 7719,
+      "output": 168,
+      "estimatedUsd": 0.017118,
+      "searches": 0
+    }
+  ],
+  "note": "Token estimates exclude web-search charges, images, tax and provider markups."
+}
