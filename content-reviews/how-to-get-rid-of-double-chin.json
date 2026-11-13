@@ -1,0 +1,89 @@
+{
+  "slug": "how-to-get-rid-of-double-chin",
+  "reviewedAt": "2026-11-13T21:09:07.918Z",
+  "draft": true,
+  "review": {
+    "pass": false,
+    "issues": [
+      "Medical procedure mentioned without advising against it: wherever surgery, an implant, filler, Botox or a prescription drug comes up, say \"We don't recommend it for appearance\" and give the main risks"
+    ]
+  },
+  "textRepair": {
+    "status": "rejected",
+    "issues": [
+      "What About Injections, Fat Freezing and Surgery: The section names deoxycholic acid injections, liposuction and face-lifts with only partial risks (nodules, adverse events, anesthesia) and no adequate main-risk summary for each. Fat-freezing is neither advised against nor given any risks, and 'talk to a professional before considering' reads as a neutral next step.",
+      "FAQ (injection safety): The answer gives only nodules and off-area adverse events. It omits the main risks of the procedure and ends with 'before considering any procedure', which leaves injections as a neutral option rather than firmly advising against them for appearance."
+    ],
+    "review": {
+      "pass": false,
+      "issues": [
+        "Medical procedure mentioned without advising against it: wherever surgery, an implant, filler, Botox or a prescription drug comes up, say \"We don't recommend it for appearance\" and give the main risks"
+      ]
+    }
+  },
+  "sources": [
+    {
+      "title": "Double Chin Surgery: What You Need to Know",
+      "url": "https://www.hopkinsmedicine.org/health/wellness-and-prevention/double-chin-surgery-what-you-need-to-know"
+    },
+    {
+      "title": "FDA Approves Additional Information in Labeling for Kybella (Deoxycholic Acid) Injection Warning of Adverse Reactions Associated with Unapproved Use",
+      "url": "https://www.fda.gov/drugs/drug-safety-communications/fda-approves-additional-information-labeling-kybella-deoxycholic-acid-injection-warning-adverse"
+    },
+    {
+      "title": "Facial Contouring Through Jaw Exercises: A Report of Two Cases Examining Efficacy and Consumer Expectations - PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39735145/"
+    },
+    {
+      "title": "Anatomical Consideration for Double Chin Thread Lifting",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12163971/"
+    },
+    {
+      "title": "Double Chin: Causes, Exercises & How to Reduce Chin Fat Naturally",
+      "url": "https://www.medanta.org/patient-education-blog/how-to-reduce-double-chin-naturally-effective-and-medical-treatments"
+    }
+  ],
+  "imageModel": "openai/gpt-image-2.5/flare/text-to-image",
+  "imageReviews": [],
+  "imageFailures": [],
+  "imageSettings": {
+    "width": 1024,
+    "height": 1024,
+    "quality": "low"
+  },
+  "usage": [
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "research",
+      "input": 31253,
+      "output": 3487,
+      "estimatedUsd": 0.097376,
+      "searches": 3
+    },
+    {
+      "model": "claude-opus-5-5",
+      "stage": "article",
+      "input": 35135,
+      "output": 8099,
+      "estimatedUsd": 0.30252,
+      "searches": 0
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "text-review",
+      "input": 8072,
+      "output": 220,
+      "estimatedUsd": 0.018344,
+      "searches": 0
+    },
+    {
+      "model": "claude-opus-5-5",
+      "stage": "article-repair",
+      "input": 9108,
+      "output": 6837,
+      "estimatedUsd": 0.173172,
+      "searches": 0
+    }
+  ],
+  "note": "Token estimates exclude web-search charges, images, tax and provider markups."
+}
