@@ -1,6 +1,6 @@
 ---
-title: "LTN: Low Tier Normie, and How It's Used"
-description: "LTN stands for Low-Tier Normie in looksmaxxing slang: average to below-average looks, sitting below the normie bands but above incel territory."
+title: "LTN Meaning: Low-Tier Normie, Below MTN and HTN"
+description: "LTN means Low-Tier Normie: slightly below-average looks, usually put around 4 to 5 on the PSL scale. How it sits next to MTN and HTN, and what moves people up."
 slug: ltn
 term: LTN
 abbreviation: Low-Tier Normie

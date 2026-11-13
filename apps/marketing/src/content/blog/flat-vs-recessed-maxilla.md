@@ -1,6 +1,6 @@
 ---
-title: "Flat vs Recessed Maxilla: How to Tell Them Apart"
-description: "A flat maxilla and a recessed one are different problems with different fixes. How to tell them apart and what is realistic at your age."
+title: "Recessed vs Flat vs Normal Maxilla, With Diagrams"
+description: "Flat and recessed maxillas look different from the side and need different fixes. Profile diagrams next to a normal maxilla, and what is realistic at your age."
 slug: flat-vs-recessed-maxilla
 primary_keyword: flat vs recessed maxilla
 cluster: compare-maxilla

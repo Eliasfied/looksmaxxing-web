@@ -1,6 +1,6 @@
 ---
-title: "Narrow Clavicles: How to Tell in 10 Seconds"
-description: "A tape measure and a doorframe settle it in ten seconds. How to take the measurement properly, what counts as narrow, and what it means for your frame."
+title: "Narrow Clavicles? How to Measure + Average Length"
+description: "Average clavicle length is about 15 to 17 cm for men and 14 to 16 cm for women. How to measure yours in ten seconds, and what counts as narrow."
 slug: how-to-tell-if-clavicles-narrow
 primary_keyword: how to tell if you have narrow clavicles
 cluster: how-to-diagnose
