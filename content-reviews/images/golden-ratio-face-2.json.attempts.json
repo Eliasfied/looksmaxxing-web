@@ -1,0 +1,14 @@
+{
+  "key": "{\"brief\":{\"prompt\":\"A smartphone mounted on a small tripod at eye level, facing a plain light-coloured wall beside a large window letting in soft daylight, in a tidy room. Shot from a slight side angle so both the phone and the even window light on the wall are clearly visible.\",\"alt\":\"Phone on a tripod at eye level by a window, set up for a consistent face photo\",\"purpose\":\"Shows the consistent photo setup (eye-level camera, even daylight, steady distance) that matters more than any golden ratio score when comparing photos.\",\"article\":\"golden-ratio-face\",\"position\":2},\"model\":\"openai/gpt-image-2.5/flare/text-to-image\"}",
+  "attempts": [
+    {
+      "status": "passed",
+      "prompt": "A smartphone mounted on a small tripod at eye level, facing a plain light-coloured wall beside a large window letting in soft daylight, in a tidy room. Shot from a slight side angle so both the phone and the even window light on the wall are clearly visible.",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "Smartphone clamped on a black tripod in a tidy, bright room, facing a plain light wall beside a large window, with soft daylight and window shadows falling evenly on the wall."
+      }
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "key": "{\"brief\":{\"prompt\":\"A wide shot of a hairstylist cutting a young woman's shoulder-length hair in a bright, modern salon, with the client seated calmly in the chair facing a large mirror. Natural daylight, clean neutral decor, and the stylist standing behind the client.\",\"alt\":\"Woman getting a haircut that frames her face in a bright salon\",\"purpose\":\"Illustrates the practical tip that hairstyle and grooming change how a face reads more usefully than chasing a golden ratio.\",\"article\":\"golden-ratio-face\",\"position\":3},\"model\":\"openai/gpt-image-2.5/flare/text-to-image\"}",
+  "attempts": [
+    {
+      "status": "rejected",
+      "prompt": "A wide shot of a hairstylist cutting a young woman's shoulder-length hair in a bright, modern salon, with the client seated calmly in the chair facing a large mirror. Natural daylight, clean neutral decor, and the stylist standing behind the client.",
+      "issues": [
+        "Composition mismatch with brief: the client is seated in profile/side-on and turned away from the large mirror rather than facing it; the mirror only reflects an empty chair and greenery, so the 'facing a large mirror' element is not delivered.",
+        "Stylist's tool handling is unclear: the hand holds a comb and scissors in an awkward, partly merged grip near the hair, a minor anatomy/object-rendering flaw.",
+        "Stylist is positioned beside the client rather than clearly behind her as briefed, and the framing is closer than a 'wide shot'.",
+        "Weak illustration of the article purpose: the image does not show a face-framing cut or any visible hairstyle-driven change in how the face reads, since the client's face is largely obscured in profile and the cut is mid-process."
+      ]
+    },
+    {
+      "status": "rejected",
+      "prompt": "A wide shot of a hairstylist cutting a young woman's shoulder-length hair in a bright, modern salon, with the client seated calmly in the chair facing a large mirror. Natural daylight, clean neutral decor, and the stylist standing behind the client.\nEDITORIAL CORRECTION: Regenerate a simpler, accurate illustration of the same purpose. Fix these defects from the rejected image: [\"Composition mismatch with brief: the client is seated in profile/side-on and turned away from the large mirror rather than facing it; the mirror only reflects an empty chair and greenery, so the 'facing a large mirror' element is not delivered.\",\"Stylist's tool handling is unclear: the hand holds a comb and scissors in an awkward, partly merged grip near the hair, a minor anatomy/object-rendering flaw.\",\"Stylist is positioned beside the client rather than clearly behind her as briefed, and the framing is closer than a 'wide shot'.\",\"Weak illustration of the article purpose: the image does not show a face-framing cut or any visible hairstyle-driven change in how the face reads, since the client's face is largely obscured in profile and the cut is mid-process.\"]. Avoid text, labels and complex comparative diagrams if they caused the defect.",
+      "issues": [
+        "Composition does not match the brief: the client is seated in profile/turned away from the camera and is not facing the large mirror, and the mirror shows no reflection of her face, so the key 'client facing mirror' element is missing.",
+        "Stylist is standing beside/in front of the client rather than clearly behind her as specified.",
+        "Weak illustration of the article purpose: the face is barely visible, so the image does not show how hairstyle/grooming changes how a face reads or 'frames her face'.",
+        "Not a true wide shot; framing is fairly tight on the chair and stylist, and the mirror reflection looks inconsistent with the scene (shows an empty chair and no people)."
+      ]
+    },
+    {
+      "status": "rejected",
+      "prompt": "A single clear, natural editorial photograph for this article point: Illustrates the practical tip that hairstyle and grooming change how a face reads more usefully than chasing a golden ratio.. One subject, one scene, realistic lighting and accurate anatomy. No text, letters, numbers or labels anywhere. No diagram, no panels, no side-by-side comparison.",
+      "reduced": true,
+      "issues": [
+        "Image does not match the brief: it shows a single bearded young man in a dark sweater posed in a bedroom-like interior, not a hairstylist cutting a young woman's shoulder-length hair in a salon.",
+        "No stylist, no client in a chair, no salon mirror setup, no haircut in progress, and not a wide shot (it is a tight headshot/portrait).",
+        "Fails to illustrate the stated article purpose (hairstyle and grooming changing how a face reads); nothing in the image depicts grooming or styling.",
+        "Setting (bedroom with bed, pillow, plant, framed art) contradicts the required bright modern salon."
+      ]
+    }
+  ]
+}

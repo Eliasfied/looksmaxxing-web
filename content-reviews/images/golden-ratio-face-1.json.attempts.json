@@ -1,0 +1,14 @@
+{
+  "key": "{\"brief\":{\"prompt\":\"A classical white marble bust of a woman displayed on a stone pedestal in a quiet museum gallery, lit by soft side light from a tall window. The background is a plain warm-grey wall, with the bust centered and filling most of the frame.\",\"alt\":\"Classical marble bust representing historical golden ratio face ideals\",\"purpose\":\"Introduces the historical idea that beauty follows fixed mathematical proportions, the starting point of the golden ratio face concept.\",\"article\":\"golden-ratio-face\",\"position\":1},\"model\":\"openai/gpt-image-2.5/flare/text-to-image\"}",
+  "attempts": [
+    {
+      "status": "passed",
+      "prompt": "A classical white marble bust of a woman displayed on a stone pedestal in a quiet museum gallery, lit by soft side light from a tall window. The background is a plain warm-grey wall, with the bust centered and filling most of the frame.",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "Classical white marble bust of a woman with an elaborately braided and pinned-up hairstyle and draped, pinned garment, gazing slightly to the side, displayed on a round plinth atop a grey stone pedestal beside a tall window with soft side light against a plain warm-grey wall."
+      }
+    }
+  ]
+}

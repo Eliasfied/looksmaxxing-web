@@ -9,7 +9,7 @@ heroImage: "/blog/makeup-for-face-shape/1.webp"
 heroImageAlt: "Woman with dark curly hair pulled back touches her cheek while checking her makeup in a bathroom mirror beside a bright window, with soft peach blush on her cheekbones and makeup brushes in a marble cup on the vanity."
 tags: ["makeup", "face shape", "blush placement", "contouring", "facial proportions"]
 readingTime: 8
-related: [most-attractive-face-shape-men, oblong-face-shape, best-glasses-for-oval-face]
+related: [most-attractive-face-shape-men, best-glasses-for-oval-face, oval-vs-diamond-face-shape]
 faq:
   - q: "What is the best makeup for my face shape?"
     a: "There isn't one proven best layout. Brand guides even disagree on placement for round and heart-shaped faces. Use the common advice for your shape as a starting point, then test two placements side by side and keep the one you prefer in daylight."

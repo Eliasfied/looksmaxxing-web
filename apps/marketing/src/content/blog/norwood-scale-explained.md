@@ -9,7 +9,7 @@ heroImage: "/blog/norwood-scale-explained/1.webp"
 heroImageAlt: "Man in his late twenties in a navy t-shirt stands at a bathroom mirror in soft window light, pushing his hair back with one hand to examine his temples, with white tiles and a small plant in the background."
 tags: ["norwood scale", "hair loss", "hairline", "male pattern baldness", "grooming"]
 readingTime: 9
-related: [how-to-shave-without-cream, facial-harmony-guide, beard-growth-guide]
+related: [golden-ratio-face, how-to-shave-without-cream, facial-harmony-guide]
 faq:
   - q: "What Norwood stage counts as balding?"
     a: "In Norwood's own definition, Stage 3 is the minimal extent of hair loss considered sufficient to represent baldness. It shows deep, usually symmetrical recession at the temples. Stage 2 recession is common and is not classed as balding."

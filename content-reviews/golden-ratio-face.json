@@ -1,0 +1,174 @@
+{
+  "slug": "golden-ratio-face",
+  "reviewedAt": "2026-11-14T19:42:05.004Z",
+  "draft": false,
+  "review": {
+    "pass": true,
+    "issues": []
+  },
+  "textRepair": {
+    "status": "passed",
+    "issues": [
+      "Procedures note: Appearance procedures are covered only by \"surgery, fillers or other injectables\", and the note says to talk to a professional \"before considering any treatment\". The same section also says the golden ratio is a \"planning reference\" in cosmetic surgery. That reads as neutral planning guidance and weakens the advice against procedures."
+    ],
+    "review": {
+      "pass": true,
+      "issues": []
+    }
+  },
+  "sources": [
+    {
+      "title": "Marquardt's Phi mask: pitfalls of relying on fashion models and the golden ratio to describe a beautiful face - PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/18175168/"
+    },
+    {
+      "title": "Does 3-dimensional facial attractiveness relate to golden ratio, neoclassical canons, 'ideal' ratios and 'ideal' angles? - PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36070018/"
+    },
+    {
+      "title": "Does 3-dimensional facial attractiveness relate to golden ratio, neoclassical canons, ‘ideal’ ratios and ‘ideal’ angles?",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9452610/"
+    },
+    {
+      "title": "Further evidence that averageness and femininity, rather than symmetry and masculinity, predict facial attractiveness judgments - PMC",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11828934/"
+    },
+    {
+      "title": "(PDF) Pallett PM, Link S, Lee K. New “golden” ratios for facial beauty",
+      "url": "https://www.researchgate.net/publication/38074206_Pallett_PM_Link_S_Lee_K_New_golden_ratios_for_facial_beauty"
+    },
+    {
+      "title": "Researchers discover new 'golden ratios' for female facial beauty",
+      "url": "https://www.eurekalert.org/news-releases/489725"
+    },
+    {
+      "title": "Automated Assessment of Aesthetic Outcomes in Facial Plastic Surgery",
+      "url": "https://arxiv.org/pdf/2508.13363"
+    },
+    {
+      "title": "The Golden Ratio Test for Beauty Is Bogus",
+      "url": "https://www.realclearscience.com/articles/2022/07/25/the_golden_ratio_test_for_beauty_is_bogus_844226.html"
+    },
+    {
+      "title": "Averageness or symmetry: Which is more important for facial attractiveness? - ScienceDirect",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0001691809000407"
+    },
+    {
+      "title": "The multicultural evolution of beauty in facial surgery",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9442877/"
+    }
+  ],
+  "imageModel": "openai/gpt-image-2.5/flare/text-to-image",
+  "imageReviews": [
+    {
+      "image": "/blog/golden-ratio-face/1.webp",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "Classical white marble bust of a woman with an elaborately braided and pinned-up hairstyle and draped, pinned garment, gazing slightly to the side, displayed on a round plinth atop a grey stone pedestal beside a tall window with soft side light against a plain warm-grey wall."
+      }
+    },
+    {
+      "image": "/blog/golden-ratio-face/2.webp",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "Smartphone clamped on a black tripod in a tidy, bright room, facing a plain light wall beside a large window, with soft daylight and window shadows falling evenly on the wall."
+      }
+    }
+  ],
+  "imageFailures": [
+    {
+      "image": 3,
+      "error": "Image 3 failed validation: Image failed editorial review: [\"Image does not match the brief: it shows a single bearded young man in a dark sweater posed in a bedroom-like interior, not a hairstylist cutting a young woman's shoulder-length hair in a salon.\",\"No stylist, no client in a chair, no salon mirror setup, no haircut in progress, and not a wide shot (it is a tight headshot/portrait).\",\"Fails to illustrate the stated article purpose (hairstyle and grooming changing how a face reads); nothing in the image depicts grooming or styling.\",\"Setting (bedroom with bed, pillow, plant, framed art) contradicts the required bright modern salon.\"]"
+    }
+  ],
+  "imageSettings": {
+    "width": 1024,
+    "height": 1024,
+    "quality": "low"
+  },
+  "usage": [
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "research",
+      "input": 30664,
+      "output": 3950,
+      "estimatedUsd": 0.100828,
+      "searches": 3
+    },
+    {
+      "model": "claude-opus-5-5",
+      "stage": "article",
+      "input": 34560,
+      "output": 9441,
+      "estimatedUsd": 0.32706,
+      "searches": 0
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "text-review",
+      "input": 8279,
+      "output": 127,
+      "estimatedUsd": 0.017828,
+      "searches": 0
+    },
+    {
+      "model": "claude-opus-5-5",
+      "stage": "article-repair",
+      "input": 8810,
+      "output": 7243,
+      "estimatedUsd": 0.1801,
+      "searches": 0
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "text-review",
+      "input": 9287,
+      "output": 16,
+      "estimatedUsd": 0.018734,
+      "searches": 0
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "image-review",
+      "input": 1693,
+      "output": 115,
+      "estimatedUsd": 0.004536,
+      "searches": 0
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "image-review",
+      "input": 1713,
+      "output": 80,
+      "estimatedUsd": 0.004226,
+      "searches": 0
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "image-review",
+      "input": 1702,
+      "output": 349,
+      "estimatedUsd": 0.006894,
+      "searches": 0
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "image-review",
+      "input": 1702,
+      "output": 294,
+      "estimatedUsd": 0.006344,
+      "searches": 0
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "image-review",
+      "input": 1702,
+      "output": 316,
+      "estimatedUsd": 0.006564,
+      "searches": 0
+    }
+  ],
+  "note": "Token estimates exclude web-search charges, images, tax and provider markups."
+}

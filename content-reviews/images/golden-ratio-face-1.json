@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "fingerprint": "4e5e4dbfa3e74b3d6cfb700514dbb17e6c741834c2ccc469fd53d5a77e972028",
+  "brief": {
+    "prompt": "A classical white marble bust of a woman displayed on a stone pedestal in a quiet museum gallery, lit by soft side light from a tall window. The background is a plain warm-grey wall, with the bust centered and filling most of the frame.",
+    "alt": "Classical marble bust representing historical golden ratio face ideals",
+    "purpose": "Introduces the historical idea that beauty follows fixed mathematical proportions, the starting point of the golden ratio face concept.",
+    "article": "golden-ratio-face",
+    "position": 1
+  },
+  "sha256": "e176606719843d61a09e5fbc54e3895a29f9f92de2184a9d0beab1454990dd19",
+  "reviewedAt": "2026-11-14T19:40:58.794Z",
+  "review": {
+    "pass": true,
+    "issues": [],
+    "alt": "Classical white marble bust of a woman with an elaborately braided and pinned-up hairstyle and draped, pinned garment, gazing slightly to the side, displayed on a round plinth atop a grey stone pedestal beside a tall window with soft side light against a plain warm-grey wall."
+  }
+}

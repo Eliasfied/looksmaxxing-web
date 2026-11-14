@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "fingerprint": "90dd9d729e2e455a23b84a3f56d7e4cf6ff2af1b08096a1c528eeeebc0219685",
+  "brief": {
+    "prompt": "A smartphone mounted on a small tripod at eye level, facing a plain light-coloured wall beside a large window letting in soft daylight, in a tidy room. Shot from a slight side angle so both the phone and the even window light on the wall are clearly visible.",
+    "alt": "Phone on a tripod at eye level by a window, set up for a consistent face photo",
+    "purpose": "Shows the consistent photo setup (eye-level camera, even daylight, steady distance) that matters more than any golden ratio score when comparing photos.",
+    "article": "golden-ratio-face",
+    "position": 2
+  },
+  "sha256": "4cc7c0a4fc293ff45c56ce106e11391bdb67f1b1d5afa74f5ff6041ba720a89c",
+  "reviewedAt": "2026-11-14T19:41:17.163Z",
+  "review": {
+    "pass": true,
+    "issues": [],
+    "alt": "Smartphone clamped on a black tripod in a tidy, bright room, facing a plain light wall beside a large window, with soft daylight and window shadows falling evenly on the wall."
+  }
+}

@@ -9,7 +9,7 @@ heroImage: "/blog/oval-face-shape-hairstyles/1.webp"
 heroImageAlt: "Woman with an oval face and a collarbone-length layered lob with face-framing pieces and caramel highlights, seated in a bright modern chair and looking to the side in natural window light"
 tags: ["oval face", "face shape", "haircuts", "hairstyles", "stylist tips"]
 readingTime: 9
-related: [oval-vs-diamond-face-shape, best-haircut-for-oval-face-men, best-glasses-for-oval-face]
+related: [best-haircut-for-oval-face-men, best-glasses-for-oval-face, hairstyle-for-round-face]
 faq:
   - q: "What is the best hairstyle for an oval face?"
     a: "No single cut is best. Stylists treat oval faces as flexible and regularly recommend lobs, face-framing layers, blunt bobs, textured pixies and curtain bangs. Choose based on your hair texture, density and how much styling you want to do."
