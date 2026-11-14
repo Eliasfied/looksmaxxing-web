@@ -58,6 +58,10 @@ type BuyProps = {
   /** Open the checkout right away: the visitor clicked buy, signed up and came back. */
   autoCheckout?: boolean
   className?: string
+  /** Which control on the page this is, e.g. `tool-sticky`. Sent with the click and checkout events. */
+  variant?: string
+  /** Small button for a fixed bottom bar. Notices float above the bar instead of making it taller. */
+  bar?: boolean
 }
 
 /**
@@ -65,7 +69,16 @@ type BuyProps = {
  * signed out, it sends the visitor to sign-up and marks the way back so the
  * checkout opens by itself afterwards.
  */
-export function GlowBuyButton({ signedIn, returnTo, placement, onActivated, autoCheckout = false, className }: BuyProps) {
+export function GlowBuyButton({
+  signedIn,
+  returnTo,
+  placement,
+  onActivated,
+  autoCheckout = false,
+  className,
+  variant,
+  bar = false
+}: BuyProps) {
   const router = useRouter()
   const [activating, setActivating] = useState(false)
   const [stuck, setStuck] = useState(false)
@@ -83,14 +96,15 @@ export function GlowBuyButton({ signedIn, returnTo, placement, onActivated, auto
     }
   }
 
-  const cta = activating ? 'Activating your plan…' : 'Start my 30-day plan'
+  const cta = activating ? 'Activating your plan…' : bar ? 'Start my plan' : 'Start my 30-day plan'
   const ctaClass = cn(
     'btn-gradient block w-full rounded-2xl px-8 py-4 text-center text-lg font-bold text-white shadow-lg shadow-fuchsia-900/40 transition hover:brightness-110 disabled:opacity-60',
+    bar && 'whitespace-nowrap rounded-xl px-5 py-2.5 text-sm shadow-none',
     className
   )
 
   return (
-    <>
+    <div className={bar ? 'relative' : undefined}>
       {signedIn ? (
         <PurchaseButton
           productId={GLOW.rcProductId}
@@ -98,6 +112,7 @@ export function GlowBuyButton({ signedIn, returnTo, placement, onActivated, auto
           onSuccess={activated}
           placement={placement}
           offer="glow_plan"
+          variant={variant}
           autoStart={autoCheckout}
           className={ctaClass}
         >
@@ -106,18 +121,24 @@ export function GlowBuyButton({ signedIn, returnTo, placement, onActivated, auto
       ) : (
         <Link
           href={`/register?next=${encodeURIComponent(withCheckout(returnTo))}`}
-          onClick={() => posthog.capture('tool_unlock_clicked', { placement, offer: 'glow_plan' })}
+          onClick={() => posthog.capture('tool_unlock_clicked', { placement, offer: 'glow_plan', variant })}
           className={ctaClass}
         >
           {cta}
         </Link>
       )}
       {stuck && (
-        <p role="alert" className="mt-4 rounded-xl bg-amber-500/10 p-3 text-sm text-amber-200">
+        <p
+          role="alert"
+          className={cn(
+            'mt-4 rounded-xl bg-amber-500/10 p-3 text-sm text-amber-200',
+            bar && 'absolute bottom-full right-0 mb-3 mt-0 w-[min(22rem,calc(100vw-2rem))] bg-[#241b0c] shadow-xl'
+          )}
+        >
           Your payment went through, but the plan is still being activated. Refresh this page in a minute; please do not pay again.
         </p>
       )}
-    </>
+    </div>
   )
 }
 
