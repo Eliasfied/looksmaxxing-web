@@ -11,7 +11,7 @@ import { FacePreview } from '@/components/face-preview'
 import { preparePhoto } from '@/lib/prepare-photo'
 import { ProTeaser } from '@/components/pro-sales'
 import { GlowSales } from '@/components/glow-sales'
-import { GlowQuickBuy } from '@/components/glow-offer'
+import { GlowBuyButton, GlowQuickBuy } from '@/components/glow-offer'
 import { GlowDayOne } from '@/components/glow-day-one'
 import { saveGlowPhoto } from '@/lib/glow-handoff'
 import { GLOW } from '@/lib/glow-offer'
@@ -426,30 +426,38 @@ export function ToolUpload({ tool }: { tool: ToolDefinition }) {
         </div>
       )}
 
-      {geometry && selling && (
+      {/* The bar's button is a real buy button, the same path as the one in the
+          quick-buy block: tapping it only to scroll back to a price the visitor
+          had already seen was a dead end. */}
+      {geometry && selling && me && (
         <div
           className={cn(
             'fixed inset-x-0 bottom-0 z-40 border-t border-white/10 bg-[#0c0a12]/90 px-4 py-3 backdrop-blur-xl transition-transform duration-300 lg:hidden print:hidden',
             stickyOn ? 'translate-y-0' : 'translate-y-full'
           )}
-          aria-hidden={!stickyOn}
+          inert={!stickyOn}
         >
           <div className="mx-auto flex max-w-5xl items-center justify-between gap-4">
             <p className="text-sm">
               <span className="font-black">Day 1 is free</span>
               <span className="text-white/55"> · days 2–30 ${GLOW.price.toFixed(2)} once</span>
             </p>
-            <button
-              type="button"
-              tabIndex={stickyOn ? 0 : -1}
-              onClick={() => {
+            <div
+              className="shrink-0"
+              onClickCapture={() => {
                 posthog.capture('glow_sales_cta', { placement: `tool:${tool.slug}`, variant: 'tool-sticky' })
-                document.getElementById('glow-quick')?.scrollIntoView({ behavior: 'smooth', block: 'center' })
+                rememberForCheckout()
               }}
-              className="btn-gradient shrink-0 rounded-xl px-5 py-2.5 text-sm font-bold text-white"
             >
-              Get my plan
-            </button>
+              <GlowBuyButton
+                bar
+                signedIn={me.signedIn}
+                returnTo={`/tools/${tool.slug}?resume=1`}
+                placement={`tool:${tool.slug}`}
+                variant="tool-sticky"
+                onActivated={planActivated}
+              />
+            </div>
           </div>
         </div>
       )}

@@ -19,6 +19,8 @@ interface PurchaseButtonProps {
   placement?: string
   /** Which offer this is, e.g. `glow_plan` or `pro`. */
   offer?: string
+  /** Which control on the page opened the checkout, e.g. `tool-sticky`. Only sent when set. */
+  variant?: string
   /** Open the checkout once on mount: the visitor already clicked buy before signing up. */
   autoStart?: boolean
 }
@@ -84,6 +86,7 @@ export function PurchaseButton({
   onSuccess,
   placement,
   offer,
+  variant,
   autoStart = false
 }: PurchaseButtonProps) {
   const [loading, setLoading] = useState(false)
@@ -96,7 +99,7 @@ export function PurchaseButton({
   async function handlePurchase(auto = false) {
     setLoading(true)
     setError(null)
-    const props = { product_id: productId, placement: placement ?? null, offer: offer ?? null }
+    const props = { product_id: productId, placement: placement ?? null, offer: offer ?? null, ...(variant && { variant }) }
 
     try {
       await auth.authStateReady()
