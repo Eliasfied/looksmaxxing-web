@@ -1,6 +1,6 @@
 ---
-title: "How to Fix a Recessed Maxilla: What Works by Age"
-description: "What is possible depends almost entirely on whether your growth plates have closed. Expansion, surgery and the honest limits at each age."
+title: "How to Fix a Recessed Maxilla: What Mewing Can't Do"
+description: "What is possible depends on whether your growth plates have closed. What expansion and mewing can and cannot change at each age, and the honest limits."
 slug: how-to-fix-recessed-maxilla
 primary_keyword: how to fix recessed maxilla
 cluster: how-to-maxilla

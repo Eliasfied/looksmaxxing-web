@@ -1,6 +1,6 @@
 ---
-title: "KHHV: What the Acronym Stands For"
-description: "KHHV stands for Kissless Hugless Handholdless Virgin. What the acronym describes, where it comes from, and how it is used in these forums."
+title: "KHHV Meaning: Kissless Hugless Handholdless Virgin"
+description: "KHHV means Kissless, Hugless, Handholdless Virgin: no romantic physical contact yet. Where the acronym comes from and how looksmaxxing forums use it."
 slug: khhv
 term: KHHV
 abbreviation: Kissless Hugless Handholdless Virgin

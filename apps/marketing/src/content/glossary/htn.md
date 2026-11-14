@@ -1,6 +1,6 @@
 ---
-title: "HTN: What High Tier Normie Really Means"
-description: HTN stands for High-Tier Normie in looksmaxxing slang. It describes someone with above-average looks who falls just below conventionally attractive.
+title: "HTN Meaning: High-Tier Normie, One Step Below Chadlite"
+description: "HTN means High-Tier Normie: clearly above average but not yet chadlite, roughly 6 to 6.5 on the PSL scale. How it compares with MTN and LTN, and what's next."
 slug: htn
 term: HTN
 abbreviation: High-Tier Normie
@@ -17,7 +17,7 @@ draft: false
 
 HTN stands for High-Tier Normie. In looksmaxxing communities, it refers to a person whose facial appearance sits in the upper range of the "normie" bracket, typically corresponding to roughly a 6 to 6.5 out of 10 on the PSL rating scale. An HTN is someone most people would describe as decent-looking or "pretty good," but who does not consistently get noticed for their looks in a strong way.
 
-The classification exists within a three-tier normie framework: LTN (Low-Tier Normie), MTN (Mid-Tier Normie), and HTN (High-Tier Normie). Each tier reflects a progressively higher level of facial harmony, bone structure, and overall aesthetic appeal. HTN is the ceiling of the normie range, meaning a small amount of improvement, whether through softmaxxing, styling, or physical changes, could push someone into what the community calls "above average" or a solid 7.
+The classification exists within a three-tier normie framework: LTN (Low-Tier Normie), MTN (Mid-Tier Normie), and HTN (High-Tier Normie). Each tier reflects a progressively higher level of facial harmony, bone structure, and overall aesthetic appeal. HTN is the ceiling of the normie range, meaning a small amount of improvement, whether through softmaxxing, styling, or physical changes, could push someone into what the community calls "above average" or a solid 7, the range of a [chadlite](/glossary/chadlite).
 
 ## Origin
 

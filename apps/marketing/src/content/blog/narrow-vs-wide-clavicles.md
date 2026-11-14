@@ -1,6 +1,6 @@
 ---
-title: "Narrow vs Wide Clavicles: Can You Change Them?"
-description: "Clavicle length is fixed after growth and sets your shoulder width. How to measure yours, and what training can and cannot compensate for."
+title: "Narrow vs Wide Clavicles: Diagrams and What Changes"
+description: "Clavicle length is fixed after growth and sets your shoulder width. Side-by-side diagrams, how to measure yours, and what training can still change."
 slug: narrow-vs-wide-clavicles
 primary_keyword: narrow vs wide clavicles
 cluster: compare-frame

@@ -1,6 +1,6 @@
 ---
-title: "Recessed Infraorbitals: What the Term Means"
-description: "Recessed infraorbitals sit too far back, which hollows the under-eye and flattens the midface. What the term describes and what it means in practice."
+title: "Recessed Infras Meaning: Infraorbitals Explained"
+description: "Recessed infras are under-eye bones that sit too far back, which hollows the under-eye and flattens the midface. What the term means and what changes the look."
 slug: orbital-bones-recessed
 term: Recessed Infras
 abbreviation: Infraorbital Rim / Infraorbital Bones
