@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "fingerprint": "c895cafd513e5cc45698004df9f16a6f85db0623224b13bc4779b0f8683b2044",
+  "brief": {
+    "prompt": "A small clear glass dish holding a glossy, transparent, honey-like hyaluronic acid gel, resting on a clean white laboratory bench under soft diffused daylight. Minimal background with a blurred neutral wall, no people, no syringes, no packaging or text.",
+    "alt": "Clear hyaluronic acid gel in a glass dish, the main ingredient in Profhilo",
+    "purpose": "Introduces Profhilo as a hyaluronic acid product, showing what the substance itself looks like without showing a procedure or promoting injection.",
+    "article": "profhilo-explained",
+    "position": 1
+  },
+  "sha256": "2605383aa6c46185eae14fc127fe7cd270e504fa65c081b452d116b79df6dd69",
+  "reviewedAt": "2026-11-15T20:06:29.451Z",
+  "review": {
+    "pass": true,
+    "issues": [],
+    "alt": "Clear, glossy gel with a small peak and tiny air bubbles sitting in a small glass dish on a white surface, lit by soft daylight against a blurred neutral wall."
+  }
+}

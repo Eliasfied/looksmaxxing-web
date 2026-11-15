@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "fingerprint": "f4a77c24b4ef2b2e5791c6e2390729b38a6657e12efdc6c31087a1406fd50521",
+  "brief": {
+    "prompt": "A tidy bathroom shelf in morning light holding a plain unlabelled sunscreen bottle, a plain moisturiser jar, a glass of water and a folded soft towel, with a green plant beside them. Simple, calm composition with no visible brand names, text or people.",
+    "alt": "Simple daily skincare and sun protection items on a bathroom shelf, non-medical alternatives to Profhilo",
+    "purpose": "Illustrates the non-medical basics (sun protection, consistent skincare, hydration) that the article recommends focusing on before any injectable.",
+    "article": "profhilo-explained",
+    "position": 3
+  },
+  "sha256": "ed4d7a2b40fa71a3fb14e98de7f0a3784213ce96884907c631392ea94ed5a630",
+  "reviewedAt": "2026-11-15T20:06:53.526Z",
+  "review": {
+    "pass": true,
+    "issues": [],
+    "alt": "Bathroom shelf in soft morning light holding a plain white unlabelled bottle, a white cream jar, a glass of water and a folded sage-green towel, with a leafy green pothos plant beside them."
+  }
+}

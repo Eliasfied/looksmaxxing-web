@@ -1,0 +1,142 @@
+{
+  "slug": "profhilo-explained",
+  "reviewedAt": "2026-11-15T20:06:53.528Z",
+  "draft": false,
+  "review": {
+    "pass": true,
+    "issues": []
+  },
+  "textRepair": {
+    "status": "passed",
+    "issues": [
+      "Regulatory Status / If a Clinic Brings It Up Anyway: the draft says Profhilo is unapproved in the US, so a US clinic offering it is a 'red flag'. It then lists 'Talk to a qualified professional before considering this', which can read as a neutral next step. Needs a firm advise-against for appearance, not consultation guidance.",
+      "If a Clinic Brings It Up Anyway: the consultation questions and checklist read as how-to preparation for getting Profhilo. They treat it as a plannable option instead of ruling it out for appearance, and they must not sit alongside the Aura analysis as preparation."
+    ],
+    "review": {
+      "pass": true,
+      "issues": []
+    }
+  },
+  "sources": [
+    {
+      "title": "Hyaluronic Acid Hybrid Cooperative Complexes Nearing 10 Years of Use: Update on Safety Assessment Based on Post‐Marketing Surveillance Data",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12257262/"
+    },
+    {
+      "title": "Safety Assessment of High- and Low-Molecular-Weight Hyaluronans (Profhilo®) as Derived from Worldwide Postmarketing Data",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7327616/"
+    },
+    {
+      "title": "Efficacy and Tolerability of Hybrid Complexes of High- and Low-Molecular-Weight Hyaluronan Intradermal Injections for the Treatment of Skin Roughness and Laxity of the Neck",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9509274/"
+    },
+    {
+      "title": "Evaluation of the Safety and Efficacy of Profhilo® Structura",
+      "url": "https://clinicaltrials.gov/study/NCT06719154"
+    },
+    {
+      "title": "Profhilo for Injectors: BAP Technique, Evidence & US Status",
+      "url": "https://empireondemand.com/learn/skin-quality/profhilo"
+    }
+  ],
+  "imageModel": "openai/gpt-image-2.5/flare/text-to-image",
+  "imageReviews": [
+    {
+      "image": "/blog/profhilo-explained/1.webp",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "Clear, glossy gel with a small peak and tiny air bubbles sitting in a small glass dish on a white surface, lit by soft daylight against a blurred neutral wall."
+      }
+    },
+    {
+      "image": "/blog/profhilo-explained/2.webp",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "3D cross-section block of skin in soft pinks and creams, showing a thin outer epidermis, a thick dermis with wavy collagen-like fibres and purple fibroblast-like cells with faint translucent blue gel spread through it, and a layer of yellow fat cells at the bottom."
+      }
+    },
+    {
+      "image": "/blog/profhilo-explained/3.webp",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "Bathroom shelf in soft morning light holding a plain white unlabelled bottle, a white cream jar, a glass of water and a folded sage-green towel, with a leafy green pothos plant beside them."
+      }
+    }
+  ],
+  "imageFailures": [],
+  "imageSettings": {
+    "width": 1024,
+    "height": 1024,
+    "quality": "low"
+  },
+  "usage": [
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "research",
+      "input": 30022,
+      "output": 3702,
+      "estimatedUsd": 0.097064,
+      "searches": 3
+    },
+    {
+      "model": "claude-opus-5-5",
+      "stage": "article",
+      "input": 34627,
+      "output": 11183,
+      "estimatedUsd": 0.362168,
+      "searches": 0
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "text-review",
+      "input": 9013,
+      "output": 221,
+      "estimatedUsd": 0.020236,
+      "searches": 0
+    },
+    {
+      "model": "claude-opus-5-5",
+      "stage": "article-repair",
+      "input": 10121,
+      "output": 6742,
+      "estimatedUsd": 0.175324,
+      "searches": 0
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "text-review",
+      "input": 8821,
+      "output": 16,
+      "estimatedUsd": 0.017802,
+      "searches": 0
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "image-review",
+      "input": 1721,
+      "output": 79,
+      "estimatedUsd": 0.004232,
+      "searches": 0
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "image-review",
+      "input": 1775,
+      "output": 116,
+      "estimatedUsd": 0.00471,
+      "searches": 0
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "image-review",
+      "input": 1726,
+      "output": 88,
+      "estimatedUsd": 0.004332,
+      "searches": 0
+    }
+  ],
+  "note": "Token estimates exclude web-search charges, images, tax and provider markups."
+}

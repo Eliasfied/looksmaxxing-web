@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "fingerprint": "d2444d6559edef532a4432e73e5a1feaad78dd86214c81c21305f9773afd0bf6",
+  "brief": {
+    "prompt": "A clean educational 3D illustration of a block of human skin in cross-section, showing the outer layer, the thicker dermis beneath it with soft collagen-like fibres, and a fat layer at the bottom, rendered in soft pinks and creams. A faint translucent gel is spread evenly through the dermis layer, with no text, labels, arrows or numbers anywhere in the image.",
+    "alt": "Illustration of skin layers showing where a non-cross-linked hyaluronic acid product like Profhilo is designed to spread",
+    "purpose": "Shows the dermis and the idea of a gel spreading through it, supporting the explanation of how Profhilo differs from volumising fillers and how to interpret the evidence.",
+    "article": "profhilo-explained",
+    "position": 2
+  },
+  "sha256": "554d5d1fba01186395ac5071e5c8bf30ea5ce8f7d795bf9f12a466258d80c43b",
+  "reviewedAt": "2026-11-15T20:06:41.880Z",
+  "review": {
+    "pass": true,
+    "issues": [],
+    "alt": "3D cross-section block of skin in soft pinks and creams, showing a thin outer epidermis, a thick dermis with wavy collagen-like fibres and purple fibroblast-like cells with faint translucent blue gel spread through it, and a layer of yellow fat cells at the bottom."
+  }
+}
