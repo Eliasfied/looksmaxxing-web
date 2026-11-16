@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "fingerprint": "a7d49cf0da291157479b237eb3e4191681b386bf471f75dddf67d6f7117e1168",
+  "brief": {
+    "prompt": "A plain anatomical teaching model of a human nose and upper face skeleton sitting on a light wooden desk. The pale bone of the nasal bones is joined to softer, slightly translucent bluish cartilage below it, so the two materials of the nasal bridge are obvious at a glance. No labels, no text, no arrows.",
+    "alt": "Anatomical model showing the bone and cartilage that form the nasal bridge where a dorsal hump sits",
+    "purpose": "Shows that the bridge is made of bone above and cartilage below, explaining why a dorsal hump is structural.",
+    "article": "dorsal-hump-explained",
+    "position": 2
+  },
+  "sha256": "57e23a3ce35442c781cf759744db52121afed004b438822dedc69ad3993ce695",
+  "reviewedAt": "2026-11-16T23:39:20.062Z",
+  "review": {
+    "pass": true,
+    "issues": [],
+    "alt": "Anatomical model of an upper face skull on a light wooden surface, with pale bone nasal bones joined below to a bluish translucent cartilage nose, showing the bone-to-cartilage transition of the nasal bridge."
+  }
+}

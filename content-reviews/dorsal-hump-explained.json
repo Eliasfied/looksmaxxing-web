@@ -1,0 +1,163 @@
+{
+  "slug": "dorsal-hump-explained",
+  "reviewedAt": "2026-11-16T23:39:58.331Z",
+  "draft": false,
+  "review": {
+    "pass": true,
+    "issues": []
+  },
+  "textRepair": {
+    "status": "passed",
+    "issues": [
+      "Rhinoplasty risks: \"4 to 18.8%\" complication rate and \"under 1%\" necrosis are attributed to the necrosis case report, but the supplied evidence shows only its title and keywords. These figures are unsupported and fabricated-looking; remove them or cite verifiable evidence.",
+      "Rhinoplasty risks: \"about 2 in 100 treated patients underwent revisions\" is attributed to the meta-analysis, but the supplied evidence contains no revision rate. The FAQ repeats the revision claim. Unsupported statistic; remove it or source it."
+    ],
+    "review": {
+      "pass": true,
+      "issues": []
+    }
+  },
+  "sources": [
+    {
+      "title": "Hump Nose and Coexisting Deviation in Rhinoplasty: Their Association and Surgical Considerations",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12786902/"
+    },
+    {
+      "title": "Dorsal Preservation versus Component Dorsal Hump Reduction Rhinoplasty: An Assessment of Patient-reported Outcomes - PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39185377/"
+    },
+    {
+      "title": "Dorsal Nasal Skin Necrosis Following Rhinoplasty in Patients Treated with Topical Retinoids",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12578537/"
+    },
+    {
+      "title": "Dorsal Hump (Nose Bridge Bump)",
+      "url": "https://britishfaceclinic.com/conditions/dorsal-hump-nose/"
+    },
+    {
+      "title": "Dorsal Hump Nose: Causes and Correction Options",
+      "url": "https://acibademinternational.com/blog/dorsal-hump-why-the-nose-bridge-bumps-and-the-correction-options/"
+    },
+    {
+      "title": "Dorsal Hump Nose: Causes of Nose Bumps & Treatments",
+      "url": "https://artistryclinic.co.uk/blog/dorsal-hump-nose/"
+    },
+    {
+      "title": "List of animals with humps",
+      "url": "https://en.wikipedia.org/wiki/List_of_animals_with_humps"
+    }
+  ],
+  "imageModel": "openai/gpt-image-2.5/flare/text-to-image",
+  "imageReviews": [
+    {
+      "image": "/blog/dorsal-hump-explained/1.webp",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "Side profile of an adult with dark hair in a loose bun, showing a subtle natural bump on the nose bridge, lit by soft window light against a plain warm-grey wall, wearing a dark crew-neck top"
+      }
+    },
+    {
+      "image": "/blog/dorsal-hump-explained/2.webp",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "Anatomical model of an upper face skull on a light wooden surface, with pale bone nasal bones joined below to a bluish translucent cartilage nose, showing the bone-to-cartilage transition of the nasal bridge."
+      }
+    }
+  ],
+  "imageFailures": [
+    {
+      "image": 3,
+      "error": "Image 3 failed validation: Image failed editorial review: [\"Pose does not match brief: subject is shown front-facing and seated, not a three-quarter view standing near a window.\",\"Glasses do not show a clear keyhole bridge; the frames appear to have a standard bridge and are thin-to-medium tortoiseshell rather than thick.\",\"A nose bridge bump (dorsal hump) is not visibly depicted; the nose appears straight, so the image fails to illustrate the article's subject of styling around a dorsal hump.\",\"Front-on framing hides any nose profile, so the glasses-frame-choice tip cannot be demonstrated.\",\"Hair has waves and length but crown volume is modest; only partially illustrates the volume tip.\"]"
+    }
+  ],
+  "imageSettings": {
+    "width": 1024,
+    "height": 1024,
+    "quality": "low"
+  },
+  "usage": [
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "research",
+      "input": 30013,
+      "output": 3656,
+      "estimatedUsd": 0.096586,
+      "searches": 3
+    },
+    {
+      "model": "claude-opus-5-5",
+      "stage": "article",
+      "input": 34170,
+      "output": 10219,
+      "estimatedUsd": 0.34106,
+      "searches": 0
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "text-review",
+      "input": 8202,
+      "output": 211,
+      "estimatedUsd": 0.018514,
+      "searches": 0
+    },
+    {
+      "model": "claude-opus-5-5",
+      "stage": "article-repair",
+      "input": 9411,
+      "output": 6495,
+      "estimatedUsd": 0.167544,
+      "searches": 0
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "text-review",
+      "input": 8502,
+      "output": 16,
+      "estimatedUsd": 0.017164,
+      "searches": 0
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "image-review",
+      "input": 1718,
+      "output": 91,
+      "estimatedUsd": 0.004346,
+      "searches": 0
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "image-review",
+      "input": 1734,
+      "output": 94,
+      "estimatedUsd": 0.004408,
+      "searches": 0
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "image-review",
+      "input": 1736,
+      "output": 357,
+      "estimatedUsd": 0.007042,
+      "searches": 0
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "image-review",
+      "input": 1736,
+      "output": 300,
+      "estimatedUsd": 0.006472,
+      "searches": 0
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "image-review",
+      "input": 1736,
+      "output": 300,
+      "estimatedUsd": 0.006472,
+      "searches": 0
+    }
+  ],
+  "note": "Token estimates exclude web-search charges, images, tax and provider markups."
+}

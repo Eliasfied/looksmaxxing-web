@@ -1,0 +1,36 @@
+{
+  "key": "{\"brief\":{\"prompt\":\"A three-quarter view portrait of an adult with a nose bridge bump wearing thick tortoiseshell glasses with a keyhole bridge, textured hair with volume at the crown, standing in soft front-facing daylight near a window. Relaxed natural expression and a neutral background.\",\"alt\":\"Person with a dorsal hump wearing keyhole-bridge glasses and a voluminous hairstyle in soft daylight\",\"purpose\":\"Demonstrates the styling suggestions on glasses frame choice, hair volume and soft frontal lighting from the non-medical tips section.\",\"article\":\"dorsal-hump-explained\",\"position\":3},\"model\":\"openai/gpt-image-2.5/flare/text-to-image\"}",
+  "attempts": [
+    {
+      "status": "rejected",
+      "prompt": "A three-quarter view portrait of an adult with a nose bridge bump wearing thick tortoiseshell glasses with a keyhole bridge, textured hair with volume at the crown, standing in soft front-facing daylight near a window. Relaxed natural expression and a neutral background.",
+      "issues": [
+        "The brief asks for thick tortoiseshell glasses with a keyhole bridge, but the frames are thin-to-medium round/panto style and the bridge looks like a standard saddle bridge. The keyhole bridge, which is the article's main frame-choice demonstration, is not clearly visible.",
+        "The brief asks for an adult with a nose bridge bump (dorsal hump). The nose looks fairly straight with only a faint bump or redness at the bridge, so the subject does not clearly demonstrate the topic and the styling tips lose their purpose.",
+        "The lighting comes from the side (window on the left) rather than the soft front-facing daylight in the brief. Shadows on the right side of the face are noticeable.",
+        "The pose is close to a three-quarter view, which fits, but the other mismatches mean the image does not illustrate the stated purpose of the article section."
+      ]
+    },
+    {
+      "status": "rejected",
+      "prompt": "A three-quarter view portrait of an adult with a nose bridge bump wearing thick tortoiseshell glasses with a keyhole bridge, textured hair with volume at the crown, standing in soft front-facing daylight near a window. Relaxed natural expression and a neutral background.\nEDITORIAL CORRECTION: Regenerate a simpler, accurate illustration of the same purpose. Fix these defects from the rejected image: [\"The brief asks for thick tortoiseshell glasses with a keyhole bridge, but the frames are thin-to-medium round/panto style and the bridge looks like a standard saddle bridge. The keyhole bridge, which is the article's main frame-choice demonstration, is not clearly visible.\",\"The brief asks for an adult with a nose bridge bump (dorsal hump). The nose looks fairly straight with only a faint bump or redness at the bridge, so the subject does not clearly demonstrate the topic and the styling tips lose their purpose.\",\"The lighting comes from the side (window on the left) rather than the soft front-facing daylight in the brief. Shadows on the right side of the face are noticeable.\",\"The pose is close to a three-quarter view, which fits, but the other mismatches mean the image does not illustrate the stated purpose of the article section.\"]. Avoid text, labels and complex comparative diagrams if they caused the defect.",
+      "issues": [
+        "Glasses do not have a keyhole bridge: the frame has a standard saddle-style bridge across the nose, so a key styling element from the brief is not demonstrated.",
+        "No visible nose bridge bump/dorsal hump: the nose appears straight, so the image fails to illustrate the article's subject ('dorsal-hump-explained') and the stated purpose of styling for a dorsal hump.",
+        "Frames are medium-weight round tortoiseshell rather than clearly 'thick', and the lighting reads as even studio light with no visible window/daylight cue, so the brief is only partially met."
+      ]
+    },
+    {
+      "status": "rejected",
+      "prompt": "A single clear, natural editorial photograph for this article point: Demonstrates the styling suggestions on glasses frame choice, hair volume and soft frontal lighting from the non-medical tips section.. One subject, one scene, realistic lighting and accurate anatomy. No text, letters, numbers or labels anywhere. No diagram, no panels, no side-by-side comparison.",
+      "reduced": true,
+      "issues": [
+        "Pose does not match brief: subject is shown front-facing and seated, not a three-quarter view standing near a window.",
+        "Glasses do not show a clear keyhole bridge; the frames appear to have a standard bridge and are thin-to-medium tortoiseshell rather than thick.",
+        "A nose bridge bump (dorsal hump) is not visibly depicted; the nose appears straight, so the image fails to illustrate the article's subject of styling around a dorsal hump.",
+        "Front-on framing hides any nose profile, so the glasses-frame-choice tip cannot be demonstrated.",
+        "Hair has waves and length but crown volume is modest; only partially illustrates the volume tip."
+      ]
+    }
+  ]
+}

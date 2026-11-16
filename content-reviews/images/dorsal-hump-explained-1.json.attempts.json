@@ -1,0 +1,14 @@
+{
+  "key": "{\"brief\":{\"prompt\":\"A side-profile portrait of an adult with a clearly visible natural bump on the bridge of the nose, lit by soft window light against a plain warm-grey wall. Calm neutral expression, head level, simple dark crew-neck top, clean uncluttered composition that reads clearly at thumbnail size.\",\"alt\":\"Side profile of a person with a natural dorsal hump on the nose bridge in soft window light\",\"purpose\":\"Introduces what a dorsal hump looks like in real life as a normal feature of the nasal bridge.\",\"article\":\"dorsal-hump-explained\",\"position\":1},\"model\":\"openai/gpt-image-2.5/flare/text-to-image\"}",
+  "attempts": [
+    {
+      "status": "passed",
+      "prompt": "A side-profile portrait of an adult with a clearly visible natural bump on the bridge of the nose, lit by soft window light against a plain warm-grey wall. Calm neutral expression, head level, simple dark crew-neck top, clean uncluttered composition that reads clearly at thumbnail size.",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "Side profile of an adult with dark hair in a loose bun, showing a subtle natural bump on the nose bridge, lit by soft window light against a plain warm-grey wall, wearing a dark crew-neck top"
+      }
+    }
+  ]
+}
