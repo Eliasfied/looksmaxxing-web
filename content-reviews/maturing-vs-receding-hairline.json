@@ -1,0 +1,92 @@
+{
+  "slug": "maturing-vs-receding-hairline",
+  "reviewedAt": "2026-11-17T22:46:48.389Z",
+  "draft": true,
+  "review": {
+    "pass": false,
+    "issues": [
+      "Medical procedure mentioned without advising against it: wherever surgery, an implant, filler, Botox or a prescription drug comes up, say \"We don't recommend it for appearance\" and give the main risks"
+    ]
+  },
+  "textRepair": {
+    "status": "rejected",
+    "issues": [
+      "Medical procedure mentioned without advising against it: wherever surgery, an implant, filler, Botox or a prescription drug comes up, say \"We don't recommend it for appearance\" and give the main risks"
+    ],
+    "review": {
+      "pass": false,
+      "issues": [
+        "Medical procedure mentioned without advising against it: wherever surgery, an implant, filler, Botox or a prescription drug comes up, say \"We don't recommend it for appearance\" and give the main risks"
+      ]
+    }
+  },
+  "sources": [
+    {
+      "title": "(PDF) Hairline evolution as simple as ABC/123",
+      "url": "https://www.ishrs-htforum.org/content/htfi/23/6/197.full.pdf"
+    },
+    {
+      "title": "Study of TDM-105795 Following Topical Administration in Male Subjects With Androgenetic Alopecia",
+      "url": "https://cdn.clinicaltrials.gov/large-docs/73/NCT05802173/SAP_001.pdf"
+    },
+    {
+      "title": "(PDF) Phenotype of Normal Hairline Maturation",
+      "url": "https://www.researchgate.net/publication/256479799_Phenotype_of_Normal_Hairline_Maturation"
+    },
+    {
+      "title": "Mature Hairline vs. Receding: How to Tell the Difference",
+      "url": "https://acibademinternational.com/blog/mature-hairline-or-receding-how-to-tell-the-difference-honestly/"
+    },
+    {
+      "title": "Mature Hairline vs Receding: How to Tell if You Are Receding",
+      "url": "https://solveclinics.com/mature-hairline-vs-receding/"
+    },
+    {
+      "title": "Mature Hairline vs Receding Hairline: How To Tell the Difference",
+      "url": "https://www.happyhead.com/blog/mature-hairline"
+    },
+    {
+      "title": "Mature Hairline vs. Receding Hairline vs. Balding: Which Hair Loss Stage Are You At? - Superhairpieces.com",
+      "url": "https://www.superhairpieces.com/blog/mature-hairline-vs-receding-hairline-vs-balding-which-hair-loss-stage-are-you-at/"
+    },
+    {
+      "title": "How to assess male hairline recession using the Norwood scale",
+      "url": "https://www.myhairline.ai/blog/how-to-assess-male-hairline-recession-norwood-scale"
+    }
+  ],
+  "imageModel": "openai/gpt-image-2.5/flare/text-to-image",
+  "imageReviews": [],
+  "imageFailures": [],
+  "imageSettings": {
+    "width": 1024,
+    "height": 1024,
+    "quality": "low"
+  },
+  "usage": [
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "research",
+      "input": 31812,
+      "output": 3806,
+      "estimatedUsd": 0.101684,
+      "searches": 3
+    },
+    {
+      "model": "claude-opus-5-5",
+      "stage": "article",
+      "input": 35876,
+      "output": 6990,
+      "estimatedUsd": 0.283304,
+      "searches": 0
+    },
+    {
+      "model": "claude-opus-5-5",
+      "stage": "article-repair",
+      "input": 9120,
+      "output": 6556,
+      "estimatedUsd": 0.1676,
+      "searches": 0
+    }
+  ],
+  "note": "Token estimates exclude web-search charges, images, tax and provider markups."
+}
