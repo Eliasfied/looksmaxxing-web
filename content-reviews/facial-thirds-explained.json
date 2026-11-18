@@ -1,0 +1,125 @@
+{
+  "slug": "facial-thirds-explained",
+  "reviewedAt": "2026-11-18T22:28:56.913Z",
+  "draft": true,
+  "review": {
+    "pass": false,
+    "issues": [
+      "Equal thirds are uncommon: the Turkish study is cited as 'invalid for most of its sample', but the evidence only says the canons were invalid for the majority and does not isolate the thirds canon, so the thirds-specific claim is unsupported.",
+      "Equal thirds are uncommon: the 'Reviewing Facial Aesthetic Proportions' middle and upper third figures are described as horizontal dimensions in the source. The draft presents them as vertical facial thirds, a misleading attribution."
+    ]
+  },
+  "textRepair": {
+    "status": "rejected",
+    "issues": [
+      "Where the rule came from: The Leonardo/Farkas claims link to PMC4369102, which is the Arabian Peninsula study, not a Head & Face Medicine review as described. The evidence shows it is a primary study, so the source type is misattributed.",
+      "Equal thirds are uncommon: The Arabian Peninsula bullet, the Turkish adults study, the Nigerian women figures (61.04/73.10/75.49 mm), the 50 Caucasian models study and the Class II malocclusion study are not in the supplied evidence or sources, so they are unsupported attributions.",
+      "The evidence on the other side: The cited attractive-women study says attractive females showed uniformity of thirds, yet the draft claims 'no statistical difference between their thirds', which is not shown. The evidence snippet mentions ANOVA differences, so the claim may be misstated.",
+      "Where procedures fit: The draft lists only non-medical options first but does not name jaw surgery risks specifically. It also mentions orthodontic treatment as a next step without clearly framing it as a genuine medical use only."
+    ],
+    "review": {
+      "pass": false,
+      "issues": [
+        "Equal thirds are uncommon: the Turkish study is cited as 'invalid for most of its sample', but the evidence only says the canons were invalid for the majority and does not isolate the thirds canon, so the thirds-specific claim is unsupported.",
+        "Equal thirds are uncommon: the 'Reviewing Facial Aesthetic Proportions' middle and upper third figures are described as horizontal dimensions in the source. The draft presents them as vertical facial thirds, a misleading attribution."
+      ]
+    }
+  },
+  "sources": [
+    {
+      "title": "Are Neoclassical Canons Valid for Southern Chinese Faces?",
+      "url": "https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0052593"
+    },
+    {
+      "title": "The validity of three neo-classical facial canons in young adults originating from the Arabian Peninsula",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4369102/"
+    },
+    {
+      "title": "The validity of three neo-classical facial canons in young adults originating from the Arabian Peninsula",
+      "url": "https://link.springer.com/article/10.1186/s13005-015-0064-y"
+    },
+    {
+      "title": "Evaluation of Facial Beauty Using Anthropometric Proportions",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3951104/"
+    },
+    {
+      "title": "Limited Applicability of Neoclassical Facial Canons in Tibetan Youth: 2D Photogrammetry Evaluation - PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40079589/"
+    },
+    {
+      "title": "(PDF) Facial Proportions",
+      "url": "https://www.researchgate.net/publication/227113312_Facial_Proportions"
+    },
+    {
+      "title": "(PDF) Reviewing Facial Aesthetic Proportions",
+      "url": "https://www.researchgate.net/publication/394426166_Reviewing_Facial_Aesthetic_Proportions"
+    },
+    {
+      "title": "(PDF) The validity of eight neoclassical facial canons in the Turkish adults",
+      "url": "https://www.researchgate.net/publication/304549138_The_validity_of_eight_neoclassical_facial_canons_in_the_Turkish_adults"
+    },
+    {
+      "title": "Do the neoclassical canons still describe the beauty of faces? An anthropometric study on 50 Caucasian models",
+      "url": "https://www.researchgate.net/publication/44655410_Do_the_neoclassical_canons_still_describe_the_beauty_of_faces_An_anthropometric_study_on_50_Caucasian_models"
+    },
+    {
+      "title": "Preoperative Evaluation and Facial Analysis in Facial Plastic Surgery",
+      "url": "https://entokey.com/preoperative-evaluation-and-facial-analysis-in-facial-plastic-surgery/"
+    },
+    {
+      "title": "Facial Analysis - Plastic Surgery Key",
+      "url": "https://plasticsurgerykey.com/facial-analysis/"
+    }
+  ],
+  "imageModel": "openai/gpt-image-2.5/flare/text-to-image",
+  "imageReviews": [],
+  "imageFailures": [],
+  "imageSettings": {
+    "width": 1024,
+    "height": 1024,
+    "quality": "low"
+  },
+  "usage": [
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "research",
+      "input": 29289,
+      "output": 3591,
+      "estimatedUsd": 0.094488,
+      "searches": 3
+    },
+    {
+      "model": "claude-opus-5-5",
+      "stage": "article",
+      "input": 33474,
+      "output": 8316,
+      "estimatedUsd": 0.300216,
+      "searches": 0
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "text-review",
+      "input": 8274,
+      "output": 367,
+      "estimatedUsd": 0.020218,
+      "searches": 0
+    },
+    {
+      "model": "claude-opus-5-5",
+      "stage": "article-repair",
+      "input": 9719,
+      "output": 8115,
+      "estimatedUsd": 0.201176,
+      "searches": 0
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "text-review",
+      "input": 10039,
+      "output": 179,
+      "estimatedUsd": 0.021868,
+      "searches": 0
+    }
+  ],
+  "note": "Token estimates exclude web-search charges, images, tax and provider markups."
+}
