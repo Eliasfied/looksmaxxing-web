@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "fingerprint": "f5fad0e2de3e2d845f476bca3fcbf55b4fe8e5b65fe2459c689451273969f339",
+  "brief": {
+    "prompt": "A smartphone mounted on a tripod at eye level faces a plain white wall beside a bright window, with a small strip of tape marking a standing spot on a wooden floor. A simple, uncluttered room in even daylight with no person present.",
+    "alt": "Smartphone on a tripod at eye level by a window, set up for consistent before and after face photos",
+    "purpose": "Teaches the standardised photo setup (fixed camera height, window light, marked position) for honest before and after comparisons",
+    "article": "weight-loss-face-before-and-after",
+    "position": 2
+  },
+  "sha256": "4174a372af131552c9d47f498060f67da0c508d1f6ce75a1d767ae1a58266f16",
+  "reviewedAt": "2026-11-19T22:33:08.104Z",
+  "review": {
+    "pass": true,
+    "issues": [],
+    "alt": "Smartphone mounted on a black tripod facing a plain white wall in an empty room, with a window on the left, a wood floor with a small tape strip marking a standing spot, and a potted plant at right."
+  }
+}

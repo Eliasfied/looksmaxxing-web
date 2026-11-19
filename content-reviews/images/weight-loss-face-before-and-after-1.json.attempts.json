@@ -1,0 +1,14 @@
+{
+  "key": "{\"brief\":{\"prompt\":\"A man in his early thirties with a lean, angular face sits by a large window in soft natural daylight, shown in a three-quarter view with a calm, neutral expression. Plain light gray wall behind him, simple navy crewneck sweater, realistic photographic style with gentle shadows under the cheekbones.\",\"alt\":\"Man with a lean face in soft window light, illustrating weight loss face before and after changes\",\"purpose\":\"Hero image showing how natural light reveals facial structure after weight change\",\"article\":\"weight-loss-face-before-and-after\",\"position\":1},\"model\":\"openai/gpt-image-2.5/flare/text-to-image\"}",
+  "attempts": [
+    {
+      "status": "passed",
+      "prompt": "A man in his early thirties with a lean, angular face sits by a large window in soft natural daylight, shown in a three-quarter view with a calm, neutral expression. Plain light gray wall behind him, simple navy crewneck sweater, realistic photographic style with gentle shadows under the cheekbones.",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "Man in his early thirties with dark tousled hair and a lean, angular face, wearing a navy crewneck sweater, seated in three-quarter view and gazing calmly toward a large window in soft natural light against a plain light gray wall."
+      }
+    }
+  ]
+}

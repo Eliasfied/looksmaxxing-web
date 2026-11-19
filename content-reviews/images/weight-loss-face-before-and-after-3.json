@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "fingerprint": "a38b8c9d23dac899fc1d38105f4b7ec5de3cdfb6731e4c0f379707d3b3898db0",
+  "brief": {
+    "prompt": "A woman in her late thirties with a slim face and shoulder-length hair styled in soft face-framing layers and loose waves that add volume around her cheekbones, sitting in a bright salon chair. Warm neutral salon background, natural makeup, relaxed slight smile, realistic photographic style.",
+    "alt": "Woman with face-framing layered waves adding volume around a slimmer face",
+    "purpose": "Shows how hairstyle volume at the sides can soften a narrower or hollow-looking face after weight loss",
+    "article": "weight-loss-face-before-and-after",
+    "position": 3
+  },
+  "sha256": "dd101ab0df4fe8a1a193c73e5c55af330a5c6303f65a265bb74d1fe82d59d4fa",
+  "reviewedAt": "2026-11-19T22:33:21.942Z",
+  "review": {
+    "pass": true,
+    "issues": [],
+    "alt": "Smiling woman with shoulder-length brunette hair with caramel highlights, styled in face-framing layered waves, seated in a white chair in a bright salon wearing a cream sweater"
+  }
+}

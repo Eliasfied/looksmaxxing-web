@@ -9,7 +9,7 @@ heroImage: "/blog/glow-up-tips-for-women/1.webp"
 heroImageAlt: "Woman with shoulder-length wavy brown hair in a cream ribbed knit sweater smiling softly toward a sunlit window in a bright, minimal bedroom."
 tags: ["glow up", "skincare", "sunscreen", "personal style", "self-care", "routine"]
 readingTime: 8
-related: [glow-up-checklist-for-women, how-to-get-clean-shave, nasolabial-folds-guide]
+related: [glow-up-checklist-for-women, how-to-get-clean-shave, how-to-get-low-set-eyebrows]
 faq:
   - q: "What is the most important glow up tip for women?"
     a: "Daily sunscreen. The American Academy of Dermatology calls it one of the single most important things you can do for your skin, and recommends broad-spectrum, water-resistant protection with SPF 30 or higher on all exposed skin."
