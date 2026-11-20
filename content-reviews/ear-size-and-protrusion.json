@@ -1,0 +1,98 @@
+{
+  "slug": "ear-size-and-protrusion",
+  "reviewedAt": "2026-11-20T22:06:25.887Z",
+  "draft": true,
+  "review": {
+    "pass": false,
+    "issues": [
+      "A Note on Surgery: Alder Hey is cited as saying otoplasty is \"usually performed for cosmetic reasons, with no medical need\". The supplied evidence only says surgery is usually performed on children aged 7 and older. The attribution is unsupported and must be corrected or removed.",
+      "The Newborn Window: Byrd's \"after 3 weeks, only about half responded\", the splinting study's \"after six weeks\" with \"roughly 20% stopped\", and the retrospective cohort findings on cup ears and earlobes are attributed to uncited studies. None appear in the supplied evidence."
+    ]
+  },
+  "textRepair": {
+    "status": "rejected",
+    "issues": [
+      "After Infancy / Otoplasty: the surgery section lists risks but is framed as \"After Infancy\" and the correction passage reads as the only route for correcting ears. It also cites NHS age criteria (5–18, 7+) that read as eligibility guidance, making surgery look like a neutral next step; it must stay clearly non-medical-first."
+    ],
+    "review": {
+      "pass": false,
+      "issues": [
+        "A Note on Surgery: Alder Hey is cited as saying otoplasty is \"usually performed for cosmetic reasons, with no medical need\". The supplied evidence only says surgery is usually performed on children aged 7 and older. The attribution is unsupported and must be corrected or removed.",
+        "The Newborn Window: Byrd's \"after 3 weeks, only about half responded\", the splinting study's \"after six weeks\" with \"roughly 20% stopped\", and the retrospective cohort findings on cup ears and earlobes are attributed to uncited studies. None appear in the supplied evidence."
+      ]
+    }
+  },
+  "sources": [
+    {
+      "title": "Treatment of Prominent Ear Anomalies",
+      "url": "https://link.springer.com/chapter/10.1007/978-3-642-35431-1_13"
+    },
+    {
+      "title": "The newborn butterfly project: a shortened treatment protocol for ear molding - PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25719722/"
+    },
+    {
+      "title": "Correction of Congenital Ear Deformity, Pinnaplasty",
+      "url": "https://www.hweclinicalguidance.nhs.uk/clinical-policies/correction-of-congenital-ear-deformity-pinnaplasty-otoplasty/"
+    },
+    {
+      "title": "Prominent Ears Surgery/Otoplasty PIAG 14 - Alder Hey Children's Hospital Trust",
+      "url": "https://www.alderhey.nhs.uk/conditions/patient-information-leaflets/prominent-ears-surgery-otoplasty/"
+    },
+    {
+      "title": "RAPID REVIEW: Pinnaplasty (Otoplasty): Clinical effectiveness &",
+      "url": "https://www.cheshireandmerseyside.nhs.uk/media/ofrls5on/pinnaplasty-policy-knowsley-july-2019.pdf"
+    }
+  ],
+  "imageModel": "openai/gpt-image-2.5/flare/text-to-image",
+  "imageReviews": [],
+  "imageFailures": [],
+  "imageSettings": {
+    "width": 1024,
+    "height": 1024,
+    "quality": "low"
+  },
+  "usage": [
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "research",
+      "input": 31294,
+      "output": 3829,
+      "estimatedUsd": 0.100878,
+      "searches": 3
+    },
+    {
+      "model": "claude-opus-5-5",
+      "stage": "article",
+      "input": 35397,
+      "output": 8147,
+      "estimatedUsd": 0.304528,
+      "searches": 0
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "text-review",
+      "input": 8233,
+      "output": 129,
+      "estimatedUsd": 0.017756,
+      "searches": 0
+    },
+    {
+      "model": "claude-opus-5-5",
+      "stage": "article-repair",
+      "input": 9410,
+      "output": 6764,
+      "estimatedUsd": 0.17292,
+      "searches": 0
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "text-review",
+      "input": 8233,
+      "output": 216,
+      "estimatedUsd": 0.018626,
+      "searches": 0
+    }
+  ],
+  "note": "Token estimates exclude web-search charges, images, tax and provider markups."
+}
