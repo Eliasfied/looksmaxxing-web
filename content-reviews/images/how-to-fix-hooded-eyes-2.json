@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "fingerprint": "73e8b6de6f73d1f31e5569c6292e9cedaa9de9f54f311383e1d033b96e3678e9",
+  "brief": {
+    "prompt": "Close portrait of a woman in her thirties with hooded eyes, eyes open and looking straight at the camera, wearing a matte soft taupe eyeshadow blended just above her natural crease and a thin dark brown liner tight to the upper lash line with curled lashes. Even, front-facing natural light, plain warm background, no hands in frame.",
+    "alt": "Woman with hooded eyes wearing matte shadow placed above the crease and thin eyeliner close to the lashes",
+    "purpose": "Shows the makeup technique of placing matte shadow slightly above the crease and keeping liner thin so it stays visible with eyes open",
+    "article": "how-to-fix-hooded-eyes",
+    "position": 2
+  },
+  "sha256": "1b1ca364bebe314e5d7e63fde9fe1f7034caafaa1b663091e31ca576c8d6e4c9",
+  "reviewedAt": "2026-11-21T20:46:34.300Z",
+  "review": {
+    "pass": true,
+    "issues": [],
+    "alt": "Close front-facing portrait of a woman with long dark brown hair and hooded eyes, eyes open, wearing matte taupe eyeshadow blended above the crease and thin dark liner close to the upper lashes against a plain warm beige background"
+  }
+}

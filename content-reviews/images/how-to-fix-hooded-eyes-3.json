@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "fingerprint": "949974c13a0e2c0fea38eb4af84ea469a4f8067251b848b594c69541333c9fd7",
+  "brief": {
+    "prompt": "A person in their late twenties sits at a desk facing a smartphone mounted on a small tripod at eye level, with a bright window directly in front of them providing soft, even light on their face. Calm home office setting, side view of the scene so both the phone position and the person's relaxed, level head are clearly visible.",
+    "alt": "Person taking a front-lit, eye-level photo to see how camera angle affects hooded eyes",
+    "purpose": "Demonstrates the photo setup of an eye-level camera and front lighting that reduces how heavy hooded eyes look in pictures",
+    "article": "how-to-fix-hooded-eyes",
+    "position": 3
+  },
+  "sha256": "e2ba916520d0e06251caf6debf7ca1ca5d24f2016739a682db415468f6632b25",
+  "reviewedAt": "2026-11-21T20:46:47.324Z",
+  "review": {
+    "pass": true,
+    "issues": [],
+    "alt": "Woman in a green knit sweater sits in profile at a wooden desk, facing a smartphone on a small tripod at eye level, with a bright window providing soft light in a calm home office"
+  }
+}

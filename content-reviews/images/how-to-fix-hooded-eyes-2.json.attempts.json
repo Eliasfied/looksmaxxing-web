@@ -1,0 +1,24 @@
+{
+  "key": "{\"brief\":{\"prompt\":\"Close portrait of a woman in her thirties with hooded eyes, eyes open and looking straight at the camera, wearing a matte soft taupe eyeshadow blended just above her natural crease and a thin dark brown liner tight to the upper lash line with curled lashes. Even, front-facing natural light, plain warm background, no hands in frame.\",\"alt\":\"Woman with hooded eyes wearing matte shadow placed above the crease and thin eyeliner close to the lashes\",\"purpose\":\"Shows the makeup technique of placing matte shadow slightly above the crease and keeping liner thin so it stays visible with eyes open\",\"article\":\"how-to-fix-hooded-eyes\",\"position\":2},\"model\":\"openai/gpt-image-2.5/flare/text-to-image\"}",
+  "attempts": [
+    {
+      "status": "rejected",
+      "prompt": "Close portrait of a woman in her thirties with hooded eyes, eyes open and looking straight at the camera, wearing a matte soft taupe eyeshadow blended just above her natural crease and a thin dark brown liner tight to the upper lash line with curled lashes. Even, front-facing natural light, plain warm background, no hands in frame.",
+      "issues": [
+        "The image does not clearly show the stated technique. The lid area has almost no visible matte taupe shadow above the crease, so placement is not demonstrable.",
+        "The brief asks for hooded eyes, but the eyelids look fairly open and the crease is not visibly hidden. The image does not illustrate the hooded-eye problem the article addresses.",
+        "The thin dark brown liner tight to the upper lash line is faint and hard to see, so the purpose of showing liner staying visible with eyes open is not met.",
+        "The makeup is too subtle for an instructional how-to image, and the shadow and liner are not distinguishable from natural lid shading."
+      ]
+    },
+    {
+      "status": "passed",
+      "prompt": "Close portrait of a woman in her thirties with hooded eyes, eyes open and looking straight at the camera, wearing a matte soft taupe eyeshadow blended just above her natural crease and a thin dark brown liner tight to the upper lash line with curled lashes. Even, front-facing natural light, plain warm background, no hands in frame.\nEDITORIAL CORRECTION: Regenerate a simpler, accurate illustration of the same purpose. Fix these defects from the rejected image: [\"The image does not clearly show the stated technique. The lid area has almost no visible matte taupe shadow above the crease, so placement is not demonstrable.\",\"The brief asks for hooded eyes, but the eyelids look fairly open and the crease is not visibly hidden. The image does not illustrate the hooded-eye problem the article addresses.\",\"The thin dark brown liner tight to the upper lash line is faint and hard to see, so the purpose of showing liner staying visible with eyes open is not met.\",\"The makeup is too subtle for an instructional how-to image, and the shadow and liner are not distinguishable from natural lid shading.\"]. Avoid text, labels and complex comparative diagrams if they caused the defect.",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "Close front-facing portrait of a woman with long dark brown hair and hooded eyes, eyes open, wearing matte taupe eyeshadow blended above the crease and thin dark liner close to the upper lashes against a plain warm beige background"
+      }
+    }
+  ]
+}

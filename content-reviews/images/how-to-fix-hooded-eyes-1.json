@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "fingerprint": "e50f5bbe26a4f1643e50faf01e58649a6af19ded07d61d4ccccf286575d0ebeb",
+  "brief": {
+    "prompt": "A man in his early forties with naturally hooded upper eyelids stands in front of a bathroom mirror in soft morning window light, his forehead relaxed and gaze straight ahead as he studies his eye area. Clean, neutral bathroom with white tiles and a single plant, framed from the chest up so his face reads clearly at thumbnail size.",
+    "alt": "Man checking his hooded eyes in a mirror in soft daylight before deciding how to fix hooded eyes",
+    "purpose": "Introduces the article's main idea that fixing hooded eyes starts with calmly observing your own eye area in good light",
+    "article": "how-to-fix-hooded-eyes",
+    "position": 1
+  },
+  "sha256": "b13ceff68c9a52cdb60ae29da1308817f4b6bfa2fce98696fd1930dd39865417",
+  "reviewedAt": "2026-11-21T20:46:06.579Z",
+  "review": {
+    "pass": true,
+    "issues": [],
+    "alt": "Man in his early forties with dark graying hair and stubble studies his eye area in a bathroom mirror, touching his temple near his brow, in soft window light beside a white-tiled wall and a potted plant."
+  }
+}
