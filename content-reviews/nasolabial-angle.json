@@ -1,0 +1,104 @@
+{
+  "slug": "nasolabial-angle",
+  "reviewedAt": "2026-11-22T20:56:21.205Z",
+  "draft": true,
+  "review": {
+    "pass": false,
+    "issues": [
+      "Where clinicians use the nasolabial angle / Rhinoplasty: the section links to rhinoplasty outcome studies and reports angle changes after surgery in a way that can read as neutral planning information. It should keep non-medical options first, and it never does.",
+      "Intro: the article calls the number \"real and clinically useful\" and says clinicians find it useful for planning. The supplied evidence does not support this, and the claim is weakened by the cited measurement controversy."
+    ]
+  },
+  "textRepair": {
+    "status": "rejected",
+    "issues": [
+      "Orthodontics: The cited cohort study says the angle tended to decrease after orthodontic treatment, yet also reports an increase in both measurements. The article presents the extraction-related increase as settled and never mentions the conflicting evidence.",
+      "Rhinoplasty section: The 111-patient study is attributed to PubMed 35130565, but the evidence does not show a 111-patient sample or the 'one week' timing. The article also says the 9.3-degree figure was the largest change in the angle, but the source gives it as the greatest change in the upright position.",
+      "Rhinoplasty section: The 12-month follow-up claim that the angle decreased over time is not supported by the supplied evidence. It is an unverified attribution and is not cited."
+    ],
+    "review": {
+      "pass": false,
+      "issues": [
+        "Where clinicians use the nasolabial angle / Rhinoplasty: the section links to rhinoplasty outcome studies and reports angle changes after surgery in a way that can read as neutral planning information. It should keep non-medical options first, and it never does.",
+        "Intro: the article calls the number \"real and clinically useful\" and says clinicians find it useful for planning. The supplied evidence does not support this, and the claim is weakened by the cited measurement controversy."
+      ]
+    }
+  },
+  "sources": [
+    {
+      "title": "Cephalometric and Photographic Evaluation of the Nasolabial Angle in Orthodontically Treated Patients: An Observational Cohort Study - PMC",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11763396/"
+    },
+    {
+      "title": "Changes in Soft Tissue Profile After Orthodontic Treatment With and Without Extraction: A Systematic Review and Meta-analysis - ScienceDirect",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S1532338217302439"
+    },
+    {
+      "title": "The Nasal Tip Rotation After Primary Rhinoplasty Using Columellar Strut Graft - PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33936867/"
+    },
+    {
+      "title": "Change in Columellar-Philtral and Nasolabial Angles Over Time Following Rhinoplasty - PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35130565/"
+    },
+    {
+      "title": "Temporal Stability of Nasal Tip Rotation and Projection Following Rhinoplasty Using a Novel Integrated Pentagonal Tip Support Technique - PMC",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13303891/"
+    },
+    {
+      "title": "The most influential cephalometric factors affecting variations in the nasolabial angle: A cross-sectional regression study",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12916038/"
+    }
+  ],
+  "imageModel": "openai/gpt-image-2.5/flare/text-to-image",
+  "imageReviews": [],
+  "imageFailures": [],
+  "imageSettings": {
+    "width": 1024,
+    "height": 1024,
+    "quality": "low"
+  },
+  "usage": [
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "research",
+      "input": 32033,
+      "output": 3462,
+      "estimatedUsd": 0.098686,
+      "searches": 3
+    },
+    {
+      "model": "claude-opus-5-5",
+      "stage": "article",
+      "input": 35722,
+      "output": 7814,
+      "estimatedUsd": 0.299168,
+      "searches": 0
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "text-review",
+      "input": 8581,
+      "output": 252,
+      "estimatedUsd": 0.019682,
+      "searches": 0
+    },
+    {
+      "model": "claude-opus-5-5",
+      "stage": "article-repair",
+      "input": 9276,
+      "output": 7011,
+      "estimatedUsd": 0.177324,
+      "searches": 0
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "text-review",
+      "input": 9116,
+      "output": 165,
+      "estimatedUsd": 0.019882,
+      "searches": 0
+    }
+  ],
+  "note": "Token estimates exclude web-search charges, images, tax and provider markups."
+}
