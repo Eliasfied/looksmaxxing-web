@@ -1,0 +1,14 @@
+{
+  "key": "{\"brief\":{\"prompt\":\"A fit man in a plain grey fitted t-shirt seen from behind, standing relaxed in an outdoor park at golden hour, his broad shoulders and narrower waist forming a natural V-shaped torso silhouette. Simple uncluttered background with soft green trees, no text or graphics.\",\"alt\":\"Man seen from behind showing a V-shaped torso and shoulder to waist ratio\",\"purpose\":\"Introduces the V-shaped torso that the shoulder to waist ratio describes, readable at thumbnail size.\",\"article\":\"shoulder-to-waist-ratio\",\"position\":1},\"model\":\"openai/gpt-image-2.5/flare/text-to-image\"}",
+  "attempts": [
+    {
+      "status": "passed",
+      "prompt": "A fit man in a plain grey fitted t-shirt seen from behind, standing relaxed in an outdoor park at golden hour, his broad shoulders and narrower waist forming a natural V-shaped torso silhouette. Simple uncluttered background with soft green trees, no text or graphics.",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "Man in a plain grey fitted t-shirt and black shorts seen from behind, standing relaxed in a park at golden hour, with broad shoulders tapering to a narrower waist forming a V-shaped torso."
+      }
+    }
+  ]
+}

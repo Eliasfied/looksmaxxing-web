@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "fingerprint": "fb2048461369021efe3b5fbe6f9fe3f8f343a02b5e52e12454a43b029599953f",
+  "brief": {
+    "prompt": "A man standing in a well-lit city street wearing a navy blazer with structured shoulders over a white shirt, the jacket tailored to taper at the waist, shown in a three-quarter body shot. Neutral background, no text or logos.",
+    "alt": "Man wearing a structured blazer that sharpens his shoulder to waist ratio",
+    "purpose": "Demonstrates how structured shoulders and a tapered waist in clothing make proportions read as more V-shaped.",
+    "article": "shoulder-to-waist-ratio",
+    "position": 3
+  },
+  "sha256": "3b0c966c5b4fdca8bff0d540d9d024edf85d73d6fae05c66909724a9a5364d60",
+  "reviewedAt": "2026-11-24T23:45:37.148Z",
+  "review": {
+    "pass": true,
+    "issues": [],
+    "alt": "Man in a navy blazer over an open-collar white shirt and charcoal trousers, standing on a sunlit city sidewalk with one hand in his pocket, shown in a three-quarter body shot."
+  }
+}

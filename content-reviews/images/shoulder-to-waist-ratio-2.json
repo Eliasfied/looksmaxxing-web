@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "fingerprint": "98dd3a2d4f496c09d5ab340b8a9eaee2f6615bf6370ee0fca91b9dded67913e7",
+  "brief": {
+    "prompt": "A man in a bright gym performing a dumbbell lateral raise, arms lifted out to the sides at shoulder height, shown in a mid-length shot from the front. He wears a fitted black tank top and the background is a clean, uncluttered weight room.",
+    "alt": "Man performing a dumbbell lateral raise to build shoulder width",
+    "purpose": "Shows a side-delt exercise used to raise the shoulder half of the ratio.",
+    "article": "shoulder-to-waist-ratio",
+    "position": 2
+  },
+  "sha256": "306e39efe12282fc060c8f3727cbbe6d3bf11d5f7869c77ed6e58e5e5d55a2fb",
+  "reviewedAt": "2026-11-24T23:45:24.108Z",
+  "review": {
+    "pass": true,
+    "issues": [],
+    "alt": "Man in a black tank top and shorts performing a standing dumbbell lateral raise, arms extended out to the sides at shoulder height, in a bright gym with dumbbell racks, weight plates and a bench behind him",
+    "note": "Brief match is good: front mid-length shot, fitted black tank, clean gym, arms at shoulder height clearly showing the side-delt movement. Anatomy looks natural (normal hands gripping dumbbells, plausible proportions), no text, interfaces, or misleading transformation elements. Minor nit: elbows are slightly bent and wrists neutral, which is acceptable form for the exercise."
+  }
+}

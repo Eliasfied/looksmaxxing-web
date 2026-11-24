@@ -1,0 +1,165 @@
+{
+  "slug": "shoulder-to-waist-ratio",
+  "reviewedAt": "2026-11-24T23:45:37.150Z",
+  "draft": false,
+  "review": {
+    "pass": true,
+    "issues": []
+  },
+  "textRepair": {
+    "status": "passed",
+    "issues": [
+      "How to Calculate It: the 80 cm waist example is wrong. A 1.57 ratio needs shoulders of about 125.6 cm (≈126, fine), but the claim that the 3 cm gap separates 1.57 from 1.618 is correct only for this waist, and \"shoulder circumference\" is never defined beyond deltoid width. Needs clarification.",
+      "What the Research Actually Found: the draft cites a Psychology Today summary reporting 283 participants. That source is not in the supplied evidence or sources list, so the attribution and participant count cannot be verified. Remove it or supply the source.",
+      "What the Research Actually Found: the draft says the DXA study used 15 images and that raters were in China, Lithuania and the UK. The supplied abstract excerpt supports only \"three populations\", so these specifics are unverified. Remove them or source them.",
+      "Where the 1.618 Golden Ratio Comes From: the claim that online sources \"usually trace back to older or secondary sources\", and the later claim that the \"1.4 for women\" figure traces to the same sources as 1.618, have no supporting evidence. Present them as unverified or remove them."
+    ],
+    "review": {
+      "pass": true,
+      "issues": []
+    }
+  },
+  "sources": [
+    {
+      "title": "The relationship between body fatness and physical attractiveness in males - ScienceDirect",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0191886925002028?_bhlid=221f41b196ca84546a6c2cdc8b8de4fb3dc31ae8"
+    },
+    {
+      "title": "What Makes a Man Attractive? Research Discovers the Ideal Body",
+      "url": "https://www.psychologytoday.com/us/blog/finding-a-new-home/202507/what-makes-a-man-attractive-research-discovers-the-ideal-body"
+    },
+    {
+      "title": "Preferences for sexually dimorphic body characteristics ...",
+      "url": "https://dspace.stir.ac.uk/bitstream/1893/30130/1/SPPS_20Manuscript_20Final.pdf"
+    },
+    {
+      "title": "Neural Correlates and Perceived Attractiveness of Male and Female Shoulder-to-Hip Ratio in Men and Women: An EEG Study - PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37170034/"
+    },
+    {
+      "title": "(PDF) Why Is Muscularity Sexy? Tests of the Fitness Indicator Hypothesis",
+      "url": "https://www.researchgate.net/publication/6258161_Why_Is_Muscularity_Sexy_Tests_of_the_Fitness_Indicator_Hypothesis"
+    },
+    {
+      "title": "Men's Faces Convey Information about their Bodies and ...",
+      "url": "https://journals.sagepub.com/doi/pdf/10.1177/147470490800600311"
+    },
+    {
+      "title": "Shoulder-to-Hip Ratio",
+      "url": "https://link.springer.com/content/pdf/10.1007/978-3-031-08956-5_285-1.pdf"
+    },
+    {
+      "title": "Shoulder-to-Waist Ratio Calculator (Golden Ratio + 3D)",
+      "url": "https://bodyshapecalculator.net/shoulder-to-waist-ratio-calculator/"
+    },
+    {
+      "title": "Shoulder-to-Waist Ratio Calculator (Golden Ratio 1.618) — Deltmax",
+      "url": "https://deltmax.app/shoulder-to-waist-ratio/"
+    },
+    {
+      "title": "Shoulder-to-Waist Ratio: The V-Taper Number (2026)",
+      "url": "https://bodilab.app/en/blog/shoulder-to-waist-ratio.html"
+    }
+  ],
+  "imageModel": "openai/gpt-image-2.5/flare/text-to-image",
+  "imageReviews": [
+    {
+      "image": "/blog/shoulder-to-waist-ratio/1.webp",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "Man in a plain grey fitted t-shirt and black shorts seen from behind, standing relaxed in a park at golden hour, with broad shoulders tapering to a narrower waist forming a V-shaped torso."
+      }
+    },
+    {
+      "image": "/blog/shoulder-to-waist-ratio/2.webp",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "Man in a black tank top and shorts performing a standing dumbbell lateral raise, arms extended out to the sides at shoulder height, in a bright gym with dumbbell racks, weight plates and a bench behind him",
+        "note": "Brief match is good: front mid-length shot, fitted black tank, clean gym, arms at shoulder height clearly showing the side-delt movement. Anatomy looks natural (normal hands gripping dumbbells, plausible proportions), no text, interfaces, or misleading transformation elements. Minor nit: elbows are slightly bent and wrists neutral, which is acceptable form for the exercise."
+      }
+    },
+    {
+      "image": "/blog/shoulder-to-waist-ratio/3.webp",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "Man in a navy blazer over an open-collar white shirt and charcoal trousers, standing on a sunlit city sidewalk with one hand in his pocket, shown in a three-quarter body shot."
+      }
+    }
+  ],
+  "imageFailures": [],
+  "imageSettings": {
+    "width": 1024,
+    "height": 1024,
+    "quality": "low"
+  },
+  "usage": [
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "research",
+      "input": 32885,
+      "output": 4013,
+      "estimatedUsd": 0.1059,
+      "searches": 3
+    },
+    {
+      "model": "claude-opus-5-5",
+      "stage": "article",
+      "input": 36920,
+      "output": 8600,
+      "estimatedUsd": 0.31968,
+      "searches": 0
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "text-review",
+      "input": 8548,
+      "output": 394,
+      "estimatedUsd": 0.021036,
+      "searches": 0
+    },
+    {
+      "model": "claude-opus-5-5",
+      "stage": "article-repair",
+      "input": 9629,
+      "output": 8112,
+      "estimatedUsd": 0.200756,
+      "searches": 0
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "text-review",
+      "input": 10069,
+      "output": 16,
+      "estimatedUsd": 0.020298,
+      "searches": 0
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "image-review",
+      "input": 1722,
+      "output": 91,
+      "estimatedUsd": 0.004354,
+      "searches": 0
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "image-review",
+      "input": 1691,
+      "output": 227,
+      "estimatedUsd": 0.005652,
+      "searches": 0
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "image-review",
+      "input": 1700,
+      "output": 86,
+      "estimatedUsd": 0.00426,
+      "searches": 0
+    }
+  ],
+  "note": "Token estimates exclude web-search charges, images, tax and provider markups."
+}
