@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "fingerprint": "86e4c7ae02a4bd097588fd7720500cc4a2eb35bdf0d1cc680ea97303c612b082",
+  "brief": {
+    "prompt": "A young adult sitting on a sofa beside a large window, holding a smartphone at eye level to take a front-facing selfie in soft natural daylight, with a relaxed neutral expression. Warm, uncluttered living room, with the phone's back facing the viewer so no screen is visible.",
+    "alt": "Person taking a front-facing selfie in window light to use with a face rating app",
+    "purpose": "Introduces the everyday act of photographing your face for a face rating app, under the soft daylight the article recommends.",
+    "article": "best-face-rating-apps",
+    "position": 1
+  },
+  "sha256": "9ce48a05b5cb4ae65c05929d1092af5cb900253e00d64953d68ba311f5192e1b",
+  "reviewedAt": "2026-11-24T02:01:16.497Z",
+  "review": {
+    "pass": true,
+    "issues": [],
+    "alt": "Young woman with long dark hair in a cream sweater and jeans sits on a beige sofa beside a large window, holding a smartphone up at eye level to take a selfie in soft natural daylight, with the phone's back and camera lenses facing the viewer."
+  }
+}

@@ -1,0 +1,141 @@
+{
+  "slug": "best-face-rating-apps",
+  "reviewedAt": "2026-11-24T02:01:44.171Z",
+  "draft": false,
+  "review": {
+    "pass": true,
+    "issues": []
+  },
+  "textRepair": {
+    "status": "passed",
+    "issues": [
+      "Where Aura fits / FAQ: The article says the free preview and day 1 of the glow-up plan are free, but it also describes the Aura report as 'unlocked with the 30-Day Glow-Up Plan'. The 'Is there a free face rating app?' FAQ gives no mention of the subscription alternative, which is acceptable. This is not a clear error, so it is not blocking."
+    ],
+    "review": {
+      "pass": true,
+      "issues": []
+    }
+  },
+  "sources": [
+    {
+      "title": "Analysis of Bias in Deep Learning Facial Beauty Regressors",
+      "url": "https://arxiv.org/pdf/2509.24138"
+    },
+    {
+      "title": "A new humanlike facial attractiveness predictor with cascaded fine-tuning deep learning model",
+      "url": "https://arxiv.org/pdf/1511.02465"
+    },
+    {
+      "title": "A comprehensive review of facial beauty prediction using deep learning techniques - ScienceDirect",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0952197625020172"
+    },
+    {
+      "title": "Dating apps could have negative effects on body image and mental health, our research shows",
+      "url": "https://theconversation.com/dating-apps-could-have-negative-effects-on-body-image-and-mental-health-our-research-shows-247336"
+    },
+    {
+      "title": "The Best AI Rate My Face Tools in 2026, and What the Science of Attractiveness Really Says",
+      "url": "https://www.sciencetimes.com/articles/61964/20260622/best-ai-rate-my-face-tools-2026-what-science-attractiveness-really-says.htm"
+    }
+  ],
+  "imageModel": "openai/gpt-image-2.5/flare/text-to-image",
+  "imageReviews": [
+    {
+      "image": "/blog/best-face-rating-apps/1.webp",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "Young woman with long dark hair in a cream sweater and jeans sits on a beige sofa beside a large window, holding a smartphone up at eye level to take a selfie in soft natural daylight, with the phone's back and camera lenses facing the viewer."
+      }
+    },
+    {
+      "image": "/blog/best-face-rating-apps/2.webp",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "Woman with shoulder-length brown hair and small gold hoop earrings, wearing a cream knit sweater, facing the camera with a relaxed expression beside a bright window against a plain light wall, evenly lit and photographed straight on at eye level."
+      }
+    },
+    {
+      "image": "/blog/best-face-rating-apps/3.webp",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "A smartphone with a dark screen on a small black tripod sits on a wooden desk beside a sunlit window, facing an empty upholstered chair, in a bright minimalist room with a plant, mug, books and pencil cup."
+      }
+    }
+  ],
+  "imageFailures": [],
+  "imageSettings": {
+    "width": 1024,
+    "height": 1024,
+    "quality": "low"
+  },
+  "usage": [
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "research",
+      "input": 29194,
+      "output": 3230,
+      "estimatedUsd": 0.090688,
+      "searches": 3
+    },
+    {
+      "model": "claude-opus-5-5",
+      "stage": "article",
+      "input": 32165,
+      "output": 12186,
+      "estimatedUsd": 0.37238,
+      "searches": 0
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "text-review",
+      "input": 7738,
+      "output": 142,
+      "estimatedUsd": 0.016896,
+      "searches": 0
+    },
+    {
+      "model": "claude-opus-5-5",
+      "stage": "article-repair",
+      "input": 8333,
+      "output": 5825,
+      "estimatedUsd": 0.149832,
+      "searches": 0
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "text-review",
+      "input": 7728,
+      "output": 16,
+      "estimatedUsd": 0.015616,
+      "searches": 0
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "image-review",
+      "input": 1707,
+      "output": 103,
+      "estimatedUsd": 0.004444,
+      "searches": 0
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "image-review",
+      "input": 1738,
+      "output": 102,
+      "estimatedUsd": 0.004496,
+      "searches": 0
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "image-review",
+      "input": 1689,
+      "output": 94,
+      "estimatedUsd": 0.004318,
+      "searches": 0
+    }
+  ],
+  "note": "Token estimates exclude web-search charges, images, tax and provider markups."
+}

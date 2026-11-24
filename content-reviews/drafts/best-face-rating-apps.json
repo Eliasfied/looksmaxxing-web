@@ -1,0 +1,363 @@
+{
+  "version": 1,
+  "savedAt": "2026-11-24T02:01:44.170Z",
+  "page": {
+    "slug": "best-face-rating-apps",
+    "cluster": "face-rating-apps",
+    "page_type": "blog",
+    "phase": 4,
+    "keywords": [
+      {
+        "keyword": "face rating app",
+        "volume": 1000,
+        "sd": 23
+      }
+    ],
+    "primary_keyword": "face rating app",
+    "primary_volume": 1000,
+    "primary_sd": 23
+  },
+  "data": {
+    "_research": {
+      "sources": [
+        {
+          "title": "The Best AI Rate My Face Tools in 2026, and What the Science of Attractiveness Really Says",
+          "url": "https://www.sciencetimes.com/articles/61964/20260622/best-ai-rate-my-face-tools-2026-what-science-attractiveness-really-says.htm",
+          "evidence": "You upload a front-facing selfie; the app detects facial landmarks and measures cues such as symmetry, proportions, skin quality, and jawline; and it ... But attractiveness research has no objective ground truth, so the smartest way to read any score is as entertainment, not a verdict.\n\n **\n\nPSL is an attractiveness scale from online appearance forums that scores a face roughly 1 to 8, judging harmony, symmetry, and proportions. AI app..."
+        },
+        {
+          "title": "Attractiveness Test — Free AI Face Rater & Beauty Score",
+          "url": "https://faceshapedetector.app/attractiveness-test",
+          "evidence": "# Attractiveness Test\nThis free attractiveness test uses AI to measure five facial proportion ratios from a photo and return an instant 0–100 score on... ## Attractiveness Scale: What Your 0–100 Score Means on a 1–10 Scale\n\nRun the same photo through it twice and you get the same score both times, becau..."
+        },
+        {
+          "title": "Free Attractiveness Test: Rate My Face on a 1-10 Scale",
+          "url": "https://scimatch.com/attractiveness-test/",
+          "evidence": "Instead of running your face through a proportion formula, the AI evaluates the impression your face makes in a photo — the same half-second read a st... Your photo is processed by AI to generate your rating and never shown to anyone. "
+        },
+        {
+          "title": "Free Attractiveness Test",
+          "url": "https://attractivenessscale.com/",
+          "evidence": "The score can change with camera angle, lighting, focus, expression, hairstyle, and image quality.\n\n"
+        },
+        {
+          "title": "A new humanlike facial attractiveness predictor with cascaded fine-tuning deep learning model",
+          "url": "https://arxiv.org/pdf/1511.02465",
+          "evidence": "With a carefully designed CNN model of deep structure, large input size and small convolutional kernels, we have achieved a high prediction correlatio... It is found that the contours and appearance of facial features (especially eyes and month) are the most significant facial attributes for facial attr..."
+        },
+        {
+          "title": "Analysis of Bias in Deep Learning Facial Beauty Regressors",
+          "url": "https://arxiv.org/pdf/2509.24138",
+          "evidence": "It is demonstrated that both models exhibit significant prediction disparities across ethnic groups (p < 0.001), even when evaluated on the balanced F... Cross-dataset validation shows algorithmic amplification of societal beauty biases rather than mitigation based on prediction and error parity. "
+        },
+        {
+          "title": "A comprehensive review of facial beauty prediction using deep learning techniques - ScienceDirect",
+          "url": "https://www.sciencedirect.com/science/article/pii/S0952197625020172",
+          "evidence": "- • Dataset Bias: Deep learning models rely heavily on the data they are trained on.\n\n Limitations of facial beauty prediction\n\nDeep learning models trained on specific datasets may not capture this subjective nature adequately.\n"
+        },
+        {
+          "title": "[2111.05149] Ethically aligned Deep Learning: Unbiased Facial Aesthetic Prediction",
+          "url": "https://ar5iv.labs.arxiv.org/html/2111.05149",
+          "evidence": "# Ethically aligned Deep Learning: Unbiased Facial Aesthetic Prediction\n## 1 Introduction\nOur data analysis has already proven that people consider th..."
+        },
+        {
+          "title": "ETHICALLY ALIGNED DEEP LEARNING: UNBIASED FACIAL AESTHETIC PREDICTION PEER",
+          "url": "https://arxiv.org/pdf/2111.05149",
+          "evidence": "We have shown a **method to eliminate bias in facial attractiveness prediction** and this method can be transferred to multiple similar networks.\n\n"
+        },
+        {
+          "title": "Dating apps could have negative effects on body image and mental health, our research shows",
+          "url": "https://theconversation.com/dating-apps-could-have-negative-effects-on-body-image-and-mental-health-our-research-shows-247336",
+          "evidence": "More than 85% of studies (19 of 22) looking at body image found significant negative relationships between dating app use and body image.  This means researchers were unable to discern whether dating apps actually *cause* body image, mental health and wellbeing concerns over time, or whet..."
+        },
+        {
+          "title": "AI Attractiveness Test",
+          "url": "https://aiattractivenesstest.netlify.app/",
+          "evidence": "Our AI attractiveness scale uses scientific metrics — symmetry, golden ratio, and skin quality — to generate a score that reflects evidence-based beau..."
+        },
+        {
+          "title": "Mitigating Bias in Facial Analysis Systems by Incorporating Label Diversity",
+          "url": "https://arxiv.org/pdf/2204.06364",
+          "evidence": "[21] and use three predictors that have been proposed in literature, and were empirically shown to correlate with human attractiveness ratings: Neocla..."
+        },
+        {
+          "title": "FaceRating.ai: Free AI Face Rating & Attractiveness Test",
+          "url": "https://facerating.ai/",
+          "evidence": "“Face card” is internet slang for how strong someone’s face is on its own — a face card that “never declines” means someone looks good in any photo, o..."
+        }
+      ]
+    },
+    "_draft": false,
+    "_review": {
+      "pass": true,
+      "issues": []
+    },
+    "_imageReviews": [
+      {
+        "image": "/blog/best-face-rating-apps/1.webp",
+        "review": {
+          "pass": true,
+          "issues": [],
+          "alt": "Young woman with long dark hair in a cream sweater and jeans sits on a beige sofa beside a large window, holding a smartphone up at eye level to take a selfie in soft natural daylight, with the phone's back and camera lenses facing the viewer."
+        }
+      },
+      {
+        "image": "/blog/best-face-rating-apps/2.webp",
+        "review": {
+          "pass": true,
+          "issues": [],
+          "alt": "Woman with shoulder-length brown hair and small gold hoop earrings, wearing a cream knit sweater, facing the camera with a relaxed expression beside a bright window against a plain light wall, evenly lit and photographed straight on at eye level."
+        }
+      },
+      {
+        "image": "/blog/best-face-rating-apps/3.webp",
+        "review": {
+          "pass": true,
+          "issues": [],
+          "alt": "A smartphone with a dark screen on a small black tripod sits on a wooden desk beside a sunlit window, facing an empty upholstered chair, in a bright minimalist room with a plant, mug, books and pencil cup."
+        }
+      }
+    ],
+    "_imageFailures": [],
+    "_textRepair": {
+      "original": {
+        "title": "Best Face Rating App: How to Pick One Worth Using",
+        "description": "Choosing a face rating app? Learn how they score faces, where bias creeps in, and how to get a fair, useful read you can act on with grooming and style.",
+        "h1_displayed": "How to Choose a Face Rating App That Actually Helps",
+        "reading_time": 9,
+        "tags": [
+          "face rating app",
+          "face analysis",
+          "looksmaxxing",
+          "AI attractiveness",
+          "photo tips"
+        ],
+        "tool_slug": "ai-face-rating",
+        "audience": "everyone",
+        "body_markdown": "You upload a selfie, wait a few seconds, and a number appears. Sometimes it comes with two decimal places, which makes it look precise. A face rating app will always produce *a* score. Whether that score tells you anything useful depends on three things:\n\n- how the app builds the number\n- what data shaped it\n- which photo you gave it\n\nThis guide skips the ranked list of apps. Rankings go stale fast, and many of them are marketing. Instead, you'll get the criteria that separate a useful face rating app from a slot machine with a camera. You'll also get a method for getting a fair read from whichever one you try.\n\n## What a face rating app actually does\n\nAlmost every face rating app follows the same basic pipeline:\n\n1. It finds your face in the photo.\n2. It places *facial landmarks*, which are reference points on features such as the corners of the eyes, the tip of the nose, the edges of the lips and the jaw contour.\n3. It turns those points, or the whole image, into a score.\n\nMany apps add a breakdown by feature, such as eyes, jawline, skin and symmetry. An independent overview of these tools in Science Times describes the category the same way. It concludes that, because attractiveness has no objective ground truth, scores are best read as entertainment rather than a verdict.\n\nThe real difference between apps is in the last step.\n\n### Geometry-based raters\n\nThese apps measure distances and ratios between landmarks. Examples include face width against face height, or how evenly the left and right sides line up. The math is transparent and repeatable: the same photo gives the same number.\n\nThe weakness is that the app's designers decide *which* ratios count and what the ideal values are. A tidy formula is not the same as a proven one.\n\n### Model-based raters\n\nThese apps use a neural network trained on large sets of face photos that human panels have already rated. The model learns to predict how that panel would score a new face.\n\nIt can pick up on things a ratio misses, like skin texture or expression. It also inherits every preference and blind spot of the people who did the rating.\n\n### Why apps disagree\n\nOne type measures geometry. The other imitates a group of human raters. So two apps can score the same photo quite differently, and neither is wrong by its own rules. They are measuring different things. Comparing a 7.2 from one app with a 64 out of 100 from another tells you very little.\n\n## How accurate is a face rating app?\n\n*Accurate* needs a reference point, and attractiveness doesn't have a single objective one. What researchers can measure is how closely a model agrees with human ratings.\n\nOn that test, models can perform well. In one computer vision study, a convolutional neural network reached a [prediction correlation of 0.88 with human attractiveness ratings](https://arxiv.org/pdf/1511.02465). A convolutional neural network, or CNN, is a model type built for images. The same authors found that the contours and appearance of the eyes and mouth were the most significant features for the model's predictions.\n\nKeep two things in mind when you read numbers like that:\n\n- **Correlation measures agreement, not truth.** A high figure means the model ranks faces in a similar order to the panel that labelled the training images. Change the panel and the *right* answer changes with it.\n- **Lab results are not app results.** Research models are tested on curated image sets. A consumer face rating app scores whatever selfie you upload, at whatever angle, under whatever light your bathroom has.\n\nSo here is the honest answer. A good model is a reasonable predictor of how a particular group of raters would score a particular photo. It is not a measurement of your face's worth, and it isn't stable across different photos of you.\n\n{{IMAGE_2}}\n\n## The bias problem most apps don't mention\n\nIf a model learns from human ratings, it learns human biases too. This has been documented.\n\nOne analysis of deep learning facial beauty models found that [both models tested showed significant prediction disparities across ethnic groups](https://arxiv.org/pdf/2509.24138). This held even on a dataset deliberately balanced by ethnicity. The authors concluded that the models amplified existing societal beauty biases rather than reducing them.\n\nA broad review of facial beauty prediction in the journal literature makes a related point. It notes that deep learning models rely heavily on the data they are trained on. It also notes that models trained on specific datasets may not capture how subjective attractiveness really is.\n\nWhat this means in practice:\n\n1. A lower score can reflect the training data's preferences rather than anything about your face.\n2. Apps rarely disclose what their model was trained on, so you usually can't judge how well it fits you.\n3. The research above gives no basis for assuming any app is equally fair to every face.\n\nThis is one reason a feature breakdown with explanations is more useful than a single number. You can judge the reasoning yourself.\n\n## What makes a face rating app worth using\n\nThese are the criteria we would use to pick one. They are editorial suggestions, based on what makes the output useful rather than what keeps you hitting retake.\n\n### It explains, not just ranks\n\nA bare number invites endless retakes. A useful app tells you *what* it saw: your face shape, how your features relate to each other, and which visible elements are working for you. Explanations let you sanity-check the result and spot when a bad photo skewed it.\n\n### It points to things you can change\n\nYour underlying bone structure is largely set by adulthood. Haircut, beard shape, brows, glasses frames, skincare habits, grooming and photo technique are all choices you control.\n\nThe best output connects your features to these controllable choices. An app that only critiques your bone structure gives you a reason to worry and nothing to do about it.\n\n### It respects your goals\n\nStyling advice should fit the look you want. For women, that means respecting feminine styling preferences instead of grading against a masculine template. No app should guess someone's gender identity from a photo.\n\n### It's clear about your photo\n\nCheck where the image goes. Some tools can measure basics directly in your browser without uploading anything. Most full reports send the photo to a server for processing. Read the privacy policy before uploading, and think twice about uploading someone else's face, especially a minor's.\n\n### Pricing is upfront\n\nKnow what's free and what isn't before you start. Watch for apps that show a blurred score and then put it behind a subscription that's easy to forget to cancel.\n\n### Quick comparison\n\n| Good signs | Red flags |\n|---|---|\n| Feature-by-feature explanation | A single number with no reasoning |\n| Suggestions you can act on, like hair, grooming and style | Harsh verdicts on fixed features |\n| States that scores are subjective estimates | Claims to be *objective* or *scientific* |\n| Clear note on where your photo goes | Vague or missing privacy information |\n| One-time or clearly stated pricing | Blurred results behind a surprise paywall |\n\n## Where Aura fits\n\nAura's AI Face Analysis focuses on explaining your features rather than ranking you. The report has three parts: your facial profile, a feature breakdown, and personal styling suggestions. It focuses on visible proportions, strengths, and grooming and styling options. Any score in it is a subjective, photo-based estimate, not an objective measure of attractiveness.\n\nYou can start with a free on-device preview. It estimates face shape, symmetry, canthal tilt and eye shape directly in your browser, without uploading your photo. Canthal tilt is the angle of the line running from the inner to the outer corner of the eye. Day 1 of the glow-up plan is shown under the preview for free.\n\nThe full AI report is unlocked with the 30-Day Glow-Up Plan, along with the try-on studio, the four-week plan, the coach and progress tracking. It's a one-time $14.99 purchase with 40 days of access and no subscription.\n\nIf you want to see what the preview picks up from a clear photo, you can [run the face analysis here](https://app.aura-looksmaxxing.com/tools/ai-face-rating?source=%2Fblog%2Fbest-face-rating-apps).\n\n## How to get a fair read from any face rating app\n\nWhatever app you use, the photo matters as much as the face. Lighting, lens distance and angle change what the camera records, so small setup changes can move a score. The steps below are editorial suggestions based on how phone cameras behave, not measured effect sizes.\n\n1. **Face soft, even light.** Stand facing a window in daylight. Overhead bulbs cast shadows under the brows and nose that can read as tired or uneven.\n2. **Keep the camera at eye level.** Shooting from below makes the chin and nostrils more prominent. Shooting from above makes the jaw look smaller.\n3. **Step back a little.** A phone held close distorts the face, making the nose look larger and the face narrower. Use a stand or ask someone to shoot from a bit further away, then crop.\n4. **Look straight ahead with a relaxed face.** Tilting your head throws off symmetry estimates. A neutral expression or a slight natural smile is easier to repeat than a forced one.\n5. **Turn off filters and beauty modes.** Smoothing and reshaping alter the exact features being measured.\n6. **Pull hair off the face for the scan.** Hair across the forehead or jaw hides landmarks. Style it however you like afterwards.\n7. **Recreate the same setup for any retest.** Use the same spot, time of day and distance. Otherwise you're measuring your lighting, not your progress.\n\n{{IMAGE_3}}\n\nOnce you have a result, read the breakdown before the number. Then:\n\n- Pick one or two controllable changes, such as a haircut suited to your face shape or a consistent grooming routine.\n- Give them a few weeks.\n- Retake the photo under the same conditions.\n\n## Keeping the number in perspective\n\nFace rating culture comes with its own vocabulary. In looksmaxxing communities you'll see labels like HTN (high-tier normie), MTN (mid-tier normie) and LTN (low-tier normie). These are informal slang for loose tiers, not anatomical or medical categories. No app can place you in one with scientific precision.\n\nIt's also worth noticing how rating tools make you feel. We found no solid research on face rating apps specifically, but nearby research is a fair warning. A systematic review of dating app studies reported that [19 of 22 studies on body image found significant negative relationships](https://theconversation.com/dating-apps-could-have-negative-effects-on-body-image-and-mental-health-our-research-shows-247336) with dating app use. The authors are clear that this shows a correlation, not proof that the apps cause the problem. Image-centered tools that score you deserve similar caution.\n\nA practical rule: take a break if checking your score becomes a daily habit, or if a low number sticks with you for the rest of the day. The useful part of any face rating app is the information about what you can change. The number itself is a snapshot of one photo, judged by one model.",
+        "image_prompts": [
+          {
+            "prompt": "A young adult sitting on a sofa beside a large window, holding a smartphone at eye level to take a front-facing selfie in soft natural daylight, with a relaxed neutral expression. Warm, uncluttered living room, with the phone's back facing the viewer so no screen is visible.",
+            "alt": "Person taking a front-facing selfie in window light to use with a face rating app",
+            "purpose": "Introduces the everyday act of photographing your face for a face rating app, under the soft daylight the article recommends."
+          },
+          {
+            "prompt": "A woman with shoulder-length hair tucked behind her ears stands facing a bright window, her face evenly lit by soft daylight, looking straight ahead with a relaxed expression. Plain light-colored wall behind her, photographed straight on at eye level from a comfortable distance.",
+            "alt": "Woman facing soft window light at eye level, the kind of even, straight-on photo that gives a face rating app a consistent input",
+            "purpose": "Shows what a controlled, evenly lit, straight-on photo looks like, in contrast to the uncontrolled selfies that consumer apps usually receive."
+          },
+          {
+            "prompt": "A smartphone mounted on a small tripod stand at eye height on a tidy wooden desk next to a window, its screen dark, with an empty chair facing it. Soft morning light fills a minimalist room.",
+            "alt": "Phone on a tripod set up at eye level by a window for consistent face rating photos",
+            "purpose": "Demonstrates recreating the same camera position, distance and light for every retest, so score changes reflect real changes rather than setup."
+          }
+        ],
+        "faq": [
+          {
+            "q": "Are face rating apps accurate?",
+            "a": "They can agree closely with the human panels that rated their training photos. One research model reached a 0.88 correlation with human ratings. That measures agreement with those raters, not an objective truth, and results can shift with lighting, angle and the training data's biases."
+          },
+          {
+            "q": "Why do different face rating apps give me different scores?",
+            "a": "Some apps calculate ratios between facial landmarks, while others use models that imitate human raters. They measure different things on different scales, so scores aren't comparable across apps. Photo conditions also change the result, even within the same app."
+          },
+          {
+            "q": "Is there a free face rating app?",
+            "a": "Many apps offer some free output and charge for full reports. In Aura, the on-device preview (face shape, symmetry, canthal tilt and eye shape) and day 1 of the glow-up plan are free. The full AI report is part of the 30-Day Glow-Up Plan, a one-time $14.99 purchase."
+          },
+          {
+            "q": "What do HTN and MTN mean in face ratings?",
+            "a": "HTN means high-tier normie and MTN means mid-tier normie, with LTN for low-tier normie. These are informal looksmaxxing community labels, not anatomical or medical categories. No app can assign them with scientific precision."
+          },
+          {
+            "q": "Is it safe to upload my face to a face rating app?",
+            "a": "It depends on the app, so read its privacy policy to see whether photos are uploaded, stored or shared. Some tools offer on-device previews that measure basics in your browser without uploading. Avoid uploading other people's photos, especially minors'."
+          }
+        ],
+        "sources": [
+          {
+            "title": "Analysis of Bias in Deep Learning Facial Beauty Regressors",
+            "url": "https://arxiv.org/pdf/2509.24138"
+          },
+          {
+            "title": "A new humanlike facial attractiveness predictor with cascaded fine-tuning deep learning model",
+            "url": "https://arxiv.org/pdf/1511.02465"
+          },
+          {
+            "title": "A comprehensive review of facial beauty prediction using deep learning techniques - ScienceDirect",
+            "url": "https://www.sciencedirect.com/science/article/pii/S0952197625020172"
+          },
+          {
+            "title": "Dating apps could have negative effects on body image and mental health, our research shows",
+            "url": "https://theconversation.com/dating-apps-could-have-negative-effects-on-body-image-and-mental-health-our-research-shows-247336"
+          },
+          {
+            "title": "The Best AI Rate My Face Tools in 2026, and What the Science of Attractiveness Really Says",
+            "url": "https://www.sciencetimes.com/articles/61964/20260622/best-ai-rate-my-face-tools-2026-what-science-attractiveness-really-says.htm"
+          }
+        ],
+        "_research": {
+          "sources": [
+            {
+              "title": "The Best AI Rate My Face Tools in 2026, and What the Science of Attractiveness Really Says",
+              "url": "https://www.sciencetimes.com/articles/61964/20260622/best-ai-rate-my-face-tools-2026-what-science-attractiveness-really-says.htm",
+              "evidence": "You upload a front-facing selfie; the app detects facial landmarks and measures cues such as symmetry, proportions, skin quality, and jawline; and it ... But attractiveness research has no objective ground truth, so the smartest way to read any score is as entertainment, not a verdict.\n\n **\n\nPSL is an attractiveness scale from online appearance forums that scores a face roughly 1 to 8, judging harmony, symmetry, and proportions. AI app..."
+            },
+            {
+              "title": "Attractiveness Test — Free AI Face Rater & Beauty Score",
+              "url": "https://faceshapedetector.app/attractiveness-test",
+              "evidence": "# Attractiveness Test\nThis free attractiveness test uses AI to measure five facial proportion ratios from a photo and return an instant 0–100 score on... ## Attractiveness Scale: What Your 0–100 Score Means on a 1–10 Scale\n\nRun the same photo through it twice and you get the same score both times, becau..."
+            },
+            {
+              "title": "Free Attractiveness Test: Rate My Face on a 1-10 Scale",
+              "url": "https://scimatch.com/attractiveness-test/",
+              "evidence": "Instead of running your face through a proportion formula, the AI evaluates the impression your face makes in a photo — the same half-second read a st... Your photo is processed by AI to generate your rating and never shown to anyone. "
+            },
+            {
+              "title": "Free Attractiveness Test",
+              "url": "https://attractivenessscale.com/",
+              "evidence": "The score can change with camera angle, lighting, focus, expression, hairstyle, and image quality.\n\n"
+            },
+            {
+              "title": "A new humanlike facial attractiveness predictor with cascaded fine-tuning deep learning model",
+              "url": "https://arxiv.org/pdf/1511.02465",
+              "evidence": "With a carefully designed CNN model of deep structure, large input size and small convolutional kernels, we have achieved a high prediction correlatio... It is found that the contours and appearance of facial features (especially eyes and month) are the most significant facial attributes for facial attr..."
+            },
+            {
+              "title": "Analysis of Bias in Deep Learning Facial Beauty Regressors",
+              "url": "https://arxiv.org/pdf/2509.24138",
+              "evidence": "It is demonstrated that both models exhibit significant prediction disparities across ethnic groups (p < 0.001), even when evaluated on the balanced F... Cross-dataset validation shows algorithmic amplification of societal beauty biases rather than mitigation based on prediction and error parity. "
+            },
+            {
+              "title": "A comprehensive review of facial beauty prediction using deep learning techniques - ScienceDirect",
+              "url": "https://www.sciencedirect.com/science/article/pii/S0952197625020172",
+              "evidence": "- • Dataset Bias: Deep learning models rely heavily on the data they are trained on.\n\n Limitations of facial beauty prediction\n\nDeep learning models trained on specific datasets may not capture this subjective nature adequately.\n"
+            },
+            {
+              "title": "[2111.05149] Ethically aligned Deep Learning: Unbiased Facial Aesthetic Prediction",
+              "url": "https://ar5iv.labs.arxiv.org/html/2111.05149",
+              "evidence": "# Ethically aligned Deep Learning: Unbiased Facial Aesthetic Prediction\n## 1 Introduction\nOur data analysis has already proven that people consider th..."
+            },
+            {
+              "title": "ETHICALLY ALIGNED DEEP LEARNING: UNBIASED FACIAL AESTHETIC PREDICTION PEER",
+              "url": "https://arxiv.org/pdf/2111.05149",
+              "evidence": "We have shown a **method to eliminate bias in facial attractiveness prediction** and this method can be transferred to multiple similar networks.\n\n"
+            },
+            {
+              "title": "Dating apps could have negative effects on body image and mental health, our research shows",
+              "url": "https://theconversation.com/dating-apps-could-have-negative-effects-on-body-image-and-mental-health-our-research-shows-247336",
+              "evidence": "More than 85% of studies (19 of 22) looking at body image found significant negative relationships between dating app use and body image.  This means researchers were unable to discern whether dating apps actually *cause* body image, mental health and wellbeing concerns over time, or whet..."
+            },
+            {
+              "title": "AI Attractiveness Test",
+              "url": "https://aiattractivenesstest.netlify.app/",
+              "evidence": "Our AI attractiveness scale uses scientific metrics — symmetry, golden ratio, and skin quality — to generate a score that reflects evidence-based beau..."
+            },
+            {
+              "title": "Mitigating Bias in Facial Analysis Systems by Incorporating Label Diversity",
+              "url": "https://arxiv.org/pdf/2204.06364",
+              "evidence": "[21] and use three predictors that have been proposed in literature, and were empirically shown to correlate with human attractiveness ratings: Neocla..."
+            },
+            {
+              "title": "FaceRating.ai: Free AI Face Rating & Attractiveness Test",
+              "url": "https://facerating.ai/",
+              "evidence": "“Face card” is internet slang for how strong someone’s face is on its own — a face card that “never declines” means someone looks good in any photo, o..."
+            }
+          ]
+        },
+        "_draft": true,
+        "_review": {
+          "pass": false,
+          "issues": [
+            "Editorial review pending."
+          ]
+        },
+        "_imageReviews": [],
+        "_imageFailures": []
+      },
+      "issues": [
+        "Where Aura fits / FAQ: The article says the free preview and day 1 of the glow-up plan are free, but it also describes the Aura report as 'unlocked with the 30-Day Glow-Up Plan'. The 'Is there a free face rating app?' FAQ gives no mention of the subscription alternative, which is acceptable. This is not a clear error, so it is not blocking."
+      ],
+      "status": "passed",
+      "review": {
+        "pass": true,
+        "issues": []
+      }
+    },
+    "title": "Best Face Rating App: How to Pick One Worth Using",
+    "description": "Choosing a face rating app? Learn how they score faces, where bias creeps in, and how to get a fair, useful read you can act on with grooming and style.",
+    "h1_displayed": "How to Choose a Face Rating App That Actually Helps",
+    "reading_time": 9,
+    "tags": [
+      "face rating app",
+      "face analysis",
+      "looksmaxxing",
+      "AI attractiveness",
+      "photo tips"
+    ],
+    "tool_slug": "ai-face-rating",
+    "audience": "everyone",
+    "body_markdown": "You upload a selfie, wait a few seconds, and a number appears. Sometimes it comes with two decimal places, which makes it look precise. A face rating app will always produce *a* score. Whether that score tells you anything useful depends on three things:\n\n- how the app builds the number\n- what data shaped it\n- which photo you gave it\n\nThis guide skips the ranked list of apps. Rankings go stale fast, and many of them are marketing. Instead, you'll get the criteria that separate a useful face rating app from a slot machine with a camera. You'll also get a method for getting a fair read from whichever one you try.\n\n## What a face rating app actually does\n\nAlmost every face rating app follows the same basic pipeline:\n\n1. It finds your face in the photo.\n2. It places *facial landmarks*, which are reference points on features such as the corners of the eyes, the tip of the nose, the edges of the lips and the jaw contour.\n3. It turns those points, or the whole image, into a score.\n\nMany apps add a breakdown by feature, such as eyes, jawline, skin and symmetry. An independent overview of these tools in Science Times describes the category the same way. It concludes that, because attractiveness has no objective ground truth, scores are best read as entertainment rather than a verdict.\n\nThe real difference between apps is in the last step.\n\n### Geometry-based raters\n\nThese apps measure distances and ratios between landmarks. Examples include face width against face height, or how evenly the left and right sides line up. The math is transparent and repeatable: the same photo gives the same number.\n\nThe weakness is that the app's designers decide *which* ratios count and what the ideal values are. A tidy formula is not the same as a proven one.\n\n### Model-based raters\n\nThese apps use a neural network trained on large sets of face photos that human panels have already rated. The model learns to predict how that panel would score a new face.\n\nIt can pick up on things a ratio misses, like skin texture or expression. It also inherits every preference and blind spot of the people who did the rating.\n\n### Why apps disagree\n\nOne type measures geometry. The other imitates a group of human raters. So two apps can score the same photo quite differently, and neither is wrong by its own rules. They are measuring different things. Comparing a 7.2 from one app with a 64 out of 100 from another tells you very little.\n\n## How accurate is a face rating app?\n\n*Accurate* needs a reference point, and attractiveness doesn't have a single objective one. What researchers can measure is how closely a model agrees with human ratings.\n\nOn that test, models can perform well. In one computer vision study, a convolutional neural network achieved a [high prediction correlation with human attractiveness ratings](https://arxiv.org/pdf/1511.02465). A convolutional neural network, or CNN, is a model type built for images. The same authors found that the contours and appearance of the eyes and mouth were the most significant features for the model's predictions.\n\nKeep two things in mind when you read results like that:\n\n- **Correlation measures agreement, not truth.** A high figure means the model ranks faces in a similar order to the panel that labelled the training images. Change the panel and the *right* answer changes with it.\n- **Lab results are not app results.** Research models are tested on curated image sets. A consumer face rating app scores whatever selfie you upload, at whatever angle, under whatever light your bathroom has.\n\nSo here is the honest answer. A good model is a reasonable predictor of how a particular group of raters would score a particular photo. It is not a measurement of your face's worth, and it isn't stable across different photos of you.\n\n{{IMAGE_2}}\n\n## The bias problem most apps don't mention\n\nIf a model learns from human ratings, it learns human biases too. This has been documented.\n\nOne analysis of deep learning facial beauty models found that [both models tested showed significant prediction disparities across ethnic groups](https://arxiv.org/pdf/2509.24138). This held even on a dataset deliberately balanced by ethnicity. The authors concluded that the models amplified existing societal beauty biases rather than reducing them.\n\nA broad review of facial beauty prediction in the journal literature makes a related point. It notes that deep learning models rely heavily on the data they are trained on. It also notes that models trained on specific datasets may not capture how subjective attractiveness really is.\n\nWhat this means in practice:\n\n1. A lower score can reflect the training data's preferences rather than anything about your face.\n2. Apps rarely disclose what their model was trained on, so you usually can't judge how well it fits you.\n3. The research above gives no basis for assuming any app is equally fair to every face.\n\nThis is one reason a feature breakdown with explanations is more useful than a single number. You can judge the reasoning yourself.\n\n## What makes a face rating app worth using\n\nThese are the criteria we would use to pick one. They are editorial suggestions, based on what makes the output useful rather than what keeps you hitting retake.\n\n### It explains, not just ranks\n\nA bare number invites endless retakes. A useful app tells you *what* it saw: your face shape, how your features relate to each other, and which visible elements are working for you. Explanations let you sanity-check the result and spot when a bad photo skewed it.\n\n### It points to things you can change\n\nYour underlying bone structure is largely set by adulthood. Haircut, beard shape, brows, glasses frames, skincare habits, grooming and photo technique are all choices you control.\n\nThe best output connects your features to these controllable choices. An app that only critiques your bone structure gives you a reason to worry and nothing to do about it.\n\n### It respects your goals\n\nStyling advice should fit the look you want. For women, that means respecting feminine styling preferences instead of grading against a masculine template. No app should guess someone's gender identity from a photo.\n\n### It's clear about your photo\n\nCheck where the image goes. Some tools can measure basics directly in your browser without uploading anything. Most full reports send the photo to a server for processing. Read the privacy policy before uploading, and think twice about uploading someone else's face, especially a minor's.\n\n### Pricing is upfront\n\nKnow what's free and what isn't before you start. Watch for apps that show a blurred score and then put it behind a subscription that's easy to forget to cancel.\n\n### Quick comparison\n\n| Good signs | Red flags |\n|---|---|\n| Feature-by-feature explanation | A single number with no reasoning |\n| Suggestions you can act on, like hair, grooming and style | Harsh verdicts on fixed features |\n| States that scores are subjective estimates | Claims to be *objective* or *scientific* |\n| Clear note on where your photo goes | Vague or missing privacy information |\n| One-time or clearly stated pricing | Blurred results behind a surprise paywall |\n\n## Where Aura fits\n\nAura's AI Face Analysis focuses on explaining your features rather than ranking you. The report has three parts: your facial profile, a feature breakdown, and personal styling suggestions. It focuses on visible proportions, strengths, and grooming and styling options. Any score in it is a subjective, photo-based estimate, not an objective measure of attractiveness.\n\nYou can start with a free on-device preview. It estimates face shape, symmetry, canthal tilt and eye shape directly in your browser, without uploading your photo. Canthal tilt is the angle of the line running from the inner to the outer corner of the eye. Day 1 of the glow-up plan is shown under the preview for free.\n\nThe full AI report is unlocked with the 30-Day Glow-Up Plan, along with the try-on studio, the four-week plan, the coach and progress tracking. It's a one-time $14.99 purchase with 40 days of access and no subscription.\n\nIf you want to see what the preview picks up from a clear photo, you can [run the face analysis here](https://app.aura-looksmaxxing.com/tools/ai-face-rating?source=%2Fblog%2Fbest-face-rating-apps).\n\n## How to get a fair read from any face rating app\n\nWhatever app you use, the photo matters as much as the face. Lighting, lens distance and angle change what the camera records, so small setup changes can move a score. The steps below are editorial suggestions based on how phone cameras behave, not measured effect sizes.\n\n1. **Face soft, even light.** Stand facing a window in daylight. Overhead bulbs cast shadows under the brows and nose that can read as tired or uneven.\n2. **Keep the camera at eye level.** Shooting from below makes the chin and nostrils more prominent. Shooting from above makes the jaw look smaller.\n3. **Step back a little.** A phone held close distorts the face, making the nose look larger and the face narrower. Use a stand or ask someone to shoot from a bit further away, then crop.\n4. **Look straight ahead with a relaxed face.** Tilting your head throws off symmetry estimates. A neutral expression or a slight natural smile is easier to repeat than a forced one.\n5. **Turn off filters and beauty modes.** Smoothing and reshaping alter the exact features being measured.\n6. **Pull hair off the face for the scan.** Hair across the forehead or jaw hides landmarks. Style it however you like afterwards.\n7. **Recreate the same setup for any retest.** Use the same spot, time of day and distance. Otherwise you're measuring your lighting, not your progress.\n\n{{IMAGE_3}}\n\nOnce you have a result, read the breakdown before the number. Then:\n\n- Pick one or two controllable changes, such as a haircut suited to your face shape or a consistent grooming routine.\n- Give them a few weeks.\n- Retake the photo under the same conditions.\n\n## Keeping the number in perspective\n\nFace rating culture comes with its own vocabulary. In looksmaxxing communities you'll see labels like HTN (high-tier normie), MTN (mid-tier normie) and LTN (low-tier normie). These are informal slang for loose tiers, not anatomical or medical categories. No app can place you in one with scientific precision.\n\nIt's also worth noticing how rating tools make you feel. We found no solid research on face rating apps specifically, but nearby research is a fair warning. A review of dating app research reported that [19 of 22 studies on body image found significant negative relationships](https://theconversation.com/dating-apps-could-have-negative-effects-on-body-image-and-mental-health-our-research-shows-247336) with dating app use. The authors are clear that this shows a correlation, not proof that the apps cause the problem. Image-centered tools that score you deserve similar caution.\n\nA practical rule: take a break if checking your score becomes a daily habit, or if a low number sticks with you for the rest of the day. The useful part of any face rating app is the information about what you can change. The number itself is a snapshot of one photo, judged by one model.",
+    "image_prompts": [
+      {
+        "prompt": "A young adult sitting on a sofa beside a large window, holding a smartphone at eye level to take a front-facing selfie in soft natural daylight, with a relaxed neutral expression. Warm, uncluttered living room, with the phone's back facing the viewer so no screen is visible.",
+        "alt": "Person taking a front-facing selfie in window light to use with a face rating app",
+        "purpose": "Introduces the everyday act of photographing your face for a face rating app, under the soft daylight the article recommends."
+      },
+      {
+        "prompt": "A woman with shoulder-length hair tucked behind her ears stands facing a bright window, her face evenly lit by soft daylight, looking straight ahead with a relaxed expression. Plain light-colored wall behind her, photographed straight on at eye level from a comfortable distance.",
+        "alt": "Woman facing soft window light at eye level, the kind of even, straight-on photo that gives a face rating app a consistent input",
+        "purpose": "Shows what a controlled, evenly lit, straight-on photo looks like, in contrast to the uncontrolled selfies that consumer apps usually receive."
+      },
+      {
+        "prompt": "A smartphone mounted on a small tripod stand at eye height on a tidy wooden desk next to a window, its screen dark, with an empty chair facing it. Soft morning light fills a minimalist room.",
+        "alt": "Phone on a tripod set up at eye level by a window for consistent face rating photos",
+        "purpose": "Demonstrates recreating the same camera position, distance and light for every retest, so score changes reflect real changes rather than setup."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Are face rating apps accurate?",
+        "a": "They can agree closely with the human panels that rated their training photos. One research model achieved a high prediction correlation with human ratings. That measures agreement with those raters, not an objective truth, and results can shift with lighting, angle and the training data's biases."
+      },
+      {
+        "q": "Why do different face rating apps give me different scores?",
+        "a": "Some apps calculate ratios between facial landmarks, while others use models that imitate human raters. They measure different things on different scales, so scores aren't comparable across apps. Photo conditions also change the result, even within the same app."
+      },
+      {
+        "q": "Is there a free face rating app?",
+        "a": "Many apps offer some free output and charge for full reports. In Aura, the on-device preview (face shape, symmetry, canthal tilt and eye shape) and day 1 of the glow-up plan are free. The full AI report is part of the 30-Day Glow-Up Plan, a one-time $14.99 purchase."
+      },
+      {
+        "q": "What do HTN and MTN mean in face ratings?",
+        "a": "HTN means high-tier normie and MTN means mid-tier normie, with LTN for low-tier normie. These are informal looksmaxxing community labels, not anatomical or medical categories. No app can assign them with scientific precision."
+      },
+      {
+        "q": "Is it safe to upload my face to a face rating app?",
+        "a": "It depends on the app, so read its privacy policy to see whether photos are uploaded, stored or shared. Some tools offer on-device previews that measure basics in your browser without uploading. Avoid uploading other people's photos, especially minors'."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Analysis of Bias in Deep Learning Facial Beauty Regressors",
+        "url": "https://arxiv.org/pdf/2509.24138"
+      },
+      {
+        "title": "A new humanlike facial attractiveness predictor with cascaded fine-tuning deep learning model",
+        "url": "https://arxiv.org/pdf/1511.02465"
+      },
+      {
+        "title": "A comprehensive review of facial beauty prediction using deep learning techniques - ScienceDirect",
+        "url": "https://www.sciencedirect.com/science/article/pii/S0952197625020172"
+      },
+      {
+        "title": "Dating apps could have negative effects on body image and mental health, our research shows",
+        "url": "https://theconversation.com/dating-apps-could-have-negative-effects-on-body-image-and-mental-health-our-research-shows-247336"
+      },
+      {
+        "title": "The Best AI Rate My Face Tools in 2026, and What the Science of Attractiveness Really Says",
+        "url": "https://www.sciencetimes.com/articles/61964/20260622/best-ai-rate-my-face-tools-2026-what-science-attractiveness-really-says.htm"
+      }
+    ]
+  }
+}

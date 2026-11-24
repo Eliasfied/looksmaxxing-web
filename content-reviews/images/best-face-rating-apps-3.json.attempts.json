@@ -1,0 +1,14 @@
+{
+  "key": "{\"brief\":{\"prompt\":\"A smartphone mounted on a small tripod stand at eye height on a tidy wooden desk next to a window, its screen dark, with an empty chair facing it. Soft morning light fills a minimalist room.\",\"alt\":\"Phone on a tripod set up at eye level by a window for consistent face rating photos\",\"purpose\":\"Demonstrates recreating the same camera position, distance and light for every retest, so score changes reflect real changes rather than setup.\",\"article\":\"best-face-rating-apps\",\"position\":3},\"model\":\"openai/gpt-image-2.5/flare/text-to-image\"}",
+  "attempts": [
+    {
+      "status": "passed",
+      "prompt": "A smartphone mounted on a small tripod stand at eye height on a tidy wooden desk next to a window, its screen dark, with an empty chair facing it. Soft morning light fills a minimalist room.",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "A smartphone with a dark screen on a small black tripod sits on a wooden desk beside a sunlit window, facing an empty upholstered chair, in a bright minimalist room with a plant, mug, books and pencil cup."
+      }
+    }
+  ]
+}

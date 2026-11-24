@@ -9,7 +9,7 @@ heroImage: "/blog/female-face-rating/1.webp"
 heroImageAlt: "Young woman with shoulder-length wavy brown hair, wearing a cream knit sweater and jeans, sits on a sofa by a large sunlit window holding a black smartphone at arm's length and looking at it with a calm, slight smile, in a softly blurred warm living room."
 tags: ["female face rating", "facial attractiveness", "face analysis for women", "looksmaxxing", "beauty science"]
 readingTime: 8
-related: [cheekbones-guide, are-thin-lips-attractive-men, facial-dimorphism-explained]
+related: [cheekbones-guide, are-thin-lips-attractive-men, best-face-rating-apps]
 faq:
   - q: "Is a female face rating objective?"
     a: "No. A face rating is an average of human impressions, not a physical measurement. Research shows people agree strongly with their own past ratings but far less with each other, so the number depends on who is rating."

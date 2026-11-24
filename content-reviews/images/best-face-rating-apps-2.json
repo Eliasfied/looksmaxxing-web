@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "fingerprint": "9e2770cd66135e59769d83b1c3f0709841f95a710d9620b91949dc5656dc13c8",
+  "brief": {
+    "prompt": "A woman with shoulder-length hair tucked behind her ears stands facing a bright window, her face evenly lit by soft daylight, looking straight ahead with a relaxed expression. Plain light-colored wall behind her, photographed straight on at eye level from a comfortable distance.",
+    "alt": "Woman facing soft window light at eye level, the kind of even, straight-on photo that gives a face rating app a consistent input",
+    "purpose": "Shows what a controlled, evenly lit, straight-on photo looks like, in contrast to the uncontrolled selfies that consumer apps usually receive.",
+    "article": "best-face-rating-apps",
+    "position": 2
+  },
+  "sha256": "59210d1e95f9158bacbaa1d6643997c04bdaee4aa9726cc524678c91ce90c2f7",
+  "reviewedAt": "2026-11-24T02:01:30.356Z",
+  "review": {
+    "pass": true,
+    "issues": [],
+    "alt": "Woman with shoulder-length brown hair and small gold hoop earrings, wearing a cream knit sweater, facing the camera with a relaxed expression beside a bright window against a plain light wall, evenly lit and photographed straight on at eye level."
+  }
+}
