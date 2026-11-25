@@ -1,0 +1,379 @@
+{
+  "version": 1,
+  "savedAt": "2026-11-25T23:28:45.929Z",
+  "page": {
+    "slug": "mandibular-plane-angle",
+    "cluster": "mandibular-plane",
+    "page_type": "blog",
+    "phase": 4,
+    "keywords": [
+      {
+        "keyword": "mandibular plane angle",
+        "volume": 590,
+        "sd": 0
+      }
+    ],
+    "primary_keyword": "mandibular plane angle",
+    "primary_volume": 590,
+    "primary_sd": 0
+  },
+  "data": {
+    "_research": {
+      "sources": [
+        {
+          "title": "Integrating clinical and cephalometric assessment: a comparative review - J Pierre Fauchard Acad",
+          "url": "https://jpfa.in/archive/volume/40/issue/3/article/27685",
+          "evidence": "Mandibular plane angle\n\nMandibular plane angle (Cephalometric): (Figure 3)\nThe mandibular plane cephalometrically is drawn between gonion point and th... Riolo and colleagues reported values of 29° ± 5° in males and 26° ± 3° in females.\n\nLeighton found mean values of 22° ± 6° in males and 23° ± 5° in fe... The reliability of the ANB angle is doubtful when the mandibular plane angle is considerably higher or lower than the mean of 32°."
+        },
+        {
+          "title": "A Clinical Comparative Study of Different Methods for Correcting Lower Lip Sucking Habits in Preschool Children",
+          "url": "https://clinicaltrials.gov/study/NCT06650241",
+          "evidence": "MP (Mandibular Plane): A line that typically runs from the Menton (the lowest point on the chin) to the Gonion (the angle of the jaw). "
+        },
+        {
+          "title": "CEPHALOMETRICS - 2 Department of Orthodontics & Dentofacial Orthopaedics",
+          "url": "https://ternadental.com/wp-content/uploads/14.Cephalometrics-2.pdf",
+          "evidence": "MANDIBULAR PLANE ANGLE\n\nThe mandibular plane is drawn between Gonion (Go) and Gnathion (Gn). "
+        },
+        {
+          "title": "Significance of the Frankfort-mandibular plane angle to prosthodontics - PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/792431/",
+          "evidence": "The Frankfort-mandibular plane angle (FMA) is formed by the intersection of the Frankfort horizontal plane and the mandibular plane.  An FMA of 25 +/- 5 degrees is within normal range.\n\nA high-angle patient has an FMA of 30 degrees or more, and a low-angle patient has an FMA of 20 de... A high FMA is characterized by open-bite skeletal patterns, and a low FMA by closed-bite skeletal patterns.\n\n"
+        },
+        {
+          "title": "3 Orthodontics Cephalometric Analysis ...",
+          "url": "https://uomustansiriyah.edu.iq/media/lectures/3/3_2025_10_19!03_15_46_PM.pdf",
+          "evidence": "maxillary plane is easier to locate accurately and\n\n**2) Maxillary Mandibular Plane Angle {MMPA}:**\n\nAngle represents the relative vertical jaw\n\nThe a... **\n\n**3) SN-Mandibular Plane Angle (SN-MP)**\n\nThe average of this angle is 32º.\n\n"
+        },
+        {
+          "title": "Inclination of mandibular incisors and symphysis in severe skeletal class III malocclusion",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10170675/",
+          "evidence": "According to the mandibular plane to cranial base (sella-nasion) angle (MP-SN), the patients were divided into three groups: the low-angle group with ..."
+        },
+        {
+          "title": "Effects of fixed functional orthodontic treatment in hypodivergent and hyperdivergent class II patients—a retrospective cephalometric investigation",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10415434/",
+          "evidence": "[[4]] and depended upon the pre-treatment mandibular plane angle < 34° or ≥ 34°.  Hyperdivergent patients do not respond unfavorably to FFA treatment compared to hypodivergent patients.\n\n Hyperdivergent facial growth thus appears as relative contraindication for FFA treatment.\n\n"
+        },
+        {
+          "title": "Association of hyperdivergent facial pattern and the inclination of the occlusal plane in orthodontic patients: A cross-sectional study",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12357510/",
+          "evidence": "Individuals with hyperdivergent facial characteristics typically exhibit increased facial height, a short mandibular ramus, a high gonial angle, and v... Occlusal plane inclination was significantly associated with vertical facial pattern (*p*< 0.001), with hyperdivergent individuals showing the greates..."
+        },
+        {
+          "title": "Orthopantomographic Study of Mandibular Morphology Across Different Growth Patterns: A Retrospective Data Analysis - PMC",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12455264/",
+          "evidence": "The participants were divided into three groups (n=40 each) based on the Frankfort-mandibular plane angle (FMA): hypodivergent (<20°), normodivergent ... Hyperdivergent subjects exhibited significantly reduced condylar, ramus, and total vertical heights, suggesting a diminished vertical development. The..."
+        },
+        {
+          "title": "Expert consensus on orthodontic treatment of protrusive facial deformities",
+          "url": "https://www.nature.com/articles/s41368-024-00338-4",
+          "evidence": "# Expert consensus on orthodontic treatment of protrusive facial deformities\n## Principals of orthodontic treatment for protrusive facial deformities\n..."
+        },
+        {
+          "title": "Expert consensus on orthodontic treatment of protrusive facial deformities - PMC",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11785726/",
+          "evidence": "When employing orthodontic appliances, such as Twin-Block, Activator, Frankle II, and inclined guide plates in adolescents with high-angle protrusion,..."
+        },
+        {
+          "title": "Vertical Control of a Severe Hyperdivergent Skeletal Class II Malocclusion with Steep Posterior Occlusal Plane in a Camouflage Case",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9502811/",
+          "evidence": "For adults characterized by skeletal class II malocclusion with an extreme high mandibular plane angle, orthognathic surgery is often required to redu..."
+        },
+        {
+          "title": "Evaluating Diagnostic Performance of Three... : Indian Journal of Dental Research",
+          "url": "https://journals.lww.com/ijdr/fulltext/2023/34010/evaluating_diagnostic_performance_of_three.11.aspx",
+          "evidence": "This study found for determining the patient's vertical skeletal pattern the mandibular plane angle was the most accurate predictor. "
+        },
+        {
+          "title": "Human mandibular shape is associated with masticatory muscle force",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5902585/",
+          "evidence": "# Human mandibular shape is associated with masticatory muscle force\n\nHead CT scans of 382 adults were utilized to measure masseter and temporalis mus..."
+        },
+        {
+          "title": "Human mandibular shape is associated with masticatory muscle force",
+          "url": "https://www.nature.com/articles/s41598-018-24293-3",
+          "evidence": "For example, individuals suffering from bruxism manifest broad mandibles^45,46,47; subjects with strong bite forces tend to have a low mandibular plan... ### The association between mandibular shape and muscle CSA\n\n### The association between mandibular metric characteristics and muscle areas\n\nParameter..."
+        }
+      ]
+    },
+    "_draft": false,
+    "_review": {
+      "pass": true,
+      "issues": []
+    },
+    "_imageReviews": [
+      {
+        "image": "/blog/mandibular-plane-angle/1.webp",
+        "review": {
+          "pass": true,
+          "issues": [],
+          "alt": "Lateral cephalometric X-ray of a skull in side profile, showing the jaw, teeth, skull base and cervical spine, clipped to a lightbox in a dental clinic with a dental chair visible at the side."
+        }
+      },
+      {
+        "image": "/blog/mandibular-plane-angle/2.webp",
+        "review": {
+          "pass": true,
+          "issues": [],
+          "alt": "White plaster orthodontic study model of upper and lower teeth in a closed bite, seen from the side on a white desk, with a blurred blue dental chair in a bright clinic behind it"
+        }
+      },
+      {
+        "image": "/blog/mandibular-plane-angle/3.webp",
+        "review": {
+          "pass": true,
+          "issues": [],
+          "alt": "Woman with dark hair in a ponytail, wearing a gray tank top and black leggings, standing barefoot in a relaxed neutral side-profile pose against a plain light gray wall in soft, even light"
+        }
+      }
+    ],
+    "_imageFailures": [],
+    "_textRepair": {
+      "original": {
+        "title": "Mandibular Plane Angle: What It Measures and Means",
+        "description": "Learn what the mandibular plane angle measures, why normal values differ by method, what high and low angles mean, and why a selfie can't measure it.",
+        "h1_displayed": "Mandibular Plane Angle: A Clear Guide to the Number on Your Ceph Report",
+        "reading_time": 9,
+        "tags": [
+          "mandibular plane angle",
+          "jaw anatomy",
+          "cephalometrics",
+          "facial proportions",
+          "orthodontics"
+        ],
+        "tool_slug": "ai-face-rating",
+        "audience": "everyone",
+        "body_markdown": "If an orthodontist has ever shown you a side-view X-ray of your skull, you have probably heard the phrase **mandibular plane angle**. It also comes up often in jawline discussions online, usually stripped of context and attached to big claims about attractiveness. The real measurement is more modest and more useful than that.\n\nThis guide explains what the angle measures and why \"normal\" depends on who is measuring. It also covers what high and low values describe, and why a phone photo cannot give you the number.\n\n## What the mandibular plane angle actually measures\n\nThe mandibular plane angle is a **cephalometric** measurement. Cephalometrics means taking standardized measurements from a lateral cephalogram, a side-profile X-ray of the head taken in a fixed position. The angle describes how steeply the lower border of your jaw slopes relative to a reference line in the skull.\n\n### The landmarks\n\nTo draw the **mandibular plane**, a clinician marks points on the X-ray:\n\n- **Gonion (Go):** the point at the angle of the jaw, where the back edge of the jaw meets its lower border.\n- **Menton (Me):** the lowest point on the chin.\n- **Gnathion (Gn):** a point on the chin between the most forward and lowest points.\n\nA clinical trial record defines the mandibular plane as a line that typically runs from menton to gonion. Some orthodontic teaching materials draw it from gonion to gnathion instead. The difference is small, but it is the first reason two reports can disagree.\n\n### Three reference lines, three different numbers\n\nThe angle only means something once you know what the jaw line is being compared to. The common options are:\n\n1. **SN-MP:** the mandibular plane against the **sella-nasion (SN) line**. That line runs from the pituitary area in the skull base to the bridge of the nose, and stands in for the cranial base.\n2. **FMA (Frankfort-mandibular plane angle):** the mandibular plane against the **Frankfort horizontal**. That line runs from the top of the ear canal to the lowest point of the eye socket. A classic prosthodontics paper defines [FMA as the intersection of the Frankfort horizontal plane and the mandibular plane](https://pubmed.ncbi.nlm.nih.gov/792431/).\n3. **MMPA (maxillary-mandibular plane angle):** the mandibular plane against the plane of the upper jaw. It describes how the two jaws relate vertically.\n\nThese are related, but they are *not interchangeable*. An SN-based number and a Frankfort-based number for the same person will usually differ.\n\n## What counts as a normal mandibular plane angle\n\nThere is no single universal normal. Published ranges depend on the reference line, the landmarks, and the population studied.\n\n| Method | Reference line | Figures reported | Source type |\n|---|---|---|---|\n| FMA | Frankfort horizontal | 25° ± 5° normal; 30° or more is high-angle; 20° or less is low-angle | Prosthodontics paper (PubMed abstract) |\n| FMA groups | Frankfort horizontal | Under 20° hypodivergent, 20° to 30° normodivergent, over 30° hyperdivergent | Retrospective radiograph study |\n| SN-MP | Sella-nasion | Average of about 32° | University orthodontics teaching notes |\n| SN-MP groups | Sella-nasion | 27.3° to 37.7° used as the normal-angle group | Class III CBCT and ceph study |\n\nSex and population matter too. A cephalometric review reports that Riolo and colleagues found mean values of 29° ± 5° in males and 26° ± 3° in females. The same review notes that Leighton found 22° ± 6° in males and 23° ± 5° in females. The review does not explain the gap. Different samples and methods are the likely reasons, which is exactly why a bare number tells you little.\n\n**Practical takeaway:** if someone quotes your angle, ask which reference line was used before comparing it to anything.\n\n## Low angle vs high angle: what the number describes\n\nOrthodontists group people by **vertical growth pattern**, and the mandibular plane angle is one of the main tools for doing it.\n\n### High angle (hyperdivergent)\n\n*Hyperdivergent* means the upper and lower jaws diverge more than average when viewed from the side. The lower border of the jaw slopes more steeply. A cross-sectional study notes that people with this pattern typically show:\n\n- Increased facial height\n- A short mandibular ramus (the vertical back part of the jaw)\n- A high gonial angle (a more open jaw corner)\n- Vertical enlargement of the upper jaw\n\nThe same study found that hyperdivergent patients had a [significantly steeper occlusal plane](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12357510/), meaning the tilt of the biting surfaces. A separate radiograph study grouped people by FMA. It found that the hyperdivergent group had shorter condylar, ramus, and total vertical heights, and a markedly larger gonial angle. The prosthodontics literature associates a high FMA with **open-bite skeletal patterns**.\n\n### Low angle (hypodivergent)\n\nA low angle means a flatter lower jaw border relative to the skull. The same prosthodontics paper links a low FMA with **closed-bite skeletal patterns**, where the front teeth tend to overlap more deeply.\n\n### Normal angle (normodivergent)\n\nThis is the middle group, with values in whatever reference range the clinician is using. It is a statistical middle, not an ideal you should aim for.\n\n{{IMAGE_2}}\n\n## What the angle says about bite force and jaw muscles\n\nYou will see claims online that a low mandibular plane angle means a strong jaw and a high one means a weak jaw. The evidence is narrower than that.\n\nA study published in *Scientific Reports* used [head CT scans of 382 adults](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5902585/) to measure the masseter and temporalis muscles, the main chewing muscles, alongside jaw measurements. In its discussion, the paper summarizes earlier work. People with strong bite forces tended to have a low mandibular plane angle and a wide mandible. People with weak bite force tended to have a high angle and a narrow mandible.\n\nTwo cautions keep this in perspective:\n\n- **These are associations.** They do not show that the angle causes bite strength, or that bite strength sets the angle.\n- **Bite force is not a beauty score.** None of these papers make claims about attractiveness, and you should not read them that way.\n\n## How clinicians use it in treatment planning\n\nFor orthodontists, the mandibular plane angle matters mostly because it changes how they read other numbers and plan treatment.\n\n- **It is a reliable vertical marker.** A study in the *Indian Journal of Dental Research* found the mandibular plane angle to be the most accurate predictor of vertical skeletal pattern among the three parameters it tested.\n- **It affects other measurements.** The ANB angle shows how the upper and lower jaws relate front to back. A cephalometric review notes that its reliability is doubtful when the mandibular plane angle is far above or below the mean of 32°.\n- **It shapes appliance choices.** An expert consensus on orthodontic treatment advises care with certain growth-guiding appliances in high-angle adolescents. Examples include Twin-Block and Activator devices, which risk increasing vertical facial height. Evidence here is not uniform. One retrospective study found that hyperdivergent patients did not respond unfavorably to a fixed functional appliance compared with hypodivergent patients.\n\nWhen a high angle comes with a real bite problem, such as an open bite, treating it is a dental and medical decision. That decision belongs to an orthodontist for that condition.\n\nOne case report notes that adults with an extreme high angle and a skeletal Class II bite often need orthognathic (jaw) surgery as part of clinical treatment. **We don't recommend orthognathic surgery for appearance.** It is major jaw surgery under general anesthesia, with a long recovery and possible nerve-related numbness. It belongs in a conversation about function with a qualified surgical team. *Talk to a qualified professional before considering this.*\n\n## Why a selfie can't measure your mandibular plane angle\n\nThe angle is defined by bony landmarks, such as gonion, menton, and the Frankfort or SN lines, that are located on an X-ray. A photo shows skin, fat, muscle, and hair on top of the bone. It also changes with head tilt, lens distance, and lighting. Nothing in a regular photo lets you place those landmarks accurately. Any app or forum poster quoting your exact mandibular plane angle from a selfie is guessing.\n\nWhat a photo *can* do is show your visible proportions and how styling choices interact with them. If you want a structured look at that side of things, Aura's [AI Face Analysis](https://app.aura-looksmaxxing.com/tools/ai-face-rating?source=%2Fblog%2Fmandibular-plane-angle) returns three things: a facial profile, a feature breakdown, and personal styling suggestions. Its scores are subjective, photo-based estimates, not calibrated measurements and not a cephalometric reading.\n\nThe free part is an on-device preview of face shape, symmetry, canthal tilt, and eye shape. It runs in your browser without uploading the photo. The full AI report is part of the 30-Day Glow-Up Plan, a one-time $14.99 purchase with 40 days of access.\n\n{{IMAGE_3}}\n\n## Practical tips if you care about your jawline\n\nThe tips below are editorial suggestions about presentation. None of them change your skeletal angle, and none of the sources reviewed here show that exercises or habits do.\n\n### If you want your actual number\n\n1. **Ask your orthodontist or dentist** whether you have had a lateral cephalogram taken. If so, ask for the measured values.\n2. **Ask which reference line was used**: SN, Frankfort horizontal, or the maxillary plane.\n3. **Ask what reference range they compare it to**, and whether it is adjusted for sex or population.\n4. **Ask what else they weighed**, such as the gonial angle, the ANB angle, and your bite. A single angle rarely decides anything on its own.\n\n### If you mainly care how your jaw reads in photos\n\n- **Check your head position.** Tilting the chin down or pushing the head forward changes how the jaw line looks in a side shot. Consistent, neutral posture gives you a fair comparison between photos.\n- **Keep lighting and lens distance consistent.** Very close phone shots distort the lower face, and soft overhead light hides the jaw border.\n- **Use grooming deliberately.** Facial hair that is kept tighter under the jaw and fuller along the edge can sharpen the visible line. Hairstyle volume changes how long or short the face looks overall.\n- **Look after the basics.** Body fat levels and sleep affect how defined the lower face looks day to day.\n- **Skip the number chasing.** Your skeletal pattern was set during growth. Presentation is where your choices have room to work.\n\n## The short version\n\nThe mandibular plane angle is a clinical measurement of how steeply your lower jaw border slopes against a skull reference line. Its normal range depends on which line is used and on the population studied. It helps orthodontists classify vertical growth and plan treatment. It is not a beauty score, it cannot be read from a selfie, and nothing in the reviewed evidence shows it changing through at-home routines. If you want the number, get it from a clinician who can tell you exactly how it was measured.",
+        "image_prompts": [
+          {
+            "prompt": "A single lateral cephalometric X-ray film showing a human skull in side profile, clipped to a softly glowing lightbox in a quiet orthodontic clinic. The jaw and skull base are clearly visible in grayscale, with no writing, markings or lines on the film.",
+            "alt": "Side-profile skull X-ray on a lightbox, the image used to measure the mandibular plane angle",
+            "purpose": "Shows the lateral cephalogram, the specific X-ray on which the mandibular plane angle is measured."
+          },
+          {
+            "prompt": "A plaster orthodontic study model of upper and lower teeth sitting closed together on a clean white clinic desk, viewed from the side in soft daylight. The model is the only object in focus, with a blurred dental chair in the background.",
+            "alt": "Plaster orthodontic study model of a closed bite viewed from the side",
+            "purpose": "Illustrates the bite and occlusal relationships that orthodontists assess alongside the mandibular plane angle and vertical growth pattern."
+          },
+          {
+            "prompt": "A woman with her hair tied back, standing in neutral relaxed posture and photographed in clean side profile against a plain light gray wall in soft, even window light. Her head is level and her shoulders are relaxed, and the image has no props or text.",
+            "alt": "Woman in a neutral side-profile pose photographed in even light against a plain wall",
+            "purpose": "Demonstrates consistent head position and lighting for fair profile photos, supporting the point that photos show presentation rather than the skeletal angle."
+          }
+        ],
+        "faq": [
+          {
+            "q": "What is a normal mandibular plane angle?",
+            "a": "It depends on the reference line. A classic prosthodontics paper treats an FMA (Frankfort-based) of 25° ± 5° as normal. For SN-based measurements, teaching materials cite an average around 32°. Always check which method was used before comparing numbers."
+          },
+          {
+            "q": "What does a high mandibular plane angle mean?",
+            "a": "It usually signals a hyperdivergent, or vertical, growth pattern. That pattern is associated with increased facial height, a shorter ramus, a larger gonial angle, and open-bite tendencies. It is a description of skeletal pattern, not a diagnosis of a problem on its own."
+          },
+          {
+            "q": "Can I measure my mandibular plane angle from a photo?",
+            "a": "No. The angle relies on bony landmarks located on a side-profile X-ray, and a photo shows soft tissue that shifts with posture, lens and lighting. Ask your orthodontist for the measured value if you have had a cephalogram taken."
+          },
+          {
+            "q": "Can exercises or mewing change my mandibular plane angle?",
+            "a": "None of the sources reviewed for this article show at-home exercises or tongue posture changing the skeletal angle. Jaw growth is guided clinically in growing patients, and any bite concern is a decision for an orthodontist. Presentation factors like posture, grooming and lighting change how the jaw looks in photos, not the bone itself."
+          }
+        ],
+        "sources": [
+          {
+            "title": "Significance of the Frankfort-mandibular plane angle to prosthodontics - PubMed",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/792431/"
+          },
+          {
+            "title": "Association of hyperdivergent facial pattern and the inclination of the occlusal plane in orthodontic patients: A cross-sectional study",
+            "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12357510/"
+          },
+          {
+            "title": "Orthopantomographic Study of Mandibular Morphology Across Different Growth Patterns: A Retrospective Data Analysis - PMC",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12455264/"
+          },
+          {
+            "title": "Human mandibular shape is associated with masticatory muscle force",
+            "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5902585/"
+          },
+          {
+            "title": "Expert consensus on orthodontic treatment of protrusive facial deformities - PMC",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11785726/"
+          }
+        ],
+        "_research": {
+          "sources": [
+            {
+              "title": "Integrating clinical and cephalometric assessment: a comparative review - J Pierre Fauchard Acad",
+              "url": "https://jpfa.in/archive/volume/40/issue/3/article/27685",
+              "evidence": "Mandibular plane angle\n\nMandibular plane angle (Cephalometric): (Figure 3)\nThe mandibular plane cephalometrically is drawn between gonion point and th... Riolo and colleagues reported values of 29° ± 5° in males and 26° ± 3° in females.\n\nLeighton found mean values of 22° ± 6° in males and 23° ± 5° in fe... The reliability of the ANB angle is doubtful when the mandibular plane angle is considerably higher or lower than the mean of 32°."
+            },
+            {
+              "title": "A Clinical Comparative Study of Different Methods for Correcting Lower Lip Sucking Habits in Preschool Children",
+              "url": "https://clinicaltrials.gov/study/NCT06650241",
+              "evidence": "MP (Mandibular Plane): A line that typically runs from the Menton (the lowest point on the chin) to the Gonion (the angle of the jaw). "
+            },
+            {
+              "title": "CEPHALOMETRICS - 2 Department of Orthodontics & Dentofacial Orthopaedics",
+              "url": "https://ternadental.com/wp-content/uploads/14.Cephalometrics-2.pdf",
+              "evidence": "MANDIBULAR PLANE ANGLE\n\nThe mandibular plane is drawn between Gonion (Go) and Gnathion (Gn). "
+            },
+            {
+              "title": "Significance of the Frankfort-mandibular plane angle to prosthodontics - PubMed",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/792431/",
+              "evidence": "The Frankfort-mandibular plane angle (FMA) is formed by the intersection of the Frankfort horizontal plane and the mandibular plane.  An FMA of 25 +/- 5 degrees is within normal range.\n\nA high-angle patient has an FMA of 30 degrees or more, and a low-angle patient has an FMA of 20 de... A high FMA is characterized by open-bite skeletal patterns, and a low FMA by closed-bite skeletal patterns.\n\n"
+            },
+            {
+              "title": "3 Orthodontics Cephalometric Analysis ...",
+              "url": "https://uomustansiriyah.edu.iq/media/lectures/3/3_2025_10_19!03_15_46_PM.pdf",
+              "evidence": "maxillary plane is easier to locate accurately and\n\n**2) Maxillary Mandibular Plane Angle {MMPA}:**\n\nAngle represents the relative vertical jaw\n\nThe a... **\n\n**3) SN-Mandibular Plane Angle (SN-MP)**\n\nThe average of this angle is 32º.\n\n"
+            },
+            {
+              "title": "Inclination of mandibular incisors and symphysis in severe skeletal class III malocclusion",
+              "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10170675/",
+              "evidence": "According to the mandibular plane to cranial base (sella-nasion) angle (MP-SN), the patients were divided into three groups: the low-angle group with ..."
+            },
+            {
+              "title": "Effects of fixed functional orthodontic treatment in hypodivergent and hyperdivergent class II patients—a retrospective cephalometric investigation",
+              "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10415434/",
+              "evidence": "[[4]] and depended upon the pre-treatment mandibular plane angle < 34° or ≥ 34°.  Hyperdivergent patients do not respond unfavorably to FFA treatment compared to hypodivergent patients.\n\n Hyperdivergent facial growth thus appears as relative contraindication for FFA treatment.\n\n"
+            },
+            {
+              "title": "Association of hyperdivergent facial pattern and the inclination of the occlusal plane in orthodontic patients: A cross-sectional study",
+              "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12357510/",
+              "evidence": "Individuals with hyperdivergent facial characteristics typically exhibit increased facial height, a short mandibular ramus, a high gonial angle, and v... Occlusal plane inclination was significantly associated with vertical facial pattern (*p*< 0.001), with hyperdivergent individuals showing the greates..."
+            },
+            {
+              "title": "Orthopantomographic Study of Mandibular Morphology Across Different Growth Patterns: A Retrospective Data Analysis - PMC",
+              "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12455264/",
+              "evidence": "The participants were divided into three groups (n=40 each) based on the Frankfort-mandibular plane angle (FMA): hypodivergent (<20°), normodivergent ... Hyperdivergent subjects exhibited significantly reduced condylar, ramus, and total vertical heights, suggesting a diminished vertical development. The..."
+            },
+            {
+              "title": "Expert consensus on orthodontic treatment of protrusive facial deformities",
+              "url": "https://www.nature.com/articles/s41368-024-00338-4",
+              "evidence": "# Expert consensus on orthodontic treatment of protrusive facial deformities\n## Principals of orthodontic treatment for protrusive facial deformities\n..."
+            },
+            {
+              "title": "Expert consensus on orthodontic treatment of protrusive facial deformities - PMC",
+              "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11785726/",
+              "evidence": "When employing orthodontic appliances, such as Twin-Block, Activator, Frankle II, and inclined guide plates in adolescents with high-angle protrusion,..."
+            },
+            {
+              "title": "Vertical Control of a Severe Hyperdivergent Skeletal Class II Malocclusion with Steep Posterior Occlusal Plane in a Camouflage Case",
+              "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9502811/",
+              "evidence": "For adults characterized by skeletal class II malocclusion with an extreme high mandibular plane angle, orthognathic surgery is often required to redu..."
+            },
+            {
+              "title": "Evaluating Diagnostic Performance of Three... : Indian Journal of Dental Research",
+              "url": "https://journals.lww.com/ijdr/fulltext/2023/34010/evaluating_diagnostic_performance_of_three.11.aspx",
+              "evidence": "This study found for determining the patient's vertical skeletal pattern the mandibular plane angle was the most accurate predictor. "
+            },
+            {
+              "title": "Human mandibular shape is associated with masticatory muscle force",
+              "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5902585/",
+              "evidence": "# Human mandibular shape is associated with masticatory muscle force\n\nHead CT scans of 382 adults were utilized to measure masseter and temporalis mus..."
+            },
+            {
+              "title": "Human mandibular shape is associated with masticatory muscle force",
+              "url": "https://www.nature.com/articles/s41598-018-24293-3",
+              "evidence": "For example, individuals suffering from bruxism manifest broad mandibles^45,46,47; subjects with strong bite forces tend to have a low mandibular plan... ### The association between mandibular shape and muscle CSA\n\n### The association between mandibular metric characteristics and muscle areas\n\nParameter..."
+            }
+          ]
+        },
+        "_draft": true,
+        "_review": {
+          "pass": false,
+          "issues": [
+            "Editorial review pending."
+          ]
+        },
+        "_imageReviews": [],
+        "_imageFailures": []
+      },
+      "issues": [
+        "How clinicians use it in treatment planning: orthognathic surgery is introduced as a likely part of clinical treatment for extreme high-angle Class II cases and framed as something to discuss. It does not put non-medical options first, and its risks are only partly given. This is a blocking issue under the medical-procedure rule."
+      ],
+      "status": "passed",
+      "review": {
+        "pass": true,
+        "issues": []
+      }
+    },
+    "title": "Mandibular Plane Angle: What It Measures and Means",
+    "description": "Learn what the mandibular plane angle measures, why normal values differ by method, what high and low angles mean, and why a selfie can't measure it.",
+    "h1_displayed": "Mandibular Plane Angle: A Clear Guide to the Number on Your Ceph Report",
+    "reading_time": 9,
+    "tags": [
+      "mandibular plane angle",
+      "jaw anatomy",
+      "cephalometrics",
+      "facial proportions",
+      "orthodontics"
+    ],
+    "tool_slug": "ai-face-rating",
+    "audience": "everyone",
+    "body_markdown": "If an orthodontist has ever shown you a side-view X-ray of your skull, you have probably heard the phrase **mandibular plane angle**. It also comes up often in jawline discussions online, usually stripped of context and attached to big claims about attractiveness. The real measurement is more modest and more useful than that.\n\nThis guide explains what the angle measures and why \"normal\" depends on who is measuring. It also covers what high and low values describe, and why a phone photo cannot give you the number.\n\n## What the mandibular plane angle actually measures\n\nThe mandibular plane angle is a **cephalometric** measurement. Cephalometrics means taking standardized measurements from a lateral cephalogram, a side-profile X-ray of the head taken in a fixed position. The angle describes how steeply the lower border of your jaw slopes relative to a reference line in the skull.\n\n### The landmarks\n\nTo draw the **mandibular plane**, a clinician marks points on the X-ray:\n\n- **Gonion (Go):** the point at the angle of the jaw, where the back edge of the jaw meets its lower border.\n- **Menton (Me):** the lowest point on the chin.\n- **Gnathion (Gn):** a point on the chin between the most forward and lowest points.\n\nA clinical trial record defines the mandibular plane as a line that typically runs from menton to gonion. Some orthodontic teaching materials draw it from gonion to gnathion instead. The difference is small, but it is the first reason two reports can disagree.\n\n### Three reference lines, three different numbers\n\nThe angle only means something once you know what the jaw line is being compared to. The common options are:\n\n1. **SN-MP:** the mandibular plane against the **sella-nasion (SN) line**. That line runs from the pituitary area in the skull base to the bridge of the nose, and stands in for the cranial base.\n2. **FMA (Frankfort-mandibular plane angle):** the mandibular plane against the **Frankfort horizontal**. That line runs from the top of the ear canal to the lowest point of the eye socket. A classic prosthodontics paper defines [FMA as the intersection of the Frankfort horizontal plane and the mandibular plane](https://pubmed.ncbi.nlm.nih.gov/792431/).\n3. **MMPA (maxillary-mandibular plane angle):** the mandibular plane against the plane of the upper jaw. It describes how the two jaws relate vertically.\n\nThese are related, but they are *not interchangeable*. An SN-based number and a Frankfort-based number for the same person will usually differ.\n\n## What counts as a normal mandibular plane angle\n\nThere is no single universal normal. Published ranges depend on the reference line, the landmarks, and the population studied.\n\n| Method | Reference line | Figures reported | Source type |\n|---|---|---|---|\n| FMA | Frankfort horizontal | 25° ± 5° normal; 30° or more is high-angle; 20° or less is low-angle | Prosthodontics paper (PubMed abstract) |\n| FMA groups | Frankfort horizontal | Under 20° hypodivergent, 20° to 30° normodivergent, over 30° hyperdivergent | Retrospective radiograph study |\n| SN-MP | Sella-nasion | Average of about 32° | University orthodontics teaching notes |\n| SN-MP groups | Sella-nasion | 27.3° to 37.7° used as the normal-angle group | Class III CBCT and ceph study |\n\nSex and population matter too. A cephalometric review reports that Riolo and colleagues found mean values of 29° ± 5° in males and 26° ± 3° in females. The same review notes that Leighton found 22° ± 6° in males and 23° ± 5° in females. The review does not explain the gap. Different samples and methods are the likely reasons, which is exactly why a bare number tells you little.\n\n**Practical takeaway:** if someone quotes your angle, ask which reference line was used before comparing it to anything.\n\n## Low angle vs high angle: what the number describes\n\nOrthodontists group people by **vertical growth pattern**, and the mandibular plane angle is one of the main tools for doing it.\n\n### High angle (hyperdivergent)\n\n*Hyperdivergent* means the upper and lower jaws diverge more than average when viewed from the side. The lower border of the jaw slopes more steeply. A cross-sectional study notes that people with this pattern typically show:\n\n- Increased facial height\n- A short mandibular ramus (the vertical back part of the jaw)\n- A high gonial angle (a more open jaw corner)\n- Vertical enlargement of the upper jaw\n\nThe same study found that hyperdivergent patients had a [significantly steeper occlusal plane](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12357510/), meaning the tilt of the biting surfaces. A separate radiograph study grouped people by FMA. It found that the hyperdivergent group had shorter condylar, ramus, and total vertical heights, and a markedly larger gonial angle. The prosthodontics literature associates a high FMA with **open-bite skeletal patterns**.\n\n### Low angle (hypodivergent)\n\nA low angle means a flatter lower jaw border relative to the skull. The same prosthodontics paper links a low FMA with **closed-bite skeletal patterns**, where the front teeth tend to overlap more deeply.\n\n### Normal angle (normodivergent)\n\nThis is the middle group, with values in whatever reference range the clinician is using. It is a statistical middle, not an ideal you should aim for.\n\n{{IMAGE_2}}\n\n## What the angle says about bite force and jaw muscles\n\nYou will see claims online that a low mandibular plane angle means a strong jaw and a high one means a weak jaw. The evidence is narrower than that.\n\nA study published in *Scientific Reports* used [head CT scans of 382 adults](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5902585/) to measure the masseter and temporalis muscles, the main chewing muscles, alongside jaw measurements. In its discussion, the paper summarizes earlier work. People with strong bite forces tended to have a low mandibular plane angle and a wide mandible. People with weak bite force tended to have a high angle and a narrow mandible.\n\nTwo cautions keep this in perspective:\n\n- **These are associations.** They do not show that the angle causes bite strength, or that bite strength sets the angle.\n- **Bite force is not a beauty score.** None of these papers make claims about attractiveness, and you should not read them that way.\n\n## How clinicians use it in treatment planning\n\nFor orthodontists, the mandibular plane angle matters mostly because it changes how they read other numbers and plan treatment.\n\n- **It is a reliable vertical marker.** A study in the *Indian Journal of Dental Research* found the mandibular plane angle to be the most accurate predictor of vertical skeletal pattern among the three parameters it tested.\n- **It affects other measurements.** The ANB angle shows how the upper and lower jaws relate front to back. A cephalometric review notes that its reliability is doubtful when the mandibular plane angle is far above or below the mean of 32°.\n- **It shapes appliance choices.** An expert consensus on orthodontic treatment advises care with certain growth-guiding appliances in high-angle adolescents. Examples include Twin-Block and Activator devices, which risk increasing vertical facial height. Evidence here is not uniform. One retrospective study found that hyperdivergent patients did not respond unfavorably to a fixed functional appliance compared with hypodivergent patients.\n\nA high angle on its own is a description, not a problem to fix. If your concern is mainly how your jaw looks, start with the non-medical options in the tips section below: head position, photo setup, and grooming. They carry no medical risk.\n\nWhen a high angle comes with a real bite problem, such as an open bite, treatment is a dental and medical decision. It belongs to an orthodontist who has examined you, and orthodontic options are usually explored first. One published case report describes managing a severe high-angle Class II bite with orthodontic camouflage rather than surgery.\n\nThat same report notes that jaw surgery (orthognathic surgery) is used for some adults with the most extreme high-angle Class II patterns. It is reserved for functional problems that other treatment cannot address. **We don't recommend orthognathic surgery for appearance.** It is major surgery under general anesthesia. Recovery involves weeks of swelling and a restricted diet. Risks include numbness of the lip or chin that can be long-lasting or permanent, changes to the bite, relapse, and the possibility of further procedures. *Talk to a qualified professional before considering this.*\n\n## Why a selfie can't measure your mandibular plane angle\n\nThe angle is defined by bony landmarks, such as gonion, menton, and the Frankfort or SN lines, that are located on an X-ray. A photo shows skin, fat, muscle, and hair on top of the bone. It also changes with head tilt, lens distance, and lighting. Nothing in a regular photo lets you place those landmarks accurately. Any app or forum poster quoting your exact mandibular plane angle from a selfie is guessing.\n\nWhat a photo *can* do is show your visible proportions and how styling choices interact with them. If you want a structured look at that side of things, Aura's [AI Face Analysis](https://app.aura-looksmaxxing.com/tools/ai-face-rating?source=%2Fblog%2Fmandibular-plane-angle) returns three things: a facial profile, a feature breakdown, and personal styling suggestions. Its scores are subjective, photo-based estimates, not calibrated measurements and not a cephalometric reading.\n\nThe free part is an on-device preview of face shape, symmetry, canthal tilt, and eye shape. It runs in your browser without uploading the photo. The full AI report is part of the 30-Day Glow-Up Plan, a one-time $14.99 purchase with 40 days of access.\n\n{{IMAGE_3}}\n\n## Practical tips if you care about your jawline\n\nThe tips below are editorial suggestions about presentation. None of them change your skeletal angle, and none of the sources reviewed here show that exercises or habits do.\n\n### If you want your actual number\n\n1. **Ask your orthodontist or dentist** whether you have had a lateral cephalogram taken. If so, ask for the measured values.\n2. **Ask which reference line was used**: SN, Frankfort horizontal, or the maxillary plane.\n3. **Ask what reference range they compare it to**, and whether it is adjusted for sex or population.\n4. **Ask what else they weighed**, such as the gonial angle, the ANB angle, and your bite. A single angle rarely decides anything on its own.\n\n### If you mainly care how your jaw reads in photos\n\n- **Check your head position.** Tilting the chin down or pushing the head forward changes how the jaw line looks in a side shot. Consistent, neutral posture gives you a fair comparison between photos.\n- **Keep lighting and lens distance consistent.** Very close phone shots distort the lower face, and soft overhead light hides the jaw border.\n- **Use grooming deliberately.** Facial hair that is kept tighter under the jaw and fuller along the edge can sharpen the visible line. Hairstyle volume changes how long or short the face looks overall.\n- **Look after the basics.** Body fat levels and sleep affect how defined the lower face looks day to day.\n- **Skip the number chasing.** Your skeletal pattern was set during growth. Presentation is where your choices have room to work.\n\n## The short version\n\nThe mandibular plane angle is a clinical measurement of how steeply your lower jaw border slopes against a skull reference line. Its normal range depends on which line is used and on the population studied. It helps orthodontists classify vertical growth and plan treatment. It is not a beauty score, it cannot be read from a selfie, and nothing in the reviewed evidence shows it changing through at-home routines. If you want the number, get it from a clinician who can tell you exactly how it was measured.",
+    "image_prompts": [
+      {
+        "prompt": "A single lateral cephalometric X-ray film showing a human skull in side profile, clipped to a softly glowing lightbox in a quiet orthodontic clinic. The jaw and skull base are clearly visible in grayscale, with no writing, markings or lines on the film.",
+        "alt": "Side-profile skull X-ray on a lightbox, the image used to measure the mandibular plane angle",
+        "purpose": "Shows the lateral cephalogram, the specific X-ray on which the mandibular plane angle is measured."
+      },
+      {
+        "prompt": "A plaster orthodontic study model of upper and lower teeth sitting closed together on a clean white clinic desk, viewed from the side in soft daylight. The model is the only object in focus, with a blurred dental chair in the background.",
+        "alt": "Plaster orthodontic study model of a closed bite viewed from the side",
+        "purpose": "Illustrates the bite and occlusal relationships that orthodontists assess alongside the mandibular plane angle and vertical growth pattern."
+      },
+      {
+        "prompt": "A woman with her hair tied back, standing in neutral relaxed posture and photographed in clean side profile against a plain light gray wall in soft, even window light. Her head is level and her shoulders are relaxed, and the image has no props or text.",
+        "alt": "Woman in a neutral side-profile pose photographed in even light against a plain wall",
+        "purpose": "Demonstrates consistent head position and lighting for fair profile photos, supporting the point that photos show presentation rather than the skeletal angle."
+      }
+    ],
+    "faq": [
+      {
+        "q": "What is a normal mandibular plane angle?",
+        "a": "It depends on the reference line. A classic prosthodontics paper treats an FMA (Frankfort-based) of 25° ± 5° as normal. For SN-based measurements, teaching materials cite an average around 32°. Always check which method was used before comparing numbers."
+      },
+      {
+        "q": "What does a high mandibular plane angle mean?",
+        "a": "It usually signals a hyperdivergent, or vertical, growth pattern. That pattern is associated with increased facial height, a shorter ramus, a larger gonial angle, and open-bite tendencies. It is a description of skeletal pattern, not a diagnosis of a problem on its own."
+      },
+      {
+        "q": "Can I measure my mandibular plane angle from a photo?",
+        "a": "No. The angle relies on bony landmarks located on a side-profile X-ray, and a photo shows soft tissue that shifts with posture, lens and lighting. Ask your orthodontist for the measured value if you have had a cephalogram taken."
+      },
+      {
+        "q": "Can exercises or mewing change my mandibular plane angle?",
+        "a": "None of the sources reviewed for this article show at-home exercises or tongue posture changing the skeletal angle. Jaw growth is guided clinically in growing patients, and any bite concern is a decision for an orthodontist. Presentation factors like posture, grooming and lighting change how the jaw looks in photos, not the bone itself."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Significance of the Frankfort-mandibular plane angle to prosthodontics - PubMed",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/792431/"
+      },
+      {
+        "title": "Association of hyperdivergent facial pattern and the inclination of the occlusal plane in orthodontic patients: A cross-sectional study",
+        "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12357510/"
+      },
+      {
+        "title": "Orthopantomographic Study of Mandibular Morphology Across Different Growth Patterns: A Retrospective Data Analysis - PMC",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12455264/"
+      },
+      {
+        "title": "Human mandibular shape is associated with masticatory muscle force",
+        "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5902585/"
+      },
+      {
+        "title": "Expert consensus on orthodontic treatment of protrusive facial deformities - PMC",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11785726/"
+      },
+      {
+        "title": "Vertical Control of a Severe Hyperdivergent Skeletal Class II Malocclusion with Steep Posterior Occlusal Plane in a Camouflage Case",
+        "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9502811/"
+      }
+    ]
+  }
+}

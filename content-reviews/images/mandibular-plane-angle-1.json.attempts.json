@@ -1,0 +1,14 @@
+{
+  "key": "{\"brief\":{\"prompt\":\"A single lateral cephalometric X-ray film showing a human skull in side profile, clipped to a softly glowing lightbox in a quiet orthodontic clinic. The jaw and skull base are clearly visible in grayscale, with no writing, markings or lines on the film.\",\"alt\":\"Side-profile skull X-ray on a lightbox, the image used to measure the mandibular plane angle\",\"purpose\":\"Shows the lateral cephalogram, the specific X-ray on which the mandibular plane angle is measured.\",\"article\":\"mandibular-plane-angle\",\"position\":1},\"model\":\"openai/gpt-image-2.5/flare/text-to-image\"}",
+  "attempts": [
+    {
+      "status": "passed",
+      "prompt": "A single lateral cephalometric X-ray film showing a human skull in side profile, clipped to a softly glowing lightbox in a quiet orthodontic clinic. The jaw and skull base are clearly visible in grayscale, with no writing, markings or lines on the film.",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "Lateral cephalometric X-ray of a skull in side profile, showing the jaw, teeth, skull base and cervical spine, clipped to a lightbox in a dental clinic with a dental chair visible at the side."
+      }
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "fingerprint": "d31143f8a2f1a90de38539edbf831ff50bf4eb37c8bb3d8601836e3e1be6c1d6",
+  "brief": {
+    "prompt": "A woman with her hair tied back, standing in neutral relaxed posture and photographed in clean side profile against a plain light gray wall in soft, even window light. Her head is level and her shoulders are relaxed, and the image has no props or text.",
+    "alt": "Woman in a neutral side-profile pose photographed in even light against a plain wall",
+    "purpose": "Demonstrates consistent head position and lighting for fair profile photos, supporting the point that photos show presentation rather than the skeletal angle.",
+    "article": "mandibular-plane-angle",
+    "position": 3
+  },
+  "sha256": "26b93e9c49dfcff6330eec10587035093fdcbed648175e41ad8a858bd77f8907",
+  "reviewedAt": "2026-11-25T23:28:45.928Z",
+  "review": {
+    "pass": true,
+    "issues": [],
+    "alt": "Woman with dark hair in a ponytail, wearing a gray tank top and black leggings, standing barefoot in a relaxed neutral side-profile pose against a plain light gray wall in soft, even light"
+  }
+}

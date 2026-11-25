@@ -1,0 +1,14 @@
+{
+  "key": "{\"brief\":{\"prompt\":\"A woman with her hair tied back, standing in neutral relaxed posture and photographed in clean side profile against a plain light gray wall in soft, even window light. Her head is level and her shoulders are relaxed, and the image has no props or text.\",\"alt\":\"Woman in a neutral side-profile pose photographed in even light against a plain wall\",\"purpose\":\"Demonstrates consistent head position and lighting for fair profile photos, supporting the point that photos show presentation rather than the skeletal angle.\",\"article\":\"mandibular-plane-angle\",\"position\":3},\"model\":\"openai/gpt-image-2.5/flare/text-to-image\"}",
+  "attempts": [
+    {
+      "status": "passed",
+      "prompt": "A woman with her hair tied back, standing in neutral relaxed posture and photographed in clean side profile against a plain light gray wall in soft, even window light. Her head is level and her shoulders are relaxed, and the image has no props or text.",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "Woman with dark hair in a ponytail, wearing a gray tank top and black leggings, standing barefoot in a relaxed neutral side-profile pose against a plain light gray wall in soft, even light"
+      }
+    }
+  ]
+}

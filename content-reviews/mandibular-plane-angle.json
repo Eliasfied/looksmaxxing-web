@@ -1,0 +1,145 @@
+{
+  "slug": "mandibular-plane-angle",
+  "reviewedAt": "2026-11-25T23:28:45.930Z",
+  "draft": false,
+  "review": {
+    "pass": true,
+    "issues": []
+  },
+  "textRepair": {
+    "status": "passed",
+    "issues": [
+      "How clinicians use it in treatment planning: orthognathic surgery is introduced as a likely part of clinical treatment for extreme high-angle Class II cases and framed as something to discuss. It does not put non-medical options first, and its risks are only partly given. This is a blocking issue under the medical-procedure rule."
+    ],
+    "review": {
+      "pass": true,
+      "issues": []
+    }
+  },
+  "sources": [
+    {
+      "title": "Significance of the Frankfort-mandibular plane angle to prosthodontics - PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/792431/"
+    },
+    {
+      "title": "Association of hyperdivergent facial pattern and the inclination of the occlusal plane in orthodontic patients: A cross-sectional study",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12357510/"
+    },
+    {
+      "title": "Orthopantomographic Study of Mandibular Morphology Across Different Growth Patterns: A Retrospective Data Analysis - PMC",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12455264/"
+    },
+    {
+      "title": "Human mandibular shape is associated with masticatory muscle force",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5902585/"
+    },
+    {
+      "title": "Expert consensus on orthodontic treatment of protrusive facial deformities - PMC",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11785726/"
+    },
+    {
+      "title": "Vertical Control of a Severe Hyperdivergent Skeletal Class II Malocclusion with Steep Posterior Occlusal Plane in a Camouflage Case",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9502811/"
+    }
+  ],
+  "imageModel": "openai/gpt-image-2.5/flare/text-to-image",
+  "imageReviews": [
+    {
+      "image": "/blog/mandibular-plane-angle/1.webp",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "Lateral cephalometric X-ray of a skull in side profile, showing the jaw, teeth, skull base and cervical spine, clipped to a lightbox in a dental clinic with a dental chair visible at the side."
+      }
+    },
+    {
+      "image": "/blog/mandibular-plane-angle/2.webp",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "White plaster orthodontic study model of upper and lower teeth in a closed bite, seen from the side on a white desk, with a blurred blue dental chair in a bright clinic behind it"
+      }
+    },
+    {
+      "image": "/blog/mandibular-plane-angle/3.webp",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "Woman with dark hair in a ponytail, wearing a gray tank top and black leggings, standing barefoot in a relaxed neutral side-profile pose against a plain light gray wall in soft, even light"
+      }
+    }
+  ],
+  "imageFailures": [],
+  "imageSettings": {
+    "width": 1024,
+    "height": 1024,
+    "quality": "low"
+  },
+  "usage": [
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "research",
+      "input": 30807,
+      "output": 4061,
+      "estimatedUsd": 0.102224,
+      "searches": 3
+    },
+    {
+      "model": "claude-opus-5-5",
+      "stage": "article",
+      "input": 35403,
+      "output": 8057,
+      "estimatedUsd": 0.302752,
+      "searches": 0
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "text-review",
+      "input": 8009,
+      "output": 117,
+      "estimatedUsd": 0.017188,
+      "searches": 0
+    },
+    {
+      "model": "claude-opus-5-5",
+      "stage": "article-repair",
+      "input": 9269,
+      "output": 6747,
+      "estimatedUsd": 0.172016,
+      "searches": 0
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "text-review",
+      "input": 8434,
+      "output": 16,
+      "estimatedUsd": 0.017028,
+      "searches": 0
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "image-review",
+      "input": 1714,
+      "output": 92,
+      "estimatedUsd": 0.004348,
+      "searches": 0
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "image-review",
+      "input": 1700,
+      "output": 81,
+      "estimatedUsd": 0.00421,
+      "searches": 0
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "image-review",
+      "input": 1706,
+      "output": 88,
+      "estimatedUsd": 0.004292,
+      "searches": 0
+    }
+  ],
+  "note": "Token estimates exclude web-search charges, images, tax and provider markups."
+}

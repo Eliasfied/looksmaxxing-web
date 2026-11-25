@@ -1,0 +1,14 @@
+{
+  "key": "{\"brief\":{\"prompt\":\"A plaster orthodontic study model of upper and lower teeth sitting closed together on a clean white clinic desk, viewed from the side in soft daylight. The model is the only object in focus, with a blurred dental chair in the background.\",\"alt\":\"Plaster orthodontic study model of a closed bite viewed from the side\",\"purpose\":\"Illustrates the bite and occlusal relationships that orthodontists assess alongside the mandibular plane angle and vertical growth pattern.\",\"article\":\"mandibular-plane-angle\",\"position\":2},\"model\":\"openai/gpt-image-2.5/flare/text-to-image\"}",
+  "attempts": [
+    {
+      "status": "passed",
+      "prompt": "A plaster orthodontic study model of upper and lower teeth sitting closed together on a clean white clinic desk, viewed from the side in soft daylight. The model is the only object in focus, with a blurred dental chair in the background.",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "White plaster orthodontic study model of upper and lower teeth in a closed bite, seen from the side on a white desk, with a blurred blue dental chair in a bright clinic behind it"
+      }
+    }
+  ]
+}
