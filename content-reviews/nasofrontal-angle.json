@@ -1,0 +1,96 @@
+{
+  "slug": "nasofrontal-angle",
+  "reviewedAt": "2026-11-26T23:27:47.055Z",
+  "draft": true,
+  "review": {
+    "pass": false,
+    "issues": [
+      "Rhinoplasty section: it says the angle \"can change with surgery\" and describes how the angle shifts by sex before saying the surgery isn't recommended. That reads as neutral planning information. It also ends with \"talk to a qualified professional before considering this\", which presents surgery as a possible next step."
+    ]
+  },
+  "textRepair": {
+    "status": "rejected",
+    "issues": [
+      "Indian clinical study / differences section: the table calls the sample 30 people with 116.7° overall, but the cited evidence also reports female mean 126.08° versus male 110.43°. The draft omits this and says women measured more obtuse only in the Turkish study, so \"again\" is supported, but the sample size of 30 is unsupported by the evidence."
+    ],
+    "review": {
+      "pass": false,
+      "issues": [
+        "Rhinoplasty section: it says the angle \"can change with surgery\" and describes how the angle shifts by sex before saying the surgery isn't recommended. That reads as neutral planning information. It also ends with \"talk to a qualified professional before considering this\", which presents surgery as a possible next step."
+      ]
+    }
+  },
+  "sources": [
+    {
+      "title": "Analysis of Imperative Facial Angles for Rhinoplasty: An Endowment to the Surgeon - PMC",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9758669/"
+    },
+    {
+      "title": "Introduction Located in the middle part of the facial profile, the nose",
+      "url": "https://dergipark.org.tr/en/download/article-file/3745343"
+    },
+    {
+      "title": "Exploring ideal nasal aesthetics in Thailand: Trends and participants’ awareness of rhinoplasty - Chunanuch Kaewsomnuk, Surapol Suetrong, Wisoot Reechaipichitkul, Seksun Chainansamit, Pornthep Kasemsiri, Kan Komany, Patorn Piromchai, 2024",
+      "url": "https://doi.org/10.1177/20503121241299066"
+    },
+    {
+      "title": "Prospective Study of the Surgical Techniques Used in Primary Rhinoplasty on the Caucasian Nose and Comparison of the Preoperative and Postoperative Anthropometric Nose Measurements - PMC",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4392525"
+    },
+    {
+      "title": "Rhinoplasty Analysis - Rhinoplasty Archive",
+      "url": "https://www.rhinoplastyarchive.com/articles/rhinoplasty-fundamentals/rhinoplasty-analysis"
+    }
+  ],
+  "imageModel": "openai/gpt-image-2.5/flare/text-to-image",
+  "imageReviews": [],
+  "imageFailures": [],
+  "imageSettings": {
+    "width": 1024,
+    "height": 1024,
+    "quality": "low"
+  },
+  "usage": [
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "research",
+      "input": 24985,
+      "output": 3488,
+      "estimatedUsd": 0.08485,
+      "searches": 2
+    },
+    {
+      "model": "claude-opus-5-5",
+      "stage": "article",
+      "input": 28730,
+      "output": 8928,
+      "estimatedUsd": 0.29348,
+      "searches": 0
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "text-review",
+      "input": 8834,
+      "output": 130,
+      "estimatedUsd": 0.018968,
+      "searches": 0
+    },
+    {
+      "model": "claude-opus-5-5",
+      "stage": "article-repair",
+      "input": 9308,
+      "output": 6778,
+      "estimatedUsd": 0.172792,
+      "searches": 0
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "text-review",
+      "input": 8874,
+      "output": 114,
+      "estimatedUsd": 0.018888,
+      "searches": 0
+    }
+  ],
+  "note": "Token estimates exclude web-search charges, images, tax and provider markups."
+}
