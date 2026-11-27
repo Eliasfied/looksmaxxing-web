@@ -1,0 +1,116 @@
+{
+  "slug": "chin-projection-explained",
+  "reviewedAt": "2026-11-27T23:08:50.843Z",
+  "draft": false,
+  "review": {
+    "pass": true,
+    "issues": []
+  },
+  "textRepair": null,
+  "sources": [
+    {
+      "title": "A Unified Approach to Facial Contours and Volume Correction: The Role of the Cheek and the Chin - PMC",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11452099/"
+    },
+    {
+      "title": "Full article: Influence of Lip Projection and Chin Position on Facial Profile Preferences Among Various Layers of Polish Population. Part 1",
+      "url": "https://www.tandfonline.com/doi/full/10.2147/CCIDE.S358452"
+    },
+    {
+      "title": "Implant-Based Chin Augmentation Vs Osseous Genioplasty: A Systematic Review of Indications and Outcomes - PMC",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12262119/"
+    },
+    {
+      "title": "Clinical evaluation for chin augmentation: literature review and algorithm proposal",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9444627/"
+    },
+    {
+      "title": "Clinician, dental student, and orthognathic patient perception of black-and-white silhouette lateral profile dimensions of ideal chin position in a Chinese population - PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29153275"
+    }
+  ],
+  "imageModel": "openai/gpt-image-2.5/flare/text-to-image",
+  "imageReviews": [
+    {
+      "image": "/blog/chin-projection-explained/1.webp",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "Side profile of a young man with short dark hair and light stubble, wearing a navy sweater, facing right against a plain light grey background, with forehead, nose, lips, chin and neck clearly outlined"
+      }
+    },
+    {
+      "image": "/blog/chin-projection-explained/2.webp",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "Woman in a cream sweater and jeans standing in side profile with her head level in a bright living room, facing a smartphone mounted on a tripod at head height, with soft daylight from a large window."
+      }
+    },
+    {
+      "image": "/blog/chin-projection-explained/3.webp",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "Man in his thirties with short dark hair and a well-groomed beard, trimmed shorter along the cheeks and fuller at the chin, sits in a barber chair wearing a black cape, shown in three-quarter profile in a warm wood-toned barbershop."
+      }
+    }
+  ],
+  "imageFailures": [],
+  "imageSettings": {
+    "width": 1024,
+    "height": 1024,
+    "quality": "low"
+  },
+  "usage": [
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "research",
+      "input": 29593,
+      "output": 3646,
+      "estimatedUsd": 0.095646,
+      "searches": 3
+    },
+    {
+      "model": "claude-opus-5-5",
+      "stage": "article",
+      "input": 33821,
+      "output": 12895,
+      "estimatedUsd": 0.393184,
+      "searches": 0
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "text-review",
+      "input": 8603,
+      "output": 16,
+      "estimatedUsd": 0.017366,
+      "searches": 0
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "image-review",
+      "input": 1706,
+      "output": 86,
+      "estimatedUsd": 0.004272,
+      "searches": 0
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "image-review",
+      "input": 1709,
+      "output": 82,
+      "estimatedUsd": 0.004238,
+      "searches": 0
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "stage": "image-review",
+      "input": 1723,
+      "output": 111,
+      "estimatedUsd": 0.004556,
+      "searches": 0
+    }
+  ],
+  "note": "Token estimates exclude web-search charges, images, tax and provider markups."
+}

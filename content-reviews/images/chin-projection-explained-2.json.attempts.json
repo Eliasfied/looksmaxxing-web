@@ -1,0 +1,14 @@
+{
+  "key": "{\"brief\":{\"prompt\":\"A woman stands in a bright living room in a relaxed side-on pose with her head level, while a smartphone mounted on a small tripod at head height faces her from a few steps away. Daylight from a large window falls evenly across her face, and the scene feels calm and practical.\",\"alt\":\"Woman taking a level side-profile photo with a phone on a tripod to check her chin projection\",\"purpose\":\"Demonstrates the controlled self-photo setup (rear camera at head height, level head, soft even light) from the self-check section.\",\"article\":\"chin-projection-explained\",\"position\":2},\"model\":\"openai/gpt-image-2.5/flare/text-to-image\"}",
+  "attempts": [
+    {
+      "status": "passed",
+      "prompt": "A woman stands in a bright living room in a relaxed side-on pose with her head level, while a smartphone mounted on a small tripod at head height faces her from a few steps away. Daylight from a large window falls evenly across her face, and the scene feels calm and practical.",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "Woman in a cream sweater and jeans standing in side profile with her head level in a bright living room, facing a smartphone mounted on a tripod at head height, with soft daylight from a large window."
+      }
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "key": "{\"brief\":{\"prompt\":\"A clean side-profile portrait of a man in his late twenties with short dark hair and a neutral expression, photographed against a plain light grey studio backdrop with soft window light from the front. The framing is chest-up and centred, so the outline of the forehead, nose, lips, chin and neck reads clearly even at thumbnail size.\",\"alt\":\"Side profile of a man showing natural chin projection against a plain background\",\"purpose\":\"Introduces the article topic by showing the profile view in which chin projection is judged.\",\"article\":\"chin-projection-explained\",\"position\":1},\"model\":\"openai/gpt-image-2.5/flare/text-to-image\"}",
+  "attempts": [
+    {
+      "status": "passed",
+      "prompt": "A clean side-profile portrait of a man in his late twenties with short dark hair and a neutral expression, photographed against a plain light grey studio backdrop with soft window light from the front. The framing is chest-up and centred, so the outline of the forehead, nose, lips, chin and neck reads clearly even at thumbnail size.",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "Side profile of a young man with short dark hair and light stubble, wearing a navy sweater, facing right against a plain light grey background, with forehead, nose, lips, chin and neck clearly outlined"
+      }
+    }
+  ]
+}

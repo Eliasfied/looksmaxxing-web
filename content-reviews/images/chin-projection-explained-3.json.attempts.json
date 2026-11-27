@@ -1,0 +1,14 @@
+{
+  "key": "{\"brief\":{\"prompt\":\"A man in his thirties with a well-groomed beard, kept fuller at the chin and neatly trimmed short along the cheeks, sits in a barbershop chair, seen in three-quarter profile. The shop has warm wood tones and soft lighting, and his clean neckline is clearly visible.\",\"alt\":\"Man with a beard shaped fuller at the chin to strengthen how his profile reads\",\"purpose\":\"Illustrates the beard shaping suggestion: a fuller chin and shorter sides to visually extend the chin, with a clean neckline.\",\"article\":\"chin-projection-explained\",\"position\":3},\"model\":\"openai/gpt-image-2.5/flare/text-to-image\"}",
+  "attempts": [
+    {
+      "status": "passed",
+      "prompt": "A man in his thirties with a well-groomed beard, kept fuller at the chin and neatly trimmed short along the cheeks, sits in a barbershop chair, seen in three-quarter profile. The shop has warm wood tones and soft lighting, and his clean neckline is clearly visible.",
+      "review": {
+        "pass": true,
+        "issues": [],
+        "alt": "Man in his thirties with short dark hair and a well-groomed beard, trimmed shorter along the cheeks and fuller at the chin, sits in a barber chair wearing a black cape, shown in three-quarter profile in a warm wood-toned barbershop."
+      }
+    }
+  ]
+}
